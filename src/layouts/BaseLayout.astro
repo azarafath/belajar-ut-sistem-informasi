@@ -61,14 +61,57 @@ const {
   <slot />
   <SearchModal client:idle />
 
+  <div class="support-backdrop" id="support-modal" hidden>
+    <div class="support-dialog" role="dialog" aria-modal="true" aria-labelledby="support-title">
+      <div class="support-head">
+        <div>
+          <h2 id="support-title" style="margin:0; font-size:17px;">Apresiasi Pengembang</h2>
+          <p style="margin:2px 0 0; font-size:12.5px; color:var(--muted);">Sukarela via QRIS · Gratis selamanya</p>
+        </div>
+        <button type="button" class="astro-search-close" id="support-close" aria-label="Tutup">✕</button>
+      </div>
+      <p style="margin:10px 0 14px; font-size:13.5px; color:var(--muted); line-height:1.55;">
+        Seluruh catatan dan latihan soal di portal ini terbuka gratis. Jika ringkasan ini membantu persiapan ujianmu, kamu dapat berbagi apresiasi sukarela melalui QRIS berikut.
+      </p>
+      <div class="support-qr-box">
+        <img src="/qris.png" alt="QRIS Ahmad Zakaria Fathoni" width="210" height="210" loading="lazy" />
+        <div class="support-qr-meta">
+          <strong>Ahmad Zakaria Fathoni</strong>
+          <span>NMID: ID1022232902315</span>
+        </div>
+      </div>
+      <div style="display:flex; gap:8px; justify-content:center; margin-top:14px;">
+        <a href="/qris.png" download="QRIS-Ahmad-Zakaria-Fathoni.png" class="quiz-nav-btn is-primary" style="text-decoration:none;">
+          Unduh QRIS
+        </a>
+        <button type="button" class="quiz-nav-btn" id="support-close-btn">Tutup</button>
+      </div>
+    </div>
+  </div>
+
   <script>
-    // Lightweight SVG lightbox + SW registration (re-binds on View Transitions)
+    // Lightweight SVG lightbox + Support modal + SW registration
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js').catch(() => {});
     }
 
     document.addEventListener('astro:page-load', () => {
       document.body.classList.remove('drawer-open');
+
+      const supportModal = document.getElementById('support-modal');
+      const closeSupport = () => {
+        if (supportModal) supportModal.hidden = true;
+      };
+      document.querySelectorAll('[data-open-support]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          if (supportModal) supportModal.hidden = false;
+        });
+      });
+      document.getElementById('support-close')?.addEventListener('click', closeSupport);
+      document.getElementById('support-close-btn')?.addEventListener('click', closeSupport);
+      supportModal?.addEventListener('click', (e) => {
+        if (e.target === supportModal) closeSupport();
+      });
       document.querySelectorAll('.svg-wrap svg').forEach((svg) => {
         if ((svg as HTMLElement).dataset.zoomBound) return;
         (svg as HTMLElement).dataset.zoomBound = '1';
