@@ -1,0 +1,248 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import catalog from '../data/catalog.json';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Portal Belajar UT Sistem Informasi',
+  url: 'https://belajar-ut.azf.my.id/',
+  inLanguage: 'id',
+  description:
+    'Portal belajar mandiri Universitas Terbuka Program Studi Sistem Informasi Semester 1 & 2 berisi ringkasan modul BMP, diagram visual, dan bank soal interaktif untuk 14 mata kuliah.',
+  author: {
+    '@type': 'Person',
+    name: 'Ahmad Zakaria Fathoni',
+    url: 'https://azf.my.id',
+  },
+  publisher: {
+    '@type': 'Person',
+    name: 'Ahmad Zakaria Fathoni',
+    url: 'https://azf.my.id',
+  },
+};
+
+const smt1 = catalog['1'];
+const smt2 = catalog['2'];
+const smt2Wave1 = smt2.slice(0, 4);
+const smt2Wave2 = smt2.slice(4);
+---
+
+<BaseLayout
+  title="Portal Belajar UT Sistem Informasi — Semester 1 & 2 (14 Mata Kuliah)"
+  description="Portal belajar mandiri Universitas Terbuka (UT) Program Studi Sistem Informasi Semester 1 & Semester 2: ringkasan modul BMP, diagram visual interaktif, serta bank soal PG & Essay mode baca & latihan untuk 14 mata kuliah."
+  canonical="https://belajar-ut.azf.my.id/"
+  ogType="website"
+  jsonLd={jsonLd}
+>
+  <style>
+    .course-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: #fff;
+      border: 1.5px solid #ded7c9;
+      border-radius: 16px;
+      padding: 20px 22px;
+      box-shadow: 0 6px 18px rgba(28, 25, 23, 0.05);
+      transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease;
+    }
+    .course-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 26px rgba(37, 99, 235, 0.12);
+      border-color: #93c5fd;
+    }
+    .course-meta {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      margin-bottom: 6px;
+    }
+    .course-name {
+      font-size: 19px;
+      margin: 0 0 8px;
+      color: var(--ink);
+    }
+    .cta-open {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 12px;
+      font-weight: 700;
+      font-size: 13.5px;
+      color: var(--primary);
+    }
+    .semester-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin: 0 0 20px;
+      padding: 14px 18px;
+      background: #fff;
+      border: 1.5px solid #ded7c9;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(28, 25, 23, 0.04);
+    }
+    .semester-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .semester-bar label {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--ink);
+    }
+    .semester-select {
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink);
+      background: #f8fafc;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 10px;
+      padding: 8px 14px;
+      cursor: pointer;
+    }
+  </style>
+
+  <main class="notebook" id="main-content">
+    <div class="cover">
+      <div class="washi-tape"></div>
+      <div class="washi-tape right"></div>
+      <div class="handwritten" style="color:#2563eb;">Ringkasan Materi &amp; Bank Soal UOLP</div>
+      <h1>Portal Persiapan Ujian UT: Sistem Informasi</h1>
+      <p style="margin:0; color:var(--muted); font-size:14.5px;">
+        Ringkasan lengkap per modul, diagram visual interaktif, serta bank soal PG &amp; Essay lengkap dengan <strong>Mode Latihan</strong> beranimasi dan <strong>Mode Baca</strong>.
+      </p>
+      <div class="badge-row">
+        <span class="badge" style="background:var(--hl-yellow);">14 Mata Kuliah (Smt 1 &amp; Smt 2)</span>
+        <span class="badge" style="background:var(--hl-mint);">Mode Baca &amp; Latihan</span>
+        <span class="badge" style="background:var(--hl-blue);">Pilgan (U) + Essay (E)</span>
+      </div>
+    </div>
+
+    <div class="semester-bar">
+      <div class="semester-group">
+        <label for="semester-select">Pilih Semester:</label>
+        <select id="semester-select" class="semester-select">
+          <option value="1">Semester 1 (7 Matkul Aktif)</option>
+          <option value="2" selected>Semester 2 (7 Matkul Aktif)</option>
+          <option value="3">Semester 3</option>
+          <option value="4">Semester 4</option>
+          <option value="5">Semester 5</option>
+          <option value="6">Semester 6</option>
+          <option value="7">Semester 7</option>
+          <option value="8">Semester 8</option>
+        </select>
+      </div>
+      <button type="button" class="portal-search-btn" data-open-search>
+        <span class="search-trigger-left">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <span>Cari matkul atau materi...</span>
+        </span>
+        <span class="search-kbd">Ctrl+K</span>
+      </button>
+    </div>
+
+    <section class="semester-panel" data-semester="1" hidden>
+      <h2 style="margin:0 0 14px; font-size:18px;">Semester 1: Bahan Ajar &amp; Bank Soal Lengkap (7 Mata Kuliah)</h2>
+      <div class="grid-2">
+        {smt1.map((c) => (
+          <a class="course-card" href={c.href}>
+            <div class="course-meta">{c.meta}</div>
+            <h2 class="course-name">{c.name}</h2>
+            <p style="margin:0; font-size:13.5px; color:var(--muted);">{c.desc}</p>
+            <div class="badge-row">
+              {c.badges.map((b) => (
+                <span class="badge" style={`background:${b.bg};`}>{b.text}</span>
+              ))}
+            </div>
+            <span class="cta-open">{c.cta} &rarr;</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="semester-panel" data-semester="2">
+      <h2 style="margin:0 0 14px; font-size:18px;">Gelombang 1: Sabtu &amp; Minggu, 28–29 November 2026</h2>
+      <div class="grid-2">
+        {smt2Wave1.map((c) => (
+          <a class="course-card" href={c.href}>
+            <div class="course-meta">{c.meta}</div>
+            <h2 class="course-name">{c.name}</h2>
+            <p style="margin:0; font-size:13.5px; color:var(--muted);">{c.desc}</p>
+            <div class="badge-row">
+              {c.badges.map((b) => (
+                <span class="badge" style={`background:${b.bg};`}>{b.text}</span>
+              ))}
+            </div>
+            <span class="cta-open">{c.cta} &rarr;</span>
+          </a>
+        ))}
+      </div>
+
+      <h2 style="margin:28px 0 14px; font-size:18px;">Gelombang 2: Sabtu &amp; Minggu, 12–13 Desember 2026</h2>
+      <div class="grid-2">
+        {smt2Wave2.map((c) => (
+          <a class="course-card" href={c.href}>
+            <div class="course-meta">{c.meta}</div>
+            <h2 class="course-name">{c.name}</h2>
+            <p style="margin:0; font-size:13.5px; color:var(--muted);">{c.desc}</p>
+            <div class="badge-row">
+              {c.badges.map((b) => (
+                <span class="badge" style={`background:${b.bg};`}>{b.text}</span>
+              ))}
+            </div>
+            <span class="cta-open">{c.cta} &rarr;</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="box" id="semester-empty" hidden>
+      <h2 style="margin:0 0 6px; font-size:17px;">Materi Belum Tersedia</h2>
+      <p id="semester-empty-msg" style="margin:0; color:var(--muted);">Belum ada mata kuliah yang ditambahkan untuk semester ini.</p>
+    </section>
+
+    <footer class="site-footer">
+      <div>Portal &amp; ringkasan materi ini diinisiasi dan disusun oleh <strong>Ahmad Zakaria Fathoni</strong> berdasarkan jadwal waktu ujian penulis.</div>
+      <div>Web Profil: <a href="https://azf.my.id" target="_blank" rel="author noopener">azf.my.id</a></div>
+    </footer>
+  </main>
+
+  <script>
+    document.addEventListener('astro:page-load', () => {
+      const select = document.getElementById('semester-select') as HTMLSelectElement | null;
+      if (!select) return;
+      const panels = Array.from(document.querySelectorAll<HTMLElement>('.semester-panel'));
+      const emptyBox = document.getElementById('semester-empty');
+      const emptyMsg = document.getElementById('semester-empty-msg');
+
+      function updateSemester(val: string) {
+        let matched = false;
+        panels.forEach((p) => {
+          const isMatch = p.dataset.semester === val;
+          p.hidden = !isMatch;
+          if (isMatch) matched = true;
+        });
+        if (emptyBox) emptyBox.hidden = matched;
+        if (!matched && emptyMsg) {
+          emptyMsg.textContent = `Materi untuk Semester ${val} belum ditambahkan.`;
+        }
+      }
+
+      const pathMatch = location.pathname.match(/^\/smt([1-8])/i);
+      const initialSmt = pathMatch ? pathMatch[1] : '2';
+      select.value = initialSmt;
+      updateSemester(initialSmt);
+      select.addEventListener('change', (e) => updateSemester((e.target as HTMLSelectElement).value));
+    });
+  </script>
+</BaseLayout>
+

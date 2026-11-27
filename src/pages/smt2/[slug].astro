@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CourseSidebar from '../../components/CourseSidebar.astro';
+import QuizInteractive from '../../components/QuizInteractive';
+
+export async function getStaticPaths() {
+  const modules = import.meta.glob('../../data/courses/smt2/*.json', { eager: true });
+  return Object.values(modules).map((mod: any) => {
+    const course = mod.default || mod;
+    return {
+      params: { slug: course.slug },
+      props: { course },
+    };
+  });
+}
+
+const { course } = Astro.props;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LearningResource',
+  name: course.h1,
+  url: course.canonical,
+  inLanguage: 'id',
+  educationalLevel: 'Undergraduate',
+  description: course.metaDesc,
+  author: {
+    '@type': 'Person',
+    name: 'Ahmad Zakaria Fathoni',
+    url: 'https://azf.my.id',
+  },
+  publisher: {
+    '@type': 'Person',
+    name: 'Ahmad Zakaria Fathoni',
+    url: 'https://azf.my.id',
+  },
+};
+---
+
+<BaseLayout
+  title={course.title}
+  description={course.metaDesc}
+  canonical={course.canonical}
+  ogType="article"
+  jsonLd={jsonLd}
+  hasSidebar={true}
+>
+  <CourseSidebar
+    shortLabel={course.shortLabel}
+    navItems={course.navItems}
+    pgCount={course.pgQuestions.length}
+    essayCount={course.essayQuestions.length}
+  />
+
+  <main class="notebook" id="main-content">
+    <div class="cover">
+      <div class="washi-tape"></div>
+      <div class="washi-tape right"></div>
+      <div class="handwritten" style={`color:${course.coverTagColor};`}>{course.coverTag}</div>
+      <h1>{course.h1}</h1>
+      <p style="margin:0; color:var(--muted); font-size:14px;">{course.coverDesc}</p>
+      <div class="badge-row">
+        {course.badges.map((b: any) => (
+          <span class="badge" style={`background:${b.bg};`}>{b.text}</span>
+        ))}
+      </div>
+    </div>
+
+    {course.sections.map((sec: any) => (
+      <Fragment set:html={sec.html} />
+    ))}
+
+    <QuizInteractive
+      client:visible
+      courseSlug={course.slug}
+      pgQuestions={course.pgQuestions}
+      essayQuestions={course.essayQuestions}
+    />
+
+    <footer class="site-footer">
+      <div>Portal &amp; ringkasan materi ini diinisiasi dan disusun oleh <strong>Ahmad Zakaria Fathoni</strong> berdasarkan jadwal waktu ujian penulis.</div>
+      <div>Web Profil: <a href="https://azf.my.id" target="_blank" rel="author noopener">azf.my.id</a></div>
+    </footer>
+  </main>
+</BaseLayout>
+

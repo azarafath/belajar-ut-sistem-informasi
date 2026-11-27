@@ -1,0 +1,109 @@
+---
+interface NavItem {
+  id: string;
+  label: string;
+  desc: string;
+}
+
+interface Props {
+  shortLabel: string;
+  navItems: NavItem[];
+  pgCount: number;
+  essayCount: number;
+}
+
+const { shortLabel, navItems, pgCount, essayCount } = Astro.props;
+---
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<aside class="topbar" aria-label="Navigasi Materi">
+  <div class="topbar-left">
+    <a class="back-link" href="/">Kembali ke Portal</a>
+    <span>{shortLabel}</span>
+  </div>
+  <div class="topbar-nav">
+    <button type="button" class="sidebar-search-btn" data-open-search>
+      <span class="search-trigger-left">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span>Cari materi...</span>
+      </span>
+      <span class="search-kbd">Ctrl+K</span>
+    </button>
+
+    {navItems.map((item) => (
+      <a class="nav-pill" href={`#${item.id}`}>
+        {item.label}
+        <span class="nav-pill-desc">{item.desc}</span>
+      </a>
+    ))}
+
+    {pgCount > 0 && (
+      <a class="nav-pill" href="#quiz-pg">
+        {pgCount} PG
+        <span class="nav-pill-desc">Bank Soal &amp; Latihan Interaktif</span>
+      </a>
+    )}
+
+    {essayCount > 0 && (
+      <a class="nav-pill" href="#quiz-pg">
+        {essayCount} Essay
+        <span class="nav-pill-desc">Latihan Soal Uraian</span>
+      </a>
+    )}
+
+    <button
+      type="button"
+      class="btn-action btn-secondary"
+      onclick="document.body.classList.toggle('hide-answers')"
+    >
+      Toggle Kunci
+    </button>
+  </div>
+</aside>
+
+<button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Buka Menu Modul">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  <span>Menu Modul</span>
+</button>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const toggle = document.getElementById('mobile-nav-toggle');
+    const backdrop = document.getElementById('drawer-backdrop');
+    const closeDrawer = () => document.body.classList.remove('drawer-open');
+
+    toggle?.addEventListener('click', () => {
+      document.body.classList.toggle('drawer-open');
+    });
+    backdrop?.addEventListener('click', closeDrawer);
+    document.querySelectorAll('.topbar-nav a.nav-pill').forEach((a) => {
+      a.addEventListener('click', closeDrawer);
+    });
+
+    // Scroll-spy
+    const links = Array.from(document.querySelectorAll('.topbar-nav a.nav-pill'));
+    const byTarget = new Map<Element, Element>();
+    links.forEach((a) => {
+      const href = a.getAttribute('href') || '';
+      if (href.startsWith('#')) {
+        const el = document.querySelector(href);
+        if (el) byTarget.set(el, a);
+      }
+    });
+    if ('IntersectionObserver' in window && byTarget.size > 0) {
+      const obs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            links.forEach((l) => l.classList.remove('is-active'));
+            byTarget.get(entry.target)?.classList.add('is-active');
+          });
+        },
+        { rootMargin: '-18% 0px -70% 0px', threshold: 0 }
+      );
+      byTarget.forEach((_, el) => obs.observe(el));
+    }
+  });
+</script>
+

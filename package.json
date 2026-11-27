@@ -1,0 +1,20 @@
+{
+  "name": "belajar-ut-astro",
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^4.1.0",
+    "@astrojs/sitemap": "^3.3.0",
+    "astro": "^5.7.0",
+    "preact": "^10.26.4"
+  }
+}
+

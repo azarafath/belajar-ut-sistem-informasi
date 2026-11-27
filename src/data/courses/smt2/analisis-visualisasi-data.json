@@ -1,0 +1,848 @@
+{
+  "slug": "analisis-visualisasi-data",
+  "semester": 2,
+  "url": "/smt2/analisis-visualisasi-data",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/analisis-visualisasi-data.html",
+  "title": "STSI4204 / MSIM431001: Analisis & Visualisasi Data — Modul & Soal UT",
+  "shortLabel": "Analisis & Visualisasi Data (STSI4204 / MSIM431001)",
+  "h1": "STSI4204 / MSIM431001: Analisis & Visualisasi Data — Modul & Soal UT",
+  "metaDesc": "Ringkasan lengkap 6 modul Analisis & Visualisasi Data (STSI4204 / MSIM431001) UT: statistika deskriptif, transformasi Tukey, imputasi missing data, regresi linear, text mining R tm, R Shiny, dan 30 soal PG.",
+  "coverTag": "Semester 2",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 6 modul Analisis & Visualisasi Data (STSI4204 / MSIM431001) UT: statistika deskriptif, transformasi Tukey, imputasi missing data, regresi linear, text mining R tm, R Shiny, dan 30 soal PG.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Prinsip Dasar Penyajian Data"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Transformasi Data"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Data Hilang dan Penanganannya"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Analisis Regresi Sederhana"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Visualisasi Data Teks (Text Mining di R)"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Visualisasi Data Interaktif (R Shiny)"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Tokoh & Rujukan Kunci dalam BMP MSIM4310"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Prinsip Dasar Penyajian Data",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#8b5cf6;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Prinsip Dasar Penyajian Data</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Ukuran Pemusatan &amp; Penyebaran Data</h4>\n          <ul class=\"neat\">\n            <li><strong>Statistik vs Statistika:</strong> <em>Statistik</em> adalah pencatatan angka-angka suatu kejadian, sedangkan <em>Statistika</em> adalah ilmu mengumpulkan, mentabulasi, menggolongkan, menganalisis, dan menarik keterangan dari data.</li>\n            <li><mark class=\"hl-yellow\">Ukuran Pemusatan:</mark> <strong>Rata-rata (Mean)</strong>,\n              <strong>Median (Q<sub>2</sub>)</strong>, dan <strong>Modus</strong>.</li>\n            <li><mark class=\"hl-mint\">Tahan Pencilan (Outlier):</mark> <strong>Median</strong> tidak dipengaruhi oleh\n              nilai ekstrem/outlier; tepat dipakai saat distribusi tidak simetris (<em>skewed</em>) atau data berskala ordinal. <strong>Detail Ujian:</strong> <code>Median = Q<sub>2</sub> = Desil D<sub>5</sub> = Persentil P<sub>50</sub></code> (berbeda dengan <code>Q<sub>1</sub></code>).</li>\n            <li><strong>Ukuran Penyebaran:</strong> <em>Jangkauan (Range = X<sub>maks</sub> &minus; X<sub>min</sub>)</em>, <em>IQR = Q<sub>3</sub> &minus; Q<sub>1</sub></em>, <em>Ragam/Varians</em> <code>s<sup>2</sup> = &Sigma;(x<sub>i</sub> &minus; x&#772;)<sup>2</sup> / (n &minus; 1)</code>, <em>Simpangan Baku</em> <code>s = &radic;s<sup>2</sup></code>, dan <em>Koefisien Keragaman (CV)</em>.</li>\n            <li><strong>Bisa Bernilai Negatif:</strong> <em>Skewness</em> (kemencengan) &amp; <em>Kurtosis</em>\n              (keruncingan) bisa negatif; sedangkan ragam, simpangan baku, &amp; CV selalu &ge; 0.</li>\n            <li><strong>Rumus Koefisien Keragaman\n                (CV):</strong><br><code>CV = (Simpangan Baku / Rata-rata) &times; 100%</code><br><small>Contoh soal modul:\n                Mean=7,5; SD=1,5 &rarr; CV = (1,5/7,5)&times;100% = <strong>20%</strong>. Mean=8; SD=3 &rarr; CV = (3/8)&times;100% =\n                <strong>37,5%</strong>.</small></li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2 &amp; 3: Bentuk Penyajian, Spasial &amp; Perbandingan</h4>\n          <ul class=\"neat\">\n            <li><strong>Tabulasi Data:</strong> Diperlukan karena data kasar sulit diinterpretasikan langsung.</li>\n            <li><strong>Histogram / Boxplot:</strong> Melihat sebaran, simetri, kemencengan, dan pencilan\n              (<em>outlier</em>) data numerik.</li>\n            <li><strong>Bar Chart / Pie Chart:</strong> Menyajikan data kategorik (frekuensi/persentase).</li>\n            <li><strong>Ogive &amp; Scatter Plot:</strong> <em>Ogive</em> menyajikan nilai/frekuensi kumulatif; <em>Scatter Plot</em> melihat pola hubungan dua peubah numerik (X dan Y).</li>\n            <li><strong>Membandingkan Kelompok:</strong> Memakai <em>boxplot</em> berdampingan atau ringkasan statistik\n              per kelompok.</li>\n            <li><strong>Data Spasial / Peta Tematik (Bertin; Cressie 1991):</strong> Memiliki 3 tingkatan persepsi visual: <strong>Asosiatif</strong> (kesan setingkat/sama), <strong>Order</strong> (kesan bertingkat), dan <strong>Kuantitatif</strong> (kesan besaran/kuantitas). Informasi tepi peta wajib memuat judul, skala, legenda, arah utara, koordinat, dan sumber data.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Pola Distribusi Data (Normal vs\n          Menjulur Kanan vs Menjulur Kiri)</div>\n        <svg width=\"680\" height=\"130\" viewBox=\"0 0 680 130\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"205\" height=\"110\" rx=\"10\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"1.5\" />\n          <path d=\"M35 80 C68 80, 86 24, 112 24 C138 24, 156 80, 189 80\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2.5\" />\n          <text x=\"112\" y=\"97\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Normal</text>\n          <text x=\"112\" y=\"111\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\">(Mean = Median = Modus)</text>\n\n          <rect x=\"235\" y=\"10\" width=\"205\" height=\"110\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" />\n          <path d=\"M255 80 C272 80, 280 24, 296 24 C314 24, 342 74, 420 80\" fill=\"none\" stroke=\"#3b82f6\"\n            stroke-width=\"2.5\" />\n          <text x=\"337\" y=\"97\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Skew Kanan</text>\n          <text x=\"337\" y=\"111\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\">(Mean &gt; Median)</text>\n\n          <rect x=\"460\" y=\"10\" width=\"205\" height=\"110\" rx=\"10\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" />\n          <path d=\"M480 80 C558 74, 586 24, 604 24 C620 24, 628 80, 645 80\" fill=\"none\" stroke=\"#f59e0b\"\n            stroke-width=\"2.5\" />\n          <text x=\"562\" y=\"97\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Skew Kiri</text>\n          <text x=\"562\" y=\"111\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\">(Mean &lt; Median)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Distribusi <strong>Normal</strong> simetris (Mean = Median = Modus). Pada <strong>Skew Kanan</strong> ekor memanjang ke kanan sehingga Mean tertarik lebih besar dari Median; sebaliknya pada <strong>Skew Kiri</strong> ekor ke kiri sehingga Mean &lt; Median.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Mean vs Median vs Modus</span>\n          <span class=\"kw-chip\">Skew Kanan (Mean &gt; Median)</span>\n          <span class=\"kw-chip\">Skew Kiri (Mean &lt; Median)</span>\n          <span class=\"kw-chip\">Boxplot (Q1 · Median · Q3 · Outlier)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Jika data sangat menjulur (<em>skewed</em>) atau ada <em>outlier</em> ekstrem, gunakan <strong>Median &amp; IQR</strong> (lebih kebal daripada Mean &amp; SD).</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Prinsip Dasar Penyajian Data KB 1: Ukuran Pemusatan & Penyebaran Data Statistik vs Statistika: Statistik adalah pencatatan angka-angka suatu kejadian, sedangkan Statistika adalah ilmu mengumpulkan, mentabulasi, menggolongkan, menganalisis, dan menarik keterangan dari data. Ukuran Pemusatan: Rata-rata (Mean) , Median (Q 2 ) , dan Modus . Tahan Pencilan (Outlier): Median tidak dipengaruhi oleh nilai ekstrem/outlier; tepat dipakai saat distribusi tidak simetris ( skewed ) atau data berskala ordinal. Detail Ujian: Median = Q 2 = Desil D 5 = Persentil P 50 (berbeda dengan Q 1 ). Ukuran Penyebaran: Jangkauan (Range = X maks − X min ) , IQR = Q 3 − Q 1 , Ragam/Varians s 2 = Σ(x i − x̄) 2 / (n − 1) , Simpangan Baku s = √s 2 , dan Koefisien Keragaman (CV) . Bisa Bernilai Negatif: Skewness (kemencengan) & Kurtosis (keruncingan) bisa negatif; sedangkan ragam, simpangan baku, & CV selalu ≥ 0. Rumus Koefisien Keragaman (CV): CV = (Simpangan Baku / Rata-rata) × 100% Contoh soal modul: Mean=7,5; SD=1,5 → CV = (1,5/7,5)×100% = 20% . Mean=8; SD=3 → CV = (3/8)×100% = 37,5% . KB 2 & 3: Bentuk Penyajian, Spasial & Perbandingan Tabulasi Data: Diperlukan karena data kasar sulit diinterpretasikan langsung. Histogram / Boxplot: Melihat sebaran, simetri, kemencengan, dan pencilan ( outlier ) data numerik. Bar Chart / Pie Chart: Menyajikan data kategorik (frekuensi/persentase). Ogive & Scatter Plot: Ogive menyajikan nilai/frekuensi kumulatif; Scatter Plot melihat pola hubungan dua peubah numerik (X dan Y). Membandingkan Kelompok: Memakai boxplot berdampingan atau ringkasan statistik per kelompok. Data Spasial / Peta Tematik (Bertin; Cressie 1991): Memiliki 3 tingkatan persepsi visual: Asosiatif (kesan setingkat/sama), Order (kesan bertingkat), dan Kuantitatif (kesan besaran/kuantitas). Informasi tepi peta wajib memuat judul, skala, legenda, arah utara, koordinat, dan sumber data. Pola Distribusi Data (Normal vs Menjulur Kanan vs Menjulur Kiri) Normal (Mean = Median = Modus) Skew Kanan (Mean > Median) Skew Kiri (Mean < Median) Penjelasan Diagram: Distribusi Normal simetris (Mean = Median = Modus). Pada Skew Kanan ekor memanjang ke kanan sehingga Mean tertarik lebih besar dari Median; sebaliknya pada Skew Kiri ekor ke kiri sehingga Mean < Median. 🔑 Kata Kunci Wajib Ingat — Modul 1 Mean vs Median vs Modus Skew Kanan (Mean > Median) Skew Kiri (Mean < Median) Boxplot (Q1 · Median · Q3 · Outlier) Poin Ujian: Jika data sangat menjulur ( skewed ) atau ada outlier ekstrem, gunakan Median & IQR (lebih kebal daripada Mean & SD)."
+    },
+    {
+      "id": "m2",
+      "title": "Transformasi Data",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#3b82f6;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Transformasi Data</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Asumsi Analisis Parametrik</h4>\n          <ul class=\"neat\">\n            <li><strong>2 Asumsi Dasar Parametrik:</strong> Data berdistribusi <mark class=\"hl-blue\">Normal</mark> (kurva lonceng Gauss, dapat diverifikasi dengan uji <strong>Kolmogorov-Smirnov</strong>) dan\n              variansnya <mark class=\"hl-mint\">Homoskedastis</mark> (homogen/konstan).</li>\n            <li>Jika terdapat pencilan (<em>outlier</em>), distribusi bisa normal atau tidak normal (perlu dicek lebih\n              lanjut).</li>\n            <li><strong>Tujuan Transformasi:</strong> Menormalkan sebaran data yang menjulur (<em>skewed</em>),\n              menstabilkan ragam (mengatasi heteroskedastisitas), dan meluruskan hubungan non-linear.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Tangga Transformasi Tukey &amp; Jenisnya</h4>\n          <ul class=\"neat\">\n            <li><strong>Tukey&rsquo;s Ladder of Powers (1957) / Bulging Rule:</strong> Transformasi pertama yang dikenalkan Tukey menggunakan <mark class=\"hl-yellow\">Pangkat</mark> (<em>Power transformation</em>). Selain itu ada juga transformasi <em>Box-Cox</em> &amp; trigonometri.</li>\n            <li><strong>Transformasi Logaritma (<code>ln(x)</code> / <code>log<sub>10</sub>(x)</code>):</strong> Tidak dapat digunakan langsung jika data\n              mengandung <mark class=\"hl-pink\">angka 0 atau negatif</mark> (solusinya: tambah konstanta, mis.\n              <code>log(x + 1)</code>).</li>\n            <li><strong>Jenis Transformasi Pangkat &amp; Model Regresinya:</strong>\n              Kuadratik (<code>x* = x<sup>2</sup></code> &rarr; <code>y = &alpha; + &beta;x<sup>2</sup></code>),\n              Akar (<code>x* = &radic;x</code>, di R: <code>sqrt(x)</code>),\n              Logaritma (<code>x* = ln(x)</code>),\n              Reciprocal (<code>x* = 1/x = x<sup>&minus;1</sup></code> &rarr; <code>y = &alpha; + &beta;/x</code>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Asumsi Parametrik &amp; Efek Transformasi Data pada Kurva (Modul 2)</div>\n        <svg width=\"680\" height=\"124\" viewBox=\"0 0 680 124\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <defs>\n            <marker id=\"arr-m2\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n              <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#24292f\"/>\n            </marker>\n          </defs>\n          <rect x=\"10\" y=\"10\" width=\"205\" height=\"104\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"112\" y=\"27\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Sebelum (Skew Kanan)</text>\n          <line x1=\"28\" y1=\"84\" x2=\"196\" y2=\"84\" stroke=\"#9ca3af\" stroke-width=\"1\"/>\n          <path d=\"M30 84 C45 84, 52 44, 68 44 C86 44, 114 78, 194 84\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2.5\"/>\n          <text x=\"112\" y=\"102\" text-anchor=\"middle\" font-size=\"9.5\">Ragam tak homogen</text>\n\n          <line x1=\"219\" y1=\"62\" x2=\"249\" y2=\"62\" stroke=\"#24292f\" stroke-width=\"2\" marker-end=\"url(#arr-m2)\"/>\n          <rect x=\"255\" y=\"10\" width=\"170\" height=\"104\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"27\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Transformasi</text>\n          <text x=\"340\" y=\"50\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">√x  |  log(x)  |  1/x</text>\n          <text x=\"340\" y=\"72\" text-anchor=\"middle\" font-size=\"9.5\">Ada 0/negatif?</text>\n          <text x=\"340\" y=\"88\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Pakai log(x + 1)</text>\n\n          <line x1=\"429\" y1=\"62\" x2=\"459\" y2=\"62\" stroke=\"#24292f\" stroke-width=\"2\" marker-end=\"url(#arr-m2)\"/>\n          <rect x=\"465\" y=\"10\" width=\"205\" height=\"104\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"567\" y=\"27\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Sesudah (Normal)</text>\n          <line x1=\"484\" y1=\"84\" x2=\"650\" y2=\"84\" stroke=\"#9ca3af\" stroke-width=\"1\"/>\n          <path d=\"M490 84 C525 84, 540 42, 567 42 C594 42, 609 84, 644 84\" fill=\"none\" stroke=\"#059669\" stroke-width=\"2.5\"/>\n          <text x=\"567\" y=\"102\" text-anchor=\"middle\" font-size=\"9.5\">Normal &amp; Homoskedastis</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Data yang menjulur ke kanan (<em>skewed</em>) dan ragamnya tidak homogen ditransformasi (misalnya <code>√x</code>, <code>log(x)</code>, atau <code>log(x+1)</code> bila ada nol/negatif) agar mendekati distribusi Normal dan Homoskedastis.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Normal &amp; Homoskedastis</span>\n          <span class=\"kw-chip\">Tangga Transformasi Tukey</span>\n          <span class=\"kw-chip\">log(x + 1) jika ada 0/negatif</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Transformasi <code>log(x)</code> <strong>tidak bisa</strong> langsung dipakai jika ada angka <code>0</code> atau negatif (solusi: tambah konstanta, mis. <code>log(x + 1)</code>).</p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Transformasi Data KB 1: Asumsi Analisis Parametrik 2 Asumsi Dasar Parametrik: Data berdistribusi Normal (kurva lonceng Gauss, dapat diverifikasi dengan uji Kolmogorov-Smirnov ) dan variansnya Homoskedastis (homogen/konstan). Jika terdapat pencilan ( outlier ), distribusi bisa normal atau tidak normal (perlu dicek lebih lanjut). Tujuan Transformasi: Menormalkan sebaran data yang menjulur ( skewed ), menstabilkan ragam (mengatasi heteroskedastisitas), dan meluruskan hubungan non-linear. KB 2: Tangga Transformasi Tukey & Jenisnya Tukey’s Ladder of Powers (1957) / Bulging Rule: Transformasi pertama yang dikenalkan Tukey menggunakan Pangkat ( Power transformation ). Selain itu ada juga transformasi Box-Cox & trigonometri. Transformasi Logaritma ( ln(x) / log 10 (x) ): Tidak dapat digunakan langsung jika data mengandung angka 0 atau negatif (solusinya: tambah konstanta, mis. log(x + 1) ). Jenis Transformasi Pangkat & Model Regresinya: Kuadratik ( x* = x 2 → y = α + βx 2 ), Akar ( x* = √x , di R: sqrt(x) ), Logaritma ( x* = ln(x) ), Reciprocal ( x* = 1/x = x −1 → y = α + β/x ). Asumsi Parametrik & Efek Transformasi Data pada Kurva (Modul 2) Sebelum (Skew Kanan) Ragam tak homogen Transformasi √x | log(x) | 1/x Ada 0/negatif? Pakai log(x + 1) Sesudah (Normal) Normal & Homoskedastis Penjelasan Diagram: Data yang menjulur ke kanan ( skewed ) dan ragamnya tidak homogen ditransformasi (misalnya √x , log(x) , atau log(x+1) bila ada nol/negatif) agar mendekati distribusi Normal dan Homoskedastis. 🔑 Kata Kunci Wajib Ingat — Modul 2 Normal & Homoskedastis Tangga Transformasi Tukey log(x + 1) jika ada 0/negatif Poin Ujian: Transformasi log(x) tidak bisa langsung dipakai jika ada angka 0 atau negatif (solusi: tambah konstanta, mis. log(x + 1) )."
+    },
+    {
+      "id": "m3",
+      "title": "Data Hilang dan Penanganannya",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#10b981;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Data Hilang dan Penanganannya</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Mekanisme (Rubin 1976) &amp; Implikasi Data Hilang</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-mint\">MCAR (Missing Completely at Random):</mark> Hilang benar-benar acak, tidak\n              bergantung pada variabel teramati maupun tak teramati (contoh: objek rusak karena bencana alam atau kuesioner hilang di pos).</li>\n            <li><mark class=\"hl-yellow\">MAR (Missing at Random):</mark> Hilangnya data bergantung pada variabel penjelas lain\n              yang teramati dalam dataset (dapat dimodelkan).</li>\n            <li><mark class=\"hl-pink\">MNAR (Missing Not at Random):</mark> Hilangnya data disebabkan kejadian/materi yang tidak diukur &amp; terkait nilai data itu sendiri yang hilang (paling sulit ditangani; memicu bias tinggi jika diabaikan).</li>\n            <li><strong>Implikasi Data Hilang:</strong> Mengurangi informasi sampel, meningkatkan galat baku\n              (<em>standard error</em>), dan menyebabkan bias pendugaan parameter.</li>\n            <li><strong>Pencegahan Survei:</strong> Melakukan <em>pra-survei</em> skala kecil di awal untuk deteksi\n              masalah.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Teknik Penanganan Data Hilang &amp; Sintaks R</h4>\n          <table class=\"mini\">\n            <thead>\n              <tr>\n                <th>Metode</th>\n                <th>Cara Kerja</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td><strong>Listwise / Case Deletion</strong></td>\n                <td>Membuang seluruh baris pengamatan yang memiliki nilai hilang (<code>na.omit()</code>; aman jika MCAR).</td>\n              </tr>\n              <tr>\n                <td><strong>Pairwise Deletion</strong></td>\n                <td>Menggunakan semua data yang tersedia pada setiap pasangan variabel yang dihitung.</td>\n              </tr>\n              <tr>\n                <td><strong>Mean Substitution</strong></td>\n                <td>Mengganti nilai hilang dengan rata-rata kolom (sederhana, cocok saat MCAR, namun mengecilkan varians).</td>\n              </tr>\n              <tr>\n                <td><strong>Regression Imputation</strong></td>\n                <td>Memprediksi nilai hilang memakai model regresi <code>lm()</code> dari variabel lain yang teramati.</td>\n              </tr>\n              <tr>\n                <td><strong>Multiple Imputation</strong></td>\n                <td>Membuat beberapa dataset imputasi lalu menggabungkan hasilnya (paling akurat/modern untuk MAR).</td>\n              </tr>\n            </tbody>\n          </table>\n          <p style=\"margin:6px 0 0; font-size:12px;\"><strong>Cek NA di R:</strong> <code>data[is.na(data$Lebar),]</code></p>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Anatomi Boxplot &amp; Tangga\n          Transformasi Tukey</div>\n        <svg width=\"680\" height=\"120\" viewBox=\"0 0 680 120\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"315\" height=\"96\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"167\" y=\"30\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">Anatomi Boxplot</text>\n          <line x1=\"45\" y1=\"64\" x2=\"275\" y2=\"64\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <line x1=\"45\" y1=\"50\" x2=\"45\" y2=\"78\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"95\" y=\"42\" width=\"120\" height=\"44\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <line x1=\"150\" y1=\"42\" x2=\"150\" y2=\"86\" stroke=\"#1d4ed8\" stroke-width=\"3\" />\n          <line x1=\"275\" y1=\"50\" x2=\"275\" y2=\"78\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <circle cx=\"300\" cy=\"64\" r=\"4.5\" fill=\"#dc2626\" />\n          <text x=\"95\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\">Q1</text>\n          <text x=\"150\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Median</text>\n          <text x=\"215\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\">Q3</text>\n          <text x=\"300\" y=\"99\" text-anchor=\"middle\" font-size=\"9.5\" fill=\"#dc2626\">Outlier</text>\n\n          <rect x=\"340\" y=\"12\" width=\"330\" height=\"96\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\" />\n          <text x=\"505\" y=\"30\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Tangga Tukey (Skew Kanan → Kiri)</text>\n          <rect x=\"352\" y=\"48\" width=\"56\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"380\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">x²</text>\n          <rect x=\"418\" y=\"48\" width=\"56\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"446\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">x (Asli)</text>\n          <rect x=\"484\" y=\"48\" width=\"56\" height=\"32\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"512\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">√x</text>\n          <rect x=\"550\" y=\"48\" width=\"56\" height=\"32\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"578\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">log(x)</text>\n          <rect x=\"614\" y=\"48\" width=\"46\" height=\"32\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\" /><text x=\"637\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">1/x</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: <strong>Boxplot</strong> memvisualisasikan Q1, garis Median, Q3, whisker, dan titik merah <em>Outlier</em>. Kanan: <strong>Tangga Tukey</strong> menggeser pangkat ke kanan (<code>√x → log(x) → 1/x</code>) untuk menekan skew kanan.</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">3 Mekanisme Data Hilang (MCAR vs\n          MAR vs MNAR) &amp; Penanganannya (Modul 3)</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"210\" height=\"94\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\" />\n          <text x=\"115\" y=\"31\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">MCAR (Acak Murni)</text>\n          <text x=\"115\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\">Tak bergantung variabel apa pun</text>\n          <text x=\"115\" y=\"70\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Aman: Listwise / Mean Sub.</text>\n\n          <rect x=\"235\" y=\"10\" width=\"210\" height=\"94\" rx=\"8\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\" />\n          <text x=\"340\" y=\"31\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">MAR (Acak Bersyarat)</text>\n          <text x=\"340\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\">Bergantung variabel teramati</text>\n          <text x=\"340\" y=\"70\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Solusi: Regression /</text>\n          <text x=\"340\" y=\"84\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Multiple Imputation</text>\n\n          <rect x=\"460\" y=\"10\" width=\"210\" height=\"94\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\" />\n          <text x=\"565\" y=\"31\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">MNAR (Tidak Acak)</text>\n          <text x=\"565\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\">Bergantung nilai yg hilang itu</text>\n          <text x=\"565\" y=\"70\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Berisiko bias tinggi</text>\n          <text x=\"565\" y=\"84\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">jika langsung dihapus</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Pada <strong>MCAR</strong> penghapusan baris masih aman; pada <strong>MAR</strong> sebaiknya pakai <em>Regression / Multiple Imputation</em>; pada <strong>MNAR</strong> menghapus data langsung sangat berisiko menimbulkan bias tinggi.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">MCAR (Acak Murni)</span>\n          <span class=\"kw-chip\">MAR (Bergantung Var. Teramati)</span>\n          <span class=\"kw-chip\">MNAR (Bergantung Nilai Hilang)</span>\n          <span class=\"kw-chip\">Multiple Imputation</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>Multiple Imputation</strong> paling akurat untuk MAR/umum; menghapus data pada kondisi <strong>MNAR</strong> memicu bias tinggi.</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Data Hilang dan Penanganannya KB 1: Mekanisme (Rubin 1976) & Implikasi Data Hilang MCAR (Missing Completely at Random): Hilang benar-benar acak, tidak bergantung pada variabel teramati maupun tak teramati (contoh: objek rusak karena bencana alam atau kuesioner hilang di pos). MAR (Missing at Random): Hilangnya data bergantung pada variabel penjelas lain yang teramati dalam dataset (dapat dimodelkan). MNAR (Missing Not at Random): Hilangnya data disebabkan kejadian/materi yang tidak diukur & terkait nilai data itu sendiri yang hilang (paling sulit ditangani; memicu bias tinggi jika diabaikan). Implikasi Data Hilang: Mengurangi informasi sampel, meningkatkan galat baku ( standard error ), dan menyebabkan bias pendugaan parameter. Pencegahan Survei: Melakukan pra-survei skala kecil di awal untuk deteksi masalah. KB 2: Teknik Penanganan Data Hilang & Sintaks R Metode Cara Kerja Listwise / Case Deletion Membuang seluruh baris pengamatan yang memiliki nilai hilang ( na.omit() ; aman jika MCAR). Pairwise Deletion Menggunakan semua data yang tersedia pada setiap pasangan variabel yang dihitung. Mean Substitution Mengganti nilai hilang dengan rata-rata kolom (sederhana, cocok saat MCAR, namun mengecilkan varians). Regression Imputation Memprediksi nilai hilang memakai model regresi lm() dari variabel lain yang teramati. Multiple Imputation Membuat beberapa dataset imputasi lalu menggabungkan hasilnya (paling akurat/modern untuk MAR). Cek NA di R: data[is.na(data$Lebar),] Anatomi Boxplot & Tangga Transformasi Tukey Anatomi Boxplot Q1 Median Q3 Outlier Tangga Tukey (Skew Kanan → Kiri) x² x (Asli) √x log(x) 1/x Penjelasan Diagram: Kiri: Boxplot memvisualisasikan Q1, garis Median, Q3, whisker, dan titik merah Outlier . Kanan: Tangga Tukey menggeser pangkat ke kanan ( √x → log(x) → 1/x ) untuk menekan skew kanan. 3 Mekanisme Data Hilang (MCAR vs MAR vs MNAR) & Penanganannya (Modul 3) MCAR (Acak Murni) Tak bergantung variabel apa pun Aman: Listwise / Mean Sub. MAR (Acak Bersyarat) Bergantung variabel teramati Solusi: Regression / Multiple Imputation MNAR (Tidak Acak) Bergantung nilai yg hilang itu Berisiko bias tinggi jika langsung dihapus Penjelasan Diagram: Pada MCAR penghapusan baris masih aman; pada MAR sebaiknya pakai Regression / Multiple Imputation ; pada MNAR menghapus data langsung sangat berisiko menimbulkan bias tinggi. 🔑 Kata Kunci Wajib Ingat — Modul 3 MCAR (Acak Murni) MAR (Bergantung Var. Teramati) MNAR (Bergantung Nilai Hilang) Multiple Imputation Poin Ujian: Multiple Imputation paling akurat untuk MAR/umum; menghapus data pada kondisi MNAR memicu bias tinggi."
+    },
+    {
+      "id": "m4",
+      "title": "Analisis Regresi Sederhana",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#f59e0b;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Analisis Regresi Sederhana</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Model Regresi Linear Sederhana &amp; Estimasi</h4>\n          <ul class=\"neat\">\n            <li>Memodelkan hubungan garis lurus antara <strong>1 variabel bebas (<em>X</em>)</strong> dan <strong>1 variabel\n                tak bebas/terikat (<em>Y</em>)</strong>.</li>\n            <li>Persamaan: <mark class=\"hl-yellow\"><code>Y = a + bX</code></mark> (di mana <em>a</em> = intersep/konstanta, <em>b</em>\n              = koefisien arah/slope).</li>\n            <li>Jika <em>b</em> &gt; 0 &rarr; hubungan <strong>positif</strong> (<em>X</em> naik, <em>Y</em> naik). Jika <em>b</em> &lt; 0 &rarr; hubungan\n              <strong>negatif</strong> (<em>X</em> naik, <em>Y</em> turun).</li>\n            <li><strong>Metode Kuadrat Terkecil (OLS) di R:</strong> <code>lm(y ~ x)</code> meminimalkan jumlah kuadrat sisaan <code>&Sigma;(y<sub>i</sub> &minus; &ycirc;<sub>i</sub>)<sup>2</sup></code>.</li>\n            <li><strong>Garis Resisten 3-Kelompok (Tukey):</strong> Bagi data terurut menjadi 3 kelompok (<strong>A</strong>tas, <strong>T</strong>engah, <strong>B</strong>awah), hitung median tiap kelompok, lalu:<br>\n              <code>b = (Y<sub>A</sub> &minus; Y<sub>B</sub>) / (X<sub>A</sub> &minus; X<sub>B</sub>)</code> dan <code>a = (a<sub>A</sub> + a<sub>T</sub> + a<sub>B</sub>) / 3</code> (dengan <code>a<sub>k</sub> = Y<sub>k</sub> &minus; bX<sub>k</sub></code>).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Scatter Diagram, Korelasi &amp; Diagnostik Residual</h4>\n          <ul class=\"neat\">\n            <li><strong>Scatter Diagram:</strong> Langkah awal untuk melihat apakah pola hubungan <em>X</em> dan <em>Y</em> cenderung\n              linear, positif, atau negatif.</li>\n            <li><strong>Koefisien Determinasi (<em>r</em><sup>2</sup>) &amp; Korelasi (<em>r</em>):</strong> <code>0 &le; r<sup>2</sup> &le; 1</code> (proporsi keragaman <em>Y</em> yang dijelaskan <em>X</em>; jika <code>r<sup>2</sup> = 0</code>, model tidak dapat menerangkan keragaman <em>Y</em>). Nilai korelasi <code>r = &plusmn;&radic;(r<sup>2</sup>)</code> pada rentang <code>&minus;1 &le; r &le; 1</code>, dan <strong>tanda <code>r</code> selalu sama dengan tanda slope <code>b</code></strong>.</li>\n            <li><strong>Diagnostik Sisaan/Residual (<code>e<sub>i</sub> = y<sub>i</sub> &minus; &ycirc;<sub>i</sub></code>):</strong> Mengecek asumsi normalitas sisaan, homoskedastisitas (ragam sisaan konstan), dan independensi, serta uji signifikansi parameter (<em>t</em>/<em>F</em>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Arah Hubungan Regresi Linear\n          Sederhana (Y = a + bX)</div>\n        <svg width=\"640\" height=\"128\" viewBox=\"0 0 640 128\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"20\" y=\"10\" width=\"280\" height=\"108\" rx=\"10\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"1.5\" />\n          <line x1=\"55\" y1=\"84\" x2=\"265\" y2=\"84\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <line x1=\"55\" y1=\"84\" x2=\"55\" y2=\"22\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <line x1=\"70\" y1=\"76\" x2=\"250\" y2=\"28\" stroke=\"#10b981\" stroke-width=\"2.5\" />\n          <circle cx=\"95\" cy=\"67\" r=\"3.5\" fill=\"#24292f\" />\n          <circle cx=\"145\" cy=\"54\" r=\"3.5\" fill=\"#24292f\" />\n          <circle cx=\"205\" cy=\"41\" r=\"3.5\" fill=\"#24292f\" />\n          <text x=\"160\" y=\"99\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Slope b &gt; 0 (Positif)</text>\n          <text x=\"160\" y=\"112\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\">X naik → Y ikut naik</text>\n\n          <rect x=\"340\" y=\"10\" width=\"280\" height=\"108\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.5\" />\n          <line x1=\"375\" y1=\"84\" x2=\"585\" y2=\"84\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <line x1=\"375\" y1=\"84\" x2=\"375\" y2=\"22\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <line x1=\"390\" y1=\"28\" x2=\"570\" y2=\"76\" stroke=\"#ef4444\" stroke-width=\"2.5\" />\n          <circle cx=\"415\" cy=\"38\" r=\"3.5\" fill=\"#24292f\" />\n          <circle cx=\"475\" cy=\"52\" r=\"3.5\" fill=\"#24292f\" />\n          <circle cx=\"535\" cy=\"68\" r=\"3.5\" fill=\"#24292f\" />\n          <text x=\"480\" y=\"99\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Slope b &lt; 0 (Negatif)</text>\n          <text x=\"480\" y=\"112\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"600\">X naik → Y turun</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Pada persamaan regresi <code>Y = a + bX</code>, nilai slope <strong>b &gt; 0</strong> menghasilkan garis miring naik (hubungan positif), sedangkan <strong>b &lt; 0</strong> menghasilkan garis miring turun (hubungan negatif).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Y = a + bX</span>\n          <span class=\"kw-chip\">Slope b &gt; 0 (Positif) vs b &lt; 0 (Negatif)</span>\n          <span class=\"kw-chip\">Scatter Diagram &amp; R²</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <em>Scatter diagram</em> adalah langkah visual awal sebelum memodelkan regresi linear. Koefisien <em>b</em> menunjukkan arah &amp; besar perubahan <em>Y</em> tiap 1 satuan <em>X</em>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Analisis Regresi Sederhana KB 1: Model Regresi Linear Sederhana & Estimasi Memodelkan hubungan garis lurus antara 1 variabel bebas ( X ) dan 1 variabel tak bebas/terikat ( Y ) . Persamaan: Y = a + bX (di mana a = intersep/konstanta, b = koefisien arah/slope). Jika b > 0 → hubungan positif ( X naik, Y naik). Jika b < 0 → hubungan negatif ( X naik, Y turun). Metode Kuadrat Terkecil (OLS) di R: lm(y ~ x) meminimalkan jumlah kuadrat sisaan Σ(y i − ŷ i ) 2 . Garis Resisten 3-Kelompok (Tukey): Bagi data terurut menjadi 3 kelompok ( A tas, T engah, B awah), hitung median tiap kelompok, lalu: b = (Y A − Y B ) / (X A − X B ) dan a = (a A + a T + a B ) / 3 (dengan a k = Y k − bX k ). KB 2: Scatter Diagram, Korelasi & Diagnostik Residual Scatter Diagram: Langkah awal untuk melihat apakah pola hubungan X dan Y cenderung linear, positif, atau negatif. Koefisien Determinasi ( r 2 ) & Korelasi ( r ): 0 ≤ r 2 ≤ 1 (proporsi keragaman Y yang dijelaskan X ; jika r 2 = 0 , model tidak dapat menerangkan keragaman Y ). Nilai korelasi r = ±√(r 2 ) pada rentang −1 ≤ r ≤ 1 , dan tanda r selalu sama dengan tanda slope b . Diagnostik Sisaan/Residual ( e i = y i − ŷ i ): Mengecek asumsi normalitas sisaan, homoskedastisitas (ragam sisaan konstan), dan independensi, serta uji signifikansi parameter ( t / F ). Arah Hubungan Regresi Linear Sederhana (Y = a + bX) Slope b > 0 (Positif) X naik → Y ikut naik Slope b < 0 (Negatif) X naik → Y turun Penjelasan Diagram: Pada persamaan regresi Y = a + bX , nilai slope b > 0 menghasilkan garis miring naik (hubungan positif), sedangkan b < 0 menghasilkan garis miring turun (hubungan negatif). 🔑 Kata Kunci Wajib Ingat — Modul 4 Y = a + bX Slope b > 0 (Positif) vs b < 0 (Negatif) Scatter Diagram & R² Poin Ujian: Scatter diagram adalah langkah visual awal sebelum memodelkan regresi linear. Koefisien b menunjukkan arah & besar perubahan Y tiap 1 satuan X ."
+    },
+    {
+      "id": "m5",
+      "title": "Visualisasi Data Teks (Text Mining di R)",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#ec4899;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Visualisasi Data Teks (Text Mining di R)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Sifat Data Teks &amp; Preprocessing (<code>tm</code> &amp; <code>quanteda</code>)</h4>\n          <ul class=\"neat\">\n            <li><strong>Tantangan Utama Data Teks:</strong> Bersifat <mark class=\"hl-pink\">unstructured</mark> (tidak\n              terstruktur) dan formatnya bervariasi.</li>\n            <li><strong>Langkah Preprocessing (package <code>tm</code> di R):</strong>\n              <ol class=\"neat\">\n                <li><code>Corpus(VectorSource(teks))</code> &rarr; membentuk himpunan dokumen (korpus)</li>\n                <li><code>tm_map(..., tolower)</code> &rarr; ubah huruf besar ke kecil</li>\n                <li><code>tm_map(..., removePunctuation)</code> &amp; <code>removeNumbers</code> &rarr; hapus tanda baca &amp; angka</li>\n                <li><code>tm_map(..., stripWhitespace)</code> &rarr; hapus spasi berlebih</li>\n                <li><code>tm_map(..., removeWords, stopwords(...))</code> &rarr; hapus kata umum tidak bermakna</li>\n                <li><code>tm_map(..., stemDocument)</code> &rarr; <em>stemming</em> (ubah ke kata dasar)</li>\n              </ol>\n            </li>\n            <li><strong>Alternatif Paket <code>quanteda</code>:</strong> <code>corpus(cv)</code> &rarr; <code>tokens(...)</code> (mengurai vektor karakter menjadi token/kata) &rarr; <code>dfm(...)</code> (<em>Document-Feature Matrix</em>).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Matriks Kata, TF-IDF &amp; Visualisasi Teks</h4>\n          <ul class=\"neat\">\n            <li><strong>TDM vs DTM:</strong> <code>TermDocumentMatrix()</code> (baris = kata, kolom = dokumen) dan <code>DocumentTermMatrix()</code> (baris = dokumen, kolom = kata).</li>\n            <li><strong>Penyaringan &amp; Pembobotan:</strong> <code>findFreqTerms()</code> mencari kata tersering, <code>removeSparseTerms()</code> membuang kata jarang/jarak matriks jarang, dan <code>weightTfIdf</code> menghitung bobot <strong>TF-IDF</strong> (menilai kepentingan kata relatif terhadap korpus).</li>\n            <li><strong>Bentuk Visualisasi:</strong> <code>wordcloud()</code> (ukuran kata menunjukkan frekuensi kemunculan)\n              dan <em>Bar Plot</em> kata paling sering muncul.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Tahap Preprocessing Teks &amp; Contoh Bar Plot Frekuensi Kata (Modul 5)</div>\n        <svg width=\"680\" height=\"122\" viewBox=\"0 0 680 122\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"102\" rx=\"8\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">5 Langkah Text Preprocessing (tm)</text>\n          <rect x=\"22\" y=\"38\" width=\"142\" height=\"28\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"93\" y=\"56\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">1. Lowercase</text>\n          <rect x=\"176\" y=\"38\" width=\"142\" height=\"28\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"247\" y=\"56\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">2. Hapus Tanda Baca</text>\n          <rect x=\"22\" y=\"74\" width=\"142\" height=\"28\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"93\" y=\"92\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">3. Stopwords Removal</text>\n          <rect x=\"176\" y=\"74\" width=\"142\" height=\"28\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"247\" y=\"92\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">4. Stemming → DTM</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"102\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Bar Plot Frekuensi Kata (TDM)</text>\n          <text x=\"366\" y=\"51\" font-size=\"9.5\" font-weight=\"700\">data</text><rect x=\"420\" y=\"40\" width=\"220\" height=\"14\" rx=\"3\" fill=\"#3b82f6\"/>\n          <text x=\"366\" y=\"71\" font-size=\"9.5\" font-weight=\"700\">sistem</text><rect x=\"420\" y=\"60\" width=\"165\" height=\"14\" rx=\"3\" fill=\"#10b981\"/>\n          <text x=\"366\" y=\"91\" font-size=\"9.5\" font-weight=\"700\">analisis</text><rect x=\"420\" y=\"80\" width=\"115\" height=\"14\" rx=\"3\" fill=\"#f59e0b\"/>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Tahap <em>preprocessing</em> di paket R <code>tm</code> membersihkan teks (lowercase, hapus tanda baca &amp; stopwords, stemming) sebelum membentuk <strong>DTM/TDM</strong>, yang hasilnya dapat divisualisasikan sebagai <em>Bar Plot</em> frekuensi kata.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Paket R: tm &amp; wordcloud</span>\n          <span class=\"kw-chip\">Corpus → Preprocessing → TDM/DTM</span>\n          <span class=\"kw-chip\">Stopwords &amp; Stemming</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Urutan <em>text mining</em> di R: buat <strong>Corpus</strong> → bersihkan (<em>lowercase, removePunctuation, stopwords, stemming</em>) → bentuk <strong>TDM/DTM</strong> → visualisasi <em>Wordcloud</em>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Visualisasi Data Teks (Text Mining di R) KB 1: Sifat Data Teks & Preprocessing ( tm & quanteda ) Tantangan Utama Data Teks: Bersifat unstructured (tidak terstruktur) dan formatnya bervariasi. Langkah Preprocessing (package tm di R): Corpus(VectorSource(teks)) → membentuk himpunan dokumen (korpus) tm_map(..., tolower) → ubah huruf besar ke kecil tm_map(..., removePunctuation) & removeNumbers → hapus tanda baca & angka tm_map(..., stripWhitespace) → hapus spasi berlebih tm_map(..., removeWords, stopwords(...)) → hapus kata umum tidak bermakna tm_map(..., stemDocument) → stemming (ubah ke kata dasar) Alternatif Paket quanteda : corpus(cv) → tokens(...) (mengurai vektor karakter menjadi token/kata) → dfm(...) ( Document-Feature Matrix ). KB 2: Matriks Kata, TF-IDF & Visualisasi Teks TDM vs DTM: TermDocumentMatrix() (baris = kata, kolom = dokumen) dan DocumentTermMatrix() (baris = dokumen, kolom = kata). Penyaringan & Pembobotan: findFreqTerms() mencari kata tersering, removeSparseTerms() membuang kata jarang/jarak matriks jarang, dan weightTfIdf menghitung bobot TF-IDF (menilai kepentingan kata relatif terhadap korpus). Bentuk Visualisasi: wordcloud() (ukuran kata menunjukkan frekuensi kemunculan) dan Bar Plot kata paling sering muncul. Tahap Preprocessing Teks & Contoh Bar Plot Frekuensi Kata (Modul 5) 5 Langkah Text Preprocessing (tm) 1. Lowercase 2. Hapus Tanda Baca 3. Stopwords Removal 4. Stemming → DTM Bar Plot Frekuensi Kata (TDM) data sistem analisis Penjelasan Diagram: Tahap preprocessing di paket R tm membersihkan teks (lowercase, hapus tanda baca & stopwords, stemming) sebelum membentuk DTM/TDM , yang hasilnya dapat divisualisasikan sebagai Bar Plot frekuensi kata. 🔑 Kata Kunci Wajib Ingat — Modul 5 Paket R: tm & wordcloud Corpus → Preprocessing → TDM/DTM Stopwords & Stemming Poin Ujian: Urutan text mining di R: buat Corpus → bersihkan ( lowercase, removePunctuation, stopwords, stemming ) → bentuk TDM/DTM → visualisasi Wordcloud ."
+    },
+    {
+      "id": "m6",
+      "title": "Visualisasi Data Interaktif (R Shiny)",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#06b6d4;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Visualisasi Data Interaktif (R Shiny)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>Komponen Utama &amp; Fungsi R Shiny (<code>app.R</code>)</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-blue\">User Interface (UI):</mark> Mengatur tampilan depan &amp; layout (<code>fluidPage()</code>, <code>titlePanel()</code>, <code>sidebarLayout(sidebarPanel(), mainPanel())</code>), komponen <strong>input</strong> (<code>sliderInput</code>, <code>selectInput</code>, <code>radioButtons</code>, <code>numericInput</code>, <code>conditionalPanel</code>), serta slot <strong>output</strong> (<code>plotOutput</code>, <code>textOutput</code>).</li>\n            <li><mark class=\"hl-mint\">Server:</mark> Menjalankan <strong>logika kerja analisis</strong> (<code>renderPlot({})</code>, <code>renderText({})</code>) serta ekspresi <code>reactive({})</code> (mis. <code>sim_data &lt;- reactive({ rnorm(input$n) })</code>, dipanggil <code>sim_data()</code>) secara reaktif.</li>\n            <li><mark class=\"hl-yellow\">shinyApp(ui, server):</mark> Fungsi untuk menggabungkan UI dan Server serta\n              menjalankan aplikasi web Shiny (disimpan dalam file <code>app.R</code> atau terpisah <code>ui.R</code> &amp; <code>server.R</code>).</li>\n            <li><strong>Studi Kasus Modul 6:</strong> Simulasi normal <code>rnorm(input$n)</code> (makin besar <code>n</code>, histogram makin mendekati kurva normal) dan <strong>K-Means Clustering</strong> dataset <code>iris</code> (150 baris, 3 spesies) dengan <code>kmeans()</code>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>Contoh Pola Kode R Shiny</h4>\n          <pre class=\"code-box\">library(shiny)\nui &lt;- fluidPage(\n  titlePanel(\"Simulasi Normal\"),\n  sidebarLayout(\n    sidebarPanel(\n      numericInput(\"n\", \"Jumlah n:\", 100),\n      conditionalPanel(\"input.n &gt; 0\",\n        selectInput(\"col\", \"Warna:\", c(\"red\",\"blue\")))\n    ),\n    mainPanel(plotOutput(\"hist\"))\n  )\n)\nserver &lt;- function(input, output) {\n  sim_data &lt;- reactive({ rnorm(input$n) })\n  output$hist &lt;- renderPlot({ hist(sim_data(), col = input$col) })\n}\nshinyApp(ui = ui, server = server)</pre>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Pipeline Text Mining (tm) &amp;\n          Arsitektur Reaktif R Shiny (Modul 5 &amp; 6)</div>\n        <svg width=\"680\" height=\"115\" viewBox=\"0 0 680 115\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"335\" height=\"90\" rx=\"8\" fill=\"#fdf2f8\" stroke=\"#ec4899\" stroke-width=\"1.5\" />\n          <text x=\"177\" y=\"30\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Pipeline Visualisasi Data Teks (R\n            tm)</text>\n          <rect x=\"20\" y=\"46\" width=\"68\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"54\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Corpus</text>\n          <path d=\"M90 64 L102 64\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"104\" y=\"46\" width=\"76\" height=\"36\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"142\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Preprocessing</text>\n          <path d=\"M182 64 L194 64\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"196\" y=\"46\" width=\"56\" height=\"36\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"224\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">TDM</text>\n          <path d=\"M254 64 L266 64\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"268\" y=\"46\" width=\"66\" height=\"36\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"301\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Wordcloud</text>\n\n          <rect x=\"360\" y=\"12\" width=\"310\" height=\"90\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" />\n          <text x=\"515\" y=\"30\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Alur Reaktif R Shiny</text>\n          <rect x=\"372\" y=\"46\" width=\"82\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"413\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">UI (input$n)</text>\n          <path d=\"M456 64 L474 64\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"476\" y=\"46\" width=\"84\" height=\"36\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"518\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Server Logic</text>\n          <path d=\"M562 64 L580 64\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"582\" y=\"46\" width=\"76\" height=\"36\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"620\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Output Plot</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: Alur <em>Text Mining</em> dari <code>Corpus</code> hingga <code>Wordcloud</code>. Kanan: Pola reaktif <strong>R Shiny</strong> di mana perubahan pada komponen <code>UI (input$n)</code> otomatis memicu ulang perhitungan di <code>Server</code> untuk memperbarui <code>Output Plot</code>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">ui (fluidPage)</span>\n          <span class=\"kw-chip\">server (input, output)</span>\n          <span class=\"kw-chip\">renderPlot + plotOutput</span>\n          <span class=\"kw-chip\">shinyApp(ui, server)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Di R Shiny, komponen <strong>UI</strong> mengatur tampilan &amp; input/output slot, <strong>Server</strong> menjalankan logika reaktif, dan <code>shinyApp(ui, server)</code> menjalankannya.</p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Visualisasi Data Interaktif (R Shiny) Komponen Utama & Fungsi R Shiny ( app.R ) User Interface (UI): Mengatur tampilan depan & layout ( fluidPage() , titlePanel() , sidebarLayout(sidebarPanel(), mainPanel()) ), komponen input ( sliderInput , selectInput , radioButtons , numericInput , conditionalPanel ), serta slot output ( plotOutput , textOutput ). Server: Menjalankan logika kerja analisis ( renderPlot({}) , renderText({}) ) serta ekspresi reactive({}) (mis. sim_data <- reactive({ rnorm(input$n) }) , dipanggil sim_data() ) secara reaktif. shinyApp(ui, server): Fungsi untuk menggabungkan UI dan Server serta menjalankan aplikasi web Shiny (disimpan dalam file app.R atau terpisah ui.R & server.R ). Studi Kasus Modul 6: Simulasi normal rnorm(input$n) (makin besar n , histogram makin mendekati kurva normal) dan K-Means Clustering dataset iris (150 baris, 3 spesies) dengan kmeans() . Contoh Pola Kode R Shiny library(shiny) ui <- fluidPage( titlePanel(\"Simulasi Normal\"), sidebarLayout( sidebarPanel( numericInput(\"n\", \"Jumlah n:\", 100), conditionalPanel(\"input.n > 0\", selectInput(\"col\", \"Warna:\", c(\"red\",\"blue\"))) ), mainPanel(plotOutput(\"hist\")) ) ) server <- function(input, output) { sim_data <- reactive({ rnorm(input$n) }) output$hist <- renderPlot({ hist(sim_data(), col = input$col) }) } shinyApp(ui = ui, server = server) Pipeline Text Mining (tm) & Arsitektur Reaktif R Shiny (Modul 5 & 6) Pipeline Visualisasi Data Teks (R tm) Corpus Preprocessing TDM Wordcloud Alur Reaktif R Shiny UI (input$n) Server Logic Output Plot Penjelasan Diagram: Kiri: Alur Text Mining dari Corpus hingga Wordcloud . Kanan: Pola reaktif R Shiny di mana perubahan pada komponen UI (input$n) otomatis memicu ulang perhitungan di Server untuk memperbarui Output Plot . 🔑 Kata Kunci Wajib Ingat — Modul 6 ui (fluidPage) server (input, output) renderPlot + plotOutput shinyApp(ui, server) Poin Ujian: Di R Shiny, komponen UI mengatur tampilan & input/output slot, Server menjalankan logika reaktif, dan shinyApp(ui, server) menjalankannya."
+    },
+    {
+      "id": "ahli",
+      "title": "Tokoh & Rujukan Kunci dalam BMP MSIM4310",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI</span>\n        <h2 class=\"mod-title\">Tokoh &amp; Rujukan Kunci dalam BMP MSIM4310</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>John W. Tukey (1957):</strong> Pelopor <em>Exploratory Data Analysis (EDA)</em>, pencetus\n              <strong>Boxplot</strong> (batas outlier <code>Q1 &minus; 1,5&times;IQR</code> &amp; <code>Q3 + 1,5&times;IQR</code>), <strong>Garis Resisten 3-Kelompok</strong>, serta <strong>Tangga Transformasi Pangkat (Ladder of Powers / Bulging Rule)</strong>.</li>\n            <li><strong>Donald B. Rubin (1976):</strong> Merumuskan klasifikasi mekanisme data hilang menjadi 3 kategori: <strong>MCAR</strong>, <strong>MAR</strong>, dan <strong>MNAR</strong>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Draper &amp; Smith (1992):</strong> Menegaskan bahwa semakin rumit transformasi data yang\n              digunakan, semakin rumit pula interpretasi model regresi yang dihasilkan.</li>\n            <li><strong>Wittink (1988) &amp; Cressie (1991) / Bertin:</strong> Wittink mencontohkan transformasi logaritma/pangkat pada kurva pengalaman biaya marginal; Cressie &amp; Bertin merumuskan 3 tingkatan persepsi peta tematik (<em>asosiatif, order, kuantitatif</em>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu (Tukey; Little &amp; Rubin; Wickham)</h4>\n        <ul class=\"neat\">\n          <li><strong>Aturan Empiris Normal (68–95–99,7) &amp; Deteksi Outlier IQR (Tukey):</strong> Pada distribusi normal, ±68% data berada dalam 1 SD, ±95% dalam 2 SD, dan ±99,7% dalam 3 SD dari Mean. Pada Boxplot Tukey, nilai dianggap <strong>Outlier</strong> jika berada di luar batas <code>[Q1 − 1,5×IQR, Q3 + 1,5×IQR]</code>.</li>\n          <li><strong>Detail Kecil Missing Data (Little &amp; Rubin):</strong> Uji formal untuk mengecek MCAR dapat memakai <em>Little's MCAR test</em>. Pada data deret waktu (time-series), metode interpolasi atau <em>LOCF</em> sering dipakai, namun untuk data survei lintas-seksi paling disarankan <strong>Multiple Imputation</strong>.</li>\n          <li><strong>Panduan Memilih Grafik (Wickham, ggplot2):</strong> 1 variabel numerik → <em>Histogram / Boxplot / Density</em>; 1 variabel kategorik → <em>Bar Chart</em>; 2 variabel numerik → <em>Scatter Plot</em>; tren waktu → <em>Line Chart</em>.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Aturan Empiris Kurva Normal (68% – 95% – 99,7%) &amp; Batas Outlier IQR</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Aturan Empiris Distribusi Normal</text>\n          <path d=\"M34 80 C90 80, 125 36, 170 36 C215 36, 250 80, 306 80\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"170\" y=\"66\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">±1 SD = 68%</text>\n          <text x=\"170\" y=\"96\" text-anchor=\"middle\" font-size=\"9\">±2 SD = 95%  |  ±3 SD = 99,7%</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Rumus Batas Outlier Boxplot (Tukey)</text>\n          <rect x=\"366\" y=\"40\" width=\"288\" height=\"24\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"510\" y=\"56\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">IQR = Q3 − Q1 (Rentang Antar Kuartil)</text>\n          <rect x=\"366\" y=\"70\" width=\"288\" height=\"24\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#dc2626\"/><text x=\"510\" y=\"86\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Outlier: &lt; Q1−1.5×IQR atau &gt; Q3+1.5×IQR</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kurva normal memusatkan 95% pengamatan dalam jarak ±2 simpangan baku, sedangkan pada Boxplot Tukey titik data di luar 1,5 × IQR ditandai sebagai pencilan (<em>outlier</em>).</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Matriks Pemilihan Jenis Grafik Berdasarkan Tipe Data (Wickham)</div>\n        <svg width=\"680\" height=\"94\" viewBox=\"0 0 680 94\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"155\" height=\"70\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"87\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">1 Numerik</text><text x=\"87\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Histogram, Boxplot,</text><text x=\"87\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">Density Plot</text>\n          <rect x=\"178\" y=\"12\" width=\"155\" height=\"70\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"255\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">1 Kategorik</text><text x=\"255\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Bar Chart,</text><text x=\"255\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">Pie Chart (Proporsi)</text>\n          <rect x=\"346\" y=\"12\" width=\"155\" height=\"70\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"423\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">2 Numerik (X, Y)</text><text x=\"423\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Scatter Plot</text><text x=\"423\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">(Korelasi/Regresi)</text>\n          <rect x=\"514\" y=\"12\" width=\"156\" height=\"70\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"592\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Deret Waktu</text><text x=\"592\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Line Chart</text><text x=\"592\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">(Tren Berkala)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Pilih grafik sesuai tipe variabel: <em>Bar Chart</em> untuk frekuensi kategori, <em>Histogram/Boxplot</em> untuk sebaran numerik, <em>Scatter Plot</em> untuk hubungan dua peubah, dan <em>Line Chart</em> untuk tren waktu.</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI Tokoh & Rujukan Kunci dalam BMP MSIM4310 John W. Tukey (1957): Pelopor Exploratory Data Analysis (EDA) , pencetus Boxplot (batas outlier Q1 − 1,5×IQR & Q3 + 1,5×IQR ), Garis Resisten 3-Kelompok , serta Tangga Transformasi Pangkat (Ladder of Powers / Bulging Rule) . Donald B. Rubin (1976): Merumuskan klasifikasi mekanisme data hilang menjadi 3 kategori: MCAR , MAR , dan MNAR . Draper & Smith (1992): Menegaskan bahwa semakin rumit transformasi data yang digunakan, semakin rumit pula interpretasi model regresi yang dihasilkan. Wittink (1988) & Cressie (1991) / Bertin: Wittink mencontohkan transformasi logaritma/pangkat pada kurva pengalaman biaya marginal; Cressie & Bertin merumuskan 3 tingkatan persepsi peta tematik ( asosiatif, order, kuantitatif ). 📚 Referensi Tambahan & Detail Kecil Wajib Tahu (Tukey; Little & Rubin; Wickham) Aturan Empiris Normal (68–95–99,7) & Deteksi Outlier IQR (Tukey): Pada distribusi normal, ±68% data berada dalam 1 SD, ±95% dalam 2 SD, dan ±99,7% dalam 3 SD dari Mean. Pada Boxplot Tukey, nilai dianggap Outlier jika berada di luar batas [Q1 − 1,5×IQR, Q3 + 1,5×IQR] . Detail Kecil Missing Data (Little & Rubin): Uji formal untuk mengecek MCAR dapat memakai Little's MCAR test . Pada data deret waktu (time-series), metode interpolasi atau LOCF sering dipakai, namun untuk data survei lintas-seksi paling disarankan Multiple Imputation . Panduan Memilih Grafik (Wickham, ggplot2): 1 variabel numerik → Histogram / Boxplot / Density ; 1 variabel kategorik → Bar Chart ; 2 variabel numerik → Scatter Plot ; tren waktu → Line Chart . Aturan Empiris Kurva Normal (68% – 95% – 99,7%) & Batas Outlier IQR Aturan Empiris Distribusi Normal ±1 SD = 68% ±2 SD = 95% | ±3 SD = 99,7% Rumus Batas Outlier Boxplot (Tukey) IQR = Q3 − Q1 (Rentang Antar Kuartil) Outlier: < Q1−1.5×IQR atau > Q3+1.5×IQR Penjelasan Diagram: Kurva normal memusatkan 95% pengamatan dalam jarak ±2 simpangan baku, sedangkan pada Boxplot Tukey titik data di luar 1,5 × IQR ditandai sebagai pencilan ( outlier ). Matriks Pemilihan Jenis Grafik Berdasarkan Tipe Data (Wickham) 1 Numerik Histogram, Boxplot, Density Plot 1 Kategorik Bar Chart, Pie Chart (Proporsi) 2 Numerik (X, Y) Scatter Plot (Korelasi/Regresi) Deret Waktu Line Chart (Tren Berkala) Penjelasan Diagram: Pilih grafik sesuai tipe variabel: Bar Chart untuk frekuensi kategori, Histogram/Boxplot untuk sebaran numerik, Scatter Plot untuk hubungan dua peubah, dan Line Chart untuk tren waktu."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Berikut merupakan ukuran pemusatan data, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rata-rata"
+        },
+        {
+          "letter": "B",
+          "text": "ragam"
+        },
+        {
+          "letter": "C",
+          "text": "median"
+        },
+        {
+          "letter": "D",
+          "text": "modus"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Ragam = ukuran penyebaran",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Ukuran pemusatan data yang tidak dipengaruhi oleh pencilan (outlier) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rata-rata"
+        },
+        {
+          "letter": "B",
+          "text": "ragam"
+        },
+        {
+          "letter": "C",
+          "text": "simpangan baku"
+        },
+        {
+          "letter": "D",
+          "text": "median"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Median",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Ukuran statistika yang memungkinkan bernilai negatif adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ragam"
+        },
+        {
+          "letter": "B",
+          "text": "simpangan baku"
+        },
+        {
+          "letter": "C",
+          "text": "koefisien keragaman"
+        },
+        {
+          "letter": "D",
+          "text": "kurtosis"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kurtosis",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Salah satu alasan diperlukan tabulasi data dalam penyajian data adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mendapatkan variabel penelitian"
+        },
+        {
+          "letter": "B",
+          "text": "karena data kasar sulit diinterpretasikan"
+        },
+        {
+          "letter": "C",
+          "text": "memudahkan pengumpulan data"
+        },
+        {
+          "letter": "D",
+          "text": "agar data paham"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Kelas 12A memiliki rata-rata nilai 7,5 dan simpangan baku 1,5. Koefisien keragaman kelas 12A adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,2%"
+        },
+        {
+          "letter": "B",
+          "text": "37,5%"
+        },
+        {
+          "letter": "C",
+          "text": "20%"
+        },
+        {
+          "letter": "D",
+          "text": "15%"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "(1,5/7,5)×100% = 20%",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-6] Kelas 12B memiliki rata-rata nilai 8 dan simpangan baku 3. Koefisien keragaman kelas 12B adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,2%"
+        },
+        {
+          "letter": "B",
+          "text": "37,5%"
+        },
+        {
+          "letter": "C",
+          "text": "20%"
+        },
+        {
+          "letter": "D",
+          "text": "15%"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "(3/8)×100% = 37,5%",
+      "num": 6
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Transformasi data yang pertama kali dilakukan Tukey menggunakan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pangkat"
+        },
+        {
+          "letter": "B",
+          "text": "logaritma"
+        },
+        {
+          "letter": "C",
+          "text": "akar"
+        },
+        {
+          "letter": "D",
+          "text": "tidak ada yang benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Pangkat",
+      "num": 7
+    },
+    {
+      "module": "M2",
+      "question": "[M2-8] Asumsi yang mendasari analisis data parametrik adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "normal & heteroskedastisitas"
+        },
+        {
+          "letter": "B",
+          "text": "menjulur kanan & homoskedastis"
+        },
+        {
+          "letter": "C",
+          "text": "normal dan homoskedastis"
+        },
+        {
+          "letter": "D",
+          "text": "menjulur kiri & heteroskedastisitas"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 8
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Jika dalam data terdapat pencilan (outlier), maka dikatakan bahwa ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pasti normal"
+        },
+        {
+          "letter": "B",
+          "text": "pasti tidak normal"
+        },
+        {
+          "letter": "C",
+          "text": "bisa berdistribusi normal, bisa juga tidak normal"
+        },
+        {
+          "letter": "D",
+          "text": "semua salah"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-10] Bentuk data yang tidak dapat ditransformasi langsung dengan Transformasi Logaritma adalah data yang terdapat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "angka 0"
+        },
+        {
+          "letter": "B",
+          "text": "angka 1"
+        },
+        {
+          "letter": "C",
+          "text": "angka positif"
+        },
+        {
+          "letter": "D",
+          "text": "bilangan sangat besar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Angka 0",
+      "num": 10
+    },
+    {
+      "module": "M2",
+      "question": "[M2-11] Transformasi reciprocal pada data x dilakukan dengan menghitung ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "x²"
+        },
+        {
+          "letter": "B",
+          "text": "√x"
+        },
+        {
+          "letter": "C",
+          "text": "log(x)"
+        },
+        {
+          "letter": "D",
+          "text": "1/x"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "1/x",
+      "num": 11
+    },
+    {
+      "module": "M3",
+      "question": "[M3-12] Contoh kejadian data hilang karena kondisi pengamatan rusak adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "bencana alam yang merusak tanaman percobaan"
+        },
+        {
+          "letter": "B",
+          "text": "hilangnya alat ukur"
+        },
+        {
+          "letter": "C",
+          "text": "kuesioner habis"
+        },
+        {
+          "letter": "D",
+          "text": "peneliti lupa mengukur"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 12
+    },
+    {
+      "module": "M3",
+      "question": "[M3-13] Berikut implikasi jika terdapat data hilang dalam analisis data, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "berkurangnya informasi sampel"
+        },
+        {
+          "letter": "B",
+          "text": "mempermudah analisis data karena data sedikit"
+        },
+        {
+          "letter": "C",
+          "text": "meningkatkan standard error"
+        },
+        {
+          "letter": "D",
+          "text": "menyebabkan bias pendugaan parameter"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 13
+    },
+    {
+      "module": "M3",
+      "question": "[M3-14] Upaya mencegah data hilang pada penelitian survei adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rekrut teman tanpa pelatihan"
+        },
+        {
+          "letter": "B",
+          "text": "survei cepat tanpa briefing"
+        },
+        {
+          "letter": "C",
+          "text": "tanpa pemantauan tim"
+        },
+        {
+          "letter": "D",
+          "text": "melakukan pra-survei skala kecil di awal penelitian"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 14
+    },
+    {
+      "module": "M3",
+      "question": "[M3-15] Metode penanganan data hilang yang tidak mengikutkan pengamatan bernilai hilang dalam analisis, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "multiple imputation"
+        },
+        {
+          "letter": "B",
+          "text": "listwise deletion"
+        },
+        {
+          "letter": "C",
+          "text": "pairwise deletion"
+        },
+        {
+          "letter": "D",
+          "text": "case deletion"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Multiple imputation mengisi data",
+      "num": 15
+    },
+    {
+      "module": "M3",
+      "question": "[M3-16] Mekanisme data hilang yang terjadi murni secara acak tanpa bergantung variabel lain disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MAR"
+        },
+        {
+          "letter": "B",
+          "text": "MCAR"
+        },
+        {
+          "letter": "C",
+          "text": "MNAR"
+        },
+        {
+          "letter": "D",
+          "text": "Imputasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "MCAR",
+      "num": 16
+    },
+    {
+      "module": "M4",
+      "question": "[M4-17] Pada model regresi linear sederhana Y = a + bX, simbol X menyatakan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "variabel terikat"
+        },
+        {
+          "letter": "B",
+          "text": "variabel bebas"
+        },
+        {
+          "letter": "C",
+          "text": "galat acak"
+        },
+        {
+          "letter": "D",
+          "text": "intersep"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Variabel bebas",
+      "num": 17
+    },
+    {
+      "module": "M4",
+      "question": "[M4-18] Jika plot scatter menunjukkan makin lama bermain game, kemampuan membaca menurun, maka hubungan X dan Y cenderung ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "positif"
+        },
+        {
+          "letter": "B",
+          "text": "negatif"
+        },
+        {
+          "letter": "C",
+          "text": "tidak ada hubungan"
+        },
+        {
+          "letter": "D",
+          "text": "eksponensial naik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Negatif",
+      "num": 18
+    },
+    {
+      "module": "M4",
+      "question": "[M4-19] Grafik awal yang paling tepat untuk melihat bentuk hubungan antara 2 variabel numerik X dan Y adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pie chart"
+        },
+        {
+          "letter": "B",
+          "text": "Bar chart"
+        },
+        {
+          "letter": "C",
+          "text": "Scatter diagram"
+        },
+        {
+          "letter": "D",
+          "text": "Wordcloud"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 19
+    },
+    {
+      "module": "M4",
+      "question": "[M4-20] Pada persamaan regresi Y = 10 - 2X, kenaikan 1 satuan X akan menyebabkan Y ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "naik 10"
+        },
+        {
+          "letter": "B",
+          "text": "naik 2"
+        },
+        {
+          "letter": "C",
+          "text": "turun 2"
+        },
+        {
+          "letter": "D",
+          "text": "tetap 10"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Turun 2",
+      "num": 20
+    },
+    {
+      "module": "M5",
+      "question": "[M5-21] Tantangan utama saat analisis data teks adalah sifat alami data teks yakni ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "structured & sama"
+        },
+        {
+          "letter": "B",
+          "text": "unstructured & sama"
+        },
+        {
+          "letter": "C",
+          "text": "structured & bervariasi"
+        },
+        {
+          "letter": "D",
+          "text": "unstructured dan formatnya bervariasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 21
+    },
+    {
+      "module": "M5",
+      "question": "[M5-22] Berikut langkah-langkah preprocessing data teks, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "konversi huruf besar ke kecil"
+        },
+        {
+          "letter": "B",
+          "text": "hilangkan tanda baca"
+        },
+        {
+          "letter": "C",
+          "text": "uraikan teks jadi kata"
+        },
+        {
+          "letter": "D",
+          "text": "mengubah kalimat tanya menjadi kalimat berita"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 22
+    },
+    {
+      "module": "M5",
+      "question": "[M5-23] Perintah tm_map(komentarcorpus, tolower) di R digunakan untuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menghilangkan tanda baca"
+        },
+        {
+          "letter": "B",
+          "text": "menghilangkan spasi"
+        },
+        {
+          "letter": "C",
+          "text": "mengonversi huruf besar ke huruf kecil"
+        },
+        {
+          "letter": "D",
+          "text": "menghilangkan stopwords"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 23
+    },
+    {
+      "module": "M5",
+      "question": "[M5-24] Perintah tm_map dengan stripWhitespace dan removePunctuation digunakan untuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menghilangkan spasi dan tanda baca"
+        },
+        {
+          "letter": "B",
+          "text": "mempermudah analisis"
+        },
+        {
+          "letter": "C",
+          "text": "menghapus stopwords"
+        },
+        {
+          "letter": "D",
+          "text": "tokenisasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 24
+    },
+    {
+      "module": "M5",
+      "question": "[M5-25] Package R yang populer digunakan untuk preprocessing dan membentuk Corpus teks adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "shiny"
+        },
+        {
+          "letter": "B",
+          "text": "tm"
+        },
+        {
+          "letter": "C",
+          "text": "ggplot2"
+        },
+        {
+          "letter": "D",
+          "text": "dplyr"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "tm",
+      "num": 25
+    },
+    {
+      "module": "M6",
+      "question": "[M6-26] Berikut ini adalah komponen utama dalam aplikasi R Shiny, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ShinyApp"
+        },
+        {
+          "letter": "B",
+          "text": "Server"
+        },
+        {
+          "letter": "C",
+          "text": "User Interface"
+        },
+        {
+          "letter": "D",
+          "text": "Web Apps"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 26
+    },
+    {
+      "module": "M6",
+      "question": "[M6-27] Tugas dari fungsi server pada komponen R Shiny adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tampilan depan"
+        },
+        {
+          "letter": "B",
+          "text": "menjalankan shinyApp"
+        },
+        {
+          "letter": "C",
+          "text": "setting awal layout web"
+        },
+        {
+          "letter": "D",
+          "text": "menjalankan logika kerja analisis pada aplikasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 27
+    },
+    {
+      "module": "M6",
+      "question": "[M6-28] Bagian R Shiny yang mengatur tampilan input (slider, dropdown) dan letak output adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Server"
+        },
+        {
+          "letter": "B",
+          "text": "User Interface (UI)"
+        },
+        {
+          "letter": "C",
+          "text": "Corpus"
+        },
+        {
+          "letter": "D",
+          "text": "Term Matrix"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 28
+    },
+    {
+      "module": "M6",
+      "question": "[M6-29] Ketika nilai n diperbesar pada simulasi distribusi normal di Shiny, pola histogram akan semakin mendekati ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "distribusi seragam"
+        },
+        {
+          "letter": "B",
+          "text": "pola distribusi normal"
+        },
+        {
+          "letter": "C",
+          "text": "garis lurus"
+        },
+        {
+          "letter": "D",
+          "text": "kosong"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 29
+    },
+    {
+      "module": "M6",
+      "question": "[M6-30] Visualisasi data interaktif bertujuan utama membantu memahami data dengan memanfaatkan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "indra pendengaran"
+        },
+        {
+          "letter": "B",
+          "text": "sistem indra visual"
+        },
+        {
+          "letter": "C",
+          "text": "memori fisik"
+        },
+        {
+          "letter": "D",
+          "text": "tabel mentah saja"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 30
+    }
+  ],
+  "essayQuestions": []
+}

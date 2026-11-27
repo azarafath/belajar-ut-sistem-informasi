@@ -1,0 +1,16 @@
+import { defineConfig } from 'astro/config';
+import preact from '@astrojs/preact';
+import sitemap from '@astrojs/sitemap';
+
+export default defineConfig({
+  site: 'https://belajar-ut.azf.my.id',
+  output: 'static',
+  build: {
+    format: 'file',
+  },
+  integrations: [
+    preact(),
+    sitemap(),
+  ],
+});
+

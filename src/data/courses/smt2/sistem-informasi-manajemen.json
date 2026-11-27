@@ -1,0 +1,1317 @@
+{
+  "slug": "sistem-informasi-manajemen",
+  "semester": 2,
+  "url": "/smt2/sistem-informasi-manajemen",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/sistem-informasi-manajemen.html",
+  "title": "STSI4207 / MSIM420701: Sistem Informasi Manajemen — Modul & Soal UT",
+  "shortLabel": "Sistem Informasi Manajemen (STSI4207 / MSIM420701)",
+  "h1": "STSI4207 / MSIM420701: Sistem Informasi Manajemen — Modul & Soal UT",
+  "metaDesc": "Ringkasan lengkap 9 modul Sistem Informasi Manajemen (STSI4207 / MSIM420701) UT: Big Data, strategi bisnis, etika moral, infrastruktur TI, keamanan, SCM/CRM/ERP, SDLC, ditambah 45 soal PG & 12 Essay.",
+  "coverTag": "Semester 2",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 9 modul Sistem Informasi Manajemen (STSI4207 / MSIM420701) UT: Big Data, strategi bisnis, etika moral, infrastruktur TI, keamanan, SCM/CRM/ERP, SDLC, ditambah 45 soal PG & 12 Essay.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Sistem Informasi dalam Bisnis"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Sistem Informasi untuk Bisnis: Kolaborasi & Strategi"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Permasalahan Sosial & Etika pada Sistem Informasi"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Infrastruktur Teknologi Informasi"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Keamanan & Pengendalian Sistem Informasi"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Manajemen Data & Pengetahuan (Knowledge Management)"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Aplikasi Enterprise (ERP, SCM, CRM) & E-Commerce"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Peran Sistem Informasi dalam Pembuatan Keputusan Bisnis"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Pengembangan Sistem Informasi & Manajemen Proyek"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Ahli & Tokoh Kunci dalam BMP MSIM4207"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Sistem Informasi dalam Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#3b82f6;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Sistem Informasi dalam Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Definisi, Aspek &amp; Aset Pelengkap</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-yellow\">Sistem Informasi:</mark> Sistem untuk mengumpulkan, mengolah, menyimpan, dan mendistribusikan informasi guna mendukung operasi &amp; keputusan organisasi.</li>\n            <li><strong>3 Aspek Utama SI:</strong> Teknologi Informasi (<em>hardware, software, data storage, telekomunikasi</em>), <strong>Manusia</strong>, dan <strong>Proses</strong>.</li>\n            <li><strong>3 Aset Pelengkap (Complementary Assets):</strong> Investasi TI gagal tanpa <mark class=\"hl-mint\">aset organisasi</mark> (budaya, proses bisnis), <mark class=\"hl-mint\">aset manajerial</mark> (dukungan manajemen), dan <mark class=\"hl-mint\">aset sosial</mark> (regulasi, infrastruktur publik).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2 &amp; 3: Sasaran Strategis &amp; 3 Pendekatan Studi SI</h4>\n          <ul class=\"neat\">\n            <li><strong>6 Sasaran Strategis Investasi TI:</strong> (1) Keunggulan operasional, (2) Produk/jasa &amp; model usaha baru, (3) Keakraban pelanggan &amp; pemasok, (4) Perbaikan kualitas keputusan, (5) Keunggulan kompetitif, (6) Bertahan hidup (<em>survival</em>).</li>\n            <li><strong>Pendekatan Teknis (Hard Approach):</strong> Ilmu Komputer, Manajemen Sains, &amp; <em>Operations Research</em> (model matematis &amp; optimasi).</li>\n            <li><strong>Pendekatan Perilaku (Soft Approach):</strong> Sosiologi (kelompok/organisasi), Psikologi (persepsi individu), &amp; Ekonomi (produksi barang digital &amp; struktur biaya).</li>\n            <li><strong>Pendekatan Sosio-Teknikal:</strong> Menggabungkan pendekatan teknis + perilaku.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 1</h4>\n        <ul class=\"neat\">\n          <li><strong>Subsistem, Sistem &amp; Supra Sistem (Bertalanffy; Checkland):</strong> Suatu sistem tersusun atas subsistem yang saling berinteraksi, dan sekaligus menjadi subsistem bagi <em>supra sistem</em> yang lebih besar.</li>\n          <li><strong>3 Dimensi SI (Laudon &amp; Laudon) &amp; 4 Tipe SI (Turban):</strong> Dimensi <em>Organisasi</em> (hierarki, SOP, budaya, 4 area fungsional), <em>Manajemen</em> (4 fungsi Stoner: perencanaan, pengorganisasian, pengarahan, pengendalian), dan <em>TI</em>. Tipe SI: <strong>TPS</strong> (operasional, efisiensi), <strong>SIM</strong> (terstruktur, data lalu/kini), <strong>SPK/DSS</strong> (semi/tidak terstruktur, pemodelan), <strong>SIE/ESS</strong> (puncak, efektivitas masa depan).</li>\n          <li><strong>Efektif vs Efisien &amp; Barang Digital:</strong> <em>Efektif</em> = mencapai tujuan dengan cara benar; <em>Efisien</em> = hemat sumber daya. Barang digital memiliki biaya produksi utama hanya di <strong>unit pertama</strong> (salinan berikutnya mendekati nol).</li>\n          <li><strong>7 Kriteria Informasi Berkualitas (Romney &amp; Steinbart):</strong> Relevan, andal, lengkap, tepat waktu, dapat dipahami, terverifikasi, dan dapat diakses.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">3 Aspek SI, Aset Pelengkap &amp; 3 Pendekatan Studi SI (Modul 1)</div>\n        <svg width=\"680\" height=\"112\" viewBox=\"0 0 680 112\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"92\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3 Aset Pelengkap Investasi TI</text>\n          <rect x=\"22\" y=\"38\" width=\"90\" height=\"50\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"67\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Organisasi</text><text x=\"67\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Budaya/Proses</text>\n          <rect x=\"122\" y=\"38\" width=\"96\" height=\"50\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"170\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Manajerial</text><text x=\"170\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Insentif/Pimpinan</text>\n          <rect x=\"228\" y=\"38\" width=\"90\" height=\"50\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"273\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Sosial</text><text x=\"273\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Regulasi/Hukum</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"92\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3 Pendekatan Studi SIM</text>\n          <rect x=\"362\" y=\"38\" width=\"90\" height=\"50\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"407\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Teknis</text><text x=\"407\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">CS · MS · OR</text>\n          <rect x=\"462\" y=\"38\" width=\"96\" height=\"50\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"510\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Perilaku</text><text x=\"510\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Sosiologi·Psiko</text>\n          <rect x=\"568\" y=\"38\" width=\"90\" height=\"50\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"613\" y=\"60\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Sosio-Teknik</text><text x=\"613\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Gabungan</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Investasi TI harus ditopang <strong>3 Aset Pelengkap</strong> (Organisasi, Manajerial, Sosial) agar bernilai bisnis. Kajian SIM memadukan <strong>3 Pendekatan</strong>: Teknis (matematis), Perilaku (manusia), dan Sosio-Teknikal (gabungan).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Complementary Assets</span>\n          <span class=\"kw-chip\">Hard vs Soft Approach</span>\n          <span class=\"kw-chip\">Sosio-Teknikal</span>\n          <span class=\"kw-chip\">Disrupsi Teknologi</span>\n          <span class=\"kw-chip\">Big Data (3V)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Investasi TI saja tidak menjamin profit tanpa <em>aset pelengkap</em> (organisasi, manajerial, sosial). Pendekatan <strong>Sosio-Teknikal</strong> menyeimbangkan teknologi dan manusia.</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Sistem Informasi dalam Bisnis KB 1: Definisi, Aspek & Aset Pelengkap Sistem Informasi: Sistem untuk mengumpulkan, mengolah, menyimpan, dan mendistribusikan informasi guna mendukung operasi & keputusan organisasi. 3 Aspek Utama SI: Teknologi Informasi ( hardware, software, data storage, telekomunikasi ), Manusia , dan Proses . 3 Aset Pelengkap (Complementary Assets): Investasi TI gagal tanpa aset organisasi (budaya, proses bisnis), aset manajerial (dukungan manajemen), dan aset sosial (regulasi, infrastruktur publik). KB 2 & 3: Sasaran Strategis & 3 Pendekatan Studi SI 6 Sasaran Strategis Investasi TI: (1) Keunggulan operasional, (2) Produk/jasa & model usaha baru, (3) Keakraban pelanggan & pemasok, (4) Perbaikan kualitas keputusan, (5) Keunggulan kompetitif, (6) Bertahan hidup ( survival ). Pendekatan Teknis (Hard Approach): Ilmu Komputer, Manajemen Sains, & Operations Research (model matematis & optimasi). Pendekatan Perilaku (Soft Approach): Sosiologi (kelompok/organisasi), Psikologi (persepsi individu), & Ekonomi (produksi barang digital & struktur biaya). Pendekatan Sosio-Teknikal: Menggabungkan pendekatan teknis + perilaku. 📌 Detail Kecil Wajib Tahu — Modul 1 Subsistem, Sistem & Supra Sistem (Bertalanffy; Checkland): Suatu sistem tersusun atas subsistem yang saling berinteraksi, dan sekaligus menjadi subsistem bagi supra sistem yang lebih besar. 3 Dimensi SI (Laudon & Laudon) & 4 Tipe SI (Turban): Dimensi Organisasi (hierarki, SOP, budaya, 4 area fungsional), Manajemen (4 fungsi Stoner: perencanaan, pengorganisasian, pengarahan, pengendalian), dan TI . Tipe SI: TPS (operasional, efisiensi), SIM (terstruktur, data lalu/kini), SPK/DSS (semi/tidak terstruktur, pemodelan), SIE/ESS (puncak, efektivitas masa depan). Efektif vs Efisien & Barang Digital: Efektif = mencapai tujuan dengan cara benar; Efisien = hemat sumber daya. Barang digital memiliki biaya produksi utama hanya di unit pertama (salinan berikutnya mendekati nol). 7 Kriteria Informasi Berkualitas (Romney & Steinbart): Relevan, andal, lengkap, tepat waktu, dapat dipahami, terverifikasi, dan dapat diakses. 3 Aspek SI, Aset Pelengkap & 3 Pendekatan Studi SI (Modul 1) 3 Aset Pelengkap Investasi TI Organisasi Budaya/Proses Manajerial Insentif/Pimpinan Sosial Regulasi/Hukum 3 Pendekatan Studi SIM Teknis CS · MS · OR Perilaku Sosiologi·Psiko Sosio-Teknik Gabungan Penjelasan Diagram: Investasi TI harus ditopang 3 Aset Pelengkap (Organisasi, Manajerial, Sosial) agar bernilai bisnis. Kajian SIM memadukan 3 Pendekatan : Teknis (matematis), Perilaku (manusia), dan Sosio-Teknikal (gabungan). 🔑 Kata Kunci Wajib Ingat — Modul 1 Complementary Assets Hard vs Soft Approach Sosio-Teknikal Disrupsi Teknologi Big Data (3V) Poin Ujian: Investasi TI saja tidak menjamin profit tanpa aset pelengkap (organisasi, manajerial, sosial). Pendekatan Sosio-Teknikal menyeimbangkan teknologi dan manusia."
+    },
+    {
+      "id": "m2",
+      "title": "Sistem Informasi untuk Bisnis: Kolaborasi & Strategi",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#2563eb;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Sistem Informasi untuk Bisnis: Kolaborasi &amp; Strategi</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Proses Bisnis, TPS vs BI &amp; Aplikasi Enterprise</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Cara TI Memperbaiki Proses Bisnis:</strong> (1) Mengotomatiskan proses manual, (2) Menyederhanakan proses, (3) Menciptakan proses bisnis baru.</li>\n            <li><strong>TPS vs Business Intelligence (BI):</strong> <mark class=\"hl-blue\">TPS</mark> mencatat transaksi rutin harian (operasional); <mark class=\"hl-yellow\">BI</mark> menganalisis data dari TPS untuk pengambilan keputusan manajemen.</li>\n            <li><strong>4 Aplikasi Enterprise:</strong> ERP, SCM, CRM, dan Knowledge Management (KM).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Kolaborasi, 5 Kekuatan Porter &amp; Strategi Generik</h4>\n          <ul class=\"neat\">\n            <li><strong>5 Kekuatan Kompetitif Porter:</strong> Pesaing industri, pendatang baru, produk substitusi, daya tawar pembeli, daya tawar pemasok.</li>\n            <li><strong>4 Strategi Generik Bersaing:</strong> (1) Kepemimpinan biaya rendah, (2) Diferensiasi produk, (3) Fokus ceruk pasar, (4) Penguatan keintiman pelanggan &amp; pemasok.</li>\n            <li><strong>Value Chain:</strong> Aktivitas Utama (logistik masuk/keluar, operasi, pemasaran, layanan) &amp; Pendukung (infrastruktur, SDM, TI, pengadaan).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 2</h4>\n        <ul class=\"neat\">\n          <li><strong>Silo Informasi &amp; Tata Kelola TI (CIO):</strong> Sistem fungsional yang terpisah menciptakan <em>silo informasi</em> (sulit berbagi data) sehingga perlu diintegrasikan lewat aplikasi enterprise. Unit TI dipimpin <strong>CIO</strong> (<em>Chief Information Officer</em>) yang sejajar direksi dan melapor ke CEO (dahulu disebut bagian <em>EDP</em>).</li>\n          <li><strong>E-Business vs E-Commerce vs E-Government:</strong> <em>E-Business</em> mencakup seluruh fungsi bisnis via Internet; <em>E-Commerce</em> adalah bagian dari e-business khusus perdagangan; <em>E-Government</em> adalah layanan publik digital.</li>\n          <li><strong>Definisi Organisasi &amp; Dampak Ekonomi TI:</strong> Secara <em>teknis</em>, organisasi adalah struktur sosial formal yang stabil; secara <em>perilaku</em>, kumpulan hak, kewajiban, wewenang, dan tanggung jawab. TI melangsingkan struktur organisasi serta menekan <strong>biaya transaksi</strong> (Williamson) dan biaya supervisi/agensi.</li>\n          <li><strong>Benchmarking, Kompetensi Inti &amp; Tantangan Strategis:</strong> <em>Benchmarking</em> = membandingkan proses internal dengan perusahaan terbaik; <em>Kompetensi inti</em> (Prahalad &amp; Hamel) = kombinasi keterampilan pembeda; <em>Perusahaan maya</em> = kolaborasi lintas entitas. Dua tantangan utama: mempertahankan keunggulan (mudah ditiru di Internet) dan <strong>keselarasan TI-bisnis</strong>.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Porter's 5 Competitive Forces &amp; Value Chain (Modul 2)</div>\n        <svg width=\"680\" height=\"135\" viewBox=\"0 0 680 135\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"115\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" />\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">5 Kekuatan Kompetitif Porter</text>\n          <rect x=\"110\" y=\"34\" width=\"120\" height=\"22\" rx=\"4\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"170\" y=\"49\" text-anchor=\"middle\" font-size=\"9.5\">Pendatang Baru</text>\n          <rect x=\"18\" y=\"62\" width=\"84\" height=\"26\" rx=\"4\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"60\" y=\"79\" text-anchor=\"middle\" font-size=\"9.5\">Pemasok</text>\n          <rect x=\"110\" y=\"62\" width=\"120\" height=\"26\" rx=\"4\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"170\" y=\"79\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Persaingan Industri</text>\n          <rect x=\"238\" y=\"62\" width=\"84\" height=\"26\" rx=\"4\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"280\" y=\"79\" text-anchor=\"middle\" font-size=\"9.5\">Pembeli</text>\n          <rect x=\"110\" y=\"94\" width=\"120\" height=\"22\" rx=\"4\" fill=\"#ffe4e6\" stroke=\"#24292f\" /><text x=\"170\" y=\"109\" text-anchor=\"middle\" font-size=\"9.5\">Produk Substitusi</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"115\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\" />\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">Value Chain (Rantai Nilai)</text>\n          <rect x=\"365\" y=\"36\" width=\"290\" height=\"38\" rx=\"4\" fill=\"#ffffff\" stroke=\"#24292f\" />\n          <text x=\"510\" y=\"51\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Aktivitas Pendukung:</text>\n          <text x=\"510\" y=\"65\" text-anchor=\"middle\" font-size=\"9.5\">Infrastruktur, SDM, TI, Pengadaan</text>\n          <rect x=\"365\" y=\"80\" width=\"290\" height=\"38\" rx=\"4\" fill=\"#d1fae5\" stroke=\"#24292f\" />\n          <text x=\"510\" y=\"95\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Aktivitas Utama:</text>\n          <text x=\"510\" y=\"109\" text-anchor=\"middle\" font-size=\"9.5\">Logistik → Operasi → Pemasaran → Layanan</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: <strong>5 Kekuatan Porter</strong> menganalisis tekanan persaingan industri (pendatang baru, pemasok, pembeli, substitusi). Kanan: <strong>Value Chain</strong> memisahkan aktivitas utama (logistik–layanan) dan aktivitas pendukung (infrastruktur–pengadaan).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">TPS vs BI</span>\n          <span class=\"kw-chip\">5 Forces Porter</span>\n          <span class=\"kw-chip\">Value Chain</span>\n          <span class=\"kw-chip\">Cost Leadership</span>\n          <span class=\"kw-chip\">Diferensiasi</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> TPS = transaksi harian; BI = analisis untuk manajer. Dalam <em>Value Chain</em>, pengadaan/TI/SDM adalah <strong>aktivitas pendukung</strong>, sedangkan logistik/operasi/pemasaran adalah <strong>aktivitas utama</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Sistem Informasi untuk Bisnis: Kolaborasi & Strategi KB 1: Proses Bisnis, TPS vs BI & Aplikasi Enterprise 3 Cara TI Memperbaiki Proses Bisnis: (1) Mengotomatiskan proses manual, (2) Menyederhanakan proses, (3) Menciptakan proses bisnis baru. TPS vs Business Intelligence (BI): TPS mencatat transaksi rutin harian (operasional); BI menganalisis data dari TPS untuk pengambilan keputusan manajemen. 4 Aplikasi Enterprise: ERP, SCM, CRM, dan Knowledge Management (KM). KB 2: Kolaborasi, 5 Kekuatan Porter & Strategi Generik 5 Kekuatan Kompetitif Porter: Pesaing industri, pendatang baru, produk substitusi, daya tawar pembeli, daya tawar pemasok. 4 Strategi Generik Bersaing: (1) Kepemimpinan biaya rendah, (2) Diferensiasi produk, (3) Fokus ceruk pasar, (4) Penguatan keintiman pelanggan & pemasok. Value Chain: Aktivitas Utama (logistik masuk/keluar, operasi, pemasaran, layanan) & Pendukung (infrastruktur, SDM, TI, pengadaan). 📌 Detail Kecil Wajib Tahu — Modul 2 Silo Informasi & Tata Kelola TI (CIO): Sistem fungsional yang terpisah menciptakan silo informasi (sulit berbagi data) sehingga perlu diintegrasikan lewat aplikasi enterprise. Unit TI dipimpin CIO ( Chief Information Officer ) yang sejajar direksi dan melapor ke CEO (dahulu disebut bagian EDP ). E-Business vs E-Commerce vs E-Government: E-Business mencakup seluruh fungsi bisnis via Internet; E-Commerce adalah bagian dari e-business khusus perdagangan; E-Government adalah layanan publik digital. Definisi Organisasi & Dampak Ekonomi TI: Secara teknis , organisasi adalah struktur sosial formal yang stabil; secara perilaku , kumpulan hak, kewajiban, wewenang, dan tanggung jawab. TI melangsingkan struktur organisasi serta menekan biaya transaksi (Williamson) dan biaya supervisi/agensi. Benchmarking, Kompetensi Inti & Tantangan Strategis: Benchmarking = membandingkan proses internal dengan perusahaan terbaik; Kompetensi inti (Prahalad & Hamel) = kombinasi keterampilan pembeda; Perusahaan maya = kolaborasi lintas entitas. Dua tantangan utama: mempertahankan keunggulan (mudah ditiru di Internet) dan keselarasan TI-bisnis . Porter's 5 Competitive Forces & Value Chain (Modul 2) 5 Kekuatan Kompetitif Porter Pendatang Baru Pemasok Persaingan Industri Pembeli Produk Substitusi Value Chain (Rantai Nilai) Aktivitas Pendukung: Infrastruktur, SDM, TI, Pengadaan Aktivitas Utama: Logistik → Operasi → Pemasaran → Layanan Penjelasan Diagram: Kiri: 5 Kekuatan Porter menganalisis tekanan persaingan industri (pendatang baru, pemasok, pembeli, substitusi). Kanan: Value Chain memisahkan aktivitas utama (logistik–layanan) dan aktivitas pendukung (infrastruktur–pengadaan). 🔑 Kata Kunci Wajib Ingat — Modul 2 TPS vs BI 5 Forces Porter Value Chain Cost Leadership Diferensiasi Poin Ujian: TPS = transaksi harian; BI = analisis untuk manajer. Dalam Value Chain , pengadaan/TI/SDM adalah aktivitas pendukung , sedangkan logistik/operasi/pemasaran adalah aktivitas utama ."
+    },
+    {
+      "id": "m3",
+      "title": "Permasalahan Sosial & Etika pada Sistem Informasi",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#0ea5e9;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Permasalahan Sosial &amp; Etika pada Sistem Informasi</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Etika, Dilema Etika &amp; 5 Dimensi Moral</h4>\n          <ul class=\"neat\">\n            <li><strong>Etika vs Hukum:</strong> Etika memandu keputusan saat regulasi belum mengatur. Tindakan tidak etis belum tentu melanggar hukum (<em>illegal</em>).</li>\n            <li><strong>Dilema Etika:</strong> Situasi konflik antara dua keharusan moral di mana semua opsi sama-sama tidak ideal.</li>\n            <li><strong>5 Dimensi Moral Era Informasi:</strong> (1) Hak &amp; kewajiban informasi (privasi), (2) Hak &amp; kewajiban kepemilikan (HAKI), (3) Akuntabilitas &amp; pengendalian, (4) Kualitas sistem, (5) Kualitas hidup.</li>\n            <li><strong>NORA:</strong> <em>Nonobvious Relationship Awareness</em> — profiling hubungan tersembunyi lintas basis data.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Privasi (Opt-In vs Opt-Out) &amp; Hak Kekayaan Intelektual</h4>\n          <ul class=\"neat\">\n            <li><strong>Opt-Out vs Opt-In:</strong> <mark class=\"hl-pink\">Opt-Out</mark> = data dianggap boleh dipakai kecuali pemilik menolak eksplisit; <mark class=\"hl-mint\">Opt-In</mark> = data dilarang dipakai kecuali pemilik setuju eksplisit.</li>\n            <li><strong>Rahasia Dagang:</strong> Formula/metode bisnis rahasia (sulit dilindungi jika produk tersebar luas).</li>\n            <li><strong>Hak Cipta (Copyright):</strong> Melindungi ekspresi karya (buku, musik, software) berlaku <mark class=\"hl-yellow\">seumur hidup + 70 tahun</mark>.</li>\n            <li><strong>Hak Paten:</strong> Hak eksklusif negara atas invensi teknologi (<mark class=\"hl-yellow\">20 tahun</mark>, tidak dapat diperpanjang).</li>\n            <li><strong>Regulasi Privasi RI:</strong> UU No. 39/1999 (HAM) &amp; UU No. 12/2003 (ICCPR).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 3</h4>\n        <ul class=\"neat\">\n          <li><strong>3 Konsep Dasar Keputusan Etis:</strong> <em>Tanggung jawab</em> (siap menanggung akibat), <em>Akuntabilitas</em> (mekanisme pertanggungjawaban), dan <em>Liabilitas</em> (pertanggungjawaban hukum/ganti rugi, mis. kasus mesin radiasi <em>Therac-25</em>).</li>\n          <li><strong>5 Prinsip Pengambilan Keputusan Etis:</strong> (1) <em>Golden Rule</em> (perlakukan orang lain seperti kita ingin diperlakukan), (2) <em>Categorical Imperative</em> / Kant (tak layak bagi semua = tak layak bagi seseorang), (3) <em>Descartes' Rule of Change</em> (tak bisa diulang = jangan dilakukan), (4) <em>Utilitarian</em> (nilai moral tertinggi), (5) <em>Risk Aversion</em> (kerugian paling minimal).</li>\n          <li><strong>5 Perlindungan HAKI Lengkap:</strong> Selain Rahasia Dagang, Hak Cipta (hidup + 70 tahun), dan Paten (20 tahun non-perpanjang), terdapat <strong>Merek Dagang</strong> (tanda pembeda perdagangan) dan <strong>Desain Industri</strong> (kreasi bentuk/konfigurasi 2D/3D estetis).</li>\n          <li><strong>Dampak Kualitas Hidup &amp; Lingkungan:</strong> Ancaman <em>Cookies</em> vs <em>Spyware</em>, kejahatan <em>Carding</em>, cedera fisik <strong>RSI</strong> (<em>Repetitive Stress Injury</em>), kesenjangan digital, serta 2 dampak lingkungan: konsumsi listrik masif pusat data dan limbah bahan beracun/B3 perangkat keras.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">5 Dimensi Moral, Privasi Opt-In vs Opt-Out &amp; Perlindungan HAKI (Modul 3)</div>\n        <svg width=\"680\" height=\"112\" viewBox=\"0 0 680 112\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"92\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Model Izin Data Pribadi</text>\n          <rect x=\"22\" y=\"38\" width=\"142\" height=\"52\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"93\" y=\"59\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Opt-In (Aman)</text><text x=\"93\" y=\"76\" text-anchor=\"middle\" font-size=\"9\">Wajib setuju eksplisit</text>\n          <rect x=\"176\" y=\"38\" width=\"142\" height=\"52\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"247\" y=\"59\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Opt-Out</text><text x=\"247\" y=\"76\" text-anchor=\"middle\" font-size=\"9\">Boleh sampai ditolak</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"92\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3 Perlindungan Kekayaan Intelektual</text>\n          <rect x=\"362\" y=\"38\" width=\"90\" height=\"52\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"407\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Rahasia</text><text x=\"407\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Formula/Pola</text>\n          <rect x=\"462\" y=\"38\" width=\"96\" height=\"52\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"510\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Hak Cipta</text><text x=\"510\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Hidup + 70 Th</text>\n          <rect x=\"568\" y=\"38\" width=\"90\" height=\"52\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"613\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Hak Paten</text><text x=\"613\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Invensi Tekno</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Model privasi <strong>Opt-In</strong> lebih ketat karena mewajibkan izin eksplisit pemilik data. Di sisi kanan, HAKI dilindungi lewat <em>Rahasia Dagang</em>, <em>Hak Cipta</em> (seumur hidup + 70 tahun), dan <em>Hak Paten</em>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">5 Dimensi Moral</span>\n          <span class=\"kw-chip\">Opt-In vs Opt-Out</span>\n          <span class=\"kw-chip\">NORA</span>\n          <span class=\"kw-chip\">Rahasia Dagang</span>\n          <span class=\"kw-chip\">Hak Cipta (+70 th)</span>\n          <span class=\"kw-chip\">Hak Paten</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Bedakan <strong>Opt-In</strong> (harus izin dulu) vs <strong>Opt-Out</strong> (boleh dulu sampai ditolak), serta <strong>Hak Cipta</strong> (karya ekspresi, +70 tahun) vs <strong>Paten</strong> (invensi teknologi).</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Permasalahan Sosial & Etika pada Sistem Informasi KB 1: Etika, Dilema Etika & 5 Dimensi Moral Etika vs Hukum: Etika memandu keputusan saat regulasi belum mengatur. Tindakan tidak etis belum tentu melanggar hukum ( illegal ). Dilema Etika: Situasi konflik antara dua keharusan moral di mana semua opsi sama-sama tidak ideal. 5 Dimensi Moral Era Informasi: (1) Hak & kewajiban informasi (privasi), (2) Hak & kewajiban kepemilikan (HAKI), (3) Akuntabilitas & pengendalian, (4) Kualitas sistem, (5) Kualitas hidup. NORA: Nonobvious Relationship Awareness — profiling hubungan tersembunyi lintas basis data. KB 2: Privasi (Opt-In vs Opt-Out) & Hak Kekayaan Intelektual Opt-Out vs Opt-In: Opt-Out = data dianggap boleh dipakai kecuali pemilik menolak eksplisit; Opt-In = data dilarang dipakai kecuali pemilik setuju eksplisit. Rahasia Dagang: Formula/metode bisnis rahasia (sulit dilindungi jika produk tersebar luas). Hak Cipta (Copyright): Melindungi ekspresi karya (buku, musik, software) berlaku seumur hidup + 70 tahun . Hak Paten: Hak eksklusif negara atas invensi teknologi ( 20 tahun , tidak dapat diperpanjang). Regulasi Privasi RI: UU No. 39/1999 (HAM) & UU No. 12/2003 (ICCPR). 📌 Detail Kecil Wajib Tahu — Modul 3 3 Konsep Dasar Keputusan Etis: Tanggung jawab (siap menanggung akibat), Akuntabilitas (mekanisme pertanggungjawaban), dan Liabilitas (pertanggungjawaban hukum/ganti rugi, mis. kasus mesin radiasi Therac-25 ). 5 Prinsip Pengambilan Keputusan Etis: (1) Golden Rule (perlakukan orang lain seperti kita ingin diperlakukan), (2) Categorical Imperative / Kant (tak layak bagi semua = tak layak bagi seseorang), (3) Descartes' Rule of Change (tak bisa diulang = jangan dilakukan), (4) Utilitarian (nilai moral tertinggi), (5) Risk Aversion (kerugian paling minimal). 5 Perlindungan HAKI Lengkap: Selain Rahasia Dagang, Hak Cipta (hidup + 70 tahun), dan Paten (20 tahun non-perpanjang), terdapat Merek Dagang (tanda pembeda perdagangan) dan Desain Industri (kreasi bentuk/konfigurasi 2D/3D estetis). Dampak Kualitas Hidup & Lingkungan: Ancaman Cookies vs Spyware , kejahatan Carding , cedera fisik RSI ( Repetitive Stress Injury ), kesenjangan digital, serta 2 dampak lingkungan: konsumsi listrik masif pusat data dan limbah bahan beracun/B3 perangkat keras. 5 Dimensi Moral, Privasi Opt-In vs Opt-Out & Perlindungan HAKI (Modul 3) Model Izin Data Pribadi Opt-In (Aman) Wajib setuju eksplisit Opt-Out Boleh sampai ditolak 3 Perlindungan Kekayaan Intelektual Rahasia Formula/Pola Hak Cipta Hidup + 70 Th Hak Paten Invensi Tekno Penjelasan Diagram: Model privasi Opt-In lebih ketat karena mewajibkan izin eksplisit pemilik data. Di sisi kanan, HAKI dilindungi lewat Rahasia Dagang , Hak Cipta (seumur hidup + 70 tahun), dan Hak Paten . 🔑 Kata Kunci Wajib Ingat — Modul 3 5 Dimensi Moral Opt-In vs Opt-Out NORA Rahasia Dagang Hak Cipta (+70 th) Hak Paten Poin Ujian: Bedakan Opt-In (harus izin dulu) vs Opt-Out (boleh dulu sampai ditolak), serta Hak Cipta (karya ekspresi, +70 tahun) vs Paten (invensi teknologi)."
+    },
+    {
+      "id": "m4",
+      "title": "Infrastruktur Teknologi Informasi",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#10b981;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Infrastruktur Teknologi Informasi</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Komponen &amp; Tren Hardware / Software</h4>\n          <ul class=\"neat\">\n            <li><strong>7 Komponen Infrastruktur TI:</strong> Hardware, sistem operasi, aplikasi korporasi, manajemen data, telekomunikasi/jaringan, platform Internet, &amp; jasa konsultasi/integrasi sistem.</li>\n            <li><mark class=\"hl-yellow\">Hukum Moore:</mark> Jumlah transistor pada chip berlipat ganda tiap 18–24 bulan (kinerja naik, biaya turun).</li>\n            <li><strong>Tren Hardware:</strong> Dominasi perangkat mobile, TI sebagai gaya hidup, <strong>komputasi kuantum (qubit)</strong>, dan komputasi awan (<em>cloud</em>).</li>\n            <li><strong>Tren Software:</strong> Lisensi <em>open source</em>, pengembangan berbasis web, dan <em>outsourcing</em> (alih daya).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Jaringan, Protokol Internet &amp; Tata Kelola Global</h4>\n          <ul class=\"neat\">\n            <li><strong>Kategori Jaringan (Jangkauan):</strong> PAN → LAN → CAN (<em>Campus</em>) → MAN → WAN.</li>\n            <li><strong>Media Transmisi:</strong> Kabel (tembaga, serat optik) &amp; Nirkabel (radio, seluler, satelit).</li>\n            <li><strong>Internet:</strong> Menggunakan metode <mark class=\"hl-mint\">Packet Switching</mark> &amp; protokol <strong>TCP/IP</strong> (IPv4 → IPv6).</li>\n            <li><strong>Badan Pengatur Internet:</strong> <strong>IAB</strong> (arsitektur), <strong>ICANN</strong> (nama domain &amp; IP), <strong>W3C</strong> (standar web).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 4</h4>\n        <ul class=\"neat\">\n          <li><strong>5 Era Evolusi Infrastruktur TI:</strong> (1) <em>Mainframe &amp; Minicomputer</em> (IBM 1401/7090 tahun 1959, PDP-11, VAX), (2) <em>Personal Computer</em> (IBM PC 1981, VisiCalc/Lotus 1-2-3), (3) <em>Client/Server</em>, (4) <em>Enterprise Computing</em>, (5) <em>Cloud &amp; Mobile Computing</em>.</li>\n          <li><strong>Hukum Metcalfe &amp; 3 Model Cloud:</strong> <em>Hukum Metcalfe</em> = kekuatan jaringan tumbuh eksponensial seiring pertambahan pengguna. Model Cloud: <strong>IaaS</strong> (infrastruktur server/storage), <strong>PaaS</strong> (platform pengembangan, mis. AWS untuk Netflix), <strong>SaaS</strong> (aplikasi siap pakai, mis. Office 365/Google Apps). Plus <em>Virtualisasi</em>, <em>BYOD</em>, dan <em>Green Computing</em>.</li>\n          <li><strong>Satuan Transmisi, DNS, Web &amp; VPN:</strong> Kecepatan transmisi diukur dalam <strong>bps</strong> (<em>bit per second</em>, bukan Bps); kabel LAN umumnya <strong>UTP</strong> (8 kabel berpasangan). <strong>DNS</strong> menerjemahkan domain ke IP; <strong>Web (WWW)</strong> diciptakan <em>Tim Berners-Lee</em> berbasis HTTP/HTML; <strong>VPN</strong> mengamankan koneksi publik; <em>Net Neutrality</em> menjaga kesetaraan akses.</li>\n          <li><strong>3 Tata Kelola Infrastruktur TI:</strong> <em>Sentralisasi</em> (terpusat), <em>Desentralisasi</em> (tiap unit mandiri), dan <em>Federalisasi</em> (kombinasi pusat-unit).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Skala Jaringan (PAN → WAN) &amp; Tata Kelola Internet Global (Modul 4)</div>\n        <svg width=\"680\" height=\"106\" viewBox=\"0 0 680 106\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"114\" height=\"36\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"67\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">PAN (Pribadi)</text>\n          <path d=\"M126 30 L144 30\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"146\" y=\"12\" width=\"114\" height=\"36\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"203\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">LAN (Gedung)</text>\n          <path d=\"M262 30 L280 30\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"282\" y=\"12\" width=\"114\" height=\"36\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"339\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">CAN (Kampus)</text>\n          <path d=\"M398 30 L416 30\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"418\" y=\"12\" width=\"114\" height=\"36\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"475\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">MAN (Kota)</text>\n          <path d=\"M534 30 L552 30\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"554\" y=\"12\" width=\"116\" height=\"36\" rx=\"6\" fill=\"#ede9fe\" stroke=\"#24292f\"/><text x=\"612\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">WAN (Global)</text>\n\n          <rect x=\"10\" y=\"60\" width=\"210\" height=\"34\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"115\" y=\"81\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">IAB (Arsitektur Internet)</text>\n          <rect x=\"235\" y=\"60\" width=\"210\" height=\"34\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"340\" y=\"81\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">ICANN (Domain &amp; Alamat IP)</text>\n          <rect x=\"460\" y=\"60\" width=\"210\" height=\"34\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"565\" y=\"81\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">W3C (Standar Web)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Jangkauan jaringan komputer meningkat dari <em>PAN</em> (pribadi) hingga <em>WAN</em> (global). Tata kelola standar Internet dunia dijaga oleh 3 badan utama: <strong>IAB</strong>, <strong>ICANN</strong>, dan <strong>W3C</strong>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Hukum Moore</span>\n          <span class=\"kw-chip\">PAN-LAN-CAN-MAN-WAN</span>\n          <span class=\"kw-chip\">Packet Switching</span>\n          <span class=\"kw-chip\">TCP/IP (IPv4/IPv6)</span>\n          <span class=\"kw-chip\">IAB · ICANN · W3C</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Internet memakai <em>Packet Switching</em> &amp; TCP/IP. Ingat peran 3 badan: <strong>ICANN</strong> (domain/IP), <strong>W3C</strong> (standar web HTML/CSS), <strong>IAB</strong> (arsitektur teknis).</p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Infrastruktur Teknologi Informasi KB 1: Komponen & Tren Hardware / Software 7 Komponen Infrastruktur TI: Hardware, sistem operasi, aplikasi korporasi, manajemen data, telekomunikasi/jaringan, platform Internet, & jasa konsultasi/integrasi sistem. Hukum Moore: Jumlah transistor pada chip berlipat ganda tiap 18–24 bulan (kinerja naik, biaya turun). Tren Hardware: Dominasi perangkat mobile, TI sebagai gaya hidup, komputasi kuantum (qubit) , dan komputasi awan ( cloud ). Tren Software: Lisensi open source , pengembangan berbasis web, dan outsourcing (alih daya). KB 2: Jaringan, Protokol Internet & Tata Kelola Global Kategori Jaringan (Jangkauan): PAN → LAN → CAN ( Campus ) → MAN → WAN. Media Transmisi: Kabel (tembaga, serat optik) & Nirkabel (radio, seluler, satelit). Internet: Menggunakan metode Packet Switching & protokol TCP/IP (IPv4 → IPv6). Badan Pengatur Internet: IAB (arsitektur), ICANN (nama domain & IP), W3C (standar web). 📌 Detail Kecil Wajib Tahu — Modul 4 5 Era Evolusi Infrastruktur TI: (1) Mainframe & Minicomputer (IBM 1401/7090 tahun 1959, PDP-11, VAX), (2) Personal Computer (IBM PC 1981, VisiCalc/Lotus 1-2-3), (3) Client/Server , (4) Enterprise Computing , (5) Cloud & Mobile Computing . Hukum Metcalfe & 3 Model Cloud: Hukum Metcalfe = kekuatan jaringan tumbuh eksponensial seiring pertambahan pengguna. Model Cloud: IaaS (infrastruktur server/storage), PaaS (platform pengembangan, mis. AWS untuk Netflix), SaaS (aplikasi siap pakai, mis. Office 365/Google Apps). Plus Virtualisasi , BYOD , dan Green Computing . Satuan Transmisi, DNS, Web & VPN: Kecepatan transmisi diukur dalam bps ( bit per second , bukan Bps); kabel LAN umumnya UTP (8 kabel berpasangan). DNS menerjemahkan domain ke IP; Web (WWW) diciptakan Tim Berners-Lee berbasis HTTP/HTML; VPN mengamankan koneksi publik; Net Neutrality menjaga kesetaraan akses. 3 Tata Kelola Infrastruktur TI: Sentralisasi (terpusat), Desentralisasi (tiap unit mandiri), dan Federalisasi (kombinasi pusat-unit). Skala Jaringan (PAN → WAN) & Tata Kelola Internet Global (Modul 4) PAN (Pribadi) LAN (Gedung) CAN (Kampus) MAN (Kota) WAN (Global) IAB (Arsitektur Internet) ICANN (Domain & Alamat IP) W3C (Standar Web) Penjelasan Diagram: Jangkauan jaringan komputer meningkat dari PAN (pribadi) hingga WAN (global). Tata kelola standar Internet dunia dijaga oleh 3 badan utama: IAB , ICANN , dan W3C . 🔑 Kata Kunci Wajib Ingat — Modul 4 Hukum Moore PAN-LAN-CAN-MAN-WAN Packet Switching TCP/IP (IPv4/IPv6) IAB · ICANN · W3C Poin Ujian: Internet memakai Packet Switching & TCP/IP. Ingat peran 3 badan: ICANN (domain/IP), W3C (standar web HTML/CSS), IAB (arsitektur teknis)."
+    },
+    {
+      "id": "m5",
+      "title": "Keamanan & Pengendalian Sistem Informasi",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#059669;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Keamanan &amp; Pengendalian Sistem Informasi</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Keamanan, Pengendalian &amp; Ancaman Malware</h4>\n          <ul class=\"neat\">\n            <li><strong>Keamanan vs Pengendalian:</strong> Keamanan = cegah akses ilegal/pencurian/perusakan; Pengendalian = jaga aset, akurasi catatan, &amp; kepatuhan manajemen.</li>\n            <li><strong>Jenis Malware:</strong> <em>Virus</em> (menempel ke file), <em>Worm</em> (menyebar mandiri lewat jaringan), <em>Trojan Horse</em> (menyamar jadi program baik), <em>Spyware</em> (memata-matai), <mark class=\"hl-pink\">Ransomware</mark> (mengenkripsi data lalu minta tebusan).</li>\n            <li><strong>Ancaman Internal Terbesar:</strong> Kejahatan, kecerobohan, &amp; ketidaktahuan karyawan sendiri.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Regulasi RI, Computer Forensic &amp; Jenis Pengendalian</h4>\n          <ul class=\"neat\">\n            <li><strong>Regulasi Keamanan RI:</strong> Permenkominfo No. 20/2016 (PDP), Permenkes No. 269/2008 (rekam medis pasien), UU No. 16/2009 (simpan data pajak min. <strong>10 tahun</strong>).</li>\n            <li><strong>Computer Forensic:</strong> Pengumpulan, pemeriksaan, penjagaan keaslian, &amp; analisis bukti digital secara ilmiah untuk kasus hukum.</li>\n            <li><strong>Pengendalian Umum vs Aplikasi:</strong> <mark class=\"hl-blue\">Umum</mark> = mencakup seluruh organisasi (hardware, software, prosedur); <mark class=\"hl-mint\">Aplikasi</mark> = spesifik per aplikasi (mis. penggajian vs penjualan) agar data terotorisasi &amp; akurat.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 5</h4>\n        <ul class=\"neat\">\n          <li><strong>Teknik Serangan Siber &amp; Wi-Fi:</strong> <em>Spoofing</em> (memalsukan identitas/membajak DNS) vs <em>Sniffing</em> (menyadap data jaringan); <em>SQL Injection</em>; <em>DDoS</em> via jaringan <em>Botnet</em> (mis. serangan Dyn 2016). Ancaman Wi-Fi: <em>Evil Twins</em> (access point palsu) &amp; <em>Piggybacking</em> (menumpang Wi-Fi terbuka).</li>\n          <li><strong>Phishing vs Pharming &amp; Zero-Day:</strong> <em>Phishing</em> memancing korban lewat email/situs palsu; <em>Pharming</em> membajak ISP/DNS agar korban diarahkan ke situs palsu walau mengetik URL benar. <em>Zero-Day Vulnerability</em> = celah keamanan yang belum diketahui pembuatnya (ditambal lewat <em>Patch</em>); <strong>Stuxnet</strong> (2010) = malware perang siber terhadap reaktor nuklir Iran.</li>\n          <li><strong>UU ITE (No. 11/2008) &amp; 3 Pengendalian Aplikasi:</strong> UU ITE mengakui <strong>bukti elektronik</strong> di pengadilan (dianalisis dengan <em>Computer Forensic</em>). Pengendalian aplikasi meliputi: (1) <em>Pengendalian Masukan</em>, (2) <em>Pengendalian Proses</em>, dan (3) <em>Pengendalian Keluaran</em>.</li>\n          <li><strong>DRP vs BCP &amp; Manajemen Risiko:</strong> <strong>DRP</strong> (<em>Disaster Recovery Planning</em>) fokus memulihkan layanan TI pascabencana; <strong>BCP</strong> (<em>Business Continuity Planning</em>) lebih luas agar proses bisnis kritis tetap berjalan. Didukung <em>Manajemen Identitas</em> dan <em>Audit SI</em>.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Jenis Malware &amp; Lapisan Pengendalian (Umum vs Aplikasi) (Modul 5)</div>\n        <svg width=\"680\" height=\"112\" viewBox=\"0 0 680 112\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"660\" height=\"46\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <rect x=\"20\" y=\"18\" width=\"116\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"78\" y=\"37\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Virus (File)</text>\n          <rect x=\"148\" y=\"18\" width=\"116\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"206\" y=\"37\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Worm (Jaringan)</text>\n          <rect x=\"276\" y=\"18\" width=\"124\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"338\" y=\"37\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Trojan (Menyamar)</text>\n          <rect x=\"412\" y=\"18\" width=\"116\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"470\" y=\"37\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Spyware (Intai)</text>\n          <rect x=\"540\" y=\"18\" width=\"120\" height=\"30\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"600\" y=\"37\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Ransomware</text>\n\n          <rect x=\"10\" y=\"64\" width=\"320\" height=\"38\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"87\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">General Control (Seluruh Organisasi)</text>\n          <rect x=\"350\" y=\"64\" width=\"320\" height=\"38\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"87\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Application Control (Spesifik Aplikasi)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Ragam ancaman <em>Malware</em> (Virus, Worm, Trojan, Spyware, Ransomware) ditangkal melalui dua lapis pengendalian: <strong>General Control</strong> (kebijakan/infrastruktur organisasi) dan <strong>Application Control</strong> (validasi spesifik tiap aplikasi).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Virus vs Worm vs Trojan</span>\n          <span class=\"kw-chip\">Ransomware</span>\n          <span class=\"kw-chip\">Permenkominfo 20/2016</span>\n          <span class=\"kw-chip\">UU Pajak 10 Tahun</span>\n          <span class=\"kw-chip\">Computer Forensic</span>\n          <span class=\"kw-chip\">General vs Application Control</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Ancaman terbesar sering berasal dari <strong>internal (karyawan)</strong>. Bedakan <strong>Pengendalian Umum</strong> (seluruh TI) dan <strong>Pengendalian Aplikasi</strong> (spesifik tiap modul aplikasi).</p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Keamanan & Pengendalian Sistem Informasi KB 1: Keamanan, Pengendalian & Ancaman Malware Keamanan vs Pengendalian: Keamanan = cegah akses ilegal/pencurian/perusakan; Pengendalian = jaga aset, akurasi catatan, & kepatuhan manajemen. Jenis Malware: Virus (menempel ke file), Worm (menyebar mandiri lewat jaringan), Trojan Horse (menyamar jadi program baik), Spyware (memata-matai), Ransomware (mengenkripsi data lalu minta tebusan). Ancaman Internal Terbesar: Kejahatan, kecerobohan, & ketidaktahuan karyawan sendiri. KB 2: Regulasi RI, Computer Forensic & Jenis Pengendalian Regulasi Keamanan RI: Permenkominfo No. 20/2016 (PDP), Permenkes No. 269/2008 (rekam medis pasien), UU No. 16/2009 (simpan data pajak min. 10 tahun ). Computer Forensic: Pengumpulan, pemeriksaan, penjagaan keaslian, & analisis bukti digital secara ilmiah untuk kasus hukum. Pengendalian Umum vs Aplikasi: Umum = mencakup seluruh organisasi (hardware, software, prosedur); Aplikasi = spesifik per aplikasi (mis. penggajian vs penjualan) agar data terotorisasi & akurat. 📌 Detail Kecil Wajib Tahu — Modul 5 Teknik Serangan Siber & Wi-Fi: Spoofing (memalsukan identitas/membajak DNS) vs Sniffing (menyadap data jaringan); SQL Injection ; DDoS via jaringan Botnet (mis. serangan Dyn 2016). Ancaman Wi-Fi: Evil Twins (access point palsu) & Piggybacking (menumpang Wi-Fi terbuka). Phishing vs Pharming & Zero-Day: Phishing memancing korban lewat email/situs palsu; Pharming membajak ISP/DNS agar korban diarahkan ke situs palsu walau mengetik URL benar. Zero-Day Vulnerability = celah keamanan yang belum diketahui pembuatnya (ditambal lewat Patch ); Stuxnet (2010) = malware perang siber terhadap reaktor nuklir Iran. UU ITE (No. 11/2008) & 3 Pengendalian Aplikasi: UU ITE mengakui bukti elektronik di pengadilan (dianalisis dengan Computer Forensic ). Pengendalian aplikasi meliputi: (1) Pengendalian Masukan , (2) Pengendalian Proses , dan (3) Pengendalian Keluaran . DRP vs BCP & Manajemen Risiko: DRP ( Disaster Recovery Planning ) fokus memulihkan layanan TI pascabencana; BCP ( Business Continuity Planning ) lebih luas agar proses bisnis kritis tetap berjalan. Didukung Manajemen Identitas dan Audit SI . Jenis Malware & Lapisan Pengendalian (Umum vs Aplikasi) (Modul 5) Virus (File) Worm (Jaringan) Trojan (Menyamar) Spyware (Intai) Ransomware General Control (Seluruh Organisasi) Application Control (Spesifik Aplikasi) Penjelasan Diagram: Ragam ancaman Malware (Virus, Worm, Trojan, Spyware, Ransomware) ditangkal melalui dua lapis pengendalian: General Control (kebijakan/infrastruktur organisasi) dan Application Control (validasi spesifik tiap aplikasi). 🔑 Kata Kunci Wajib Ingat — Modul 5 Virus vs Worm vs Trojan Ransomware Permenkominfo 20/2016 UU Pajak 10 Tahun Computer Forensic General vs Application Control Poin Ujian: Ancaman terbesar sering berasal dari internal (karyawan) . Bedakan Pengendalian Umum (seluruh TI) dan Pengendalian Aplikasi (spesifik tiap modul aplikasi)."
+    },
+    {
+      "id": "m6",
+      "title": "Manajemen Data & Pengetahuan (Knowledge Management)",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#0d9488;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Manajemen Data &amp; Pengetahuan (Knowledge Management)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Hierarki Data, RDBMS &amp; Data Tidak Terstruktur</h4>\n          <ul class=\"neat\">\n            <li><strong>Hierarki Data:</strong> <code>Bit (binary digit) → Byte (8 bit ASCII) → Field (Atribut) → Record (Baris) → File → Database</code>.</li>\n            <li><strong>Basis Data Relasional (E.F. Codd, 1970):</strong> Tabel 2 dimensi (kolom = Field/Atribut, baris = Record) yang unggul untuk data terstruktur.</li>\n            <li><strong>Kelemahan File Tradisional:</strong> Redundansi &amp; inkonsistensi data, ketergantungan program-data, tidak fleksibel, keamanan lemah.</li>\n            <li><strong>Tantangan Big Data:</strong> RDBMS kesulitan mengolah data tidak terstruktur (video, audio, log perilaku) dalam volume masif.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: DIKW &amp; Tacit vs Explicit Knowledge</h4>\n          <ul class=\"neat\">\n            <li><strong>Tangga DIKW:</strong> <em>Data</em> (fakta mentah) → <em>Informasi</em> (data bermakna) → <em>Pengetahuan</em> (kerangka wawasan) → <em>Kebijaksanaan (Wisdom)</em> (penerapan kolektif).</li>\n            <li><mark class=\"hl-yellow\">Tacit Knowledge:</mark> Pengetahuan di benak individu, belum terdokumentasi (pengalaman, intuisi).</li>\n            <li><mark class=\"hl-mint\">Explicit Knowledge:</mark> Pengetahuan yang sudah didokumentasikan sehingga mudah dipelajari &amp; disebarkan.</li>\n            <li><strong>Learning Organization:</strong> Organisasi yang terus belajar via eksperimen &amp; umpan balik agar adaptif.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 6</h4>\n        <ul class=\"neat\">\n          <li><strong>Normalisasi &amp; 3 Anomali Data (Codd):</strong> Normalisasi meminimalkan duplikasi dan mencegah: (1) <em>Insertion anomaly</em> (data tak bisa disisipkan), (2) <em>Deletion anomaly</em> (hapus baris menghilangkan data entitas lain), dan (3) <em>Update anomaly</em> (ubah satu item harus ubah banyak baris). Manipulasi data standar menggunakan <strong>SQL</strong> (<em>Query</em>).</li>\n          <li><strong>Infrastruktur Big Data (Petabyte–Exabyte):</strong> Memakai basis data non-relasional <strong>NoSQL</strong> dan kerangka kerja <strong>Hadoop</strong> dengan 2 modul utama: <em>HDFS</em> (penyimpanan terdistribusi) &amp; <em>MapReduce</em> (pemrosesan paralel), serta <em>In-Memory Computing</em> (RAM).</li>\n          <li><strong>Data Warehouse, Data Mart, ETL, OLAP &amp; Data Mining:</strong> <em>Data Warehouse</em> menggabungkan data historis via proses <strong>ETL</strong> (<em>Extract, Transform, Load</em>); <em>Data Mart</em> adalah subset DW per fungsi bisnis. Analisis memakai <strong>OLAP</strong> (multidimensi) dan <strong>Data Mining</strong> (menemukan pola/asosiasi/klasifikasi).</li>\n          <li><strong>Rantai Nilai KM &amp; Sistem Pendukung:</strong> 4 tahap rantai nilai KM (Laudon &amp; Laudon): <strong>Akuisisi → Penyimpanan → Penyemaian → Penerapan</strong>. Didukung <strong>ECM</strong> (<em>Enterprise Content Management</em>) + <em>Taksonomi</em> (klasifikasi), <strong>LMS</strong> (<em>Learning Management System</em>), dan <em>Pekerja Pengetahuan</em> (konsultan internal &amp; agen perubahan).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Hierarki Data Komputer (Modul 6) &amp; Tangga Pengetahuan DIKW</div>\n        <svg width=\"680\" height=\"115\" viewBox=\"0 0 680 115\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"90\" height=\"36\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"55\" y=\"36\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Bit / Byte</text>\n          <path d=\"M102 32 L118 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"120\" y=\"14\" width=\"95\" height=\"36\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"167\" y=\"36\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Field</text>\n          <path d=\"M217 32 L233 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"235\" y=\"14\" width=\"95\" height=\"36\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"282\" y=\"36\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Record</text>\n          <path d=\"M332 32 L348 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"350\" y=\"14\" width=\"95\" height=\"36\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"397\" y=\"36\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">File / Tabel</text>\n          <path d=\"M447 32 L463 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"465\" y=\"14\" width=\"205\" height=\"36\" rx=\"6\" fill=\"#ede9fe\" stroke=\"#24292f\"/><text x=\"567\" y=\"36\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Database → Data Warehouse</text>\n\n          <rect x=\"10\" y=\"66\" width=\"155\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"87\" y=\"88\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">1. Data (Fakta)</text>\n          <path d=\"M167 84 L183 84\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"185\" y=\"66\" width=\"150\" height=\"36\" rx=\"6\" fill=\"#fef9c3\" stroke=\"#24292f\"/><text x=\"260\" y=\"88\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">2. Information (Makna)</text>\n          <path d=\"M337 84 L353 84\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"355\" y=\"66\" width=\"150\" height=\"36\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"430\" y=\"88\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">3. Knowledge (Wawasan)</text>\n          <path d=\"M507 84 L523 84\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"525\" y=\"66\" width=\"145\" height=\"36\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"597\" y=\"88\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">4. Wisdom (Bijaksana)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Atas: Hierarki penyimpanan data dari <code>Bit/Byte → Data Warehouse</code>. Bawah: Tangga <strong>DIKW</strong> menunjukkan transformasi fakta mentah (<em>Data</em>) menjadi <em>Information → Knowledge → Wisdom</em>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Bit → Byte (8 bit) → Field → Record → File → DB</span>\n          <span class=\"kw-chip\">E.F. Codd (1970)</span>\n          <span class=\"kw-chip\">Tacit vs Explicit Knowledge</span>\n          <span class=\"kw-chip\">Learning Organization</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> 1 Byte = 8 Bit (ASCII). <strong>Tacit</strong> = di kepala individu (belum tertulis); <strong>Explicit</strong> = sudah terdokumentasi.</p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Manajemen Data & Pengetahuan (Knowledge Management) KB 1: Hierarki Data, RDBMS & Data Tidak Terstruktur Hierarki Data: Bit (binary digit) → Byte (8 bit ASCII) → Field (Atribut) → Record (Baris) → File → Database . Basis Data Relasional (E.F. Codd, 1970): Tabel 2 dimensi (kolom = Field/Atribut, baris = Record) yang unggul untuk data terstruktur. Kelemahan File Tradisional: Redundansi & inkonsistensi data, ketergantungan program-data, tidak fleksibel, keamanan lemah. Tantangan Big Data: RDBMS kesulitan mengolah data tidak terstruktur (video, audio, log perilaku) dalam volume masif. KB 2: DIKW & Tacit vs Explicit Knowledge Tangga DIKW: Data (fakta mentah) → Informasi (data bermakna) → Pengetahuan (kerangka wawasan) → Kebijaksanaan (Wisdom) (penerapan kolektif). Tacit Knowledge: Pengetahuan di benak individu, belum terdokumentasi (pengalaman, intuisi). Explicit Knowledge: Pengetahuan yang sudah didokumentasikan sehingga mudah dipelajari & disebarkan. Learning Organization: Organisasi yang terus belajar via eksperimen & umpan balik agar adaptif. 📌 Detail Kecil Wajib Tahu — Modul 6 Normalisasi & 3 Anomali Data (Codd): Normalisasi meminimalkan duplikasi dan mencegah: (1) Insertion anomaly (data tak bisa disisipkan), (2) Deletion anomaly (hapus baris menghilangkan data entitas lain), dan (3) Update anomaly (ubah satu item harus ubah banyak baris). Manipulasi data standar menggunakan SQL ( Query ). Infrastruktur Big Data (Petabyte–Exabyte): Memakai basis data non-relasional NoSQL dan kerangka kerja Hadoop dengan 2 modul utama: HDFS (penyimpanan terdistribusi) & MapReduce (pemrosesan paralel), serta In-Memory Computing (RAM). Data Warehouse, Data Mart, ETL, OLAP & Data Mining: Data Warehouse menggabungkan data historis via proses ETL ( Extract, Transform, Load ); Data Mart adalah subset DW per fungsi bisnis. Analisis memakai OLAP (multidimensi) dan Data Mining (menemukan pola/asosiasi/klasifikasi). Rantai Nilai KM & Sistem Pendukung: 4 tahap rantai nilai KM (Laudon & Laudon): Akuisisi → Penyimpanan → Penyemaian → Penerapan . Didukung ECM ( Enterprise Content Management ) + Taksonomi (klasifikasi), LMS ( Learning Management System ), dan Pekerja Pengetahuan (konsultan internal & agen perubahan). Hierarki Data Komputer (Modul 6) & Tangga Pengetahuan DIKW Bit / Byte Field Record File / Tabel Database → Data Warehouse 1. Data (Fakta) 2. Information (Makna) 3. Knowledge (Wawasan) 4. Wisdom (Bijaksana) Penjelasan Diagram: Atas: Hierarki penyimpanan data dari Bit/Byte → Data Warehouse . Bawah: Tangga DIKW menunjukkan transformasi fakta mentah ( Data ) menjadi Information → Knowledge → Wisdom . 🔑 Kata Kunci Wajib Ingat — Modul 6 Bit → Byte (8 bit) → Field → Record → File → DB E.F. Codd (1970) Tacit vs Explicit Knowledge Learning Organization Poin Ujian: 1 Byte = 8 Bit (ASCII). Tacit = di kepala individu (belum tertulis); Explicit = sudah terdokumentasi."
+    },
+    {
+      "id": "m7",
+      "title": "Aplikasi Enterprise (ERP, SCM, CRM) & E-Commerce",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#f59e0b;\">MODUL 7</span>\n        <h2 class=\"mod-title\">Aplikasi Enterprise (ERP, SCM, CRM) &amp; E-Commerce</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: ERP, Supply Chain (SCM) &amp; CRM</h4>\n          <ul class=\"neat\">\n            <li><strong>ERP:</strong> Mengintegrasikan modul inti (akuntansi/keuangan, manufaktur/operasi, penjualan/pemasaran, SDM) ke satu <strong>basis data terpusat</strong>.</li>\n            <li><strong>3 Segmen SCM:</strong> <em>Upstream/Hulu</em> (pemasok bahan baku) → <em>Internal</em> (proses produksi di pabrik) → <em>Downstream/Hilir</em> (distribusi ke konsumen).</li>\n            <li><mark class=\"hl-pink\">Bullwhip Effect:</mark> Distorsi/amplifikasi fluktuasi permintaan yang membesar dari hilir ke hulu.</li>\n            <li><strong>CRM:</strong> Mengelola seluruh titik kontak (<em>touchpoints</em>) pelanggan.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: 3 Tingkatan Digitalisasi E-Commerce (Turban et al.)</h4>\n          <ul class=\"neat\">\n            <li><strong>1. Transaksi &amp; Pembayaran Digital:</strong> Pemesanan &amp; pembayaran dilakukan online (produknya masih fisik).</li>\n            <li><strong>2. Produk Digital:</strong> Produk diubah ke bentuk digital (mis. e-book Kindle) sehingga mudah disalin/unduh ulang.</li>\n            <li><strong>3. Distribusi Digital:</strong> Pengiriman instan via internet tanpa logistik fisik.</li>\n            <li><strong>Sejarah:</strong> E-commerce populer sejak 1995 (era <em>Netscape Navigator</em>) &amp; memuncak tahun 2000.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 7</h4>\n        <ul class=\"neat\">\n          <li><strong>Metode Push vs Pull &amp; Solusi Bullwhip:</strong> <em>Push</em> (dorongan) memproduksi berdasarkan prediksi permintaan masa lalu; <em>Pull</em> (tarikan) memproduksi setelah ada pesanan konsumen. Dampak <em>Bullwhip Effect</em> ditekan dengan berbagi data permintaan riil antar simpul agar <em>safety stock</em> minimal.</li>\n          <li><strong>2 Bagian CRM &amp; Tantangan ERP:</strong> CRM terdiri dari bagian <em>Operasional</em> (interaksi langsung: <strong>SFA / Sales Force Automation</strong>, layanan pelanggan, pemasaran) dan <em>Analitis</em>. Implementasi ERP berprinsip <em>Best Practice</em> (menuntut ubah proses bisnis), berbiaya rata-rata <strong>USD 6,1 juta</strong> (~16 bulan/modul), dan memiliki <em>switching cost</em> tinggi.</li>\n          <li><strong>Disintermediasi &amp; Dot-com Bubble Burst (2001):</strong> <em>Disintermediasi</em> = memangkas perantara rantai pasok (mis. Dell jual langsung). Banyak perusahaan dot-com kolaps pada 2001 karena model bisnis lemah, sedangkan Amazon bertahan karena membangun infrastruktur distribusi.</li>\n          <li><strong>Model Pendapatan E-Commerce:</strong> Bisnis eceran (Amazon), perantara transaksi (Traveloka), penyedia komunitas (Facebook), portal (Yahoo), berlangganan, serta <strong>Freemium</strong> (gratis beriklan/terbatas, berbayar untuk fitur penuh).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Aliran Supply Chain (SCM) &amp; 3 Tingkat Digitalisasi E-Commerce (Modul 7)</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"205\" height=\"44\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"112\" y=\"29\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Upstream (Hulu)</text>\n          <text x=\"112\" y=\"44\" text-anchor=\"middle\" font-size=\"9\">Pemasok Bahan Baku</text>\n          <path d=\"M218 32 L235 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"237\" y=\"10\" width=\"205\" height=\"44\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"339\" y=\"29\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Internal (Pabrikan)</text>\n          <text x=\"339\" y=\"44\" text-anchor=\"middle\" font-size=\"9\">Produksi &amp; Operasi</text>\n          <path d=\"M445 32 L462 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"464\" y=\"10\" width=\"206\" height=\"44\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"567\" y=\"29\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Downstream (Hilir)</text>\n          <text x=\"567\" y=\"44\" text-anchor=\"middle\" font-size=\"9\">Distribusi → Konsumen</text>\n\n          <rect x=\"10\" y=\"64\" width=\"205\" height=\"38\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"112\" y=\"87\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1. Transaksi Digital</text>\n          <rect x=\"237\" y=\"64\" width=\"205\" height=\"38\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"339\" y=\"87\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">2. Produk Digital</text>\n          <rect x=\"464\" y=\"64\" width=\"206\" height=\"38\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"567\" y=\"87\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">3. Distribusi Digital</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Aliran rantai pasok bergerak dari <em>Upstream</em> (pemasok) → <em>Internal</em> (produksi) → <em>Downstream</em> (konsumen). Di e-commerce (Turban), digitalisasi bertingkat dari transaksi, produk, hingga distribusi digital.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 7</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">ERP (Basis Data Terpusat)</span>\n          <span class=\"kw-chip\">Upstream · Internal · Downstream</span>\n          <span class=\"kw-chip\">Bullwhip Effect</span>\n          <span class=\"kw-chip\">CRM Touchpoints</span>\n          <span class=\"kw-chip\">3 Level Digitalisasi (Turban)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <em>Bullwhip Effect</em> terjadi karena informasi permintaan terdistorsi dari hilir ke hulu. Ingat 3 level digitalisasi Turban: <strong>Transaksi → Produk → Distribusi</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 7 Aplikasi Enterprise (ERP, SCM, CRM) & E-Commerce KB 1: ERP, Supply Chain (SCM) & CRM ERP: Mengintegrasikan modul inti (akuntansi/keuangan, manufaktur/operasi, penjualan/pemasaran, SDM) ke satu basis data terpusat . 3 Segmen SCM: Upstream/Hulu (pemasok bahan baku) → Internal (proses produksi di pabrik) → Downstream/Hilir (distribusi ke konsumen). Bullwhip Effect: Distorsi/amplifikasi fluktuasi permintaan yang membesar dari hilir ke hulu. CRM: Mengelola seluruh titik kontak ( touchpoints ) pelanggan. KB 2: 3 Tingkatan Digitalisasi E-Commerce (Turban et al.) 1. Transaksi & Pembayaran Digital: Pemesanan & pembayaran dilakukan online (produknya masih fisik). 2. Produk Digital: Produk diubah ke bentuk digital (mis. e-book Kindle) sehingga mudah disalin/unduh ulang. 3. Distribusi Digital: Pengiriman instan via internet tanpa logistik fisik. Sejarah: E-commerce populer sejak 1995 (era Netscape Navigator ) & memuncak tahun 2000. 📌 Detail Kecil Wajib Tahu — Modul 7 Metode Push vs Pull & Solusi Bullwhip: Push (dorongan) memproduksi berdasarkan prediksi permintaan masa lalu; Pull (tarikan) memproduksi setelah ada pesanan konsumen. Dampak Bullwhip Effect ditekan dengan berbagi data permintaan riil antar simpul agar safety stock minimal. 2 Bagian CRM & Tantangan ERP: CRM terdiri dari bagian Operasional (interaksi langsung: SFA / Sales Force Automation , layanan pelanggan, pemasaran) dan Analitis . Implementasi ERP berprinsip Best Practice (menuntut ubah proses bisnis), berbiaya rata-rata USD 6,1 juta (~16 bulan/modul), dan memiliki switching cost tinggi. Disintermediasi & Dot-com Bubble Burst (2001): Disintermediasi = memangkas perantara rantai pasok (mis. Dell jual langsung). Banyak perusahaan dot-com kolaps pada 2001 karena model bisnis lemah, sedangkan Amazon bertahan karena membangun infrastruktur distribusi. Model Pendapatan E-Commerce: Bisnis eceran (Amazon), perantara transaksi (Traveloka), penyedia komunitas (Facebook), portal (Yahoo), berlangganan, serta Freemium (gratis beriklan/terbatas, berbayar untuk fitur penuh). Aliran Supply Chain (SCM) & 3 Tingkat Digitalisasi E-Commerce (Modul 7) Upstream (Hulu) Pemasok Bahan Baku Internal (Pabrikan) Produksi & Operasi Downstream (Hilir) Distribusi → Konsumen 1. Transaksi Digital 2. Produk Digital 3. Distribusi Digital Penjelasan Diagram: Aliran rantai pasok bergerak dari Upstream (pemasok) → Internal (produksi) → Downstream (konsumen). Di e-commerce (Turban), digitalisasi bertingkat dari transaksi, produk, hingga distribusi digital. 🔑 Kata Kunci Wajib Ingat — Modul 7 ERP (Basis Data Terpusat) Upstream · Internal · Downstream Bullwhip Effect CRM Touchpoints 3 Level Digitalisasi (Turban) Poin Ujian: Bullwhip Effect terjadi karena informasi permintaan terdistorsi dari hilir ke hulu. Ingat 3 level digitalisasi Turban: Transaksi → Produk → Distribusi ."
+    },
+    {
+      "id": "m8",
+      "title": "Peran Sistem Informasi dalam Pembuatan Keputusan Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#d97706;\">MODUL 8</span>\n        <h2 class=\"mod-title\">Peran Sistem Informasi dalam Pembuatan Keputusan Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Tipe Keputusan, Tahapan Simon &amp; Penghambat Kualitas</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Tipe Keputusan:</strong> <em>Terstruktur</em> (rutin, prosedur baku), <em>Semi-terstruktur</em> (sebagian baku + penilaian manajer), <em>Tidak terstruktur</em> (kompleks, butuh intuisi manajer puncak).</li>\n            <li><strong>4 Tahapan Keputusan Rasional (Herbert Simon):</strong> <code>Intelligence</code> (cari fakta/masalah) → <code>Design</code> (rancang alternatif) → <code>Choice</code> (pilih solusi) → <code>Implementation</code>.</li>\n            <li><strong>3 Penghambat Keputusan Berkualitas:</strong> (1) Filter informasi manajer, (2) Budaya organisasi, (3) Keengganan berubah.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Lingkungan Business Intelligence, Predictive &amp; BSC</h4>\n          <ul class=\"neat\">\n            <li><strong>6 Komponen Lingkungan BI:</strong> Data lingkungan bisnis, infrastruktur BI, alat analisis data, pengguna &amp; metode manajerial, platform penyampaian, dan antarmuka pengguna.</li>\n            <li><strong>Predictive Analytics:</strong> Memprediksi tren &amp; perilaku masa depan memakai statistik, data mining, &amp; data historis.</li>\n            <li><strong>Balanced Scorecard (BSC):</strong> Menerjemahkan strategi perusahaan ke target terukur (keuangan, pelanggan, proses internal, pembelajaran &amp; pertumbuhan).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 8</h4>\n        <ul class=\"neat\">\n          <li><strong>3 Jenis Model Keputusan (Tahap Design):</strong> (1) <em>Model Ikonik/Skala</em> (replika nyata, mis. maket), (2) <em>Model Analog</em> (berperilaku seperti aslinya, mis. sirkuit listrik), dan (3) <em>Model Matematika</em> (variabel keputusan, independen, dependen).</li>\n          <li><strong>5 Fungsi Klasik (Fayol) &amp; 10 Peran Manajer (Mintzberg):</strong> Fayol: Perencanaan, Pengorganisasian, Koordinasi, Pembuatan Keputusan, Pengendalian. Mintzberg: <em>Interpersonal</em> (Kepala, Pemimpin, Penghubung), <em>Informasional</em> (Pusat informasi, Penyemai, Juru bicara), dan <em>Pembuat Keputusan</em> (Wirausaha, Penangan gangguan, Alokasi sumber daya, Negosiator — tiga peran selain alokasi belum bisa digantikan penuh oleh TI).</li>\n          <li><strong>7 Dimensi Kualitas Data (Laudon &amp; Laudon):</strong> Akurasi, Integritas, Konsistensi, Kelengkapan, Validitas, Ketepatan waktu, dan Aksesibilitas.</li>\n          <li><strong>Otomatisasi Keputusan &amp; Fitur BI/DSS:</strong> Keputusan tidak terstruktur dapat diotomasi komputer dengan <strong>memecahnya</strong> menjadi keputusan terstruktur berskala kecil. <strong>DSS</strong> manajer menengah mendukung simulasi <em>what-if</em> (<em>analisis sensitivitas</em>) dan penelusuran data rinci (<em>drill-down</em>).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Tahapan Keputusan Rasional Herbert Simon (Modul 8)</div>\n        <svg width=\"680\" height=\"64\" viewBox=\"0 0 680 64\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"155\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"87\" y=\"36\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1. Intelligence (Masalah)</text>\n          <path d=\"M167 32 L183 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"185\" y=\"14\" width=\"150\" height=\"36\" rx=\"6\" fill=\"#fef9c3\" stroke=\"#24292f\"/><text x=\"260\" y=\"36\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">2. Design (Alternatif)</text>\n          <path d=\"M337 32 L353 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"355\" y=\"14\" width=\"150\" height=\"36\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"430\" y=\"36\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">3. Choice (Pilih)</text>\n          <path d=\"M507 32 L523 32\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"525\" y=\"14\" width=\"145\" height=\"36\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"597\" y=\"36\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">4. Implementation</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Model pengambilan keputusan rasional <strong>Herbert Simon</strong> berjalan dalam 4 fase: mengidentifikasi masalah (<em>Intelligence</em>) → merancang opsi (<em>Design</em>) → memilih solusi terbaik (<em>Choice</em>) → mengeksekusi (<em>Implementation</em>).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 8</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Terstruktur · Semi · Tidak Terstruktur</span>\n          <span class=\"kw-chip\">Simon: Intelligence-Design-Choice-Impl.</span>\n          <span class=\"kw-chip\">Filter Informasi Manajer</span>\n          <span class=\"kw-chip\">Predictive Analytics</span>\n          <span class=\"kw-chip\">Balanced Scorecard</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Informasi bagus belum tentu menghasilkan keputusan bagus karena ada <em>filter informasi manajer, budaya organisasi, dan keengganan berubah</em>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 8 Peran Sistem Informasi dalam Pembuatan Keputusan Bisnis KB 1: Tipe Keputusan, Tahapan Simon & Penghambat Kualitas 3 Tipe Keputusan: Terstruktur (rutin, prosedur baku), Semi-terstruktur (sebagian baku + penilaian manajer), Tidak terstruktur (kompleks, butuh intuisi manajer puncak). 4 Tahapan Keputusan Rasional (Herbert Simon): Intelligence (cari fakta/masalah) → Design (rancang alternatif) → Choice (pilih solusi) → Implementation . 3 Penghambat Keputusan Berkualitas: (1) Filter informasi manajer, (2) Budaya organisasi, (3) Keengganan berubah. KB 2: Lingkungan Business Intelligence, Predictive & BSC 6 Komponen Lingkungan BI: Data lingkungan bisnis, infrastruktur BI, alat analisis data, pengguna & metode manajerial, platform penyampaian, dan antarmuka pengguna. Predictive Analytics: Memprediksi tren & perilaku masa depan memakai statistik, data mining, & data historis. Balanced Scorecard (BSC): Menerjemahkan strategi perusahaan ke target terukur (keuangan, pelanggan, proses internal, pembelajaran & pertumbuhan). 📌 Detail Kecil Wajib Tahu — Modul 8 3 Jenis Model Keputusan (Tahap Design): (1) Model Ikonik/Skala (replika nyata, mis. maket), (2) Model Analog (berperilaku seperti aslinya, mis. sirkuit listrik), dan (3) Model Matematika (variabel keputusan, independen, dependen). 5 Fungsi Klasik (Fayol) & 10 Peran Manajer (Mintzberg): Fayol: Perencanaan, Pengorganisasian, Koordinasi, Pembuatan Keputusan, Pengendalian. Mintzberg: Interpersonal (Kepala, Pemimpin, Penghubung), Informasional (Pusat informasi, Penyemai, Juru bicara), dan Pembuat Keputusan (Wirausaha, Penangan gangguan, Alokasi sumber daya, Negosiator — tiga peran selain alokasi belum bisa digantikan penuh oleh TI). 7 Dimensi Kualitas Data (Laudon & Laudon): Akurasi, Integritas, Konsistensi, Kelengkapan, Validitas, Ketepatan waktu, dan Aksesibilitas. Otomatisasi Keputusan & Fitur BI/DSS: Keputusan tidak terstruktur dapat diotomasi komputer dengan memecahnya menjadi keputusan terstruktur berskala kecil. DSS manajer menengah mendukung simulasi what-if ( analisis sensitivitas ) dan penelusuran data rinci ( drill-down ). 4 Tahapan Keputusan Rasional Herbert Simon (Modul 8) 1. Intelligence (Masalah) 2. Design (Alternatif) 3. Choice (Pilih) 4. Implementation Penjelasan Diagram: Model pengambilan keputusan rasional Herbert Simon berjalan dalam 4 fase: mengidentifikasi masalah ( Intelligence ) → merancang opsi ( Design ) → memilih solusi terbaik ( Choice ) → mengeksekusi ( Implementation ). 🔑 Kata Kunci Wajib Ingat — Modul 8 Terstruktur · Semi · Tidak Terstruktur Simon: Intelligence-Design-Choice-Impl. Filter Informasi Manajer Predictive Analytics Balanced Scorecard Poin Ujian: Informasi bagus belum tentu menghasilkan keputusan bagus karena ada filter informasi manajer, budaya organisasi, dan keengganan berubah ."
+    },
+    {
+      "id": "m9",
+      "title": "Pengembangan Sistem Informasi & Manajemen Proyek",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#dc2626;\">MODUL 9</span>\n        <h2 class=\"mod-title\">Pengembangan Sistem Informasi &amp; Manajemen Proyek</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: SDLC, Analisis Sistem (70% Masalah) &amp; Pengujian</h4>\n          <ul class=\"neat\">\n            <li><strong>Tahapan SDLC:</strong> Analisis → Perancangan (Desain) → Pemrograman → Pengujian → Konversi → Produksi &amp; Pemeliharaan.</li>\n            <li><strong>Fakta Kritis Analisis:</strong> Sebagian besar masalah pengembangan sistem (<mark class=\"hl-pink\">70%</mark>) berasal dari tahapan <strong>analisis sistem</strong> yang tidak dilakukan dengan benar.</li>\n            <li><strong>3 Tahap Pengujian:</strong> <em>Unit testing</em> (per modul), <em>System testing</em> (keseluruhan sistem), <em>Acceptance testing</em> (uji terima user).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Manajemen Proyek TI &amp; 5 Variabel Keberhasilan</h4>\n          <ul class=\"neat\">\n            <li><strong>Kegiatan Manajemen Proyek:</strong> Perencanaan, menyusun tim &amp; tanggung jawab, estimasi sumber daya, eksekusi, pengendalian, pengarahan, pelaporan kemajuan, dan penutupan proyek.</li>\n            <li><strong>5 Variabel Penentu Keberhasilan Proyek:</strong> (1) <em>Ruang lingkup (Scope)</em>, (2) <em>Waktu</em>, (3) <em>Biaya</em>, (4) <em>Kualitas</em>, (5) <em>Risiko</em>.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 9</h4>\n        <ul class=\"neat\">\n          <li><strong>4 Tingkat Perubahan Organisasi oleh SI:</strong> (1) <em>Otomatisasi</em> proses bisnis, (2) <em>Rasionalisasi</em> proses bisnis, (3) <em>Perancangan ulang (reengineering)</em> proses bisnis, hingga (4) <em>Pergeseran paradigma</em> (mis. Gojek).</li>\n          <li><strong>5 Kriteria Studi Kelayakan &amp; 4 Tahap Pengujian:</strong> Kelayakan menilai aspek <strong>Teknis, Operasional, Hukum, Jadwal, dan Ekonomis</strong> (3 hasil: layak, modifikasi, atau dihentikan). Urutan uji: <em>Unit testing</em> → <strong>Integration testing</strong> (uji antar modul) → <em>System testing</em> → <em>Operational acceptance testing</em>.</li>\n          <li><strong>Kelebihan/Kelemahan SDLC &amp; Alternatif:</strong> SDLC (resmi dipakai pemerintah Inggris awal 1970-an) unggul di dokumentasi &amp; artefak jelas, namun linear/kaku &amp; bias ke TPS/teknis; disempurnakan dengan <em>Prototyping, JAD, RAD, CASE</em>, dan <strong>Agile</strong> (fase singkat, evaluasi rutin, adaptif).</li>\n          <li><strong>MoSCoW Rules, Alat Jadwal &amp; Standish Group:</strong> Prioritas <strong>MoSCoW</strong> (<em>Must Have, Should Have, Could Have, Will Not Have</em>). Alat jadwal: <strong>Gantt Chart</strong> (progres), <strong>PERT</strong> (ketergantungan tugas), <strong>CPM</strong> (jalur kritis terpanjang). Status proyek Standish Group: <em>Successful, Challenged (Bermasalah), Failed (Gagal)</em>.</li>\n        </ul>\n      </div>\n\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">4 Strategi Konversi Sistem (Modul 9: Sering Keluar di Ujian!)</div>\n        <svg width=\"700\" height=\"85\" viewBox=\"0 0 700 85\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"160\" height=\"56\" rx=\"10\" fill=\"#c9f7dc\" stroke=\"#10b981\" stroke-width=\"1.6\" />\n          <text x=\"90\" y=\"36\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">1. Parallel</text>\n          <text x=\"90\" y=\"54\" text-anchor=\"middle\" font-size=\"10\">Lama &amp; baru jalan bareng</text>\n          <rect x=\"183\" y=\"14\" width=\"160\" height=\"56\" rx=\"10\" fill=\"#ffd6e0\" stroke=\"#ef4444\" stroke-width=\"1.6\" />\n          <text x=\"263\" y=\"36\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">2. Direct Cutover</text>\n          <text x=\"263\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\">Langsung ganti (risiko tinggi)</text>\n          <rect x=\"356\" y=\"14\" width=\"160\" height=\"56\" rx=\"10\" fill=\"#fff3a1\" stroke=\"#f59e0b\" stroke-width=\"1.6\" />\n          <text x=\"436\" y=\"36\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">3. Pilot Study</text>\n          <text x=\"436\" y=\"54\" text-anchor=\"middle\" font-size=\"10\">Uji coba di 1 cabang/unit</text>\n          <rect x=\"529\" y=\"14\" width=\"160\" height=\"56\" rx=\"10\" fill=\"#cde8ff\" stroke=\"#3b82f6\" stroke-width=\"1.6\" />\n          <text x=\"609\" y=\"36\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">4. Phased</text>\n          <text x=\"609\" y=\"54\" text-anchor=\"middle\" font-size=\"10\">Bertahap per modul/fitur</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Empat strategi konversi sistem: <strong>Parallel</strong> (aman tapi mahal), <strong>Direct Cutover</strong> (cepat tapi berisiko tinggi), <strong>Pilot Study</strong> (uji di 1 unit dulu), dan <strong>Phased</strong> (bertahap per modul).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 9</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">70% Masalah dari Analisis</span>\n          <span class=\"kw-chip\">Unit · System · Acceptance Test</span>\n          <span class=\"kw-chip\">Parallel vs Direct Cutover</span>\n          <span class=\"kw-chip\">Pilot vs Phased</span>\n          <span class=\"kw-chip\">Scope·Waktu·Biaya·Kualitas·Risiko</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>Parallel</strong> = paling aman tapi mahal; <strong>Direct Cutover</strong> = paling murah/cepat tapi risiko tertinggi; <strong>70%</strong> kegagalan proyek berakar di tahap Analisis Sistem.</p>\n      </div>\n    </section>",
+      "text": "MODUL 9 Pengembangan Sistem Informasi & Manajemen Proyek KB 1: SDLC, Analisis Sistem (70% Masalah) & Pengujian Tahapan SDLC: Analisis → Perancangan (Desain) → Pemrograman → Pengujian → Konversi → Produksi & Pemeliharaan. Fakta Kritis Analisis: Sebagian besar masalah pengembangan sistem ( 70% ) berasal dari tahapan analisis sistem yang tidak dilakukan dengan benar. 3 Tahap Pengujian: Unit testing (per modul), System testing (keseluruhan sistem), Acceptance testing (uji terima user). KB 2: Manajemen Proyek TI & 5 Variabel Keberhasilan Kegiatan Manajemen Proyek: Perencanaan, menyusun tim & tanggung jawab, estimasi sumber daya, eksekusi, pengendalian, pengarahan, pelaporan kemajuan, dan penutupan proyek. 5 Variabel Penentu Keberhasilan Proyek: (1) Ruang lingkup (Scope) , (2) Waktu , (3) Biaya , (4) Kualitas , (5) Risiko . 📌 Detail Kecil Wajib Tahu — Modul 9 4 Tingkat Perubahan Organisasi oleh SI: (1) Otomatisasi proses bisnis, (2) Rasionalisasi proses bisnis, (3) Perancangan ulang (reengineering) proses bisnis, hingga (4) Pergeseran paradigma (mis. Gojek). 5 Kriteria Studi Kelayakan & 4 Tahap Pengujian: Kelayakan menilai aspek Teknis, Operasional, Hukum, Jadwal, dan Ekonomis (3 hasil: layak, modifikasi, atau dihentikan). Urutan uji: Unit testing → Integration testing (uji antar modul) → System testing → Operational acceptance testing . Kelebihan/Kelemahan SDLC & Alternatif: SDLC (resmi dipakai pemerintah Inggris awal 1970-an) unggul di dokumentasi & artefak jelas, namun linear/kaku & bias ke TPS/teknis; disempurnakan dengan Prototyping, JAD, RAD, CASE , dan Agile (fase singkat, evaluasi rutin, adaptif). MoSCoW Rules, Alat Jadwal & Standish Group: Prioritas MoSCoW ( Must Have, Should Have, Could Have, Will Not Have ). Alat jadwal: Gantt Chart (progres), PERT (ketergantungan tugas), CPM (jalur kritis terpanjang). Status proyek Standish Group: Successful, Challenged (Bermasalah), Failed (Gagal) . 4 Strategi Konversi Sistem (Modul 9: Sering Keluar di Ujian!) 1. Parallel Lama & baru jalan bareng 2. Direct Cutover Langsung ganti (risiko tinggi) 3. Pilot Study Uji coba di 1 cabang/unit 4. Phased Bertahap per modul/fitur Penjelasan Diagram: Empat strategi konversi sistem: Parallel (aman tapi mahal), Direct Cutover (cepat tapi berisiko tinggi), Pilot Study (uji di 1 unit dulu), dan Phased (bertahap per modul). 🔑 Kata Kunci Wajib Ingat — Modul 9 70% Masalah dari Analisis Unit · System · Acceptance Test Parallel vs Direct Cutover Pilot vs Phased Scope·Waktu·Biaya·Kualitas·Risiko Poin Ujian: Parallel = paling aman tapi mahal; Direct Cutover = paling murah/cepat tapi risiko tertinggi; 70% kegagalan proyek berakar di tahap Analisis Sistem."
+    },
+    {
+      "id": "ahli",
+      "title": "Ahli & Tokoh Kunci dalam BMP MSIM4207",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI</span>\n        <h2 class=\"mod-title\">Ahli &amp; Tokoh Kunci dalam BMP MSIM4207</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Samiaji Sarosa (2017):</strong> Penulis BMP <em>Sistem Informasi Manajemen</em> UT (peran strategis SI, keamanan, SCM/CRM/ERP, SDLC).</li>\n            <li><strong>Laudon &amp; Laudon (2018):</strong> 5 Dimensi Moral era informasi, teknologi profiling <strong>NORA</strong>, serta klasifikasi aplikasi enterprise.</li>\n            <li><strong>Michael E. Porter (1998, 2001):</strong> Model <strong>5 Kekuatan Kompetitif</strong> &amp; <strong>Value Chain</strong> (aktivitas utama vs pendukung).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Herbert A. Simon (1977):</strong> 4 tahapan pembuatan keputusan rasional (<em>Intelligence, Design, Choice, Implementation</em>) &amp; jenis keputusan.</li>\n            <li><strong>Gordon Moore (Hukum Moore):</strong> Kapasitas transistor pada chip berlipat ganda tiap ~18-24 bulan.</li>\n            <li><strong>Coronel &amp; Morris (2018) &amp; Avison &amp; Fitzgerald (2006):</strong> Rujukan manajemen basis data modern &amp; metodologi pengembangan SI.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu (Laudon &amp; Laudon; Turban; Codd; Mintzberg; Kaplan)</h4>\n        <ul class=\"neat\">\n          <li><strong>E.F. Codd (1970) &amp; Robert Metcalfe:</strong> <em>Codd</em> mencetuskan model <strong>basis data relasional</strong> (tabel 2 dimensi) dan teknik <strong>normalisasi</strong>; <em>Metcalfe</em> merumuskan <strong>Hukum Metcalfe</strong> (nilai/kekuatan jaringan tumbuh eksponensial sesuai jumlah pengguna).</li>\n          <li><strong>Henri Fayol (1949) &amp; Henry Mintzberg (1971):</strong> <em>Fayol</em> merumuskan 5 fungsi manajemen klasik; <em>Mintzberg</em> memetakan 10 peran manajerial dalam 3 kategori (<em>Interpersonal, Informasional, Pembuat Keputusan</em>).</li>\n          <li><strong>Robert S. Kaplan (1996) &amp; Peter M. Senge (2006):</strong> <em>Kaplan</em> mengembangkan <strong>Balanced Scorecard (BSC)</strong> (4 dimensi strategis); <em>Senge</em> mempopulerkan konsep <strong>Learning Organization</strong> dalam manajemen pengetahuan.</li>\n          <li><strong>Oliver E. Williamson (1981) &amp; Prahalad &amp; Hamel (1990):</strong> <em>Williamson</em> mengkaji penurunan <strong>biaya transaksi</strong> oleh TI; <em>Prahalad &amp; Hamel</em> merumuskan konsep <strong>kompetensi inti</strong> (<em>core competence</em>) organisasi.</li>\n          <li><strong>Klasifikasi SI Berdasarkan Level Manajemen (Laudon &amp; Laudon):</strong> Level Operasional memakai <strong>TPS</strong> (<em>Transaction Processing System</em>), Level Menengah memakai <strong>MIS</strong> (laporan rutin) &amp; <strong>DSS</strong> (analisis keputusan semi-terstruktur), dan Level Puncak memakai <strong>ESS/EIS</strong> (dashboard strategis jangka panjang).</li>\n          <li><strong>Keamanan Berlapis (Defense in Depth):</strong> Sistem informasi modern menggabungkan <em>Firewall</em> (filter paket jaringan), <em>IDS/IPS</em> (deteksi intrusi), <em>Enkripsi SSL/TLS</em>, serta <em>MFA (Multi-Factor Authentication)</em> (sesuatu yang diketahui, dimiliki, dan melekat/biometrik).</li>\n          <li><strong>Detail Kecil E-Commerce (Turban):</strong> Bedakan model <strong>B2B</strong> (antar perusahaan), <strong>B2C</strong> (perusahaan ke konsumen akhir), <strong>C2C</strong> (marketplace antar konsumen), dan <strong>G2C/e-Gov</strong>.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Piramida Sistem Informasi Manajemen Berdasarkan Level Organisasi (Laudon &amp; Laudon)</div>\n        <svg width=\"680\" height=\"122\" viewBox=\"0 0 680 122\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <polygon points=\"165,12 45,112 285,112\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <line x1=\"125\" y1=\"45\" x2=\"205\" y2=\"45\" stroke=\"#24292f\" stroke-width=\"1.4\"/>\n          <line x1=\"85\" y1=\"78\" x2=\"245\" y2=\"78\" stroke=\"#24292f\" stroke-width=\"1.4\"/>\n          <text x=\"165\" y=\"37\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">ESS / EIS</text>\n          <text x=\"165\" y=\"66\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">MIS &amp; DSS</text>\n          <text x=\"165\" y=\"100\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">TPS (Operasional)</text>\n\n          <rect x=\"315\" y=\"12\" width=\"355\" height=\"100\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"492\" y=\"30\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Pemetaan Fungsi per Level</text>\n          <rect x=\"328\" y=\"38\" width=\"330\" height=\"20\" rx=\"4\" fill=\"#ffe4e6\"/><text x=\"493\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">ESS/EIS: Tren 5 tahun &amp; keputusan tak terstruktur</text>\n          <rect x=\"328\" y=\"62\" width=\"330\" height=\"20\" rx=\"4\" fill=\"#fef08a\"/><text x=\"493\" y=\"76\" text-anchor=\"middle\" font-size=\"9\">MIS/DSS: Laporan periodik &amp; simulasi what-if</text>\n          <rect x=\"328\" y=\"86\" width=\"330\" height=\"20\" rx=\"4\" fill=\"#d1fae5\"/><text x=\"493\" y=\"100\" text-anchor=\"middle\" font-size=\"9\">TPS: Transaksi rutin harian (kasir, absensi, stok)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Data transaksi harian dicatat oleh <strong>TPS</strong> di dasar piramida, diringkas oleh <strong>MIS/DSS</strong> untuk manajer menengah, lalu disajikan sebagai indikator strategis di <strong>ESS/EIS</strong> untuk eksekutif.</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Arsitektur Pertahanan Keamanan SI Berlapis (Defense in Depth)</div>\n        <svg width=\"680\" height=\"92\" viewBox=\"0 0 680 92\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"120\" height=\"58\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\"/><text x=\"70\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Internet</text><text x=\"70\" y=\"54\" text-anchor=\"middle\" font-size=\"8.5\">Ancaman Luar</text>\n          <path d=\"M132 43 L148 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"150\" y=\"14\" width=\"120\" height=\"58\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"210\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Firewall</text><text x=\"210\" y=\"54\" text-anchor=\"middle\" font-size=\"8.5\">Filter Paket</text>\n          <path d=\"M272 43 L288 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"290\" y=\"14\" width=\"120\" height=\"58\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"350\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">IDS / IPS</text><text x=\"350\" y=\"54\" text-anchor=\"middle\" font-size=\"8.5\">Deteksi Intrusi</text>\n          <path d=\"M412 43 L428 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"430\" y=\"14\" width=\"115\" height=\"58\" rx=\"8\" fill=\"#ede9fe\" stroke=\"#24292f\"/><text x=\"487\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">MFA + RBAC</text><text x=\"487\" y=\"54\" text-anchor=\"middle\" font-size=\"8.5\">Akses Sah</text>\n          <path d=\"M547 43 L563 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"565\" y=\"14\" width=\"105\" height=\"58\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\"/><text x=\"617\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Enkripsi</text><text x=\"617\" y=\"54\" text-anchor=\"middle\" font-size=\"8.5\">Data Aman</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Keamanan SI tidak cukup mengandalkan satu alat; lapisan <em>Firewall, IDS/IPS, MFA/RBAC</em>, hingga <em>Enkripsi</em> data memastikan ancaman tetap tertahan bila satu lapisan ditembus.</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI Ahli & Tokoh Kunci dalam BMP MSIM4207 Samiaji Sarosa (2017): Penulis BMP Sistem Informasi Manajemen UT (peran strategis SI, keamanan, SCM/CRM/ERP, SDLC). Laudon & Laudon (2018): 5 Dimensi Moral era informasi, teknologi profiling NORA , serta klasifikasi aplikasi enterprise. Michael E. Porter (1998, 2001): Model 5 Kekuatan Kompetitif & Value Chain (aktivitas utama vs pendukung). Herbert A. Simon (1977): 4 tahapan pembuatan keputusan rasional ( Intelligence, Design, Choice, Implementation ) & jenis keputusan. Gordon Moore (Hukum Moore): Kapasitas transistor pada chip berlipat ganda tiap ~18-24 bulan. Coronel & Morris (2018) & Avison & Fitzgerald (2006): Rujukan manajemen basis data modern & metodologi pengembangan SI. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu (Laudon & Laudon; Turban; Codd; Mintzberg; Kaplan) E.F. Codd (1970) & Robert Metcalfe: Codd mencetuskan model basis data relasional (tabel 2 dimensi) dan teknik normalisasi ; Metcalfe merumuskan Hukum Metcalfe (nilai/kekuatan jaringan tumbuh eksponensial sesuai jumlah pengguna). Henri Fayol (1949) & Henry Mintzberg (1971): Fayol merumuskan 5 fungsi manajemen klasik; Mintzberg memetakan 10 peran manajerial dalam 3 kategori ( Interpersonal, Informasional, Pembuat Keputusan ). Robert S. Kaplan (1996) & Peter M. Senge (2006): Kaplan mengembangkan Balanced Scorecard (BSC) (4 dimensi strategis); Senge mempopulerkan konsep Learning Organization dalam manajemen pengetahuan. Oliver E. Williamson (1981) & Prahalad & Hamel (1990): Williamson mengkaji penurunan biaya transaksi oleh TI; Prahalad & Hamel merumuskan konsep kompetensi inti ( core competence ) organisasi. Klasifikasi SI Berdasarkan Level Manajemen (Laudon & Laudon): Level Operasional memakai TPS ( Transaction Processing System ), Level Menengah memakai MIS (laporan rutin) & DSS (analisis keputusan semi-terstruktur), dan Level Puncak memakai ESS/EIS (dashboard strategis jangka panjang). Keamanan Berlapis (Defense in Depth): Sistem informasi modern menggabungkan Firewall (filter paket jaringan), IDS/IPS (deteksi intrusi), Enkripsi SSL/TLS , serta MFA (Multi-Factor Authentication) (sesuatu yang diketahui, dimiliki, dan melekat/biometrik). Detail Kecil E-Commerce (Turban): Bedakan model B2B (antar perusahaan), B2C (perusahaan ke konsumen akhir), C2C (marketplace antar konsumen), dan G2C/e-Gov . Piramida Sistem Informasi Manajemen Berdasarkan Level Organisasi (Laudon & Laudon) ESS / EIS MIS & DSS TPS (Operasional) Pemetaan Fungsi per Level ESS/EIS: Tren 5 tahun & keputusan tak terstruktur MIS/DSS: Laporan periodik & simulasi what-if TPS: Transaksi rutin harian (kasir, absensi, stok) Penjelasan Diagram: Data transaksi harian dicatat oleh TPS di dasar piramida, diringkas oleh MIS/DSS untuk manajer menengah, lalu disajikan sebagai indikator strategis di ESS/EIS untuk eksekutif. Arsitektur Pertahanan Keamanan SI Berlapis (Defense in Depth) Internet Ancaman Luar Firewall Filter Paket IDS / IPS Deteksi Intrusi MFA + RBAC Akses Sah Enkripsi Data Aman Penjelasan Diagram: Keamanan SI tidak cukup mengandalkan satu alat; lapisan Firewall, IDS/IPS, MFA/RBAC , hingga Enkripsi data memastikan ancaman tetap tertahan bila satu lapisan ditembus."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Inovasi teknologi yang mengguncang dan mengubah model bisnis lama secara mendasar disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Otomatisasi"
+        },
+        {
+          "letter": "B",
+          "text": "Disrupsi teknologi"
+        },
+        {
+          "letter": "C",
+          "text": "Rekayasa proses"
+        },
+        {
+          "letter": "D",
+          "text": "Konversi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Tiga karakteristik utama Big Data (3V) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Volume, Velocity, Variety"
+        },
+        {
+          "letter": "B",
+          "text": "Value, View, Version"
+        },
+        {
+          "letter": "C",
+          "text": "Vector, Virtual, Valid"
+        },
+        {
+          "letter": "D",
+          "text": "Visual, Voice, Video"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Berikut bukan tujuan strategis investasi TI perusahaan, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keunggulan operasional"
+        },
+        {
+          "letter": "B",
+          "text": "Kedekatan pelanggan"
+        },
+        {
+          "letter": "C",
+          "text": "Memperbanyak biaya cetak"
+        },
+        {
+          "letter": "D",
+          "text": "Keunggulan kompetitif"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Sistem yang memadukan orang, prosedur, hardware, software, jaringan, dan data adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Database"
+        },
+        {
+          "letter": "B",
+          "text": "Sistem Informasi"
+        },
+        {
+          "letter": "C",
+          "text": "Mainframe"
+        },
+        {
+          "letter": "D",
+          "text": "Malware"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Dampak utama Internet bagi bisnis lokal adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menutup akses pasar"
+        },
+        {
+          "letter": "B",
+          "text": "Memperluas jangkauan pasar & persaingan global"
+        },
+        {
+          "letter": "C",
+          "text": "Menghilangkan pelanggan"
+        },
+        {
+          "letter": "D",
+          "text": "Menghentikan transaksi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 5
+    },
+    {
+      "module": "M2",
+      "question": "[M2-6] Strategi kompetitif Porter untuk menawarkan harga paling murah disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diferensiasi"
+        },
+        {
+          "letter": "B",
+          "text": "Fokus ceruk"
+        },
+        {
+          "letter": "C",
+          "text": "Kepemimpinan biaya rendah (Cost leadership)"
+        },
+        {
+          "letter": "D",
+          "text": "Kolaborasi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 6
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Aktivitas utama dalam Value Chain Porter meliputi berikut, kecuali...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Logistik masuk"
+        },
+        {
+          "letter": "B",
+          "text": "Operasi"
+        },
+        {
+          "letter": "C",
+          "text": "Pemasaran & penjualan"
+        },
+        {
+          "letter": "D",
+          "text": "Infrastruktur perusahaan (pendukung)"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 7
+    },
+    {
+      "module": "M2",
+      "question": "[M2-8] Sistem informasi yang membantu tim bekerja sama lintas lokasi disebut sistem...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kolaborasi"
+        },
+        {
+          "letter": "B",
+          "text": "Transaksi"
+        },
+        {
+          "letter": "C",
+          "text": "Konversi"
+        },
+        {
+          "letter": "D",
+          "text": "Kuantum"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 8
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Mengunci pelanggan agar sulit pindah ke kompetitor merupakan strategi...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Switching cost tinggi"
+        },
+        {
+          "letter": "B",
+          "text": "Bullwhip effect"
+        },
+        {
+          "letter": "C",
+          "text": "Phased conversion"
+        },
+        {
+          "letter": "D",
+          "text": "Outsourcing"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-10] Hubungan sistem informasi dan strategi bisnis bersifat...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Satu arah"
+        },
+        {
+          "letter": "B",
+          "text": "Saling memengaruhi dan bergantung"
+        },
+        {
+          "letter": "C",
+          "text": "Terpisah"
+        },
+        {
+          "letter": "D",
+          "text": "Opsional"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 10
+    },
+    {
+      "module": "M3",
+      "question": "[M3-11] Kondisi di mana dua prinsip moral saling bertentangan dalam pengambilan keputusan disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NORA"
+        },
+        {
+          "letter": "B",
+          "text": "Dilema etika"
+        },
+        {
+          "letter": "C",
+          "text": "Cybercrime"
+        },
+        {
+          "letter": "D",
+          "text": "Akuntabilitas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 11
+    },
+    {
+      "module": "M3",
+      "question": "[M3-12] Pernyataan yang tepat mengenai hubungan etika dan hukum (legal) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak etis selalu ilegal"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak etis belum tentu ilegal"
+        },
+        {
+          "letter": "C",
+          "text": "Etika sama persis dengan hukum"
+        },
+        {
+          "letter": "D",
+          "text": "Hukum tidak terkait etika"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 12
+    },
+    {
+      "module": "M3",
+      "question": "[M3-13] Teknologi analisis data untuk menemukan hubungan tersembunyi antar individu/transaksi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ERP"
+        },
+        {
+          "letter": "B",
+          "text": "NORA"
+        },
+        {
+          "letter": "C",
+          "text": "CRM"
+        },
+        {
+          "letter": "D",
+          "text": "SDLC"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 13
+    },
+    {
+      "module": "M3",
+      "question": "[M3-14] Hak kekayaan intelektual (HAKI) dan privasi data termasuk dalam...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5 Dimensi Moral Era Informasi"
+        },
+        {
+          "letter": "B",
+          "text": "4 Konversi"
+        },
+        {
+          "letter": "C",
+          "text": "3V Big Data"
+        },
+        {
+          "letter": "D",
+          "text": "Hukum Moore"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 14
+    },
+    {
+      "module": "M3",
+      "question": "[M3-15] Prinsip etika 'Golden Rule' bermakna...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lakukan ke orang lain seperti yang kamu inginkan dilakukan kepadamu"
+        },
+        {
+          "letter": "B",
+          "text": "Utamakan laba"
+        },
+        {
+          "letter": "C",
+          "text": "Hindari risiko"
+        },
+        {
+          "letter": "D",
+          "text": "Ikuti aturan saja"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 15
+    },
+    {
+      "module": "M4",
+      "question": "[M4-16] Hukum Moore menyatakan bahwa jumlah transistor pada chip akan berlipat ganda setiap...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5 tahun"
+        },
+        {
+          "letter": "B",
+          "text": "18–24 bulan"
+        },
+        {
+          "letter": "C",
+          "text": "10 tahun"
+        },
+        {
+          "letter": "D",
+          "text": "1 bulan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 16
+    },
+    {
+      "module": "M4",
+      "question": "[M4-17] Komputer berukuran besar untuk memproses jutaan transaksi enterprise secara andal adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mainframe"
+        },
+        {
+          "letter": "B",
+          "text": "Netbook"
+        },
+        {
+          "letter": "C",
+          "text": "Tablet"
+        },
+        {
+          "letter": "D",
+          "text": "Smartwatch"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 17
+    },
+    {
+      "module": "M4",
+      "question": "[M4-18] Komputasi generasi baru yang memanfaatkan unit informasi qubit disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Grid computing"
+        },
+        {
+          "letter": "B",
+          "text": "Cloud computing"
+        },
+        {
+          "letter": "C",
+          "text": "Komputer kuantum"
+        },
+        {
+          "letter": "D",
+          "text": "Edge computing"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 18
+    },
+    {
+      "module": "M4",
+      "question": "[M4-19] Penyediaan layanan komputasi (server, storage, database) lewat internet disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mainframe"
+        },
+        {
+          "letter": "B",
+          "text": "Cloud computing"
+        },
+        {
+          "letter": "C",
+          "text": "Legacy system"
+        },
+        {
+          "letter": "D",
+          "text": "Tape storage"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 19
+    },
+    {
+      "module": "M4",
+      "question": "[M4-20] Berikut termasuk komponen infrastruktur TI, kecuali...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hardware"
+        },
+        {
+          "letter": "B",
+          "text": "Software"
+        },
+        {
+          "letter": "C",
+          "text": "Jaringan"
+        },
+        {
+          "letter": "D",
+          "text": "Bullwhip effect"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 20
+    },
+    {
+      "module": "M5",
+      "question": "[M5-21] Malware yang menyamar sebagai program berguna namun diam-diam merusak/mencuri data adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Firewall"
+        },
+        {
+          "letter": "B",
+          "text": "Trojan Horse"
+        },
+        {
+          "letter": "C",
+          "text": "Antivirus"
+        },
+        {
+          "letter": "D",
+          "text": "Enkripsi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 21
+    },
+    {
+      "module": "M5",
+      "question": "[M5-22] Kebijakan, prosedur, dan pengukuran teknis untuk mencegah akses tidak sah disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keamanan sistem informasi"
+        },
+        {
+          "letter": "B",
+          "text": "Disrupsi"
+        },
+        {
+          "letter": "C",
+          "text": "Konversi"
+        },
+        {
+          "letter": "D",
+          "text": "Normalisasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 22
+    },
+    {
+      "module": "M5",
+      "question": "[M5-23] Malware yang menyebar otomatis melalui jaringan tanpa perlu inang file disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Worm"
+        },
+        {
+          "letter": "B",
+          "text": "Cookie"
+        },
+        {
+          "letter": "C",
+          "text": "Backup"
+        },
+        {
+          "letter": "D",
+          "text": "Patch"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 23
+    },
+    {
+      "module": "M5",
+      "question": "[M5-24] Upaya mengelabui pengguna agar menyerahkan password melalui email/situs palsu disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Phishing"
+        },
+        {
+          "letter": "B",
+          "text": "Phased"
+        },
+        {
+          "letter": "C",
+          "text": "Profiling"
+        },
+        {
+          "letter": "D",
+          "text": "Piracy"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 24
+    },
+    {
+      "module": "M5",
+      "question": "[M5-25] Teknik mengubah data menjadi kode acak agar tidak bisa dibaca pihak tak berwenang adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enkripsi"
+        },
+        {
+          "letter": "B",
+          "text": "Phishing"
+        },
+        {
+          "letter": "C",
+          "text": "Spoofing"
+        },
+        {
+          "letter": "D",
+          "text": "Sniffing"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 25
+    },
+    {
+      "module": "M6",
+      "question": "[M6-26] Masalah utama pengelolaan data tradisional berbasis file terpisah adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Redundansi & inkonsistensi data"
+        },
+        {
+          "letter": "B",
+          "text": "Keamanan terlalu ketat"
+        },
+        {
+          "letter": "C",
+          "text": "Biaya nol"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak butuh program"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 26
+    },
+    {
+      "module": "M6",
+      "question": "[M6-27] Urutan hierarki data komputer dari terkecil ke terbesar adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Byte-Bit-Field-Record"
+        },
+        {
+          "letter": "B",
+          "text": "Bit-Byte-Field-Record-File-Database"
+        },
+        {
+          "letter": "C",
+          "text": "Field-Bit-Byte-File"
+        },
+        {
+          "letter": "D",
+          "text": "Record-File-Field-Bit"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 27
+    },
+    {
+      "module": "M6",
+      "question": "[M6-28] Perangkat lunak yang memusatkan pengelolaan data dan memisahkan data dari program adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spreadsheet"
+        },
+        {
+          "letter": "B",
+          "text": "DBMS"
+        },
+        {
+          "letter": "C",
+          "text": "Browser"
+        },
+        {
+          "letter": "D",
+          "text": "Antivirus"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 28
+    },
+    {
+      "module": "M6",
+      "question": "[M6-29] Gudang data historis besar dari berbagai sumber untuk mendukung analisis manajemen disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Data Warehouse"
+        },
+        {
+          "letter": "B",
+          "text": "Cache"
+        },
+        {
+          "letter": "C",
+          "text": "Cookie"
+        },
+        {
+          "letter": "D",
+          "text": "RAM"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 29
+    },
+    {
+      "module": "M6",
+      "question": "[M6-30] Informasi berkualitas harus memenuhi kriteria berikut, kecuali...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Akurat"
+        },
+        {
+          "letter": "B",
+          "text": "Tepat waktu"
+        },
+        {
+          "letter": "C",
+          "text": "Relevan"
+        },
+        {
+          "letter": "D",
+          "text": "Redundan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 30
+    },
+    {
+      "module": "M7",
+      "question": "[M7-31] Distorsi informasi permintaan yang membesar dari hilir ke hulu rantai pasok disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bullwhip Effect"
+        },
+        {
+          "letter": "B",
+          "text": "Network Effect"
+        },
+        {
+          "letter": "C",
+          "text": "Moore's Law"
+        },
+        {
+          "letter": "D",
+          "text": "Cutover"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 31
+    },
+    {
+      "module": "M7",
+      "question": "[M7-32] Tiga segmen utama dalam rantai pasokan (Supply Chain) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Input, Process, Output"
+        },
+        {
+          "letter": "B",
+          "text": "Hulu (upstream), Internal, Hilir (downstream)"
+        },
+        {
+          "letter": "C",
+          "text": "Hardware, Software, Brainware"
+        },
+        {
+          "letter": "D",
+          "text": "Planning, Doing, Checking"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 32
+    },
+    {
+      "module": "M7",
+      "question": "[M7-33] Sistem yang menyatukan keuangan, SDM, produksi, dan rantai pasok dalam 1 database terpadu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CRM"
+        },
+        {
+          "letter": "B",
+          "text": "ERP"
+        },
+        {
+          "letter": "C",
+          "text": "DSS"
+        },
+        {
+          "letter": "D",
+          "text": "NORA"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 33
+    },
+    {
+      "module": "M7",
+      "question": "[M7-34] Sistem yang fokus mengelola hubungan dan kepuasan pelanggan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SCM"
+        },
+        {
+          "letter": "B",
+          "text": "CRM"
+        },
+        {
+          "letter": "C",
+          "text": "ERP"
+        },
+        {
+          "letter": "D",
+          "text": "TPS"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 34
+    },
+    {
+      "module": "M7",
+      "question": "[M7-35] Tantangan utama implementasi ERP adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biaya implementasi tinggi & perubahan proses bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak perlu pelatihan"
+        },
+        {
+          "letter": "C",
+          "text": "Data tidak terintegrasi"
+        },
+        {
+          "letter": "D",
+          "text": "Hanya untuk 1 user"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 35
+    },
+    {
+      "module": "M8",
+      "question": "[M8-36] Keputusan yang bersifat rutin, berulang, dan memiliki prosedur baku disebut keputusan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak terstruktur"
+        },
+        {
+          "letter": "B",
+          "text": "Semi-terstruktur"
+        },
+        {
+          "letter": "C",
+          "text": "Terstruktur"
+        },
+        {
+          "letter": "D",
+          "text": "Spekulatif"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 36
+    },
+    {
+      "module": "M8",
+      "question": "[M8-37] Keputusan strategis oleh manajemen puncak (mis. ekspansi ke luar negeri) bersifat...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Terstruktur"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak terstruktur"
+        },
+        {
+          "letter": "C",
+          "text": "Otomatis"
+        },
+        {
+          "letter": "D",
+          "text": "Operasional"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 37
+    },
+    {
+      "module": "M8",
+      "question": "[M8-38] Sistem informasi yang membantu keputusan semi-terstruktur dengan model analitik adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TPS"
+        },
+        {
+          "letter": "B",
+          "text": "DSS (Decision Support System)"
+        },
+        {
+          "letter": "C",
+          "text": "Firewall"
+        },
+        {
+          "letter": "D",
+          "text": "Antivirus"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 38
+    },
+    {
+      "module": "M8",
+      "question": "[M8-39] Tahap awal dalam pembuatan keputusan rasional menurut Simon adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intelligence (identifikasi masalah)"
+        },
+        {
+          "letter": "B",
+          "text": "Design"
+        },
+        {
+          "letter": "C",
+          "text": "Choice"
+        },
+        {
+          "letter": "D",
+          "text": "Implementation"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 39
+    },
+    {
+      "module": "M8",
+      "question": "[M8-40] Lima fungsi manajemen klasik meliputi perencanaan, pengorganisasian, pengarahan, pengawasan, dan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pengkodean"
+        },
+        {
+          "letter": "B",
+          "text": "Pengambilan keputusan"
+        },
+        {
+          "letter": "C",
+          "text": "Pengujian"
+        },
+        {
+          "letter": "D",
+          "text": "Konversi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 40
+    },
+    {
+      "module": "M9",
+      "question": "[M9-41] Pendekatan konversi sistem yang menjalankan sistem lama dan baru bersamaan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Direct Cutover"
+        },
+        {
+          "letter": "B",
+          "text": "Parallel"
+        },
+        {
+          "letter": "C",
+          "text": "Pilot"
+        },
+        {
+          "letter": "D",
+          "text": "Phased"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 41
+    },
+    {
+      "module": "M9",
+      "question": "[M9-42] Pendekatan konversi dengan risiko paling tinggi karena langsung mematikan sistem lama adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Parallel"
+        },
+        {
+          "letter": "B",
+          "text": "Pilot"
+        },
+        {
+          "letter": "C",
+          "text": "Direct Cutover"
+        },
+        {
+          "letter": "D",
+          "text": "Phased"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 42
+    },
+    {
+      "module": "M9",
+      "question": "[M9-43] Uji coba sistem baru pada satu departemen/cabang tertentu sebelum disebar luas disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pilot Study"
+        },
+        {
+          "letter": "B",
+          "text": "Parallel"
+        },
+        {
+          "letter": "C",
+          "text": "Unit Testing"
+        },
+        {
+          "letter": "D",
+          "text": "Direct Cutover"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 43
+    },
+    {
+      "module": "M9",
+      "question": "[M9-44] Pengujian yang dilakukan langsung oleh pengguna akhir untuk memastikan sistem sesuai kebutuhan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unit Testing"
+        },
+        {
+          "letter": "B",
+          "text": "Acceptance Testing"
+        },
+        {
+          "letter": "C",
+          "text": "System Testing"
+        },
+        {
+          "letter": "D",
+          "text": "Alpha Testing"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 44
+    },
+    {
+      "module": "M9",
+      "question": "[M9-45] Studi kelayakan proyek sistem informasi menilai aspek teknis, operasional, jadwal, dan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ekonomis/finansial"
+        },
+        {
+          "letter": "B",
+          "text": "Warna logo"
+        },
+        {
+          "letter": "C",
+          "text": "Ukuran ruangan"
+        },
+        {
+          "letter": "D",
+          "text": "Nama vendor"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 45
+    }
+  ],
+  "essayQuestions": [
+    {
+      "question": "1. Jelaskan perbedaan antara 'tidak etis' dan 'tidak legal' dalam konteks SI!",
+      "answer": "Tidak etis berarti melanggar norma moral/kode etik, namun belum tentu melanggar hukum tertulis (ilegal). Sebaliknya, tidak legal berarti melanggar undang-undang negara yang ada sanksi hukumnya.",
+      "num": 1
+    },
+    {
+      "question": "2. Sebutkan 5 dimensi moral di era informasi!",
+      "answer": "(1) Hak dan kewajiban informasi/privasi, (2) Hak kepemilikan/HAKI, (3) Akuntabilitas dan kendali, (4) Kualitas sistem, (5) Kualitas hidup.",
+      "num": 2
+    },
+    {
+      "question": "3. Apa yang dimaksud dengan Hukum Moore dan implikasinya bagi bisnis?",
+      "answer": "Jumlah transistor pada chip berlipat ganda tiap ~18–24 bulan sehingga kekuatan komputasi naik pesat sementara biaya hardware turun, memaksa bisnis terus beradaptasi.",
+      "num": 3
+    },
+    {
+      "question": "4. Apa kelemahan pengelolaan data tradisional dibanding DBMS?",
+      "answer": "Redundansi & inkonsistensi data tinggi, ketergantungan program-data, kurang fleksibel, keamanan lemah, dan sulit berbagi data antar aplikasi.",
+      "num": 4
+    },
+    {
+      "question": "5. Jelaskan apa itu Bullwhip Effect dalam Supply Chain!",
+      "answer": "Fenomena di mana distorsi informasi permintaan konsumen di hilir membesar (berlipat ganda) saat bergerak ke hulu (produsen/pemasok), menyebabkan kelebihan atau kekurangan stok.",
+      "num": 5
+    },
+    {
+      "question": "6. Jelaskan 3 segmen dalam Supply Chain!",
+      "answer": "Upstream (pemasok bahan baku), Internal (proses produksi/manufaktur internal), dan Downstream (distribusi hingga ke pelanggan akhir).",
+      "num": 6
+    },
+    {
+      "question": "7. Apa tantangan utama dalam implementasi ERP?",
+      "answer": "Biaya lisensi & konsultan mahal, waktu implementasi lama, resistensi karyawan terhadap perubahan proses kerja, serta kompleksitas integrasi data.",
+      "num": 7
+    },
+    {
+      "question": "8. Bedakan keputusan terstruktur, semi-terstruktur, dan tidak terstruktur!",
+      "answer": "Terstruktur: rutin & ada aturan pasti (gaji). Semi-terstruktur: sebagian terotomasi, sebagian butuh penilaian (anggaran). Tidak terstruktur: kompleks/baru tanpa prosedur baku (strategi ekspansi).",
+      "num": 8
+    },
+    {
+      "question": "9. Sebutkan 4 tahapan pembuatan keputusan rasional!",
+      "answer": "(1) Intelligence (identifikasi masalah), (2) Design (merancang alternatif solusi), (3) Choice (memilih alternatif terbaik), (4) Implementation (menerapkan & mengevaluasi).",
+      "num": 9
+    },
+    {
+      "question": "10. Sebutkan 3 hasil yang mungkin dari Studi Kelayakan sistem!",
+      "answer": "Layak diteruskan, perlu modifikasi/penyesuaian ruang lingkup, atau tidak layak/dihentikan.",
+      "num": 10
+    },
+    {
+      "question": "11. Jelaskan tahapan pengujian sistem informasi!",
+      "answer": "Unit testing (uji tiap modul/program), System testing (uji integrasi keseluruhan sistem), dan Acceptance testing (uji penerimaan oleh pengguna akhir).",
+      "num": 11
+    },
+    {
+      "question": "12. Bandingkan kelebihan & kekurangan Konversi Parallel vs Direct Cutover!",
+      "answer": "Parallel sangat aman karena ada cadangan sistem lama, tapi biaya operasional ganda. Direct Cutover hemat biaya & cepat, tapi berisiko fatal jika sistem baru gagal.",
+      "num": 12
+    }
+  ]
+}

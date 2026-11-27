@@ -1,0 +1,2169 @@
+{
+  "slug": "struktur-data",
+  "semester": 1,
+  "url": "/smt1/struktur-data",
+  "canonical": "https://belajar-ut.azf.my.id/smt1/struktur-data.html",
+  "title": "MSIM4202: Struktur Data — Modul & Bank Soal UT",
+  "shortLabel": "Struktur Data (MSIM4202)",
+  "h1": "MSIM4202: Struktur Data",
+  "metaDesc": "Ringkasan lengkap 9 modul Struktur Data (MSIM4202) UT: Pendahuluan & Kompleksitas Big-O, Tipe Data Java/Array/Linked List, Praktikum Tipe Data Java, Stack (LIFO), Queue (FIFO) & Deque, Praktikum Merge/Counting Sort, Tree & BST Traversal, Graph & Representasi, serta Praktikum DFS/BFS + 27 Soal PG.",
+  "coverTag": "Semester 1 • BMP UT (Dian Nursantika & Unggul Utan Sufandi)",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 9 modul Struktur Data (MSIM4202) UT: Pendahuluan & Kompleksitas Big-O, Tipe Data Java/Array/Linked List, Praktikum Tipe Data Java, Stack (LIFO), Queue (FIFO) & Deque, Praktikum Merge/Counting Sort, Tree & BST Traversal, Graph & Representasi, serta Praktikum DFS/BFS + 27 Soal PG.",
+  "badges": [
+    {
+      "bg": "var(--hl-blue)",
+      "text": "9 Modul + Diagram"
+    },
+    {
+      "bg": "var(--hl-mint)",
+      "text": "81 Soal PG + Pembahasan"
+    },
+    {
+      "bg": "var(--hl-yellow)",
+      "text": "Semester 1 • Pemrograman Java"
+    }
+  ],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Pendahuluan Struktur Data & Kompleksitas Algoritma"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Tipe Data Java, Array, dan Linked List"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Praktikum Tipe Data & Operasi Linked List di Java"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Stack (Tumpukan - LIFO)"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Queue (Antrean - FIFO) dan Deque"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Praktikum Pengurutan (Merge Sort & Counting Sort)"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Tree (Pohon) dan Binary Search Tree (BST)"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Graph dan Representasinya"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Praktikum Pencarian Graph (DFS & BFS)"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Modul 1: Pendahuluan Struktur Data & Kompleksitas Algoritma",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-head\">\n        <h2>Modul 1: Pendahuluan Struktur Data &amp; Kompleksitas Algoritma</h2>\n        <span class=\"mod-tag\">Modul 1</span>\n      </div>\n      <h3>KB 1: Konsep Dasar Struktur Data &amp; ADT</h3>\n        <ul>\n          <li><strong>Struktur Data:</strong> Cara mengorganisasi, menyimpan, dan mengelola data di memori komputer agar dapat diakses dan dimodifikasi secara efisien.</li>\n          <li><strong>ADT (Abstract Data Type):</strong> Spesifikasi tipe data beserta operasi yang berlaku tanpa terikat detail implementasi internalnya.</li>\n        </ul><h3>KB 2: Analisis Kompleksitas Waktu (Big-O Notation)</h3>\n        <ul>\n          <li><strong>Urutan Efisiensi Big-O:</strong> <code>O(1)</code> (Konstan) &lt; <code>O(log n)</code> (Logaritmik, mis. Binary Search) &lt; <code>O(n)</code> (Linear) &lt; <code>O(n log n)</code> (Merge/Quick Sort) &lt; <code>O(n<sup>2</sup>)</code> (Kuadratik, Bubble Sort) &lt; <code>O(2<sup>n</sup>)</code> (Eksponensial).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Spektrum Kompleksitas Waktu Big-O dari Paling Efisien hingga Lambat\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"20\" y=\"62\" width=\"115\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"77.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">O(1)</text><text x=\"77.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Konstan (Tercepat)</text><line x1=\"135\" y1=\"98\" x2=\"152\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"152\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"211.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">O(log n)</text><text x=\"211.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Binary Search</text><line x1=\"270\" y1=\"98\" x2=\"287\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"287\" y=\"62\" width=\"115\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"344.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">O(n)</text><text x=\"344.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Linear Scan</text><line x1=\"402\" y1=\"98\" x2=\"419\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"419\" y=\"62\" width=\"120\" height=\"72\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"479.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">O(n log n)</text><text x=\"479.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Merge Sort</text><line x1=\"539\" y1=\"98\" x2=\"556\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"556\" y=\"62\" width=\"108\" height=\"72\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"610.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">O(n^2)</text><text x=\"610.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Nested Loop</text>\n  </svg>\n  <p class=\"svg-caption\">Spektrum Kompleksitas Waktu Big-O dari Paling Efisien hingga Lambat</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">ADT</span>\n          <span class=\"kw-chip\">Big-O Notation</span>\n          <span class=\"kw-chip\">O(1) vs O(n)</span>\n          <span class=\"kw-chip\">O(n log n)</span>\n          <span class=\"kw-chip\">Best/Worst Case</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 1: Pendahuluan Struktur Data & Kompleksitas Algoritma Modul 1 KB 1: Konsep Dasar Struktur Data & ADT Struktur Data: Cara mengorganisasi, menyimpan, dan mengelola data di memori komputer agar dapat diakses dan dimodifikasi secara efisien. ADT (Abstract Data Type): Spesifikasi tipe data beserta operasi yang berlaku tanpa terikat detail implementasi internalnya. KB 2: Analisis Kompleksitas Waktu (Big-O Notation) Urutan Efisiensi Big-O: O(1) (Konstan) < O(log n) (Logaritmik, mis. Binary Search) < O(n) (Linear) < O(n log n) (Merge/Quick Sort) < O(n 2 ) (Kuadratik, Bubble Sort) < O(2 n ) (Eksponensial). O(1) Konstan (Tercepat) O(log n) Binary Search O(n) Linear Scan O(n log n) Merge Sort O(n^2) Nested Loop Spektrum Kompleksitas Waktu Big-O dari Paling Efisien hingga Lambat 🔑 Kata Kunci Wajib Ingat: ADT Big-O Notation O(1) vs O(n) O(n log n) Best/Worst Case"
+    },
+    {
+      "id": "m2",
+      "title": "Modul 2: Tipe Data Java, Array, dan Linked List",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-head\">\n        <h2>Modul 2: Tipe Data Java, Array, dan Linked List</h2>\n        <span class=\"mod-tag\">Modul 2</span>\n      </div>\n      <h3>KB 1: Tipe Data Primitif vs Non-Primitif &amp; Array</h3>\n        <ul>\n          <li><strong>Tipe Primitif Java:</strong> <code>byte, short, int, long, float, double, boolean, char</code>.</li>\n          <li><strong>Array:</strong> Kumpulan elemen bertipe homogen yang menempati lokasi memori <em>kontigu</em> (berurutan). Akses indeks <code>O(1)</code>, namun ukuran tetap (statis) dan penyisipan di tengah mahal <code>O(n)</code>.</li>\n        </ul><h3>KB 2: Linked List (Senarai Berantai)</h3>\n        <ul>\n          <li><strong>Linked List:</strong> Kumpulan <em>Node</em> (berisi data + pointer <code>next</code>) yang tersebar di memori secara dinamis.</li>\n          <li><strong>Variasi:</strong> <em>Singly Linked List</em> (1 arah), <em>Doubly Linked List</em> (punya <code>prev</code> &amp; <code>next</code>), dan <em>Circular Linked List</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 210\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Penyimpanan Memori Array (Kontigu) vs Linked List (Pointer)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"35\" width=\"610\" height=\"64\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"62.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Array (Memori Kontigu)</text><text x=\"340.0\" y=\"81.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Index [0] | [1] | [2] | [3]  -&gt; Akses O(1), Ukuran Statis</text><rect x=\"35\" y=\"125\" width=\"165\" height=\"64\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"117.5\" y=\"152.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Node 1 [Data | next]</text><text x=\"117.5\" y=\"171.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Head</text><line x1=\"200\" y1=\"157\" x2=\"250\" y2=\"157\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"250\" y=\"125\" width=\"165\" height=\"64\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"332.5\" y=\"152.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Node 2 [Data | next]</text><text x=\"332.5\" y=\"171.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Dinamis</text><line x1=\"415\" y1=\"157\" x2=\"465\" y2=\"157\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"465\" y=\"125\" width=\"165\" height=\"64\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"547.5\" y=\"152.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Node 3 [Data | null]</text><text x=\"547.5\" y=\"171.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Tail</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Penyimpanan Memori Array (Kontigu) vs Linked List (Pointer)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Array Kontigu</span>\n          <span class=\"kw-chip\">Akses O(1)</span>\n          <span class=\"kw-chip\">Singly Linked List</span>\n          <span class=\"kw-chip\">Doubly Linked List</span>\n          <span class=\"kw-chip\">Pointer Next/Prev</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 2: Tipe Data Java, Array, dan Linked List Modul 2 KB 1: Tipe Data Primitif vs Non-Primitif & Array Tipe Primitif Java: byte, short, int, long, float, double, boolean, char . Array: Kumpulan elemen bertipe homogen yang menempati lokasi memori kontigu (berurutan). Akses indeks O(1) , namun ukuran tetap (statis) dan penyisipan di tengah mahal O(n) . KB 2: Linked List (Senarai Berantai) Linked List: Kumpulan Node (berisi data + pointer next ) yang tersebar di memori secara dinamis. Variasi: Singly Linked List (1 arah), Doubly Linked List (punya prev & next ), dan Circular Linked List . Array (Memori Kontigu) Index [0] | [1] | [2] | [3] -> Akses O(1), Ukuran Statis Node 1 [Data | next] Head Node 2 [Data | next] Dinamis Node 3 [Data | null] Tail Perbandingan Penyimpanan Memori Array (Kontigu) vs Linked List (Pointer) 🔑 Kata Kunci Wajib Ingat: Array Kontigu Akses O(1) Singly Linked List Doubly Linked List Pointer Next/Prev"
+    },
+    {
+      "id": "m3",
+      "title": "Modul 3: Praktikum Tipe Data & Operasi Linked List di Java",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-head\">\n        <h2>Modul 3: Praktikum Tipe Data &amp; Operasi Linked List di Java</h2>\n        <span class=\"mod-tag\">Modul 3</span>\n      </div>\n      <h3>KB 1: Implementasi ArrayList &amp; LinkedList Java</h3>\n        <ul>\n          <li><strong>ArrayList vs LinkedList (<code>java.util</code>):</strong> <code>ArrayList</code> unggul pada pembacaan acak <code>get(i)</code> <code>O(1)</code>; <code>LinkedList</code> unggul pada penambahan/penghapusan di awal/tengah jika iterator sudah di posisi.</li>\n          <li><strong>Manipulasi Node:</strong> Hati-hati urutan pengubahan referensi <code>newNode.next = head; head = newNode;</code> agar rantai node tidak terputus (hilang di memori).</li>\n        </ul><h3>KB 2: Traversing &amp; Penghapusan Node</h3>\n        <ul>\n          <li><strong>Traversing:</strong> Melakukan iterasi mulai dari <code>head</code> hingga <code>current != null</code>. Jika menyentuh pointer <code>null</code> langsung, Java melempar <code>NullPointerException</code>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Urutan Aman Menyisipkan Node Baru di Awal (Insert First) Linked List\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"60\" width=\"175\" height=\"75\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"117.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">1. Buat newNode</text><text x=\"117.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">data + next = null</text><line x1=\"205\" y1=\"97\" x2=\"255\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"255\" y=\"60\" width=\"195\" height=\"75\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"352.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">2. Arahkan Pointer</text><text x=\"352.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">newNode.next = head</text><line x1=\"450\" y1=\"97\" x2=\"495\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"495\" y=\"60\" width=\"155\" height=\"75\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"572.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">3. Geser Head</text><text x=\"572.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">head = newNode</text>\n  </svg>\n  <p class=\"svg-caption\">Urutan Aman Menyisipkan Node Baru di Awal (Insert First) Linked List</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">ArrayList vs LinkedList</span>\n          <span class=\"kw-chip\">Insert First</span>\n          <span class=\"kw-chip\">NullPointerException</span>\n          <span class=\"kw-chip\">Traversing</span>\n          <span class=\"kw-chip\">java.util</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 3: Praktikum Tipe Data & Operasi Linked List di Java Modul 3 KB 1: Implementasi ArrayList & LinkedList Java ArrayList vs LinkedList ( java.util ): ArrayList unggul pada pembacaan acak get(i) O(1) ; LinkedList unggul pada penambahan/penghapusan di awal/tengah jika iterator sudah di posisi. Manipulasi Node: Hati-hati urutan pengubahan referensi newNode.next = head; head = newNode; agar rantai node tidak terputus (hilang di memori). KB 2: Traversing & Penghapusan Node Traversing: Melakukan iterasi mulai dari head hingga current != null . Jika menyentuh pointer null langsung, Java melempar NullPointerException . 1. Buat newNode data + next = null 2. Arahkan Pointer newNode.next = head 3. Geser Head head = newNode Urutan Aman Menyisipkan Node Baru di Awal (Insert First) Linked List 🔑 Kata Kunci Wajib Ingat: ArrayList vs LinkedList Insert First NullPointerException Traversing java.util"
+    },
+    {
+      "id": "m4",
+      "title": "Modul 4: Stack (Tumpukan - LIFO)",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-head\">\n        <h2>Modul 4: Stack (Tumpukan - LIFO)</h2>\n        <span class=\"mod-tag\">Modul 4</span>\n      </div>\n      <h3>KB 1: Konsep LIFO &amp; Operasi Dasar Stack</h3>\n        <ul>\n          <li><strong>Prinsip LIFO (Last-In, First-Out):</strong> Elemen yang terakhir masuk adalah elemen pertama yang keluar (seperti tumpukan piring).</li>\n          <li><strong>Operasi Utama <code>O(1)</code>:</strong> <code>push(x)</code> (tambah ke puncak), <code>pop()</code> (ambil &amp; hapus dari puncak), <code>peek()/top()</code> (lihat puncak tanpa menghapus), dan <code>isEmpty()</code>.</li>\n        </ul><h3>KB 2: Aplikasi Nyata Stack</h3>\n        <ul>\n          <li><strong>Contoh Penggunaan:</strong> Fitur <em>Undo/Redo</em> di editor, tombol <em>Back</em> peramban, <em>Call Stack</em> pemanggilan fungsi rekursif, validasi tanda kurung seimbang, dan konversi ekspresi <em>Infix &rarr; Postfix</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mekanisme Stack LIFO: Push dan Pop Selalu Terjadi di Ujung TOP\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"40\" y=\"58\" width=\"175\" height=\"75\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"127.5\" y=\"90.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">push(30)</text><text x=\"127.5\" y=\"112.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Masuk ke TOP</text><line x1=\"215\" y1=\"95\" x2=\"255\" y2=\"95\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"255\" y=\"30\" width=\"170\" height=\"150\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"114.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">STACK (LIFO)</text><rect x=\"275\" y=\"72\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#ffffff\" stroke=\"#f59e0b\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"88.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#92400e\">[30] &lt;- TOP</text><rect x=\"275\" y=\"108\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#ffffff\" stroke=\"#fcd34d\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"124.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#92400e\">[20]</text><rect x=\"275\" y=\"144\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#ffffff\" stroke=\"#fcd34d\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"160.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#92400e\">[10] &lt;- Bottom</text><line x1=\"425\" y1=\"95\" x2=\"470\" y2=\"95\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"470\" y=\"58\" width=\"175\" height=\"75\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"557.5\" y=\"90.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">pop() -&gt; 30</text><text x=\"557.5\" y=\"112.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Keluar dari TOP</text>\n  </svg>\n  <p class=\"svg-caption\">Mekanisme Stack LIFO: Push dan Pop Selalu Terjadi di Ujung TOP</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">LIFO</span>\n          <span class=\"kw-chip\">push &amp; pop</span>\n          <span class=\"kw-chip\">peek()</span>\n          <span class=\"kw-chip\">Call Stack</span>\n          <span class=\"kw-chip\">Infix ke Postfix</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 4: Stack (Tumpukan - LIFO) Modul 4 KB 1: Konsep LIFO & Operasi Dasar Stack Prinsip LIFO (Last-In, First-Out): Elemen yang terakhir masuk adalah elemen pertama yang keluar (seperti tumpukan piring). Operasi Utama O(1) : push(x) (tambah ke puncak), pop() (ambil & hapus dari puncak), peek()/top() (lihat puncak tanpa menghapus), dan isEmpty() . KB 2: Aplikasi Nyata Stack Contoh Penggunaan: Fitur Undo/Redo di editor, tombol Back peramban, Call Stack pemanggilan fungsi rekursif, validasi tanda kurung seimbang, dan konversi ekspresi Infix → Postfix . push(30) Masuk ke TOP STACK (LIFO) [30] <- TOP [20] [10] <- Bottom pop() -> 30 Keluar dari TOP Mekanisme Stack LIFO: Push dan Pop Selalu Terjadi di Ujung TOP 🔑 Kata Kunci Wajib Ingat: LIFO push & pop peek() Call Stack Infix ke Postfix"
+    },
+    {
+      "id": "m5",
+      "title": "Modul 5: Queue (Antrean - FIFO) dan Deque",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-head\">\n        <h2>Modul 5: Queue (Antrean - FIFO) dan Deque</h2>\n        <span class=\"mod-tag\">Modul 5</span>\n      </div>\n      <h3>KB 1: Konsep FIFO &amp; Operasi Dasar Queue</h3>\n        <ul>\n          <li><strong>Prinsip FIFO (First-In, First-Out):</strong> Elemen pertama yang masuk di ujung belakang (<em>Rear/Tail</em>) adalah yang pertama keluar di ujung depan (<em>Front/Head</em>).</li>\n          <li><strong>Operasi Utama <code>O(1)</code>:</strong> <code>enqueue(x)</code> (tambah ke Rear), <code>dequeue()</code> (keluarkan dari Front), <code>front()/peek()</code>.</li>\n        </ul><h3>KB 2: Variasi Queue (Circular, Priority, Deque)</h3>\n        <ul>\n          <li><strong>Circular Queue:</strong> Menggunakan array melingkar (<code>(rear + 1) % capacity</code>) agar ruang kosong bekas dequeue dapat dipakai ulang.</li>\n          <li><strong>Priority Queue &amp; Deque:</strong> <em>Priority Queue</em> melayani elemen berprioritas tertinggi terlebih dahulu; <em>Deque (Double-Ended Queue)</em> mengizinkan tambah/hapus dari kedua ujung.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mekanisme Queue FIFO: Enqueue di Rear dan Dequeue di Front\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"62\" width=\"155\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"107.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">enqueue(C)</text><text x=\"107.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Masuk via Rear</text><line x1=\"185\" y1=\"98\" x2=\"225\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"225\" y=\"62\" width=\"230\" height=\"72\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Front [ A | B | C ] Rear</text><text x=\"340.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Antrean FIFO</text><line x1=\"455\" y1=\"98\" x2=\"495\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"495\" y=\"62\" width=\"155\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"572.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">dequeue() -&gt; A</text><text x=\"572.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Keluar via Front</text>\n  </svg>\n  <p class=\"svg-caption\">Mekanisme Queue FIFO: Enqueue di Rear dan Dequeue di Front</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">FIFO</span>\n          <span class=\"kw-chip\">enqueue &amp; dequeue</span>\n          <span class=\"kw-chip\">Circular Queue</span>\n          <span class=\"kw-chip\">Priority Queue</span>\n          <span class=\"kw-chip\">Deque</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 5: Queue (Antrean - FIFO) dan Deque Modul 5 KB 1: Konsep FIFO & Operasi Dasar Queue Prinsip FIFO (First-In, First-Out): Elemen pertama yang masuk di ujung belakang ( Rear/Tail ) adalah yang pertama keluar di ujung depan ( Front/Head ). Operasi Utama O(1) : enqueue(x) (tambah ke Rear), dequeue() (keluarkan dari Front), front()/peek() . KB 2: Variasi Queue (Circular, Priority, Deque) Circular Queue: Menggunakan array melingkar ( (rear + 1) % capacity ) agar ruang kosong bekas dequeue dapat dipakai ulang. Priority Queue & Deque: Priority Queue melayani elemen berprioritas tertinggi terlebih dahulu; Deque (Double-Ended Queue) mengizinkan tambah/hapus dari kedua ujung. enqueue(C) Masuk via Rear Front [ A | B | C ] Rear Antrean FIFO dequeue() -> A Keluar via Front Mekanisme Queue FIFO: Enqueue di Rear dan Dequeue di Front 🔑 Kata Kunci Wajib Ingat: FIFO enqueue & dequeue Circular Queue Priority Queue Deque"
+    },
+    {
+      "id": "m6",
+      "title": "Modul 6: Praktikum Pengurutan (Merge Sort & Counting Sort)",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-head\">\n        <h2>Modul 6: Praktikum Pengurutan (Merge Sort &amp; Counting Sort)</h2>\n        <span class=\"mod-tag\">Modul 6</span>\n      </div>\n      <h3>KB 1: Merge Sort (Divide and Conquer)</h3>\n        <ul>\n          <li><strong>Merge Sort:</strong> Membagi array menjadi dua bagian secara rekursif hingga ukuran 1 (<em>Divide</em>), lalu menggabungkannya kembali secara terurut (<em>Merge</em>).</li>\n          <li><strong>Kompleksitas:</strong> Selalu <strong>O(n log n)</strong> di semua kasus (Best, Average, Worst) dan bersifat <em>stable</em>, namun membutuhkan memori tambahan <code>O(n)</code>.</li>\n        </ul><h3>KB 2: Counting Sort (Non-Comparison Sort)</h3>\n        <ul>\n          <li><strong>Counting Sort:</strong> Mengurutkan bilangan bulat dalam rentang kecil <em>k</em> dengan menghitung frekuensi kemunculan tiap nilai tanpa membandingkan antar elemen.</li>\n          <li><strong>Kompleksitas:</strong> <strong>O(n + k)</strong> — lebih cepat dari batas bawah <code>O(n log n)</code> pengurutan berbasis perbandingan.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 222\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Skema Divide and Conquer pada Algoritma Merge Sort\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"240\" y=\"20\" width=\"200\" height=\"44\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"38.9\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">[38, 27, 43, 3]</text><text x=\"340.0\" y=\"51.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Array Awal</text><line x1=\"290\" y1=\"64\" x2=\"180\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"235.0\" y=\"74.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Divide</text><line x1=\"390\" y1=\"64\" x2=\"500\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"445.0\" y=\"74.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Divide</text><rect x=\"90\" y=\"96\" width=\"175\" height=\"42\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"177.5\" y=\"119.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">[38, 27] -&gt; [27, 38]</text><rect x=\"415\" y=\"96\" width=\"175\" height=\"42\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"502.5\" y=\"119.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">[43, 3] -&gt; [3, 43]</text><line x1=\"180\" y1=\"138\" x2=\"290\" y2=\"168\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"235.0\" y=\"147.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Merge</text><line x1=\"500\" y1=\"138\" x2=\"390\" y2=\"168\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"445.0\" y=\"147.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Merge</text><rect x=\"220\" y=\"168\" width=\"240\" height=\"42\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"186.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">[3, 27, 38, 43]</text><text x=\"340.0\" y=\"198.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Terurut O(n log n)</text>\n  </svg>\n  <p class=\"svg-caption\">Skema Divide and Conquer pada Algoritma Merge Sort</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Merge Sort O(n log n)</span>\n          <span class=\"kw-chip\">Divide and Conquer</span>\n          <span class=\"kw-chip\">Stable Sort</span>\n          <span class=\"kw-chip\">Counting Sort O(n+k)</span>\n          <span class=\"kw-chip\">Non-Comparison</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 6: Praktikum Pengurutan (Merge Sort & Counting Sort) Modul 6 KB 1: Merge Sort (Divide and Conquer) Merge Sort: Membagi array menjadi dua bagian secara rekursif hingga ukuran 1 ( Divide ), lalu menggabungkannya kembali secara terurut ( Merge ). Kompleksitas: Selalu O(n log n) di semua kasus (Best, Average, Worst) dan bersifat stable , namun membutuhkan memori tambahan O(n) . KB 2: Counting Sort (Non-Comparison Sort) Counting Sort: Mengurutkan bilangan bulat dalam rentang kecil k dengan menghitung frekuensi kemunculan tiap nilai tanpa membandingkan antar elemen. Kompleksitas: O(n + k) — lebih cepat dari batas bawah O(n log n) pengurutan berbasis perbandingan. [38, 27, 43, 3] Array Awal Divide Divide [38, 27] -> [27, 38] [43, 3] -> [3, 43] Merge Merge [3, 27, 38, 43] Terurut O(n log n) Skema Divide and Conquer pada Algoritma Merge Sort 🔑 Kata Kunci Wajib Ingat: Merge Sort O(n log n) Divide and Conquer Stable Sort Counting Sort O(n+k) Non-Comparison"
+    },
+    {
+      "id": "m7",
+      "title": "Modul 7: Tree (Pohon) dan Binary Search Tree (BST)",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-head\">\n        <h2>Modul 7: Tree (Pohon) dan Binary Search Tree (BST)</h2>\n        <span class=\"mod-tag\">Modul 7</span>\n      </div>\n      <h3>KB 1: Terminologi Tree &amp; Binary Search Tree (BST)</h3>\n        <ul>\n          <li><strong>Struktur Hirarkis Tree:</strong> Terdiri dari <em>Root</em> (akar), <em>Parent/Child</em>, <em>Leaf</em> (simpul tanpa anak), dan <em>Height</em>.</li>\n          <li><strong>Aturan BST:</strong> Untuk setiap simpul, seluruh nilai di <em>subtree kiri</em> <strong>lebih kecil</strong> dari simpul, dan seluruh nilai di <em>subtree kanan</em> <strong>lebih besar</strong>.</li>\n        </ul><h3>KB 2: Traversal Tree (Preorder, Inorder, Postorder)</h3>\n        <ul>\n          <li><strong>Preorder (Root-Left-Right):</strong> Berguna menyalin struktur tree.</li>\n          <li><strong>Inorder (Left-Root-Right):</strong> Pada BST menghasilkan data <strong>terurut menaik (ascending)</strong>!</li>\n          <li><strong>Postorder (Left-Right-Root):</strong> Berguna menghapus tree dari bawah ke atas.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 215\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Struktur Binary Search Tree (BST) dan Hasil Inorder Traversal Terurut\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"275\" y=\"20\" width=\"130\" height=\"44\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"44.6\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Root: 50</text><line x1=\"310\" y1=\"64\" x2=\"185\" y2=\"104\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"370\" y1=\"64\" x2=\"495\" y2=\"104\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"115\" y=\"104\" width=\"130\" height=\"44\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"180.0\" y=\"122.9\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Left: 30</text><text x=\"180.0\" y=\"135.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">&lt; 50</text><rect x=\"435\" y=\"104\" width=\"130\" height=\"44\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"500.0\" y=\"122.9\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Right: 70</text><text x=\"500.0\" y=\"135.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">&gt; 50</text><rect x=\"140\" y=\"168\" width=\"400\" height=\"36\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"188.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Inorder Traversal (L - Root - R) = 30, 50, 70</text>\n  </svg>\n  <p class=\"svg-caption\">Struktur Binary Search Tree (BST) dan Hasil Inorder Traversal Terurut</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Root &amp; Leaf</span>\n          <span class=\"kw-chip\">Binary Search Tree</span>\n          <span class=\"kw-chip\">Inorder (Terurut)</span>\n          <span class=\"kw-chip\">Preorder &amp; Postorder</span>\n          <span class=\"kw-chip\">Pencarian O(log n)</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 7: Tree (Pohon) dan Binary Search Tree (BST) Modul 7 KB 1: Terminologi Tree & Binary Search Tree (BST) Struktur Hirarkis Tree: Terdiri dari Root (akar), Parent/Child , Leaf (simpul tanpa anak), dan Height . Aturan BST: Untuk setiap simpul, seluruh nilai di subtree kiri lebih kecil dari simpul, dan seluruh nilai di subtree kanan lebih besar . KB 2: Traversal Tree (Preorder, Inorder, Postorder) Preorder (Root-Left-Right): Berguna menyalin struktur tree. Inorder (Left-Root-Right): Pada BST menghasilkan data terurut menaik (ascending) ! Postorder (Left-Right-Root): Berguna menghapus tree dari bawah ke atas. Root: 50 Left: 30 < 50 Right: 70 > 50 Inorder Traversal (L - Root - R) = 30, 50, 70 Struktur Binary Search Tree (BST) dan Hasil Inorder Traversal Terurut 🔑 Kata Kunci Wajib Ingat: Root & Leaf Binary Search Tree Inorder (Terurut) Preorder & Postorder Pencarian O(log n)"
+    },
+    {
+      "id": "m8",
+      "title": "Modul 8: Graph dan Representasinya",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-head\">\n        <h2>Modul 8: Graph dan Representasinya</h2>\n        <span class=\"mod-tag\">Modul 8</span>\n      </div>\n      <h3>KB 1: Konsep Dasar &amp; Jenis Graph</h3>\n        <ul>\n          <li><strong>Definisi Graph <em>G = (V, E)</em>:</strong> Himpunan simpul (<em>Vertices</em>) dan sisi penghubung (<em>Edges</em>).</li>\n          <li><strong>Jenis Graph:</strong> <em>Undirected</em> (dua arah) vs <em>Directed/Digraph</em> (berarah), serta <em>Weighted</em> (berbobot, mis. jarak jalan) vs <em>Unweighted</em>.</li>\n        </ul><h3>KB 2: Representasi Graph di Memori</h3>\n        <ul>\n          <li><strong>Adjacency Matrix:</strong> Matriks <em>V &times; V</em>; cek keberadaan sisi <code>O(1)</code>, namun boros memori <code>O(V<sup>2</sup>)</code> untuk graph jarang (<em>sparse</em>).</li>\n          <li><strong>Adjacency List:</strong> Setiap simpul menyimpan daftar tetangganya; hemat memori <code>O(V + E)</code>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Dua Representasi Utama Graph: Adjacency Matrix vs Adjacency List\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"45\" width=\"290\" height=\"125\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"180.0\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Adjacency Matrix</text><text x=\"180.0\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ukuran O(V^2) | Cek sisi O(1) | Cocok Dense Graph</text><rect x=\"355\" y=\"45\" width=\"290\" height=\"125\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"500.0\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Adjacency List</text><text x=\"500.0\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ukuran O(V + E) | Hemat Memori | Cocok Sparse Graph</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Dua Representasi Utama Graph: Adjacency Matrix vs Adjacency List</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Vertices &amp; Edges</span>\n          <span class=\"kw-chip\">Directed vs Undirected</span>\n          <span class=\"kw-chip\">Weighted Graph</span>\n          <span class=\"kw-chip\">Adjacency Matrix</span>\n          <span class=\"kw-chip\">Adjacency List</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 8: Graph dan Representasinya Modul 8 KB 1: Konsep Dasar & Jenis Graph Definisi Graph G = (V, E) : Himpunan simpul ( Vertices ) dan sisi penghubung ( Edges ). Jenis Graph: Undirected (dua arah) vs Directed/Digraph (berarah), serta Weighted (berbobot, mis. jarak jalan) vs Unweighted . KB 2: Representasi Graph di Memori Adjacency Matrix: Matriks V × V ; cek keberadaan sisi O(1) , namun boros memori O(V 2 ) untuk graph jarang ( sparse ). Adjacency List: Setiap simpul menyimpan daftar tetangganya; hemat memori O(V + E) . Adjacency Matrix Ukuran O(V^2) | Cek sisi O(1) | Cocok Dense Graph Adjacency List Ukuran O(V + E) | Hemat Memori | Cocok Sparse Graph Perbandingan Dua Representasi Utama Graph: Adjacency Matrix vs Adjacency List 🔑 Kata Kunci Wajib Ingat: Vertices & Edges Directed vs Undirected Weighted Graph Adjacency Matrix Adjacency List"
+    },
+    {
+      "id": "m9",
+      "title": "Modul 9: Praktikum Pencarian Graph (DFS & BFS)",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-head\">\n        <h2>Modul 9: Praktikum Pencarian Graph (DFS &amp; BFS)</h2>\n        <span class=\"mod-tag\">Modul 9</span>\n      </div>\n      <h3>KB 1: Depth-First Search (DFS)</h3>\n        <ul>\n          <li><strong>Prinsip DFS:</strong> Menelusuri satu cabang sedalam mungkin sebelum mundur (<em>backtracking</em>).</li>\n          <li><strong>Struktur Data Pendukung:</strong> Menggunakan <strong>Stack</strong> (atau rekursi) + array/set <code>visited</code> agar tidak terjebak siklus tak berujung.</li>\n        </ul><h3>KB 2: Breadth-First Search (BFS)</h3>\n        <ul>\n          <li><strong>Prinsip BFS:</strong> Menelusuri simpul tetangga lapis demi lapis (level terdekat terlebih dahulu).</li>\n          <li><strong>Struktur Data Pendukung:</strong> Menggunakan <strong>Queue</strong>. BFS menjamin ditemukannya <strong>jalur terpendek</strong> pada <em>unweighted graph</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Penelusuran Graph: DFS (Stack) vs BFS (Queue)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"177.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">DFS (Depth-First Search)</text><text x=\"177.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pakai Stack / Rekursi | Menyelam Dalam</text><rect x=\"360\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"502.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">BFS (Breadth-First Search)</text><text x=\"502.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pakai Queue | Lapis Per Lapis (Jalur Terpendek)</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Penelusuran Graph: DFS (Stack) vs BFS (Queue)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">DFS (Stack)</span>\n          <span class=\"kw-chip\">BFS (Queue)</span>\n          <span class=\"kw-chip\">Backtracking</span>\n          <span class=\"kw-chip\">Visited Set</span>\n          <span class=\"kw-chip\">Shortest Path Unweighted</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 9: Praktikum Pencarian Graph (DFS & BFS) Modul 9 KB 1: Depth-First Search (DFS) Prinsip DFS: Menelusuri satu cabang sedalam mungkin sebelum mundur ( backtracking ). Struktur Data Pendukung: Menggunakan Stack (atau rekursi) + array/set visited agar tidak terjebak siklus tak berujung. KB 2: Breadth-First Search (BFS) Prinsip BFS: Menelusuri simpul tetangga lapis demi lapis (level terdekat terlebih dahulu). Struktur Data Pendukung: Menggunakan Queue . BFS menjamin ditemukannya jalur terpendek pada unweighted graph . DFS (Depth-First Search) Pakai Stack / Rekursi | Menyelam Dalam BFS (Breadth-First Search) Pakai Queue | Lapis Per Lapis (Jalur Terpendek) Perbandingan Penelusuran Graph: DFS (Stack) vs BFS (Queue) 🔑 Kata Kunci Wajib Ingat: DFS (Stack) BFS (Queue) Backtracking Visited Set Shortest Path Unweighted"
+    },
+    {
+      "id": "ahli",
+      "title": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-head\">\n        <h2>Menurut Ahli + 📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h2>\n        <span class=\"mod-tag\">Tokoh &amp; Referensi</span>\n      </div>\n      <h3>Tokoh &amp; Teori Kunci dalam Struktur Data</h3>\n      <ul>\n        <li><strong>Niklaus Wirth</strong> — Menulis buku klasik <em>Algorithms + Data Structures = Programs</em> yang menegaskan bahwa pemilihan struktur data menentukan efisiensi program.</li>\n        <li><strong>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein (CLRS)</strong> — Penulis referensi utama algoritma modern mengenai analisis asimtotik Big-O, sorting, tree, dan graph.</li>\n        <li><strong>Donald Knuth</strong> — Bapak analisis algoritma yang mempopulerkan notasi asimtotik dan analisis struktur data fundamental.</li>\n        <li><strong>Robert Sedgewick</strong> — Mengembangkan implementasi struktur data dan algoritma berbasis Java serta Balanced Search Trees.</li>\n      </ul>\n      <h3>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h3>\n      <ul>\n        <li><strong>Worst-Case BST Tidak Seimbang</strong>: Jika data dimasukkan ke BST secara terurut (1, 2, 3, 4, 5), tree berubah miring seperti Linked List sehingga pencarian turun menjadi <strong>O(n)</strong>; solusinya adalah <em>Self-Balancing BST</em> (AVL Tree / Red-Black Tree).</li>\n        <li><strong>Memory Overhead Linked List</strong>: Meskipun dinamis, Linked List memakan memori ekstra per elemen karena harus menyimpan referensi pointer <code>next</code> (dan <code>prev</code> pada Doubly Linked List).</li>\n        <li><strong>Kapan Pakai Stack vs Queue?</strong>: Gunakan <strong>Stack</strong> untuk pembatalan berurutan (Undo, parsing ekspresi, DFS); gunakan <strong>Queue</strong> untuk antrean layanan adil (printer spooler, CPU scheduling, BFS).</li>\n      </ul>\n    </section>",
+      "text": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Tokoh & Referensi Tokoh & Teori Kunci dalam Struktur Data Niklaus Wirth — Menulis buku klasik Algorithms + Data Structures = Programs yang menegaskan bahwa pemilihan struktur data menentukan efisiensi program. Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein (CLRS) — Penulis referensi utama algoritma modern mengenai analisis asimtotik Big-O, sorting, tree, dan graph. Donald Knuth — Bapak analisis algoritma yang mempopulerkan notasi asimtotik dan analisis struktur data fundamental. Robert Sedgewick — Mengembangkan implementasi struktur data dan algoritma berbasis Java serta Balanced Search Trees. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Worst-Case BST Tidak Seimbang : Jika data dimasukkan ke BST secara terurut (1, 2, 3, 4, 5), tree berubah miring seperti Linked List sehingga pencarian turun menjadi O(n) ; solusinya adalah Self-Balancing BST (AVL Tree / Red-Black Tree). Memory Overhead Linked List : Meskipun dinamis, Linked List memakan memori ekstra per elemen karena harus menyimpan referensi pointer next (dan prev pada Doubly Linked List). Kapan Pakai Stack vs Queue? : Gunakan Stack untuk pembatalan berurutan (Undo, parsing ekspresi, DFS); gunakan Queue untuk antrean layanan adil (printer spooler, CPU scheduling, BFS)."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Dalam mempelajari struktur data, pemisahan antara apa yang dapat dilakukan oleh struktur data (spesifikasi operasi) dan bagaimana cara kerjanya di memori disebut perbedaan antara...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compiler dan Interpreter"
+        },
+        {
+          "letter": "B",
+          "text": "Interface dan Implementasi"
+        },
+        {
+          "letter": "C",
+          "text": "Hardware dan Software"
+        },
+        {
+          "letter": "D",
+          "text": "Variabel dan Konstanta"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Interface mendefinisikan spesifikasi operasi/ADT, sedangkan implementasi adalah bentuk fisik struktur data di memori",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Mengapa efisiensi algoritma menjadi fokus utama dalam pemilihan struktur data?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agar kode program selalu berbentuk satu baris"
+        },
+        {
+          "letter": "B",
+          "text": "Untuk menghemat alokasi memori (space) dan waktu eksekusi (time) komputasi"
+        },
+        {
+          "letter": "C",
+          "text": "Agar program tidak memerlukan tipe data primitif"
+        },
+        {
+          "letter": "D",
+          "text": "Supaya program hanya berjalan di satu sistem operasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Efisiensi struktur data bertujuan menghemat alokasi memori dan mempercepat waktu eksekusi operasi",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Struktur data yang paling tepat digunakan untuk memodelkan hubungan hierarkis seperti struktur organisasi perusahaan atau silsilah keluarga adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stack"
+        },
+        {
+          "letter": "B",
+          "text": "Queue"
+        },
+        {
+          "letter": "C",
+          "text": "Tree"
+        },
+        {
+          "letter": "D",
+          "text": "Array satu dimensi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Tree merepresentasikan hubungan parent-child secara hierarkis",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Nilai faktorial untuk bilangan bulat positif n (dinotasikan n!) didefinisikan sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "n + (n-1) + ... + 1"
+        },
+        {
+          "letter": "B",
+          "text": "n × (n-1) × ... × 2 × 1"
+        },
+        {
+          "letter": "C",
+          "text": "2^n"
+        },
+        {
+          "letter": "D",
+          "text": "n / 2"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Faktorial n! adalah hasil perkalian semua bilangan bulat positif dari 1 hingga n",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Notasi asimtotik Big-Oh (O) dalam analisis algoritma digunakan untuk menyatakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ukuran file kode sumber dalam byte"
+        },
+        {
+          "letter": "B",
+          "text": "Batas atas (upper bound) laju pertumbuhan waktu tempuh algoritma terhadap ukuran input n"
+        },
+        {
+          "letter": "C",
+          "text": "Jumlah baris komentar pada program"
+        },
+        {
+          "letter": "D",
+          "text": "Kecepatan clock prosesor dalam GHz"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Notasi Big-Oh mengukur kompleksitas waktu tempuh terburuk/batas atas seiring membesarnya ukuran input n",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-6] Perhatikan potongan perulangan: for (int i = 0; i < n; i++) { sum += a[i]; }. Kompleksitas waktu Big-Oh dari perulangan tersebut adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O(1)"
+        },
+        {
+          "letter": "B",
+          "text": "O(log n)"
+        },
+        {
+          "letter": "C",
+          "text": "O(n)"
+        },
+        {
+          "letter": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Perulangan berjalan sebanyak n kali mengakses a[i], sehingga waktu tempuhnya linear O(n)",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1-7] Dalam pengelompokan tipe data di Java, manakah yang termasuk tiga kategori utama tipe data menurut Modul 1?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primitif, Abstrak (ADT), dan Koleksi"
+        },
+        {
+          "letter": "B",
+          "text": "Statis, Dinamis, dan Biner"
+        },
+        {
+          "letter": "C",
+          "text": "Lokal, Global, dan Register"
+        },
+        {
+          "letter": "D",
+          "text": "String, Pointer, dan Struct"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 1 KB 3 membagi tipe data Java menjadi tipe data primitif, abstrak/ADT, dan koleksi",
+      "num": 7
+    },
+    {
+      "module": "M1",
+      "question": "[M1-8] Pada Java, tipe data int berukuran 32-bit, sedangkan untuk bilangan bulat 64-bit digunakan tipe data long yang penulisannya diakhiri huruf...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "F"
+        },
+        {
+          "letter": "B",
+          "text": "D"
+        },
+        {
+          "letter": "C",
+          "text": "L"
+        },
+        {
+          "letter": "D",
+          "text": "B"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Literal long integer di Java ditandai akhiran L, misalnya 30L",
+      "num": 8
+    },
+    {
+      "module": "M1",
+      "question": "[M1-9] Perbedaan mendasar antara Abstract Data Type (ADT) dan Struktur Data adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ADT hanya ada di bahasa C, Struktur Data hanya di Java"
+        },
+        {
+          "letter": "B",
+          "text": "ADT mendefinisikan bentuk logis dan operasi tipe data, sedangkan Struktur Data mengimplementasikan bentuk fisiknya"
+        },
+        {
+          "letter": "C",
+          "text": "ADT tidak memiliki operasi sama sekali"
+        },
+        {
+          "letter": "D",
+          "text": "Struktur Data tidak menggunakan memori"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "ADT adalah model logis/spesifikasi operasi, sedangkan struktur data adalah implementasi fisiknya",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Berikut ini yang merupakan tipe data primitif di Java dengan ukuran 16-bit dan merepresentasikan karakter Unicode adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "byte"
+        },
+        {
+          "letter": "B",
+          "text": "boolean"
+        },
+        {
+          "letter": "C",
+          "text": "char"
+        },
+        {
+          "letter": "D",
+          "text": "double"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Tipe data char berukuran 16-bit untuk karakter Unicode yang berkorespondensi dengan kode ASCII",
+      "num": 10
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Di antara deklarasi tipe data floating-point di Java berikut, manakah yang benar untuk tipe 32-bit (float) dan 64-bit (double)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "float a = 9.5; double b = 9.5F;"
+        },
+        {
+          "letter": "B",
+          "text": "float a = 9.5F; double b = 9.5;"
+        },
+        {
+          "letter": "C",
+          "text": "float a = 9.5L; double b = 9.5C;"
+        },
+        {
+          "letter": "D",
+          "text": "float a = true; double b = 'A';"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Literal float memerlukan akhiran F/f, sedangkan default bilangan desimal di Java adalah double 64-bit",
+      "num": 11
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Jika dideklarasikan char karakter3 = 65; pada bahasa Java, maka nilai karakter yang direpresentasikan berdasarkan tabel ASCII/Unicode adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "'0'"
+        },
+        {
+          "letter": "B",
+          "text": "'a'"
+        },
+        {
+          "letter": "C",
+          "text": "'A'"
+        },
+        {
+          "letter": "D",
+          "text": "'Z'"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kode ASCII 65 atau Unicode '\\u0041' merepresentasikan huruf kapital 'A'",
+      "num": 12
+    },
+    {
+      "module": "M2",
+      "question": "[M2-4] Array dalam bahasa pemrograman Java didefinisikan sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kumpulan variabel dengan tipe data berbeda-beda dan alamat acak"
+        },
+        {
+          "letter": "B",
+          "text": "Variabel yang memiliki tipe data sejenis yang tersusun berderet dengan alamat memori berurutan"
+        },
+        {
+          "letter": "C",
+          "text": "Struktur data yang hanya bisa diakses dari elemen terakhir"
+        },
+        {
+          "letter": "D",
+          "text": "Tipe data primitif berukuran 1-bit"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Array menyimpan elemen bertipe sejenis secara berurutan/kontigu di memori dan diakses via indeks",
+      "num": 13
+    },
+    {
+      "module": "M2",
+      "question": "[M2-5] Deklarasi array dua dimensi bertipe integer dengan ukuran 4 baris dan 5 kolom tanpa nilai awal di Java yang tepat adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "int[][] data = new int[4][5];"
+        },
+        {
+          "letter": "B",
+          "text": "int data = new int(4,5);"
+        },
+        {
+          "letter": "C",
+          "text": "array int[4][5] data;"
+        },
+        {
+          "letter": "D",
+          "text": "int[] data = new int[4,5];"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Array dua dimensi di Java dideklarasikan dengan tanda [][] dan alokasi new int[baris][kolom]",
+      "num": 14
+    },
+    {
+      "module": "M2",
+      "question": "[M2-6] Jika array satu dimensi int[] angka = {10, 20, 30, 40, 50}; dideklarasikan di Java, maka ekspresi angka[2] menghasilkan nilai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10"
+        },
+        {
+          "letter": "B",
+          "text": "20"
+        },
+        {
+          "letter": "C",
+          "text": "30"
+        },
+        {
+          "letter": "D",
+          "text": "40"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Indeks array di Java dimulai dari 0, sehingga indeks ke-2 adalah elemen ketiga yaitu 30",
+      "num": 15
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Pada Singly Linked List, setiap node minimal terdiri atas dua bagian utama, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indeks baris dan indeks kolom"
+        },
+        {
+          "letter": "B",
+          "text": "Data (elemen) dan pointer next ke node berikutnya"
+        },
+        {
+          "letter": "C",
+          "text": "Pointer prev dan pointer root"
+        },
+        {
+          "letter": "D",
+          "text": "Header class dan main method"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Setiap node Singly Linked List menyimpan data serta referensi/pointer next menuju node selanjutnya",
+      "num": 16
+    },
+    {
+      "module": "M2",
+      "question": "[M2-8] Keunggulan Doubly Linked List dibandingkan Singly Linked List adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak membutuhkan pointer sama sekali"
+        },
+        {
+          "letter": "B",
+          "text": "Setiap node memiliki pointer prev dan next sehingga dapat ditelusuri dua arah (maju dan mundur)"
+        },
+        {
+          "letter": "C",
+          "text": "Mengakses indeks ke-i dalam waktu O(1)"
+        },
+        {
+          "letter": "D",
+          "text": "Selalu menggunakan lebih sedikit memori per node"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Doubly Linked List menyimpan pointer next dan prev agar traversal bisa bergerak ke depan maupun ke belakang",
+      "num": 17
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Pada Circular Linked List, ciri khas yang membedakannya dari Singly Linked List biasa adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Node head selalu bernilai null"
+        },
+        {
+          "letter": "B",
+          "text": "Pointer next pada node terakhir (tail) menunjuk kembali ke node pertama (head)"
+        },
+        {
+          "letter": "C",
+          "text": "Hanya boleh menampung maksimal 2 node"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak memiliki bagian data"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Circular Linked List membentuk lingkaran karena tail.next menunjuk kembali ke head",
+      "num": 18
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Perhatikan kode dari Modul 3: int a = 10; int b = 5; boolean hasil = !((a < 15) ^ (b > 6));. Nilai variabel hasil yang dicetak adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "true"
+        },
+        {
+          "letter": "B",
+          "text": "false"
+        },
+        {
+          "letter": "C",
+          "text": "10"
+        },
+        {
+          "letter": "D",
+          "text": "Error kompilasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "(10 < 15) bernilai true dan (5 > 6) bernilai false; true ^ false (XOR) menghasilkan true, lalu dinegasikan (!) menjadi false",
+      "num": 19
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Pada praktikum class KaliBagi di Modul 3: double x = 7.0d; double y = 2.0d; System.out.println(x / y);. Output yang dihasilkan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3"
+        },
+        {
+          "letter": "B",
+          "text": "3.0"
+        },
+        {
+          "letter": "C",
+          "text": "3.5"
+        },
+        {
+          "letter": "D",
+          "text": "14.0"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Karena x dan y bertipe double, pembagian 7.0 / 2.0 menghasilkan nilai desimal presisi 3.5",
+      "num": 20
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Pada praktikum class TambahKurang, mengapa penulisan System.out.println(x + \" + \" + y + \" = \" + (x+y)); menggunakan tanda kurung pada (x+y)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agar tidak terjadi concatenation string sebelum penjumlahan aritmetika dilakukan"
+        },
+        {
+          "letter": "B",
+          "text": "Karena tanda kurung wajib untuk mencetak semua variabel"
+        },
+        {
+          "letter": "C",
+          "text": "Untuk mengubah tipe int menjadi char"
+        },
+        {
+          "letter": "D",
+          "text": "Untuk membuat perulangan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Tanpa kurung, operator + setelah string akan menggabungkan x dan y sebagai teks; kurung memaksa penjumlahan x+y dievaluasi terlebih dahulu",
+      "num": 21
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Dalam praktikum Array satu dimensi (class TotalArray) di Modul 3, perintah int[] AJumlah = new int[10]; berarti...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Membuat array bertipe int bernama AJumlah dengan indeks 1 sampai 10"
+        },
+        {
+          "letter": "B",
+          "text": "Membuat array bertipe int bernama AJumlah berkapasitas 10 elemen dengan indeks 0 sampai 9"
+        },
+        {
+          "letter": "C",
+          "text": "Mengisi seluruh elemen array dengan angka 10"
+        },
+        {
+          "letter": "D",
+          "text": "Membuat array 2 dimensi berukuran 10x10"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Alokasi new int[10] menyediakan 10 slot elemen dengan indeks 0 hingga 9",
+      "num": 22
+    },
+    {
+      "module": "M3",
+      "question": "[M3-5] Apabila program Java mencoba mengakses elemen array di luar batas indeks yang dialokasikan (misalnya Angka[5] pada int[] Angka = new int[5]), maka akan muncul exception...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NullPointerException"
+        },
+        {
+          "letter": "B",
+          "text": "ArithmeticException"
+        },
+        {
+          "letter": "C",
+          "text": "ArrayIndexOutOfBoundsException"
+        },
+        {
+          "letter": "D",
+          "text": "ClassNotFoundException"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Indeks valid untuk ukuran 5 adalah 0..4; mengakses indeks 5 memicu ArrayIndexOutOfBoundsException",
+      "num": 23
+    },
+    {
+      "module": "M3",
+      "question": "[M3-6] Untuk menerima input data elemen array dari keyboard pengguna pada praktikum Java di Modul 3, class standar dari paket java.util yang digunakan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Random"
+        },
+        {
+          "letter": "B",
+          "text": "Scanner"
+        },
+        {
+          "letter": "C",
+          "text": "Iterator"
+        },
+        {
+          "letter": "D",
+          "text": "Arrays"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Class Scanner dari java.util digunakan untuk membaca input dari System.in/keyboard",
+      "num": 24
+    },
+    {
+      "module": "M3",
+      "question": "[M3-7] Perhatikan kode praktikum class LatihList di Modul 3: LinkedList L = new LinkedList(); L.add(\"O\"); L.add(\"N\"); L.add(\"E\"); diikuti loop for(Object stackList : L) { System.out.print(stackList + \"->\"); }. Output yang tercetak adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "E->N->O->"
+        },
+        {
+          "letter": "B",
+          "text": "O->N->E->"
+        },
+        {
+          "letter": "C",
+          "text": "ONE"
+        },
+        {
+          "letter": "D",
+          "text": "Error karena LinkedList kosong"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Method add() pada java.util.LinkedList menambahkan elemen secara berurutan ke akhir list: O, lalu N, lalu E",
+      "num": 25
+    },
+    {
+      "module": "M3",
+      "question": "[M3-8] Pada praktikum LinkedList di Java (java.util.LinkedList), method yang digunakan untuk menyisipkan elemen baru tepat di posisi paling awal (head) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "addFirst()"
+        },
+        {
+          "letter": "B",
+          "text": "pushBack()"
+        },
+        {
+          "letter": "C",
+          "text": "insertRoot()"
+        },
+        {
+          "letter": "D",
+          "text": "peekLast()"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "java.util.LinkedList menyediakan method addFirst(e) untuk menyisipkan elemen di awal list",
+      "num": 26
+    },
+    {
+      "module": "M3",
+      "question": "[M3-9] Paket Java yang harus diimpor agar program dapat menggunakan class LinkedList dan Scanner secara langsung adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "import java.math.*;"
+        },
+        {
+          "letter": "B",
+          "text": "import java.util.*;"
+        },
+        {
+          "letter": "C",
+          "text": "import java.net.*;"
+        },
+        {
+          "letter": "D",
+          "text": "import java.sql.*;"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Class LinkedList dan Scanner berada di dalam paket java.util",
+      "num": 27
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Prinsip kerja utama struktur data Stack dalam menyisipkan dan menghapus elemen adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "FIFO (First-In First-Out)"
+        },
+        {
+          "letter": "B",
+          "text": "LIFO (Last-In First-Out)"
+        },
+        {
+          "letter": "C",
+          "text": "LILO (Last-In Last-Out)"
+        },
+        {
+          "letter": "D",
+          "text": "Random Access"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Stack bekerja dengan prinsip Last-In First-Out: elemen yang terakhir masuk akan pertama kali keluar",
+      "num": 28
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Pada ADT Stack, operasi accessor yang digunakan untuk melihat elemen teratas tanpa menghapusnya dari tumpukan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "push(e)"
+        },
+        {
+          "letter": "B",
+          "text": "pop()"
+        },
+        {
+          "letter": "C",
+          "text": "top() atau peek()"
+        },
+        {
+          "letter": "D",
+          "text": "size()"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "top() pada ADT Stack atau peek() di Java mengembalikan elemen teratas tanpa menghapusnya",
+      "num": 29
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Perhatikan urutan operasi ADT Stack: push(5), push(3), pop(), push(7), push(9), top(). Nilai yang dikembalikan oleh top() pada akhir urutan tersebut adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3"
+        },
+        {
+          "letter": "B",
+          "text": "5"
+        },
+        {
+          "letter": "C",
+          "text": "7"
+        },
+        {
+          "letter": "D",
+          "text": "9"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Setelah push(5) -> [5]; push(3) -> [5,3]; pop() -> [5]; push(7) -> [5,7]; push(9) -> [5,7,9]; elemen teratas adalah 9",
+      "num": 30
+    },
+    {
+      "module": "M4",
+      "question": "[M4-4] Kondisi Stack Overflow pada implementasi Stack berbasis array terjadi apabila...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Program memanggil pop() saat stack kosong"
+        },
+        {
+          "letter": "B",
+          "text": "Program memanggil push(e) ketika jumlah elemen sudah mencapai kapasitas maksimum array"
+        },
+        {
+          "letter": "C",
+          "text": "Program memanggil isEmpty()"
+        },
+        {
+          "letter": "D",
+          "text": "Elemen teratas bernilai 0"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Stack berbasis array memiliki kapasitas tetap; menambah elemen saat array penuh menyebabkan overflow",
+      "num": 31
+    },
+    {
+      "module": "M4",
+      "question": "[M4-5] Dalam implementasi Stack menggunakan array dengan variabel penunjuk puncak t (diinisialisasi t = -1 saat kosong), rumus indeks saat melakukan push(e) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "t = t - 1; data[t] = e;"
+        },
+        {
+          "letter": "B",
+          "text": "data[++t] = e;"
+        },
+        {
+          "letter": "C",
+          "text": "data[0] = e;"
+        },
+        {
+          "letter": "D",
+          "text": "t = 0; data[t] = e;"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Saat push, indeks puncak t dinaikkan 1 terlebih dahulu (++t) lalu elemen e disimpan di data[t]",
+      "num": 32
+    },
+    {
+      "module": "M4",
+      "question": "[M4-6] Kompleksitas waktu operasi push(), pop(), top(), size(), dan isEmpty() pada implementasi ArrayStack adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O(n)"
+        },
+        {
+          "letter": "B",
+          "text": "O(log n)"
+        },
+        {
+          "letter": "C",
+          "text": "O(1)"
+        },
+        {
+          "letter": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Seluruh operasi dasar Stack berbasis array hanya mengakses indeks puncak t sehingga berjalan dalam waktu konstan O(1)",
+      "num": 33
+    },
+    {
+      "module": "M4",
+      "question": "[M4-7] Pada class java.util.Stack di Java, method yang digunakan untuk memeriksa apakah stack kosong adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "empty()"
+        },
+        {
+          "letter": "B",
+          "text": "isNull()"
+        },
+        {
+          "letter": "C",
+          "text": "hasNext()"
+        },
+        {
+          "letter": "D",
+          "text": "clear()"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Class java.util.Stack menyediakan method empty() yang mengembalikan true jika stack tidak memiliki elemen",
+      "num": 34
+    },
+    {
+      "module": "M4",
+      "question": "[M4-8] Jika pada java.util.Stack dilakukan pemanggilan pop() atau peek() saat kondisi stack masih kosong, maka Java akan melempar exception...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "EmptyStackException"
+        },
+        {
+          "letter": "B",
+          "text": "ArithmeticException"
+        },
+        {
+          "letter": "C",
+          "text": "IndexOutOfBoundsException"
+        },
+        {
+          "letter": "D",
+          "text": "NoSuchMethodException"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "java.util.Stack melempar EmptyStackException jika pop() atau peek() dipanggil pada stack kosong",
+      "num": 35
+    },
+    {
+      "module": "M4",
+      "question": "[M4-9] Contoh penerapan konsep Stack dalam pemrograman maupun aplikasi sehari-hari adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antrean loket tiket"
+        },
+        {
+          "letter": "B",
+          "text": "Fitur Undo/Redo pada editor teks dan pemanggilan fungsi rekursif (Call Stack)"
+        },
+        {
+          "letter": "C",
+          "text": "Penjadwalan CPU Round-Robin"
+        },
+        {
+          "letter": "D",
+          "text": "Pengurutan Merge Sort"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Fitur Undo dan Call Stack memerlukan pembatalan/pengembalian aksi terakhir terlebih dahulu sesuai prinsip LIFO",
+      "num": 36
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Struktur data Queue (antrean) bekerja berdasarkan prinsip...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LIFO (Last-In First-Out)"
+        },
+        {
+          "letter": "B",
+          "text": "FIFO (First-In First-Out)"
+        },
+        {
+          "letter": "C",
+          "text": "Priority Random"
+        },
+        {
+          "letter": "D",
+          "text": "Binary Search"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Queue menggunakan prinsip First-In First-Out: elemen yang pertama masuk di Rear akan pertama keluar dari Front",
+      "num": 37
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Pada ADT Queue standar, operasi untuk menambahkan elemen e ke bagian belakang antrean (rear) dan menghapus elemen dari bagian depan (front) berturut-turut adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "push(e) dan pop()"
+        },
+        {
+          "letter": "B",
+          "text": "enqueue(e) dan dequeue()"
+        },
+        {
+          "letter": "C",
+          "text": "addFirst(e) dan removeLast()"
+        },
+        {
+          "letter": "D",
+          "text": "insert(e) dan top()"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "enqueue(e) menambah elemen ke belakang antrean, sedangkan dequeue() mengeluarkan elemen paling depan",
+      "num": 38
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Struktur data variasi Queue yang mengizinkan penambahan maupun penghapusan elemen dari kedua ujung (depan dan belakang) disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Circular Stack"
+        },
+        {
+          "letter": "B",
+          "text": "Deque (Double-Ended Queue)"
+        },
+        {
+          "letter": "C",
+          "text": "Singly Linked List"
+        },
+        {
+          "letter": "D",
+          "text": "Binary Tree"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Deque/Double-Ended Queue mendukung addFirst, addLast, removeFirst, dan removeLast di kedua ujung",
+      "num": 39
+    },
+    {
+      "module": "M5",
+      "question": "[M5-4] Tujuan penggunaan teknik Circular Array (indeks melingkar) pada implementasi Queue berbasis array berkapasitas N adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agar antrean selalu terurut ascending"
+        },
+        {
+          "letter": "B",
+          "text": "Memanfaatkan kembali slot kosong di depan array setelah operasi dequeue tanpa menggeser seluruh elemen"
+        },
+        {
+          "letter": "C",
+          "text": "Mengubah Queue menjadi LIFO"
+        },
+        {
+          "letter": "D",
+          "text": "Menghapus kebutuhan pointer front dan rear"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Dengan indeks melingkar modulo N, slot kosong di awal array dapat dipakai lagi oleh rear sehingga operasi tetap O(1)",
+      "num": 40
+    },
+    {
+      "module": "M5",
+      "question": "[M5-5] Pada Circular Array Queue berkapasitas N dengan indeks depan f dan jumlah elemen sz, posisi indeks tempat elemen baru disisipkan (rear) dihitung dengan rumus...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(f + sz) % N"
+        },
+        {
+          "letter": "B",
+          "text": "(f - sz) * N"
+        },
+        {
+          "letter": "C",
+          "text": "f / N"
+        },
+        {
+          "letter": "D",
+          "text": "sz - 1"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Operator modulo % N memastikan indeks rear melingkar kembali ke 0 setelah mencapai batas N-1",
+      "num": 41
+    },
+    {
+      "module": "M5",
+      "question": "[M5-6] Perhatikan urutan operasi pada Deque: addLast(5), addFirst(3), addFirst(7), first(), removeLast(). Nilai yang dihapus oleh removeLast() adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "7"
+        },
+        {
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "5"
+        },
+        {
+          "letter": "D",
+          "text": "null"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Urutan isi Deque setelah tiga operasi awal adalah [7, 3, 5]; first() mengembalikan 7, dan removeLast() menghapus elemen paling belakang yaitu 5",
+      "num": 42
+    },
+    {
+      "module": "M5",
+      "question": "[M5-7] Padanan method ADT Queue (enqueue, dequeue, first) pada interface java.util.Queue di Java yang melempar exception jika gagal adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "push(), pop(), peek()"
+        },
+        {
+          "letter": "B",
+          "text": "add(e), remove(), element()"
+        },
+        {
+          "letter": "C",
+          "text": "put(), get(), show()"
+        },
+        {
+          "letter": "D",
+          "text": "insert(), delete(), find()"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sesuai Modul 5 KB 3, ADT enqueue/dequeue/first berpadanan dengan add(e)/remove()/element() pada java.util.Queue",
+      "num": 43
+    },
+    {
+      "module": "M5",
+      "question": "[M5-8] Perhatikan kode Modul 5 (class LatihQueue): LinkedList Q = new LinkedList(); Q.add(\"D\"); Q.add(\"O\"); Q.add(\"N\"); Q.add(\"E\"); Q.remove(0);. Elemen yang tersisa paling depan (indeks 0) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "\"D\""
+        },
+        {
+          "letter": "B",
+          "text": "\"O\""
+        },
+        {
+          "letter": "C",
+          "text": "\"N\""
+        },
+        {
+          "letter": "D",
+          "text": "\"E\""
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Q.remove(0) menghapus elemen pertama yaitu \"D\", sehingga \"O\" menjadi elemen terdepan",
+      "num": 44
+    },
+    {
+      "module": "M5",
+      "question": "[M5-9] Pada interface java.util.Queue, perbedaan antara method poll() dan remove() saat antrean dalam keadaan kosong adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "poll() mengembalikan null, sedangkan remove() melempar NoSuchElementException"
+        },
+        {
+          "letter": "B",
+          "text": "poll() melempar exception, remove() mengembalikan 0"
+        },
+        {
+          "letter": "C",
+          "text": "Keduanya menghapus elemen terakhir"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak ada perbedaan sama sekali"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Method offer/poll/peek mengembalikan nilai khusus seperti null/false saat gagal, sedangkan add/remove/element melempar exception",
+      "num": 45
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Dalam Modul 6 KB 1, algoritma sorting dibagi menjadi dua kelompok besar yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Static sorting dan Dynamic sorting"
+        },
+        {
+          "letter": "B",
+          "text": "Comparison-based sorting dan Non comparison-based sorting"
+        },
+        {
+          "letter": "C",
+          "text": "Linear sorting dan Circular sorting"
+        },
+        {
+          "letter": "D",
+          "text": "Internal sorting dan Tree sorting"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Comparison-based membandingkan antar-elemen seperti Merge Sort, sedangkan non comparison-based seperti Counting Sort menghitung frekuensi",
+      "num": 46
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Algoritma Merge Sort bekerja dengan paradigma Divide and Conquer, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menukar elemen bersebelahan secara berulang hingga habis"
+        },
+        {
+          "letter": "B",
+          "text": "Memecah rangkaian data menjadi dua bagian secara rekursif lalu menggabungkannya kembali secara terurut"
+        },
+        {
+          "letter": "C",
+          "text": "Menghitung jumlah kemunculan setiap karakter ASCII"
+        },
+        {
+          "letter": "D",
+          "text": "Memilih elemen terkecil lalu menaruhnya di akhir"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Merge Sort membagi array menjadi sub-array kecil (divide) dan menggabungkannya dalam kondisi terurut (merge)",
+      "num": 47
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Jika terdapat data awal [4, 2, 1, 5, 3] yang diurutkan menaik (ascending) menggunakan algoritma Counting Sort, langkah pertamanya adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memilih pivot di tengah array"
+        },
+        {
+          "letter": "B",
+          "text": "Membuat array pencacah (count) untuk menghitung frekuensi kemunculan tiap nilai"
+        },
+        {
+          "letter": "C",
+          "text": "Membagi array menjadi dua sub-array"
+        },
+        {
+          "letter": "D",
+          "text": "Memindahkan elemen ke dalam Stack"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Counting Sort bekerja dengan menghitung frekuensi kemunculan setiap nilai pada array referensi/count",
+      "num": 48
+    },
+    {
+      "module": "M6",
+      "question": "[M6-4] Perhatikan method sort(int arr[], int l, int r) pada class MergeSort di Modul 6: int m = (l + r) / 2;. Fungsi variabel m adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menyimpan nilai maksimum array"
+        },
+        {
+          "letter": "B",
+          "text": "Menentukan indeks tengah untuk membagi array menjadi sub-array kiri [l..m] dan kanan [m+1..r]"
+        },
+        {
+          "letter": "C",
+          "text": "Menghitung jumlah total elemen"
+        },
+        {
+          "letter": "D",
+          "text": "Menukar posisi arr[l] dan arr[r]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Variabel m adalah titik tengah (middle) yang membagi rentang l..r menjadi dua bagian",
+      "num": 49
+    },
+    {
+      "module": "M6",
+      "question": "[M6-5] Pada method merge(int arr[], int l, int m, int r) di class MergeSort Modul 6, ukuran sub-array sementara L[] dan R[] dihitung dengan rumus...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "n1 = m - l + 1; dan n2 = r - m;"
+        },
+        {
+          "letter": "B",
+          "text": "n1 = r - l; dan n2 = m;"
+        },
+        {
+          "letter": "C",
+          "text": "n1 = l + m; dan n2 = r + m;"
+        },
+        {
+          "letter": "D",
+          "text": "n1 = arr.length; dan n2 = 0;"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sub-array kiri mencakup indeks l hingga m sehingga panjangnya m - l + 1, sedangkan kanan m+1 hingga r sehingga panjangnya r - m",
+      "num": 50
+    },
+    {
+      "module": "M6",
+      "question": "[M6-6] Kompleksitas waktu kasus terburuk (worst-case) dari algoritma Merge Sort untuk n elemen adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O(n)"
+        },
+        {
+          "letter": "B",
+          "text": "O(n log n)"
+        },
+        {
+          "letter": "C",
+          "text": "O(n^2)"
+        },
+        {
+          "letter": "D",
+          "text": "O(2^n)"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pembagian rekursif sebanyak log n tingkat dengan proses merge O(n) di tiap tingkat menghasilkan O(n log n)",
+      "num": 51
+    },
+    {
+      "module": "M6",
+      "question": "[M6-7] Perhatikan kode CountingSort di Modul 6: void sort(char arr[]) { int n = arr.length; char output[] = new char[n]; int count[] = new int[256]; ... }. Mengapa ukuran array count[] dibuat 256?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Karena panjang maksimal input adalah 256"
+        },
+        {
+          "letter": "B",
+          "text": "Untuk menampung seluruh kemungkinan kode karakter ASCII (0 hingga 255)"
+        },
+        {
+          "letter": "C",
+          "text": "Karena Java hanya mengizinkan array berukuran kelipatan 256"
+        },
+        {
+          "letter": "D",
+          "text": "Untuk menghemat memori menjadi 256 bit"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Karakter ASCII standar berjumlah 256 nilai (0–255), sehingga count[arr[i]] dapat langsung mengindeks frekuensi tiap karakter",
+      "num": 52
+    },
+    {
+      "module": "M6",
+      "question": "[M6-8] Pada kode CountingSort di Modul 6, fungsi perulangan for (int i = 0; i < n; ++i) ++count[arr[i]]; adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengurutkan array output[] secara langsung"
+        },
+        {
+          "letter": "B",
+          "text": "Menghitung dan mencatat frekuensi kemunculan setiap karakter pada arr[] ke dalam array count[]"
+        },
+        {
+          "letter": "C",
+          "text": "Mengosongkan isi array count[] menjadi 0"
+        },
+        {
+          "letter": "D",
+          "text": "Menyalin output[] kembali ke arr[]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Setiap kemunculan karakter arr[i] menaikkan nilai pencacah pada indeks count[arr[i]] sebesar 1",
+      "num": 53
+    },
+    {
+      "module": "M6",
+      "question": "[M6-9] Setelah menghitung frekuensi pada Counting Sort, array count[] diubah menjadi jumlah kumulatif (prefix sum) dengan tujuan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengetahui posisi indeks akhir yang tepat bagi setiap elemen pada array output[]"
+        },
+        {
+          "letter": "B",
+          "text": "Menghapus elemen duplikat"
+        },
+        {
+          "letter": "C",
+          "text": "Mengubah tipe data char menjadi double"
+        },
+        {
+          "letter": "D",
+          "text": "Membagi array menjadi dua bagian"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Nilai kumulatif count[i] menunjukkan posisi indeks terakhir elemen tersebut di array hasil yang sudah terurut",
+      "num": 54
+    },
+    {
+      "module": "M7",
+      "question": "[M7-1] Dalam terminologi struktur data Tree, node yang berada pada level 0 dan menjadi titik awal teratas dari keseluruhan tree disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Leaf"
+        },
+        {
+          "letter": "B",
+          "text": "Parent"
+        },
+        {
+          "letter": "C",
+          "text": "Root"
+        },
+        {
+          "letter": "D",
+          "text": "Sibling"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Root adalah satu-satunya node teratas pada level 0 yang tidak memiliki parent",
+      "num": 55
+    },
+    {
+      "module": "M7",
+      "question": "[M7-2] Node pada Tree yang tidak memiliki child sama sekali disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Root"
+        },
+        {
+          "letter": "B",
+          "text": "Subtree"
+        },
+        {
+          "letter": "C",
+          "text": "Leaf (Daun)"
+        },
+        {
+          "letter": "D",
+          "text": "Ancestor"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Leaf atau node eksternal adalah node yang tidak memiliki anak/edge ke bawah",
+      "num": 56
+    },
+    {
+      "module": "M7",
+      "question": "[M7-3] Jika sebuah node root berada pada level 0, maka child langsung dari root berada pada level...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Level 0"
+        },
+        {
+          "letter": "B",
+          "text": "Level 1"
+        },
+        {
+          "letter": "C",
+          "text": "Level 2"
+        },
+        {
+          "letter": "D",
+          "text": "Level -1"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Level menunjukkan banyaknya generasi dari root; child langsung dari root (level 0) berada di level 1",
+      "num": 57
+    },
+    {
+      "module": "M7",
+      "question": "[M7-4] Syarat utama sebuah struktur Tree dikategorikan sebagai Binary Tree adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Setiap node harus memiliki tepat 3 child"
+        },
+        {
+          "letter": "B",
+          "text": "Setiap node maksimal hanya boleh memiliki 2 child (left child dan right child)"
+        },
+        {
+          "letter": "C",
+          "text": "Semua leaf harus berada pada level yang sama"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak boleh memiliki root"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pada Binary Tree, setiap node paling banyak memiliki dua anak: anak kiri dan anak kanan",
+      "num": 58
+    },
+    {
+      "module": "M7",
+      "question": "[M7-5] Berdasarkan aturan representasi Binary Tree menggunakan array pada Modul 7 KB 2, jika root berada di indeks f(root) = 0 dan suatu node q berada di indeks f(q), maka indeks child kiri dan child kanan dari q adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kiri: 2*f(q) + 1 dan Kanan: 2*f(q) + 2"
+        },
+        {
+          "letter": "B",
+          "text": "Kiri: f(q) + 1 dan Kanan: f(q) + 2"
+        },
+        {
+          "letter": "C",
+          "text": "Kiri: 2*f(q) dan Kanan: 2*f(q) + 1"
+        },
+        {
+          "letter": "D",
+          "text": "Kiri: f(q) - 1 dan Kanan: f(q) + 1"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Untuk root di indeks 0, anak kiri berada di 2*f(q)+1 dan anak kanan di 2*f(q)+2",
+      "num": 59
+    },
+    {
+      "module": "M7",
+      "question": "[M7-6] Sebuah Binary Tree disebut Proper Binary Tree (Full Binary Tree) apabila...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Setiap node memiliki 0 atau tepat 2 child"
+        },
+        {
+          "letter": "B",
+          "text": "Semua node hanya memiliki 1 child"
+        },
+        {
+          "letter": "C",
+          "text": "Jumlah node selalu bilangan ganjil kurang dari 5"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak memiliki leaf"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Proper/Full Binary Tree mensyaratkan setiap node internal memiliki tepat 2 child, dan leaf memiliki 0 child",
+      "num": 60
+    },
+    {
+      "module": "M7",
+      "question": "[M7-7] Aturan fundamental pada Binary Search Tree (BST) untuk setiap node N adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Semua nilai di subtree kiri lebih besar dari N, dan di subtree kanan lebih kecil dari N"
+        },
+        {
+          "letter": "B",
+          "text": "Semua nilai di subtree kiri lebih kecil dari N, dan semua nilai di subtree kanan lebih besar dari N"
+        },
+        {
+          "letter": "C",
+          "text": "Nilai child kiri dan kanan harus selalu sama"
+        },
+        {
+          "letter": "D",
+          "text": "Nilai root harus selalu paling kecil"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "BST menjaga properti terurut: Left < Root < Right pada setiap subtree",
+      "num": 61
+    },
+    {
+      "module": "M7",
+      "question": "[M7-8] Metode penelusuran (traversal) pada Binary Search Tree yang mengunjungi subtree kiri, lalu node saat ini (root), kemudian subtree kanan sehingga menghasilkan data terurut menaik adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Preorder"
+        },
+        {
+          "letter": "B",
+          "text": "Inorder"
+        },
+        {
+          "letter": "C",
+          "text": "Postorder"
+        },
+        {
+          "letter": "D",
+          "text": "Level-order"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Inorder traversal (Left - Root - Right) pada BST selalu mengunjungi nilai dari yang terkecil hingga terbesar",
+      "num": 62
+    },
+    {
+      "module": "M7",
+      "question": "[M7-9] Urutan kunjungan node pada metode Preorder Traversal adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Left - Right - Root"
+        },
+        {
+          "letter": "B",
+          "text": "Left - Root - Right"
+        },
+        {
+          "letter": "C",
+          "text": "Root - Left - Right"
+        },
+        {
+          "letter": "D",
+          "text": "Right - Root - Left"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Preorder mengunjungi Root terlebih dahulu, baru subtree kiri (Left), lalu subtree kanan (Right)",
+      "num": 63
+    },
+    {
+      "module": "M8",
+      "question": "[M8-1] Permasalahan bersejarah yang menjadi cikal bakal lahirnya teori Graph oleh Leonhard Euler pada abad ke-18 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menara Hanoi"
+        },
+        {
+          "letter": "B",
+          "text": "Tujuh Jembatan Königsberg"
+        },
+        {
+          "letter": "C",
+          "text": "Persoalan N-Queen"
+        },
+        {
+          "letter": "D",
+          "text": "Algoritma Dijkstra"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Euler memodelkan daratan sebagai vertex dan tujuh jembatan Königsberg sebagai edge untuk membuktikan tidak adanya lintasan yang melewati tiap jembatan tepat sekali",
+      "num": 64
+    },
+    {
+      "module": "M8",
+      "question": "[M8-2] Dalam struktur data Graph, dua komponen utama pembentuk graph G = (V, E) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Root dan Leaf"
+        },
+        {
+          "letter": "B",
+          "text": "Vertex (simpul) dan Edge (sisi penghubung)"
+        },
+        {
+          "letter": "C",
+          "text": "Front dan Rear"
+        },
+        {
+          "letter": "D",
+          "text": "Key dan Value"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Graph terdiri dari himpunan simpul/vertex (V) dan himpunan sisi/edge (E) yang menghubungkan pasangan vertex",
+      "num": 65
+    },
+    {
+      "module": "M8",
+      "question": "[M8-3] Pada Graph, suatu lintasan (path) yang berawal dan berakhir pada vertex yang sama disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tree"
+        },
+        {
+          "letter": "B",
+          "text": "Cycle"
+        },
+        {
+          "letter": "C",
+          "text": "Degree"
+        },
+        {
+          "letter": "D",
+          "text": "Forest"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Cycle adalah lintasan tertutup di mana vertex awal dan vertex akhir adalah vertex yang sama",
+      "num": 66
+    },
+    {
+      "module": "M8",
+      "question": "[M8-4] Perbedaan antara Directed Graph (Digraph) dan Undirected Graph adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Directed Graph memiliki sisi berarah (panah satu arah dari asal ke tujuan), sedangkan Undirected Graph sisinya dua arah/tanpa arah"
+        },
+        {
+          "letter": "B",
+          "text": "Undirected Graph tidak boleh memiliki lebih dari 2 vertex"
+        },
+        {
+          "letter": "C",
+          "text": "Directed Graph tidak memiliki vertex"
+        },
+        {
+          "letter": "D",
+          "text": "Keduanya sama persis"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Pada Directed Graph, edge (u, v) memiliki arah dari u ke v, berbeda dengan (v, u)",
+      "num": 67
+    },
+    {
+      "module": "M8",
+      "question": "[M8-5] Pada Directed Graph, operasi outDegree(v) dan inDegree(v) berturut-turut mengembalikan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jumlah edge yang keluar dari v dan jumlah edge yang masuk ke v"
+        },
+        {
+          "letter": "B",
+          "text": "Nilai bobot minimum dan maksimum"
+        },
+        {
+          "letter": "C",
+          "text": "Indeks baris dan kolom matrix"
+        },
+        {
+          "letter": "D",
+          "text": "Panjang path terpendek ke root"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "outDegree(v) menghitung sisi keluar dari vertex v, sedangkan inDegree(v) menghitung sisi yang masuk ke vertex v",
+      "num": 68
+    },
+    {
+      "module": "M8",
+      "question": "[M8-6] Tiga jenis representasi Graph yang dibahas pada Modul 8 KB 2 berdasarkan Goodrich et al. meliputi...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stack, Queue, dan Deque"
+        },
+        {
+          "letter": "B",
+          "text": "Edge List Structure, Adjacency List Structure, dan Adjacency Map Structure (serta Adjacency Matrix)"
+        },
+        {
+          "letter": "C",
+          "text": "Bubble, Merge, dan Counting"
+        },
+        {
+          "letter": "D",
+          "text": "Preorder, Inorder, dan Postorder"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 8 KB 2 membahas Edge List, Adjacency List, Adjacency Map, dan Adjacency Matrix sebagai cara merepresentasikan graph",
+      "num": 69
+    },
+    {
+      "module": "M8",
+      "question": "[M8-7] Pada representasi Adjacency Matrix berukuran V × V untuk graph dengan V vertex, waktu yang dibutuhkan untuk memeriksa apakah ada edge langsung antara vertex u dan vertex v adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O(V^2)"
+        },
+        {
+          "letter": "B",
+          "text": "O(V)"
+        },
+        {
+          "letter": "C",
+          "text": "O(1)"
+        },
+        {
+          "letter": "D",
+          "text": "O(log V)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Cukup memeriksa langsung elemen matriks matrix[u][v] dalam waktu konstan O(1)",
+      "num": 70
+    },
+    {
+      "module": "M8",
+      "question": "[M8-8] Kelebihan utama Adjacency List dibandingkan Adjacency Matrix pada sparse graph (graph dengan banyak vertex namun sedikit edge) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lebih hemat memori karena hanya menyimpan edge yang benar-benar ada, yaitu O(V + E)"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak memerlukan vertex"
+        },
+        {
+          "letter": "C",
+          "text": "Selalu lebih cepat dalam mengecek keberadaan edge tunggal"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak mendukung directed graph"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Adjacency Matrix selalu memakan ruang O(V^2) meski sedikit edge, sedangkan Adjacency List hanya O(V + E)",
+      "num": 71
+    },
+    {
+      "module": "M8",
+      "question": "[M8-9] Yang dimaksud dengan Traversal Graph pada Modul 8 KB 3 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghapus seluruh vertex di dalam graph"
+        },
+        {
+          "letter": "B",
+          "text": "Proses mengunjungi seluruh vertex dan edge yang terhubung pada graph secara sistematis"
+        },
+        {
+          "letter": "C",
+          "text": "Mengubah graph menjadi array 1 dimensi"
+        },
+        {
+          "letter": "D",
+          "text": "Mengurutkan bobot edge dari besar ke kecil"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Traversal graph adalah prosedur sistematis untuk menelusuri dan mengunjungi semua vertex yang dapat dijangkau",
+      "num": 72
+    },
+    {
+      "module": "M9",
+      "question": "[M9-1] Dalam pengantar searching pada Modul 9, perbedaan strategi utama antara Depth-First Search (DFS) dan Breadth-First Search (BFS) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DFS menelusuri level demi level, BFS menyelam sedalam mungkin"
+        },
+        {
+          "letter": "B",
+          "text": "DFS menelusuri cabang sedalam mungkin terlebih dahulu sebelum backtrack, sedangkan BFS menelusuri secara melebar per level"
+        },
+        {
+          "letter": "C",
+          "text": "DFS hanya untuk array, BFS hanya untuk stack"
+        },
+        {
+          "letter": "D",
+          "text": "Keduanya memiliki urutan kunjungan yang selalu identik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "DFS memprioritaskan kedalaman cabang, sedangkan BFS mengunjungi seluruh tetangga pada level yang sama terlebih dahulu",
+      "num": 73
+    },
+    {
+      "module": "M9",
+      "question": "[M9-2] Struktur data utama yang digunakan oleh algoritma DFS dan BFS berturut-turut adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Queue untuk DFS, Stack untuk BFS"
+        },
+        {
+          "letter": "B",
+          "text": "Stack (atau rekursi) untuk DFS, Queue untuk BFS"
+        },
+        {
+          "letter": "C",
+          "text": "Tree untuk DFS, Array untuk BFS"
+        },
+        {
+          "letter": "D",
+          "text": "Heap untuk DFS, Deque untuk BFS"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "DFS menggunakan Stack/call-stack rekursi untuk melacak jalur mendalam; BFS menggunakan Queue FIFO untuk antrean per level",
+      "num": 74
+    },
+    {
+      "module": "M9",
+      "question": "[M9-3] Dalam aturan algoritma BFS, ketika tidak ada lagi vertex bertetangga yang belum dikunjungi dari vertex saat ini, langkah selanjutnya adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghapus vertex terdepan dari Queue dan mengecek vertex berikutnya di antrean"
+        },
+        {
+          "letter": "B",
+          "text": "Menghentikan program secara paksa"
+        },
+        {
+          "letter": "C",
+          "text": "Memasukkan kembali semua vertex yang sudah dikunjungi"
+        },
+        {
+          "letter": "D",
+          "text": "Mengosongkan array visited[]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sesuai aturan BFS Modul 9: jika tidak ada tetangga tak terkunjungi, hapus vertex terdepan dari Queue lalu lanjutkan",
+      "num": 75
+    },
+    {
+      "module": "M9",
+      "question": "[M9-4] Perhatikan kode DFS pada Modul 9: void DFSUtil(int v, boolean visited[]) { visited[v] = true; System.out.print(v + \" \"); ... }. Tujuan pemberian nilai visited[v] = true di awal method adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghapus vertex v dari graph"
+        },
+        {
+          "letter": "B",
+          "text": "Menandai bahwa vertex v sudah dikunjungi agar tidak dikunjungi ulang (mencegah infinite loop pada cycle)"
+        },
+        {
+          "letter": "C",
+          "text": "Mengurutkan vertex secara ascending"
+        },
+        {
+          "letter": "D",
+          "text": "Mengosongkan stack"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Penanda visited[v] = true mencegah penelusuran berulang pada vertex yang sama ketika graph memiliki siklus",
+      "num": 76
+    },
+    {
+      "module": "M9",
+      "question": "[M9-5] Pada kode DFSUtil di Modul 9, baris if (!visited[n]) DFSUtil(n, visited); menunjukkan bahwa implementasi DFS tersebut menggunakan pendekatan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iteratif dengan Queue"
+        },
+        {
+          "letter": "B",
+          "text": "Rekursif (memanggil dirinya sendiri untuk tetangga n yang belum dikunjungi)"
+        },
+        {
+          "letter": "C",
+          "text": "Binary Search"
+        },
+        {
+          "letter": "D",
+          "text": "Counting Sort"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pemanggilan DFSUtil(n, visited) di dalam dirinya sendiri memanfaatkan call stack rekursi untuk menyelam ke tetangga n",
+      "num": 77
+    },
+    {
+      "module": "M9",
+      "question": "[M9-6] Dalam class Graph pada Modul 9, method void addEdge(int v, int w) { adj[v].add(w); } berfungsi untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghapus vertex v dan w"
+        },
+        {
+          "letter": "B",
+          "text": "Menambahkan sisi berarah dari vertex v menuju vertex w ke dalam Adjacency List adj[v]"
+        },
+        {
+          "letter": "C",
+          "text": "Mencari lintasan terpendek antara v dan w"
+        },
+        {
+          "letter": "D",
+          "text": "Menginisialisasi array visited[]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "adj[v] adalah LinkedList yang menyimpan daftar tetangga dari vertex v, sehingga adj[v].add(w) menambah edge v -> w",
+      "num": 78
+    },
+    {
+      "module": "M9",
+      "question": "[M9-7] Perhatikan kode BFS di Modul 9: LinkedList<Integer> queue = new LinkedList<Integer>(); visited[s] = true; queue.add(s);. Mengapa digunakan LinkedList untuk variabel queue?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Karena LinkedList di Java mengimplementasikan interface Queue (mendukung add() di belakang dan poll() di depan)"
+        },
+        {
+          "letter": "B",
+          "text": "Karena LinkedList hanya bisa menampung 1 angka"
+        },
+        {
+          "letter": "C",
+          "text": "Karena array tidak bisa menyimpan integer"
+        },
+        {
+          "letter": "D",
+          "text": "Agar data otomatis terurut"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "java.util.LinkedList mengimplementasikan interface Queue/Deque sehingga menyediakan operasi enqueue add() dan dequeue poll()",
+      "num": 79
+    },
+    {
+      "module": "M9",
+      "question": "[M9-8] Pada perulangan while (queue.size() != 0) di method BFS(int s) Modul 9, perintah s = queue.poll(); berfungsi untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menambahkan vertex baru ke akhir antrean"
+        },
+        {
+          "letter": "B",
+          "text": "Mengambil sekaligus menghapus vertex paling depan dari antrean untuk diproses tetangganya"
+        },
+        {
+          "letter": "C",
+          "text": "Mengecek apakah graph memiliki cycle"
+        },
+        {
+          "letter": "D",
+          "text": "Mengubah tipe data queue menjadi Stack"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Method poll() mengambil dan menghapus elemen head dari queue, lalu tetangganya yang belum visited dimasukkan ke queue",
+      "num": 80
+    },
+    {
+      "module": "M9",
+      "question": "[M9-9] Algoritma penelusuran Graph yang menjamin ditemukannya jalur dengan jumlah sisi (edge) paling sedikit dari vertex sumber s pada unweighted graph adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DFS"
+        },
+        {
+          "letter": "B",
+          "text": "BFS"
+        },
+        {
+          "letter": "C",
+          "text": "Counting Sort"
+        },
+        {
+          "letter": "D",
+          "text": "Postorder"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Karena BFS menelusuri vertex lapis demi lapis berdasarkan jarak hop dari s, vertex tujuan pertama kali dicapai lewat jalur terpendek",
+      "num": 81
+    }
+  ],
+  "essayQuestions": []
+}

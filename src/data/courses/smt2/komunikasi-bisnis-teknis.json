@@ -1,0 +1,1260 @@
+{
+  "slug": "komunikasi-bisnis-teknis",
+  "semester": 2,
+  "url": "/smt2/komunikasi-bisnis-teknis",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/komunikasi-bisnis-teknis.html",
+  "title": "STSI4308 / SKOM443204: Komunikasi Bisnis & Teknis — Modul & Soal UT",
+  "shortLabel": "Komunikasi Bisnis & Teknis (STSI4308 / SKOM443204)",
+  "h1": "STSI4308 / SKOM443204: Komunikasi Bisnis & Teknis — Modul & Soal UT",
+  "metaDesc": "Ringkasan lengkap 9 modul Komunikasi Bisnis & Teknis (STSI4308 / SKOM443204) UT: 7C komunikasi, media & teknologi, verbal/nonverbal, Maslow, lobi & negosiasi, presentasi bisnis, serta 45 soal Tes Formatif asli.",
+  "coverTag": "Semester 2",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 9 modul Komunikasi Bisnis & Teknis (STSI4308 / SKOM443204) UT: 7C komunikasi, media & teknologi, verbal/nonverbal, Maslow, lobi & negosiasi, presentasi bisnis, serta 45 soal Tes Formatif asli.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Konsep Dasar, Konteks & Ruang Lingkup Komunikasi Bisnis"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Fungsi & Arah Komunikasi Organisasi Bisnis"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Dinamika Media & Teknologi dalam Komunikasi Bisnis"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Proses Komunikasi Bisnis & Komunikasi Massa"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Bentuk Komunikasi: Lisan, Tertulis, Mendengarkan & Nonverbal"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Jenis & Karakteristik Stakeholders"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Teknik Lobi dan Negosiasi dalam Komunikasi Bisnis"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Penulisan Pesan & Laporan Bisnis"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Pembicaraan Bisnis: Presentasi, Briefing & Rapat"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Ahli & Tokoh Kunci dalam BMP SKOM4432 (Sering Keluar di PG!)"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Konsep Dasar, Konteks & Ruang Lingkup Komunikasi Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#f59e0b;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Konsep Dasar, Konteks &amp; Ruang Lingkup Komunikasi Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>Dasar &amp; 6 Unsur Pokok (Rosenblatt, 1997)</h4>\n          <ul class=\"neat\">\n            <li><strong>Raymond V. Lesikar:</strong> <em>\"Without communication, there would be no organization.\"</em>\n            </li>\n            <li><strong>4 Fungsi Komunikasi Bisnis (Quible, dkk.):</strong> (1) Menginformasikan, (2) Mengontrol, (3)\n              Membujuk, (4) Mengoordinasikan.</li>\n            <li><strong>6 Unsur Pokok:</strong> Bertujuan, Pertukaran (≥2 orang), Gagasan/Opini/Instruksi, Saluran\n              (personal/impersonal), Simbol/Sinyal, Pencapaian tujuan organisasi (produktif &amp; memelihara).</li>\n            <li><strong>Bovee &amp; Thill (1986): Persentase Aktivitas:</strong><br><mark class=\"hl-yellow\">45%\n                Menyimak</mark> | <mark class=\"hl-mint\">30% Berbicara</mark> | <mark class=\"hl-blue\">16% Membaca</mark>\n              | <mark class=\"hl-pink\">9% Menulis</mark>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>Prinsip 7C (Murphy &amp; Hildebrandt, 1991)</h4>\n          <ol class=\"neat\">\n            <li><strong>Completeness:</strong> Informasi selengkap mungkin.</li>\n            <li><strong>Conciseness:</strong> Kata-kata jelas, singkat, dan padat.</li>\n            <li><strong>Concreteness:</strong> Spesifik, tidak abstrak/mengambang.</li>\n            <li><strong>Consideration:</strong> Mempertimbangkan situasi/sudut pandang komunikan.</li>\n            <li><strong>Clarity:</strong> Kalimat mudah dipahami oleh komunikan.</li>\n            <li><strong>Courtesy:</strong> Sopan santun dan tata krama menghargai komunikan.</li>\n            <li><strong>Correctness:</strong> Cermat (tata bahasa tepat &amp; sesuai kemampuan bahasa).</li>\n          </ol>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Proporsi Aktivitas Komunikasi\n          Bisnis (Bovee &amp; Thill, 1986)</div>\n        <svg width=\"680\" height=\"75\" viewBox=\"0 0 680 75\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"18\" width=\"297\" height=\"36\" rx=\"6\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"158\" y=\"40\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">Menyimak (45%)</text>\n          <rect x=\"311\" y=\"18\" width=\"198\" height=\"36\" rx=\"6\" fill=\"#c9f7dc\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"410\" y=\"40\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">Berbicara (30%)</text>\n          <rect x=\"513\" y=\"18\" width=\"105\" height=\"36\" rx=\"6\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"565\" y=\"40\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">Baca (16%)</text>\n          <rect x=\"622\" y=\"18\" width=\"48\" height=\"36\" rx=\"6\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"646\" y=\"40\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"10\">9%</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Menurut Bovee &amp; Thill, porsi terbesar aktivitas komunikasi bisnis adalah <strong>Menyimak (45%)</strong> dan <strong>Berbicara (30%)</strong>, diikuti Membaca (16%) dan Menulis (9%).</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 1</h4>\n        <ul class=\"neat\">\n          <li><strong>5 Lingkup Pokok Komunikasi Bisnis (Priyatna &amp; Ardianto, 2009):</strong> (1) Bentuk komunikasi (<em>oral, written, gestural, signal</em>), (2) Keterampilan komunikasi (merasa, mendengar, membaca, observasi, menghayati, berpikir, memahami), (3) Faktor psikologis (<em>personality, appearance</em>, reputasi, <em>dressing</em>, kematangan), (4) Proses komunikasi, dan (5) Ilmu penunjang (bahasa, psikologi, sosiologi, teknologi).</li>\n          <li><strong>Manfaat Komunikasi Efektif (Quible, Johnson, &amp; Mott, 1996):</strong> Memberikan citra positif pada pihak luar, memperbaiki <em>morale</em> pegawai, dan meningkatkan produktivitas pegawai.</li>\n          <li><strong>Konteks Komunikasi (3 Level + Lintas Budaya):</strong> Antarpersona (dialogis/tatap muka), Kelompok (4 tujuan: masukan beragam sudut pandang, partisipasi anggota, pertukaran gagasan sebelum aksi, komitmen lebih besar), Massa (heterogen), serta <strong>Komunikasi Antarbudaya</strong> (waspadai jebakan terjemahan harfiah slogan/istilah lintas negara).</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">7C (Complete·Concise·Concrete·Consideration·Clarity·Courtesy·Correctness)</span>\n          <span class=\"kw-chip\">Menyimak 45% · Bicara 30% · Baca 16% · Tulis 9%</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Aktivitas komunikasi bisnis paling dominan adalah <strong>menyimak (45%)</strong> (Bovee &amp; Thill).</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Konsep Dasar, Konteks & Ruang Lingkup Komunikasi Bisnis Dasar & 6 Unsur Pokok (Rosenblatt, 1997) Raymond V. Lesikar: \"Without communication, there would be no organization.\" 4 Fungsi Komunikasi Bisnis (Quible, dkk.): (1) Menginformasikan, (2) Mengontrol, (3) Membujuk, (4) Mengoordinasikan. 6 Unsur Pokok: Bertujuan, Pertukaran (≥2 orang), Gagasan/Opini/Instruksi, Saluran (personal/impersonal), Simbol/Sinyal, Pencapaian tujuan organisasi (produktif & memelihara). Bovee & Thill (1986): Persentase Aktivitas: 45% Menyimak | 30% Berbicara | 16% Membaca | 9% Menulis . Prinsip 7C (Murphy & Hildebrandt, 1991) Completeness: Informasi selengkap mungkin. Conciseness: Kata-kata jelas, singkat, dan padat. Concreteness: Spesifik, tidak abstrak/mengambang. Consideration: Mempertimbangkan situasi/sudut pandang komunikan. Clarity: Kalimat mudah dipahami oleh komunikan. Courtesy: Sopan santun dan tata krama menghargai komunikan. Correctness: Cermat (tata bahasa tepat & sesuai kemampuan bahasa). Proporsi Aktivitas Komunikasi Bisnis (Bovee & Thill, 1986) Menyimak (45%) Berbicara (30%) Baca (16%) 9% Penjelasan Diagram: Menurut Bovee & Thill, porsi terbesar aktivitas komunikasi bisnis adalah Menyimak (45%) dan Berbicara (30%) , diikuti Membaca (16%) dan Menulis (9%). 📌 Detail Kecil Wajib Tahu — Modul 1 5 Lingkup Pokok Komunikasi Bisnis (Priyatna & Ardianto, 2009): (1) Bentuk komunikasi ( oral, written, gestural, signal ), (2) Keterampilan komunikasi (merasa, mendengar, membaca, observasi, menghayati, berpikir, memahami), (3) Faktor psikologis ( personality, appearance , reputasi, dressing , kematangan), (4) Proses komunikasi, dan (5) Ilmu penunjang (bahasa, psikologi, sosiologi, teknologi). Manfaat Komunikasi Efektif (Quible, Johnson, & Mott, 1996): Memberikan citra positif pada pihak luar, memperbaiki morale pegawai, dan meningkatkan produktivitas pegawai. Konteks Komunikasi (3 Level + Lintas Budaya): Antarpersona (dialogis/tatap muka), Kelompok (4 tujuan: masukan beragam sudut pandang, partisipasi anggota, pertukaran gagasan sebelum aksi, komitmen lebih besar), Massa (heterogen), serta Komunikasi Antarbudaya (waspadai jebakan terjemahan harfiah slogan/istilah lintas negara). 🔑 Kata Kunci Wajib Ingat — Modul 1 7C (Complete·Concise·Concrete·Consideration·Clarity·Courtesy·Correctness) Menyimak 45% · Bicara 30% · Baca 16% · Tulis 9% Poin Ujian: Aktivitas komunikasi bisnis paling dominan adalah menyimak (45%) (Bovee & Thill)."
+    },
+    {
+      "id": "m2",
+      "title": "Fungsi & Arah Komunikasi Organisasi Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#3b82f6;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Fungsi &amp; Arah Komunikasi Organisasi Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Peran &amp; 4 Fungsi Komunikasi Bisnis</h4>\n          <ul class=\"neat\">\n            <li>Dalam aktivitas bisnis, komunikasi berperan ibarat <mark class=\"hl-pink\">darah</mark> dalam tubuh organisasi.</li>\n            <li><strong>4 Fungsi Komunikasi:</strong>\n              <ul class=\"neat\">\n                <li><em>Informatif:</em> Menyediakan informasi akurat untuk pengambilan keputusan.</li>\n                <li><em>Persuasif:</em> Mengubah sikap/perilaku tanpa paksaan.</li>\n                <li><em>Kontrol:</em> Berjalan bila informasi jelas, ada saluran, &amp; keterampilan memadai.</li>\n                <li><em>Emotif:</em> Ekspresi perasaan &amp; membangun ikatan kerja.</li>\n              </ul>\n            </li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Arah &amp; Jaringan Komunikasi Organisasi</h4>\n          <ul class=\"neat\">\n            <li><strong>Vertikal ke Bawah (Downward):</strong> Pimpinan → bawahan (instruksi, kebijakan, umpan balik kinerja).</li>\n            <li><strong>Vertikal ke Atas (Upward):</strong> Bawahan → pimpinan (laporan, keluhan, saran).</li>\n            <li><strong>Horizontal:</strong> Antar rekan sejawat / departemen setara (koordinasi).</li>\n            <li><strong>Diagonal:</strong> Lintas jenjang &amp; lintas departemen secara langsung.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Arah Komunikasi Organisasi (Vertikal, Horizontal, Diagonal) (Modul 2)</div>\n        <svg width=\"680\" height=\"118\" viewBox=\"0 0 680 118\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"20\" y=\"12\" width=\"150\" height=\"40\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"95\" y=\"30\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Downward</text>\n          <text x=\"95\" y=\"44\" text-anchor=\"middle\" font-size=\"9\">Atasan → Bawahan</text>\n          <rect x=\"190\" y=\"12\" width=\"150\" height=\"40\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"265\" y=\"30\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Upward</text>\n          <text x=\"265\" y=\"44\" text-anchor=\"middle\" font-size=\"9\">Bawahan → Atasan</text>\n          <rect x=\"360\" y=\"12\" width=\"150\" height=\"40\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"435\" y=\"30\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Horizontal</text>\n          <text x=\"435\" y=\"44\" text-anchor=\"middle\" font-size=\"9\">Rekan Sejawat</text>\n          <rect x=\"530\" y=\"12\" width=\"130\" height=\"40\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"595\" y=\"30\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Diagonal</text>\n          <text x=\"595\" y=\"44\" text-anchor=\"middle\" font-size=\"9\">Lintas Level &amp; Unit</text>\n\n          <rect x=\"20\" y=\"66\" width=\"150\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"95\" y=\"88\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1. Informatif</text>\n          <rect x=\"190\" y=\"66\" width=\"150\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"265\" y=\"88\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">2. Persuasif</text>\n          <rect x=\"360\" y=\"66\" width=\"150\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"435\" y=\"88\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">3. Kontrol</text>\n          <rect x=\"530\" y=\"66\" width=\"130\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"595\" y=\"88\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">4. Emotif</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Komunikasi organisasi mengalir dalam 4 arah (<em>Downward, Upward, Horizontal, Diagonal</em>) dan menjalankan 4 fungsi utama: <em>Informatif, Persuasif, Kontrol, serta Emotif</em>.</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 2</h4>\n        <ul class=\"neat\">\n          <li><strong>Komunikasi Internal vs Eksternal (Vikram &amp; Priya, 2009):</strong> Internal terjadi di dalam organisasi (tatap muka, memo, laporan, rapat, <em>video conferencing</em>), sedangkan Eksternal dengan pihak luar (pelanggan, distributor, media, pemerintah).</li>\n          <li><strong>Jaringan Formal vs Informal (Selentingan/<em>Grapevine</em>):</strong> Komunikasi formal mengikuti garis perintah &amp; struktur organisasi; jaringan informal (<em>selentingan</em> melalui gosip/rumor) sering kali jauh lebih cepat dan efektif menyebarkan informasi dibanding jalur formal.</li>\n          <li><strong>Akar Masalah Miskomunikasi (Hartley &amp; Bruckmann, 2002):</strong> Kesalahan komunikasi di organisasi umumnya bukan karena kurangnya pengetahuan/pemahaman, melainkan akibat <strong>kurangnya konsentrasi</strong> (misal mengirim memo tanpa persiapan matang atau rapat tanpa tujuan jelas).</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Informatif · Persuasif · Kontrol · Emotif</span>\n          <span class=\"kw-chip\">Downward · Upward · Horizontal · Diagonal</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Fungsi <strong>kontrol</strong> efektif jika info jelas, saluran tersedia, dan keterampilan memadai. Komunikasi antar departemen berbeda level = <strong>Diagonal</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Fungsi & Arah Komunikasi Organisasi Bisnis KB 1: Peran & 4 Fungsi Komunikasi Bisnis Dalam aktivitas bisnis, komunikasi berperan ibarat darah dalam tubuh organisasi. 4 Fungsi Komunikasi: Informatif: Menyediakan informasi akurat untuk pengambilan keputusan. Persuasif: Mengubah sikap/perilaku tanpa paksaan. Kontrol: Berjalan bila informasi jelas, ada saluran, & keterampilan memadai. Emotif: Ekspresi perasaan & membangun ikatan kerja. KB 2: Arah & Jaringan Komunikasi Organisasi Vertikal ke Bawah (Downward): Pimpinan → bawahan (instruksi, kebijakan, umpan balik kinerja). Vertikal ke Atas (Upward): Bawahan → pimpinan (laporan, keluhan, saran). Horizontal: Antar rekan sejawat / departemen setara (koordinasi). Diagonal: Lintas jenjang & lintas departemen secara langsung. 4 Arah Komunikasi Organisasi (Vertikal, Horizontal, Diagonal) (Modul 2) Downward Atasan → Bawahan Upward Bawahan → Atasan Horizontal Rekan Sejawat Diagonal Lintas Level & Unit 1. Informatif 2. Persuasif 3. Kontrol 4. Emotif Penjelasan Diagram: Komunikasi organisasi mengalir dalam 4 arah ( Downward, Upward, Horizontal, Diagonal ) dan menjalankan 4 fungsi utama: Informatif, Persuasif, Kontrol, serta Emotif . 📌 Detail Kecil Wajib Tahu — Modul 2 Komunikasi Internal vs Eksternal (Vikram & Priya, 2009): Internal terjadi di dalam organisasi (tatap muka, memo, laporan, rapat, video conferencing ), sedangkan Eksternal dengan pihak luar (pelanggan, distributor, media, pemerintah). Jaringan Formal vs Informal (Selentingan/ Grapevine ): Komunikasi formal mengikuti garis perintah & struktur organisasi; jaringan informal ( selentingan melalui gosip/rumor) sering kali jauh lebih cepat dan efektif menyebarkan informasi dibanding jalur formal. Akar Masalah Miskomunikasi (Hartley & Bruckmann, 2002): Kesalahan komunikasi di organisasi umumnya bukan karena kurangnya pengetahuan/pemahaman, melainkan akibat kurangnya konsentrasi (misal mengirim memo tanpa persiapan matang atau rapat tanpa tujuan jelas). 🔑 Kata Kunci Wajib Ingat — Modul 2 Informatif · Persuasif · Kontrol · Emotif Downward · Upward · Horizontal · Diagonal Poin Ujian: Fungsi kontrol efektif jika info jelas, saluran tersedia, dan keterampilan memadai. Komunikasi antar departemen berbeda level = Diagonal ."
+    },
+    {
+      "id": "m3",
+      "title": "Dinamika Media & Teknologi dalam Komunikasi Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#2563eb;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Dinamika Media &amp; Teknologi dalam Komunikasi Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Saluran Tradisional &amp; Dimensi Saluran</h4>\n          <ul class=\"neat\">\n            <li><strong>Saluran Tradisional:</strong> <em>Word of mouth</em> (dari mulut ke mulut) tetap kuat dalam membangun kepercayaan.</li>\n            <li><strong>3 Dimensi Saluran Komunikasi:</strong> Kredibilitas saluran, umpan balik (<em>feedback</em>) saluran, dan keterlibatan (<em>involvement</em>) saluran.</li>\n            <li><strong>Media Kaya (Rich Media):</strong> Tatap muka memungkinkan isyarat verbal + nonverbal + feedback instan.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Karakteristik Media Massa &amp; Media Baru</h4>\n          <ul class=\"neat\">\n            <li><strong>Surat Kabar:</strong> Periodesitas, publisitas, universalitas, terdokumentasikan.</li>\n            <li><strong>Majalah:</strong> Nilai aktualitas bertahan lebih lama dibanding surat kabar.</li>\n            <li><strong>Radio:</strong> Pesan bergaya percakapan (auditif, akrab).</li>\n            <li><strong>Televisi &amp; Media Digital/Internet:</strong> Audio-visual &amp; interaktif dua arah secara <em>real-time</em>.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">3 Dimensi Saluran &amp; Perbandingan Media Massa (Modul 3)</div>\n        <svg width=\"680\" height=\"102\" viewBox=\"0 0 680 102\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"155\" height=\"78\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"87\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Word of Mouth</text>\n          <text x=\"87\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\">Saluran Tradisional</text>\n          <text x=\"87\" y=\"70\" text-anchor=\"middle\" font-size=\"9.5\">Kepercayaan Tinggi</text>\n\n          <rect x=\"178\" y=\"12\" width=\"155\" height=\"78\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"255\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Surat Kabar</text>\n          <text x=\"255\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\">Periodisitas &amp; Publisitas</text>\n          <text x=\"255\" y=\"70\" text-anchor=\"middle\" font-size=\"9.5\">Terdokumentasikan</text>\n\n          <rect x=\"346\" y=\"12\" width=\"155\" height=\"78\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"423\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Majalah</text>\n          <text x=\"423\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\">Nilai Aktualitas</text>\n          <text x=\"423\" y=\"70\" text-anchor=\"middle\" font-size=\"9.5\">Lebih Tahan Lama</text>\n\n          <rect x=\"514\" y=\"12\" width=\"156\" height=\"78\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"592\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Radio &amp; Digital</text>\n          <text x=\"592\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\">Gaya Percakapan</text>\n          <text x=\"592\" y=\"70\" text-anchor=\"middle\" font-size=\"9.5\">Interaktif Real-Time</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Setiap saluran memiliki ciri khas: <em>Word of Mouth</em> unggul di kepercayaan personal, <em>Surat Kabar</em> di periodisitas &amp; arsip, <em>Majalah</em> di daya tahan aktualitas, dan <em>Radio/Digital</em> di kedekatan serta interaktivitas.</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 3</h4>\n        <ul class=\"neat\">\n          <li><strong>5 Fungsi Media Komunikasi (Burgon &amp; Huffner, 2002):</strong> (1) Efisiensi penyebaran informasi, (2) Memperkuat eksistensi informasi, (3) Mendidik/mengarahkan/persuasi, (4) Menghibur (<em>entertain</em>), dan (5) Kontrol sosial.</li>\n          <li><strong>7 Dimensi Saluran Komunikasi Lengkap (Rao dalam Blake &amp; Haroldsen, 1979):</strong> Kredibilitas saluran, umpan balik (<em>feedback</em>), keterlibatan/partisipasi, tersedianya saluran (<em>availability</em>), daya tahan pesan (<em>permanency</em>), kekuatan multiguna (<em>multiplicative power</em>), dan kesalingmelengkapi (<em>complementarity</em>).</li>\n          <li><strong>Media Umum vs Media Massa:</strong> Media umum dapat dipakai untuk komunikasi persona, kelompok, maupun massa (surat, telegram, teleks, telepon, faks, internet). Media massa terbagi menjadi cetak (surat kabar, majalah) dan elektronik (radio, televisi, film).</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Word of Mouth</span>\n          <span class=\"kw-chip\">Kredibilitas · Feedback · Keterlibatan</span>\n          <span class=\"kw-chip\">Surat Kabar vs Majalah vs Radio</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Majalah unggul di <strong>aktualitas lebih lama</strong>; surat kabar unggul di <strong>periodesitas &amp; terdokumentasi</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Dinamika Media & Teknologi dalam Komunikasi Bisnis KB 1: Saluran Tradisional & Dimensi Saluran Saluran Tradisional: Word of mouth (dari mulut ke mulut) tetap kuat dalam membangun kepercayaan. 3 Dimensi Saluran Komunikasi: Kredibilitas saluran, umpan balik ( feedback ) saluran, dan keterlibatan ( involvement ) saluran. Media Kaya (Rich Media): Tatap muka memungkinkan isyarat verbal + nonverbal + feedback instan. KB 2: Karakteristik Media Massa & Media Baru Surat Kabar: Periodesitas, publisitas, universalitas, terdokumentasikan. Majalah: Nilai aktualitas bertahan lebih lama dibanding surat kabar. Radio: Pesan bergaya percakapan (auditif, akrab). Televisi & Media Digital/Internet: Audio-visual & interaktif dua arah secara real-time . 3 Dimensi Saluran & Perbandingan Media Massa (Modul 3) Word of Mouth Saluran Tradisional Kepercayaan Tinggi Surat Kabar Periodisitas & Publisitas Terdokumentasikan Majalah Nilai Aktualitas Lebih Tahan Lama Radio & Digital Gaya Percakapan Interaktif Real-Time Penjelasan Diagram: Setiap saluran memiliki ciri khas: Word of Mouth unggul di kepercayaan personal, Surat Kabar di periodisitas & arsip, Majalah di daya tahan aktualitas, dan Radio/Digital di kedekatan serta interaktivitas. 📌 Detail Kecil Wajib Tahu — Modul 3 5 Fungsi Media Komunikasi (Burgon & Huffner, 2002): (1) Efisiensi penyebaran informasi, (2) Memperkuat eksistensi informasi, (3) Mendidik/mengarahkan/persuasi, (4) Menghibur ( entertain ), dan (5) Kontrol sosial. 7 Dimensi Saluran Komunikasi Lengkap (Rao dalam Blake & Haroldsen, 1979): Kredibilitas saluran, umpan balik ( feedback ), keterlibatan/partisipasi, tersedianya saluran ( availability ), daya tahan pesan ( permanency ), kekuatan multiguna ( multiplicative power ), dan kesalingmelengkapi ( complementarity ). Media Umum vs Media Massa: Media umum dapat dipakai untuk komunikasi persona, kelompok, maupun massa (surat, telegram, teleks, telepon, faks, internet). Media massa terbagi menjadi cetak (surat kabar, majalah) dan elektronik (radio, televisi, film). 🔑 Kata Kunci Wajib Ingat — Modul 3 Word of Mouth Kredibilitas · Feedback · Keterlibatan Surat Kabar vs Majalah vs Radio Poin Ujian: Majalah unggul di aktualitas lebih lama ; surat kabar unggul di periodesitas & terdokumentasi ."
+    },
+    {
+      "id": "m4",
+      "title": "Proses Komunikasi Bisnis & Komunikasi Massa",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#10b981;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Proses Komunikasi Bisnis &amp; Komunikasi Massa</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Unsur Proses &amp; Gangguan (Noise)</h4>\n          <ul class=\"neat\">\n            <li><strong>Model Proses Komunikasi:</strong> Sumber/Komunikator → <em>Encoding</em> → Pesan → Saluran/Media → <em>Decoding</em> → Komunikan → Efek &amp; Umpan Balik (<em>Feedback</em>).</li>\n            <li><strong>Hambatan/Noise:</strong> Gangguan fisik, semantik (perbedaan makna kata), psikologis, dan teknis.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Karakteristik &amp; Fungsi Komunikasi Massa</h4>\n          <ul class=\"neat\">\n            <li><strong>Karakteristik Komunikasi Massa:</strong> Komunikator terlembagakan, pesan bersifat umum, menimbulkan keserempakan, feedback tertunda, komunikan <mark class=\"hl-yellow\">heterogen &amp; anonim</mark> (bukan homogen!).</li>\n            <li><strong>Fungsi Pengawasan Komunikasi Massa:</strong> <em>Peringatan</em> (bahaya/bencana) dan <em>Instrumental</em> (info praktis sehari-hari).</li>\n            <li><strong>Fungsi Interpretasi:</strong> Media massa memberi penafsiran atas kebijakan/peristiwa penting.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Flowchart Proses Komunikasi &amp; Gangguan Noise (Modul 4)</div>\n        <svg width=\"680\" height=\"96\" viewBox=\"0 0 680 96\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"110\" height=\"40\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"65\" y=\"38\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Komunikator</text>\n          <path d=\"M122 34 L142 34\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"144\" y=\"14\" width=\"106\" height=\"40\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"197\" y=\"38\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Encoding</text>\n          <path d=\"M252 34 L272 34\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"274\" y=\"14\" width=\"122\" height=\"40\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#dc2626\"/><text x=\"335\" y=\"38\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Media (+Noise)</text>\n          <path d=\"M398 34 L418 34\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"420\" y=\"14\" width=\"106\" height=\"40\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"473\" y=\"38\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Decoding</text>\n          <path d=\"M528 34 L548 34\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"550\" y=\"14\" width=\"120\" height=\"40\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"610\" y=\"38\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Komunikan</text>\n\n          <rect x=\"180\" y=\"64\" width=\"320\" height=\"24\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/>\n          <text x=\"340\" y=\"80\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Umpan Balik (Feedback) ← Efek Komunikasi</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Proses komunikasi dimulai dari Komunikator melakukan <em>encoding</em> pesan melalui media (yang rawan gangguan/<em>noise</em>) menuju Komunikan yang melakukan <em>decoding</em>, lalu menghasilkan efek dan <em>feedback</em>.</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 4</h4>\n        <ul class=\"neat\">\n          <li><strong>Klasifikasi Komunikasi Interpersonal (Redding):</strong> Terbagi menjadi 4 bentuk: (1) Interaksi intim (keluarga/sahabat), (2) Percakapan sosial, (3) Interogasi atau pemeriksaan, dan (4) Wawancara.</li>\n          <li><strong>Klasifikasi Kelompok (Lindgren, 1973):</strong> Kelompok primer (tatap muka &amp; emosional), sekunder (impersonal &amp; berorientasi tujuan), formal, informal, <em>in-group</em>, <em>out-group</em>, <em>membership group</em>, <em>reference group</em>, <em>exclusive group</em>, dan <em>inclusive group</em>.</li>\n          <li><strong>Efektivitas &amp; Resolusi Konflik Kelompok:</strong> Menurut Ruch, efektivitas kelompok terlihat dari suasana (<em>atmosphere</em>), rasa aman (<em>threat reduction</em>), dan kepemimpinan bergilir (<em>distributive leadership</em>). Konflik diatasi dengan bersikap proaktif, komunikasi lancar, keterbukaan, mencari akar masalah, fleksibel, adil/netral, dan sikap bersekutu (<em>win-win</em>).</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Encoding → Decoding</span>\n          <span class=\"kw-chip\">Heterogen &amp; Anonim</span>\n          <span class=\"kw-chip\">Pengawasan (Peringatan &amp; Instrumental)</span>\n          <span class=\"kw-chip\">Fungsi Interpretasi</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Audiens komunikasi massa bersifat <strong>heterogen dan anonim</strong> (sering jadi pengecoh di soal PG!).</p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Proses Komunikasi Bisnis & Komunikasi Massa KB 1: Unsur Proses & Gangguan (Noise) Model Proses Komunikasi: Sumber/Komunikator → Encoding → Pesan → Saluran/Media → Decoding → Komunikan → Efek & Umpan Balik ( Feedback ). Hambatan/Noise: Gangguan fisik, semantik (perbedaan makna kata), psikologis, dan teknis. KB 2: Karakteristik & Fungsi Komunikasi Massa Karakteristik Komunikasi Massa: Komunikator terlembagakan, pesan bersifat umum, menimbulkan keserempakan, feedback tertunda, komunikan heterogen & anonim (bukan homogen!). Fungsi Pengawasan Komunikasi Massa: Peringatan (bahaya/bencana) dan Instrumental (info praktis sehari-hari). Fungsi Interpretasi: Media massa memberi penafsiran atas kebijakan/peristiwa penting. Flowchart Proses Komunikasi & Gangguan Noise (Modul 4) Komunikator Encoding Media (+Noise) Decoding Komunikan Umpan Balik (Feedback) ← Efek Komunikasi Penjelasan Diagram: Proses komunikasi dimulai dari Komunikator melakukan encoding pesan melalui media (yang rawan gangguan/ noise ) menuju Komunikan yang melakukan decoding , lalu menghasilkan efek dan feedback . 📌 Detail Kecil Wajib Tahu — Modul 4 Klasifikasi Komunikasi Interpersonal (Redding): Terbagi menjadi 4 bentuk: (1) Interaksi intim (keluarga/sahabat), (2) Percakapan sosial, (3) Interogasi atau pemeriksaan, dan (4) Wawancara. Klasifikasi Kelompok (Lindgren, 1973): Kelompok primer (tatap muka & emosional), sekunder (impersonal & berorientasi tujuan), formal, informal, in-group , out-group , membership group , reference group , exclusive group , dan inclusive group . Efektivitas & Resolusi Konflik Kelompok: Menurut Ruch, efektivitas kelompok terlihat dari suasana ( atmosphere ), rasa aman ( threat reduction ), dan kepemimpinan bergilir ( distributive leadership ). Konflik diatasi dengan bersikap proaktif, komunikasi lancar, keterbukaan, mencari akar masalah, fleksibel, adil/netral, dan sikap bersekutu ( win-win ). 🔑 Kata Kunci Wajib Ingat — Modul 4 Encoding → Decoding Heterogen & Anonim Pengawasan (Peringatan & Instrumental) Fungsi Interpretasi Poin Ujian: Audiens komunikasi massa bersifat heterogen dan anonim (sering jadi pengecoh di soal PG!)."
+    },
+    {
+      "id": "m5",
+      "title": "Bentuk Komunikasi: Lisan, Tertulis, Mendengarkan & Nonverbal",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#059669;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Bentuk Komunikasi: Lisan, Tertulis, Mendengarkan &amp; Nonverbal</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Proses Mendengarkan &amp; Komunikasi Lisan</h4>\n          <ul class=\"neat\">\n            <li><strong>4 Tahap Mendengarkan:</strong> <mark class=\"hl-mint\">Hearing → Interpretation → Evaluation → Respons</mark>.</li>\n            <li><strong>Komunikasi Lisan Tatap Muka:</strong> Rapat, konferensi, seminar, diskusi kelompok, orientasi pegawai.</li>\n          </ul>\n          <h4 style=\"margin-top:10px;\">KB 2: Komunikasi Tertulis (Philip V. Lewis)</h4>\n          <ul class=\"neat\">\n            <li>Perhatikan penampilan, diksi, &amp; kesopansantunan; kriteria isi: akurasi, kejelasan, penekanan, <em>unity</em> (kesatuan), dan <mark class=\"hl-blue\">coherence</mark> (kepaduan hubungan antarkalimat/paragraf).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 3: Komunikasi Nonverbal</h4>\n          <ul class=\"neat\">\n            <li><strong>Kinesik:</strong> Gerak tubuh, gestur, ekspresi wajah, kontak mata.</li>\n            <li><strong>Proksemik:</strong> Penggunaan jarak &amp; ruang (intim, personal, sosial, publik).</li>\n            <li><strong>Paralinguistik:</strong> Nada suara, intonasi, volume, tempo bicara.</li>\n            <li><strong>Artifaktual:</strong> Penampilan fisik, pakaian, aksesori, tata ruang kantor.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Tahap Proses Mendengarkan (Modul 5)</div>\n        <svg width=\"680\" height=\"66\" viewBox=\"0 0 680 66\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"150\" height=\"38\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"85\" y=\"37\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">1. Hearing (Mendengar)</text>\n          <path d=\"M162 33 L180 33\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"182\" y=\"14\" width=\"150\" height=\"38\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"257\" y=\"37\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">2. Interpretation</text>\n          <path d=\"M334 33 L352 33\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"354\" y=\"14\" width=\"150\" height=\"38\" rx=\"8\" fill=\"#ffedd5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"429\" y=\"37\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3. Evaluation</text>\n          <path d=\"M506 33 L524 33\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"526\" y=\"14\" width=\"144\" height=\"38\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"598\" y=\"37\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">4. Respons</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Mendengarkan aktif melewati 4 tahap berurutan: menangkap bunyi (<em>Hearing</em>) → menafsirkan makna (<em>Interpretation</em>) → menilai isi pesan (<em>Evaluation</em>) → memberi tanggapan (<em>Respons</em>).</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 5</h4>\n        <ul class=\"neat\">\n          <li><strong>5 Sifat Bahasa sebagai Sistem Simbol (Hockett, 1977):</strong> (1) Produktivitas (kreatif/terbuka), (2) Pengalihan/<em>displacement</em> (membicarakan masa lalu/depan &amp; tempat jauh), (3) Pelenyapan cepat/<em>rapid fading</em> (suara cepat hilang), (4) Kebebasan makna/<em>arbitrary</em>, dan (5) Transmisi budaya (<em>culturally transmitted</em>).</li>\n          <li><strong>Desain Komunikasi Visual (DKV — KB 3):</strong> Memiliki 3 fungsi dasar: sarana <em>identifikasi</em>, sarana <em>informasi &amp; instruksi</em>, serta sarana <em>presentasi &amp; promosi</em>. Cabangnya meliputi ilustrasi, fotografi, tipografi, 3D, multimedia, animasi, dan periklanan (bukan <em>public relations</em>).</li>\n          <li><strong>Istilah Kunci DKV (Sering Keluar di PG):</strong> <em>Visual language</em> = ilmu bahasa visual; <em>Visualiser</em> = orang yang menangani masalah visual; <em>Visual library</em> = kumpulan/daftar karya visual; <strong>GSM</strong> = pedoman grafis elemen promosi; Akar DKV = ilmu seni &amp; komunikasi (pendukung: sosial budaya, ekonomi, psikologi).</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Hearing → Interpretation → Evaluation → Respons</span>\n          <span class=\"kw-chip\">Unity &amp; Coherence (Lewis)</span>\n          <span class=\"kw-chip\">Kinesik · Proksemik · Paralinguistik · Artifaktual</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>Coherence</strong> = keterkaitan logis antarkalimat/paragraf. <strong>Proksemik</strong> = jarak fisik; <strong>Kinesik</strong> = bahasa tubuh.</p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Bentuk Komunikasi: Lisan, Tertulis, Mendengarkan & Nonverbal KB 1: Proses Mendengarkan & Komunikasi Lisan 4 Tahap Mendengarkan: Hearing → Interpretation → Evaluation → Respons . Komunikasi Lisan Tatap Muka: Rapat, konferensi, seminar, diskusi kelompok, orientasi pegawai. KB 2: Komunikasi Tertulis (Philip V. Lewis) Perhatikan penampilan, diksi, & kesopansantunan; kriteria isi: akurasi, kejelasan, penekanan, unity (kesatuan), dan coherence (kepaduan hubungan antarkalimat/paragraf). KB 3: Komunikasi Nonverbal Kinesik: Gerak tubuh, gestur, ekspresi wajah, kontak mata. Proksemik: Penggunaan jarak & ruang (intim, personal, sosial, publik). Paralinguistik: Nada suara, intonasi, volume, tempo bicara. Artifaktual: Penampilan fisik, pakaian, aksesori, tata ruang kantor. 4 Tahap Proses Mendengarkan (Modul 5) 1. Hearing (Mendengar) 2. Interpretation 3. Evaluation 4. Respons Penjelasan Diagram: Mendengarkan aktif melewati 4 tahap berurutan: menangkap bunyi ( Hearing ) → menafsirkan makna ( Interpretation ) → menilai isi pesan ( Evaluation ) → memberi tanggapan ( Respons ). 📌 Detail Kecil Wajib Tahu — Modul 5 5 Sifat Bahasa sebagai Sistem Simbol (Hockett, 1977): (1) Produktivitas (kreatif/terbuka), (2) Pengalihan/ displacement (membicarakan masa lalu/depan & tempat jauh), (3) Pelenyapan cepat/ rapid fading (suara cepat hilang), (4) Kebebasan makna/ arbitrary , dan (5) Transmisi budaya ( culturally transmitted ). Desain Komunikasi Visual (DKV — KB 3): Memiliki 3 fungsi dasar: sarana identifikasi , sarana informasi & instruksi , serta sarana presentasi & promosi . Cabangnya meliputi ilustrasi, fotografi, tipografi, 3D, multimedia, animasi, dan periklanan (bukan public relations ). Istilah Kunci DKV (Sering Keluar di PG): Visual language = ilmu bahasa visual; Visualiser = orang yang menangani masalah visual; Visual library = kumpulan/daftar karya visual; GSM = pedoman grafis elemen promosi; Akar DKV = ilmu seni & komunikasi (pendukung: sosial budaya, ekonomi, psikologi). 🔑 Kata Kunci Wajib Ingat — Modul 5 Hearing → Interpretation → Evaluation → Respons Unity & Coherence (Lewis) Kinesik · Proksemik · Paralinguistik · Artifaktual Poin Ujian: Coherence = keterkaitan logis antarkalimat/paragraf. Proksemik = jarak fisik; Kinesik = bahasa tubuh."
+    },
+    {
+      "id": "m6",
+      "title": "Jenis & Karakteristik Stakeholders",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#8b5cf6;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Jenis &amp; Karakteristik Stakeholders</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>Stakeholders Internal vs Eksternal</h4>\n          <ul class=\"neat\">\n            <li><strong>Internal:</strong> Pemilik, Manajemen, Karyawan.</li>\n            <li><strong>Eksternal:</strong> <mark class=\"hl-yellow\">Pelanggan</mark>, <mark\n                class=\"hl-mint\">Penyalur</mark> (punya jaringan distribusi, pola kemitraan), <mark\n                class=\"hl-blue\">Pemasok</mark> (inginkan transaksi memuaskan), <mark class=\"hl-pink\">Agen\n                Regulator</mark> (pembuat kebijakan/kepatuhan aturan).</li>\n            <li><strong>8 Karakteristik Sistem Komunikasi Baik (Vikram &amp; Priya):</strong> <em>Two-way channel,\n                Clarity, Mutual trust, Timely, Consistency, Good relations, Feedback, Flexibility</em>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>Pemetaan Khalayak &amp; Kebutuhan</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Kategori Khalayak:</strong> Demografis, Geografis, Psikografis.</li>\n            <li><strong>3 Komponen Psikososial:</strong> Afektif (perasaan), Kognitif (pengetahuan), Konatif (tindakan).\n            </li>\n            <li><strong>Hierarki Kebutuhan Maslow (5):</strong> Biologis → Rasa aman → Cinta/afiliasi → Penghargaan →\n              Aktualisasi diri.</li>\n            <li><strong>David McClelland (3):</strong> Berprestasi, Kasih sayang, Berkuasa.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Peta Stakeholders (Internal vs\n          Eksternal) &amp; Hierarki Kebutuhan Maslow</div>\n        <svg width=\"680\" height=\"135\" viewBox=\"0 0 680 135\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"320\" height=\"110\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" />\n          <text x=\"170\" y=\"30\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">Stakeholders Komunikasi\n            Bisnis</text>\n          <rect x=\"22\" y=\"42\" width=\"140\" height=\"68\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"92\" y=\"60\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Internal</text><text x=\"92\" y=\"78\"\n            text-anchor=\"middle\" font-size=\"10\">Pemilik, Manajemen,</text><text x=\"92\" y=\"94\" text-anchor=\"middle\"\n            font-size=\"10\">Karyawan</text>\n          <rect x=\"176\" y=\"42\" width=\"142\" height=\"68\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"247\" y=\"60\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Eksternal</text><text x=\"247\" y=\"78\"\n            text-anchor=\"middle\" font-size=\"10\">Pelanggan, Penyalur,</text><text x=\"247\" y=\"94\" text-anchor=\"middle\"\n            font-size=\"10\">Pemasok, Regulator</text>\n\n          <rect x=\"350\" y=\"12\" width=\"320\" height=\"110\" rx=\"10\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\" />\n          <text x=\"510\" y=\"30\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">5 Tingkat Kebutuhan Maslow</text>\n          <rect x=\"425\" y=\"38\" width=\"170\" height=\"15\" fill=\"#ffe4e6\" stroke=\"#24292f\" /><text x=\"510\" y=\"49\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">5. Aktualisasi Diri</text>\n          <rect x=\"405\" y=\"54\" width=\"210\" height=\"15\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"510\" y=\"65\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">4. Penghargaan</text>\n          <rect x=\"385\" y=\"70\" width=\"250\" height=\"15\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"510\" y=\"81\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">3. Sosial / Cinta &amp; Afiliasi</text>\n          <rect x=\"370\" y=\"86\" width=\"280\" height=\"15\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"510\" y=\"97\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">2. Rasa Aman</text>\n          <rect x=\"360\" y=\"102\" width=\"300\" height=\"15\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"510\" y=\"113\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">1. Kebutuhan Biologis (Dasar)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: Peta pemangku kepentingan terbagi menjadi <em>Internal</em> (pemilik, manajemen, karyawan) dan <em>Eksternal</em> (pelanggan, penyalur, pemasok, regulator). Kanan: Piramida 5 tingkat kebutuhan <strong>Abraham Maslow</strong> dari dasar biologis hingga aktualisasi diri.</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 6</h4>\n        <ul class=\"neat\">\n          <li><strong>Asal-Usul &amp; Tokoh Stakeholders:</strong> Istilah ini pertama kali muncul dalam memorandum internal <strong>Stanford Research (1963)</strong> (\"kelompok yang tanpa dukungannya organisasi berhenti eksis\") dan dikembangkan oleh <strong>R. Edward Freeman (1980-an)</strong>.</li>\n          <li><strong>Stakeholders Primer vs Sekunder (Clarkson):</strong> <strong>Primer</strong> adalah pihak yang tanpa partisipasinya yang berkelanjutan organisasi tidak dapat bertahan (pemegang saham, investor, pekerja, pelanggan, pemasok). <strong>Sekunder</strong> adalah pihak yang memengaruhi/dipengaruhi perusahaan tetapi tidak terlibat langsung dalam transaksi utama.</li>\n          <li><strong>Postur Mental &amp; Motif Khalayak:</strong> Berdasarkan postur mental, khalayak dibagi menjadi <em>manusia \"abstrak\"</em> dan <em>manusia \"konkret\"</em>; sedangkan kebutuhannya mencakup kebutuhan <strong>biologis</strong> dan <strong>sosiogenis</strong>.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Stakeholders Internal vs Eksternal</span>\n          <span class=\"kw-chip\">Afektif · Kognitif · Konatif</span>\n          <span class=\"kw-chip\">Maslow (5) vs McClelland (3)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Pemilik/manajemen/karyawan = <strong>Internal</strong>; pelanggan/penyalur/pemasok/regulator = <strong>Eksternal</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Jenis & Karakteristik Stakeholders Stakeholders Internal vs Eksternal Internal: Pemilik, Manajemen, Karyawan. Eksternal: Pelanggan , Penyalur (punya jaringan distribusi, pola kemitraan), Pemasok (inginkan transaksi memuaskan), Agen Regulator (pembuat kebijakan/kepatuhan aturan). 8 Karakteristik Sistem Komunikasi Baik (Vikram & Priya): Two-way channel, Clarity, Mutual trust, Timely, Consistency, Good relations, Feedback, Flexibility . Pemetaan Khalayak & Kebutuhan 3 Kategori Khalayak: Demografis, Geografis, Psikografis. 3 Komponen Psikososial: Afektif (perasaan), Kognitif (pengetahuan), Konatif (tindakan). Hierarki Kebutuhan Maslow (5): Biologis → Rasa aman → Cinta/afiliasi → Penghargaan → Aktualisasi diri. David McClelland (3): Berprestasi, Kasih sayang, Berkuasa. Peta Stakeholders (Internal vs Eksternal) & Hierarki Kebutuhan Maslow Stakeholders Komunikasi Bisnis Internal Pemilik, Manajemen, Karyawan Eksternal Pelanggan, Penyalur, Pemasok, Regulator 5 Tingkat Kebutuhan Maslow 5. Aktualisasi Diri 4. Penghargaan 3. Sosial / Cinta & Afiliasi 2. Rasa Aman 1. Kebutuhan Biologis (Dasar) Penjelasan Diagram: Kiri: Peta pemangku kepentingan terbagi menjadi Internal (pemilik, manajemen, karyawan) dan Eksternal (pelanggan, penyalur, pemasok, regulator). Kanan: Piramida 5 tingkat kebutuhan Abraham Maslow dari dasar biologis hingga aktualisasi diri. 📌 Detail Kecil Wajib Tahu — Modul 6 Asal-Usul & Tokoh Stakeholders: Istilah ini pertama kali muncul dalam memorandum internal Stanford Research (1963) (\"kelompok yang tanpa dukungannya organisasi berhenti eksis\") dan dikembangkan oleh R. Edward Freeman (1980-an) . Stakeholders Primer vs Sekunder (Clarkson): Primer adalah pihak yang tanpa partisipasinya yang berkelanjutan organisasi tidak dapat bertahan (pemegang saham, investor, pekerja, pelanggan, pemasok). Sekunder adalah pihak yang memengaruhi/dipengaruhi perusahaan tetapi tidak terlibat langsung dalam transaksi utama. Postur Mental & Motif Khalayak: Berdasarkan postur mental, khalayak dibagi menjadi manusia \"abstrak\" dan manusia \"konkret\" ; sedangkan kebutuhannya mencakup kebutuhan biologis dan sosiogenis . 🔑 Kata Kunci Wajib Ingat — Modul 6 Stakeholders Internal vs Eksternal Afektif · Kognitif · Konatif Maslow (5) vs McClelland (3) Poin Ujian: Pemilik/manajemen/karyawan = Internal ; pelanggan/penyalur/pemasok/regulator = Eksternal ."
+    },
+    {
+      "id": "m7",
+      "title": "Teknik Lobi dan Negosiasi dalam Komunikasi Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#ef4444;\">MODUL 7</span>\n        <h2 class=\"mod-title\">Teknik Lobi dan Negosiasi dalam Komunikasi Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>Lobi (Lobbying)</h4>\n          <ul class=\"neat\">\n            <li>Kemampuan terpenting dalam lobi adalah melakukan <mark class=\"hl-yellow\">persuasi</mark> (bukan\n              memaksakan kekuasaan atau sekadar mencari proyek).</li>\n            <li><strong>Fungsi Lobi:</strong> Memengaruhi pengambil keputusan, menafsirkan opini pejabat/publik,\n              memprediksi kebijakan yang akan terjadi.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>Jenis-Jenis Negosiasi</h4>\n          <ul class=\"neat\">\n            <li><strong>Bargaining (Distributif):</strong> Terjadi <mark class=\"hl-pink\">kalah dan menang</mark>\n              (<em>win-lose</em>).</li>\n            <li><strong>Kompromistis:</strong> Masing-masing pihak <mark class=\"hl-peach\">kalah dan menang</mark>\n              (saling memberi konsesi).</li>\n            <li><strong>Kolaboratif (Integratif):</strong> Masing-masing pihak <mark class=\"hl-mint\">menang</mark>\n              (<em>win-win solution</em>).</li>\n            <li>Konflik dalam negosiasi diselesaikan melalui <strong>komunikasi</strong>.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Spektrum 3 Pendekatan Negosiasi\n        </div>\n        <svg width=\"680\" height=\"80\" viewBox=\"0 0 680 80\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"205\" height=\"50\" rx=\"10\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"1.6\" />\n          <text x=\"112\" y=\"36\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">Bargaining</text>\n          <text x=\"112\" y=\"53\" text-anchor=\"middle\" font-size=\"10.5\">Kalah &amp; Menang (Win-Lose)</text>\n          <path d=\"M218 39 L235 39\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"237\" y=\"14\" width=\"205\" height=\"50\" rx=\"10\" fill=\"#ffe2c6\" stroke=\"#24292f\" stroke-width=\"1.6\" />\n          <text x=\"339\" y=\"36\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">Kompromistis</text>\n          <text x=\"339\" y=\"53\" text-anchor=\"middle\" font-size=\"10.5\">Masing-masing Kalah &amp; Menang</text>\n          <path d=\"M445 39 L462 39\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"464\" y=\"14\" width=\"205\" height=\"50\" rx=\"10\" fill=\"#c9f7dc\" stroke=\"#24292f\" stroke-width=\"1.6\" />\n          <text x=\"566\" y=\"36\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">Kolaboratif</text>\n          <text x=\"566\" y=\"53\" text-anchor=\"middle\" font-size=\"10.5\">Masing-masing Menang (Win-Win)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Spektrum negosiasi bergerak dari <strong>Bargaining</strong> (kompetitif menang-kalah / <em>win-lose</em>), menuju <strong>Kompromistis</strong> (saling memberi konsesi), hingga <strong>Kolaboratif</strong> (mencari solusi menang-menang / <em>win-win</em>).</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 7</h4>\n        <ul class=\"neat\">\n          <li><strong>3 Jenis Lobi (Iriantara, dkk., 2008):</strong> (1) <em>Lobi tradisional</em> (memanfaatkan figur publik/mantan pejabat), (2) <em>Lobi akar rumput (grass-root)</em> (memengaruhi masyarakat agar menyuarakan aspirasi ke pengambil keputusan), dan (3) <em>Lobi Political Action Committee (PAC)</em> (komite perusahaan besar untuk menempatkan calon di legislatif/eksekutif).</li>\n          <li><strong>4 Badan Hukum Kelompok Lobi (Windschuttle &amp; Windschuttle, 1988):</strong> Perhimpunan, perusahaan perorangan, yayasan, dan koperasi.</li>\n          <li><strong>4 Tahap &amp; 4 Teknik Negosiasi:</strong> Tahapan: <em>pembukaan → menyampaikan (proposing) → tawar-menawar → kesepakatan (deal)</em>. Teknik: (1) <em>push-push-pull</em> (mengulur lalu menarik perhatian), (2) <em>lose-win</em>, (3) <em>split the difference</em> (membagi selisih harga, khusus perundingan harga), dan (4) <em>piggyback</em> (saling mendukung). Tipe negosiasi: persuasi/bujukan, kompromi konstruktif, dan posisional.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 7</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Lobi = Persuasi</span>\n          <span class=\"kw-chip\">Bargaining (Win-Lose)</span>\n          <span class=\"kw-chip\">Kompromistis (Konsesi)</span>\n          <span class=\"kw-chip\">Kolaboratif (Win-Win)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Kunci utama lobi adalah <strong>persuasi</strong> (bukan paksaan). Negosiasi <strong>kolaboratif</strong> menghasilkan <em>win-win solution</em>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 7 Teknik Lobi dan Negosiasi dalam Komunikasi Bisnis Lobi (Lobbying) Kemampuan terpenting dalam lobi adalah melakukan persuasi (bukan memaksakan kekuasaan atau sekadar mencari proyek). Fungsi Lobi: Memengaruhi pengambil keputusan, menafsirkan opini pejabat/publik, memprediksi kebijakan yang akan terjadi. Jenis-Jenis Negosiasi Bargaining (Distributif): Terjadi kalah dan menang ( win-lose ). Kompromistis: Masing-masing pihak kalah dan menang (saling memberi konsesi). Kolaboratif (Integratif): Masing-masing pihak menang ( win-win solution ). Konflik dalam negosiasi diselesaikan melalui komunikasi . Spektrum 3 Pendekatan Negosiasi Bargaining Kalah & Menang (Win-Lose) Kompromistis Masing-masing Kalah & Menang Kolaboratif Masing-masing Menang (Win-Win) Penjelasan Diagram: Spektrum negosiasi bergerak dari Bargaining (kompetitif menang-kalah / win-lose ), menuju Kompromistis (saling memberi konsesi), hingga Kolaboratif (mencari solusi menang-menang / win-win ). 📌 Detail Kecil Wajib Tahu — Modul 7 3 Jenis Lobi (Iriantara, dkk., 2008): (1) Lobi tradisional (memanfaatkan figur publik/mantan pejabat), (2) Lobi akar rumput (grass-root) (memengaruhi masyarakat agar menyuarakan aspirasi ke pengambil keputusan), dan (3) Lobi Political Action Committee (PAC) (komite perusahaan besar untuk menempatkan calon di legislatif/eksekutif). 4 Badan Hukum Kelompok Lobi (Windschuttle & Windschuttle, 1988): Perhimpunan, perusahaan perorangan, yayasan, dan koperasi. 4 Tahap & 4 Teknik Negosiasi: Tahapan: pembukaan → menyampaikan (proposing) → tawar-menawar → kesepakatan (deal) . Teknik: (1) push-push-pull (mengulur lalu menarik perhatian), (2) lose-win , (3) split the difference (membagi selisih harga, khusus perundingan harga), dan (4) piggyback (saling mendukung). Tipe negosiasi: persuasi/bujukan, kompromi konstruktif, dan posisional. 🔑 Kata Kunci Wajib Ingat — Modul 7 Lobi = Persuasi Bargaining (Win-Lose) Kompromistis (Konsesi) Kolaboratif (Win-Win) Poin Ujian: Kunci utama lobi adalah persuasi (bukan paksaan). Negosiasi kolaboratif menghasilkan win-win solution ."
+    },
+    {
+      "id": "m8",
+      "title": "Penulisan Pesan & Laporan Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#06b6d4;\">MODUL 8</span>\n        <h2 class=\"mod-title\">Penulisan Pesan &amp; Laporan Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1 &amp; 2: Tujuan &amp; 4 Langkah Perencanaan Pesan</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Tujuan Pesan Bisnis:</strong> Memberitahukan (<em>inform</em>), Mempersuasi (<em>persuade</em>), dan Kerja sama (<em>collaborate</em>).</li>\n            <li><strong>4 Langkah Perencanaan Pesan:</strong> (1) Penentuan tujuan, (2) Analisis audiens, (3) Penentuan ide pokok, (4) Penentuan media/saluran pesan.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 3 &amp; 4: Pengorganisasian Pesan &amp; Paragraf</h4>\n          <ul class=\"neat\">\n            <li><strong>Pengorganisasian Pesan:</strong> Kelompokkan gagasan, urutkan, &amp; sajikan secara <strong>logis</strong> (pola deduktif untuk pesan baik/rutin, induktif untuk pesan buruk/persuasif).</li>\n            <li><strong>Pengembangan Paragraf Ilustrasi:</strong> Memberikan contoh-contoh nyata untuk menjelaskan gagasan umum.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Langkah Perencanaan Pesan Bisnis (Modul 8)</div>\n        <svg width=\"680\" height=\"62\" viewBox=\"0 0 680 62\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"150\" height=\"34\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"85\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1. Penentuan Tujuan</text>\n          <path d=\"M162 31 L180 31\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"182\" y=\"14\" width=\"150\" height=\"34\" rx=\"6\" fill=\"#fef9c3\" stroke=\"#24292f\"/><text x=\"257\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">2. Analisis Audiens</text>\n          <path d=\"M334 31 L352 31\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"354\" y=\"14\" width=\"150\" height=\"34\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"429\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">3. Ide Pokok</text>\n          <path d=\"M506 31 L524 31\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"526\" y=\"14\" width=\"144\" height=\"34\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"598\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">4. Media/Saluran</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Sebelum menulis pesan atau laporan bisnis, lakukan 4 langkah berurutan: tentukan <em>tujuan</em> → analisis profil <em>audiens</em> → rumuskan <em>ide pokok</em> → pilih <em>media/saluran</em> yang tepat.</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 8</h4>\n        <ul class=\"neat\">\n          <li><strong>3 Syarat Pesan Bisnis Efektif:</strong> (1) <em>Purposeful</em> (tujuan spesifik: memberi info, memecahkan masalah, atau meminta tindakan), (2) <em>Audience-centered</em> (berorientasi kebutuhan &amp; latar belakang audiens), dan (3) <em>Concise</em> (ringkas, jelas, menghormati waktu pembaca).</li>\n          <li><strong>Uji Tujuan Pesan Bisnis:</strong> Sebelum menulis, pastikan tujuan <em>realistis</em>, <em>waktunya tepat</em>, dan <em>selaras dengan tujuan organisasi</em> (bukan soal \"biaya tersedia\" — sering jadi pengecoh PG!).</li>\n          <li><strong>Penulisan Laporan Bisnis (Deduktif vs Induktif):</strong> Pola <strong>Deduktif (Direct)</strong> menempatkan ide pokok/rekomendasi di awal; Pola <strong>Induktif (Indirect)</strong> menyajikan <em>pendahuluan → teks/pembahasan → penutup</em>, dipakai jika pembaca butuh rincian fakta dulu atau kesimpulannya kurang menyenangkan.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 8</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Inform · Persuade · Collaborate</span>\n          <span class=\"kw-chip\">Tujuan → Audiens → Ide Pokok → Media</span>\n          <span class=\"kw-chip\">Paragraf Ilustrasi</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Urutan perencanaan pesan selalu dimulai dari <strong>penentuan tujuan</strong> lalu <strong>analisis audiens</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 8 Penulisan Pesan & Laporan Bisnis KB 1 & 2: Tujuan & 4 Langkah Perencanaan Pesan 3 Tujuan Pesan Bisnis: Memberitahukan ( inform ), Mempersuasi ( persuade ), dan Kerja sama ( collaborate ). 4 Langkah Perencanaan Pesan: (1) Penentuan tujuan, (2) Analisis audiens, (3) Penentuan ide pokok, (4) Penentuan media/saluran pesan. KB 3 & 4: Pengorganisasian Pesan & Paragraf Pengorganisasian Pesan: Kelompokkan gagasan, urutkan, & sajikan secara logis (pola deduktif untuk pesan baik/rutin, induktif untuk pesan buruk/persuasif). Pengembangan Paragraf Ilustrasi: Memberikan contoh-contoh nyata untuk menjelaskan gagasan umum. 4 Langkah Perencanaan Pesan Bisnis (Modul 8) 1. Penentuan Tujuan 2. Analisis Audiens 3. Ide Pokok 4. Media/Saluran Penjelasan Diagram: Sebelum menulis pesan atau laporan bisnis, lakukan 4 langkah berurutan: tentukan tujuan → analisis profil audiens → rumuskan ide pokok → pilih media/saluran yang tepat. 📌 Detail Kecil Wajib Tahu — Modul 8 3 Syarat Pesan Bisnis Efektif: (1) Purposeful (tujuan spesifik: memberi info, memecahkan masalah, atau meminta tindakan), (2) Audience-centered (berorientasi kebutuhan & latar belakang audiens), dan (3) Concise (ringkas, jelas, menghormati waktu pembaca). Uji Tujuan Pesan Bisnis: Sebelum menulis, pastikan tujuan realistis , waktunya tepat , dan selaras dengan tujuan organisasi (bukan soal \"biaya tersedia\" — sering jadi pengecoh PG!). Penulisan Laporan Bisnis (Deduktif vs Induktif): Pola Deduktif (Direct) menempatkan ide pokok/rekomendasi di awal; Pola Induktif (Indirect) menyajikan pendahuluan → teks/pembahasan → penutup , dipakai jika pembaca butuh rincian fakta dulu atau kesimpulannya kurang menyenangkan. 🔑 Kata Kunci Wajib Ingat — Modul 8 Inform · Persuade · Collaborate Tujuan → Audiens → Ide Pokok → Media Paragraf Ilustrasi Poin Ujian: Urutan perencanaan pesan selalu dimulai dari penentuan tujuan lalu analisis audiens ."
+    },
+    {
+      "id": "m9",
+      "title": "Pembicaraan Bisnis: Presentasi, Briefing & Rapat",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#0284c7;\">MODUL 9</span>\n        <h2 class=\"mod-title\">Pembicaraan Bisnis: Presentasi, Briefing &amp; Rapat</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1 &amp; 2: Tujuan &amp; Unsur Presentasi Bisnis</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Tujuan Presentasi Bisnis:</strong> Menginformasikan pesan bisnis, menghibur, dan memotivasi audiens untuk bertindak.</li>\n            <li><strong>6 Unsur Presentasi:</strong> Tempat, waktu, khalayak (audiens), presenter, materi, dan alat bantu visual.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 3: Mengatasi Gugup, Briefing &amp; Rapat Efektif</h4>\n          <ul class=\"neat\">\n            <li><strong>Mengatasi Gugup Presentasi:</strong> Berlatih intensif, mengambil napas dalam-dalam, menyiapkan catatan kecil &amp; slide visual terstruktur.</li>\n            <li><strong>Briefing &amp; Rapat:</strong> Memerlukan agenda jelas, pemimpin rapat, notulensi, &amp; tindak lanjut (<em>action items</em>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">6 Unsur Presentasi &amp; 3 Tujuan Pembicaraan Bisnis (Modul 9)</div>\n        <svg width=\"680\" height=\"108\" viewBox=\"0 0 680 108\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"88\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3 Tujuan Presentasi Bisnis</text>\n          <rect x=\"22\" y=\"40\" width=\"90\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"67\" y=\"65\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Informasikan</text>\n          <rect x=\"122\" y=\"40\" width=\"96\" height=\"42\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"170\" y=\"65\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Menghibur</text>\n          <rect x=\"228\" y=\"40\" width=\"90\" height=\"42\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"273\" y=\"65\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Memotivasi</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"88\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">6 Unsur Presentasi Efektif</text>\n          <rect x=\"362\" y=\"38\" width=\"90\" height=\"24\" rx=\"4\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"407\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Tempat</text>\n          <rect x=\"462\" y=\"38\" width=\"96\" height=\"24\" rx=\"4\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"510\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Waktu</text>\n          <rect x=\"568\" y=\"38\" width=\"90\" height=\"24\" rx=\"4\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"613\" y=\"54\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Khalayak</text>\n          <rect x=\"362\" y=\"66\" width=\"90\" height=\"24\" rx=\"4\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"407\" y=\"82\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Presenter</text>\n          <rect x=\"462\" y=\"66\" width=\"96\" height=\"24\" rx=\"4\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"510\" y=\"82\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Materi</text>\n          <rect x=\"568\" y=\"66\" width=\"90\" height=\"24\" rx=\"4\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"613\" y=\"82\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Alat Visual</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Presentasi bisnis bertujuan <em>menginformasikan, menghibur, dan memotivasi</em> audiens, serta dipengaruhi 6 unsur utama: tempat, waktu, khalayak, presenter, materi, dan alat bantu visual.</p>\n      </div>\n      <div class=\"note-box box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 9</h4>\n        <ul class=\"neat\">\n          <li><strong>Briefing vs Diskusi vs Debat (KB 2):</strong> <em>Briefing</em> = penjelasan ringkas dalam alur komunikasi vertikal ke bawah (<em>downward</em>) terkait pelaksanaan tugas; <em>Diskusi</em> = tukar pendapat teratur untuk pengertian bersama; <em>Debat</em> = adu argumentasi untuk memenangkan paham tertentu.</li>\n          <li><strong>Wawancara Bisnis (KB 3):</strong> Melibatkan <em>interviewer</em> (pewawancara, berperan lebih menentukan keberhasilan) dan <em>interviewee</em>; mencakup wawancara seleksi pelamar, evaluasi kinerja karyawan, dan riset pasar.</li>\n          <li><strong>Rapat Efektif &amp; Pengambilan Keputusan:</strong> Kenali <strong>Structured Problem-Solving</strong> (7 tahap dari analisis situasi hingga pilih alternatif), <strong>Nominal Group Technique (NGT)</strong> (4 langkah menyamakan status peserta agar bebas ide tanpa takut dinilai atasan), serta <strong>Aturan Rapat Efektif (Rodney Overton, 2007)</strong>: agenda jelas, item terpenting diletakkan di tengah agenda, mulai &amp; selesai tepat waktu, dan jangan menghindari konflik.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 9</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Inform · Menghibur · Memotivasi</span>\n          <span class=\"kw-chip\">6 Unsur Presentasi</span>\n          <span class=\"kw-chip\">Atasi Gugup (Latihan &amp; Napas)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Presentasi bisnis tidak sekadar menyampaikan info, tetapi juga <strong>menghibur</strong> dan <strong>memotivasi audiens bertindak</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 9 Pembicaraan Bisnis: Presentasi, Briefing & Rapat KB 1 & 2: Tujuan & Unsur Presentasi Bisnis 3 Tujuan Presentasi Bisnis: Menginformasikan pesan bisnis, menghibur, dan memotivasi audiens untuk bertindak. 6 Unsur Presentasi: Tempat, waktu, khalayak (audiens), presenter, materi, dan alat bantu visual. KB 3: Mengatasi Gugup, Briefing & Rapat Efektif Mengatasi Gugup Presentasi: Berlatih intensif, mengambil napas dalam-dalam, menyiapkan catatan kecil & slide visual terstruktur. Briefing & Rapat: Memerlukan agenda jelas, pemimpin rapat, notulensi, & tindak lanjut ( action items ). 6 Unsur Presentasi & 3 Tujuan Pembicaraan Bisnis (Modul 9) 3 Tujuan Presentasi Bisnis Informasikan Menghibur Memotivasi 6 Unsur Presentasi Efektif Tempat Waktu Khalayak Presenter Materi Alat Visual Penjelasan Diagram: Presentasi bisnis bertujuan menginformasikan, menghibur, dan memotivasi audiens, serta dipengaruhi 6 unsur utama: tempat, waktu, khalayak, presenter, materi, dan alat bantu visual. 📌 Detail Kecil Wajib Tahu — Modul 9 Briefing vs Diskusi vs Debat (KB 2): Briefing = penjelasan ringkas dalam alur komunikasi vertikal ke bawah ( downward ) terkait pelaksanaan tugas; Diskusi = tukar pendapat teratur untuk pengertian bersama; Debat = adu argumentasi untuk memenangkan paham tertentu. Wawancara Bisnis (KB 3): Melibatkan interviewer (pewawancara, berperan lebih menentukan keberhasilan) dan interviewee ; mencakup wawancara seleksi pelamar, evaluasi kinerja karyawan, dan riset pasar. Rapat Efektif & Pengambilan Keputusan: Kenali Structured Problem-Solving (7 tahap dari analisis situasi hingga pilih alternatif), Nominal Group Technique (NGT) (4 langkah menyamakan status peserta agar bebas ide tanpa takut dinilai atasan), serta Aturan Rapat Efektif (Rodney Overton, 2007) : agenda jelas, item terpenting diletakkan di tengah agenda, mulai & selesai tepat waktu, dan jangan menghindari konflik. 🔑 Kata Kunci Wajib Ingat — Modul 9 Inform · Menghibur · Memotivasi 6 Unsur Presentasi Atasi Gugup (Latihan & Napas) Poin Ujian: Presentasi bisnis tidak sekadar menyampaikan info, tetapi juga menghibur dan memotivasi audiens bertindak ."
+    },
+    {
+      "id": "ahli",
+      "title": "Ahli & Tokoh Kunci dalam BMP SKOM4432 (Sering Keluar di PG!)",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI</span>\n        <h2 class=\"mod-title\">Ahli &amp; Tokoh Kunci dalam BMP SKOM4432 (Sering Keluar di PG!)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Raymond V. Lesikar (1972):</strong> <em>\"Without communication, there would be no organization.\"</em></li>\n            <li><strong>Eddy Kurnia (2011):</strong> Kekeliruan pernyataan publik memicu mispersepsi investor dan lemahnya komunikasi internal.</li>\n            <li><strong>Rosenblatt, dkk. (1997):</strong> Komunikasi bisnis adalah pertukaran gagasan, pendapat, informasi, instruksi melalui simbol/sinyal untuk tujuan organisasi (6 unsur pokok).</li>\n            <li><strong>Murphy &amp; Hildebrandt (1991):</strong> <strong>Prinsip 7C</strong> komunikasi bisnis.</li>\n            <li><strong>Quible, Johnson, &amp; Mott (1996):</strong> Komunikasi efektif memberi citra positif, memperbaiki morale, &amp; menaikkan produktivitas pegawai.</li>\n            <li><strong>Wilbur Schramm (1986):</strong> Pesan efektif harus dirancang menarik agar membangkitkan tanggapan yang dikehendaki.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Bovee &amp; Thill (1986, 2003):</strong> Proporsi aktivitas komunikasi bisnis (45% menyimak, 30% bicara, 16% baca, 9% tulis) &amp; syarat pesan bisnis efektif.</li>\n            <li><strong>Philip V. Lewis (1987):</strong> Komunikasi tertulis wajib perhatikan penampilan, diksi, kesopansantunan, <em>unity</em>, &amp; <em>coherence</em>.</li>\n            <li><strong>Rhenald Kasali (2003):</strong> <em>Stakeholders</em> adalah kelompok internal/eksternal penentu keberhasilan perusahaan.</li>\n            <li><strong>Windschuttle &amp; Windschuttle (1988):</strong> Esensi lobi adalah <strong>persuasi</strong> (bukan koersif); 4 badan hukum lobi (perhimpunan, perorangan, yayasan, koperasi).</li>\n            <li><strong>Vikram Bisen &amp; Priya (2009):</strong> 8 karakteristik sistem komunikasi bisnis yang baik &amp; unsur presentasi.</li>\n            <li><strong>Maslow &amp; McClelland:</strong> Hierarki 5 kebutuhan (Maslow) vs 3 kebutuhan berprestasi/kasih sayang/berkuasa (McClelland).</li>\n            <li><strong>R. Edward Freeman &amp; Clarkson:</strong> Pengembangan teori <em>stakeholders</em> (1980-an) &amp; pembagian <em>stakeholders</em> primer vs sekunder.</li>\n            <li><strong>Charles F. Hockett (1977) &amp; Redding:</strong> 5 sifat bahasa sebagai sistem simbol (Hockett) &amp; 4 klasifikasi komunikasi interpersonal (Redding).</li>\n            <li><strong>Lindgren (1973) &amp; Ruch:</strong> 10 klasifikasi kelompok sosiologis (Lindgren) &amp; 3 indikator efektivitas kelompok (Ruch).</li>\n            <li><strong>Rodney Overton (2007) &amp; Rao (1979):</strong> 14 aturan rapat bisnis efektif (Overton) &amp; 7 dimensi saluran komunikasi (Rao dalam Blake &amp; Haroldsen).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu (Bovee &amp; Thill; Fisher &amp; Ury; Schramm)</h4>\n        <ul class=\"neat\">\n          <li><strong>Pendekatan Deduktif vs Induktif dalam Pesan Bisnis (Bovee &amp; Thill):</strong> Gunakan pola <strong>Deduktif (Direct)</strong>—ide pokok di awal—untuk pesan rutin atau kabar baik agar pembaca langsung paham. Gunakan pola <strong>Induktif (Indirect)</strong>—alasan dulu baru kesimpulan—untuk kabar buruk atau persuasi penolakan.</li>\n          <li><strong>Konsep Kunci Negosiasi (Fisher &amp; Ury, Getting to Yes):</strong> Pahami <strong>BATNA</strong> (<em>Best Alternative to a Negotiated Agreement</em> = alternatif terbaik jika negosiasi gagal) dan <strong>ZOPA</strong> (<em>Zone of Possible Agreement</em> = irisan rentang harga/syarat yang bisa diterima kedua pihak).</li>\n          <li><strong>Detail Kecil 7C (Murphy &amp; Hildebrandt):</strong> Jangan tertukar antara <em>Conciseness</em> (singkat/padat tanpa kata mubazir) dengan <em>Concreteness</em> (spesifik/berdata, bukan abstrak) serta <em>Completeness</em> (lengkap menjawab 5W+1H).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Pola Penulisan Pesan Bisnis: Deduktif (Direct) vs Induktif (Indirect) (Bovee &amp; Thill)</div>\n        <svg width=\"680\" height=\"104\" viewBox=\"0 0 680 104\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"84\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Pola Deduktif / Direct (Kabar Baik/Rutin)</text>\n          <rect x=\"22\" y=\"42\" width=\"136\" height=\"36\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"90\" y=\"64\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">1. Ide Pokok Dulu</text>\n          <path d=\"M160 60 L178 60\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"180\" y=\"42\" width=\"138\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"249\" y=\"64\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">2. Rincian &amp; Penutup</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"84\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Pola Induktif / Indirect (Kabar Buruk)</text>\n          <rect x=\"362\" y=\"42\" width=\"136\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"430\" y=\"64\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">1. Alasan / Penyangga</text>\n          <path d=\"M500 60 L518 60\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"520\" y=\"42\" width=\"138\" height=\"36\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"589\" y=\"64\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">2. Ide Pokok di Akhir</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Pesan rutin/positif langsung membuka dengan inti pesan (<em>Deduktif</em>), sedangkan pesan sensitif/kabar buruk diawali alasan penyangga agar audiens lebih siap menerima keputusan (<em>Induktif</em>).</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Zona Kesepakatan Negosiasi (ZOPA &amp; BATNA) (Fisher &amp; Ury)</div>\n        <svg width=\"680\" height=\"92\" viewBox=\"0 0 680 92\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"200\" height=\"60\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"110\" y=\"39\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Batas Penjual (Min)</text><text x=\"110\" y=\"57\" text-anchor=\"middle\" font-size=\"9\">BATNA Penjual</text>\n          <rect x=\"225\" y=\"14\" width=\"230\" height=\"60\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"340\" y=\"39\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">ZOPA (Area Deal)</text><text x=\"340\" y=\"57\" text-anchor=\"middle\" font-size=\"9\">Titik Temu Win-Win</text>\n          <rect x=\"470\" y=\"14\" width=\"200\" height=\"60\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"570\" y=\"39\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Batas Pembeli (Max)</text><text x=\"570\" y=\"57\" text-anchor=\"middle\" font-size=\"9\">BATNA Pembeli</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kesepakatan terjadi jika penawaran berada di dalam <strong>ZOPA</strong> (antara batas minimum penjual dan batas maksimum pembeli); jika di luar ZOPA, masing-masing pihak memilih <strong>BATNA</strong>-nya.</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI Ahli & Tokoh Kunci dalam BMP SKOM4432 (Sering Keluar di PG!) Raymond V. Lesikar (1972): \"Without communication, there would be no organization.\" Eddy Kurnia (2011): Kekeliruan pernyataan publik memicu mispersepsi investor dan lemahnya komunikasi internal. Rosenblatt, dkk. (1997): Komunikasi bisnis adalah pertukaran gagasan, pendapat, informasi, instruksi melalui simbol/sinyal untuk tujuan organisasi (6 unsur pokok). Murphy & Hildebrandt (1991): Prinsip 7C komunikasi bisnis. Quible, Johnson, & Mott (1996): Komunikasi efektif memberi citra positif, memperbaiki morale, & menaikkan produktivitas pegawai. Wilbur Schramm (1986): Pesan efektif harus dirancang menarik agar membangkitkan tanggapan yang dikehendaki. Bovee & Thill (1986, 2003): Proporsi aktivitas komunikasi bisnis (45% menyimak, 30% bicara, 16% baca, 9% tulis) & syarat pesan bisnis efektif. Philip V. Lewis (1987): Komunikasi tertulis wajib perhatikan penampilan, diksi, kesopansantunan, unity , & coherence . Rhenald Kasali (2003): Stakeholders adalah kelompok internal/eksternal penentu keberhasilan perusahaan. Windschuttle & Windschuttle (1988): Esensi lobi adalah persuasi (bukan koersif); 4 badan hukum lobi (perhimpunan, perorangan, yayasan, koperasi). Vikram Bisen & Priya (2009): 8 karakteristik sistem komunikasi bisnis yang baik & unsur presentasi. Maslow & McClelland: Hierarki 5 kebutuhan (Maslow) vs 3 kebutuhan berprestasi/kasih sayang/berkuasa (McClelland). R. Edward Freeman & Clarkson: Pengembangan teori stakeholders (1980-an) & pembagian stakeholders primer vs sekunder. Charles F. Hockett (1977) & Redding: 5 sifat bahasa sebagai sistem simbol (Hockett) & 4 klasifikasi komunikasi interpersonal (Redding). Lindgren (1973) & Ruch: 10 klasifikasi kelompok sosiologis (Lindgren) & 3 indikator efektivitas kelompok (Ruch). Rodney Overton (2007) & Rao (1979): 14 aturan rapat bisnis efektif (Overton) & 7 dimensi saluran komunikasi (Rao dalam Blake & Haroldsen). 📚 Referensi Tambahan & Detail Kecil Wajib Tahu (Bovee & Thill; Fisher & Ury; Schramm) Pendekatan Deduktif vs Induktif dalam Pesan Bisnis (Bovee & Thill): Gunakan pola Deduktif (Direct) —ide pokok di awal—untuk pesan rutin atau kabar baik agar pembaca langsung paham. Gunakan pola Induktif (Indirect) —alasan dulu baru kesimpulan—untuk kabar buruk atau persuasi penolakan. Konsep Kunci Negosiasi (Fisher & Ury, Getting to Yes): Pahami BATNA ( Best Alternative to a Negotiated Agreement = alternatif terbaik jika negosiasi gagal) dan ZOPA ( Zone of Possible Agreement = irisan rentang harga/syarat yang bisa diterima kedua pihak). Detail Kecil 7C (Murphy & Hildebrandt): Jangan tertukar antara Conciseness (singkat/padat tanpa kata mubazir) dengan Concreteness (spesifik/berdata, bukan abstrak) serta Completeness (lengkap menjawab 5W+1H). Pola Penulisan Pesan Bisnis: Deduktif (Direct) vs Induktif (Indirect) (Bovee & Thill) Pola Deduktif / Direct (Kabar Baik/Rutin) 1. Ide Pokok Dulu 2. Rincian & Penutup Pola Induktif / Indirect (Kabar Buruk) 1. Alasan / Penyangga 2. Ide Pokok di Akhir Penjelasan Diagram: Pesan rutin/positif langsung membuka dengan inti pesan ( Deduktif ), sedangkan pesan sensitif/kabar buruk diawali alasan penyangga agar audiens lebih siap menerima keputusan ( Induktif ). Zona Kesepakatan Negosiasi (ZOPA & BATNA) (Fisher & Ury) Batas Penjual (Min) BATNA Penjual ZOPA (Area Deal) Titik Temu Win-Win Batas Pembeli (Max) BATNA Pembeli Penjelasan Diagram: Kesepakatan terjadi jika penawaran berada di dalam ZOPA (antara batas minimum penjual dan batas maksimum pembeli); jika di luar ZOPA, masing-masing pihak memilih BATNA -nya."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] 'Without communication, there would be no organization' diungkapkan oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Raymond V. Lesikar"
+        },
+        {
+          "letter": "B",
+          "text": "David K. Berlo"
+        },
+        {
+          "letter": "C",
+          "text": "Steade"
+        },
+        {
+          "letter": "D",
+          "text": "Rosenblatt"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Kekeliruan pernyataan publik berdampak mispersepsi investor disampaikan oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "David K. Berlo"
+        },
+        {
+          "letter": "B",
+          "text": "Rosenblatt"
+        },
+        {
+          "letter": "C",
+          "text": "Eddy Kurnia"
+        },
+        {
+          "letter": "D",
+          "text": "Raymond V. Lesikar"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Manfaat komunikasi efektif organisasi menurut Quible, Johnson, & Mott (1996) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memberikan citra positif pada pihak luar"
+        },
+        {
+          "letter": "B",
+          "text": "menjual produk"
+        },
+        {
+          "letter": "C",
+          "text": "memperbaiki opini"
+        },
+        {
+          "letter": "D",
+          "text": "memperbaiki merk"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Komunikasi bisnis adalah pertukaran gagasan, pendapat, informasi, instruksi secara personal/impersonal dikemukakan oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reed Sanderlin"
+        },
+        {
+          "letter": "B",
+          "text": "Berlo"
+        },
+        {
+          "letter": "C",
+          "text": "Steade"
+        },
+        {
+          "letter": "D",
+          "text": "Rosenblatt"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Prinsip 7C di mana pesan disusun dalam kalimat yang mudah dipahami adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "concreteness"
+        },
+        {
+          "letter": "B",
+          "text": "clarity"
+        },
+        {
+          "letter": "C",
+          "text": "courtesy"
+        },
+        {
+          "letter": "D",
+          "text": "consideration"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 5
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Dalam aktivitas bisnis, komunikasi berperan ibarat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "oli"
+        },
+        {
+          "letter": "B",
+          "text": "darah"
+        },
+        {
+          "letter": "C",
+          "text": "napas"
+        },
+        {
+          "letter": "D",
+          "text": "nadi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 6
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Tipe komunikasi lisan berikut ini adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "konferensi"
+        },
+        {
+          "letter": "B",
+          "text": "wawancara"
+        },
+        {
+          "letter": "C",
+          "text": "presentasi penjualan"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 7
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Kualitas informasi untuk pengambilan keputusan dalam organisasi merupakan fungsi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "informatif"
+        },
+        {
+          "letter": "B",
+          "text": "persuasif"
+        },
+        {
+          "letter": "C",
+          "text": "kontrol"
+        },
+        {
+          "letter": "D",
+          "text": "emotif"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 8
+    },
+    {
+      "module": "M2",
+      "question": "[M2-4] Tujuan komunikasi untuk perubahan sikap, pendapat, perilaku tanpa paksaan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "koersif"
+        },
+        {
+          "letter": "B",
+          "text": "persuasif"
+        },
+        {
+          "letter": "C",
+          "text": "briefing"
+        },
+        {
+          "letter": "D",
+          "text": "konsultatif"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-5] Fungsi kontrol akan berjalan apabila ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "informasi jelas"
+        },
+        {
+          "letter": "B",
+          "text": "adanya saluran"
+        },
+        {
+          "letter": "C",
+          "text": "memperkaya keterampilan"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 10
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Dalam konteks tradisional, organisasi bisnis sering menggunakan saluran ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kesenian daerah"
+        },
+        {
+          "letter": "B",
+          "text": "word of mouth"
+        },
+        {
+          "letter": "C",
+          "text": "barter"
+        },
+        {
+          "letter": "D",
+          "text": "anjang sono"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 11
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Dimensi saluran komunikasi bisnis antara lain ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kredibilitas saluran"
+        },
+        {
+          "letter": "B",
+          "text": "umpan balik saluran"
+        },
+        {
+          "letter": "C",
+          "text": "keterlibatan saluran"
+        },
+        {
+          "letter": "D",
+          "text": "semuanya benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 12
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Karakteristik media majalah yang membedakannya dengan surat kabar adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "nilai aktualitas lebih lama"
+        },
+        {
+          "letter": "B",
+          "text": "publisitas"
+        },
+        {
+          "letter": "C",
+          "text": "terdokumentasikan"
+        },
+        {
+          "letter": "D",
+          "text": "universalitas"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 13
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Media massa yang dalam menyampaikan pesannya harus bergaya percakapan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "televisi"
+        },
+        {
+          "letter": "B",
+          "text": "internet"
+        },
+        {
+          "letter": "C",
+          "text": "radio"
+        },
+        {
+          "letter": "D",
+          "text": "telepon"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 14
+    },
+    {
+      "module": "M3",
+      "question": "[M3-5] Salah satu fungsi media komunikasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "efisiensi penyebaran informasi"
+        },
+        {
+          "letter": "B",
+          "text": "menghemat biaya"
+        },
+        {
+          "letter": "C",
+          "text": "melancarkan arus informasi"
+        },
+        {
+          "letter": "D",
+          "text": "memudahkan proses"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 15
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Berikut karakteristik komunikasi massa, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "komunikator terlembagakan"
+        },
+        {
+          "letter": "B",
+          "text": "menimbulkan keserempakan"
+        },
+        {
+          "letter": "C",
+          "text": "feedback tertunda"
+        },
+        {
+          "letter": "D",
+          "text": "komunikan homogen"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 16
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Bentuk-bentuk dari komunikasi massa adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "telepon"
+        },
+        {
+          "letter": "B",
+          "text": "surat"
+        },
+        {
+          "letter": "C",
+          "text": "televisi"
+        },
+        {
+          "letter": "D",
+          "text": "satelit"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 17
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Komunikator tidak mengenal komunikan merupakan karakteristik komunikasi massa ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pesan umum"
+        },
+        {
+          "letter": "B",
+          "text": "komunikator terlembagakan"
+        },
+        {
+          "letter": "C",
+          "text": "komunikannya anonim"
+        },
+        {
+          "letter": "D",
+          "text": "keserempakan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 18
+    },
+    {
+      "module": "M4",
+      "question": "[M4-4] Fungsi pengawasan komunikasi massa dibagi dalam dua kelompok, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "peringatan & nilai"
+        },
+        {
+          "letter": "B",
+          "text": "instrumental & hiburan"
+        },
+        {
+          "letter": "C",
+          "text": "peringatan dan instrumental"
+        },
+        {
+          "letter": "D",
+          "text": "nilai & hiburan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 19
+    },
+    {
+      "module": "M4",
+      "question": "[M4-5] Media massa memberi penafsiran atas kebijakan penting merupakan fungsi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "interpretation"
+        },
+        {
+          "letter": "B",
+          "text": "pengawasan"
+        },
+        {
+          "letter": "C",
+          "text": "keterkaitan"
+        },
+        {
+          "letter": "D",
+          "text": "penyebaran nilai"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 20
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Kegiatan organisasi bisnis yang berhubungan dengan komunikasi verbal, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rapat"
+        },
+        {
+          "letter": "B",
+          "text": "penerimaan pegawai"
+        },
+        {
+          "letter": "C",
+          "text": "orientasi pegawai"
+        },
+        {
+          "letter": "D",
+          "text": "apel pagi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 21
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Komunikasi lisan dilakukan tatap muka dengan cara ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "konferensi"
+        },
+        {
+          "letter": "B",
+          "text": "seminar"
+        },
+        {
+          "letter": "C",
+          "text": "diskusi kelompok"
+        },
+        {
+          "letter": "D",
+          "text": "semua benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 22
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Urutan proses mendengarkan yang benar adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "hearing-evaluation-respons-interpretation"
+        },
+        {
+          "letter": "B",
+          "text": "interpretation-evaluation-respons-hearing"
+        },
+        {
+          "letter": "C",
+          "text": "hearing, interpretation, evaluation, respons"
+        },
+        {
+          "letter": "D",
+          "text": "evaluation-hearing-interpretation-respons"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 23
+    },
+    {
+      "module": "M5",
+      "question": "[M5-4] Prinsip menulis efektif berupa hubungan antarkalimat dan paragraf adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "coherence"
+        },
+        {
+          "letter": "B",
+          "text": "akurasi"
+        },
+        {
+          "letter": "C",
+          "text": "singkat"
+        },
+        {
+          "letter": "D",
+          "text": "unity"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 24
+    },
+    {
+      "module": "M5",
+      "question": "[M5-5] Berikut yang bukan kriteria isi tulisan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "akurasi"
+        },
+        {
+          "letter": "B",
+          "text": "penekanan"
+        },
+        {
+          "letter": "C",
+          "text": "panjang"
+        },
+        {
+          "letter": "D",
+          "text": "kejelasan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 25
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Pelanggan, penyalur, agen regulator, dan pemasok disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "stakeholders internal"
+        },
+        {
+          "letter": "B",
+          "text": "stakeholders eksternal"
+        },
+        {
+          "letter": "C",
+          "text": "kompetitor"
+        },
+        {
+          "letter": "D",
+          "text": "rival"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 26
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Penyalur merupakan mitra organisasi bisnis yang memiliki ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "jaringan distribusi"
+        },
+        {
+          "letter": "B",
+          "text": "gudang"
+        },
+        {
+          "letter": "C",
+          "text": "lisensi"
+        },
+        {
+          "letter": "D",
+          "text": "dana"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 27
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Pemasok adalah orang/lembaga yang menginginkan adanya ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "saluran komunikasi"
+        },
+        {
+          "letter": "B",
+          "text": "transaksi yang memuaskan"
+        },
+        {
+          "letter": "C",
+          "text": "stok barang"
+        },
+        {
+          "letter": "D",
+          "text": "pasokan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 28
+    },
+    {
+      "module": "M6",
+      "question": "[M6-4] Pola hubungan organisasi bisnis dengan penyalur menggunakan pola ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "hubungan bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "kemitraan"
+        },
+        {
+          "letter": "C",
+          "text": "kekeluargaan"
+        },
+        {
+          "letter": "D",
+          "text": "formal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 29
+    },
+    {
+      "module": "M6",
+      "question": "[M6-5] Cara termudah mengidentifikasi khalayak yaitu membuat kategori ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "demografis"
+        },
+        {
+          "letter": "B",
+          "text": "psikografis"
+        },
+        {
+          "letter": "C",
+          "text": "geografis"
+        },
+        {
+          "letter": "D",
+          "text": "ketiga jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 30
+    },
+    {
+      "module": "M7",
+      "question": "[M7-1] Fungsi lobbying yang tidak mungkin dilakukan oleh pelobi adalah semata-mata untuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memengaruhi pengambil keputusan"
+        },
+        {
+          "letter": "B",
+          "text": "menafsirkan opini pejabat"
+        },
+        {
+          "letter": "C",
+          "text": "memprediksi kejadian"
+        },
+        {
+          "letter": "D",
+          "text": "mencari proyek"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 31
+    },
+    {
+      "module": "M7",
+      "question": "[M7-2] Dalam negosiasi yang berorientasi bargaining, terjadi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kalah"
+        },
+        {
+          "letter": "B",
+          "text": "menang"
+        },
+        {
+          "letter": "C",
+          "text": "kalah dan menang"
+        },
+        {
+          "letter": "D",
+          "text": "semua salah"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 32
+    },
+    {
+      "module": "M7",
+      "question": "[M7-3] Dalam negosiasi kolaboratif, masing-masing pihak ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kalah"
+        },
+        {
+          "letter": "B",
+          "text": "menang"
+        },
+        {
+          "letter": "C",
+          "text": "kalah dan menang"
+        },
+        {
+          "letter": "D",
+          "text": "semua salah"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 33
+    },
+    {
+      "module": "M7",
+      "question": "[M7-4] Dalam negosiasi, konflik diselesaikan melalui ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kekerasan"
+        },
+        {
+          "letter": "B",
+          "text": "kekuasaan"
+        },
+        {
+          "letter": "C",
+          "text": "komunikasi"
+        },
+        {
+          "letter": "D",
+          "text": "kelihaian"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 34
+    },
+    {
+      "module": "M7",
+      "question": "[M7-5] Dalam melakukan lobi hal yang terpenting adalah kemampuan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memaksakan keinginan"
+        },
+        {
+          "letter": "B",
+          "text": "menunjukkan keinginan"
+        },
+        {
+          "letter": "C",
+          "text": "menjalankan kekuasaan"
+        },
+        {
+          "letter": "D",
+          "text": "melakukan persuasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 35
+    },
+    {
+      "module": "M8",
+      "question": "[M8-1] Tujuan pesan bisnis sebagaimana tujuan komunikasi bisnis secara umum mencakup ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memberitahukan, mempersuasi, atau kerja sama"
+        },
+        {
+          "letter": "B",
+          "text": "memberitahukan saja"
+        },
+        {
+          "letter": "C",
+          "text": "mempersuasi saja"
+        },
+        {
+          "letter": "D",
+          "text": "kerja sama saja"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 36
+    },
+    {
+      "module": "M8",
+      "question": "[M8-2] Perencanaan pesan bisnis meliputi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penentuan tujuan"
+        },
+        {
+          "letter": "B",
+          "text": "analisis audiens"
+        },
+        {
+          "letter": "C",
+          "text": "ide pokok"
+        },
+        {
+          "letter": "D",
+          "text": "media/saluran"
+        },
+        {
+          "letter": "E",
+          "text": "A, B, C, D benar"
+        }
+      ],
+      "answerLetter": "E",
+      "explanation": "",
+      "num": 37
+    },
+    {
+      "module": "M8",
+      "question": "[M8-3] Hal yang perlu diperhatikan dalam pengorganisasian pesan adalah kelompokkan gagasan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "berdasar komputer"
+        },
+        {
+          "letter": "B",
+          "text": "urutkan dan sajikan secara logis"
+        },
+        {
+          "letter": "C",
+          "text": "tanpa info lengkap"
+        },
+        {
+          "letter": "D",
+          "text": "berdasar abjad"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 38
+    },
+    {
+      "module": "M8",
+      "question": "[M8-4] Pengembangan paragraf yang logis dengan teknik ilustrasi dilakukan dengan cara ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memberikan contoh-contoh yang menunjukkan gagasan umum"
+        },
+        {
+          "letter": "B",
+          "text": "alasan"
+        },
+        {
+          "letter": "C",
+          "text": "persamaan & perbedaan"
+        },
+        {
+          "letter": "D",
+          "text": "kategori"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 39
+    },
+    {
+      "module": "M8",
+      "question": "[M8-5] Pertanyaan berikut untuk menguji tujuan pesan bisnis, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "realistis?"
+        },
+        {
+          "letter": "B",
+          "text": "waktu tepat?"
+        },
+        {
+          "letter": "C",
+          "text": "biaya tersedia?"
+        },
+        {
+          "letter": "D",
+          "text": "selaras tujuan organisasi?"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 40
+    },
+    {
+      "module": "M9",
+      "question": "[M9-1] Mengapa seseorang merasa takut ketika akan melakukan presentasi bisnis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "takut salah/gagal"
+        },
+        {
+          "letter": "B",
+          "text": "kurang siap perencanaan"
+        },
+        {
+          "letter": "C",
+          "text": "tidak terampil alat bantu"
+        },
+        {
+          "letter": "D",
+          "text": "jawaban benar semua"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 41
+    },
+    {
+      "module": "M9",
+      "question": "[M9-2] Teknik untuk membantu mengatasi rasa gugup ketika presentasi yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengaku pengganti"
+        },
+        {
+          "letter": "B",
+          "text": "mengambil napas dalam-dalam"
+        },
+        {
+          "letter": "C",
+          "text": "meminta maaf"
+        },
+        {
+          "letter": "D",
+          "text": "mengulur waktu"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 42
+    },
+    {
+      "module": "M9",
+      "question": "[M9-3] Trik untuk mengatasi dan menyembunyikan kegugupan saat presentasi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "berlatih"
+        },
+        {
+          "letter": "B",
+          "text": "atur catatan & slide"
+        },
+        {
+          "letter": "C",
+          "text": "intonasi besar"
+        },
+        {
+          "letter": "D",
+          "text": "tangan di saku"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "/ B (Berlatih & siapkan catatan)",
+      "num": 43
+    },
+    {
+      "module": "M9",
+      "question": "[M9-4] Salah satu tujuan presentasi bisnis adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menginformasikan pesan bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "menghibur audiens"
+        },
+        {
+          "letter": "C",
+          "text": "memotivasi audiens bertindak"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 44
+    },
+    {
+      "module": "M9",
+      "question": "[M9-5] Unsur-unsur penting dalam presentasi bisnis meliputi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tempat"
+        },
+        {
+          "letter": "B",
+          "text": "waktu"
+        },
+        {
+          "letter": "C",
+          "text": "khalayak"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 45
+    }
+  ],
+  "essayQuestions": []
+}

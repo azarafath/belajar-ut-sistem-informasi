@@ -1,0 +1,258 @@
+{
+  "1": [
+    {
+      "slug": "perilaku-organisasi",
+      "href": "/smt1/perilaku-organisasi",
+      "meta": "SEMESTER 1 • BMP EKMA415803 • U (Pilgan)",
+      "name": "EKMA415803 / Perilaku Organisasi",
+      "desc": "9 Modul: Esensi & 3 Level Analisis PO, Kepribadian Big Five & Sikap, Persepsi & Atribusi, Motivasi, Dinamika Kelompok & Tim, Komunikasi & Konflik, Kepemimpinan, Struktur & Kultur, serta Lintas Budaya.",
+      "badges": [
+        {
+          "bg": "var(--hl-lavender)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "95 Soal PG"
+        }
+      ],
+      "cta": "Buka Catatan Perilaku Organisasi"
+    },
+    {
+      "slug": "sim-manajemen",
+      "href": "/smt1/sim-manajemen",
+      "meta": "SEMESTER 1 • BMP EMBS4321 • U (Pilgan)",
+      "name": "EMBS4321 / Sistem Informasi Manajemen",
+      "desc": "9 Modul: Keunggulan Kompetitif Porter, Prinsip Sistem, Jaringan & TCP/IP, TPS/MIS/DSS/ESS & ERP, E-Bisnis & E-Commerce, Pengelolaan SI, SDLC, Manajemen Proyek TI, serta Keamanan & Etika PAPA.",
+      "badges": [
+        {
+          "bg": "var(--hl-blue)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "108 Soal PG"
+        }
+      ],
+      "cta": "Buka Catatan SIM Manajemen"
+    },
+    {
+      "slug": "aljabar-linear-elementer",
+      "href": "/smt1/aljabar-linear-elementer",
+      "meta": "SEMESTER 1 • BMP MATA4112 • U (Pilgan)",
+      "name": "MATA4112 / Aljabar Linear Elementer I",
+      "desc": "6 Modul: Matriks & Operasinya, OBE & Matriks Eselon (REF/RREF), SPL & Eliminasi Gauss-Jordan, Determinan & Aturan Cramer, Ruang Vektor R² & R³, serta Dot Product & Cross Product.",
+      "badges": [
+        {
+          "bg": "var(--hl-mint)",
+          "text": "6 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-yellow)",
+          "text": "68 Soal PG + Rumus"
+        }
+      ],
+      "cta": "Buka Catatan Aljabar Linear I"
+    },
+    {
+      "slug": "belajar-di-era-digital",
+      "href": "/smt1/belajar-di-era-digital",
+      "meta": "SEMESTER 1 • BMP MKWI4202 • U (Pilgan)",
+      "name": "MKWI4202 / Belajar di Era Digital",
+      "desc": "9 Modul: Pendidikan Era Digital 4C, Konektivisme & Blended Learning, Literasi Media, Prosumer & Echo Chamber, Uji CRAAP & Wikipedia, Media Mayer, OER 5R & MOOC, Creative Commons, serta Warga Digital.",
+      "badges": [
+        {
+          "bg": "var(--hl-peach)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "81 Soal PG"
+        }
+      ],
+      "cta": "Buka Catatan Belajar Era Digital"
+    },
+    {
+      "slug": "struktur-data",
+      "href": "/smt1/struktur-data",
+      "meta": "SEMESTER 1 • BMP MSIM4202 • U (Pilgan)",
+      "name": "MSIM4202 / Struktur Data",
+      "desc": "9 Modul: Kompleksitas Big-O, Tipe Data Java, Array & Linked List, Stack (LIFO), Queue (FIFO) & Deque, Merge & Counting Sort, Tree & BST Traversal, Graph Matrix/List, serta Pencarian DFS & BFS.",
+      "badges": [
+        {
+          "bg": "var(--hl-blue)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "81 Soal PG"
+        }
+      ],
+      "cta": "Buka Catatan Struktur Data"
+    },
+    {
+      "slug": "interaksi-manusia-komputer",
+      "href": "/smt1/interaksi-manusia-komputer",
+      "meta": "SEMESTER 1 • BMP MSIM4208 • U (Pilgan)",
+      "name": "MSIM4208 / Interaksi Manusia & Komputer",
+      "desc": "9 Modul: Konsep HCI, Faktor Manusia (Miller 7±2 & Hukum Fitts), Siklus Norman & WIMP, Usability & 8 Aturan Emas Shneiderman, Manipulasi Langsung, Menu, CLI & Borang, Layout Gestalt, serta Ergonomi.",
+      "badges": [
+        {
+          "bg": "var(--hl-pink)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "81 Soal PG"
+        }
+      ],
+      "cta": "Buka Catatan IMK / HCI"
+    },
+    {
+      "slug": "rekayasa-perangkat-lunak",
+      "href": "/smt1/rekayasa-perangkat-lunak",
+      "meta": "SEMESTER 1 • BMP MSIM4303 • U (Pilgan)",
+      "name": "MSIM4303 / Rekayasa Perangkat Lunak",
+      "desc": "9 Modul: 4 Lapisan RPL Pressman, Elisitasi & Dokumen SRS, Waterfall/V-Model/Spiral, DFD & Kamus Data, OOAD & UML, Agile & Scrum, 4P & COCOMO, Manajemen Risiko RMMM, serta SQA & Testing.",
+      "badges": [
+        {
+          "bg": "var(--hl-mint)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-blue)",
+          "text": "110 Soal PG"
+        }
+      ],
+      "cta": "Buka Catatan RPL"
+    }
+  ],
+  "2": [
+    {
+      "slug": "basis-data",
+      "href": "/smt2/basis-data",
+      "meta": "SABTU, 28 Nov 2026 • Sesi 1 (08.00 – 09.30) • U (Pilgan)",
+      "name": "STSI4105 / Basis Data",
+      "desc": "9 Modul (MSIM420601): Tingkatan Data, Model Data & ERD, yEd, Normalisasi, SQL (DDL/DML/DCL), XAMPP, Transaksi ACID & Deadlock, Basis Data Terdistribusi, Trigger & Replikasi.",
+      "badges": [
+        {
+          "bg": "var(--hl-blue)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "72 Soal PG"
+        }
+      ],
+      "cta": "Buka Catatan Basis Data"
+    },
+    {
+      "slug": "proses-bisnis",
+      "href": "/smt2/proses-bisnis",
+      "meta": "SABTU, 28 Nov 2026 • Sesi 2 (09.45 – 11.15) • U (Pilgan)",
+      "name": "STSI4206 / Proses Bisnis",
+      "desc": "6 Modul (STSI420601): Analisis & Identifikasi Proses Bisnis, Six Sigma & BPM, Metodologi & Siklus Hidup Manajemen Proyek, Knowledge Work (SECI), dan Sistem Informasi Eksekutif (EIS).",
+      "badges": [
+        {
+          "bg": "var(--hl-pink)",
+          "text": "6 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "130 Soal Tes Formatif Asli"
+        }
+      ],
+      "cta": "Buka Catatan Proses Bisnis"
+    },
+    {
+      "slug": "analisis-visualisasi-data",
+      "href": "/smt2/analisis-visualisasi-data",
+      "meta": "MINGGU, 29 Nov 2026 • Sesi 1 (08.00 – 09.30) • U (Pilgan)",
+      "name": "STSI4204 / Analisis & Visualisasi Data",
+      "desc": "6 Modul (MSIM431001): Prinsip Penyajian Data, Transformasi Data, Data Hilang (MCAR/MAR/MNAR & Imputasi), Regresi Sederhana, Visualisasi Teks, dan Visualisasi Interaktif (R/Shiny).",
+      "badges": [
+        {
+          "bg": "var(--hl-lavender)",
+          "text": "6 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "30 Soal PG + Rumus"
+        }
+      ],
+      "cta": "Buka Catatan Analisis & Vis. Data"
+    },
+    {
+      "slug": "komunikasi-bisnis-teknis",
+      "href": "/smt2/komunikasi-bisnis-teknis",
+      "meta": "MINGGU, 29 Nov 2026 • Sesi 2 (09.45 – 11.15) • U (Pilgan)",
+      "name": "STSI4308 / Komunikasi Bisnis & Teknis",
+      "desc": "9 Modul (SKOM443204): Konsep & 7C Komunikasi Bisnis, Media Massa, Komunikasi Internal, Verbal/Nonverbal, Stakeholders, Lobi & Negosiasi, Penulisan Pesan/Laporan, Presentasi.",
+      "badges": [
+        {
+          "bg": "var(--hl-peach)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "45 Soal Tes Formatif Asli"
+        }
+      ],
+      "cta": "Buka Catatan Komunikasi Bisnis"
+    },
+    {
+      "slug": "sistem-informasi-manajemen",
+      "href": "/smt2/sistem-informasi-manajemen",
+      "meta": "SABTU, 12 Des 2026 • Sesi 1 (08.00 – 09.30) • U (Pilgan)",
+      "name": "STSI4207 / Sistem Informasi Manajemen",
+      "desc": "9 Modul (MSIM420701): Disrupsi & Big Data, Kolaborasi & Porter, Etika & NORA, Infrastruktur TI, Keamanan & Malware, DBMS, SCM/CRM/ERP, Keputusan Bisnis, SDLC & Konversi.",
+      "badges": [
+        {
+          "bg": "var(--hl-blue)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "45 PG + 12 Essay"
+        }
+      ],
+      "cta": "Buka Catatan SIM"
+    },
+    {
+      "slug": "tata-kelola-ti",
+      "href": "/smt2/tata-kelola-ti",
+      "meta": "SABTU, 12 Des 2026 • Sesi 2 (09.45 – 11.15) • U (Pilgan)",
+      "name": "STSI4402 / Tata Kelola TI",
+      "desc": "6 Modul (MSIM440201): Maturity Level, COSO & COBIT, Cloud Computing & BCP, SOA & Manajemen Konfigurasi IEEE, Audit Internal & ECM, Budaya Etis & Whistleblower.",
+      "badges": [
+        {
+          "bg": "var(--hl-mint)",
+          "text": "6 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-yellow)",
+          "text": "30 PG + 10 Essay"
+        }
+      ],
+      "cta": "Buka Catatan Tata Kelola TI"
+    },
+    {
+      "slug": "analisis-perancangan-sistem",
+      "href": "/smt2/analisis-perancangan-sistem",
+      "meta": "MINGGU, 13 Des 2026 • Sesi 1 (08.00 – 09.30) • E (Essay!)",
+      "name": "STSI4208 / Analisis & Perancangan Sistem",
+      "desc": "9 Modul (MSIM430201): Perencanaan Proyek, Kebutuhan & Elisitasi, DFD & Bagan Alir, OOAD & Use Case, Activity/Class/Sequence/State Diagram, Transformasi ERD ke Relasi, Desain Arsitektur & UI.",
+      "badges": [
+        {
+          "bg": "var(--hl-pink)",
+          "text": "Ujian Tipe E (Essay)"
+        },
+        {
+          "bg": "var(--hl-yellow)",
+          "text": "20 Essay + 36 PG"
+        }
+      ],
+      "cta": "Buka Catatan APS"
+    }
+  ]
+}

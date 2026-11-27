@@ -1,0 +1,2519 @@
+{
+  "slug": "perilaku-organisasi",
+  "semester": 1,
+  "url": "/smt1/perilaku-organisasi",
+  "canonical": "https://belajar-ut.azf.my.id/smt1/perilaku-organisasi.html",
+  "title": "EKMA415803: Perilaku Organisasi — Modul & Bank Soal UT",
+  "shortLabel": "Perilaku Organisasi (EKMA415803)",
+  "h1": "EKMA415803: Perilaku Organisasi",
+  "metaDesc": "Ringkasan lengkap 9 modul Perilaku Organisasi UT: Esensi PO & 3 Level Analisis, Kepribadian/Nilai/Sikap, Persepsi & Stres, Motivasi, Dinamika Kelompok & Tim, Komunikasi/Konflik/Negosiasi, Kepemimpinan & Kekuasaan, Struktur & Kultur Organisasi, serta Lintas Budaya + 27 Soal PG.",
+  "coverTag": "Semester 1 • BMP UT (Dr. Achmad Sobirin)",
+  "coverTagColor": "#7c3aed",
+  "coverDesc": "Ringkasan lengkap 9 modul Perilaku Organisasi UT: Esensi PO & 3 Level Analisis, Kepribadian/Nilai/Sikap, Persepsi & Stres, Motivasi, Dinamika Kelompok & Tim, Komunikasi/Konflik/Negosiasi, Kepemimpinan & Kekuasaan, Struktur & Kultur Organisasi, serta Lintas Budaya + 27 Soal PG.",
+  "badges": [
+    {
+      "bg": "var(--hl-lavender)",
+      "text": "9 Modul + Diagram"
+    },
+    {
+      "bg": "var(--hl-mint)",
+      "text": "95 Soal PG + Pembahasan"
+    },
+    {
+      "bg": "var(--hl-yellow)",
+      "text": "Semester 1 • Manajemen"
+    }
+  ],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Esensi dan Ruang Lingkup Studi Perilaku Organisasi"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Kepribadian, Nilai, dan Sikap Kerja"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Persepsi, Pengambilan Keputusan, dan Stres Kerja"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Motivasi Kerja"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Dinamika Kelompok dan Tim Kerja"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Komunikasi, Konflik, dan Negosiasi"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Kepemimpinan, Kekuasaan, dan Politik Organisasi"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Struktur dan Kultur Organisasi"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Perilaku Organisasi Lintas Budaya"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Modul 1: Esensi dan Ruang Lingkup Studi Perilaku Organisasi",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-head\">\n        <h2>Modul 1: Esensi dan Ruang Lingkup Studi Perilaku Organisasi</h2>\n        <span class=\"mod-tag\">Modul 1</span>\n      </div>\n      <h3>KB 1: Pengertian, Sejarah, dan 3 Level Analisis PO</h3>\n        <ul>\n          <li><strong>Perilaku Organisasi (PO / OB):</strong> Bidang studi terapan yang menyelidiki dampak <em>individu</em>, <em>kelompok</em>, dan <em>struktur</em> terhadap perilaku dalam organisasi untuk meningkatkan efektivitas organisasi.</li>\n          <li><strong>3 Level Analisis PO:</strong> (1) <em>Level Individu</em> (kepribadian, persepsi, motivasi, sikap), (2) <em>Level Kelompok</em> (dinamika tim, komunikasi, konflik, kepemimpinan), (3) <em>Level Sistem Organisasi</em> (struktur, kultur, desain kerja).</li>\n          <li><strong>Kontribusi Disiplin Ilmu:</strong> Psikologi (individu), Psikologi Sosial (kelompok &amp; perubahan), Sosiologi (sistem organisasi &amp; kultur), Antropologi (nilai lintas budaya).</li>\n        </ul><h3>KB 2: Tantangan &amp; Peluang Perilaku Organisasi Modern</h3>\n        <ul>\n          <li><strong>Globalisasi &amp; Keragaman Tenaga Kerja:</strong> Mengelola karyawan lintas generasi, gender, etnis, dan budaya kerja global.</li>\n          <li><strong>Peningkatan Kualitas &amp; Produktivitas:</strong> Melalui TQM, <em>reengineering</em>, dan pemberdayaan karyawan (<em>empowerment</em>).</li>\n          <li><strong>Variabel Dependen Utama PO:</strong> Produktivitas, Absensi (<em>Absenteeism</em>), Perputaran Karyawan (<em>Turnover</em>), Perilaku Kewargaan Organisasi (<em>OCB</em>), dan Kepuasan Kerja.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Level Analisis dalam Studi Perilaku Organisasi (Robbins &amp; Judge)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"60\" width=\"175\" height=\"80\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"117.5\" y=\"94.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Level Individu</text><text x=\"117.5\" y=\"117.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kepribadian &amp; Motivasi</text><line x1=\"205\" y1=\"100\" x2=\"245\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"245\" y=\"60\" width=\"185\" height=\"80\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"337.5\" y=\"94.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Level Kelompok</text><text x=\"337.5\" y=\"117.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Tim, Komunikasi, Kepemimpinan</text><line x1=\"430\" y1=\"100\" x2=\"470\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"470\" y=\"60\" width=\"180\" height=\"80\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"560.0\" y=\"94.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Level Organisasi</text><text x=\"560.0\" y=\"117.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Struktur, Kultur, Efektivitas</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Level Analisis dalam Studi Perilaku Organisasi (Robbins &amp; Judge)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">3 Level Analisis</span>\n          <span class=\"kw-chip\">Variabel Dependen PO</span>\n          <span class=\"kw-chip\">OCB</span>\n          <span class=\"kw-chip\">Turnover</span>\n          <span class=\"kw-chip\">Psikologi &amp; Sosiologi</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 1: Esensi dan Ruang Lingkup Studi Perilaku Organisasi Modul 1 KB 1: Pengertian, Sejarah, dan 3 Level Analisis PO Perilaku Organisasi (PO / OB): Bidang studi terapan yang menyelidiki dampak individu , kelompok , dan struktur terhadap perilaku dalam organisasi untuk meningkatkan efektivitas organisasi. 3 Level Analisis PO: (1) Level Individu (kepribadian, persepsi, motivasi, sikap), (2) Level Kelompok (dinamika tim, komunikasi, konflik, kepemimpinan), (3) Level Sistem Organisasi (struktur, kultur, desain kerja). Kontribusi Disiplin Ilmu: Psikologi (individu), Psikologi Sosial (kelompok & perubahan), Sosiologi (sistem organisasi & kultur), Antropologi (nilai lintas budaya). KB 2: Tantangan & Peluang Perilaku Organisasi Modern Globalisasi & Keragaman Tenaga Kerja: Mengelola karyawan lintas generasi, gender, etnis, dan budaya kerja global. Peningkatan Kualitas & Produktivitas: Melalui TQM, reengineering , dan pemberdayaan karyawan ( empowerment ). Variabel Dependen Utama PO: Produktivitas, Absensi ( Absenteeism ), Perputaran Karyawan ( Turnover ), Perilaku Kewargaan Organisasi ( OCB ), dan Kepuasan Kerja. Level Individu Kepribadian & Motivasi Level Kelompok Tim, Komunikasi, Kepemimpinan Level Organisasi Struktur, Kultur, Efektivitas Tiga Level Analisis dalam Studi Perilaku Organisasi (Robbins & Judge) 🔑 Kata Kunci Wajib Ingat: 3 Level Analisis Variabel Dependen PO OCB Turnover Psikologi & Sosiologi"
+    },
+    {
+      "id": "m2",
+      "title": "Modul 2: Kepribadian, Nilai, dan Sikap Kerja",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-head\">\n        <h2>Modul 2: Kepribadian, Nilai, dan Sikap Kerja</h2>\n        <span class=\"mod-tag\">Modul 2</span>\n      </div>\n      <h3>KB 1: Kepribadian (Big Five &amp; MBTI)</h3>\n        <ul>\n          <li><strong>Kepribadian:</strong> Cara individu bereaksi dan berinteraksi dengan orang lain, dibentuk oleh faktor keturunan (<em>heredity</em>) dan lingkungan.</li>\n          <li><strong>Model Big Five (OCEAN):</strong> <em>Openness to experience</em>, <em>Conscientiousness</em> (paling kuat memprediksi kinerja kerja), <em>Extraversion</em>, <em>Agreeableness</em>, dan <em>Emotional Stability / Neuroticism</em>.</li>\n          <li><strong>Atribut Kepribadian Lain:</strong> <em>Core Self-Evaluation</em>, <em>Machiavellianism</em>, <em>Narcissism</em>, <em>Self-Monitoring</em>, dan <em>Proactive Personality</em>.</li>\n        </ul><h3>KB 2: Nilai (Values) dan Sikap (Attitudes)</h3>\n        <ul>\n          <li><strong>Nilai Terminal vs Instrumental (Rokeach):</strong> Nilai <em>terminal</em> adalah tujuan akhir hidup (mis. kebebasan, kesuksesan), sedangkan nilai <em>instrumental</em> adalah cara/perilaku untuk mencapainya (mis. jujur, kerja keras).</li>\n          <li><strong>3 Komponen Sikap:</strong> <em>Kognitif</em> (keyakinan), <em>Afektif</em> (perasaan/emosi), dan <em>Behavioral</em> (niat berperilaku).</li>\n          <li><strong>Disonansi Kognitif (Festinger):</strong> Ketidakcocokan antara dua sikap atau antara sikap dan perilaku yang mendorong individu mengurangi ketegangan tersebut.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 215\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Komponen Pembentuk Sikap dan Dampaknya terhadap Perilaku Kerja\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"30\" width=\"190\" height=\"60\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"130.0\" y=\"55.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Komponen Kognitif</text><text x=\"130.0\" y=\"73.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Keyakinan / Evaluasi</text><rect x=\"245\" y=\"30\" width=\"190\" height=\"60\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"55.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Komponen Afektif</text><text x=\"340.0\" y=\"73.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Perasaan / Emosi</text><rect x=\"455\" y=\"30\" width=\"190\" height=\"60\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"550.0\" y=\"55.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Komponen Behavioral</text><text x=\"550.0\" y=\"73.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Niat Bertindak</text><line x1=\"130\" y1=\"90\" x2=\"290\" y2=\"135\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"340\" y1=\"90\" x2=\"340\" y2=\"135\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"550\" y1=\"90\" x2=\"390\" y2=\"135\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"210\" y=\"135\" width=\"260\" height=\"58\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"159.9\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Sikap Kerja &amp; Kepuasan</text><text x=\"340.0\" y=\"176.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Mempengaruhi OCB &amp; Turnover</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Komponen Pembentuk Sikap dan Dampaknya terhadap Perilaku Kerja</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Big Five OCEAN</span>\n          <span class=\"kw-chip\">Conscientiousness</span>\n          <span class=\"kw-chip\">Nilai Terminal vs Instrumental</span>\n          <span class=\"kw-chip\">Disonansi Kognitif</span>\n          <span class=\"kw-chip\">3 Komponen Sikap</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 2: Kepribadian, Nilai, dan Sikap Kerja Modul 2 KB 1: Kepribadian (Big Five & MBTI) Kepribadian: Cara individu bereaksi dan berinteraksi dengan orang lain, dibentuk oleh faktor keturunan ( heredity ) dan lingkungan. Model Big Five (OCEAN): Openness to experience , Conscientiousness (paling kuat memprediksi kinerja kerja), Extraversion , Agreeableness , dan Emotional Stability / Neuroticism . Atribut Kepribadian Lain: Core Self-Evaluation , Machiavellianism , Narcissism , Self-Monitoring , dan Proactive Personality . KB 2: Nilai (Values) dan Sikap (Attitudes) Nilai Terminal vs Instrumental (Rokeach): Nilai terminal adalah tujuan akhir hidup (mis. kebebasan, kesuksesan), sedangkan nilai instrumental adalah cara/perilaku untuk mencapainya (mis. jujur, kerja keras). 3 Komponen Sikap: Kognitif (keyakinan), Afektif (perasaan/emosi), dan Behavioral (niat berperilaku). Disonansi Kognitif (Festinger): Ketidakcocokan antara dua sikap atau antara sikap dan perilaku yang mendorong individu mengurangi ketegangan tersebut. Komponen Kognitif Keyakinan / Evaluasi Komponen Afektif Perasaan / Emosi Komponen Behavioral Niat Bertindak Sikap Kerja & Kepuasan Mempengaruhi OCB & Turnover Tiga Komponen Pembentuk Sikap dan Dampaknya terhadap Perilaku Kerja 🔑 Kata Kunci Wajib Ingat: Big Five OCEAN Conscientiousness Nilai Terminal vs Instrumental Disonansi Kognitif 3 Komponen Sikap"
+    },
+    {
+      "id": "m3",
+      "title": "Modul 3: Persepsi, Pengambilan Keputusan, dan Stres Kerja",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-head\">\n        <h2>Modul 3: Persepsi, Pengambilan Keputusan, dan Stres Kerja</h2>\n        <span class=\"mod-tag\">Modul 3</span>\n      </div>\n      <h3>KB 1: Persepsi &amp; Teori Atribusi</h3>\n        <ul>\n          <li><strong>Persepsi:</strong> Proses individu mengorganisasi dan menafsirkan kesan indrawi untuk memberi makna pada lingkungan.</li>\n          <li><strong>Teori Atribusi (Kelley):</strong> Menilai perilaku orang lain disebabkan faktor <em>internal</em> atau <em>eksternal</em> berdasarkan 3 penentu: <em>Distinctiveness</em> (kekhususan), <em>Consensus</em> (konsensus), dan <em>Consistency</em> (konsistensi).</li>\n          <li><strong>Bias Persepsi Umum:</strong> <em>Fundamental Attribution Error</em> (menilai kesalahan orang lain karena faktor internal), <em>Self-Serving Bias</em>, <em>Halo Effect</em>, dan <em>Stereotyping</em>.</li>\n        </ul><h3>KB 2: Pengambilan Keputusan &amp; Stres Kerja</h3>\n        <ul>\n          <li><strong>Model Rasional vs Bounded Rationality:</strong> Manusia sering mengambil keputusan secara <em>satisficing</em> (cukup memadai) karena keterbatasan informasi dan waktu.</li>\n          <li><strong>Stres Kerja:</strong> Kondisi dinamis ketika individu dihadapkan pada peluang, tuntutan, atau sumber daya yang hasilnya tidak pasti namun penting (<em>Challenge Stressors</em> vs <em>Hindrance Stressors</em>).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 220\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Penentu dalam Teori Atribusi Kelley (Distinctiveness, Consensus, Consistency)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"55\" width=\"185\" height=\"78\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"117.5\" y=\"88.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Distinctiveness</text><text x=\"117.5\" y=\"111.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Beda di situasi lain?</text><rect x=\"245\" y=\"55\" width=\"185\" height=\"78\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"337.5\" y=\"88.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Consensus</text><text x=\"337.5\" y=\"111.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Orang lain bertindak sama?</text><rect x=\"465\" y=\"55\" width=\"190\" height=\"78\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"560.0\" y=\"88.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Consistency</text><text x=\"560.0\" y=\"111.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Selalu terjadi berulang?</text><line x1=\"117\" y1=\"133\" x2=\"280\" y2=\"155\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"337\" y1=\"133\" x2=\"340\" y2=\"155\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"560\" y1=\"133\" x2=\"400\" y2=\"155\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"195\" y=\"155\" width=\"290\" height=\"50\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"176.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Atribusi Internal vs Eksternal</text><text x=\"340.0\" y=\"191.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Semua Tinggi = Eksternal | Konsisten = Internal</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Penentu dalam Teori Atribusi Kelley (Distinctiveness, Consensus, Consistency)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Teori Atribusi</span>\n          <span class=\"kw-chip\">Halo Effect</span>\n          <span class=\"kw-chip\">Bounded Rationality</span>\n          <span class=\"kw-chip\">Satisficing</span>\n          <span class=\"kw-chip\">Challenge vs Hindrance Stressors</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 3: Persepsi, Pengambilan Keputusan, dan Stres Kerja Modul 3 KB 1: Persepsi & Teori Atribusi Persepsi: Proses individu mengorganisasi dan menafsirkan kesan indrawi untuk memberi makna pada lingkungan. Teori Atribusi (Kelley): Menilai perilaku orang lain disebabkan faktor internal atau eksternal berdasarkan 3 penentu: Distinctiveness (kekhususan), Consensus (konsensus), dan Consistency (konsistensi). Bias Persepsi Umum: Fundamental Attribution Error (menilai kesalahan orang lain karena faktor internal), Self-Serving Bias , Halo Effect , dan Stereotyping . KB 2: Pengambilan Keputusan & Stres Kerja Model Rasional vs Bounded Rationality: Manusia sering mengambil keputusan secara satisficing (cukup memadai) karena keterbatasan informasi dan waktu. Stres Kerja: Kondisi dinamis ketika individu dihadapkan pada peluang, tuntutan, atau sumber daya yang hasilnya tidak pasti namun penting ( Challenge Stressors vs Hindrance Stressors ). Distinctiveness Beda di situasi lain? Consensus Orang lain bertindak sama? Consistency Selalu terjadi berulang? Atribusi Internal vs Eksternal Semua Tinggi = Eksternal | Konsisten = Internal Tiga Penentu dalam Teori Atribusi Kelley (Distinctiveness, Consensus, Consistency) 🔑 Kata Kunci Wajib Ingat: Teori Atribusi Halo Effect Bounded Rationality Satisficing Challenge vs Hindrance Stressors"
+    },
+    {
+      "id": "m4",
+      "title": "Modul 4: Motivasi Kerja",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-head\">\n        <h2>Modul 4: Motivasi Kerja</h2>\n        <span class=\"mod-tag\">Modul 4</span>\n      </div>\n      <h3>KB 1: Teori-Teori Motivasi Klasik (Content Theories)</h3>\n        <ul>\n          <li><strong>Hierarki Kebutuhan Maslow:</strong> Fisiologis &rarr; Rasa Aman &rarr; Sosial &rarr; Penghargaan &rarr; Aktualisasi Diri.</li>\n          <li><strong>Teori Dua Faktor Herzberg:</strong> <em>Hygiene Factors</em> (gaji, kondisi kerja — mencegah ketidakpuasan) vs <em>Motivators</em> (prestasi, pengakuan, tanggung jawab — menciptakan kepuasan).</li>\n          <li><strong>Teori Kebutuhan McClelland:</strong> <em>Need for Achievement (nAch)</em>, <em>Need for Power (nPow)</em>, dan <em>Need for Affiliation (nAff)</em>.</li>\n        </ul><h3>KB 2: Teori Motivasi Kontemporer (Process Theories)</h3>\n        <ul>\n          <li><strong>Expectancy Theory (Vroom):</strong> Motivasi = <em>Expectancy</em> (usaha &rarr; kinerja) &times; <em>Instrumentality</em> (kinerja &rarr; imbalan) &times; <em>Valence</em> (nilai imbalan).</li>\n          <li><strong>Goal-Setting Theory (Locke):</strong> Tujuan yang spesifik, menantang, dan disertai umpan balik menghasilkan kinerja lebih tinggi.</li>\n          <li><strong>Equity Theory (Adams):</strong> Karyawan membandingkan rasio input-outcome dirinya dengan orang lain (keadilan distributif, prosedural, interaksional).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Model Expectancy Theory Victor Vroom: Motivasi = E x I x V\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"65\" width=\"175\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"112.5\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Effort (Usaha)</text><text x=\"112.5\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Expectancy: Bisa capai target?</text><line x1=\"200\" y1=\"101\" x2=\"250\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"225.0\" y=\"95.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">E</text><rect x=\"250\" y=\"65\" width=\"180\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Performance</text><text x=\"340.0\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Instrumentality: Dapat reward?</text><line x1=\"430\" y1=\"101\" x2=\"480\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"455.0\" y=\"95.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">I</text><rect x=\"480\" y=\"65\" width=\"175\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"567.5\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Rewards (Valence)</text><text x=\"567.5\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Bernilai bagi individu?</text>\n  </svg>\n  <p class=\"svg-caption\">Model Expectancy Theory Victor Vroom: Motivasi = E x I x V</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Maslow</span>\n          <span class=\"kw-chip\">Herzberg Two-Factor</span>\n          <span class=\"kw-chip\">McClelland nAch</span>\n          <span class=\"kw-chip\">Vroom Expectancy</span>\n          <span class=\"kw-chip\">Goal-Setting Theory</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 4: Motivasi Kerja Modul 4 KB 1: Teori-Teori Motivasi Klasik (Content Theories) Hierarki Kebutuhan Maslow: Fisiologis → Rasa Aman → Sosial → Penghargaan → Aktualisasi Diri. Teori Dua Faktor Herzberg: Hygiene Factors (gaji, kondisi kerja — mencegah ketidakpuasan) vs Motivators (prestasi, pengakuan, tanggung jawab — menciptakan kepuasan). Teori Kebutuhan McClelland: Need for Achievement (nAch) , Need for Power (nPow) , dan Need for Affiliation (nAff) . KB 2: Teori Motivasi Kontemporer (Process Theories) Expectancy Theory (Vroom): Motivasi = Expectancy (usaha → kinerja) × Instrumentality (kinerja → imbalan) × Valence (nilai imbalan). Goal-Setting Theory (Locke): Tujuan yang spesifik, menantang, dan disertai umpan balik menghasilkan kinerja lebih tinggi. Equity Theory (Adams): Karyawan membandingkan rasio input-outcome dirinya dengan orang lain (keadilan distributif, prosedural, interaksional). Effort (Usaha) Expectancy: Bisa capai target? E Performance Instrumentality: Dapat reward? I Rewards (Valence) Bernilai bagi individu? Model Expectancy Theory Victor Vroom: Motivasi = E x I x V 🔑 Kata Kunci Wajib Ingat: Maslow Herzberg Two-Factor McClelland nAch Vroom Expectancy Goal-Setting Theory"
+    },
+    {
+      "id": "m5",
+      "title": "Modul 5: Dinamika Kelompok dan Tim Kerja",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-head\">\n        <h2>Modul 5: Dinamika Kelompok dan Tim Kerja</h2>\n        <span class=\"mod-tag\">Modul 5</span>\n      </div>\n      <h3>KB 1: Tahap Perkembangan Kelompok (Tuckman)</h3>\n        <ul>\n          <li><strong>5 Tahap Tuckman:</strong> <em>Forming</em> (orientasi &amp; ketidakpastian) &rarr; <em>Storming</em> (konflik intrakelompok) &rarr; <em>Norming</em> (kohesivitas &amp; norma) &rarr; <em>Performing</em> (fokus tugas) &rarr; <em>Adjourning</em> (pembubaran tim sementara).</li>\n          <li><strong>Fenomena Kelompok:</strong> <em>Social Loafing</em> (bermalas-malasan dalam kelompok) dan <em>Groupthink</em> (tekanan konformitas yang mematikan pemikiran kritis).</li>\n        </ul><h3>KB 2: Perbedaan Kelompok Kerja vs Tim Kerja</h3>\n        <ul>\n          <li><strong>Work Group vs Work Team:</strong> Kelompok kerja sekadar berbagi informasi dengan akuntabilitas individu; <em>Work Team</em> menghasilkan sinergi positif melalui upaya terkoordinasi dan akuntabilitas bersama.</li>\n          <li><strong>Tipe Tim:</strong> <em>Problem-Solving</em>, <em>Self-Managed</em>, <em>Cross-Functional</em>, dan <em>Virtual Team</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lima Tahap Perkembangan Kelompok Menurut Bruce Tuckman\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"18\" y=\"65\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"77.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">1. Forming</text><text x=\"77.0\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Orientasi awal</text><line x1=\"136\" y1=\"101\" x2=\"152\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"152\" y=\"65\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"211.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">2. Storming</text><text x=\"211.0\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Konflik peran</text><line x1=\"270\" y1=\"101\" x2=\"286\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"286\" y=\"65\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"345.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">3. Norming</text><text x=\"345.0\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kohesivitas</text><line x1=\"404\" y1=\"101\" x2=\"420\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"420\" y=\"65\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"479.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">4. Performing</text><text x=\"479.0\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kinerja optimal</text><line x1=\"538\" y1=\"101\" x2=\"554\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"554\" y=\"65\" width=\"112\" height=\"72\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"1.8\"/><text x=\"610.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#334155\">5. Adjourning</text><text x=\"610.0\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pembubaran</text>\n  </svg>\n  <p class=\"svg-caption\">Lima Tahap Perkembangan Kelompok Menurut Bruce Tuckman</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Forming-Storming-Norming</span>\n          <span class=\"kw-chip\">Social Loafing</span>\n          <span class=\"kw-chip\">Groupthink</span>\n          <span class=\"kw-chip\">Work Group vs Team</span>\n          <span class=\"kw-chip\">Cross-Functional Team</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 5: Dinamika Kelompok dan Tim Kerja Modul 5 KB 1: Tahap Perkembangan Kelompok (Tuckman) 5 Tahap Tuckman: Forming (orientasi & ketidakpastian) → Storming (konflik intrakelompok) → Norming (kohesivitas & norma) → Performing (fokus tugas) → Adjourning (pembubaran tim sementara). Fenomena Kelompok: Social Loafing (bermalas-malasan dalam kelompok) dan Groupthink (tekanan konformitas yang mematikan pemikiran kritis). KB 2: Perbedaan Kelompok Kerja vs Tim Kerja Work Group vs Work Team: Kelompok kerja sekadar berbagi informasi dengan akuntabilitas individu; Work Team menghasilkan sinergi positif melalui upaya terkoordinasi dan akuntabilitas bersama. Tipe Tim: Problem-Solving , Self-Managed , Cross-Functional , dan Virtual Team . 1. Forming Orientasi awal 2. Storming Konflik peran 3. Norming Kohesivitas 4. Performing Kinerja optimal 5. Adjourning Pembubaran Lima Tahap Perkembangan Kelompok Menurut Bruce Tuckman 🔑 Kata Kunci Wajib Ingat: Forming-Storming-Norming Social Loafing Groupthink Work Group vs Team Cross-Functional Team"
+    },
+    {
+      "id": "m6",
+      "title": "Modul 6: Komunikasi, Konflik, dan Negosiasi",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-head\">\n        <h2>Modul 6: Komunikasi, Konflik, dan Negosiasi</h2>\n        <span class=\"mod-tag\">Modul 6</span>\n      </div>\n      <h3>KB 1: Komunikasi Organisasi</h3>\n        <ul>\n          <li><strong>Arah Komunikasi:</strong> <em>Downward</em> (atasan ke bawahan), <em>Upward</em> (bawahan ke atasan), dan <em>Lateral/Horizontal</em> (antar rekan sejawat).</li>\n          <li><strong>Hambatan Komunikasi:</strong> <em>Filtering</em> (menyaring info agar terdengar baik), <em>Selective Perception</em>, <em>Information Overload</em>, dan perbedaan bahasa/budaya.</li>\n        </ul><h3>KB 2: Manajemen Konflik &amp; Negosiasi</h3>\n        <ul>\n          <li><strong>5 Gaya Penanganan Konflik (Thomas-Kilmann):</strong> <em>Competing</em>, <em>Collaborating</em> (win-win), <em>Compromising</em>, <em>Avoiding</em>, dan <em>Accommodating</em>.</li>\n          <li><strong>Negosiasi:</strong> <em>Distributive Bargaining</em> (memperebutkan kue tetap / win-lose) vs <em>Integrative Bargaining</em> (memperbesar kue / win-win).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 215\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lima Gaya Penanganan Konflik Thomas-Kilmann Berdasarkan Ketegasan &amp; Kerja Sama\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"35\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"127.5\" y=\"64.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Competing</text><text x=\"127.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Assertive + Uncooperative</text><rect x=\"455\" y=\"35\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"552.5\" y=\"64.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Collaborating</text><text x=\"552.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Assertive + Cooperative (Win-Win)</text><rect x=\"242\" y=\"75\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"339.5\" y=\"104.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Compromising</text><text x=\"339.5\" y=\"124.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Jalan tengah (Give &amp; Take)</text><rect x=\"30\" y=\"125\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"1.8\"/><text x=\"127.5\" y=\"154.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#334155\">Avoiding</text><text x=\"127.5\" y=\"174.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Unassertive + Uncooperative</text><rect x=\"455\" y=\"125\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"552.5\" y=\"154.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Accommodating</text><text x=\"552.5\" y=\"174.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Unassertive + Cooperative</text>\n  </svg>\n  <p class=\"svg-caption\">Lima Gaya Penanganan Konflik Thomas-Kilmann Berdasarkan Ketegasan &amp; Kerja Sama</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Filtering</span>\n          <span class=\"kw-chip\">Konflik Fungsional vs Disfungsional</span>\n          <span class=\"kw-chip\">Collaborating</span>\n          <span class=\"kw-chip\">Distributive vs Integrative</span>\n          <span class=\"kw-chip\">BATNA</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 6: Komunikasi, Konflik, dan Negosiasi Modul 6 KB 1: Komunikasi Organisasi Arah Komunikasi: Downward (atasan ke bawahan), Upward (bawahan ke atasan), dan Lateral/Horizontal (antar rekan sejawat). Hambatan Komunikasi: Filtering (menyaring info agar terdengar baik), Selective Perception , Information Overload , dan perbedaan bahasa/budaya. KB 2: Manajemen Konflik & Negosiasi 5 Gaya Penanganan Konflik (Thomas-Kilmann): Competing , Collaborating (win-win), Compromising , Avoiding , dan Accommodating . Negosiasi: Distributive Bargaining (memperebutkan kue tetap / win-lose) vs Integrative Bargaining (memperbesar kue / win-win). Competing Assertive + Uncooperative Collaborating Assertive + Cooperative (Win-Win) Compromising Jalan tengah (Give & Take) Avoiding Unassertive + Uncooperative Accommodating Unassertive + Cooperative Lima Gaya Penanganan Konflik Thomas-Kilmann Berdasarkan Ketegasan & Kerja Sama 🔑 Kata Kunci Wajib Ingat: Filtering Konflik Fungsional vs Disfungsional Collaborating Distributive vs Integrative BATNA"
+    },
+    {
+      "id": "m7",
+      "title": "Modul 7: Kepemimpinan, Kekuasaan, dan Politik Organisasi",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-head\">\n        <h2>Modul 7: Kepemimpinan, Kekuasaan, dan Politik Organisasi</h2>\n        <span class=\"mod-tag\">Modul 7</span>\n      </div>\n      <h3>KB 1: Teori Kepemimpinan</h3>\n        <ul>\n          <li><strong>Teori Sifat &amp; Perilaku:</strong> Studi Ohio State (<em>Initiating Structure</em> vs <em>Consideration</em>) dan University of Michigan.</li>\n          <li><strong>Kepemimpinan Situasional (Hersey-Blanchard):</strong> Menyesuaikan gaya (<em>Telling, Selling, Participating, Delegating</em>) dengan tingkat kesiapan pengikut.</li>\n          <li><strong>Transformational vs Transactional Leadership:</strong> Pemimpin transaksional memotivasi lewat imbalan/koreksi; pemimpin transformasional menginspirasi pengikut melampaui kepentingan pribadi.</li>\n        </ul><h3>KB 2: Sumber Kekuasaan (French &amp; Raven)</h3>\n        <ul>\n          <li><strong>Kekuasaan Formal:</strong> <em>Coercive</em> (paksaan), <em>Reward</em> (imbalan), dan <em>Legitimate</em> (jabatan resmi).</li>\n          <li><strong>Kekuasaan Personal:</strong> <em>Expert Power</em> (keahlian) dan <em>Referent Power</em> (karisma/keteladanan — paling efektif mendorong komitmen).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 205\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lima Basis Kekuasaan Menurut French &amp; Raven (Formal vs Personal)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"40\" y=\"35\" width=\"270\" height=\"145\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"175.0\" y=\"116.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Kekuasaan Formal (Posisi)</text><rect x=\"65\" y=\"78\" width=\"220\" height=\"28\" rx=\"6\" fill=\"#ffffff\" stroke=\"#93c5fd\" stroke-width=\"1.8\"/><text x=\"175.0\" y=\"93.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e40af\">Legitimate (Jabatan)</text><rect x=\"65\" y=\"112\" width=\"220\" height=\"28\" rx=\"6\" fill=\"#ffffff\" stroke=\"#93c5fd\" stroke-width=\"1.8\"/><text x=\"175.0\" y=\"127.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e40af\">Reward (Imbalan)</text><rect x=\"65\" y=\"146\" width=\"220\" height=\"28\" rx=\"6\" fill=\"#ffffff\" stroke=\"#93c5fd\" stroke-width=\"1.8\"/><text x=\"175.0\" y=\"161.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e40af\">Coercive (Sanksi)</text><rect x=\"370\" y=\"35\" width=\"270\" height=\"145\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"505.0\" y=\"116.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Kekuasaan Personal (Individu)</text><rect x=\"395\" y=\"85\" width=\"220\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#6ee7b7\" stroke-width=\"1.8\"/><text x=\"505.0\" y=\"105.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Expert Power (Keahlian)</text><rect x=\"395\" y=\"132\" width=\"220\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#6ee7b7\" stroke-width=\"1.8\"/><text x=\"505.0\" y=\"152.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Referent Power (Karisma)</text>\n  </svg>\n  <p class=\"svg-caption\">Lima Basis Kekuasaan Menurut French &amp; Raven (Formal vs Personal)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Transformational Leadership</span>\n          <span class=\"kw-chip\">Hersey-Blanchard</span>\n          <span class=\"kw-chip\">French &amp; Raven</span>\n          <span class=\"kw-chip\">Expert &amp; Referent Power</span>\n          <span class=\"kw-chip\">Politik Organisasi</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 7: Kepemimpinan, Kekuasaan, dan Politik Organisasi Modul 7 KB 1: Teori Kepemimpinan Teori Sifat & Perilaku: Studi Ohio State ( Initiating Structure vs Consideration ) dan University of Michigan. Kepemimpinan Situasional (Hersey-Blanchard): Menyesuaikan gaya ( Telling, Selling, Participating, Delegating ) dengan tingkat kesiapan pengikut. Transformational vs Transactional Leadership: Pemimpin transaksional memotivasi lewat imbalan/koreksi; pemimpin transformasional menginspirasi pengikut melampaui kepentingan pribadi. KB 2: Sumber Kekuasaan (French & Raven) Kekuasaan Formal: Coercive (paksaan), Reward (imbalan), dan Legitimate (jabatan resmi). Kekuasaan Personal: Expert Power (keahlian) dan Referent Power (karisma/keteladanan — paling efektif mendorong komitmen). Kekuasaan Formal (Posisi) Legitimate (Jabatan) Reward (Imbalan) Coercive (Sanksi) Kekuasaan Personal (Individu) Expert Power (Keahlian) Referent Power (Karisma) Lima Basis Kekuasaan Menurut French & Raven (Formal vs Personal) 🔑 Kata Kunci Wajib Ingat: Transformational Leadership Hersey-Blanchard French & Raven Expert & Referent Power Politik Organisasi"
+    },
+    {
+      "id": "m8",
+      "title": "Modul 8: Struktur dan Kultur Organisasi",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-head\">\n        <h2>Modul 8: Struktur dan Kultur Organisasi</h2>\n        <span class=\"mod-tag\">Modul 8</span>\n      </div>\n      <h3>KB 1: Elemen Desain &amp; Struktur Organisasi</h3>\n        <ul>\n          <li><strong>6 Elemen Kunci Desain Organisasi:</strong> Spesialisasi kerja, Departementalisasi, Rantai komando (<em>chain of command</em>), Rentang kendali (<em>span of control</em>), Sentralisasi vs Desentralisasi, dan Formalisasi.</li>\n          <li><strong>Desain Mekanistik vs Organik:</strong> Struktur <em>mekanistik</em> kaku, tersentralisasi, dan formal tinggi (cocok lingkungan stabil); struktur <em>organik</em> datar, terdesentralisasi, dan fleksibel (cocok inovasi).</li>\n        </ul><h3>KB 2: Budaya (Kultur) Organisasi</h3>\n        <ul>\n          <li><strong>Kultur Organisasi:</strong> Sistem makna bersama yang dianut anggota dan membedakan organisasi satu dengan lainnya (7 karakteristik: inovasi, perhatian detail, orientasi hasil, orang, tim, agresivitas, stabilitas).</li>\n          <li><strong>Sosialisasi Karyawan:</strong> Proses <em>Prearrival</em> &rarr; <em>Encounter</em> &rarr; <em>Metamorphosis</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Spektrum Desain Organisasi: Mekanistik (Stabil) vs Organik (Adaptif)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"177.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Struktur Mekanistik</text><text x=\"177.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Birokrasi, Rantai Komando Ketat</text><rect x=\"360\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"502.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Struktur Organik</text><text x=\"502.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Tim Lintas Fungsi, Desentralisasi</text><line x1=\"320\" y1=\"108\" x2=\"360\" y2=\"108\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n  </svg>\n  <p class=\"svg-caption\">Spektrum Desain Organisasi: Mekanistik (Stabil) vs Organik (Adaptif)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Span of Control</span>\n          <span class=\"kw-chip\">Mekanistik vs Organik</span>\n          <span class=\"kw-chip\">Sentralisasi</span>\n          <span class=\"kw-chip\">Kultur Kuat</span>\n          <span class=\"kw-chip\">Sosialisasi Metamorphosis</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 8: Struktur dan Kultur Organisasi Modul 8 KB 1: Elemen Desain & Struktur Organisasi 6 Elemen Kunci Desain Organisasi: Spesialisasi kerja, Departementalisasi, Rantai komando ( chain of command ), Rentang kendali ( span of control ), Sentralisasi vs Desentralisasi, dan Formalisasi. Desain Mekanistik vs Organik: Struktur mekanistik kaku, tersentralisasi, dan formal tinggi (cocok lingkungan stabil); struktur organik datar, terdesentralisasi, dan fleksibel (cocok inovasi). KB 2: Budaya (Kultur) Organisasi Kultur Organisasi: Sistem makna bersama yang dianut anggota dan membedakan organisasi satu dengan lainnya (7 karakteristik: inovasi, perhatian detail, orientasi hasil, orang, tim, agresivitas, stabilitas). Sosialisasi Karyawan: Proses Prearrival → Encounter → Metamorphosis . Struktur Mekanistik Birokrasi, Rantai Komando Ketat Struktur Organik Tim Lintas Fungsi, Desentralisasi Spektrum Desain Organisasi: Mekanistik (Stabil) vs Organik (Adaptif) 🔑 Kata Kunci Wajib Ingat: Span of Control Mekanistik vs Organik Sentralisasi Kultur Kuat Sosialisasi Metamorphosis"
+    },
+    {
+      "id": "m9",
+      "title": "Modul 9: Perilaku Organisasi Lintas Budaya",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-head\">\n        <h2>Modul 9: Perilaku Organisasi Lintas Budaya</h2>\n        <span class=\"mod-tag\">Modul 9</span>\n      </div>\n      <h3>KB 1: Dimensi Budaya Nasional Geert Hofstede</h3>\n        <ul>\n          <li><strong>6 Dimensi Hofstede:</strong> (1) <em>Power Distance</em> (jarak kekuasaan), (2) <em>Individualism vs Collectivism</em>, (3) <em>Masculinity vs Femininity</em>, (4) <em>Uncertainty Avoidance</em> (penghindaran ketidakpastian), (5) <em>Long-Term vs Short-Term Orientation</em>, (6) <em>Indulgence vs Restraint</em>.</li>\n        </ul><h3>KB 2: Kerangka GLOBE &amp; Manajemen Ekspatriat</h3>\n        <ul>\n          <li><strong>Proyek GLOBE:</strong> Memperluas Hofstede menjadi 9 dimensi budaya kepemimpinan global (menambahkan <em>Humane Orientation</em> dan <em>Performance Orientation</em>).</li>\n          <li><strong>Culture Shock &amp; Adaptasi Ekspatriat:</strong> Pentingnya pelatihan lintas budaya (<em>cross-cultural training</em>) untuk mencegah kegagalan penugasan internasional.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 215\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Dimensi Budaya Nasional Geert Hofstede dalam Perilaku Organisasi Global\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"35\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"122.5\" y=\"64.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Power Distance</text><text x=\"122.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Toleransi hierarki kekuasaan</text><rect x=\"242\" y=\"35\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"339.5\" y=\"64.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Individu vs Kolektif</text><text x=\"339.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Fokus diri vs kelompok</text><rect x=\"460\" y=\"35\" width=\"195\" height=\"68\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"557.5\" y=\"64.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Uncertainty Avoidance</text><text x=\"557.5\" y=\"84.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Toleransi ambiguitas/risiko</text><rect x=\"130\" y=\"125\" width=\"200\" height=\"68\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"230.0\" y=\"154.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Masculinity vs Femininity</text><text x=\"230.0\" y=\"174.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kompetisi vs kualitas hidup</text><rect x=\"350\" y=\"125\" width=\"200\" height=\"68\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"450.0\" y=\"154.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Long-Term Orientation</text><text x=\"450.0\" y=\"174.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Orientasi masa depan</text>\n  </svg>\n  <p class=\"svg-caption\">Dimensi Budaya Nasional Geert Hofstede dalam Perilaku Organisasi Global</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Geert Hofstede</span>\n          <span class=\"kw-chip\">Power Distance</span>\n          <span class=\"kw-chip\">Uncertainty Avoidance</span>\n          <span class=\"kw-chip\">GLOBE Framework</span>\n          <span class=\"kw-chip\">Culture Shock</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 9: Perilaku Organisasi Lintas Budaya Modul 9 KB 1: Dimensi Budaya Nasional Geert Hofstede 6 Dimensi Hofstede: (1) Power Distance (jarak kekuasaan), (2) Individualism vs Collectivism , (3) Masculinity vs Femininity , (4) Uncertainty Avoidance (penghindaran ketidakpastian), (5) Long-Term vs Short-Term Orientation , (6) Indulgence vs Restraint . KB 2: Kerangka GLOBE & Manajemen Ekspatriat Proyek GLOBE: Memperluas Hofstede menjadi 9 dimensi budaya kepemimpinan global (menambahkan Humane Orientation dan Performance Orientation ). Culture Shock & Adaptasi Ekspatriat: Pentingnya pelatihan lintas budaya ( cross-cultural training ) untuk mencegah kegagalan penugasan internasional. Power Distance Toleransi hierarki kekuasaan Individu vs Kolektif Fokus diri vs kelompok Uncertainty Avoidance Toleransi ambiguitas/risiko Masculinity vs Femininity Kompetisi vs kualitas hidup Long-Term Orientation Orientasi masa depan Dimensi Budaya Nasional Geert Hofstede dalam Perilaku Organisasi Global 🔑 Kata Kunci Wajib Ingat: Geert Hofstede Power Distance Uncertainty Avoidance GLOBE Framework Culture Shock"
+    },
+    {
+      "id": "ahli",
+      "title": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-head\">\n        <h2>Menurut Ahli + 📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h2>\n        <span class=\"mod-tag\">Tokoh &amp; Referensi</span>\n      </div>\n      <h3>Tokoh &amp; Teori Kunci dalam Perilaku Organisasi</h3>\n      <ul>\n        <li><strong>Stephen P. Robbins &amp; Timothy A. Judge</strong> — Merumuskan 3 level analisis Perilaku Organisasi (individu, kelompok, sistem organisasi) serta variabel dependen PO.</li>\n        <li><strong>Leon Festinger</strong> — Pencetus teori <em>Cognitive Dissonance</em> tentang ketidaksesuaian antara sikap dan perilaku.</li>\n        <li><strong>Harold Kelley</strong> — Mengembangkan <em>Attribution Theory</em> dengan 3 penentu: Distinctiveness, Consensus, dan Consistency.</li>\n        <li><strong>Frederick Herzberg</strong> — Mengemukakan <em>Two-Factor Theory</em> (Hygiene Factors vs Motivators).</li>\n        <li><strong>Victor Vroom</strong> — Pencetus <em>Expectancy Theory</em> (Expectancy &times; Instrumentality &times; Valence).</li>\n        <li><strong>Bruce Tuckman</strong> — Merumuskan 5 tahap perkembangan kelompok: Forming, Storming, Norming, Performing, Adjourning.</li>\n        <li><strong>Geert Hofstede</strong> — Memetakan dimensi budaya nasional (Power Distance, Individualism, Uncertainty Avoidance, dll.).</li>\n      </ul>\n      <h3>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h3>\n      <ul>\n        <li><strong>Organizational Citizenship Behavior (OCB)</strong>: Perilaku sukarela di luar deskripsi pekerjaan formal yang meningkatkan efektivitas organisasi (mis. membantu rekan kerja tanpa diminta).</li>\n        <li><strong>BATNA dalam Negosiasi</strong>: <em>Best Alternative to a Negotiated Agreement</em> — titik batas minimum yang menentukan kapan negosiator lebih baik mundur daripada menerima kesepakatan buruk.</li>\n        <li><strong>Fundamental Attribution Error</strong>: Kecenderungan melebih-lebihkan faktor internal (karakter) dan meremehkan faktor eksternal (situasi) saat menilai kegagalan orang lain.</li>\n      </ul>\n    </section>",
+      "text": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Tokoh & Referensi Tokoh & Teori Kunci dalam Perilaku Organisasi Stephen P. Robbins & Timothy A. Judge — Merumuskan 3 level analisis Perilaku Organisasi (individu, kelompok, sistem organisasi) serta variabel dependen PO. Leon Festinger — Pencetus teori Cognitive Dissonance tentang ketidaksesuaian antara sikap dan perilaku. Harold Kelley — Mengembangkan Attribution Theory dengan 3 penentu: Distinctiveness, Consensus, dan Consistency. Frederick Herzberg — Mengemukakan Two-Factor Theory (Hygiene Factors vs Motivators). Victor Vroom — Pencetus Expectancy Theory (Expectancy × Instrumentality × Valence). Bruce Tuckman — Merumuskan 5 tahap perkembangan kelompok: Forming, Storming, Norming, Performing, Adjourning. Geert Hofstede — Memetakan dimensi budaya nasional (Power Distance, Individualism, Uncertainty Avoidance, dll.). 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Organizational Citizenship Behavior (OCB) : Perilaku sukarela di luar deskripsi pekerjaan formal yang meningkatkan efektivitas organisasi (mis. membantu rekan kerja tanpa diminta). BATNA dalam Negosiasi : Best Alternative to a Negotiated Agreement — titik batas minimum yang menentukan kapan negosiator lebih baik mundur daripada menerima kesepakatan buruk. Fundamental Attribution Error : Kecenderungan melebih-lebihkan faktor internal (karakter) dan meremehkan faktor eksternal (situasi) saat menilai kegagalan orang lain."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-TF1.1] Berikut ini adalah karakteristik utama sebuah organisasi menurut Daft, KECUALI ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sebuah entitas sosial"
+        },
+        {
+          "letter": "B",
+          "text": "sekelompok orang yang bekerja bersama-sama"
+        },
+        {
+          "letter": "C",
+          "text": "memiliki identitas diri dan tujuan yang hendak dicapai"
+        },
+        {
+          "letter": "D",
+          "text": "tidak memiliki batas dan struktur yang jelas"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Organisasi selalu memiliki batas yang jelas dan struktur terkoordinasi",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1.2] Yang termasuk dalam dimensi kontektual organisasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tujuan dan strategi organisasi"
+        },
+        {
+          "letter": "B",
+          "text": "hierarki organisasi"
+        },
+        {
+          "letter": "C",
+          "text": "rasio personel"
+        },
+        {
+          "letter": "D",
+          "text": "formalisasi organisasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "tujuan dan strategi organisasi",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1.3] Untuk menciptakan nilai tambah, organisasi melakukan aktivitas transformasi mulai dari input, proses, hingga output. Berikut yang BUKAN termasuk input organisasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keterampilan sumber daya manusia"
+        },
+        {
+          "letter": "B",
+          "text": "pelanggan/konsumen"
+        },
+        {
+          "letter": "C",
+          "text": "kepuasan pelanggan"
+        },
+        {
+          "letter": "D",
+          "text": "teknologi dan modal"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kepuasan pelanggan adalah hasil/output dari aktivitas organisasi, bukan input",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1.4] Komponen informal organisasi meliputi komponen yang berkaitan dengan manusia sebagai individu dan kelompok, diantaranya ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "diskripsi kerja"
+        },
+        {
+          "letter": "B",
+          "text": "kebijakan sumber daya manusia"
+        },
+        {
+          "letter": "C",
+          "text": "rentang kendali"
+        },
+        {
+          "letter": "D",
+          "text": "politik dan kekuasaan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Politik dan kekuasaan termasuk komponen informal organisasi (berkaitan dengan manusia/kelompok)",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1.5] Berikut ini adalah keterampilan umum yang harus dimiliki seorang manajer, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keterampilan konseptual"
+        },
+        {
+          "letter": "B",
+          "text": "keterampilan hubungan antarmanusia"
+        },
+        {
+          "letter": "C",
+          "text": "keterampilan teknikal"
+        },
+        {
+          "letter": "D",
+          "text": "keterampilan mendamaikan perselisihan keluarga"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Keterampilan umum manajer menurut Katz adalah konseptual, hubungan antarmanusia, dan teknikal",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2.1] Berikut ini adalah tujuan mempelajari perilaku keorganisasian, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengendalikan perilaku manusia dalam kehidupan organisasi"
+        },
+        {
+          "letter": "B",
+          "text": "menjelaskan dan memprediksi perilaku manusia dalam organisasi"
+        },
+        {
+          "letter": "C",
+          "text": "menempatkan manusia sebagai obyek dalam kehidupan organisasi"
+        },
+        {
+          "letter": "D",
+          "text": "memahami perilaku manusia agar tercipta efektivitas organisasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Tujuan studi PO adalah menjelaskan, memprediksi, dan mengendalikan perilaku manusia dalam organisasi",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2.2] Dalam mempelajari perilaku organisasi, manusia biasanya diperlakukan sebagai....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "objek"
+        },
+        {
+          "letter": "B",
+          "text": "individu"
+        },
+        {
+          "letter": "C",
+          "text": "bagian dari anggota kelompok"
+        },
+        {
+          "letter": "D",
+          "text": "sosok yang menempati peran sentral dalam kehidupan organisasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "sosok yang menempati peran sentral dalam kehidupan organisasi",
+      "num": 7
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2.3] Perilaku keorganisasian merupakan bidang studi multidisiplin. Berikut ini adalah disiplin ilmu yang memberi kontribusi terhadap pengembangan perilaku organisasi, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ilmu ekonomi"
+        },
+        {
+          "letter": "B",
+          "text": "ilmu politik"
+        },
+        {
+          "letter": "C",
+          "text": "ilmu antropologi"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Ilmu ekonomi, ilmu politik, dan ilmu antropologi semuanya berkontribusi pada PO",
+      "num": 8
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2.4] Konflik yang terjadi antara karyawan bagian penjualan dengan karyawan bagian pengiriman barang sesungguhnya bisa diselesaikan dengan menggunakan level analisis ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "individual"
+        },
+        {
+          "letter": "B",
+          "text": "kelompok"
+        },
+        {
+          "letter": "C",
+          "text": "organisasional"
+        },
+        {
+          "letter": "D",
+          "text": "ketiga level analisis di atas bisa digunakan untuk menyelesaikan masalah tersebut"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Konflik antarbagian dapat dianalisis menggunakan level individual, kelompok, maupun organisasional",
+      "num": 9
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2.5] Sifat-sifat seorang eksekutif di masa mendatang adalah sebagai berikut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "orang yang serba tahu"
+        },
+        {
+          "letter": "B",
+          "text": "bisa menerima hal-hal yang bersifat paradoks"
+        },
+        {
+          "letter": "C",
+          "text": "memperhatikan orang per orang"
+        },
+        {
+          "letter": "D",
+          "text": "hanya sekadar mengikuti tata nilai yang ada"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Eksekutif masa mendatang dituntut mampu menerima hal-hal yang bersifat paradoks",
+      "num": 10
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1.1] Dimensi kepribadian yang bisa dikelompokkan kedalam Personality",
+      "options": [
+        {
+          "letter": "A",
+          "text": "locus of control"
+        },
+        {
+          "letter": "B",
+          "text": "extraversion"
+        },
+        {
+          "letter": "C",
+          "text": "self esteem"
+        },
+        {
+          "letter": "D",
+          "text": "machiavellianism"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "extraversion",
+      "num": 11
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1.2] Mana diantara pernyataan berikut ini yang dianggap paling benar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kepribadian seseorang bisa diubah dengan mudah"
+        },
+        {
+          "letter": "B",
+          "text": "hanya orang tua langsung yang bisa mengubah kepribadian seseorang"
+        },
+        {
+          "letter": "C",
+          "text": "kepribadian bisa diubah namun perubahannya memerlukan waktu yang lama"
+        },
+        {
+          "letter": "D",
+          "text": "kepribadian seseorang sama sekali tidak dapat diubah"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "kepribadian bisa diubah namun perubahannya memerlukan waktu yang lama",
+      "num": 12
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1.3] Tipikal seseorang yang mempunyai kepribadian Tipe B adalah sebagai berikut, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "bisa melakukan dua pekerjaan sekaligus dalam waktu bersamaan"
+        },
+        {
+          "letter": "B",
+          "text": "merasa tidak perlu mendiskusikan hasil kerja kecuali keadaan menghendaki lain Dasar-Dasar Perilaku Individu: Hukum Perbedaan Individu"
+        },
+        {
+          "letter": "C",
+          "text": "tidak pernah merasa dikejar waktu meski dalam kondisi yang mendesak sekalipun"
+        },
+        {
+          "letter": "D",
+          "text": "dapat bersantai tanpa merasa bersalah"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "bisa melakukan dua pekerjaan sekaligus dalam waktu bersamaan",
+      "num": 13
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1.4] Jika Anda mempunyai kemampuan mengingat dengan baik, sebaiknya Anda memilih pekerjaan sebagai berikut ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menjadi arsitek"
+        },
+        {
+          "letter": "B",
+          "text": "bekerja di bagian penjualan"
+        },
+        {
+          "letter": "C",
+          "text": "bekerja di agen perjalanan"
+        },
+        {
+          "letter": "D",
+          "text": "menjadi pilot pesawat terbang"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "bekerja di bagian penjualan",
+      "num": 14
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1.5] Berikut adalah komponen , ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kemampuan verbal"
+        },
+        {
+          "letter": "B",
+          "text": "kemampuan menghubungkan satu hal dengan hal lain"
+        },
+        {
+          "letter": "C",
+          "text": "kemampuan memotivasi diri"
+        },
+        {
+          "letter": "D",
+          "text": "kemampuan mengingat orang lain yang sudah lama tidak bertemu"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "kemampuan verbal",
+      "num": 15
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2.1] Berikut ini adalah karakteristik nilai atau , ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "nilai merupakan preferensi seseorang"
+        },
+        {
+          "letter": "B",
+          "text": "nilai merupakan standar untuk berperilaku"
+        },
+        {
+          "letter": "C",
+          "text": "pada dasarnya semua nilai yang dimiliki seseorang memiliki peringkat penting yang sama"
+        },
+        {
+          "letter": "D",
+          "text": "nilai merupakan properti individu yang tidak mudah berubah"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "pada dasarnya semua nilai yang dimiliki seseorang memiliki peringkat penting yang sama",
+      "num": 16
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2.2] Yang termasuk kedalam nilai tujuan sebagai berikut, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kesetaraan"
+        },
+        {
+          "letter": "B",
+          "text": "independen"
+        },
+        {
+          "letter": "C",
+          "text": "kebahagiaan"
+        },
+        {
+          "letter": "D",
+          "text": "kearifan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "independen",
+      "num": 17
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2.3] Pernyataan yang adalah sebagai berikut ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sikap memiliki pengaruh yang kuat terhadap terbentuknya nilai personal"
+        },
+        {
+          "letter": "B",
+          "text": "sikap memiliki pengaruh yang kuat terhadap semangat kerja seseorang"
+        },
+        {
+          "letter": "C",
+          "text": "nilai memiliki pengaruh yang kuat terhadap terbentuknya nilai personal"
+        },
+        {
+          "letter": "D",
+          "text": "nilai memiliki pengaruh yang kuat terhadap semangat kerja seseorang"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "sikap memiliki pengaruh yang kuat terhadap terbentuknya nilai personal",
+      "num": 18
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2.4] Secara tidak langsung sikap kerja akan tampak dalam bentuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kinerja organisasi"
+        },
+        {
+          "letter": "B",
+          "text": "kepuasan kerja"
+        },
+        {
+          "letter": "C",
+          "text": "keterlibatan kerja"
+        },
+        {
+          "letter": "D",
+          "text": "komitmen organisasional"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "kinerja organisasi",
+      "num": 19
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2.5] Jika seorang eksekutif ingin mengubah sikap seorang karyawan, ia bisa melakukan dengan cara-cara berikut ini, ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menambah rasa takut karyawan"
+        },
+        {
+          "letter": "B",
+          "text": "mengurangi rasa takut karyawan"
+        },
+        {
+          "letter": "C",
+          "text": "memodifikasi keyakinan karyawan"
+        },
+        {
+          "letter": "D",
+          "text": "tidak perlu melakukan apa-apa karena sikap bisa berubah dengan sendirinya"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "tidak perlu melakukan apa-apa karena sikap bisa berubah dengan sendirinya",
+      "num": 20
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1.1] Yang dimaksud dengan persepsi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "proses kognitif yang digunakan seseorang untuk menafsirkan dan memaknai dunia sekitar"
+        },
+        {
+          "letter": "B",
+          "text": "proses formal yang digunakan seseorang untuk merumuskan, menelaah, dan memecahkan masalah"
+        },
+        {
+          "letter": "C",
+          "text": "proses yang menjelaskan sifat bawaan seseorang yang memungkinkan orang tersebut bisa menyelesaikan pekerjaannya"
+        },
+        {
+          "letter": "D",
+          "text": "proses formal yang menjelaskan perbedaan individu dan pengaruhnya terhadap kinerja"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "proses kognitif yang digunakan seseorang untuk menafsirkan dan memaknai dunia sekitar",
+      "num": 21
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1.2] Pernyataan yang",
+      "options": [
+        {
+          "letter": "A",
+          "text": "persepsi adalah proses pemberian makna terhadap stimulus"
+        },
+        {
+          "letter": "B",
+          "text": "persepsi tidak selalu sama dengan realita"
+        },
+        {
+          "letter": "C",
+          "text": "persepsi karyawan terhadap kebijakan perusahaan akan mempengaruhi kinerja karyawan tersebut"
+        },
+        {
+          "letter": "D",
+          "text": "persepsi tidak berpengaruh terhadap perilaku karyawan, tetapi berpengaruh terhadap kinerjanya"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "persepsi tidak berpengaruh terhadap perilaku karyawan, tetapi berpengaruh terhadap kinerjanya",
+      "num": 22
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1.3] Kesalahan dalam mempersepsi disebabkan faktor-faktor berikut ini, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menggunakan satu kepribadian seseorang untuk menilai orang tersebut secara keseluruhan"
+        },
+        {
+          "letter": "B",
+          "text": "menilai seseorang berdasarkan prilaku kelompoknya"
+        },
+        {
+          "letter": "C",
+          "text": "menggunakan karakteristik diri sendiri untuk menilai orang lain"
+        },
+        {
+          "letter": "D",
+          "text": "menggunakan teori atribusi untuk menilai orang lain"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "menggunakan teori atribusi untuk menilai orang lain",
+      "num": 23
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1.4] Strategi preventif dalam manajemen impresi bisa dilakukan dengan cara ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memberi penjelasan bahwa dirinya tidak terlibat dalam suatu persoalan"
+        },
+        {
+          "letter": "B",
+          "text": "memberi penjelasan bahwa dirinya terkait dengan kegiatan organisasi"
+        },
+        {
+          "letter": "C",
+          "text": "memberi penjelasan bahwa dirinya seharusnya memperoleh penghargaan lebih"
+        },
+        {
+          "letter": "D",
+          "text": "memberi penjelasan bahwa dirinya telah melakukan yang terbaik bagi organisasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "memberi penjelasan bahwa dirinya tidak terlibat dalam suatu persoalan",
+      "num": 24
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1.5] Pernyataan yang",
+      "options": [
+        {
+          "letter": "A",
+          "text": "karyawan akan mengaitkan keberhasilan dirinya dengan faktor eksternal"
+        },
+        {
+          "letter": "B",
+          "text": "ketika mengobservasi perilaku seseorang, kita cenderung mengaitkan dengan faktor internal"
+        },
+        {
+          "letter": "C",
+          "text": "ketika menilai kinerja karyawan, manajer cenderung mengaitkan kinerja yang jelek dengan faktor internal"
+        },
+        {
+          "letter": "D",
+          "text": "ketika menjelaskan perilaku dirinya, kita cenderung mengaitkannya dengan dorongan lingkungan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "karyawan akan mengaitkan keberhasilan dirinya dengan faktor eksternal",
+      "num": 25
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2.1] Berikut adalah pernyataan yang benar tentang stres, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "stres disebabkan tekanan lingkungan berlebihan terhadap seseorang"
+        },
+        {
+          "letter": "B",
+          "text": "setiap orang akan mengalami stres ketika menghadapi tekanan lingkungan yang sama"
+        },
+        {
+          "letter": "C",
+          "text": "karena latar belakang masing-masing individu berbeda, tidak setiap orang akan mengalami stres meskipun tekanannya sama"
+        },
+        {
+          "letter": "D",
+          "text": "pertanda seseorang mengalami stres adalah jika ia mengalami guncangan fisiologis, psikologis atau perilaku"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "setiap orang akan mengalami stres ketika menghadapi tekanan lingkungan yang sama",
+      "num": 26
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2.2] Tanda-tanda fisiologis seseorang mengalami stres adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sinis"
+        },
+        {
+          "letter": "B",
+          "text": "suka sumpah serapah"
+        },
+        {
+          "letter": "C",
+          "text": "sulit tidur"
+        },
+        {
+          "letter": "D",
+          "text": "tidak mudah konsentrasi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "sulit tidur",
+      "num": 27
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2.3] Pernyataan yang ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "stres selalu berakibat buruk"
+        },
+        {
+          "letter": "B",
+          "text": "stres adalah fenomena organisasi yang harus dihindari"
+        },
+        {
+          "letter": "C",
+          "text": "jika seorang karyawan tidak mengalami stres kinerja baik"
+        },
+        {
+          "letter": "D",
+          "text": "stres tidak semata-mata ketegangan syaraf"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "jika seorang karyawan tidak mengalami stres kinerja baik",
+      "num": 28
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2.4] Faktor yang bisa memoderasi stres adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kepribadian seseorang"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "C",
+          "text": "sikap kerja"
+        },
+        {
+          "letter": "D",
+          "text": "kekuatan fisik"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "kepribadian seseorang",
+      "num": 29
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2.5] Manajemen stres yang bisa dilakukan secara individu adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Manajemen karir seseorang"
+        },
+        {
+          "letter": "B",
+          "text": "Membangun budaya kerja"
+        },
+        {
+          "letter": "C",
+          "text": "Membangungan kualitas kehidupan kerja"
+        },
+        {
+          "letter": "D",
+          "text": "Manajemen waktu"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Manajemen waktu",
+      "num": 30
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF1.1] Hal yang tepat untuk menjelaskan motivasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "motivasi secara harfiah berarti menggerakkan orang"
+        },
+        {
+          "letter": "B",
+          "text": "motivasi bermula dari tidak terpenuhinya kebutuhan fisiologis atau psikologis"
+        },
+        {
+          "letter": "C",
+          "text": "inti dari proses motivasi adalah dorongan, motif, atau tindakan yang wujudnya adalah perilaku"
+        },
+        {
+          "letter": "D",
+          "text": "semua perilaku adalah motivasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "semua perilaku adalah motivasi",
+      "num": 31
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF1.2] Menurut Abraham Maslow ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "setelah seseorang bisa memenuhi suatu kebutuhan tertentu, dia tidak lagi membutuhkannya"
+        },
+        {
+          "letter": "B",
+          "text": "setelah seseorang bisa memenuhi suatu kebutuhan tertentu, dia tetap akan mengerahkan upayanya untuk mempertahankan kebutuhan tersebut"
+        },
+        {
+          "letter": "C",
+          "text": "setelah seseorang bisa memenuhi sutau kebutuhan tertentu, dia akan mengerahkan upayanya untuk memenuhi kebutuhan yang lebih tinggi"
+        },
+        {
+          "letter": "D",
+          "text": "setiap orang mampu mengerahkan upayanya untuk memenuhi dua kebutuhan dalam waktu bersamaan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "setelah seseorang bisa memenuhi sutau kebutuhan tertentu, dia akan mengerahkan upayanya untuk memenuhi kebutuhan yang lebih tinggi",
+      "num": 32
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF1.3] Salah satu kelemahan dari teori kebutuhan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "teori kebutuhan sangat kompleks"
+        },
+        {
+          "letter": "B",
+          "text": "teori kebutuhan cenderung statis"
+        },
+        {
+          "letter": "C",
+          "text": "menggunakan kebutuhan sebagai dasar untuk memotivasi"
+        },
+        {
+          "letter": "D",
+          "text": "manajer bisa menduga kebutuhan karyawan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "teori kebutuhan cenderung statis",
+      "num": 33
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF1.4] Berikut ini merupakan kritik terhadap , ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "B",
+          "text": "diterapkan untuk pekejraan yang sangat kompleks"
+        },
+        {
+          "letter": "C",
+          "text": "semakin sulit sebuah tujuan semakin karyawan termotivasi"
+        },
+        {
+          "letter": "D",
+          "text": "karyawan cenderung hanya berpikiran untuk memfokuskan diri pada tujuan yang terukur dan mengabaikan tujuan lain"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "semakin sulit sebuah tujuan semakin karyawan termotivasi",
+      "num": 34
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF1.5] Mana dari pernyataan berikut ini yang berkaitan dengan Teori Kesetaraan yang ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "untuk mengukur apakah dirinya diperlakukan adil, karyawan akan membandingkan"
+        },
+        {
+          "letter": "B",
+          "text": "ketika karyawan dibayar dibawah standar dia akan menaikkan jumlah output output"
+        },
+        {
+          "letter": "C",
+          "text": "karyawan merasa diperlakukan adil jika - dirinya sebanding dengan - teman sejawat"
+        },
+        {
+          "letter": "D",
+          "text": "karyawan yang dibayar lebih, dia merasa bersalah dan merasa tidak puas sehingga termotivasi untuk menyeimbangkannya."
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "untuk mengukur apakah dirinya diperlakukan adil, karyawan akan membandingkan",
+      "num": 35
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF2.1] Pernyataan yang benar tentang hubungan antara motivasi, perilaku, dan kinerja adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "motivasi sama dengan perilaku, demikian juga perilaku sama dengan kinerja, dan ketiganya saling berhubungan"
+        },
+        {
+          "letter": "B",
+          "text": "motivasi sama dengan perilaku, tetapi tidak sama dengan kinerja meskipun ketiganya saling berhubungan"
+        },
+        {
+          "letter": "C",
+          "text": "motivasi tidak sama dengan perilaku, tetapi sama dengan kinerja meskipun ketiganya saling berhubungan"
+        },
+        {
+          "letter": "D",
+          "text": "motivasi tidak sama dengan perilaku dan tidak sama dengan kinerja meskipun ketiganya saling berhubungan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "motivasi tidak sama dengan perilaku dan tidak sama dengan kinerja meskipun ketiganya saling berhubungan",
+      "num": 36
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF2.2] Berikut ini merupakan perilaku esensial yang membantu efektivitas organisasi, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "karyawan adalah sosok yang berperilaku layaknya warga negara yang baik yang spontan, inovatif, dan suka membantu"
+        },
+        {
+          "letter": "B",
+          "text": "karyawan adalah sosok yang bisa diandalkan"
+        },
+        {
+          "letter": "C",
+          "text": "karyawan adalah sosok yang harus terus dimotivasi agar bekerja dengan baik"
+        },
+        {
+          "letter": "D",
+          "text": "karyawan harus mau bergabung dan tetap bersama organisasi dalam kurun waktu lama"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "karyawan adalah sosok yang harus terus dimotivasi agar bekerja dengan baik",
+      "num": 37
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF2.3] Peranan penilaian kinerja dalam konteks hubungan karyawan – organisasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sebagai dasar untuk mengetahui karyawan mana yang perlu di-PHK"
+        },
+        {
+          "letter": "B",
+          "text": "sebagai dasar untuk menetapkan tujuan organisasi"
+        },
+        {
+          "letter": "C",
+          "text": "sebagai dasar untuk membangun kerja sama antarkaryawan"
+        },
+        {
+          "letter": "D",
+          "text": "sekedar pekerjaan rutin para manajer."
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "sebagai dasar untuk mengetahui karyawan mana yang perlu di-PHK",
+      "num": 38
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF2.4] Pemberian sanksi disiplin yang diberikan kepada karyawan karena dapat dilakukan dengan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ditundak kenaikan pangkatnya"
+        },
+        {
+          "letter": "B",
+          "text": "menurunkan jabatan"
+        },
+        {
+          "letter": "C",
+          "text": "memindahkan tempat kerja"
+        },
+        {
+          "letter": "D",
+          "text": "sebaiknya langsung dipecat karena perilakunya tidak bisa diperbaiki"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "ditundak kenaikan pangkatnya",
+      "num": 39
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF2.5] Pemberian insentif bisa dilakukan dengan ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "B",
+          "text": "memberi pengakuan misalnya sebagai karyawan paling produktif"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak ada jawaban yang benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "memberi pengakuan misalnya sebagai karyawan paling produktif",
+      "num": 40
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1.1] Berikut ini adalah unsur pembentuk kelompok, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memiliki jati diri"
+        },
+        {
+          "letter": "B",
+          "text": "memiliki tujuan bersama"
+        },
+        {
+          "letter": "C",
+          "text": "memiliki struktur organisasi formal"
+        },
+        {
+          "letter": "D",
+          "text": "terdiri dari dua orang atau lebih"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "terdiri dari dua orang atau lebih",
+      "num": 41
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1.2] Manakah persamaan atau perbedaan antara kelompok komando dengan kelompok tugas....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pembentukannya berdasarkan kesamaan pribadi para anggota"
+        },
+        {
+          "letter": "B",
+          "text": "keduanya merupakan kelompok informal"
+        },
+        {
+          "letter": "C",
+          "text": "anggota-anggotanya berkumpul atas dasar minat yang sama"
+        },
+        {
+          "letter": "D",
+          "text": "kelompok komando dibatasi pada pimpinan dan bawahan langsung, sedangkan kelompok tugas tidak dibatasi hierarki organisasi, tetapi kesamaan tugas"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "anggota-anggotanya berkumpul atas dasar minat yang sama",
+      "num": 42
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1.3] Faktor eksternal yang mempengaruhi kelompok adalah sebagai berikut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "iklim organisasi"
+        },
+        {
+          "letter": "B",
+          "text": "strategi organisasi"
+        },
+        {
+          "letter": "C",
+          "text": "aturan berpakaian"
+        },
+        {
+          "letter": "D",
+          "text": "aturan hukum organisasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "strategi organisasi",
+      "num": 43
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1.4] Salah satu peran anggota kelompok dalam kegiatan kelompok adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "blocking roles"
+        },
+        {
+          "letter": "B",
+          "text": "role identity"
+        },
+        {
+          "letter": "C",
+          "text": "role ambiguity"
+        },
+        {
+          "letter": "D",
+          "text": "role encumbent"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "role ambiguity",
+      "num": 44
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1.5] Dampak positif kelompok terhadap perilaku individu tercermin pada ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "terciptanya sinergi"
+        },
+        {
+          "letter": "B",
+          "text": "terciptanya kebergantungan pada orang lain"
+        },
+        {
+          "letter": "C",
+          "text": "perubahan perilaku individu"
+        },
+        {
+          "letter": "D",
+          "text": "terciptanya budaya kelompok"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "terciptanya sinergi",
+      "num": 45
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2.1] Karakteristik tim kerja adalah sebagai berikut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kepemimpinan tim pada umumnya"
+        },
+        {
+          "letter": "B",
+          "text": "hasil kerja tim merupakan hasil kerja individual"
+        },
+        {
+          "letter": "C",
+          "text": "tujuan yang hendak dicapai tim ditentukan pihak manajemen"
+        },
+        {
+          "letter": "D",
+          "text": "tim melakukan kerja individu dan hasilnya digabung"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "tim melakukan kerja individu dan hasilnya digabung",
+      "num": 46
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2.2] Perbedaan antara tim dengan kelompok adalah sebagai berikut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "anggota tim bertanggung jawab secara individu, anggota kelompok bertanggung jawab secara bersama"
+        },
+        {
+          "letter": "B",
+          "text": "efektivitas tim diukur dari hasil kerja tim, sedangkan efektivitas kelompok diukur secara langsung"
+        },
+        {
+          "letter": "C",
+          "text": "hasil kerja tim merupakan hasil kerja bersama, hasil kerja kelompok merupakan hasil kerja individu"
+        },
+        {
+          "letter": "D",
+          "text": "keputusan tim dilakukan oleh anggota tim, sedangkan keputusan kelompok dilakukan ketua kelompok"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "hasil kerja tim merupakan hasil kerja bersama, hasil kerja kelompok merupakan hasil kerja individu",
+      "num": 47
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2.3] Manfaat tim diantaranya adalah sebagai berikut, ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "meningkatkan kualitas pengambilan keputusan"
+        },
+        {
+          "letter": "B",
+          "text": "meningkatkan tingkat absensi"
+        },
+        {
+          "letter": "C",
+          "text": "meningkatkan kompetisi global"
+        },
+        {
+          "letter": "D",
+          "text": "mengurangi perputaran karyawan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "meningkatkan kualitas pengambilan keputusan",
+      "num": 48
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2.4] Mana diantara pernyataan berikut ini yang ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dilihat dari tingkat otonominya, tim dibedakan menjadi dan"
+        },
+        {
+          "letter": "B",
+          "text": "dilihat dari kehadiran anggota, tim dibedakan menjadi dan physical team"
+        },
+        {
+          "letter": "C",
+          "text": "dilihat dari struktur keanggotaan, tim dibedakan menjadi dan cross-functional team"
+        },
+        {
+          "letter": "D",
+          "text": "dilihat dari sudut waktu, tim dibedakan menjadi dan temporary team"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "dilihat dari tingkat otonominya, tim dibedakan menjadi dan",
+      "num": 49
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2.5] Faktor yang membantu keberhasilan tim adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tim harus mendapatkan pelatihan"
+        },
+        {
+          "letter": "B",
+          "text": "tim sebaiknya memperoleh penghargaan"
+        },
+        {
+          "letter": "C",
+          "text": "tim harus mendapat dukungan manajemen"
+        },
+        {
+          "letter": "D",
+          "text": "tim beranggotakan orang-orang yang keterampilannya sama"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "tim sebaiknya memperoleh penghargaan",
+      "num": 50
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF3.1] Keputusan tidak terprogram tercermin dari pernyataan berikut ini:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keputusan strategik adalah salah satu wujud dari keputusan terprogram"
+        },
+        {
+          "letter": "B",
+          "text": "keputusan tidak terporgram sebaiknya dilakukan manajer tingkat atas sendirian karena sifatnya yang sulit"
+        },
+        {
+          "letter": "C",
+          "text": "keputusan tidak terprogram sebaiknya dilakukan oleh beberapa orang manajer tingkat atas karena sifatnya yang khas"
+        },
+        {
+          "letter": "D",
+          "text": "frekuensi terjadinya keputusan tidak terprogram sangat tinggi sehingga tidak perlu melibatkan banyak orang"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "keputusan tidak terprogram sebaiknya dilakukan oleh beberapa orang manajer tingkat atas karena sifatnya yang khas",
+      "num": 51
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF3.2] Pernyataan yang berikut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keputusan bisa dilakukan terlepas tersedia tidaknya informasi untuk membuat keputusan"
+        },
+        {
+          "letter": "B",
+          "text": "keputusan bisa dibuat meskipun hanya ada satu alternatif solusi"
+        },
+        {
+          "letter": "C",
+          "text": "semakin banyak informasi yang tersedia semakin sulit keputusan dibuat"
+        },
+        {
+          "letter": "D",
+          "text": "keputusan bisa dibuat tidak peduli apakah keputusan tersebut rasional atau tidak"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "semakin banyak informasi yang tersedia semakin sulit keputusan dibuat",
+      "num": 52
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF3.3] Salah satu kelemahan dari pengambilan keputusan kelompok adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "hanya sebagian kecil anggota kelompok yang terlibat aktif dalam proses pengambilan keputusan"
+        },
+        {
+          "letter": "B",
+          "text": "banyaknya informasi yang tersedia sebagai dasar untuk pengambilan keputusan"
+        },
+        {
+          "letter": "C",
+          "text": "anggota kelompok bisa berlatih untuk membuat keputusan"
+        },
+        {
+          "letter": "D",
+          "text": "anggota kelompok pada umumnya membawa serta pengalaman masing-masing"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "hanya sebagian kecil anggota kelompok yang terlibat aktif dalam proses pengambilan keputusan",
+      "num": 53
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF3.4] Berikut ini adalah karakteristik teknik pengambilan keputusan dengan brainstorming",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lebih mementingkan kualitas ide daripada kuantitas ide"
+        },
+        {
+          "letter": "B",
+          "text": "kebebasan setiap anggota kelompok untuk menyampaikan ide"
+        },
+        {
+          "letter": "C",
+          "text": "setiap anggota kelompok bisa mengkritik usulan anggota kelompok lain"
+        },
+        {
+          "letter": "D",
+          "text": "senioritas penyampai ide tidak terlalu penting"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "lebih mementingkan kualitas ide daripada kuantitas ide",
+      "num": 54
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF3.5] Teknik pengambilan keputusan dengan NGT memiliki kesamaan dengan dalam hal ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keduanya membutuhkan biaya yang tinggi"
+        },
+        {
+          "letter": "B",
+          "text": "keduanya berpotensi menimbulkan konflik yang sangat tinggi"
+        },
+        {
+          "letter": "C",
+          "text": "kohesivitas keduanya sangat tinggi"
+        },
+        {
+          "letter": "D",
+          "text": "keduanya bisa melakukan keputusan secara individual dan independen"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "keduanya bisa melakukan keputusan secara individual dan independen",
+      "num": 55
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1.1] Berikut ini adalah pernyataan yang benar tentang komunikasi, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "komunikasi dimaksudkan agar kedua belah pihak bisa saling memahami"
+        },
+        {
+          "letter": "B",
+          "text": "komunikasi tidak harus dilakukan dengan orang lain melainkan bisa dengan teknologi mesin"
+        },
+        {
+          "letter": "C",
+          "text": "struktur organisasi merupakan faktor penghambat efektivitas komunikasi"
+        },
+        {
+          "letter": "D",
+          "text": "kebebasan aliran informasi menjadi faktor penyebab efektivitas komunikasi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "struktur organisasi merupakan faktor penghambat efektivitas komunikasi",
+      "num": 56
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1.2] Jika komunikasi formal tidak berjalan efektif, maka ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sangat potensial terjadi konflik"
+        },
+        {
+          "letter": "B",
+          "text": "karyawan akan menggunakan jalur komunikasi informal"
+        },
+        {
+          "letter": "C",
+          "text": "boleh jadi tujuan organisasi tidak tercapai"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban diatas benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "semua jawaban diatas benar",
+      "num": 57
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1.3] Salah satu gaya komunikasi yang bisa dilakukan seseorang adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "gaya komunikasi nonverbal"
+        },
+        {
+          "letter": "B",
+          "text": "gaya socrates"
+        },
+        {
+          "letter": "C",
+          "text": "gaya komunikasi langsung"
+        },
+        {
+          "letter": "D",
+          "text": "conduit model"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "gaya socrates",
+      "num": 58
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1.4] Hambatan terciptanya komunikasi yang efektif yang disebabkan proses komunikasi bisa berupa ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kesalahan dalam memberikan umpan balik"
+        },
+        {
+          "letter": "B",
+          "text": "egoisme pelaku komunikasi dalam menginterpretasikan pesan"
+        },
+        {
+          "letter": "C",
+          "text": "jarak yang berkomunikasi terlalu jauh"
+        },
+        {
+          "letter": "D",
+          "text": "hambatan karena semantik"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "kesalahan dalam memberikan umpan balik",
+      "num": 59
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1.5] Contoh dari komunikasi nonverbal adalah sebagai berikut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tampilan fisik komunikator"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "D",
+          "text": "komunikasi tertulis"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "tampilan fisik komunikator",
+      "num": 60
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2.1] Dinamika hubungan interpersonal menyebabkan munculnya perilaku berikut ini, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "perilaku altruism"
+        },
+        {
+          "letter": "B",
+          "text": "perilaku bersahaja"
+        },
+        {
+          "letter": "C",
+          "text": "perilaku bersahabat"
+        },
+        {
+          "letter": "D",
+          "text": "perilaku bekerja sama"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "perilaku bersahaja",
+      "num": 61
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2.2] Pernyataan yang benar tentang konflik adalah sebagai berikut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "semua konflik adalah destruktif"
+        },
+        {
+          "letter": "B",
+          "text": "jika tingkat konflik didalam organisasi juga rendah"
+        },
+        {
+          "letter": "C",
+          "text": "jika tingkat konflik didalam organisasi tinggi"
+        },
+        {
+          "letter": "D",
+          "text": "jika tingkat konflik didalam organisasi rendah"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "jika tingkat konflik didalam organisasi tinggi",
+      "num": 62
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2.3] Anteseden terjadinya konflik adalah sebagai berikut, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pengambilan keputusan berdasarkan konsensus"
+        },
+        {
+          "letter": "B",
+          "text": "peraturan yang tidak jelas"
+        },
+        {
+          "letter": "C",
+          "text": "kemandegan komunikasi"
+        },
+        {
+          "letter": "D",
+          "text": "pekerjaan yang independen"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "pekerjaan yang independen",
+      "num": 63
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2.4] Konflik disfungsional bisa diatasi dengan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mendominasi pihak lain"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "C",
+          "text": "negosiasi"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak ada jawaban yang benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "mendominasi pihak lain",
+      "num": 64
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2.5] Menghindari konflik akan sangat efektif bila ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kedua belah pihak memiliki kekuatan seimbang"
+        },
+        {
+          "letter": "B",
+          "text": "terjadi kesalahpahaman karena masalahnya sangat kompleks"
+        },
+        {
+          "letter": "C",
+          "text": "kepentingan diri dan mementingkan pihak lain sangat tinggi"
+        },
+        {
+          "letter": "D",
+          "text": "berkonfrontasi langsung masalahnya menjadi semakin buruk"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "berkonfrontasi langsung masalahnya menjadi semakin buruk",
+      "num": 65
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1.1] Pemimpin berbeda dengan manajer dalam hal ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manajer berorientasi pada hasil akhir, pemimpin berorientasi pada masa depan"
+        },
+        {
+          "letter": "B",
+          "text": "manajer bertanya apa dan mengapa, pemimpin bertanya bagaimana dan kapan"
+        },
+        {
+          "letter": "C",
+          "text": "manajer mengembangkan, pemimpin mempertahankan"
+        },
+        {
+          "letter": "D",
+          "text": "pemimpin fokus pada struktur, manajer fokus pada orang"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "manajer berorientasi pada hasil akhir, pemimpin berorientasi pada masa depan",
+      "num": 66
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1.2] Kesamaan antara model kepemimpinan Ohio State University (OSU) dengan The University of Michigan (UM) dapat dilihat pada situasi berikut ini:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pada UM"
+        },
+        {
+          "letter": "B",
+          "text": "pada UM"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak ada jawaban yang benar"
+        },
+        {
+          "letter": "D",
+          "text": "tidak ada jawaban yang benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "pada UM",
+      "num": 67
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1.3] Menurut teori situasional, karyawan sebaiknya diajak untuk berpartisipasi jika memenuhi situasi berikut ini:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "perilaku berorientasi tugas rendah dan perilaku berorientasi relasi tinggi"
+        },
+        {
+          "letter": "B",
+          "text": "perilaku berorientasi tugas rendah dan perilaku berorientasi relasi rendah"
+        },
+        {
+          "letter": "C",
+          "text": "perilaku berorientasi tugas tinggi dan perilaku berorientasi relasi rendah"
+        },
+        {
+          "letter": "D",
+          "text": "perilaku berorientasi tugas tinggi dan perilaku berorientasi relasi tinggi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "perilaku berorientasi tugas rendah dan perilaku berorientasi relasi tinggi",
+      "num": 68
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1.4] Faktor yang mempengaruhi gaya kepemimpinan pada path-goal theory adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kepribadian Tipe A pemimpin"
+        },
+        {
+          "letter": "B",
+          "text": "faktor situasi yang diwakili kemauan seseorang menerima pengaruh dari orang lain"
+        },
+        {
+          "letter": "C",
+          "text": "faktor situasi yang diwakili oleh kemampuan dan kemauan untuk dipimpin"
+        },
+        {
+          "letter": "D",
+          "text": "keyakinan bawahan bagaimana ia mendapat penghargaan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "keyakinan bawahan bagaimana ia mendapat penghargaan",
+      "num": 69
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1.5] Pernyataan yang benar tentang kepemimpinan transformasional – transaksional adalah sebagai berikut ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pemimpin transformasional berupaya mendukung organisasi menjaga kegiatan-kegiatan yang bersifat rutin"
+        },
+        {
+          "letter": "B",
+          "text": "pemimpin transformasional berupaya melakukan intervensi jika standar tidak terpenuhi"
+        },
+        {
+          "letter": "C",
+          "text": "pemimpin transaksional berusaha menjaga kesehatan organisasi"
+        },
+        {
+          "letter": "D",
+          "text": "pemimpin transaksional berusaha menjaga rasa hormat dan kepercayaan bawahan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "pemimpin transaksional berusaha menjaga kesehatan organisasi",
+      "num": 70
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2.1] Mana diantara pernyataan di bawah ini yang dianggap paling benar....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kekuasaan sering dianggap buruk meskipun setiap orang melakukannya"
+        },
+        {
+          "letter": "B",
+          "text": "kekuasaan selalu berkonotasi negatif"
+        },
+        {
+          "letter": "C",
+          "text": "kekuasaan sama dengan jabatan seseorang didalam organisasi"
+        },
+        {
+          "letter": "D",
+          "text": "lebih disukai manajer yang tidak memiliki kekuasaan daripada manajer yang memiliki kekuasaan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "kekuasaan sering dianggap buruk meskipun setiap orang melakukannya",
+      "num": 71
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2.2] Pertanda bahwa seseorang menerapkan kekuasaan yang dipaksakan akan tampak pada situasi berikut ini ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manajer bisa mengontrol imbalan sehingga karyawan takut tidak mendapatkannya"
+        },
+        {
+          "letter": "B",
+          "text": "karyawan takut tidak menjalankan perintahnya karena pengetahuan yang dimiliki atasan"
+        },
+        {
+          "letter": "C",
+          "text": "karyawan takut tidak menjalankan perintahnya karena takut akan hukuman yang akan diterima"
+        },
+        {
+          "letter": "D",
+          "text": "karyawan takut tidak menjalankan perintahnya karena pimpinan memiliki kedudukan yang sah dalam hierarki organisasi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "karyawan takut tidak menjalankan perintahnya karena takut akan hukuman yang akan diterima",
+      "num": 72
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2.3] Seorang manajer dikatakan menjalankan perilaku politik tidak sah dan beroreintasi keluar jika ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dia mengajukan perusahaan tempat kerja tuntutan hukum kepada pihak berwenang"
+        },
+        {
+          "letter": "B",
+          "text": "dia mengadu kepada atasan"
+        },
+        {
+          "letter": "C",
+          "text": "dia membuka aib perusahaan kepada pihak luar perusahaan"
+        },
+        {
+          "letter": "D",
+          "text": "dia melakukan sabotase kegiatan produksi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "dia membuka aib perusahaan kepada pihak luar perusahaan",
+      "num": 73
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2.4] Seseorang dianggap melakukan korupsi kekuasaan, jika ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "karyawan merasa takut sehingga menganggap keputusan pimpinan selalu benar"
+        },
+        {
+          "letter": "B",
+          "text": "karyawan suka menjilat atasan"
+        },
+        {
+          "letter": "C",
+          "text": "pimpinan memperoleh fasilitas-fasilitas khusus"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban di atas benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "semua jawaban di atas benar",
+      "num": 74
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2.5] Cara yang bisa ditempuh untuk mengurangi korupsi kekuasaan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengukur kinerja bawahan secara obyektif"
+        },
+        {
+          "letter": "B",
+          "text": "mengubah budaya dan struktur organisasi"
+        },
+        {
+          "letter": "C",
+          "text": "memperkecil kesempatan pimpinan mengintervensi bawahan"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban di atas benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "semua jawaban di atas benar",
+      "num": 75
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1.1] Tingkap formalisasi sebuah organisasi dapat dilihat pada ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kebutuhan profesi dan spesialisasi pekerjaan"
+        },
+        {
+          "letter": "B",
+          "text": "di mana keputusan biasanya diambil"
+        },
+        {
+          "letter": "C",
+          "text": "banyaknya pekerjaan yang harus dilakukan berdasarkan regulasi, aturan, dan prosedur kerja"
+        },
+        {
+          "letter": "D",
+          "text": "jumlah level organisasi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "banyaknya pekerjaan yang harus dilakukan berdasarkan regulasi, aturan, dan prosedur kerja",
+      "num": 76
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1.2] Berikut ini adalah kelebihan struktur organisasi fungsional, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memungkinkan terciptanya skala ekonomi didalam departemen fungsional"
+        },
+        {
+          "letter": "B",
+          "text": "memungkinkan terciptanya kepuasan konsumen sebab penanggung jawab produk sangat jelas – manajer lini produk"
+        },
+        {
+          "letter": "C",
+          "text": "memungkinkan organisasi mencapai tujuan fungsional"
+        },
+        {
+          "letter": "D",
+          "text": "memungkinkan pengembangan keterampilan secara mendalam"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "memungkinkan terciptanya kepuasan konsumen sebab penanggung jawab produk sangat jelas – manajer lini produk",
+      "num": 77
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1.3] Menurut pandangan kontingensi, desain struktur organisasi organik biasanya ditandai dengan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "karyawan bisa mengerjakan tugas dengan tingkat spesialisasi yang tinggi"
+        },
+        {
+          "letter": "B",
+          "text": "lingkungan eksternal yang sangat bergejolak"
+        },
+        {
+          "letter": "C",
+          "text": "manajemen bisa membuat aturan-aturan yang jelas"
+        },
+        {
+          "letter": "D",
+          "text": "organisasi cenderung sentralistik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "lingkungan eksternal yang sangat bergejolak",
+      "num": 78
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1.4] Struktur organisasi yang menerapkan konfigurasi birokrasi mesin biasanya ditandai dengan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tingkat standarisasi berdasarkan"
+        },
+        {
+          "letter": "B",
+          "text": "tingkat stnadarisasi berdasarkan (hasil keluaran)"
+        },
+        {
+          "letter": "C",
+          "text": "tingkat standarisasi berdasarkan supervisi langsung"
+        },
+        {
+          "letter": "D",
+          "text": "tingkat standarisasi berdasarkan proses kegiatan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "tingkat standarisasi berdasarkan",
+      "num": 79
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1.5] Membeberkan keburukan praktik organisasi kepada pihak luar sering disebut sebagai ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "perilaku responsif yang menguntungkan"
+        },
+        {
+          "letter": "B",
+          "text": "perilaku responsif yang merugikan"
+        },
+        {
+          "letter": "C",
+          "text": "perilaku formatif yang menguntungkan"
+        },
+        {
+          "letter": "D",
+          "text": "perilaku formatif yang merugikan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "perilaku formatif yang menguntungkan",
+      "num": 80
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2.1] Mana diantara pernyataan di bawah ini yang dianggap paling benar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "budaya organisasi bersifat statis dan tidak bisa diubah"
+        },
+        {
+          "letter": "B",
+          "text": "inti dari budaya organisasi terletak pada perilaku manusia yang mempraktikkan budaya"
+        },
+        {
+          "letter": "C",
+          "text": "budaya organisasi identik dengan individual mental anggota organisasi"
+        },
+        {
+          "letter": "D",
+          "text": "struktur organisasi sesungguhnya merupakan cerminan dari budaya sebuah organisasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "struktur organisasi sesungguhnya merupakan cerminan dari budaya sebuah organisasi",
+      "num": 81
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2.2] Visi dan misi organisasi bisa dikatakan sebagai elemen budaya yang bersifat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ideal"
+        },
+        {
+          "letter": "B",
+          "text": "behavioral"
+        },
+        {
+          "letter": "C",
+          "text": "ideal dan behavioral"
+        },
+        {
+          "letter": "D",
+          "text": "bukan elemen budaya organisasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "ideal",
+      "num": 82
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2.3] Budaya organisasi yang kuat dan adaptif sangat penting terutama bagi organisasi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "yang lingkungannya sangat stabil"
+        },
+        {
+          "letter": "B",
+          "text": "yang menghadapi persaingan yang sangat ketat"
+        },
+        {
+          "letter": "C",
+          "text": "yang lingkungannya stabil maupun menghadapi persaingan"
+        },
+        {
+          "letter": "D",
+          "text": "tidak ada jawaban yang benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "yang menghadapi persaingan yang sangat ketat",
+      "num": 83
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2.4] Dalam kaitannya dengan pembentukan budaya ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "para pendiri adalah satu-satunya sumber pembentukan budaya"
+        },
+        {
+          "letter": "B",
+          "text": "pimpinan organisasi adalah satu-satunya sumber pembentukan budaya"
+        },
+        {
+          "letter": "C",
+          "text": "karyawan secara bersama-sama bisa membentuk budaya baru"
+        },
+        {
+          "letter": "D",
+          "text": "tidak ada jawaban yang benar"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "karyawan secara bersama-sama bisa membentuk budaya baru",
+      "num": 84
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2.5] Dalam kaitannya dengan keterkaitan antara budaya dan perilaku manusia didalam organisasi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "budaya organisasi membentuk perilaku manusia didalam organisasi"
+        },
+        {
+          "letter": "B",
+          "text": "secara timbal balik, perilaku manusia juga bisa membentuk budaya"
+        },
+        {
+          "letter": "C",
+          "text": "budaya organisasi dan perilaku manusia merupakan hubungan yang saling mempengaruhi"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban di atas benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "semua jawaban di atas benar",
+      "num": 85
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF1.1] Pada masyarakat yang hidup dalam lingkungan global, berakibat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tidak ada lagi batas wilayah negara terutama berkaitan dengan aspek kegiatan ekonomi"
+        },
+        {
+          "letter": "B",
+          "text": "di dunia hanya ada satu budaya, yaitu budaya global"
+        },
+        {
+          "letter": "C",
+          "text": "setiap masyarakat bisa meniru perilaku masyarakat lain sehingga budaya sendiri tergantikan budaya masyarakat lain"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban di atas benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "tidak ada lagi batas wilayah negara terutama berkaitan dengan aspek kegiatan ekonomi",
+      "num": 86
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF1.2] Berikut ini adalah penyebab terjadinya perbedaan budaya, ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "masing-masing masyarakat mempunyai orientasi nilai yang berbeda"
+        },
+        {
+          "letter": "B",
+          "text": "orientasi kultural sebuah masyarakat merefleksikan interaksi yang sangat kompleks antara nilai-nilai, sikap dan perilaku yang ditunjukkan oleh para anggota masyarakat sehingga budaya masing-masing berbeda"
+        },
+        {
+          "letter": "C",
+          "text": "nilai-nilai yang dominan serta variasi dari nilai-nilai masyarakat berbeda"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban di atas benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "semua jawaban di atas benar",
+      "num": 87
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF1.3] Hasil penelitian menunjukkan bahwa masyarakat Indonesia cenderung ….",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lebih menyukai struktur organisasi berjenjang karena lebih berorientasi tugas"
+        },
+        {
+          "letter": "B",
+          "text": "lebih menyukai struktur organisasi berjenjang karena lebih berorientasi manusia"
+        },
+        {
+          "letter": "C",
+          "text": "lebih menyukai struktur yang pendek karena lebih berorientasi tugas"
+        },
+        {
+          "letter": "D",
+          "text": "lebih menyukai struktur yang pendek karena lebih berorientasi manusia"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "lebih menyukai struktur organisasi berjenjang karena lebih berorientasi manusia",
+      "num": 88
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF1.4] Menurut Hofstede, masyarakat Indonesia cenderung ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "individual"
+        },
+        {
+          "letter": "B",
+          "text": "feminine"
+        },
+        {
+          "letter": "C",
+          "text": "large power distance"
+        },
+        {
+          "letter": "D",
+          "text": "low uncertainty avoidance"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "large power distance",
+      "num": 89
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF1.5] Ciri-ciri",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pengambilan keputusan biasanya tersentralisasi"
+        },
+        {
+          "letter": "B",
+          "text": "hierarki organisasi sekedar membedakan peran masing-masing"
+        },
+        {
+          "letter": "C",
+          "text": "pengambilan keputusan biasanya melibatkan bawahan"
+        },
+        {
+          "letter": "D",
+          "text": "perbedaan skala gaji relatif rendah"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "pengambilan keputusan biasanya tersentralisasi",
+      "num": 90
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2.1] Ketika seorang manajer menghadapi keragaman budaya maka yang terbaik adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengabaikan keragaman budaya"
+        },
+        {
+          "letter": "B",
+          "text": "mengakomodasi keragaman budaya"
+        },
+        {
+          "letter": "C",
+          "text": "bisa mengabaikan dan juga bisa mengakomodasi bergantung pada keyakinan Anda dan konsekuensinya"
+        },
+        {
+          "letter": "D",
+          "text": "semua jawaban di atas benar"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "bisa mengabaikan dan juga bisa mengakomodasi bergantung pada keyakinan Anda dan konsekuensinya",
+      "num": 91
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2.2] Keuntungan dari kultur spesifik adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mampu bekerja lebih baik dengan klien lokal"
+        },
+        {
+          "letter": "B",
+          "text": "etnosentrik"
+        },
+        {
+          "letter": "C",
+          "text": "memperluas perspektif"
+        },
+        {
+          "letter": "D",
+          "text": "bisa bersinergi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "mampu bekerja lebih baik dengan klien lokal",
+      "num": 92
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2.3] Strategi mengelola keragaman budaya dengan etnosentrik berarti ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengabaikan keragaman"
+        },
+        {
+          "letter": "B",
+          "text": "meminimalkan keragaman"
+        },
+        {
+          "letter": "C",
+          "text": "mengelola keragaman"
+        },
+        {
+          "letter": "D",
+          "text": "tidak ada jawaban yang benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "meminimalkan keragaman",
+      "num": 93
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2.4] Mengimplementasikan strategi pengelolaan keragaman budaya dengan akomodasi sebaiknya dilakukan jika ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manajer tidak menghendaki konfrontasi frontal dengan budaya lokal"
+        },
+        {
+          "letter": "B",
+          "text": "manajer merasa seolah-olah tidak ada perbedaan budaya"
+        },
+        {
+          "letter": "C",
+          "text": "secara kultural manajer berada di bawah tekanan budaya lokal"
+        },
+        {
+          "letter": "D",
+          "text": "secara kultural manajer merasa lebih kuat dibanding dengan budaya lokal"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "secara kultural manajer berada di bawah tekanan budaya lokal",
+      "num": 94
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2.5] Efektivitas keragaman tim akan tercapai bila ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tugas tim bersifat rutin"
+        },
+        {
+          "letter": "B",
+          "text": "tahap pembentukan tim bersifat konvergen"
+        },
+        {
+          "letter": "C",
+          "text": "kondisi tim bersifat etnosentrik"
+        },
+        {
+          "letter": "D",
+          "text": "kedudukan anggota tim setara"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "kedudukan anggota tim setara",
+      "num": 95
+    }
+  ],
+  "essayQuestions": []
+}

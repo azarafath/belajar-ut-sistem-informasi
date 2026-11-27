@@ -1,0 +1,1132 @@
+{
+  "slug": "analisis-perancangan-sistem",
+  "semester": 2,
+  "url": "/smt2/analisis-perancangan-sistem",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/analisis-perancangan-sistem.html",
+  "title": "STSI4208 / MSIM430201: Analisis & Perancangan Sistem — Modul & Soal UT",
+  "shortLabel": "Analisis & Perancangan Sistem (STSI4208 / MSIM430201)",
+  "h1": "STSI4208 / MSIM430201: Analisis & Perancangan Sistem — Modul & Soal UT",
+  "metaDesc": "Ringkasan lengkap 9 modul Analisis & Perancangan Sistem (STSI4208 / MSIM430201) UT: elisitasi kebutuhan, DFD & flowchart, OOAD & UML (Use Case, Activity, Class, Sequence, State), ERD ke relasi, plus 20 Essay & 36 PG.",
+  "coverTag": "Semester 2",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 9 modul Analisis & Perancangan Sistem (STSI4208 / MSIM430201) UT: elisitasi kebutuhan, DFD & flowchart, OOAD & UML (Use Case, Activity, Class, Sequence, State), ERD ke relasi, plus 20 Essay & 36 PG.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Konsep Pengembangan Sistem Informasi & SDLC"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Perencanaan Proyek Sistem & Studi Kelayakan"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Analisis Kebutuhan & Teknik Elisitasi"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Pemodelan Analisis Terstruktur (DFD & Bagan Alir)"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Paradigma Berorientasi Objek (OOAD) & Use Case Diagram"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Pemodelan Proses Bisnis (Activity) & Struktural (Class Diagram)"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Pemodelan Perilaku Objek (Sequence, Communication & State)"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Transisi Analisis ke Desain: Transformasi ERD & Akuisisi Sistem"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Desain Arsitektur Sistem & Antarmuka Pengguna (UI)"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Ahli & Tokoh Kunci dalam BMP MSIM4302 (Penting untuk Essay!)"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Konsep Pengembangan Sistem Informasi & SDLC",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#ef4444;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Konsep Pengembangan Sistem Informasi &amp; SDLC</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Sistem Informasi &amp; Peran System Analyst</h4>\n          <ul class=\"neat\">\n            <li><strong>Peran Analis Sistem:</strong> Menjembatani kebutuhan bisnis pengguna dengan tim teknis pengembang; mengidentifikasi masalah, peluang, &amp; merancang solusi SI.</li>\n            <li><strong>Anggota Tim Pengembangan:</strong> Selain Analis Sistem, terdapat <em>Analis Bisnis</em> (nilai bisnis), <em>Analis Teknis</em> (desain teknis), <em>Analis Infrastruktur</em> (integrasi hardware/jaringan/DB), <em>Manajer Proyek</em>, dan <em>Pemrogram/Tester</em>.</li>\n            <li><strong>SDLC (System Development Life Cycle):</strong> <mark class=\"hl-yellow\">Perencanaan → Analisis → Desain → Implementasi → Pemeliharaan</mark>.</li>\n            <li><strong>Deliverable Utama Tiap Fase:</strong> Rencana Proyek (Perencanaan), Spesifikasi Kebutuhan (Analisis), Cetak Biru/Desain Fisik (Desain), Sistem Terpasang (Implementasi).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Mendefinisikan Proyek, Alasan &amp; Metodologi</h4>\n          <ul class=\"neat\">\n            <li><strong>Pemicu Proyek (PIECES / Bisnis):</strong> Masalah (<em>problems</em>), Peluang (<em>opportunities</em>), dan Arahan/Mandat (<em>directives</em>), serta perubahan kebutuhan pemakai, teknologi baru, atau standar metodologi yang usang.</li>\n            <li><strong>System Request:</strong> Dokumen formal berisi sponsor proyek, kebutuhan bisnis, nilai bisnis (<em>tangible &amp; intangible</em>), serta kendala/isu khusus.</li>\n            <li><strong>Ruang Lingkup (Scope):</strong> Batasan fitur &amp; proses yang masuk atau tidak masuk proyek agar terhindar dari <em>scope creep</em>.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 1:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Prinsip Pengembangan Sistem:</strong> Sistem adalah investasi modal besar untuk mendukung manajemen, memerlukan SDM terdidik, tahapan kerja jelas (namun tidak harus sekuensial kaku), dokumentasi lengkap, dan keberanian membatalkan proyek jika tidak layak.</li>\n          <li><strong>4 Kelompok Metodologi (Avison &amp; Fitzgerald, 2006):</strong> Metodologi Terstruktur (SDLC klasik/Waterfall), RAD (Prototyping/Iterative), Agile, dan Berorientasi Objek (OOAD).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Flowchart 5 Fase SDLC &amp; Deliverable Utamanya (Modul 1)</div>\n        <svg width=\"680\" height=\"82\" viewBox=\"0 0 680 82\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"116\" height=\"52\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"68\" y=\"34\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">1. Perencanaan</text><text x=\"68\" y=\"50\" text-anchor=\"middle\" font-size=\"8.5\">System Request</text>\n          <path d=\"M128 40 L142 40\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"144\" y=\"14\" width=\"116\" height=\"52\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"202\" y=\"34\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">2. Analisis</text><text x=\"202\" y=\"50\" text-anchor=\"middle\" font-size=\"8.5\">Kebutuhan Sistem</text>\n          <path d=\"M262 40 L276 40\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"278\" y=\"14\" width=\"116\" height=\"52\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"336\" y=\"34\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">3. Desain</text><text x=\"336\" y=\"50\" text-anchor=\"middle\" font-size=\"8.5\">Cetak Biru Fisik</text>\n          <path d=\"M396 40 L410 40\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"412\" y=\"14\" width=\"122\" height=\"52\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"473\" y=\"34\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">4. Implementasi</text><text x=\"473\" y=\"50\" text-anchor=\"middle\" font-size=\"8.5\">Uji &amp; Konversi</text>\n          <path d=\"M536 40 L550 40\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"552\" y=\"14\" width=\"118\" height=\"52\" rx=\"8\" fill=\"#ede9fe\" stroke=\"#24292f\"/><text x=\"611\" y=\"34\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">5. Pemeliharaan</text><text x=\"611\" y=\"50\" text-anchor=\"middle\" font-size=\"8.5\">Operasi &amp; Update</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Alur SDLC berjalan berurutan dari <em>Perencanaan</em> (menghasilkan System Request &amp; studi kelayakan), <em>Analisis</em> (spesifikasi kebutuhan bisnis/fungsional), <em>Desain</em> (cetak biru arsitektur &amp; tabel), <em>Implementasi</em> (coding, uji, konversi), hingga <em>Pemeliharaan</em>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">SDLC (5 Fase)</span>\n          <span class=\"kw-chip\">System Analyst</span>\n          <span class=\"kw-chip\">System Request</span>\n          <span class=\"kw-chip\">Tangible vs Intangible Value</span>\n          <span class=\"kw-chip\">Scope Creep</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian Essay:</strong> Jelaskan urutan 5 fase SDLC beserta output utamanya, serta pembedaan manfaat <em>tangible</em> (terukur uang) vs <em>intangible</em> (kepuasan/citra).</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Konsep Pengembangan Sistem Informasi & SDLC KB 1: Sistem Informasi & Peran System Analyst Peran Analis Sistem: Menjembatani kebutuhan bisnis pengguna dengan tim teknis pengembang; mengidentifikasi masalah, peluang, & merancang solusi SI. Anggota Tim Pengembangan: Selain Analis Sistem, terdapat Analis Bisnis (nilai bisnis), Analis Teknis (desain teknis), Analis Infrastruktur (integrasi hardware/jaringan/DB), Manajer Proyek , dan Pemrogram/Tester . SDLC (System Development Life Cycle): Perencanaan → Analisis → Desain → Implementasi → Pemeliharaan . Deliverable Utama Tiap Fase: Rencana Proyek (Perencanaan), Spesifikasi Kebutuhan (Analisis), Cetak Biru/Desain Fisik (Desain), Sistem Terpasang (Implementasi). KB 2: Mendefinisikan Proyek, Alasan & Metodologi Pemicu Proyek (PIECES / Bisnis): Masalah ( problems ), Peluang ( opportunities ), dan Arahan/Mandat ( directives ), serta perubahan kebutuhan pemakai, teknologi baru, atau standar metodologi yang usang. System Request: Dokumen formal berisi sponsor proyek, kebutuhan bisnis, nilai bisnis ( tangible & intangible ), serta kendala/isu khusus. Ruang Lingkup (Scope): Batasan fitur & proses yang masuk atau tidak masuk proyek agar terhindar dari scope creep . 📌 Detail Kecil Wajib Tahu — Modul 1: Prinsip Pengembangan Sistem: Sistem adalah investasi modal besar untuk mendukung manajemen, memerlukan SDM terdidik, tahapan kerja jelas (namun tidak harus sekuensial kaku), dokumentasi lengkap, dan keberanian membatalkan proyek jika tidak layak. 4 Kelompok Metodologi (Avison & Fitzgerald, 2006): Metodologi Terstruktur (SDLC klasik/Waterfall), RAD (Prototyping/Iterative), Agile, dan Berorientasi Objek (OOAD). Flowchart 5 Fase SDLC & Deliverable Utamanya (Modul 1) 1. Perencanaan System Request 2. Analisis Kebutuhan Sistem 3. Desain Cetak Biru Fisik 4. Implementasi Uji & Konversi 5. Pemeliharaan Operasi & Update Penjelasan Diagram: Alur SDLC berjalan berurutan dari Perencanaan (menghasilkan System Request & studi kelayakan), Analisis (spesifikasi kebutuhan bisnis/fungsional), Desain (cetak biru arsitektur & tabel), Implementasi (coding, uji, konversi), hingga Pemeliharaan . 🔑 Kata Kunci Wajib Ingat — Modul 1 SDLC (5 Fase) System Analyst System Request Tangible vs Intangible Value Scope Creep Poin Ujian Essay: Jelaskan urutan 5 fase SDLC beserta output utamanya, serta pembedaan manfaat tangible (terukur uang) vs intangible (kepuasan/citra)."
+    },
+    {
+      "id": "m2",
+      "title": "Perencanaan Proyek Sistem & Studi Kelayakan",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#dc2626;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Perencanaan Proyek Sistem &amp; Studi Kelayakan</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Studi Kelayakan (Feasibility Study) &amp; Metodologi</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Aspek Kelayakan Wajib:</strong> <mark class=\"hl-mint\">Teknis</mark> (dapatkah dibangun?), <mark class=\"hl-yellow\">Ekonomi</mark> (ROI, NPV, Break-Even Point/BEP), dan <mark class=\"hl-blue\">Organisasi/Operasional</mark> (apakah user mau memakai?).</li>\n            <li><strong>Opsi Metodologi Pengembangan:</strong> Terstruktur (<em>Waterfall, Parallel, V-Model</em>), RAD (<em>Iterative, System Prototyping, Throwaway Prototyping</em>), dan <em>Agile/XP</em>.</li>\n            <li><strong>Kriteria Pilih Metodologi:</strong> Kejelasan kebutuhan user, familiaritas teknologi, kompleksitas sistem, keandalan, &amp; tenggat jadwal.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Membuat Rencana Proyek (Estimasi, WBS &amp; Risiko)</h4>\n          <ul class=\"neat\">\n            <li><strong>WBS (Work Breakdown Structure):</strong> Memecah proyek besar menjadi tugas-tugas kecil yang dapat diestimasi &amp; dijadwalkan.</li>\n            <li><strong>Alat Penjadwalan:</strong> <em>Gantt Chart</em> (fokus durasi/bar waktu) vs <em>PERT / CPM</em> (fokus ketergantungan tugas &amp; <strong>Critical Path</strong>).</li>\n            <li><strong>Manajemen Risiko:</strong> Identifikasi risiko, penilaian dampak/probabilitas, rencana mitigasi, serta teknik <em>Timeboxing</em> untuk mengendalikan jadwal.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 2:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Rumus Kelayakan Ekonomi (Dennis, 2012):</strong> <code>ROI = (Total Manfaat - Total Biaya) / Total Biaya</code>; <code>NPV = PV(Manfaat) - PV(Biaya)</code> (proyek layak jika <strong>NPV &gt; 0</strong>); <strong>BEP (Break-Even Point)</strong> = jumlah tahun untuk mengembalikan investasi awal.</li>\n          <li><strong>Varian Waterfall &amp; RAD:</strong> <em>Parallel Model</em> mempercepat Waterfall dengan mengerjakan sub-proyek secara paralel; <em>V-Model</em> menekankan pengujian di setiap tahap; <em>Throwaway Prototyping</em> membuat prototipe desain yang dibuang setelah kebutuhan jelas, sedangkan <em>System Prototyping</em> menjadi cikal bakal sistem akhir.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">3 Pilar Studi Kelayakan &amp; Spektrum Metodologi Pengembangan (Modul 2)</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3 Aspek Studi Kelayakan</text>\n          <rect x=\"22\" y=\"38\" width=\"90\" height=\"52\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"67\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Teknis</text><text x=\"67\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Bisa dibangun?</text>\n          <rect x=\"122\" y=\"38\" width=\"96\" height=\"52\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"170\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Ekonomi</text><text x=\"170\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">ROI · NPV · BEP</text>\n          <rect x=\"228\" y=\"38\" width=\"90\" height=\"52\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"273\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Organisasi</text><text x=\"273\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">User siap?</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Pilih Metodologi Pengembangan</text>\n          <rect x=\"362\" y=\"38\" width=\"90\" height=\"52\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"407\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Waterfall</text><text x=\"407\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Stabil &amp; Kaku</text>\n          <rect x=\"462\" y=\"38\" width=\"96\" height=\"52\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"510\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Prototyping</text><text x=\"510\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Cepat Terlihat</text>\n          <rect x=\"568\" y=\"38\" width=\"90\" height=\"52\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"613\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Agile / RAD</text><text x=\"613\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Iteratif Cepat</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Sebelum memilih metodologi, analis mengecek 3 kelayakan (<em>Teknis, Ekonomi, Organisasi</em>). Gunakan <strong>Waterfall</strong> jika kebutuhan sudah sangat stabil, <strong>Prototyping</strong> agar user cepat melihat bentuk sistem, atau <strong>Agile/RAD</strong> untuk perubahan cepat.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Kelayakan Teknis·Ekonomi·Organisasi</span>\n          <span class=\"kw-chip\">ROI · NPV · Payback Period</span>\n          <span class=\"kw-chip\">Waterfall vs Prototyping vs Agile</span>\n          <span class=\"kw-chip\">WBS</span>\n          <span class=\"kw-chip\">Gantt vs PERT (Critical Path)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian Essay:</strong> Jika kebutuhan user belum jelas → pilih <strong>Prototyping / Iterative / Agile</strong>; jika kebutuhan sangat stabil &amp; butuh dokumentasi ketat → <strong>Waterfall / V-Model</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Perencanaan Proyek Sistem & Studi Kelayakan KB 1: Studi Kelayakan (Feasibility Study) & Metodologi 3 Aspek Kelayakan Wajib: Teknis (dapatkah dibangun?), Ekonomi (ROI, NPV, Break-Even Point/BEP), dan Organisasi/Operasional (apakah user mau memakai?). Opsi Metodologi Pengembangan: Terstruktur ( Waterfall, Parallel, V-Model ), RAD ( Iterative, System Prototyping, Throwaway Prototyping ), dan Agile/XP . Kriteria Pilih Metodologi: Kejelasan kebutuhan user, familiaritas teknologi, kompleksitas sistem, keandalan, & tenggat jadwal. KB 2: Membuat Rencana Proyek (Estimasi, WBS & Risiko) WBS (Work Breakdown Structure): Memecah proyek besar menjadi tugas-tugas kecil yang dapat diestimasi & dijadwalkan. Alat Penjadwalan: Gantt Chart (fokus durasi/bar waktu) vs PERT / CPM (fokus ketergantungan tugas & Critical Path ). Manajemen Risiko: Identifikasi risiko, penilaian dampak/probabilitas, rencana mitigasi, serta teknik Timeboxing untuk mengendalikan jadwal. 📌 Detail Kecil Wajib Tahu — Modul 2: Rumus Kelayakan Ekonomi (Dennis, 2012): ROI = (Total Manfaat - Total Biaya) / Total Biaya ; NPV = PV(Manfaat) - PV(Biaya) (proyek layak jika NPV > 0 ); BEP (Break-Even Point) = jumlah tahun untuk mengembalikan investasi awal. Varian Waterfall & RAD: Parallel Model mempercepat Waterfall dengan mengerjakan sub-proyek secara paralel; V-Model menekankan pengujian di setiap tahap; Throwaway Prototyping membuat prototipe desain yang dibuang setelah kebutuhan jelas, sedangkan System Prototyping menjadi cikal bakal sistem akhir. 3 Pilar Studi Kelayakan & Spektrum Metodologi Pengembangan (Modul 2) 3 Aspek Studi Kelayakan Teknis Bisa dibangun? Ekonomi ROI · NPV · BEP Organisasi User siap? Pilih Metodologi Pengembangan Waterfall Stabil & Kaku Prototyping Cepat Terlihat Agile / RAD Iteratif Cepat Penjelasan Diagram: Sebelum memilih metodologi, analis mengecek 3 kelayakan ( Teknis, Ekonomi, Organisasi ). Gunakan Waterfall jika kebutuhan sudah sangat stabil, Prototyping agar user cepat melihat bentuk sistem, atau Agile/RAD untuk perubahan cepat. 🔑 Kata Kunci Wajib Ingat — Modul 2 Kelayakan Teknis·Ekonomi·Organisasi ROI · NPV · Payback Period Waterfall vs Prototyping vs Agile WBS Gantt vs PERT (Critical Path) Poin Ujian Essay: Jika kebutuhan user belum jelas → pilih Prototyping / Iterative / Agile ; jika kebutuhan sangat stabil & butuh dokumentasi ketat → Waterfall / V-Model ."
+    },
+    {
+      "id": "m3",
+      "title": "Analisis Kebutuhan & Teknik Elisitasi",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#ea580c;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Analisis Kebutuhan &amp; Teknik Elisitasi</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Kategori, Struktur &amp; Validasi Kebutuhan</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-yellow\">Kebutuhan Fungsional:</mark> Berorientasi pada <strong>proses</strong> (apa yang dilakukan sistem) &amp; <strong>informasi</strong> (data yang dikelola).</li>\n            <li><strong>Kebutuhan Non-Fungsional:</strong> Operasional, Performa (kecepatan/kapasitas), Keamanan, serta Budaya &amp; Politik.</li>\n            <li><strong>5 Kriteria Validasi Kebutuhan:</strong> Validitas, konsistensi, kelengkapan, realisme, dan verifiabilitas (dapat diuji).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: 5 Teknik Elisitasi &amp; Strategi Analisis</h4>\n          <ul class=\"neat\">\n            <li><strong>Wawancara:</strong> Pertanyaan <mark class=\"hl-mint\">Tertutup</mark> (spesifik/tepat), <mark class=\"hl-blue\">Terbuka</mark> (eksplorasi), &amp; <mark class=\"hl-peach\">Probing</mark> (menyelidik lanjutan).</li>\n            <li><strong>JAD (Joint Application Development):</strong> Sesi lokakarya terstruktur antara analis, user, &amp; sponsor yang dipandu oleh <em>fasilitator</em> dan dicatat oleh <em>scribe/notulis</em>.</li>\n            <li><strong>Kuesioner, Analisis Dokumen, &amp; Observasi:</strong> Efektif menjangkau responden banyak (kuesioner) &amp; melihat fakta lapangan (observasi).</li>\n            <li><strong>3 Strategi Analisis:</strong> <em>BPA</em> (otomatisasi/perbaikan bertahap), <em>BPI</em> (perancangan ulang menengah), <em>BPR</em> (reengineering radikal).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 3:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Efek Hawthorne pada Observasi:</strong> Pekerja cenderung mengubah perilaku kerjanya (bekerja lebih rajin/hati-hati) ketika menyadari dirinya sedang diamati oleh analis.</li>\n          <li><strong>Kebutuhan Bisnis vs Sistem:</strong> Kebutuhan bisnis adalah sasaran organisasi (mis. pangsa pasar naik, biaya turun), bukan aktivitas teknis seperti \"menjadwalkan rapat dengan klien\".</li>\n          <li><strong>Aturan Kuesioner Baik:</strong> Mulai dengan pertanyaan yang menarik, beri nomor urut jelas, dan <strong>jangan</strong> meletakkan pertanyaan terpenting di bagian akhir (menghindari kelelahan responden).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">5 Teknik Elisitasi &amp; 3 Strategi Analisis Kebutuhan (BPA/BPI/BPR) (Modul 3)</div>\n        <svg width=\"680\" height=\"106\" viewBox=\"0 0 680 106\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"660\" height=\"44\" rx=\"8\" fill=\"#fff7ed\" stroke=\"#ea580c\" stroke-width=\"1.5\"/>\n          <rect x=\"20\" y=\"17\" width=\"118\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"79\" y=\"36\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">1. Wawancara</text>\n          <rect x=\"148\" y=\"17\" width=\"118\" height=\"30\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"207\" y=\"36\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">2. Sesi JAD</text>\n          <rect x=\"276\" y=\"17\" width=\"118\" height=\"30\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"335\" y=\"36\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">3. Kuesioner</text>\n          <rect x=\"404\" y=\"17\" width=\"124\" height=\"30\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"466\" y=\"36\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">4. Analisis Dok.</text>\n          <rect x=\"538\" y=\"17\" width=\"122\" height=\"30\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"599\" y=\"36\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">5. Observasi</text>\n\n          <rect x=\"10\" y=\"62\" width=\"210\" height=\"34\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"115\" y=\"83\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">BPA (Otomasi Bertahap)</text>\n          <rect x=\"235\" y=\"62\" width=\"210\" height=\"34\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"340\" y=\"83\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">BPI (Perbaikan Menengah)</text>\n          <rect x=\"460\" y=\"62\" width=\"210\" height=\"34\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"565\" y=\"83\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">BPR (Perubahan Radikal)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Lima teknik elisitasi dipakai untuk menggali kebutuhan dari pengguna/dokumen, lalu dianalisis dengan 3 tingkat strategi: <strong>BPA</strong> (otomasi bertahap), <strong>BPI</strong> (perbaikan menengah), atau <strong>BPR</strong> (perombakan radikal).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Fungsional vs Non-Fungsional</span>\n          <span class=\"kw-chip\">Tertutup · Terbuka · Probing</span>\n          <span class=\"kw-chip\">JAD Session</span>\n          <span class=\"kw-chip\">BPA · BPI · BPR</span>\n          <span class=\"kw-chip\">Validasi Kebutuhan</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian Essay:</strong> Bedakan <strong>Fungsional</strong> (fitur/proses/data) vs <strong>Non-Fungsional</strong> (keamanan, performa, usability). Desain kuesioner baik: mulai dari pertanyaan menarik, beri nomor, jangan taruh hal penting di akhir.</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Analisis Kebutuhan & Teknik Elisitasi KB 1: Kategori, Struktur & Validasi Kebutuhan Kebutuhan Fungsional: Berorientasi pada proses (apa yang dilakukan sistem) & informasi (data yang dikelola). Kebutuhan Non-Fungsional: Operasional, Performa (kecepatan/kapasitas), Keamanan, serta Budaya & Politik. 5 Kriteria Validasi Kebutuhan: Validitas, konsistensi, kelengkapan, realisme, dan verifiabilitas (dapat diuji). KB 2: 5 Teknik Elisitasi & Strategi Analisis Wawancara: Pertanyaan Tertutup (spesifik/tepat), Terbuka (eksplorasi), & Probing (menyelidik lanjutan). JAD (Joint Application Development): Sesi lokakarya terstruktur antara analis, user, & sponsor yang dipandu oleh fasilitator dan dicatat oleh scribe/notulis . Kuesioner, Analisis Dokumen, & Observasi: Efektif menjangkau responden banyak (kuesioner) & melihat fakta lapangan (observasi). 3 Strategi Analisis: BPA (otomatisasi/perbaikan bertahap), BPI (perancangan ulang menengah), BPR (reengineering radikal). 📌 Detail Kecil Wajib Tahu — Modul 3: Efek Hawthorne pada Observasi: Pekerja cenderung mengubah perilaku kerjanya (bekerja lebih rajin/hati-hati) ketika menyadari dirinya sedang diamati oleh analis. Kebutuhan Bisnis vs Sistem: Kebutuhan bisnis adalah sasaran organisasi (mis. pangsa pasar naik, biaya turun), bukan aktivitas teknis seperti \"menjadwalkan rapat dengan klien\". Aturan Kuesioner Baik: Mulai dengan pertanyaan yang menarik, beri nomor urut jelas, dan jangan meletakkan pertanyaan terpenting di bagian akhir (menghindari kelelahan responden). 5 Teknik Elisitasi & 3 Strategi Analisis Kebutuhan (BPA/BPI/BPR) (Modul 3) 1. Wawancara 2. Sesi JAD 3. Kuesioner 4. Analisis Dok. 5. Observasi BPA (Otomasi Bertahap) BPI (Perbaikan Menengah) BPR (Perubahan Radikal) Penjelasan Diagram: Lima teknik elisitasi dipakai untuk menggali kebutuhan dari pengguna/dokumen, lalu dianalisis dengan 3 tingkat strategi: BPA (otomasi bertahap), BPI (perbaikan menengah), atau BPR (perombakan radikal). 🔑 Kata Kunci Wajib Ingat — Modul 3 Fungsional vs Non-Fungsional Tertutup · Terbuka · Probing JAD Session BPA · BPI · BPR Validasi Kebutuhan Poin Ujian Essay: Bedakan Fungsional (fitur/proses/data) vs Non-Fungsional (keamanan, performa, usability). Desain kuesioner baik: mulai dari pertanyaan menarik, beri nomor, jangan taruh hal penting di akhir."
+    },
+    {
+      "id": "m4",
+      "title": "Pemodelan Analisis Terstruktur (DFD & Bagan Alir)",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#f59e0b;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Pemodelan Analisis Terstruktur (DFD &amp; Bagan Alir)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Data Flow Diagram (DFD) &amp; Dekomposisi</h4>\n          <ul class=\"neat\">\n            <li><strong>4 Simbol Utama DFD:</strong> <strong>External Entity</strong> (sumber/tujuan luar sistem), <strong>Process</strong> (transformasi input → output), <strong>Data Flow</strong> (panah aliran data), dan <strong>Data Store</strong> (file/database/folder penyimpan).</li>\n            <li><strong>Level DFD:</strong> <em>Context Diagram</em> (Level 0: tepat 1 proses utama, tanpa Data Store) → <em>DFD Level 1</em> (proses utama + Data Store) → <em>DFD Level 2</em> (dekomposisi detail).</li>\n            <li><strong>Aturan Balancing:</strong> Aliran data masuk/keluar pada parent process harus konsisten/seimbang dengan child diagram-nya.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Bagan Alir (Flowchart)</h4>\n          <ul class=\"neat\">\n            <li><strong>Bagan Alir Dokumen:</strong> Menelusuri aliran dokumen/formulir fisik antar bagian/departemen.</li>\n            <li><strong>Bagan Alir Sistem:</strong> Menunjukkan urutan prosedur &amp; media input/output/proses komputer maupun manual.</li>\n            <li><mark class=\"hl-yellow\">Bagan Alir Program:</mark> Menekankan <strong>logika prosedur / algoritma</strong> dalam sebuah program komputer (percabangan &amp; pengulangan).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 4:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Notasi Gane &amp; Sarson vs DeMarco-Yourdon:</strong> Pada Gane &amp; Sarson, <em>Process</em> berupa persegi panjang bersudut tumpul dan <em>Data Store</em> kotak terbuka di kanan; pada DeMarco-Yourdon, <em>Process</em> berupa lingkaran dan <em>Data Store</em> dua garis sejajar.</li>\n          <li><strong>DFD Logis (LDFD) vs DFD Fisik (PDFD):</strong> LDFD menggambarkan <em>apa</em> yang dilakukan bisnis (bebas teknologi/perangkat lunak), sedangkan PDFD menggambarkan <em>bagaimana</em> sistem diterapkan (menyebut file, database, formulir kertas, atau staf).</li>\n          <li><strong>Simbol Data Store &amp; Flowchart:</strong> Data Store tidak harus database digital—agenda/folder di meja maupun tabel acuan manual juga termasuk Data Store. Pada Flowchart, simbol belah ketupat (<em>diamond</em>) menandakan keputusan/percabangan.</li>\n        </ul>\n      </div>\n\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">4 Simbol Utama Data Flow Diagram (DFD): Wajib Hafal untuk Essay!</div>\n        <svg width=\"680\" height=\"90\" viewBox=\"0 0 680 90\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"15\" y=\"20\" width=\"120\" height=\"44\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"75\" y=\"46\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">External Entity</text>\n          <path d=\"M140 42 L205 42\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"172\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Data Flow</text>\n          <circle cx=\"265\" cy=\"42\" r=\"34\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"265\" y=\"46\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">Process</text>\n          <path d=\"M303 42 L370 42\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <line x1=\"375\" y1=\"22\" x2=\"525\" y2=\"22\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <line x1=\"375\" y1=\"62\" x2=\"525\" y2=\"62\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <line x1=\"375\" y1=\"22\" x2=\"375\" y2=\"62\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"450\" y=\"46\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11.5\">D1 | Data Store</text>\n          <rect x=\"545\" y=\"18\" width=\"120\" height=\"48\" rx=\"8\" fill=\"#c9f7dc\" stroke=\"#10b981\" stroke-width=\"1.5\"/>\n          <text x=\"605\" y=\"40\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"10.5\">Context = Lvl 0</text>\n          <text x=\"605\" y=\"55\" text-anchor=\"middle\" font-size=\"10\">1 Proses Utama</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Empat simbol wajib DFD: <em>External Entity</em> (sumber/tujuan data di luar sistem), <em>Data Flow</em> (panah aliran data), <em>Process</em> (pengolah input→output), dan <em>Data Store</em> (penyimpan data). Pada Context Diagram (Level 0), hanya ada 1 proses utama tanpa Data Store.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">External Entity · Process · Data Flow · Data Store</span>\n          <span class=\"kw-chip\">Context Diagram (Level 0)</span>\n          <span class=\"kw-chip\">Balancing DFD</span>\n          <span class=\"kw-chip\">Flowchart Dokumen·Sistem·Program</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian Essay:</strong> Pada <em>Context Diagram</em> tidak boleh ada Data Store dan hanya ada 1 proses. Data Flow tidak boleh langsung menghubungkan External Entity ke Data Store tanpa melewati Process!</p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Pemodelan Analisis Terstruktur (DFD & Bagan Alir) KB 1: Data Flow Diagram (DFD) & Dekomposisi 4 Simbol Utama DFD: External Entity (sumber/tujuan luar sistem), Process (transformasi input → output), Data Flow (panah aliran data), dan Data Store (file/database/folder penyimpan). Level DFD: Context Diagram (Level 0: tepat 1 proses utama, tanpa Data Store) → DFD Level 1 (proses utama + Data Store) → DFD Level 2 (dekomposisi detail). Aturan Balancing: Aliran data masuk/keluar pada parent process harus konsisten/seimbang dengan child diagram-nya. KB 2: Bagan Alir (Flowchart) Bagan Alir Dokumen: Menelusuri aliran dokumen/formulir fisik antar bagian/departemen. Bagan Alir Sistem: Menunjukkan urutan prosedur & media input/output/proses komputer maupun manual. Bagan Alir Program: Menekankan logika prosedur / algoritma dalam sebuah program komputer (percabangan & pengulangan). 📌 Detail Kecil Wajib Tahu — Modul 4: Notasi Gane & Sarson vs DeMarco-Yourdon: Pada Gane & Sarson, Process berupa persegi panjang bersudut tumpul dan Data Store kotak terbuka di kanan; pada DeMarco-Yourdon, Process berupa lingkaran dan Data Store dua garis sejajar. DFD Logis (LDFD) vs DFD Fisik (PDFD): LDFD menggambarkan apa yang dilakukan bisnis (bebas teknologi/perangkat lunak), sedangkan PDFD menggambarkan bagaimana sistem diterapkan (menyebut file, database, formulir kertas, atau staf). Simbol Data Store & Flowchart: Data Store tidak harus database digital—agenda/folder di meja maupun tabel acuan manual juga termasuk Data Store. Pada Flowchart, simbol belah ketupat ( diamond ) menandakan keputusan/percabangan. 4 Simbol Utama Data Flow Diagram (DFD): Wajib Hafal untuk Essay! External Entity Data Flow Process D1 | Data Store Context = Lvl 0 1 Proses Utama Penjelasan Diagram: Empat simbol wajib DFD: External Entity (sumber/tujuan data di luar sistem), Data Flow (panah aliran data), Process (pengolah input→output), dan Data Store (penyimpan data). Pada Context Diagram (Level 0), hanya ada 1 proses utama tanpa Data Store. 🔑 Kata Kunci Wajib Ingat — Modul 4 External Entity · Process · Data Flow · Data Store Context Diagram (Level 0) Balancing DFD Flowchart Dokumen·Sistem·Program Poin Ujian Essay: Pada Context Diagram tidak boleh ada Data Store dan hanya ada 1 proses. Data Flow tidak boleh langsung menghubungkan External Entity ke Data Store tanpa melewati Process!"
+    },
+    {
+      "id": "m5",
+      "title": "Paradigma Berorientasi Objek (OOAD) & Use Case Diagram",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#8b5cf6;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Paradigma Berorientasi Objek (OOAD) &amp; Use Case Diagram</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Konsep Dasar OOAD &amp; 3 Pilar Utama</h4>\n          <ul class=\"neat\">\n            <li><strong>OOAD vs Terstruktur:</strong> Terstruktur memisahkan proses &amp; data; OOAD menggabungkan keduanya ke dalam <strong>Objek</strong> (<em>attribute + method</em>).</li>\n            <li><strong>3 Karakteristik Utama OO:</strong> <mark class=\"hl-yellow\">Encapsulation</mark> (menyembunyikan detail internal), <mark class=\"hl-mint\">Inheritance</mark> (pewarisan sifat superclass → subclass), <mark class=\"hl-blue\">Polymorphism</mark> (1 pesan direspons berbeda oleh objek berbeda). <em>(Bukan prototyping!)</em></li>\n            <li><strong>Class vs Object:</strong> Class = cetakan (<em>blueprint</em>); Object = <em>instance</em> nyata dari Class.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Pemodelan Fungsional dengan Use Case Diagram</h4>\n          <ul class=\"neat\">\n            <li><strong>Actor:</strong> Peran pengguna/sistem luar (dinamai dengan <strong>kata benda</strong>).</li>\n            <li><strong>Use Case:</strong> Fungsi sistem yang memberi nilai ke aktor (dinamai dengan <strong>kata kerja deskriptif</strong>).</li>\n            <li><strong>Relasi Use Case:</strong> <em>Association</em> (aktor ↔ use case), <mark class=\"hl-yellow\">«include»</mark> (wajib dipanggil), <mark class=\"hl-mint\">«extend»</mark> (opsional/kondisional), dan <em>Generalization</em> (pewarisan).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 5:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Abstract Class vs Concrete Class:</strong> <em>Abstract class</em> (mis. <code>Orang</code>) berada di hierarki atas dan tidak menghasilkan <em>instance</em> langsung; <em>Concrete class</em> adalah class yang dapat diinstansiasi menjadi objek nyata.</li>\n          <li><strong>Dynamic Binding:</strong> Mekanisme yang memungkinkan <em>Polymorphism</em> dengan menunda penentuan jenis objek/method spesifik hingga waktu eksekusi (<em>run-time</em>).</li>\n          <li><strong>Use Case Description:</strong> Merinci informasi tiap Use Case secara tekstual, meliputi nama, ID, tingkat kepentingan, <em>primary actor</em>, <em>trigger</em> (eksternal/temporal), input/output utama, alur normal, serta alur alternatif/pengecualian.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">3 Pilar OOAD &amp; Relasi Use Case («include» vs «extend») (Modul 5)</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#f5f3ff\" stroke=\"#8b5cf6\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3 Pilar Berorientasi Objek</text>\n          <rect x=\"22\" y=\"38\" width=\"92\" height=\"52\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"68\" y=\"59\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Encapsulation</text><text x=\"68\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Sembunyi Data</text>\n          <rect x=\"124\" y=\"38\" width=\"92\" height=\"52\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"170\" y=\"59\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Inheritance</text><text x=\"170\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Pewarisan</text>\n          <rect x=\"226\" y=\"38\" width=\"92\" height=\"52\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"272\" y=\"59\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Polymorphism</text><text x=\"272\" y=\"75\" text-anchor=\"middle\" font-size=\"8.5\">Multi-Bentuk</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Relasi Use Case Diagram</text>\n          <rect x=\"362\" y=\"38\" width=\"142\" height=\"52\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"433\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">«include»</text><text x=\"433\" y=\"75\" text-anchor=\"middle\" font-size=\"9\">Wajib Dipanggil</text>\n          <rect x=\"516\" y=\"38\" width=\"142\" height=\"52\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"587\" y=\"59\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">«extend»</text><text x=\"587\" y=\"75\" text-anchor=\"middle\" font-size=\"9\">Opsional / Kondisi</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Tiga pilar OOAD menyatukan data &amp; perilaku (<em>Encapsulation, Inheritance, Polymorphism</em>). Pada Use Case, relasi <strong>«include»</strong> berarti sub-fitur wajib dijalankan, sedangkan <strong>«extend»</strong> bersifat opsional sesuai kondisi.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Encapsulation · Inheritance · Polymorphism</span>\n          <span class=\"kw-chip\">Class vs Object (Instance)</span>\n          <span class=\"kw-chip\">Actor (Kata Benda)</span>\n          <span class=\"kw-chip\">Use Case (Kata Kerja)</span>\n          <span class=\"kw-chip\">«include» vs «extend»</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian Essay:</strong> <code>«include»</code> = sub-proses <strong>wajib</strong> dijalankan; <code>«extend»</code> = perilaku tambahan yang <strong>opsional</strong> pada kondisi tertentu.</p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Paradigma Berorientasi Objek (OOAD) & Use Case Diagram KB 1: Konsep Dasar OOAD & 3 Pilar Utama OOAD vs Terstruktur: Terstruktur memisahkan proses & data; OOAD menggabungkan keduanya ke dalam Objek ( attribute + method ). 3 Karakteristik Utama OO: Encapsulation (menyembunyikan detail internal), Inheritance (pewarisan sifat superclass → subclass), Polymorphism (1 pesan direspons berbeda oleh objek berbeda). (Bukan prototyping!) Class vs Object: Class = cetakan ( blueprint ); Object = instance nyata dari Class. KB 2: Pemodelan Fungsional dengan Use Case Diagram Actor: Peran pengguna/sistem luar (dinamai dengan kata benda ). Use Case: Fungsi sistem yang memberi nilai ke aktor (dinamai dengan kata kerja deskriptif ). Relasi Use Case: Association (aktor ↔ use case), «include» (wajib dipanggil), «extend» (opsional/kondisional), dan Generalization (pewarisan). 📌 Detail Kecil Wajib Tahu — Modul 5: Abstract Class vs Concrete Class: Abstract class (mis. Orang ) berada di hierarki atas dan tidak menghasilkan instance langsung; Concrete class adalah class yang dapat diinstansiasi menjadi objek nyata. Dynamic Binding: Mekanisme yang memungkinkan Polymorphism dengan menunda penentuan jenis objek/method spesifik hingga waktu eksekusi ( run-time ). Use Case Description: Merinci informasi tiap Use Case secara tekstual, meliputi nama, ID, tingkat kepentingan, primary actor , trigger (eksternal/temporal), input/output utama, alur normal, serta alur alternatif/pengecualian. 3 Pilar OOAD & Relasi Use Case («include» vs «extend») (Modul 5) 3 Pilar Berorientasi Objek Encapsulation Sembunyi Data Inheritance Pewarisan Polymorphism Multi-Bentuk Relasi Use Case Diagram «include» Wajib Dipanggil «extend» Opsional / Kondisi Penjelasan Diagram: Tiga pilar OOAD menyatukan data & perilaku ( Encapsulation, Inheritance, Polymorphism ). Pada Use Case, relasi «include» berarti sub-fitur wajib dijalankan, sedangkan «extend» bersifat opsional sesuai kondisi. 🔑 Kata Kunci Wajib Ingat — Modul 5 Encapsulation · Inheritance · Polymorphism Class vs Object (Instance) Actor (Kata Benda) Use Case (Kata Kerja) «include» vs «extend» Poin Ujian Essay: «include» = sub-proses wajib dijalankan; «extend» = perilaku tambahan yang opsional pada kondisi tertentu."
+    },
+    {
+      "id": "m6",
+      "title": "Pemodelan Proses Bisnis (Activity) & Struktural (Class Diagram)",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#7c3aed;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Pemodelan Proses Bisnis (Activity) &amp; Struktural (Class Diagram)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Activity Diagram (UML 2.0/2.1)</h4>\n          <ul class=\"neat\">\n            <li><strong>Fungsi:</strong> Memodelkan alur kerja proses bisnis, alur dalam Use Case, atau logika detail <em>method</em>.</li>\n            <li><strong>Node Penting:</strong> <em>Initial node</em> (mulai), <em>Action/Activity</em>, <em>Decision &amp; Merge</em> (percabangan 1 jalur), <em>Fork &amp; Join</em> (alur paralel bersamaan), <em>Object node</em>, dan <em>Final-activity / Final-flow</em>.</li>\n            <li><strong>Swimlane (Partition):</strong> Mengelompokkan aktivitas berdasarkan aktor/departemen penanggung jawab.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Class Diagram &amp; Object Diagram</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Kompartemen Class:</strong> Nama Class (atas), <em>Attribute</em> (tengah: <code>-private, +public, #protected</code>), <em>Operation/Method</em> (bawah).</li>\n            <li><strong>Relasi Class:</strong> <em>Association</em> (garis biasa + multiplicity <code>1..*</code>), <em>Aggregation</em> (wajik putih: punya bagian independen), <mark class=\"hl-pink\">Composition</mark> (wajik hitam: bagian mati jika induk mati), <em>Generalization</em> (segitiga putih: inheritance).</li>\n            <li><strong>Object Diagram:</strong> Potret (<em>snapshot</em>) instance objek &amp; nilainya pada suatu titik waktu.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 6:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Aturan UML 2.0/2.1 Activity Diagram:</strong> Activity diagram dikategorikan sebagai kasus khusus <em>State Diagram</em>. Penamaan <em>Action/Activity</em> diawali <strong>kata kerja</strong> lalu diakhiri <strong>kata benda</strong> (mis. <em>Membuat Janji</em>).</li>\n          <li><strong>Control Flow vs Object Flow &amp; Final Node:</strong> <em>Control flow</em> menunjukkan urutan eksekusi, sedangkan <em>Object flow</em> membawa objek aktual (<em>Object node</em>) masuk/keluar action. <strong>Final-activity node</strong> menghentikan <em>semua</em> aliran dalam aktivitas, sedangkan <strong>Final-flow node</strong> hanya menghentikan <em>satu aliran</em> tertentu.</li>\n          <li><strong>3 Jenis Operasi Class:</strong> <em>Constructor</em> (membuat instance baru, mis. <code>insert()</code>), <em>Query</em> (membaca nilai tanpa mengubah state), dan <em>Update</em> (mengubah nilai atribut/state objek).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Ringkasan Visual Diagram UML (Use Case, Class, &amp; Sequence Diagram)</div>\n        <svg width=\"680\" height=\"135\" viewBox=\"0 0 680 135\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"210\" height=\"115\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"115\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Use Case Diagram</text>\n          <circle cx=\"48\" cy=\"56\" r=\"10\" fill=\"#ffffff\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <line x1=\"48\" y1=\"66\" x2=\"48\" y2=\"92\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <line x1=\"34\" y1=\"76\" x2=\"62\" y2=\"76\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"48\" y=\"110\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Actor (Benda)</text>\n          <line x1=\"66\" y1=\"75\" x2=\"105\" y2=\"75\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <ellipse cx=\"155\" cy=\"75\" rx=\"48\" ry=\"20\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"155\" y=\"79\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Use Case (Kerja)</text>\n\n          <rect x=\"235\" y=\"10\" width=\"210\" height=\"115\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Class Diagram</text>\n          <rect x=\"265\" y=\"38\" width=\"150\" height=\"76\" fill=\"#ffffff\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <line x1=\"265\" y1=\"60\" x2=\"415\" y2=\"60\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <line x1=\"265\" y1=\"88\" x2=\"415\" y2=\"88\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"53\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Mahasiswa</text>\n          <text x=\"340\" y=\"77\" text-anchor=\"middle\" font-size=\"9.5\">- nim, nama (Attribute)</text>\n          <text x=\"340\" y=\"105\" text-anchor=\"middle\" font-size=\"9.5\">+ daftar() (Method)</text>\n\n          <rect x=\"460\" y=\"10\" width=\"210\" height=\"115\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"565\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Sequence Diagram</text>\n          <rect x=\"480\" y=\"38\" width=\"58\" height=\"22\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"509\" y=\"53\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">:User</text>\n          <rect x=\"592\" y=\"38\" width=\"58\" height=\"22\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"621\" y=\"53\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">:Sistem</text>\n          <line x1=\"509\" y1=\"60\" x2=\"509\" y2=\"112\" stroke=\"#24292f\" stroke-dasharray=\"4 3\"/>\n          <line x1=\"621\" y1=\"60\" x2=\"621\" y2=\"112\" stroke=\"#24292f\" stroke-dasharray=\"4 3\"/>\n          <path d=\"M510 78 L620 78\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"565\" y=\"73\" text-anchor=\"middle\" font-size=\"9\">1: login()</text>\n          <path d=\"M620 100 L510 100\" stroke=\"#059669\" stroke-width=\"1.8\" stroke-dasharray=\"3 2\"/><text x=\"565\" y=\"95\" text-anchor=\"middle\" font-size=\"9\">ok</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Ringkasan 3 diagram UML utama: <em>Use Case</em> memetakan aktor (kata benda) &amp; fitur (kata kerja), <em>Class Diagram</em> memetakan struktur statis (Nama, Atribut, Method), dan <em>Sequence Diagram</em> melacak urutan pesan antar objek dari atas ke bawah.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Decision/Merge vs Fork/Join</span>\n          <span class=\"kw-chip\">Swimlane</span>\n          <span class=\"kw-chip\">Aggregation (◇) vs Composition (◆)</span>\n          <span class=\"kw-chip\">Multiplicity (1..*)</span>\n          <span class=\"kw-chip\">Visibility (+ / - / #)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>Fork/Join</strong> (batang tebal) dipakai untuk aktivitas <em>paralel</em>, sedangkan <strong>Decision/Merge</strong> (wajik) untuk kondisi <em>if/else</em>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Pemodelan Proses Bisnis (Activity) & Struktural (Class Diagram) KB 1: Activity Diagram (UML 2.0/2.1) Fungsi: Memodelkan alur kerja proses bisnis, alur dalam Use Case, atau logika detail method . Node Penting: Initial node (mulai), Action/Activity , Decision & Merge (percabangan 1 jalur), Fork & Join (alur paralel bersamaan), Object node , dan Final-activity / Final-flow . Swimlane (Partition): Mengelompokkan aktivitas berdasarkan aktor/departemen penanggung jawab. KB 2: Class Diagram & Object Diagram 3 Kompartemen Class: Nama Class (atas), Attribute (tengah: -private, +public, #protected ), Operation/Method (bawah). Relasi Class: Association (garis biasa + multiplicity 1..* ), Aggregation (wajik putih: punya bagian independen), Composition (wajik hitam: bagian mati jika induk mati), Generalization (segitiga putih: inheritance). Object Diagram: Potret ( snapshot ) instance objek & nilainya pada suatu titik waktu. 📌 Detail Kecil Wajib Tahu — Modul 6: Aturan UML 2.0/2.1 Activity Diagram: Activity diagram dikategorikan sebagai kasus khusus State Diagram . Penamaan Action/Activity diawali kata kerja lalu diakhiri kata benda (mis. Membuat Janji ). Control Flow vs Object Flow & Final Node: Control flow menunjukkan urutan eksekusi, sedangkan Object flow membawa objek aktual ( Object node ) masuk/keluar action. Final-activity node menghentikan semua aliran dalam aktivitas, sedangkan Final-flow node hanya menghentikan satu aliran tertentu. 3 Jenis Operasi Class: Constructor (membuat instance baru, mis. insert() ), Query (membaca nilai tanpa mengubah state), dan Update (mengubah nilai atribut/state objek). Ringkasan Visual Diagram UML (Use Case, Class, & Sequence Diagram) Use Case Diagram Actor (Benda) Use Case (Kerja) Class Diagram Mahasiswa - nim, nama (Attribute) + daftar() (Method) Sequence Diagram :User :Sistem 1: login() ok Penjelasan Diagram: Ringkasan 3 diagram UML utama: Use Case memetakan aktor (kata benda) & fitur (kata kerja), Class Diagram memetakan struktur statis (Nama, Atribut, Method), dan Sequence Diagram melacak urutan pesan antar objek dari atas ke bawah. 🔑 Kata Kunci Wajib Ingat — Modul 6 Decision/Merge vs Fork/Join Swimlane Aggregation (◇) vs Composition (◆) Multiplicity (1..*) Visibility (+ / - / #) Poin Ujian: Fork/Join (batang tebal) dipakai untuk aktivitas paralel , sedangkan Decision/Merge (wajik) untuk kondisi if/else ."
+    },
+    {
+      "id": "m7",
+      "title": "Pemodelan Perilaku Objek (Sequence, Communication & State)",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#6d28d9;\">MODUL 7</span>\n        <h2 class=\"mod-title\">Pemodelan Perilaku Objek (Sequence, Communication &amp; State)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Interaction Diagram (Sequence vs Communication)</h4>\n          <ul class=\"neat\">\n            <li><strong>Sequence Diagram:</strong> Fokus pada <mark class=\"hl-yellow\">urutan waktu (kronologis)</mark> pesan antar objek. Komponen: <em>Actor/Object</em> di atas, <em>Lifeline</em> (garis putus-putus vertikal), <em>Focus of Control / Activation Bar</em> (persegi panjang tipis), dan <em>Message</em> (panah sinkron/asinkron/return).</li>\n            <li><strong>Communication Diagram:</strong> Fokus pada <mark class=\"hl-blue\">aliran kontrol &amp; tautan struktural</mark> antar objek (memakai penomoran pesan <code>1, 1.1, 2</code>).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Behavioral State Machine Diagram</h4>\n          <ul class=\"neat\">\n            <li><strong>Fungsi:</strong> Menggambarkan perubahan kondisi (<em>state</em>) satu objek sepanjang siklus hidupnya akibat suatu <em>event</em>.</li>\n            <li><strong>Komponen:</strong> <em>Initial state</em> (lingkaran hitam penuh), <em>State</em> (persegi tumpul), <em>Transition</em> (panah berlabel <code>event [guard] / action</code>), dan <em>Final state</em> (mata lembu).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 7:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Jenis Pesan Sequence Diagram:</strong> <em>Synchronous message</em> (panah penuh, pengirim menunggu balasan), <em>Asynchronous message</em> (panah terbuka, tidak menunggu), dan <em>Return message</em> (panah garis putus-putus). Gunakan frame <code>alt</code> (kondisi), <code>opt</code> (opsional), dan <code>loop</code> (perulangan).</li>\n          <li><strong>Guard Condition pada State Machine:</strong> Ekspresi boolean dalam kurung siku <code>[guard]</code> pada transisi yang harus bernilai <em>true</em> agar perpindahan state terjadi akibat sebuah <em>event</em>.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Behavioral State Machine Diagram: Siklus Hidup Objek Pesanan (Modul 7)</div>\n        <svg width=\"680\" height=\"86\" viewBox=\"0 0 680 86\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <circle cx=\"30\" cy=\"43\" r=\"10\" fill=\"#24292f\"/>\n          <path d=\"M42 43 L80 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"82\" y=\"21\" width=\"110\" height=\"44\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"137\" y=\"47\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Menunggu Bayar</text>\n          <path d=\"M194 43 L252 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"223\" y=\"35\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">bayar()</text>\n          <rect x=\"254\" y=\"21\" width=\"110\" height=\"44\" rx=\"12\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"309\" y=\"47\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Diproses</text>\n          <path d=\"M366 43 L424 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"395\" y=\"35\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">kirim()</text>\n          <rect x=\"426\" y=\"21\" width=\"110\" height=\"44\" rx=\"12\" fill=\"#d1fae5\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"481\" y=\"47\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Selesai</text>\n          <path d=\"M538 43 L594 43\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <circle cx=\"612\" cy=\"43\" r=\"13\" fill=\"none\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <circle cx=\"612\" cy=\"43\" r=\"8\" fill=\"#24292f\"/>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Behavioral State Machine melacak perubahan status satu objek dari titik awal (lingkaran hitam), berpindah status saat event terjadi (<code>bayar()</code>, <code>kirim()</code>), hingga titik akhir (lingkaran ganda).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 7</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Sequence (Urutan Waktu)</span>\n          <span class=\"kw-chip\">Lifeline &amp; Focus of Control</span>\n          <span class=\"kw-chip\">Communication (Tautan Objek)</span>\n          <span class=\"kw-chip\">State Machine (State·Event·Guard)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>Sequence Diagram</strong> menekankan urutan waktu pengiriman pesan; <strong>Communication Diagram</strong> menekankan hubungan organisasi antar objek; <strong>State Machine</strong> melacak siklus status 1 objek.</p>\n      </div>\n    </section>",
+      "text": "MODUL 7 Pemodelan Perilaku Objek (Sequence, Communication & State) KB 1: Interaction Diagram (Sequence vs Communication) Sequence Diagram: Fokus pada urutan waktu (kronologis) pesan antar objek. Komponen: Actor/Object di atas, Lifeline (garis putus-putus vertikal), Focus of Control / Activation Bar (persegi panjang tipis), dan Message (panah sinkron/asinkron/return). Communication Diagram: Fokus pada aliran kontrol & tautan struktural antar objek (memakai penomoran pesan 1, 1.1, 2 ). KB 2: Behavioral State Machine Diagram Fungsi: Menggambarkan perubahan kondisi ( state ) satu objek sepanjang siklus hidupnya akibat suatu event . Komponen: Initial state (lingkaran hitam penuh), State (persegi tumpul), Transition (panah berlabel event [guard] / action ), dan Final state (mata lembu). 📌 Detail Kecil Wajib Tahu — Modul 7: Jenis Pesan Sequence Diagram: Synchronous message (panah penuh, pengirim menunggu balasan), Asynchronous message (panah terbuka, tidak menunggu), dan Return message (panah garis putus-putus). Gunakan frame alt (kondisi), opt (opsional), dan loop (perulangan). Guard Condition pada State Machine: Ekspresi boolean dalam kurung siku [guard] pada transisi yang harus bernilai true agar perpindahan state terjadi akibat sebuah event . Behavioral State Machine Diagram: Siklus Hidup Objek Pesanan (Modul 7) Menunggu Bayar bayar() Diproses kirim() Selesai Penjelasan Diagram: Behavioral State Machine melacak perubahan status satu objek dari titik awal (lingkaran hitam), berpindah status saat event terjadi ( bayar() , kirim() ), hingga titik akhir (lingkaran ganda). 🔑 Kata Kunci Wajib Ingat — Modul 7 Sequence (Urutan Waktu) Lifeline & Focus of Control Communication (Tautan Objek) State Machine (State·Event·Guard) Poin Ujian: Sequence Diagram menekankan urutan waktu pengiriman pesan; Communication Diagram menekankan hubungan organisasi antar objek; State Machine melacak siklus status 1 objek."
+    },
+    {
+      "id": "m8",
+      "title": "Transisi Analisis ke Desain: Transformasi ERD & Akuisisi Sistem",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#06b6d4;\">MODUL 8</span>\n        <h2 class=\"mod-title\">Transisi Analisis ke Desain: Transformasi ERD &amp; Akuisisi Sistem</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Transformasi ERD ke Diagram Relasi (Tabel)</h4>\n          <ul class=\"neat\">\n            <li><strong>Entitas Kuat:</strong> Menjadi 1 tabel dengan Primary Key (PK) masing-masing.</li>\n            <li><strong>Entitas Lemah:</strong> Menjadi tabel dengan PK gabungan (PK pemilik + discriminator).</li>\n            <li><strong>Relasi 1:1:</strong> PK salah satu entitas disalin menjadi Foreign Key (FK) di tabel pasangannya.</li>\n            <li><strong>Relasi 1:N:</strong> PK sisi <strong>\"1\"</strong> disalin menjadi FK di tabel sisi <strong>\"N\"</strong>.</li>\n            <li><strong>Relasi M:N:</strong> <mark class=\"hl-pink\">Buat tabel baru (jembatan)</mark> berisi gabungan PK kedua entitas sebagai FK (dan PK gabungan).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: 3 Strategi Akuisisi Sistem Informasi</h4>\n          <ul class=\"neat\">\n            <li><strong>1. Custom Development (In-House):</strong> Dibangun sendiri oleh tim internal; fleksibel &amp; sesuai kebutuhan unik, tapi butuh waktu/biaya tinggi.</li>\n            <li><strong>2. Packaged Software (COTS):</strong> Beli paket jadi (mis. ERP SAP/Odoo); cepat &amp; teruji, tapi perlu penyesuaian proses bisnis.</li>\n            <li><strong>3. Outsourcing:</strong> Diserahkan ke vendor luar; menghemat tenaga internal, tetapi berisiko ketergantungan vendor &amp; keamanan data.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 8:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>Transformasi Atribut Khusus ERD:</strong> <em>Atribut Bernilai Banyak (Multivalue)</em> wajib dipecah menjadi <strong>tabel baru</strong> berisi PK entitas induk + nilai atribut tersebut; <em>Atribut Turunan (Derived)</em> seperti <code>umur</code> dari <code>tgl_lahir</code> tidak perlu disimpan sebagai kolom fisik kecuali untuk optimasi kinerja.</li>\n          <li><strong>Entitas Asosiatif &amp; Memilih Strategi Akuisisi:</strong> Entitas asosiatif muncul pada relasi M:N yang memiliki atribut sendiri (mis. <code>Nilai</code> pada relasi Mahasiswa–MataKuliah). Gunakan <em>Custom</em> jika proses bisnis menjadi keunggulan kompetitif unik, <em>Packaged</em> jika proses bersifat standar/umum, dan <em>Outsourcing</em> jika kekurangan keahlian TI internal.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Transformasi ERD (1:N &amp; M:N) ke Tabel Relasi (Modul 8)</div>\n        <svg width=\"680\" height=\"110\" viewBox=\"0 0 680 110\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"90\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Aturan Transformasi ERD → Tabel Relasi</text>\n          <rect x=\"22\" y=\"38\" width=\"296\" height=\"24\" rx=\"4\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"170\" y=\"54\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1:N → PK sisi \"1\" disalin menjadi FK di sisi \"N\"</text>\n          <rect x=\"22\" y=\"68\" width=\"296\" height=\"24\" rx=\"4\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"170\" y=\"84\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">M:N → Buat TABEL BARU berisi kedua PK sebagai FK</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"90\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">3 Strategi Akuisisi Sistem</text>\n          <rect x=\"362\" y=\"42\" width=\"92\" height=\"44\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"408\" y=\"68\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Custom</text>\n          <rect x=\"464\" y=\"42\" width=\"92\" height=\"44\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"510\" y=\"68\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Packaged</text>\n          <rect x=\"566\" y=\"42\" width=\"92\" height=\"44\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"612\" y=\"68\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Outsourcing</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Aturan kunci transformasi ERD ke tabel relasi: relasi <strong>1:N</strong> menyalin PK sisi \"1\" menjadi FK di sisi \"N\", sedangkan relasi <strong>M:N</strong> wajib membuat tabel jembatan baru. Akuisisi dapat dilakukan dengan <em>Custom</em>, <em>Packaged</em>, atau <em>Outsourcing</em>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 8</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">1:1 · 1:N · M:N → Tabel Relasi</span>\n          <span class=\"kw-chip\">Custom vs Packaged vs Outsourcing</span>\n          <span class=\"kw-chip\">Primary Key &amp; Foreign Key</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian Essay:</strong> Pada relasi <strong>M:N</strong> (mis. Mahasiswa–MataKuliah), wajib dibuat <strong>tabel penghubung baru</strong> (mis. KRS) yang memuat kedua PK sebagai FK.</p>\n      </div>\n    </section>",
+      "text": "MODUL 8 Transisi Analisis ke Desain: Transformasi ERD & Akuisisi Sistem KB 1: Transformasi ERD ke Diagram Relasi (Tabel) Entitas Kuat: Menjadi 1 tabel dengan Primary Key (PK) masing-masing. Entitas Lemah: Menjadi tabel dengan PK gabungan (PK pemilik + discriminator). Relasi 1:1: PK salah satu entitas disalin menjadi Foreign Key (FK) di tabel pasangannya. Relasi 1:N: PK sisi \"1\" disalin menjadi FK di tabel sisi \"N\" . Relasi M:N: Buat tabel baru (jembatan) berisi gabungan PK kedua entitas sebagai FK (dan PK gabungan). KB 2: 3 Strategi Akuisisi Sistem Informasi 1. Custom Development (In-House): Dibangun sendiri oleh tim internal; fleksibel & sesuai kebutuhan unik, tapi butuh waktu/biaya tinggi. 2. Packaged Software (COTS): Beli paket jadi (mis. ERP SAP/Odoo); cepat & teruji, tapi perlu penyesuaian proses bisnis. 3. Outsourcing: Diserahkan ke vendor luar; menghemat tenaga internal, tetapi berisiko ketergantungan vendor & keamanan data. 📌 Detail Kecil Wajib Tahu — Modul 8: Transformasi Atribut Khusus ERD: Atribut Bernilai Banyak (Multivalue) wajib dipecah menjadi tabel baru berisi PK entitas induk + nilai atribut tersebut; Atribut Turunan (Derived) seperti umur dari tgl_lahir tidak perlu disimpan sebagai kolom fisik kecuali untuk optimasi kinerja. Entitas Asosiatif & Memilih Strategi Akuisisi: Entitas asosiatif muncul pada relasi M:N yang memiliki atribut sendiri (mis. Nilai pada relasi Mahasiswa–MataKuliah). Gunakan Custom jika proses bisnis menjadi keunggulan kompetitif unik, Packaged jika proses bersifat standar/umum, dan Outsourcing jika kekurangan keahlian TI internal. Transformasi ERD (1:N & M:N) ke Tabel Relasi (Modul 8) Aturan Transformasi ERD → Tabel Relasi 1:N → PK sisi \"1\" disalin menjadi FK di sisi \"N\" M:N → Buat TABEL BARU berisi kedua PK sebagai FK 3 Strategi Akuisisi Sistem Custom Packaged Outsourcing Penjelasan Diagram: Aturan kunci transformasi ERD ke tabel relasi: relasi 1:N menyalin PK sisi \"1\" menjadi FK di sisi \"N\", sedangkan relasi M:N wajib membuat tabel jembatan baru. Akuisisi dapat dilakukan dengan Custom , Packaged , atau Outsourcing . 🔑 Kata Kunci Wajib Ingat — Modul 8 1:1 · 1:N · M:N → Tabel Relasi Custom vs Packaged vs Outsourcing Primary Key & Foreign Key Poin Ujian Essay: Pada relasi M:N (mis. Mahasiswa–MataKuliah), wajib dibuat tabel penghubung baru (mis. KRS) yang memuat kedua PK sebagai FK."
+    },
+    {
+      "id": "m9",
+      "title": "Desain Arsitektur Sistem & Antarmuka Pengguna (UI)",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#0284c7;\">MODUL 9</span>\n        <h2 class=\"mod-title\">Desain Arsitektur Sistem &amp; Antarmuka Pengguna (UI)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Desain Arsitektur (Server, Client &amp; N-Tier)</h4>\n          <ul class=\"neat\">\n            <li><strong>Arsitektur Computing:</strong> <em>Server-based</em> (semua proses di server), <em>Client-based</em> (proses di klien, DB di server), dan <strong>Client-Server (2-tier / 3-tier / N-tier)</strong>.</li>\n            <li><strong>3-Tier Architecture:</strong> Memisahkan <em>Presentation Layer</em> (UI), <em>Application Logic Layer</em>, dan <em>Data/DB Layer</em> agar skalabel &amp; mudah dirawat.</li>\n            <li><strong>Faktor Desain Non-Fungsional:</strong> Kebutuhan operasional, kinerja, keamanan (autentikasi &amp; enkripsi), serta budaya/politik.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Desain Antarmuka (UI), Input &amp; Output</h4>\n          <ul class=\"neat\">\n            <li><strong>Prinsip UI:</strong> Tata letak (<em>layout</em>), kesadaran konten (<em>content awareness</em>), estetika, pengalaman pengguna (<em>user experience</em>), konsistensi, &amp; minimalisasi usaha pengguna.</li>\n            <li><strong>3 Bagian UI Web:</strong> <em>Header/Navigation</em>, <em>Content Area</em>, dan <em>Footer/Action</em>.</li>\n            <li><strong>Jenis Laporan Output:</strong> <em>Detail Report</em>, <em>Summary Report</em> (ringkasan perbandingan), <em>Exception Report</em> (penyimpangan dari normal, mis. stok menipis/tunggakan), serta <em>Graph</em> (Batang, Garis, Scatter, Pie).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"note-box\" style=\"margin-top:12px; padding:12px 14px; border-radius:10px; border:1px dashed #d97706; background:#fffbeb;\">\n        <strong>📌 Detail Kecil Wajib Tahu — Modul 9:</strong>\n        <ul class=\"neat\" style=\"margin-top:6px;\">\n          <li><strong>4 Fungsi Perangkat Lunak Aplikasi:</strong> <em>Data Storage</em> (penyimpanan data), <em>Data Access Logic</em> (query/akses data), <em>Application Logic</em> (aturan bisnis), dan <em>Presentation Logic</em> (antarmuka pengguna). Tren modern juga memanfaatkan <em>Cloud Computing</em> &amp; virtualisasi.</li>\n          <li><strong>Desain Input (Batch vs Online) &amp; Keamanan:</strong> <em>Batch processing</em> menghimpun data dalam kurun waktu tertentu sebelum diproses sekaligus, sedangkan transaksi real-time langsung divalidasi (format, kelengkapan, rentang). Aspek keamanan arsitektur mencakup <em>autentikasi</em>, <em>enkripsi</em>, kontrol akses, dan pengendalian virus.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Arsitektur Client-Server 3-Tier &amp; Jenis Laporan Output (Modul 9)</div>\n        <svg width=\"680\" height=\"105\" viewBox=\"0 0 680 105\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"85\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Arsitektur Client-Server 3-Tier</text>\n          <rect x=\"22\" y=\"42\" width=\"90\" height=\"40\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"67\" y=\"66\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Presentation</text>\n          <path d=\"M114 62 L130 62\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"132\" y=\"42\" width=\"90\" height=\"40\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"177\" y=\"66\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">App Logic</text>\n          <path d=\"M224 62 L240 62\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"242\" y=\"42\" width=\"76\" height=\"40\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"280\" y=\"66\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">DB Server</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"85\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Jenis Laporan Output Sistem</text>\n          <rect x=\"362\" y=\"42\" width=\"92\" height=\"40\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"408\" y=\"66\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Summary</text>\n          <rect x=\"464\" y=\"42\" width=\"92\" height=\"40\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"510\" y=\"66\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Exception</text>\n          <rect x=\"566\" y=\"42\" width=\"92\" height=\"40\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"612\" y=\"66\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Graph / Chart</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Arsitektur <strong>3-Tier</strong> memisahkan antarmuka (<em>Presentation</em>), logika bisnis (<em>App Logic</em>), dan basis data (<em>DB Server</em>). Output sistem disajikan dalam bentuk <em>Summary</em>, <em>Exception Report</em> (anomali), atau <em>Graph/Chart</em>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 9</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">2-Tier vs 3-Tier vs N-Tier</span>\n          <span class=\"kw-chip\">Presentation · App Logic · DB</span>\n          <span class=\"kw-chip\">Summary vs Exception Report</span>\n          <span class=\"kw-chip\">Prinsip Desain UI</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian Essay:</strong> <strong>Exception Report</strong> hanya menyaring data yang menyimpang dari kondisi normal (mis. barang hampir habis / tunggakan), sehingga manajer fokus pada hal krusial.</p>\n      </div>\n    </section>",
+      "text": "MODUL 9 Desain Arsitektur Sistem & Antarmuka Pengguna (UI) KB 1: Desain Arsitektur (Server, Client & N-Tier) Arsitektur Computing: Server-based (semua proses di server), Client-based (proses di klien, DB di server), dan Client-Server (2-tier / 3-tier / N-tier) . 3-Tier Architecture: Memisahkan Presentation Layer (UI), Application Logic Layer , dan Data/DB Layer agar skalabel & mudah dirawat. Faktor Desain Non-Fungsional: Kebutuhan operasional, kinerja, keamanan (autentikasi & enkripsi), serta budaya/politik. KB 2: Desain Antarmuka (UI), Input & Output Prinsip UI: Tata letak ( layout ), kesadaran konten ( content awareness ), estetika, pengalaman pengguna ( user experience ), konsistensi, & minimalisasi usaha pengguna. 3 Bagian UI Web: Header/Navigation , Content Area , dan Footer/Action . Jenis Laporan Output: Detail Report , Summary Report (ringkasan perbandingan), Exception Report (penyimpangan dari normal, mis. stok menipis/tunggakan), serta Graph (Batang, Garis, Scatter, Pie). 📌 Detail Kecil Wajib Tahu — Modul 9: 4 Fungsi Perangkat Lunak Aplikasi: Data Storage (penyimpanan data), Data Access Logic (query/akses data), Application Logic (aturan bisnis), dan Presentation Logic (antarmuka pengguna). Tren modern juga memanfaatkan Cloud Computing & virtualisasi. Desain Input (Batch vs Online) & Keamanan: Batch processing menghimpun data dalam kurun waktu tertentu sebelum diproses sekaligus, sedangkan transaksi real-time langsung divalidasi (format, kelengkapan, rentang). Aspek keamanan arsitektur mencakup autentikasi , enkripsi , kontrol akses, dan pengendalian virus. Arsitektur Client-Server 3-Tier & Jenis Laporan Output (Modul 9) Arsitektur Client-Server 3-Tier Presentation App Logic DB Server Jenis Laporan Output Sistem Summary Exception Graph / Chart Penjelasan Diagram: Arsitektur 3-Tier memisahkan antarmuka ( Presentation ), logika bisnis ( App Logic ), dan basis data ( DB Server ). Output sistem disajikan dalam bentuk Summary , Exception Report (anomali), atau Graph/Chart . 🔑 Kata Kunci Wajib Ingat — Modul 9 2-Tier vs 3-Tier vs N-Tier Presentation · App Logic · DB Summary vs Exception Report Prinsip Desain UI Poin Ujian Essay: Exception Report hanya menyaring data yang menyimpang dari kondisi normal (mis. barang hampir habis / tunggakan), sehingga manajer fokus pada hal krusial."
+    },
+    {
+      "id": "ahli",
+      "title": "Ahli & Tokoh Kunci dalam BMP MSIM4302 (Penting untuk Essay!)",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI</span>\n        <h2 class=\"mod-title\">Ahli &amp; Tokoh Kunci dalam BMP MSIM4302 (Penting untuk Essay!)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Alan Dennis, Wixom, &amp; Roth / Tegarden (2009, 2012):</strong> Rujukan utama SDLC 4 fase, rumus ROI/NPV/BEP, teknik elisitasi, DFD, OOAD/UML 2.0, <em>content awareness</em> UI, dan definisi desain arsitektur sistem.</li>\n            <li><strong>Jogiyanto H.M. (2008):</strong> Tahapan pembuatan <em>Physical DFD (PDFD)</em> dan <em>Logical DFD (LDFD)</em> serta pendekatan terstruktur aplikasi bisnis.</li>\n            <li><strong>Ian Sommerville (2011, 2016):</strong> Studi kelayakan menentukan kelayakan proyek menuju rekayasa kebutuhan &amp; pengembangan sistem, serta validasi kebutuhan.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Martin Fowler (2005) &amp; Y. Sugiarti (2013):</strong> Pemodelan UML (<em>UML Distilled</em>), pengembangan <em>iterative</em>, dan perancangan diagram berorientasi objek.</li>\n            <li><strong>R. Tantra (2012) &amp; Avison &amp; Fitzgerald (2006):</strong> Manajemen proyek &amp; studi kelayakan (Tantra), serta klasifikasi 4 kelompok metodologi pengembangan SI (Avison &amp; Fitzgerald).</li>\n            <li><strong>Wood &amp; Silver (1995) / Franke &amp; Kaul (1978):</strong> Rujukan sesi lokakarya <em>JAD (Joint Application Development)</em> dan studi <em>Efek Hawthorne</em> pada observasi.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu (Dennis, Wixom &amp; Tegarden; Kendall &amp; Kendall; UML 2.x)</h4>\n        <ul class=\"neat\">\n          <li><strong>DFD Logis vs DFD Fisik (Dennis et al. / Jogiyanto):</strong> <em>Logical DFD</em> fokus pada <strong>apa</strong> yang dilakukan bisnis (tanpa menyebut software/media/nama staf), sedangkan <em>Physical DFD</em> fokus pada <strong>bagaimana</strong> sistem diimplementasikan (menyebut database MySQL, formulir kertas, web browser, atau bagian terkait).</li>\n          <li><strong>4 Larangan Keras Menggambar DFD (Sering Keluar di Essay!):</strong> (1) <em>Black Hole</em> (proses punya input tapi tidak ada output), (2) <em>Miracle</em> (proses menghasilkan output tanpa input), (3) <em>External Entity → Data Store</em> langsung tanpa proses, (4) <em>Data Store → Data Store</em> langsung tanpa proses.</li>\n          <li><strong>Detail Relasi Class Diagram (UML 2.x):</strong> Bedakan <strong>Aggregation (◇ wajik putih)</strong> = relasi \"punya\" longgar (Dosen–Mahasiswa; jika Kelas dihapus, Mahasiswa tetap ada) vs <strong>Composition (◆ wajik hitam)</strong> = relasi \"bagian hidup-mati\" (Faktur–ItemFaktur; jika Faktur dihapus, Item ikut musnah).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Kesalahan Fatal yang Dilarang pada Data Flow Diagram (DFD)</div>\n        <svg width=\"680\" height=\"106\" viewBox=\"0 0 680 106\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"155\" height=\"86\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"87\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">1. Black Hole</text>\n          <text x=\"87\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">Input → [Proses]</text>\n          <text x=\"87\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Tanpa Output!</text>\n\n          <rect x=\"178\" y=\"10\" width=\"155\" height=\"86\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"255\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">2. Miracle</text>\n          <text x=\"255\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">[Proses] → Output</text>\n          <text x=\"255\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Tanpa Input!</text>\n\n          <rect x=\"346\" y=\"10\" width=\"155\" height=\"86\" rx=\"8\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"423\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">3. Entity → Store</text>\n          <text x=\"423\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">Harus melewati</text>\n          <text x=\"423\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Process dulu!</text>\n\n          <rect x=\"514\" y=\"10\" width=\"156\" height=\"86\" rx=\"8\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"592\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">4. Store → Store</text>\n          <text x=\"592\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">Data tidak pindah</text>\n          <text x=\"592\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">tanpa Process!</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Saat menggambar DFD di ujian Essay, pastikan setiap <em>Process</em> punya minimal 1 input dan 1 output, serta tidak ada aliran data langsung antar <em>External Entity</em> atau antar <em>Data Store</em>.</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Jenis Relasi Utama pada Class Diagram (UML 2.x)</div>\n        <svg width=\"680\" height=\"94\" viewBox=\"0 0 680 94\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"155\" height=\"70\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"87\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Association (—)</text><text x=\"87\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Relasi biasa +</text><text x=\"87\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">multiplicity (1..*)</text>\n          <rect x=\"178\" y=\"12\" width=\"155\" height=\"70\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"255\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Aggregation (◇)</text><text x=\"255\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Bagian bisa hidup</text><text x=\"255\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">mandiri tanpa induk</text>\n          <rect x=\"346\" y=\"12\" width=\"155\" height=\"70\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\"/><text x=\"423\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Composition (◆)</text><text x=\"423\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Induk dihapus →</text><text x=\"423\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">bagian ikut hilang</text>\n          <rect x=\"514\" y=\"12\" width=\"156\" height=\"70\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\"/><text x=\"592\" y=\"34\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Generalization (△)</text><text x=\"592\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Pewarisan sifat</text><text x=\"592\" y=\"68\" text-anchor=\"middle\" font-size=\"9\">(Super → Subclass)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Gunakan simbol wajik putih (◇) untuk <em>Aggregation</em> (lemah), wajik hitam (◆) untuk <em>Composition</em> (kuat/terikat hidup-mati), dan segitiga putih (△) untuk <em>Inheritance/Generalization</em>.</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI Ahli & Tokoh Kunci dalam BMP MSIM4302 (Penting untuk Essay!) Alan Dennis, Wixom, & Roth / Tegarden (2009, 2012): Rujukan utama SDLC 4 fase, rumus ROI/NPV/BEP, teknik elisitasi, DFD, OOAD/UML 2.0, content awareness UI, dan definisi desain arsitektur sistem. Jogiyanto H.M. (2008): Tahapan pembuatan Physical DFD (PDFD) dan Logical DFD (LDFD) serta pendekatan terstruktur aplikasi bisnis. Ian Sommerville (2011, 2016): Studi kelayakan menentukan kelayakan proyek menuju rekayasa kebutuhan & pengembangan sistem, serta validasi kebutuhan. Martin Fowler (2005) & Y. Sugiarti (2013): Pemodelan UML ( UML Distilled ), pengembangan iterative , dan perancangan diagram berorientasi objek. R. Tantra (2012) & Avison & Fitzgerald (2006): Manajemen proyek & studi kelayakan (Tantra), serta klasifikasi 4 kelompok metodologi pengembangan SI (Avison & Fitzgerald). Wood & Silver (1995) / Franke & Kaul (1978): Rujukan sesi lokakarya JAD (Joint Application Development) dan studi Efek Hawthorne pada observasi. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu (Dennis, Wixom & Tegarden; Kendall & Kendall; UML 2.x) DFD Logis vs DFD Fisik (Dennis et al. / Jogiyanto): Logical DFD fokus pada apa yang dilakukan bisnis (tanpa menyebut software/media/nama staf), sedangkan Physical DFD fokus pada bagaimana sistem diimplementasikan (menyebut database MySQL, formulir kertas, web browser, atau bagian terkait). 4 Larangan Keras Menggambar DFD (Sering Keluar di Essay!): (1) Black Hole (proses punya input tapi tidak ada output), (2) Miracle (proses menghasilkan output tanpa input), (3) External Entity → Data Store langsung tanpa proses, (4) Data Store → Data Store langsung tanpa proses. Detail Relasi Class Diagram (UML 2.x): Bedakan Aggregation (◇ wajik putih) = relasi \"punya\" longgar (Dosen–Mahasiswa; jika Kelas dihapus, Mahasiswa tetap ada) vs Composition (◆ wajik hitam) = relasi \"bagian hidup-mati\" (Faktur–ItemFaktur; jika Faktur dihapus, Item ikut musnah). 4 Kesalahan Fatal yang Dilarang pada Data Flow Diagram (DFD) 1. Black Hole Input → [Proses] Tanpa Output! 2. Miracle [Proses] → Output Tanpa Input! 3. Entity → Store Harus melewati Process dulu! 4. Store → Store Data tidak pindah tanpa Process! Penjelasan Diagram: Saat menggambar DFD di ujian Essay, pastikan setiap Process punya minimal 1 input dan 1 output, serta tidak ada aliran data langsung antar External Entity atau antar Data Store . 4 Jenis Relasi Utama pada Class Diagram (UML 2.x) Association (—) Relasi biasa + multiplicity (1..*) Aggregation (◇) Bagian bisa hidup mandiri tanpa induk Composition (◆) Induk dihapus → bagian ikut hilang Generalization (△) Pewarisan sifat (Super → Subclass) Penjelasan Diagram: Gunakan simbol wajik putih (◇) untuk Aggregation (lemah), wajik hitam (◆) untuk Composition (kuat/terikat hidup-mati), dan segitiga putih (△) untuk Inheritance/Generalization ."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Fase pertama dalam siklus hidup pengembangan sistem (SDLC) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implementasi"
+        },
+        {
+          "letter": "B",
+          "text": "Perencanaan"
+        },
+        {
+          "letter": "C",
+          "text": "Pengujian"
+        },
+        {
+          "letter": "D",
+          "text": "Pemeliharaan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 1
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Dokumen yang memecah ruang lingkup proyek menjadi paket-paket kerja terukur disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "WBS (Work Breakdown Structure)"
+        },
+        {
+          "letter": "B",
+          "text": "DFD"
+        },
+        {
+          "letter": "C",
+          "text": "ERD"
+        },
+        {
+          "letter": "D",
+          "text": "Class Diagram"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 2
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Pernyataan berikut tentang 'Kebutuhan Bisnis', kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menjadwalkan pertemuan dengan klien"
+        },
+        {
+          "letter": "B",
+          "text": "meningkatkan pangsa pasar"
+        },
+        {
+          "letter": "C",
+          "text": "mengurangi biaya operasional"
+        },
+        {
+          "letter": "D",
+          "text": "meningkatkan layanan pelanggan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 3
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Berikut ini yang termasuk jenis kebutuhan fungsional adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "berorientasi pada proses"
+        },
+        {
+          "letter": "B",
+          "text": "berorientasi pada informasi"
+        },
+        {
+          "letter": "C",
+          "text": "berorientasi pada performa"
+        },
+        {
+          "letter": "D",
+          "text": "jawaban A dan B benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 4
+    },
+    {
+      "module": "M3",
+      "question": "[M3-5] Tipe pemeriksaan dalam validasi kebutuhan meliputi berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pemeriksaan validitas"
+        },
+        {
+          "letter": "B",
+          "text": "pemeriksaan konsistensi"
+        },
+        {
+          "letter": "C",
+          "text": "pemeriksaan prototipe"
+        },
+        {
+          "letter": "D",
+          "text": "pemeriksaan kelengkapan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 5
+    },
+    {
+      "module": "M3",
+      "question": "[M3-6] Untuk mencari informasi yang spesifik dan tepat, analis merancang pertanyaan wawancara bersifat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tertutup"
+        },
+        {
+          "letter": "B",
+          "text": "terbuka"
+        },
+        {
+          "letter": "C",
+          "text": "menyelidik"
+        },
+        {
+          "letter": "D",
+          "text": "semua benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 6
+    },
+    {
+      "module": "M3",
+      "question": "[M3-7] Desain kuesioner yang baik memenuhi unsur ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mulai pertanyaan menarik"
+        },
+        {
+          "letter": "B",
+          "text": "tidak taruh hal penting di akhir"
+        },
+        {
+          "letter": "C",
+          "text": "sertakan nomor pertanyaan"
+        },
+        {
+          "letter": "D",
+          "text": "semua A, B, C benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 7
+    },
+    {
+      "module": "M4",
+      "question": "[M4-8] Berikut yang dapat dikategorikan sebagai simpanan data (data store) di DFD adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "file/database komputer"
+        },
+        {
+          "letter": "B",
+          "text": "agenda/folder di meja"
+        },
+        {
+          "letter": "C",
+          "text": "tabel acuan manual"
+        },
+        {
+          "letter": "D",
+          "text": "semua A, B, C benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 8
+    },
+    {
+      "module": "M4",
+      "question": "[M4-9] Penekanan dalam penggambaran bagan alir program adalah pada ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "urutan prosedur sistem"
+        },
+        {
+          "letter": "B",
+          "text": "formulir"
+        },
+        {
+          "letter": "C",
+          "text": "logika prosedur dalam sebuah proses sistem"
+        },
+        {
+          "letter": "D",
+          "text": "aliran data"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 9
+    },
+    {
+      "module": "M4",
+      "question": "[M4-10] Diagram DFD tingkat paling atas yang hanya memiliki satu proses utama disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DFD Level 2"
+        },
+        {
+          "letter": "B",
+          "text": "Context Diagram"
+        },
+        {
+          "letter": "C",
+          "text": "Flowchart"
+        },
+        {
+          "letter": "D",
+          "text": "State Machine"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 10
+    },
+    {
+      "module": "M5",
+      "question": "[M5-11] Metodologi berorientasi objek mempunyai tiga karakteristik utama, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "encapsulation"
+        },
+        {
+          "letter": "B",
+          "text": "inheritance"
+        },
+        {
+          "letter": "C",
+          "text": "prototyping"
+        },
+        {
+          "letter": "D",
+          "text": "polymorphism"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 11
+    },
+    {
+      "module": "M5",
+      "question": "[M5-12] Sesuatu yang dapat disamakan maknanya dengan object adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "attribute"
+        },
+        {
+          "letter": "B",
+          "text": "instance"
+        },
+        {
+          "letter": "C",
+          "text": "method"
+        },
+        {
+          "letter": "D",
+          "text": "message"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 12
+    },
+    {
+      "module": "M5",
+      "question": "[M5-13] Salah satu komponen notasi dasar di dalam diagram use case adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "operation name"
+        },
+        {
+          "letter": "B",
+          "text": "attribute name"
+        },
+        {
+          "letter": "C",
+          "text": "lifeline"
+        },
+        {
+          "letter": "D",
+          "text": "association"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 13
+    },
+    {
+      "module": "M5",
+      "question": "[M5-14] Komponen notasi actor pada diagram use case biasanya menggunakan kata ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "benda"
+        },
+        {
+          "letter": "B",
+          "text": "kerja"
+        },
+        {
+          "letter": "C",
+          "text": "sifat"
+        },
+        {
+          "letter": "D",
+          "text": "perintah"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 14
+    },
+    {
+      "module": "M5",
+      "question": "[M5-15] Komponen notasi use case pada diagram use case biasanya menggunakan kata ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "benda"
+        },
+        {
+          "letter": "B",
+          "text": "kerja deskriptif"
+        },
+        {
+          "letter": "C",
+          "text": "sifat"
+        },
+        {
+          "letter": "D",
+          "text": "perintah"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 15
+    },
+    {
+      "module": "M6",
+      "question": "[M6-16] Versi UML yang mengkategorikan activity diagram sebagai kasus khusus state diagram adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "UML 1.0"
+        },
+        {
+          "letter": "B",
+          "text": "UML 2.0"
+        },
+        {
+          "letter": "C",
+          "text": "UML 2.1"
+        },
+        {
+          "letter": "D",
+          "text": "B dan C benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 16
+    },
+    {
+      "module": "M6",
+      "question": "[M6-17] Object dalam activity diagram yang merepresentasikan benda hasil/masukan action adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "initial node"
+        },
+        {
+          "letter": "B",
+          "text": "final-activity node"
+        },
+        {
+          "letter": "C",
+          "text": "node objek (object node)"
+        },
+        {
+          "letter": "D",
+          "text": "A dan B benar"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 17
+    },
+    {
+      "module": "M6",
+      "question": "[M6-18] Node yang memastikan aliran kontrol/objek hanya mengarah ke satu jalur keputusan adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fork"
+        },
+        {
+          "letter": "B",
+          "text": "node keputusan (decision)"
+        },
+        {
+          "letter": "C",
+          "text": "merge"
+        },
+        {
+          "letter": "D",
+          "text": "join"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 18
+    },
+    {
+      "module": "M6",
+      "question": "[M6-19] Untuk menunjukkan objek aktual yang mengalir masuk dan keluar dari action digunakan....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "control flow"
+        },
+        {
+          "letter": "B",
+          "text": "aliran objek (object flow)"
+        },
+        {
+          "letter": "C",
+          "text": "control node"
+        },
+        {
+          "letter": "D",
+          "text": "semua salah"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 19
+    },
+    {
+      "module": "M6",
+      "question": "[M6-20] Node yang digunakan untuk menghentikan aliran kontrol tertentu adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "initial node"
+        },
+        {
+          "letter": "B",
+          "text": "final-activity node"
+        },
+        {
+          "letter": "C",
+          "text": "final-flow node"
+        },
+        {
+          "letter": "D",
+          "text": "jawaban B dan C benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 20
+    },
+    {
+      "module": "M7",
+      "question": "[M7-21] Diagram UML yang memodelkan interaksi antar objek berdasarkan urutan waktu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Class Diagram"
+        },
+        {
+          "letter": "B",
+          "text": "Sequence Diagram"
+        },
+        {
+          "letter": "C",
+          "text": "Use Case"
+        },
+        {
+          "letter": "D",
+          "text": "DFD"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 21
+    },
+    {
+      "module": "M7",
+      "question": "[M7-22] Garis vertikal putus-putus yang menunjukkan keberadaan objek sepanjang waktu pada Sequence Diagram disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Association"
+        },
+        {
+          "letter": "B",
+          "text": "Lifeline"
+        },
+        {
+          "letter": "C",
+          "text": "Data Store"
+        },
+        {
+          "letter": "D",
+          "text": "Swimlane"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 22
+    },
+    {
+      "module": "M7",
+      "question": "[M7-23] Diagram yang menggambarkan perubahan status suatu objek akibat event tertentu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Behavioral State Machine"
+        },
+        {
+          "letter": "B",
+          "text": "Activity Diagram"
+        },
+        {
+          "letter": "C",
+          "text": "ERD"
+        },
+        {
+          "letter": "D",
+          "text": "Gantt Chart"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 23
+    },
+    {
+      "module": "M8",
+      "question": "[M8-24] Transformasi relasi M:N pada ERD ke diagram relasi menghasilkan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penghapusan kedua tabel"
+        },
+        {
+          "letter": "B",
+          "text": "Satu tabel baru (tabel relasi)"
+        },
+        {
+          "letter": "C",
+          "text": "Penyatuan jadi 1 tabel"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak perlu PK"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 24
+    },
+    {
+      "module": "M8",
+      "question": "[M8-25] Pada transformasi relasi 1:N, Primary Key dari sisi '1' dipindahkan ke sisi 'N' sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Super Key"
+        },
+        {
+          "letter": "B",
+          "text": "Foreign Key"
+        },
+        {
+          "letter": "C",
+          "text": "Alternate Key"
+        },
+        {
+          "letter": "D",
+          "text": "Object"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 25
+    },
+    {
+      "module": "M8",
+      "question": "[M8-26] Membeli perangkat lunak siap pakai dari vendor (COTS) cocok jika proses bisnis bersifat...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sangat unik"
+        },
+        {
+          "letter": "B",
+          "text": "Standar/umum"
+        },
+        {
+          "letter": "C",
+          "text": "Rahasia negara"
+        },
+        {
+          "letter": "D",
+          "text": "Belum jelas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 26
+    },
+    {
+      "module": "M9",
+      "question": "[M9-27] Arsitektur yang memisahkan lapisan Presentation, Business Logic, dan Data Server disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Single-tier"
+        },
+        {
+          "letter": "B",
+          "text": "2-tier"
+        },
+        {
+          "letter": "C",
+          "text": "3-tier"
+        },
+        {
+          "letter": "D",
+          "text": "Stand-alone"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 27
+    },
+    {
+      "module": "M9",
+      "question": "[M9-28] Tujuan utama desain antarmuka pengguna (UI) yang baik adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Warna sebanyak mungkin"
+        },
+        {
+          "letter": "B",
+          "text": "Mudah dipelajari, konsisten, dan meminimalkan error input"
+        },
+        {
+          "letter": "C",
+          "text": "Teks sangat kecil"
+        },
+        {
+          "letter": "D",
+          "text": "Tanpa navigasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 28
+    },
+    {
+      "module": "M1",
+      "question": "[M1-29] Orang yang bertugas menjembatani kebutuhan bisnis pengguna dan solusi teknis TI adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "System Analyst"
+        },
+        {
+          "letter": "B",
+          "text": "Network Cabler"
+        },
+        {
+          "letter": "C",
+          "text": "Kasir"
+        },
+        {
+          "letter": "D",
+          "text": "Operator"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 29
+    },
+    {
+      "module": "M2",
+      "question": "[M2-30] Pengukuran kelayakan yang menilai apakah sistem mampu secara biaya dibanding manfaatnya adalah kelayakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Teknis"
+        },
+        {
+          "letter": "B",
+          "text": "Ekonomis"
+        },
+        {
+          "letter": "C",
+          "text": "Hukum"
+        },
+        {
+          "letter": "D",
+          "text": "Jadwal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 30
+    },
+    {
+      "module": "M4",
+      "question": "[M4-31] Simbol belah ketupat (diamond) pada flowchart umumnya menyatakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Awal/Akhir"
+        },
+        {
+          "letter": "B",
+          "text": "Keputusan (Decision/Percabangan)"
+        },
+        {
+          "letter": "C",
+          "text": "Simpanan"
+        },
+        {
+          "letter": "D",
+          "text": "Cetak"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 31
+    },
+    {
+      "module": "M5",
+      "question": "[M5-32] Kemampuan sebuah method yang sama menghasilkan perilaku berbeda pada subclass disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Encapsulation"
+        },
+        {
+          "letter": "B",
+          "text": "Polymorphism"
+        },
+        {
+          "letter": "C",
+          "text": "Aggregation"
+        },
+        {
+          "letter": "D",
+          "text": "Association"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 32
+    },
+    {
+      "module": "M6",
+      "question": "[M6-33] Bagian tengah pada kotak Class dalam Class Diagram berisi daftar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nama Class"
+        },
+        {
+          "letter": "B",
+          "text": "Attribute (atribut)"
+        },
+        {
+          "letter": "C",
+          "text": "Operation/Method"
+        },
+        {
+          "letter": "D",
+          "text": "Lifeline"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 33
+    },
+    {
+      "module": "M6",
+      "question": "[M6-34] Bagian paling bawah pada kotak Class dalam Class Diagram berisi daftar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nama Class"
+        },
+        {
+          "letter": "B",
+          "text": "Attribute"
+        },
+        {
+          "letter": "C",
+          "text": "Operation / Method"
+        },
+        {
+          "letter": "D",
+          "text": "Actor"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 34
+    },
+    {
+      "module": "M7",
+      "question": "[M7-35] Diagram interaksi yang lebih menonjolkan tautan struktural antar objek dibanding garis waktu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sequence Diagram"
+        },
+        {
+          "letter": "B",
+          "text": "Communication Diagram"
+        },
+        {
+          "letter": "C",
+          "text": "State Diagram"
+        },
+        {
+          "letter": "D",
+          "text": "DFD"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 35
+    },
+    {
+      "module": "M9",
+      "question": "[M9-36] Validasi format tanggal atau kolom wajib diisi pada formulir aplikasi merupakan bagian dari desain...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Input"
+        },
+        {
+          "letter": "B",
+          "text": "Output"
+        },
+        {
+          "letter": "C",
+          "text": "Jaringan"
+        },
+        {
+          "letter": "D",
+          "text": "Hardware"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 36
+    }
+  ],
+  "essayQuestions": [
+    {
+      "question": "1. Jelaskan tahapan utama dalam SDLC (System Development Life Cycle)!",
+      "answer": "Perencanaan (identifikasi masalah & kelayakan), Analisis (kumpul & modelkan kebutuhan), Desain (arsitektur, database, UI), Implementasi (coding, testing, konversi), dan Pemeliharaan.",
+      "num": 1
+    },
+    {
+      "question": "2. Apa saja 3 aspek utama dalam Studi Kelayakan proyek sistem informasi?",
+      "answer": "(1) Kelayakan Teknis (ketersediaan hardware/software/keahlian), (2) Kelayakan Ekonomis (analisis biaya-manfaat/ROI), dan (3) Kelayakan Organisasi/Operasional (penerimaan pengguna & budaya kerja).",
+      "num": 2
+    },
+    {
+      "question": "3. Bedakan Kebutuhan Fungsional dan Kebutuhan Non-Fungsional beserta contohnya!",
+      "answer": "Kebutuhan Fungsional menjelaskan layanan/proses yang harus dilakukan sistem (mis. cetak faktur, login). Non-Fungsional menjelaskan batasan/kualitas sistem (mis. waktu respon <2 detik, enkripsi SSL).",
+      "num": 3
+    },
+    {
+      "question": "4. Sebutkan 3 jenis pertanyaan dalam wawancara elisitasi kebutuhan!",
+      "answer": "(1) Pertanyaan Tertutup (mencari fakta/jawaban spesifik), (2) Pertanyaan Terbuka (eksplorasi pendapat luas), dan (3) Pertanyaan Menyelidik/Probing (menggali detail lebih dalam).",
+      "num": 4
+    },
+    {
+      "question": "5. Sebutkan 4 tipe pemeriksaan dalam Validasi Kebutuhan!",
+      "answer": "Pemeriksaan validitas, pemeriksaan konsistensi, pemeriksaan kelengkapan, dan pemeriksaan realisme/keterujian.",
+      "num": 5
+    },
+    {
+      "question": "6. Sebutkan dan jelaskan 4 simbol utama dalam Data Flow Diagram (DFD)!",
+      "answer": "External Entity (sumber/tujuan data eksternal), Process (mengubah input jadi output), Data Flow (arah aliran data), dan Data Store (tempat simpan data seperti file/DB).",
+      "num": 6
+    },
+    {
+      "question": "7. Apa perbedaan Context Diagram (Level 0) dengan DFD Level 1?",
+      "answer": "Context Diagram menggambarkan keseluruhan sistem hanya dalam 1 proses tunggal beserta entitas luarnya, sedangkan DFD Level 1 memecah proses utama tersebut menjadi sub-proses dan memperlihatkan Data Store.",
+      "num": 7
+    },
+    {
+      "question": "8. Jelaskan perbedaan fokus Bagan Alir Sistem vs Bagan Alir Program!",
+      "answer": "Bagan Alir Sistem menekankan aliran fisik dokumen, media input/output, dan tahapan prosedur sistem secara umum; Bagan Alir Program menekankan logika detail langkah-langkah algoritma di dalam program.",
+      "num": 8
+    },
+    {
+      "question": "9. Jelaskan 3 karakteristik utama pemrograman/pemodelan Berorientasi Objek!",
+      "answer": "(1) Encapsulation (membungkus data & method dalam satu objek), (2) Inheritance (pewarisan sifat dari superclass ke subclass), dan (3) Polymorphism (satu pesan/method dapat berperilaku berbeda pada objek berbeda).",
+      "num": 9
+    },
+    {
+      "question": "10. Apa perbedaan aturan penamaan Actor dan Use Case pada Use Case Diagram?",
+      "answer": "Actor dinamai dengan kata benda (peran pengguna/sistem luar), sedangkan Use Case dinamai dengan kata kerja deskriptif (aktivitas yang dilakukan sistem).",
+      "num": 10
+    },
+    {
+      "question": "11. Jelaskan fungsi Decision, Merge, Fork, dan Join pada Activity Diagram!",
+      "answer": "Decision memilih 1 jalur berdasarkan kondisi; Merge menggabungkan kembali jalur kondisional; Fork memecah 1 aliran menjadi beberapa aktivitas paralel; Join menyatukan kembali aliran paralel.",
+      "num": 11
+    },
+    {
+      "question": "12. Apa perbedaan Control Flow dan Object Flow pada Activity Diagram?",
+      "answer": "Control Flow menunjukkan urutan eksekusi antar action, sedangkan Object Flow menunjukkan aliran objek/data aktual yang masuk atau keluar dari suatu action.",
+      "num": 12
+    },
+    {
+      "question": "13. Jelaskan perbedaan Sequence Diagram dan Communication Diagram!",
+      "answer": "Keduanya adalah diagram interaksi: Sequence Diagram menekankan urutan waktu pengiriman pesan (lifeline vertikal), sedangkan Communication Diagram menekankan struktur organisasi/tautan antar objek.",
+      "num": 13
+    },
+    {
+      "question": "14. Kapan kita menggunakan Behavioral State Machine Diagram?",
+      "answer": "Saat perlu memodelkan berbagai status (state) yang dialami oleh satu objek spesifik sepanjang siklus hidupnya beserta event yang memicu perpindahan state tersebut.",
+      "num": 14
+    },
+    {
+      "question": "15. Bagaimana aturan transformasi relasi 1:N dari ERD ke Tabel Relasi?",
+      "answer": "Primary Key (PK) dari entitas yang berderajat '1' disalin dan dimasukkan sebagai Foreign Key (FK) ke dalam tabel entitas yang berderajat 'N'.",
+      "num": 15
+    },
+    {
+      "question": "16. Bagaimana aturan transformasi relasi M:N (Many-to-Many) dari ERD ke Tabel Relasi?",
+      "answer": "Harus dibuat satu tabel baru (tabel relasi/jembatan) yang menampung Primary Key dari kedua entitas sebagai Foreign Key (dan biasanya digabung menjadi Composite Primary Key).",
+      "num": 16
+    },
+    {
+      "question": "17. Sebutkan 3 strategi akuisisi sistem informasi beserta pertimbangannya!",
+      "answer": "(1) Custom/In-house (fleksibel & sesuai kebutuhan unik, tapi mahal & lama), (2) Membeli paket/COTS (cepat & teruji, tapi kurang fleksibel), (3) Outsourcing (hemat tim internal, tapi butuh kontrol vendor ketat).",
+      "num": 17
+    },
+    {
+      "question": "18. Jelaskan arsitektur Client-Server 2-Tier dan 3-Tier!",
+      "answer": "2-Tier memisahkan Client (UI + logika) langsung ke Server Database. 3-Tier memisahkan Presentation (Client), Application/Business Logic (App Server), dan Data (DB Server) agar lebih skalabel dan aman.",
+      "num": 18
+    },
+    {
+      "question": "19. Sebutkan 4 prinsip penting dalam Desain Antarmuka Pengguna (UI)!",
+      "answer": "Konsistensi tata letak/istilah, kesederhanaan & kejelasan navigasi, pencegahan/penanganan error (validasi input), serta umpan balik cepat kepada pengguna.",
+      "num": 19
+    },
+    {
+      "question": "20. Mengapa desain kuesioner yang baik tidak boleh menaruh pertanyaan penting di bagian akhir?",
+      "answer": "Karena responden cenderung mengalami kelelahan (fatigue) di akhir kuesioner sehingga berisiko menjawab asal atau tidak menyelesaikan pengisian.",
+      "num": 20
+    }
+  ]
+}

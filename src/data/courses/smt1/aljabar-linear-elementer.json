@@ -1,0 +1,1599 @@
+{
+  "slug": "aljabar-linear-elementer",
+  "semester": 1,
+  "url": "/smt1/aljabar-linear-elementer",
+  "canonical": "https://belajar-ut.azf.my.id/smt1/aljabar-linear-elementer.html",
+  "title": "MATA4112: Aljabar Linear Elementer I — Modul & Bank Soal UT",
+  "shortLabel": "Aljabar Linear I (MATA4112)",
+  "h1": "MATA4112: Aljabar Linear Elementer I",
+  "metaDesc": "Ringkasan lengkap 6 modul Aljabar Linear Elementer I (MATA4112) UT: Matriks & Operasinya, Operasi Baris Elementer (OBE) & Matriks Eselon, Sistem Persamaan Linear (SPL) & Gauss-Jordan, Determinan & Aturan Cramer, Ruang Vektor R2 & R3, serta Perkalian Titik & Silang + 68 Soal PG.",
+  "coverTag": "Semester 1 • BMP UT (R. J. Pamuntjak Warsito)",
+  "coverTagColor": "#059669",
+  "coverDesc": "Ringkasan lengkap 6 modul Aljabar Linear Elementer I (MATA4112) UT: Matriks & Operasinya, Operasi Baris Elementer (OBE) & Matriks Eselon, Sistem Persamaan Linear (SPL) & Gauss-Jordan, Determinan & Aturan Cramer, Ruang Vektor R2 & R3, serta Perkalian Titik & Silang + 68 Soal PG.",
+  "badges": [
+    {
+      "bg": "var(--hl-mint)",
+      "text": "6 Modul + Diagram"
+    },
+    {
+      "bg": "var(--hl-yellow)",
+      "text": "68 Soal PG + Rumus"
+    },
+    {
+      "bg": "var(--hl-blue)",
+      "text": "Semester 1 • Matematika"
+    }
+  ],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Matriks dan Operasinya"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Operasi Baris Elementer (OBE) dan Matriks Eselon"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Sistem Persamaan Linear (SPL) dan Eliminasi Gauss-Jordan"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Determinan dan Aturan Cramer"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Ruang Vektor R² dan R³"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Perkalian Titik (Dot Product) dan Perkalian Silang (Cross Product)"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Modul 1: Matriks dan Operasinya",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-head\">\n        <h2>Modul 1: Matriks dan Operasinya</h2>\n        <span class=\"mod-tag\">Modul 1</span>\n      </div>\n      <h3>KB 1: Pengertian, Ordo, dan Jenis Matriks</h3>\n        <ul>\n          <li><strong>Definisi Matriks:</strong> Susunan bilangan berbentuk persegi panjang yang diatur dalam <em>m</em> baris dan <em>n</em> kolom (ordo <em>m &times; n</em>).</li>\n          <li><strong>Jenis Matriks Khusus:</strong> Matriks persegi (<em>m = n</em>), matriks diagonal, matriks identitas (<em>I</em>, diagonal utama = 1), matriks nol, matriks segitiga atas/bawah, dan matriks simetris (<em>A<sup>T</sup> = A</em>).</li>\n        </ul><h3>KB 2: Operasi Aljabar Matriks &amp; Transpose</h3>\n        <ul>\n          <li><strong>Penjumlahan &amp; Pengurangan:</strong> Hanya berlaku jika kedua matriks berordo sama; dihitung elemen per elemen.</li>\n          <li><strong>Perkalian Matriks (AB):</strong> Terdefinisi jika jumlah kolom <em>A</em> sama dengan jumlah baris <em>B</em> (<em>m &times; p</em> dikali <em>p &times; n</em> menghasilkan <em>m &times; n</em>). Bersifat <strong>tidak komutatif</strong> (<em>AB &ne; BA</em> secara umum).</li>\n          <li><strong>Sifat Transpose:</strong> (<em>AB</em>)<sup>T</sup> = <em>B</em><sup>T</sup><em>A</em><sup>T</sup> (urutan dibalik!).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Syarat Kompatibilitas Perkalian Dua Matriks (m x p) . (p x n) = (m x n)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"55\" width=\"160\" height=\"75\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"115.0\" y=\"87.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Matriks A</text><text x=\"115.0\" y=\"109.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ordo m x p</text><line x1=\"195\" y1=\"92\" x2=\"245\" y2=\"92\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"220.0\" y=\"86.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">syarat: p = p</text><rect x=\"245\" y=\"55\" width=\"160\" height=\"75\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"325.0\" y=\"87.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Matriks B</text><text x=\"325.0\" y=\"109.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ordo p x n</text><line x1=\"405\" y1=\"92\" x2=\"455\" y2=\"92\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"430.0\" y=\"86.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">hasil</text><rect x=\"455\" y=\"55\" width=\"190\" height=\"75\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"550.0\" y=\"87.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Matriks AB</text><text x=\"550.0\" y=\"109.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ordo m x n (AB != BA)</text>\n  </svg>\n  <p class=\"svg-caption\">Syarat Kompatibilitas Perkalian Dua Matriks (m x p) . (p x n) = (m x n)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Ordo m x n</span>\n          <span class=\"kw-chip\">Matriks Identitas</span>\n          <span class=\"kw-chip\">AB != BA</span>\n          <span class=\"kw-chip\">Transpose (AB)^T = B^T A^T</span>\n          <span class=\"kw-chip\">Matriks Simetris</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 1: Matriks dan Operasinya Modul 1 KB 1: Pengertian, Ordo, dan Jenis Matriks Definisi Matriks: Susunan bilangan berbentuk persegi panjang yang diatur dalam m baris dan n kolom (ordo m × n ). Jenis Matriks Khusus: Matriks persegi ( m = n ), matriks diagonal, matriks identitas ( I , diagonal utama = 1), matriks nol, matriks segitiga atas/bawah, dan matriks simetris ( A T = A ). KB 2: Operasi Aljabar Matriks & Transpose Penjumlahan & Pengurangan: Hanya berlaku jika kedua matriks berordo sama; dihitung elemen per elemen. Perkalian Matriks (AB): Terdefinisi jika jumlah kolom A sama dengan jumlah baris B ( m × p dikali p × n menghasilkan m × n ). Bersifat tidak komutatif ( AB ≠ BA secara umum). Sifat Transpose: ( AB ) T = B T A T (urutan dibalik!). Matriks A Ordo m x p syarat: p = p Matriks B Ordo p x n hasil Matriks AB Ordo m x n (AB != BA) Syarat Kompatibilitas Perkalian Dua Matriks (m x p) . (p x n) = (m x n) 🔑 Kata Kunci Wajib Ingat: Ordo m x n Matriks Identitas AB != BA Transpose (AB)^T = B^T A^T Matriks Simetris"
+    },
+    {
+      "id": "m2",
+      "title": "Modul 2: Operasi Baris Elementer (OBE) dan Matriks Eselon",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-head\">\n        <h2>Modul 2: Operasi Baris Elementer (OBE) dan Matriks Eselon</h2>\n        <span class=\"mod-tag\">Modul 2</span>\n      </div>\n      <h3>KB 1: Tiga Operasi Baris Elementer (OBE)</h3>\n        <ul>\n          <li><strong>1. Pertukaran Baris (<em>R<sub>i</sub> &harr; R<sub>j</sub></em>):</strong> Menukar posisi dua baris.</li>\n          <li><strong>2. Penskalaan Baris (<em>k R<sub>i</sub></em>):</strong> Mengalikan satu baris dengan skalar <em>k &ne; 0</em>.</li>\n          <li><strong>3. Penggantian Baris (<em>R<sub>i</sub> + k R<sub>j</sub></em>):</strong> Menambahkan kelipatan satu baris ke baris lainnya.</li>\n        </ul><h3>KB 2: Matriks Eselon Baris &amp; Invers Matriks</h3>\n        <ul>\n          <li><strong>Matriks Eselon Baris (REF):</strong> Elemen tak nol pertama setiap baris adalah <strong>1 utama</strong> (<em>leading 1</em>), posisi 1 utama baris bawah selalu lebih ke kanan, dan baris nol di paling bawah.</li>\n          <li><strong>Eselon Baris Tereduksi (RREF):</strong> Setiap kolom yang memuat 1 utama memiliki nilai 0 di semua elemen lain pada kolom tersebut.</li>\n          <li><strong>Invers Matriks via OBE:</strong> Susun matriks diperbesar <code>[A | I]</code> lalu lakukan OBE hingga menjadi <code>[I | A<sup>-1</sup>]</code>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Alur Reduksi Gauss-Jordan untuk Mencari Invers Matriks [A | I] -&gt; [I | A^-1]\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"60\" width=\"175\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"117.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Matriks [A | I]</text><text x=\"117.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Matriks Awal + Identitas</text><line x1=\"205\" y1=\"98\" x2=\"260\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"232.5\" y=\"92.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">OBE</text><rect x=\"260\" y=\"60\" width=\"170\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"345.0\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Eselon Baris (REF)</text><text x=\"345.0\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">1 Utama Bertangga</text><line x1=\"430\" y1=\"98\" x2=\"485\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"457.5\" y=\"92.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">RREF</text><rect x=\"485\" y=\"60\" width=\"165\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"567.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Matriks [I | A^-1]</text><text x=\"567.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Invers Ditemukan</text>\n  </svg>\n  <p class=\"svg-caption\">Alur Reduksi Gauss-Jordan untuk Mencari Invers Matriks [A | I] -&gt; [I | A^-1]</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">3 Operasi OBE</span>\n          <span class=\"kw-chip\">Leading 1 (1 Utama)</span>\n          <span class=\"kw-chip\">REF vs RREF</span>\n          <span class=\"kw-chip\">Matriks Elementer</span>\n          <span class=\"kw-chip\">Invers [A | I]</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 2: Operasi Baris Elementer (OBE) dan Matriks Eselon Modul 2 KB 1: Tiga Operasi Baris Elementer (OBE) 1. Pertukaran Baris ( R i ↔ R j ): Menukar posisi dua baris. 2. Penskalaan Baris ( k R i ): Mengalikan satu baris dengan skalar k ≠ 0 . 3. Penggantian Baris ( R i + k R j ): Menambahkan kelipatan satu baris ke baris lainnya. KB 2: Matriks Eselon Baris & Invers Matriks Matriks Eselon Baris (REF): Elemen tak nol pertama setiap baris adalah 1 utama ( leading 1 ), posisi 1 utama baris bawah selalu lebih ke kanan, dan baris nol di paling bawah. Eselon Baris Tereduksi (RREF): Setiap kolom yang memuat 1 utama memiliki nilai 0 di semua elemen lain pada kolom tersebut. Invers Matriks via OBE: Susun matriks diperbesar [A | I] lalu lakukan OBE hingga menjadi [I | A -1 ] . Matriks [A | I] Matriks Awal + Identitas OBE Eselon Baris (REF) 1 Utama Bertangga RREF Matriks [I | A^-1] Invers Ditemukan Alur Reduksi Gauss-Jordan untuk Mencari Invers Matriks [A | I] -> [I | A^-1] 🔑 Kata Kunci Wajib Ingat: 3 Operasi OBE Leading 1 (1 Utama) REF vs RREF Matriks Elementer Invers [A | I]"
+    },
+    {
+      "id": "m3",
+      "title": "Modul 3: Sistem Persamaan Linear (SPL) dan Eliminasi Gauss-Jordan",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-head\">\n        <h2>Modul 3: Sistem Persamaan Linear (SPL) dan Eliminasi Gauss-Jordan</h2>\n        <span class=\"mod-tag\">Modul 3</span>\n      </div>\n      <h3>KB 1: Bentuk Matriks Diperbesar &amp; Kemungkinan Solusi SPL</h3>\n        <ul>\n          <li><strong>Representasi SPL:</strong> <em>Ax = b</em> dapat ditulis sebagai matriks diperbesar (<em>augmented matrix</em>) <code>[A | b]</code>.</li>\n          <li><strong>3 Kemungkinan Solusi SPL:</strong> (1) <em>Solusi tunggal</em> (konsisten), (2) <em>Tak hingga banyak solusi</em> (konsisten dengan variabel bebas / parameter), (3) <em>Tidak ada solusi</em> (inkonsisten, muncul baris <code>[0 0 ... 0 | c]</code> dengan <em>c &ne; 0</em>).</li>\n        </ul><h3>KB 2: Eliminasi Gauss vs Gauss-Jordan &amp; SPL Homogen</h3>\n        <ul>\n          <li><strong>Eliminasi Gauss:</strong> Mereduksi ke bentuk REF lalu substitusi balik (<em>back-substitution</em>).</li>\n          <li><strong>Eliminasi Gauss-Jordan:</strong> Mereduksi langsung ke bentuk RREF sehingga solusi terbaca langsung.</li>\n          <li><strong>SPL Homogen (<em>Ax = 0</em>):</strong> Selalu konsisten! Minimal memiliki <em>solusi trivial</em> (<em>x = 0</em>). Memiliki solusi nontrivial jika jumlah variabel &gt; jumlah persamaan (atau <em>det(A) = 0</em>).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 210\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klasifikasi Tiga Kemungkinan Solusi Sistem Persamaan Linear (SPL)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"220\" y=\"20\" width=\"240\" height=\"48\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"40.6\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">SPL: Ax = b</text><text x=\"340.0\" y=\"54.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Reduksi [A | b] ke Eselon Baris</text><line x1=\"270\" y1=\"68\" x2=\"120\" y2=\"118\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"340\" y1=\"68\" x2=\"340\" y2=\"118\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"410\" y1=\"68\" x2=\"560\" y2=\"118\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"25\" y=\"118\" width=\"190\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"120.0\" y=\"149.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Solusi Tunggal</text><text x=\"120.0\" y=\"169.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Rank(A) = Rank(A|b) = n</text><rect x=\"245\" y=\"118\" width=\"190\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"149.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Tak Hingga Solusi</text><text x=\"340.0\" y=\"169.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ada variabel bebas</text><rect x=\"465\" y=\"118\" width=\"190\" height=\"72\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"560.0\" y=\"149.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Tak Ada Solusi</text><text x=\"560.0\" y=\"169.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Baris [0 ... 0 | c != 0]</text>\n  </svg>\n  <p class=\"svg-caption\">Klasifikasi Tiga Kemungkinan Solusi Sistem Persamaan Linear (SPL)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Augmented Matrix</span>\n          <span class=\"kw-chip\">Eliminasi Gauss-Jordan</span>\n          <span class=\"kw-chip\">Inkonsisten</span>\n          <span class=\"kw-chip\">Variabel Bebas</span>\n          <span class=\"kw-chip\">SPL Homogen Trivial</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 3: Sistem Persamaan Linear (SPL) dan Eliminasi Gauss-Jordan Modul 3 KB 1: Bentuk Matriks Diperbesar & Kemungkinan Solusi SPL Representasi SPL: Ax = b dapat ditulis sebagai matriks diperbesar ( augmented matrix ) [A | b] . 3 Kemungkinan Solusi SPL: (1) Solusi tunggal (konsisten), (2) Tak hingga banyak solusi (konsisten dengan variabel bebas / parameter), (3) Tidak ada solusi (inkonsisten, muncul baris [0 0 ... 0 | c] dengan c ≠ 0 ). KB 2: Eliminasi Gauss vs Gauss-Jordan & SPL Homogen Eliminasi Gauss: Mereduksi ke bentuk REF lalu substitusi balik ( back-substitution ). Eliminasi Gauss-Jordan: Mereduksi langsung ke bentuk RREF sehingga solusi terbaca langsung. SPL Homogen ( Ax = 0 ): Selalu konsisten! Minimal memiliki solusi trivial ( x = 0 ). Memiliki solusi nontrivial jika jumlah variabel > jumlah persamaan (atau det(A) = 0 ). SPL: Ax = b Reduksi [A | b] ke Eselon Baris Solusi Tunggal Rank(A) = Rank(A|b) = n Tak Hingga Solusi Ada variabel bebas Tak Ada Solusi Baris [0 ... 0 | c != 0] Klasifikasi Tiga Kemungkinan Solusi Sistem Persamaan Linear (SPL) 🔑 Kata Kunci Wajib Ingat: Augmented Matrix Eliminasi Gauss-Jordan Inkonsisten Variabel Bebas SPL Homogen Trivial"
+    },
+    {
+      "id": "m4",
+      "title": "Modul 4: Determinan dan Aturan Cramer",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-head\">\n        <h2>Modul 4: Determinan dan Aturan Cramer</h2>\n        <span class=\"mod-tag\">Modul 4</span>\n      </div>\n      <h3>KB 1: Perhitungan Determinan (Sarrus &amp; Ekspansi Kofaktor)</h3>\n        <ul>\n          <li><strong>Matriks 2&times;2:</strong> Jika <em>A = [[a, b], [c, d]]</em>, maka <strong>det(A) = ad - bc</strong>. Matriks memiliki invers jika dan hanya jika <strong>det(A) &ne; 0</strong> (non-singular).</li>\n          <li><strong>Sifat Determinan &amp; OBE:</strong> Menukar 2 baris membalik tanda det (&times;-1); mengalikan baris dengan <em>k</em> mengalikan det dengan <em>k</em>; menambah kelipatan baris ke baris lain <strong>tidak mengubah</strong> det.</li>\n          <li><strong>Sifat Penting:</strong> <em>det(AB) = det(A) &middot; det(B)</em>, <em>det(A<sup>T</sup>) = det(A)</em>, dan <em>det(A<sup>-1</sup>) = 1 / det(A)</em>.</li>\n        </ul><h3>KB 2: Matriks Adjoin &amp; Aturan Cramer</h3>\n        <ul>\n          <li><strong>Invers via Adjoin:</strong> <em>A<sup>-1</sup> = (1 / det(A)) &middot; adj(A)</em>, di mana <em>adj(A)</em> adalah transpose dari matriks kofaktor.</li>\n          <li><strong>Aturan Cramer:</strong> Untuk <em>Ax = b</em> dengan <em>det(A) &ne; 0</em>, solusi variabel ke-<em>i</em> adalah <strong>x<sub>i</sub> = det(A<sub>i</sub>) / det(A)</strong> (kolom ke-<em>i</em> diganti vektor <em>b</em>).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hubungan Determinan Tak Nol (Non-Singular) dengan Invers dan Aturan Cramer\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"122.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">det(A) != 0</text><text x=\"122.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Matriks Non-Singular</text><line x1=\"215\" y1=\"96\" x2=\"260\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"260\" y=\"58\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"352.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Punya Invers A^-1</text><text x=\"352.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ax = b Solusi Tunggal</text><line x1=\"445\" y1=\"96\" x2=\"485\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"485\" y=\"58\" width=\"165\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"567.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Aturan Cramer</text><text x=\"567.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">x_i = det(A_i)/det(A)</text>\n  </svg>\n  <p class=\"svg-caption\">Hubungan Determinan Tak Nol (Non-Singular) dengan Invers dan Aturan Cramer</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">det(A) = ad - bc</span>\n          <span class=\"kw-chip\">Non-Singular</span>\n          <span class=\"kw-chip\">Ekspansi Kofaktor</span>\n          <span class=\"kw-chip\">Adjoin Matriks</span>\n          <span class=\"kw-chip\">Aturan Cramer</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 4: Determinan dan Aturan Cramer Modul 4 KB 1: Perhitungan Determinan (Sarrus & Ekspansi Kofaktor) Matriks 2×2: Jika A = [[a, b], [c, d]] , maka det(A) = ad - bc . Matriks memiliki invers jika dan hanya jika det(A) ≠ 0 (non-singular). Sifat Determinan & OBE: Menukar 2 baris membalik tanda det (×-1); mengalikan baris dengan k mengalikan det dengan k ; menambah kelipatan baris ke baris lain tidak mengubah det. Sifat Penting: det(AB) = det(A) · det(B) , det(A T ) = det(A) , dan det(A -1 ) = 1 / det(A) . KB 2: Matriks Adjoin & Aturan Cramer Invers via Adjoin: A -1 = (1 / det(A)) · adj(A) , di mana adj(A) adalah transpose dari matriks kofaktor. Aturan Cramer: Untuk Ax = b dengan det(A) ≠ 0 , solusi variabel ke- i adalah x i = det(A i ) / det(A) (kolom ke- i diganti vektor b ). det(A) != 0 Matriks Non-Singular Punya Invers A^-1 Ax = b Solusi Tunggal Aturan Cramer x_i = det(A_i)/det(A) Hubungan Determinan Tak Nol (Non-Singular) dengan Invers dan Aturan Cramer 🔑 Kata Kunci Wajib Ingat: det(A) = ad - bc Non-Singular Ekspansi Kofaktor Adjoin Matriks Aturan Cramer"
+    },
+    {
+      "id": "m5",
+      "title": "Modul 5: Ruang Vektor R² dan R³",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-head\">\n        <h2>Modul 5: Ruang Vektor R² dan R³</h2>\n        <span class=\"mod-tag\">Modul 5</span>\n      </div>\n      <h3>KB 1: Vektor Geometris, Aljabar, &amp; Kombinasi Linear</h3>\n        <ul>\n          <li><strong>Vektor di R<sup>2</sup> dan R<sup>3</sup>:</strong> Besaran yang memiliki panjang (magnitudo) dan arah. Panjang vektor <em>v = (v<sub>1</sub>, v<sub>2</sub>, v<sub>3</sub>)</em> adalah <strong>||v|| = &radic;(v<sub>1</sub><sup>2</sup> + v<sub>2</sub><sup>2</sup> + v<sub>3</sub><sup>2</sup>)</strong>.</li>\n          <li><strong>Kombinasi Linear &amp; Merentang (Span):</strong> Vektor <em>w</em> adalah kombinasi linear dari <em>v<sub>1</sub>, ..., v<sub>k</sub></em> jika <em>w = c<sub>1</sub>v<sub>1</sub> + ... + c<sub>k</sub>v<sub>k</sub></em>.</li>\n        </ul><h3>KB 2: Kebebasan Linear (Linear Independence) &amp; Basis</h3>\n        <ul>\n          <li><strong>Bebas Linear:</strong> Himpunan vektor bebas linear jika persamaan <em>c<sub>1</sub>v<sub>1</sub> + ... + c<sub>k</sub>v<sub>k</sub> = 0</em> hanya memiliki solusi trivial (<em>c<sub>1</sub> = ... = c<sub>k</sub> = 0</em>).</li>\n          <li><strong>Basis &amp; Dimensi:</strong> Basis adalah himpunan vektor yang <strong>bebas linear</strong> sekaligus <strong>merentang</strong> ruang vektor tersebut. Dimensi R<sup>2</sup> = 2, dimensi R<sup>3</sup> = 3.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Syarat Pembentukan Basis Ruang Vektor: Bebas Linear + Merentang (Span)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"55\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"127.5\" y=\"87.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Bebas Linear</text><text x=\"127.5\" y=\"109.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hanya solusi c_i = 0</text><rect x=\"248\" y=\"55\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.5\" y=\"87.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Merentang (Span)</text><text x=\"340.5\" y=\"109.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Bentuk seluruh ruang</text><line x1=\"220\" y1=\"93\" x2=\"248\" y2=\"93\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"234.0\" y=\"87.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">+</text><line x1=\"433\" y1=\"93\" x2=\"470\" y2=\"93\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"451.5\" y=\"87.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">=</text><rect x=\"470\" y=\"55\" width=\"180\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"560.0\" y=\"87.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Basis Ruang Vektor</text><text x=\"560.0\" y=\"109.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Menentukan Dimensi Ruang</text>\n  </svg>\n  <p class=\"svg-caption\">Syarat Pembentukan Basis Ruang Vektor: Bebas Linear + Merentang (Span)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Norm Vektor ||v||</span>\n          <span class=\"kw-chip\">Kombinasi Linear</span>\n          <span class=\"kw-chip\">Span (Merentang)</span>\n          <span class=\"kw-chip\">Bebas Linear</span>\n          <span class=\"kw-chip\">Basis &amp; Dimensi</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 5: Ruang Vektor R² dan R³ Modul 5 KB 1: Vektor Geometris, Aljabar, & Kombinasi Linear Vektor di R 2 dan R 3 : Besaran yang memiliki panjang (magnitudo) dan arah. Panjang vektor v = (v 1 , v 2 , v 3 ) adalah ||v|| = √(v 1 2 + v 2 2 + v 3 2 ) . Kombinasi Linear & Merentang (Span): Vektor w adalah kombinasi linear dari v 1 , ..., v k jika w = c 1 v 1 + ... + c k v k . KB 2: Kebebasan Linear (Linear Independence) & Basis Bebas Linear: Himpunan vektor bebas linear jika persamaan c 1 v 1 + ... + c k v k = 0 hanya memiliki solusi trivial ( c 1 = ... = c k = 0 ). Basis & Dimensi: Basis adalah himpunan vektor yang bebas linear sekaligus merentang ruang vektor tersebut. Dimensi R 2 = 2, dimensi R 3 = 3. Bebas Linear Hanya solusi c_i = 0 Merentang (Span) Bentuk seluruh ruang + = Basis Ruang Vektor Menentukan Dimensi Ruang Syarat Pembentukan Basis Ruang Vektor: Bebas Linear + Merentang (Span) 🔑 Kata Kunci Wajib Ingat: Norm Vektor ||v|| Kombinasi Linear Span (Merentang) Bebas Linear Basis & Dimensi"
+    },
+    {
+      "id": "m6",
+      "title": "Modul 6: Perkalian Titik (Dot Product) dan Perkalian Silang (Cross Product)",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-head\">\n        <h2>Modul 6: Perkalian Titik (Dot Product) dan Perkalian Silang (Cross Product)</h2>\n        <span class=\"mod-tag\">Modul 6</span>\n      </div>\n      <h3>KB 1: Perkalian Titik (Dot Product) &amp; Ortogonalitas</h3>\n        <ul>\n          <li><strong>Dot Product (<em>u &middot; v</em>):</strong> Menghasilkan bilangan <strong>skalar</strong>: <em>u &middot; v = u<sub>1</sub>v<sub>1</sub> + u<sub>2</sub>v<sub>2</sub> + u<sub>3</sub>v<sub>3</sub> = ||u|| ||v|| cos(&theta;)</em>.</li>\n          <li><strong>Syarat Tegak Lurus (Ortogonal):</strong> Dua vektor tak nol saling tegak lurus jika dan hanya jika <strong>u &middot; v = 0</strong>.</li>\n          <li><strong>Proyeksi Ortogonal:</strong> <em>proj<sub>a</sub>(u) = ((u &middot; a) / ||a||<sup>2</sup>) a</em>.</li>\n        </ul><h3>KB 2: Perkalian Silang (Cross Product) di R³</h3>\n        <ul>\n          <li><strong>Cross Product (<em>u &times; v</em>):</strong> Hanya terdefinisi di <strong>R<sup>3</sup></strong> dan menghasilkan <strong>vektor baru</strong> yang tegak lurus terhadap bidang yang dibentuk oleh <em>u</em> dan <em>v</em>.</li>\n          <li><strong>Interpretasi Geometris:</strong> Besar vektor hasil <strong>||u &times; v|| = ||u|| ||v|| sin(&theta;)</strong> sama dengan <strong>luas jajaran genjang</strong> yang dibentuk oleh <em>u</em> dan <em>v</em>. Bersifat anti-komutatif: <em>u &times; v = -(v &times; u)</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Perkalian Titik (Skalar) dan Perkalian Silang (Vektor di R³)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"177.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Dot Product (u . v)</text><text x=\"177.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hasil: Skalar | u . v = 0 -&gt; Tegak Lurus</text><rect x=\"360\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"502.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Cross Product (u x v)</text><text x=\"502.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hasil: Vektor di R^3 | ||u x v|| = Luas</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Perkalian Titik (Skalar) dan Perkalian Silang (Vektor di R³)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Dot Product (Skalar)</span>\n          <span class=\"kw-chip\">Ortogonal u.v = 0</span>\n          <span class=\"kw-chip\">Proyeksi Vektor</span>\n          <span class=\"kw-chip\">Cross Product (Vektor)</span>\n          <span class=\"kw-chip\">Luas Jajaran Genjang</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 6: Perkalian Titik (Dot Product) dan Perkalian Silang (Cross Product) Modul 6 KB 1: Perkalian Titik (Dot Product) & Ortogonalitas Dot Product ( u · v ): Menghasilkan bilangan skalar : u · v = u 1 v 1 + u 2 v 2 + u 3 v 3 = ||u|| ||v|| cos(θ) . Syarat Tegak Lurus (Ortogonal): Dua vektor tak nol saling tegak lurus jika dan hanya jika u · v = 0 . Proyeksi Ortogonal: proj a (u) = ((u · a) / ||a|| 2 ) a . KB 2: Perkalian Silang (Cross Product) di R³ Cross Product ( u × v ): Hanya terdefinisi di R 3 dan menghasilkan vektor baru yang tegak lurus terhadap bidang yang dibentuk oleh u dan v . Interpretasi Geometris: Besar vektor hasil ||u × v|| = ||u|| ||v|| sin(θ) sama dengan luas jajaran genjang yang dibentuk oleh u dan v . Bersifat anti-komutatif: u × v = -(v × u) . Dot Product (u . v) Hasil: Skalar | u . v = 0 -> Tegak Lurus Cross Product (u x v) Hasil: Vektor di R^3 | ||u x v|| = Luas Perbandingan Perkalian Titik (Skalar) dan Perkalian Silang (Vektor di R³) 🔑 Kata Kunci Wajib Ingat: Dot Product (Skalar) Ortogonal u.v = 0 Proyeksi Vektor Cross Product (Vektor) Luas Jajaran Genjang"
+    },
+    {
+      "id": "ahli",
+      "title": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-head\">\n        <h2>Menurut Ahli + 📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h2>\n        <span class=\"mod-tag\">Tokoh &amp; Referensi</span>\n      </div>\n      <h3>Tokoh &amp; Teori Kunci dalam Aljabar Linear I</h3>\n      <ul>\n        <li><strong>Carl Friedrich Gauss &amp; Wilhelm Jordan</strong> — Mengembangkan metode eliminasi sistematis (Gauss dan Gauss-Jordan) untuk menyelesaikan SPL dan mencari invers matriks.</li>\n        <li><strong>Gabriel Cramer</strong> — Merumuskan Aturan Cramer untuk menyelesaikan sistem persamaan linear menggunakan rasio determinan.</li>\n        <li><strong>Pierre Frédéric Sarrus</strong> — Memperkenalkan aturan visual cepat (Aturan Sarrus) untuk menghitung determinan matriks 3&times;3.</li>\n        <li><strong>Gilbert Strang</strong> — Tokoh pendidikan aljabar linear modern yang menekankan hubungan ruang kolom, rank matriks, dan ortogonalitas.</li>\n      </ul>\n      <h3>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h3>\n      <ul>\n        <li><strong>Kapan Det(kA) Dihitung?</strong>: Untuk matriks berordo <em>n &times; n</em>, <strong>det(kA) = k<sup>n</sup> &middot; det(A)</strong> (bukan <em>k &middot; det(A)</em>, karena setiap dari <em>n</em> baris dikalikan <em>k</em>!).</li>\n        <li><strong>Syarat Matriks Singular</strong>: Jika sebuah matriks memiliki dua baris yang sama atau satu baris seluruhnya nol, maka <strong>det(A) = 0</strong> (singular, tidak punya invers).</li>\n        <li><strong>Vektor Satuan (Unit Vector)</strong>: Vektor dengan panjang 1 diperoleh dengan menormalisasi vektor tak nol: <strong>u = v / ||v||</strong>.</li>\n      </ul>\n    </section>",
+      "text": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Tokoh & Referensi Tokoh & Teori Kunci dalam Aljabar Linear I Carl Friedrich Gauss & Wilhelm Jordan — Mengembangkan metode eliminasi sistematis (Gauss dan Gauss-Jordan) untuk menyelesaikan SPL dan mencari invers matriks. Gabriel Cramer — Merumuskan Aturan Cramer untuk menyelesaikan sistem persamaan linear menggunakan rasio determinan. Pierre Frédéric Sarrus — Memperkenalkan aturan visual cepat (Aturan Sarrus) untuk menghitung determinan matriks 3×3. Gilbert Strang — Tokoh pendidikan aljabar linear modern yang menekankan hubungan ruang kolom, rank matriks, dan ortogonalitas. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Kapan Det(kA) Dihitung? : Untuk matriks berordo n × n , det(kA) = k n · det(A) (bukan k · det(A) , karena setiap dari n baris dikalikan k !). Syarat Matriks Singular : Jika sebuah matriks memiliki dua baris yang sama atau satu baris seluruhnya nol, maka det(A) = 0 (singular, tidak punya invers). Vektor Satuan (Unit Vector) : Vektor dengan panjang 1 diperoleh dengan menormalisasi vektor tak nol: u = v / ||v|| ."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Jika matriks A berordo 3×4 dan matriks B berordo 4×2, maka ordo hasil perkalian AB adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4×4"
+        },
+        {
+          "letter": "B",
+          "text": "3×2"
+        },
+        {
+          "letter": "C",
+          "text": "2×3"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak terdefinisi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kolom A = Baris B = 4, sehingga hasil AB berordo 3×2",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Hasil dari transpose perkalian dua matriks (AB) T selalu sama dengan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A T B T"
+        },
+        {
+          "letter": "B",
+          "text": "B T A T"
+        },
+        {
+          "letter": "C",
+          "text": "AB"
+        },
+        {
+          "letter": "D",
+          "text": "(BA) -1"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sifat transpose perkalian membalik urutan matriks: (AB)^T = B^T A^T",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Matriks persegi A yang memenuhi sifat A T = A disebut matriks...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagonal"
+        },
+        {
+          "letter": "B",
+          "text": "Simetris"
+        },
+        {
+          "letter": "C",
+          "text": "Identitas"
+        },
+        {
+          "letter": "D",
+          "text": "Singular"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pada matriks simetris, elemen baris i kolom j sama dengan baris j kolom i",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Pernyataan yang BENAR mengenai perkalian matriks persegi A dan B pada umumnya adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Selalu AB = BA"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak bersifat komutatif (AB ≠ BA)"
+        },
+        {
+          "letter": "C",
+          "text": "Hanya bisa jika det = 0"
+        },
+        {
+          "letter": "D",
+          "text": "Hasilnya selalu skalar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Perkalian matriks secara umum tidak komutatif",
+      "num": 4
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Berikut yang BUKAN merupakan Operasi Baris Elementer (OBE) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menukar dua baris"
+        },
+        {
+          "letter": "B",
+          "text": "Mengalikan baris dengan skalar tak nol"
+        },
+        {
+          "letter": "C",
+          "text": "Menambahkan kelipatan satu baris ke baris lain"
+        },
+        {
+          "letter": "D",
+          "text": "Mengalikan baris dengan angka 0"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Skalar pengali baris pada OBE harus k ≠ 0 agar tidak menghilangkan informasi",
+      "num": 5
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Dalam matriks eselon baris tereduksi (RREF), setiap kolom yang memuat 1 utama harus memiliki nilai lain sebesar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "-1"
+        },
+        {
+          "letter": "C",
+          "text": "0"
+        },
+        {
+          "letter": "D",
+          "text": "Bebas"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Di atas maupun di bawah 1 utama pada kolom tersebut harus bernilai 0",
+      "num": 6
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Untuk mencari invers matriks A menggunakan eliminasi Gauss-Jordan, kita menyusun matriks diperbesar berbentuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[A"
+        },
+        {
+          "letter": "",
+          "text": "0]"
+        },
+        {
+          "letter": "B",
+          "text": "[A"
+        },
+        {
+          "letter": "",
+          "text": "I]"
+        },
+        {
+          "letter": "C",
+          "text": "[I"
+        },
+        {
+          "letter": "",
+          "text": "0]"
+        },
+        {
+          "letter": "D",
+          "text": "[A"
+        },
+        {
+          "letter": "",
+          "text": "A]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "OBE mengubah [A | I] menjadi [I | A^-1]",
+      "num": 7
+    },
+    {
+      "module": "M2",
+      "question": "[M2-4] Nilai konstanta penentu matriks identitas I berordo 3×3 memiliki jumlah elemen bernilai 1 sebanyak...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "3"
+        },
+        {
+          "letter": "C",
+          "text": "6"
+        },
+        {
+          "letter": "D",
+          "text": "9"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Hanya 3 elemen pada diagonal utama yang bernilai 1",
+      "num": 8
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Jika matriks eselon baris dari sistem [A | b] memuat baris [0 0 0 | 5], maka SPL tersebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memiliki solusi tunggal"
+        },
+        {
+          "letter": "B",
+          "text": "Memiliki tak hingga solusi"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak memiliki solusi (inkonsisten)"
+        },
+        {
+          "letter": "D",
+          "text": "Homogen"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Persamaan 0 = 5 adalah kontradiksi sehingga tidak ada solusi",
+      "num": 9
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Sistem Persamaan Linear Homogen Ax = 0 bersifat...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Selalu tidak konsisten"
+        },
+        {
+          "letter": "B",
+          "text": "Selalu konsisten (minimal punya solusi trivial x = 0)"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak pernah punya solusi nol"
+        },
+        {
+          "letter": "D",
+          "text": "Hanya untuk matriks 2×2"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "x = 0 selalu memenuhi A(0) = 0",
+      "num": 10
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Jika jumlah variabel dalam SPL homogen lebih banyak daripada jumlah persamaannya, maka SPL tersebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak punya solusi"
+        },
+        {
+          "letter": "B",
+          "text": "Hanya punya solusi trivial"
+        },
+        {
+          "letter": "C",
+          "text": "Memiliki tak hingga banyak solusi nontrivial"
+        },
+        {
+          "letter": "D",
+          "text": "Selalu inkonsisten"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Pasti terdapat variabel bebas sehingga muncul solusi nontrivial",
+      "num": 11
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Perbedaan utama Eliminasi Gauss dan Gauss-Jordan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gauss berhenti di REF lalu substitusi balik; Gauss-Jordan lanjut ke RREF"
+        },
+        {
+          "letter": "B",
+          "text": "Gauss hanya untuk 2×2"
+        },
+        {
+          "letter": "C",
+          "text": "Gauss-Jordan tanpa OBE"
+        },
+        {
+          "letter": "D",
+          "text": "Keduanya sama persis"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Gauss-Jordan langsung membaca solusi dari bentuk eselon baris tereduksi",
+      "num": 12
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Jika matriks A = [[4, 2], [3, 5]], maka nilai determinan det(A) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "14"
+        },
+        {
+          "letter": "B",
+          "text": "26"
+        },
+        {
+          "letter": "C",
+          "text": "20"
+        },
+        {
+          "letter": "D",
+          "text": "-6"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "det(A) = (4×5) - (2×3) = 20 - 6 = 14",
+      "num": 13
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Jika matriks A berordo 3×3 memiliki det(A) = 2, maka nilai det(3A) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6"
+        },
+        {
+          "letter": "B",
+          "text": "18"
+        },
+        {
+          "letter": "C",
+          "text": "54"
+        },
+        {
+          "letter": "D",
+          "text": "27"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "det(kA) = k^n det(A) = 3^3 × 2 = 27 × 2 = 54",
+      "num": 14
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Jika dua baris dalam matriks persegi A ditukar posisinya, maka nilai determinannya akan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tetap sama"
+        },
+        {
+          "letter": "B",
+          "text": "Menjadi nol"
+        },
+        {
+          "letter": "C",
+          "text": "Berubah tanda (dikali -1)"
+        },
+        {
+          "letter": "D",
+          "text": "Dikuadratkan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Pertukaran dua baris mengubah tanda determinan",
+      "num": 15
+    },
+    {
+      "module": "M4",
+      "question": "[M4-4] Aturan Cramer hanya dapat digunakan untuk menyelesaikan SPL Ax = b apabila...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "det(A) = 0"
+        },
+        {
+          "letter": "B",
+          "text": "det(A) ≠ 0"
+        },
+        {
+          "letter": "C",
+          "text": "Matriks A bukan persegi"
+        },
+        {
+          "letter": "D",
+          "text": "b = 0 saja"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pembagi pada x_i = det(A_i)/det(A) mensyaratkan det(A) ≠ 0",
+      "num": 16
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Panjang (norm) vektor v = (3, -4) di R 2 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "5"
+        },
+        {
+          "letter": "C",
+          "text": "7"
+        },
+        {
+          "letter": "D",
+          "text": "25"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "||v|| = √(3^2 + (-4)^2) = √(9 + 16) = 5",
+      "num": 17
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Dua syarat agar sekumpulan vektor membentuk basis bagi suatu ruang vektor V adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tegak lurus dan panjang 1"
+        },
+        {
+          "letter": "B",
+          "text": "Bebas linear dan merentang (span) V"
+        },
+        {
+          "letter": "C",
+          "text": "Jumlahnya tak hingga"
+        },
+        {
+          "letter": "D",
+          "text": "Mengandung vektor nol"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Basis = bebas linear + merentang seluruh ruang",
+      "num": 18
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Himpunan vektor yang mengandung vektor nol (0, 0, 0) pasti bersifat...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bebas linear"
+        },
+        {
+          "letter": "B",
+          "text": "Bergantung linear (linearly dependent)"
+        },
+        {
+          "letter": "C",
+          "text": "Basis standar"
+        },
+        {
+          "letter": "D",
+          "text": "Ortogonal sempurna"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Skalar tak nol bisa dikalikan dengan vektor nol untuk menghasilkan nol",
+      "num": 19
+    },
+    {
+      "module": "M5",
+      "question": "[M5-4] Dimensi dari ruang vektor R 3 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "9"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Basis standar R^3 terdiri atas 3 vektor: i, j, k",
+      "num": 20
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Dua vektor tak nol u dan v saling tegak lurus (ortogonal) jika dan hanya jika...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "u × v = 0"
+        },
+        {
+          "letter": "B",
+          "text": "u · v = 0"
+        },
+        {
+          "letter": "",
+          "text": "C."
+        },
+        {
+          "letter": "",
+          "text": "u"
+        },
+        {
+          "letter": "",
+          "text": "="
+        },
+        {
+          "letter": "",
+          "text": "v"
+        },
+        {
+          "letter": "D",
+          "text": "u + v = 0"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Dot product u . v = ||u|| ||v|| cos(90°) = 0",
+      "num": 21
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Diketahui u = (2, -1, 3) dan v = (1, 5, 1). Nilai dot product u · v adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0"
+        },
+        {
+          "letter": "B",
+          "text": "6"
+        },
+        {
+          "letter": "C",
+          "text": "-2"
+        },
+        {
+          "letter": "D",
+          "text": "10"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "(2×1) + (-1×5) + (3×1) = 2 - 5 + 3 = 0, sehingga saling tegak lurus",
+      "num": 22
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Hasil dari operasi perkalian silang (cross product) u × v di R 3 berupa...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Skalar"
+        },
+        {
+          "letter": "B",
+          "text": "Vektor yang tegak lurus terhadap u dan v"
+        },
+        {
+          "letter": "C",
+          "text": "Matriks 3×3"
+        },
+        {
+          "letter": "D",
+          "text": "Bilangan imajiner"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Cross product menghasilkan vektor normal terhadap bidang u dan v",
+      "num": 23
+    },
+    {
+      "module": "M6",
+      "question": "[M6-4] Secara geometris, panjang vektor ||u × v|| merepresentasikan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keliling segitiga"
+        },
+        {
+          "letter": "B",
+          "text": "Luas jajaran genjang yang dibentuk u dan v"
+        },
+        {
+          "letter": "C",
+          "text": "Volume kubus"
+        },
+        {
+          "letter": "D",
+          "text": "Sudut antara u dan v"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "||u x v|| = ||u|| ||v|| sin(θ) = luas jajaran genjang",
+      "num": 24
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-1] Diberikan 8 bentuk susunan bilangan A, B, C, D, E, F, G, H (di mana B dan F memiliki baris tak lengkap dan D memuat simbol *). Yang termasuk matriks adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Semua bentuk adalah matriks"
+        },
+        {
+          "letter": "B",
+          "text": "A, C, E, G, dan H"
+        },
+        {
+          "letter": "C",
+          "text": "A, B, C, G, dan H"
+        },
+        {
+          "letter": "D",
+          "text": "A, B, C, dan G"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Hanya susunan bilangan berbentuk persegi panjang lengkap tanpa simbol non-bilangan yang merupakan matriks: A, C, E, G, dan H",
+      "num": 25
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-2] Dari delapan bentuk A sampai H pada soal sebelumnya, yang BUKAN merupakan matriks adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "B, C, D, E, dan F"
+        },
+        {
+          "letter": "B",
+          "text": "B, C, D, E, F, dan H"
+        },
+        {
+          "letter": "C",
+          "text": "B, D, dan F"
+        },
+        {
+          "letter": "D",
+          "text": "A, B, C, dan G"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Bentuk B, D, dan F tidak memenuhi definisi matriks",
+      "num": 26
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-3] Diketahui matriks P = [[1, 0, 0], [0, -2, 0], [1, 0, -2]]. Apabila P = [p ij ], maka unsur p 31 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "p 31 = 1"
+        },
+        {
+          "letter": "B",
+          "text": "p 31 = 0"
+        },
+        {
+          "letter": "C",
+          "text": "p 31 = -2"
+        },
+        {
+          "letter": "D",
+          "text": "p 31 = 2"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Unsur baris ke-3 kolom ke-1 pada matriks P adalah 1",
+      "num": 27
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-4] Diketahui matriks Q = [[1, 1, 2], [0, 2, 3], [0, 0, 2]]. Apabila Q = [q ij ], maka unsur q 23 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "q 23 = 0"
+        },
+        {
+          "letter": "B",
+          "text": "q 23 = 3"
+        },
+        {
+          "letter": "C",
+          "text": "q 23 = 2"
+        },
+        {
+          "letter": "D",
+          "text": "q 23 = 1"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Unsur baris ke-2 kolom ke-3 pada matriks Q adalah 3",
+      "num": 28
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-5] Diketahui matriks R dengan unsur baris ke-1 kolom ke-2 bernilai -2. Apabila R = [r ij ], maka unsur r 12 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "r 12 = -1"
+        },
+        {
+          "letter": "B",
+          "text": "r 12 = -2"
+        },
+        {
+          "letter": "C",
+          "text": "r 12 = 1"
+        },
+        {
+          "letter": "D",
+          "text": "r 12 = 2"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sesuai kunci Tes Formatif 1 Modul 1, r 12 = -2",
+      "num": 29
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-6] Dari matriks P, S, T, U, V (berordo 3×3), Q (3×4), dan R (4×3), yang termasuk matriks bujur sangkar adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Q dan R"
+        },
+        {
+          "letter": "B",
+          "text": "Q dan V"
+        },
+        {
+          "letter": "C",
+          "text": "P dan R"
+        },
+        {
+          "letter": "D",
+          "text": "P, S, T, U, dan V"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Matriks bujur sangkar memiliki jumlah baris sama dengan jumlah kolom, yaitu P, S, T, U, dan V berordo 3×3",
+      "num": 30
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-7] Di antara matriks P, Q, S, T, U, dan V, yang termasuk matriks segitiga atas adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T dan V"
+        },
+        {
+          "letter": "B",
+          "text": "Q, T, dan V"
+        },
+        {
+          "letter": "C",
+          "text": "P"
+        },
+        {
+          "letter": "D",
+          "text": "Q"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Semua elemen di bawah diagonal utama pada matriks T dan V bernilai 0",
+      "num": 31
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-8] Di antara matriks P, Q, S, T, U, dan V, yang termasuk matriks segitiga bawah adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "S dan V"
+        },
+        {
+          "letter": "B",
+          "text": "Q, T, dan V"
+        },
+        {
+          "letter": "C",
+          "text": "P dan T"
+        },
+        {
+          "letter": "D",
+          "text": "Q dan V"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Semua elemen di atas diagonal utama pada matriks P dan T bernilai 0",
+      "num": 32
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-9] Di antara matriks P, Q, S, T, U, dan V, yang termasuk matriks diagonal adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "S"
+        },
+        {
+          "letter": "B",
+          "text": "T"
+        },
+        {
+          "letter": "C",
+          "text": "S dan T"
+        },
+        {
+          "letter": "D",
+          "text": "Q dan V"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pada matriks T = diag(0, 1, 0), semua elemen di luar diagonal utama bernilai 0",
+      "num": 33
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-10] Diketahui matriks A berordo 2×2 dan B berordo 2×3. Pernyataan: A + B tidak dapat dioperasikan (A tidak dapat dijumlah dengan B).",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Penjumlahan matriks mensyaratkan ordo kedua matriks sama, sedangkan ordo A dan B berbeda",
+      "num": 34
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-11] Diketahui matriks B berordo 2×3 dan C berordo 3×2. Pernyataan: BC tidak dapat dioperasikan.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Jumlah kolom B = 3 sama dengan jumlah baris C = 3, sehingga perkalian BC dapat dilakukan dan berordo 2×2",
+      "num": 35
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-12] Diketahui matriks A berordo 2×2 dan B berordo 2×3. Pernyataan: AB dapat dioperasikan (A dapat dikalikan dengan B).",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kolom A = 2 sama dengan baris B = 2, sehingga AB terdefinisi dan berordo 2×3",
+      "num": 36
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-13] Diketahui matriks A berordo 2×2 dan D berordo 3×2. Pernyataan: AD dapat dioperasikan.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kolom A = 2 ≠ baris D = 3, sehingga AD tidak dapat dikalikan",
+      "num": 37
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-18] Matriks A 2 (2×2), A 3 (3×3), dan A 4 (4×4) berisi 1 di atas diagonal utama dan 0 selainnya. Rumusan definisi yang sama adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A n = [a ij ], n = 2, 3, 4 dengan a ij = 1 untuk i < j dan 0 untuk i ≥ j"
+        },
+        {
+          "letter": "B",
+          "text": "A n = [a ij ], n = 2, 3, 4 dengan a ij = 1 untuk i ≤ j dan 0 untuk i > j"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Elemen di atas diagonal utama memiliki indeks baris lebih kecil dari indeks kolom, i < j",
+      "num": 38
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-19] Untuk matriks A 2 = [[0, 1], [0, 0]], pernyataan (A 2 ) 2 = O 2 (matriks nol 2×2) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "[[0, 1], [0, 0]] × [[0, 1], [0, 0]] = [[0, 0], [0, 0]] = O 2",
+      "num": 39
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-20] Untuk matriks segitiga atas ketat A 3 berordo 3×3 dengan entri 1 di atas diagonal utama, pernyataan (A 3 ) 2 = O 3 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "(A 3 ) 2 masih menyisakan elemen 1 di posisi (1,3); baru (A 3 ) 3 = O 3",
+      "num": 40
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF1-21] Agar (A 4 ) m = O 4 (matriks nol 4×4), maka nilai m terkecil yang memenuhi adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "m = 3"
+        },
+        {
+          "letter": "B",
+          "text": "m = 4"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Matriks nilpoten A 4 mencapai matriks nol pada pangkat m = 4",
+      "num": 41
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-1] Diketahui A = [[1, 2], [2, 1]]? (A = [[1, 2], [1, 1]]), B = [[-1, 1], [0, 1]]? Dalam TF2 Modul 1, hasil dari (AB)C adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[6], [10]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[10], [6]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sesuai kunci Tes Formatif 2 Modul 1 nomor 1, (AB)C = [[6], [10]]",
+      "num": 42
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-2] Melanjutkan soal sebelumnya, hasil dari A(BC) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[10], [6]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[6], [10]]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sesuai kunci Tes Formatif 2 Modul 1 nomor 2, A(BC) = [[6], [10]]",
+      "num": 43
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-3] Dari hasil (AB)C dan A(BC), dapat disimpulkan bahwa (AB)C = A(BC) (sifat asosiatif perkalian matriks).",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Perkalian matriks bersifat asosiatif: (AB)C = A(BC)",
+      "num": 44
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-4] Dari matriks B, C, dan D pada TF2 Modul 1, hasil operasi BC + BD adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[4, 2], [2, 4]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[2, 4], [4, 2]]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sesuai kunci Tes Formatif 2 Modul 1 nomor 4, BC + BD = [[2, 4], [4, 2]]",
+      "num": 45
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-5] Dari matriks B, C, dan D pada TF2 Modul 1, hasil operasi B(C + D) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[2, 4], [4, 2]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[4, 2], [2, 4]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sesuai kunci Tes Formatif 2 Modul 1 nomor 5, B(C + D) = [[2, 4], [4, 2]]",
+      "num": 46
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-6] Dari jawaban soal 4) dan 5), dapat disimpulkan bahwa BC + BD = B(C + D).",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Perkalian matriks bersifat distributif terhadap penjumlahan",
+      "num": 47
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-7] Diketahui matriks A = [[1, 2], [1, 1]]. Invers matriks A -1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[-1, 2], [1, -1]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[1, -2], [-1, 1]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "det(A) = 1 - 2 = -1, sehingga A -1 = -1 × [[1, -2], [-1, 1]] = [[-1, 2], [1, -1]]",
+      "num": 48
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-8] Diketahui matriks B = [[1, 1], [0, 2]]. Invers matriks B -1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[1, 1/2], [0, 1/2]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[1, -1/2], [0, 1/2]]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "det(B) = 2, sehingga B -1 = (1/2)[[2, -1], [0, 1]] = [[1, -1/2], [0, 1/2]]",
+      "num": 49
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-9] Diketahui A = [[1, 2], [1, 1]] dan B = [[1, 1], [0, 2]]. Hasil perkalian matriks AB adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[1, 5], [1, 3]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[1, 3], [1, 5]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "AB = [[1(1)+2(0), 1(1)+2(2)], [1(1)+1(0), 1(1)+1(2)]] = [[1, 5], [1, 3]]",
+      "num": 50
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-11] Diketahui A = [[1, 2], [1, 1]] dan B = [[1, 1], [0, 2]]. Hasil matriks B -1 A -1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[-3/2, 5/2], [1/2, -1/2]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[3/2, -5/2], [-1/2, 1/2]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "B -1 A -1 = [[1, -1/2], [0, 1/2]] × [[-1, 2], [1, -1]] = [[-3/2, 5/2], [1/2, -1/2]]",
+      "num": 51
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-12] Dari hasil invers perkalian matriks, pernyataan B -1 A -1 = (AB) -1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sifat invers hasil kali dua matriks tak singular: (AB) -1 = B -1 A -1",
+      "num": 52
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-13] Diketahui matriks P = [[1, 4], [2, 5], [3, 6]]. Transpos matriks P T adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[1, 2, 3], [4, 5, 6]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[4, 5, 6], [1, 2, 3]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Baris ke-1 P T adalah kolom ke-1 P, dan baris ke-2 P T adalah kolom ke-2 P",
+      "num": 53
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-14] Diketahui matriks Q = [[1, 2, -3], [2, 4, 0], [3, 6, -1]]? Untuk Q = [[1, 2, -3], [2, 4, 0], [-3, 0, 1]], transpos Q T adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[3, 0, -1], [2, 4, 0], [1, 2, 3]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[1, 2, -3], [2, 4, 0], [-3, 0, 1]]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Q merupakan matriks simetris sehingga Q T = Q",
+      "num": 54
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-15] Di antara matriks Q = [[1, 2, -3], [2, 4, 0], [-3, 0, 1]], R = [[1, 0, 1], [1, 0, 1], [3, 0, -1]], dan S = [[1, 0], [0, 5]], yang termasuk matriks simetris adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Q dan R"
+        },
+        {
+          "letter": "B",
+          "text": "Q dan S"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Matriks Q dan S memenuhi sifat A T = A",
+      "num": 55
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-6] Diketahui matriks P = [[3, 1, 2], [5, 2, 3], [2, 2, 3]]. Pernyataan: P memiliki invers.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "det(P) = 3(6-6) - 1(15-6) + 2(10-4) = 0 - 9 + 12 = 3 ≠ 0, sehingga P memiliki invers",
+      "num": 56
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-9] Diketahui P = [[1, 2, 1, 1], [2, 1, -1, 2]], Q matriks eselon dari P, dan Q = KP, maka matriks K adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[2, 1], [3, 3]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[2, 1], [-3, -3]]"
+        },
+        {
+          "letter": "C",
+          "text": "[[-2, 1], [-3, -3]]"
+        },
+        {
+          "letter": "D",
+          "text": "[[2, 1], [1, 0]]"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Sesuai kunci Tes Formatif 2 Modul 2 nomor 9: D",
+      "num": 57
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-10] Operasi baris elementer: (i) pertukaran baris kedua dengan baris pertama; (ii) penambahan dua kali baris pertama pada baris kedua; dan (iii) mengurangi baris kedua dengan baris ketiga pada matriks P berukuran 3×3 menghasilkan HP. Maka matriks H adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[0, 1, 0], [1, 2, -1], [0, 0, 1]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[0, 1, 0], [1, 2, 0], [0, 0, 1]]"
+        },
+        {
+          "letter": "C",
+          "text": "[[0, 1, 0], [1, 0, 0], [0, 0, 1]]"
+        },
+        {
+          "letter": "D",
+          "text": "[[1, 0, 0], [0, 1, 0], [0, 0, 1]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "H = E 3 E 2 E 1 = [[1,0,0],[0,1,-1],[0,0,1]] × [[1,0,0],[2,1,0],[0,0,1]] × [[0,1,0],[1,0,0],[0,0,1]] = [[0,1,0],[1,2,-1],[0,0,1]]",
+      "num": 58
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-7] Diketahui SPL: 2x + y + z + u = 2; x + y + z + 2u = 1; x + 2y + 2z + u = 2. Matriks koefisien A adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[2, 1, 1, 1, 2], [1, 1, 1, 2, 1], [1, 2, 2, 1, 2]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 1]]"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Matriks koefisien hanya memuat koefisien variabel x, y, z, u tanpa kolom konstanta",
+      "num": 59
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-8] Dari SPL pada soal sebelumnya, matriks lengkap (augmented matrix) yang berkaitan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "[[2, 1, 1, 1, 2], [1, 1, 1, 2, 1], [1, 2, 2, 1, 2]]"
+        },
+        {
+          "letter": "B",
+          "text": "[[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 1]]"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Matriks lengkap menggabungkan matriks koefisien A dan vektor konstanta b",
+      "num": 60
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-9] Sistem persamaan linear 2x + y + z + u = 2; x + y + z + 2u = 1; x + 2y + 2z + u = 2 mempunyai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jawab tunggal"
+        },
+        {
+          "letter": "B",
+          "text": "Jawab tidak tunggal (banyak jawab)"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak punya jawab"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Sesuai kunci Tes Formatif 1 Modul 3 nomor 9, SPL tersebut inkonsisten / tidak punya jawab",
+      "num": 61
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-11] Diketahui SPL: 2x + y + z = 2; x + 2y + z = 5; x + y + 2z = 1. Pernyataan: Matriks lengkapnya adalah [[2, 1, 1], [1, 2, 1], [1, 1, 2]].",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salah"
+        },
+        {
+          "letter": "B",
+          "text": "Benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Matriks tersebut hanya matriks koefisien; matriks lengkapnya harus menyertakan kolom konstanta [2, 5, 1] T",
+      "num": 62
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-12] Sistem persamaan linear 2x + y + z = 2; x + 2y + z = 5; x + y + 2z = 1 mempunyai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jawab tunggal"
+        },
+        {
+          "letter": "B",
+          "text": "Jawab tidak tunggal"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak punya jawab"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "det(A) = 2(4-1) - 1(2-1) + 1(1-2) = 4 ≠ 0, sehingga memiliki solusi tunggal",
+      "num": 63
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-6] Suatu SPL homogen memiliki matriks koefisien [[1, 1, 2, 1], [1, 1, 1, 1]] (2 persamaan, 4 variabel). SPL homogen tersebut mempunyai jawab...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trivial"
+        },
+        {
+          "letter": "B",
+          "text": "Tak trivial"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Jumlah variabel (4) > jumlah persamaan (2), sehingga pasti terdapat variabel bebas dan solusi tak trivial",
+      "num": 64
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2-3] Persamaan koordinat garis melalui titik (1, -1, 0) dan sejajar dengan garis yang melalui (1, 2, -1) dan (-1, 1, 1) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(x - 2)/-2 = y - 1 = (z - 2)/2"
+        },
+        {
+          "letter": "B",
+          "text": "(x + 2)/-2 = y - 1 = z/2"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sesuai kunci Tes Formatif 2 Modul 6 nomor 3: A",
+      "num": 65
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2-4] Persamaan parameter garis melalui (1, 0, 1) yang sejajar dengan garis (x - 1)/2 = y - 1 = (z + 1)/3 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(1, 2, 1) + t(2, 2, 1), t ∈ R"
+        },
+        {
+          "letter": "B",
+          "text": "(2, 2, 1) + t(2, 2, 3), t ∈ R"
+        },
+        {
+          "letter": "C",
+          "text": "(1, 0, 1) + t(2, 1, 3), t ∈ R"
+        },
+        {
+          "letter": "D",
+          "text": "(1, 2, 1) + t(2, 1, 3), t ∈ R"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Titik pangkal (1, 0, 1) dan vektor arah sejajar garis adalah (2, 1, 3)",
+      "num": 66
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2-6] Persamaan normal bidang yang melalui titik (2, 0, 1), (1, 2, 0), dan (0, 1, 2) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2x + y + z - 3 = 0"
+        },
+        {
+          "letter": "B",
+          "text": "-x + y + z + 3 = 0"
+        },
+        {
+          "letter": "C",
+          "text": "2x + y - z + 3 = 0"
+        },
+        {
+          "letter": "D",
+          "text": "x + y + z - 3 = 0"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Ketiga titik memenuhi x + y + z = 3: 2+0+1=3, 1+2+0=3, 0+1+2=3",
+      "num": 67
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2-7] Persamaan normal bidang yang memuat titik (1, 0, 1) dan garis x/2 = y - 1 = z + 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2x + y + z - 3 = 0"
+        },
+        {
+          "letter": "B",
+          "text": "3x - y - z - 2 = 0"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sesuai kunci Tes Formatif 2 Modul 6 nomor 7: B",
+      "num": 68
+    }
+  ],
+  "essayQuestions": []
+}

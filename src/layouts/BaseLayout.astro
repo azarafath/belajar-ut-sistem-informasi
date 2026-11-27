@@ -1,0 +1,92 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import SearchModal from '../components/SearchModal';
+import '../styles/astro-enhancements.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogType?: 'website' | 'article';
+  jsonLd: Record<string, unknown>;
+  hasSidebar?: boolean;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogType = 'article',
+  jsonLd,
+  hasSidebar = false,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1d4ed8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Belajar UT" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="author" content="Ahmad Zakaria Fathoni" />
+  <link rel="author" href="https://azf.my.id" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:site_name" content="Portal Belajar UT Sistem Informasi" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=fallback" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <ClientRouter />
+</head>
+<body class={hasSidebar ? 'has-sidebar' : ''}>
+  <a class="skip-link" href="#main-content">Lewati ke konten</a>
+  <slot />
+  <SearchModal client:idle />
+
+  <script>
+    // Lightweight SVG lightbox + SW registration (re-binds on View Transitions)
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(() => {});
+    }
+
+    document.addEventListener('astro:page-load', () => {
+      document.body.classList.remove('drawer-open');
+      document.querySelectorAll('.svg-wrap svg').forEach((svg) => {
+        if ((svg as HTMLElement).dataset.zoomBound) return;
+        (svg as HTMLElement).dataset.zoomBound = '1';
+        (svg as HTMLElement).style.cursor = 'zoom-in';
+        svg.addEventListener('click', () => {
+          const modal = document.createElement('div');
+          modal.className = 'svg-lightbox';
+          modal.style.cssText = 'position:fixed;inset:0;z-index:220;background:rgba(15,23,42,.75);display:flex;align-items:center;justify-content:center;padding:20px;cursor:zoom-out;';
+          const box = document.createElement('div');
+          box.style.cssText = 'background:#fff;border-radius:16px;padding:18px;max-width:94vw;max-height:90vh;overflow:auto;width:min(960px,100%);';
+          box.appendChild(svg.cloneNode(true));
+          modal.appendChild(box);
+          modal.addEventListener('click', () => modal.remove());
+          document.body.appendChild(modal);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://belajar-ut.azf.my.id/sitemap-index.xml
+

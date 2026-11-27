@@ -1,0 +1,38 @@
+# Semester landing rewrites (preserving URL)
+/smt1 /index.html 200
+/smt1/ /index.html 200
+/smt2 /index.html 200
+/smt2/ /index.html 200
+
+# 301 Redirects from legacy root URLs to /smt1/*
+/perilaku-organisasi /smt1/perilaku-organisasi 301!
+/perilaku-organisasi.html /smt1/perilaku-organisasi 301!
+/sim-manajemen /smt1/sim-manajemen 301!
+/sim-manajemen.html /smt1/sim-manajemen 301!
+/aljabar-linear-elementer /smt1/aljabar-linear-elementer 301!
+/aljabar-linear-elementer.html /smt1/aljabar-linear-elementer 301!
+/belajar-di-era-digital /smt1/belajar-di-era-digital 301!
+/belajar-di-era-digital.html /smt1/belajar-di-era-digital 301!
+/struktur-data /smt1/struktur-data 301!
+/struktur-data.html /smt1/struktur-data 301!
+/interaksi-manusia-komputer /smt1/interaksi-manusia-komputer 301!
+/interaksi-manusia-komputer.html /smt1/interaksi-manusia-komputer 301!
+/rekayasa-perangkat-lunak /smt1/rekayasa-perangkat-lunak 301!
+/rekayasa-perangkat-lunak.html /smt1/rekayasa-perangkat-lunak 301!
+
+# 301 Redirects from legacy root URLs to /smt2/*
+/basis-data /smt2/basis-data 301!
+/basis-data.html /smt2/basis-data 301!
+/proses-bisnis /smt2/proses-bisnis 301!
+/proses-bisnis.html /smt2/proses-bisnis 301!
+/analisis-visualisasi-data /smt2/analisis-visualisasi-data 301!
+/analisis-visualisasi-data.html /smt2/analisis-visualisasi-data 301!
+/komunikasi-bisnis-teknis /smt2/komunikasi-bisnis-teknis 301!
+/komunikasi-bisnis-teknis.html /smt2/komunikasi-bisnis-teknis 301!
+/sistem-informasi-manajemen /smt2/sistem-informasi-manajemen 301!
+/sistem-informasi-manajemen.html /smt2/sistem-informasi-manajemen 301!
+/tata-kelola-ti /smt2/tata-kelola-ti 301!
+/tata-kelola-ti.html /smt2/tata-kelola-ti 301!
+/analisis-perancangan-sistem /smt2/analisis-perancangan-sistem 301!
+/analisis-perancangan-sistem.html /smt2/analisis-perancangan-sistem 301!
+

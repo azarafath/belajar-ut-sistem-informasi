@@ -1,0 +1,2169 @@
+{
+  "slug": "belajar-di-era-digital",
+  "semester": 1,
+  "url": "/smt1/belajar-di-era-digital",
+  "canonical": "https://belajar-ut.azf.my.id/smt1/belajar-di-era-digital.html",
+  "title": "MKWI4202: Belajar di Era Digital — Modul & Bank Soal UT",
+  "shortLabel": "Belajar Era Digital (MKWI4202)",
+  "h1": "MKWI4202: Belajar di Era Digital",
+  "metaDesc": "Ringkasan lengkap 9 modul Belajar di Era Digital (MKWI4202) UT: Pendidikan Era Digital, Pembelajaran Digital & Konektivisme, Literasi Media, Mass Media Digital, Literasi Informasi & Wikipedia, Pengembangan Media Digital, Pendidikan Terbuka & OER/MOOC, Hak Cipta & Creative Commons, serta Warga Digital + 27 Soal PG.",
+  "coverTag": "Semester 1 • BMP UT (Mohamad Toha, Udan Kusmawan, Tian Belawati, dkk.)",
+  "coverTagColor": "#ea580c",
+  "coverDesc": "Ringkasan lengkap 9 modul Belajar di Era Digital (MKWI4202) UT: Pendidikan Era Digital, Pembelajaran Digital & Konektivisme, Literasi Media, Mass Media Digital, Literasi Informasi & Wikipedia, Pengembangan Media Digital, Pendidikan Terbuka & OER/MOOC, Hak Cipta & Creative Commons, serta Warga Digital + 81 Soal PG.",
+  "badges": [
+    {
+      "bg": "var(--hl-peach)",
+      "text": "9 Modul + Diagram"
+    },
+    {
+      "bg": "var(--hl-mint)",
+      "text": "81 Soal PG + Pembahasan"
+    },
+    {
+      "bg": "var(--hl-yellow)",
+      "text": "Semester 1 • MKWI4202"
+    }
+  ],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Pendidikan di Era Digital"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Pembelajaran Digital"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Literasi Media"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Mass Media Digital dan Budaya Partisipatif"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Literasi Informasi dan Pemanfaatan Wikipedia"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Pengembangan Media Digital untuk Belajar"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Pendidikan Terbuka (Open Education), OER, dan MOOC"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Hak Cipta, Plagiarisme, dan Lisensi Creative Commons"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Warga Digital (Digital Citizenship)"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Modul 1: Pendidikan di Era Digital",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-head\">\n        <h2>Modul 1: Pendidikan di Era Digital</h2>\n        <span class=\"mod-tag\">Modul 1</span>\n      </div>\n      <h3>KB 1: Perubahan Masyarakat &amp; Keterampilan Abad 21</h3>\n        <ul>\n          <li><strong>Era Digital &amp; Pengetahuan:</strong> Pengetahuan berkembang eksponensial; peserta didik perlu beralih dari sekadar menghafal ke keterampilan berpikir kritis, komunikasi, kolaborasi, dan kreativitas (<strong>4C</strong>).</li>\n          <li><strong>Keterampilan Kunci Era Digital:</strong> Belajar sepanjang hayat (<em>lifelong learning</em>), literasi digital, kerja sama tim virtual, dan pemecahan masalah kompleks.</li>\n        </ul><h3>KB 2: Peran Teknologi &amp; Transformasi Pembelajaran</h3>\n        <ul>\n          <li><strong>Pergeseran Paradigma:</strong> Dari <em>teacher-centered</em> (berpusat pada pengajar) menuju <em>learner-centered</em> (berpusat pada pembelajar aktif &amp; mandiri).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Pergeseran Paradigma Pendidikan Menuju Pembelajaran Abad 21\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"58\" width=\"260\" height=\"78\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"165.0\" y=\"91.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Paradigma Lama</text><text x=\"165.0\" y=\"114.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Teacher-Centered, Hafalan, Statis</text><line x1=\"295\" y1=\"97\" x2=\"375\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"335.0\" y=\"91.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Transformasi</text><rect x=\"375\" y=\"58\" width=\"270\" height=\"78\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"510.0\" y=\"91.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Paradigma Era Digital</text><text x=\"510.0\" y=\"114.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Learner-Centered, 4C, Lifelong Learning</text>\n  </svg>\n  <p class=\"svg-caption\">Pergeseran Paradigma Pendidikan Menuju Pembelajaran Abad 21</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Keterampilan 4C</span>\n          <span class=\"kw-chip\">Lifelong Learning</span>\n          <span class=\"kw-chip\">Learner-Centered</span>\n          <span class=\"kw-chip\">Revolusi Industri 4.0</span>\n          <span class=\"kw-chip\">Literasi Digital</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 1: Pendidikan di Era Digital Modul 1 KB 1: Perubahan Masyarakat & Keterampilan Abad 21 Era Digital & Pengetahuan: Pengetahuan berkembang eksponensial; peserta didik perlu beralih dari sekadar menghafal ke keterampilan berpikir kritis, komunikasi, kolaborasi, dan kreativitas ( 4C ). Keterampilan Kunci Era Digital: Belajar sepanjang hayat ( lifelong learning ), literasi digital, kerja sama tim virtual, dan pemecahan masalah kompleks. KB 2: Peran Teknologi & Transformasi Pembelajaran Pergeseran Paradigma: Dari teacher-centered (berpusat pada pengajar) menuju learner-centered (berpusat pada pembelajar aktif & mandiri). Paradigma Lama Teacher-Centered, Hafalan, Statis Transformasi Paradigma Era Digital Learner-Centered, 4C, Lifelong Learning Pergeseran Paradigma Pendidikan Menuju Pembelajaran Abad 21 🔑 Kata Kunci Wajib Ingat: Keterampilan 4C Lifelong Learning Learner-Centered Revolusi Industri 4.0 Literasi Digital"
+    },
+    {
+      "id": "m2",
+      "title": "Modul 2: Pembelajaran Digital",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-head\">\n        <h2>Modul 2: Pembelajaran Digital</h2>\n        <span class=\"mod-tag\">Modul 2</span>\n      </div>\n      <h3>KB 1: Teori Belajar Digital &amp; Konektivisme</h3>\n        <ul>\n          <li><strong>Konektivisme (George Siemens):</strong> Teori belajar era digital yang memandang belajar sebagai proses membangun jaringan simpul informasi (<em>nodes</em>) — tidak hanya di kepala individu, tetapi juga pada basis data dan komunitas daring.</li>\n          <li><strong>E-Learning, Blended Learning, &amp; Flipped Classroom:</strong> <em>Blended</em> memadukan tatap muka dan daring; <em>Flipped Classroom</em> membalik urutan (materi dipelajari daring di rumah, diskusi/latihan di kelas).</li>\n        </ul><h3>KB 2: Sinkron vs Asinkron</h3>\n        <ul>\n          <li><strong>Pembelajaran Sinkron:</strong> Terjadi pada waktu bersamaan (video conference, live chat).</li>\n          <li><strong>Pembelajaran Asinkron:</strong> Fleksibel kapan saja (forum diskusi, video rekaman, LMS seperti Moodle/UT Online).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Spektrum Modalitas Pembelajaran Digital: Sinkron, Blended, dan Asinkron\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"122.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Sinkron (Live)</text><text x=\"122.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Zoom, Webinar, Chat Langsung</text><rect x=\"248\" y=\"58\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Blended / Flipped</text><text x=\"340.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kombinasi Tatap Muka + LMS</text><rect x=\"466\" y=\"58\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"558.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Asinkron (Mandiri)</text><text x=\"558.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Forum, Modul Digital, Video</text>\n  </svg>\n  <p class=\"svg-caption\">Spektrum Modalitas Pembelajaran Digital: Sinkron, Blended, dan Asinkron</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Konektivisme</span>\n          <span class=\"kw-chip\">Blended Learning</span>\n          <span class=\"kw-chip\">Flipped Classroom</span>\n          <span class=\"kw-chip\">Sinkron vs Asinkron</span>\n          <span class=\"kw-chip\">LMS</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 2: Pembelajaran Digital Modul 2 KB 1: Teori Belajar Digital & Konektivisme Konektivisme (George Siemens): Teori belajar era digital yang memandang belajar sebagai proses membangun jaringan simpul informasi ( nodes ) — tidak hanya di kepala individu, tetapi juga pada basis data dan komunitas daring. E-Learning, Blended Learning, & Flipped Classroom: Blended memadukan tatap muka dan daring; Flipped Classroom membalik urutan (materi dipelajari daring di rumah, diskusi/latihan di kelas). KB 2: Sinkron vs Asinkron Pembelajaran Sinkron: Terjadi pada waktu bersamaan (video conference, live chat). Pembelajaran Asinkron: Fleksibel kapan saja (forum diskusi, video rekaman, LMS seperti Moodle/UT Online). Sinkron (Live) Zoom, Webinar, Chat Langsung Blended / Flipped Kombinasi Tatap Muka + LMS Asinkron (Mandiri) Forum, Modul Digital, Video Spektrum Modalitas Pembelajaran Digital: Sinkron, Blended, dan Asinkron 🔑 Kata Kunci Wajib Ingat: Konektivisme Blended Learning Flipped Classroom Sinkron vs Asinkron LMS"
+    },
+    {
+      "id": "m3",
+      "title": "Modul 3: Literasi Media",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-head\">\n        <h2>Modul 3: Literasi Media</h2>\n        <span class=\"mod-tag\">Modul 3</span>\n      </div>\n      <h3>KB 1: Konsep Dasar &amp; Kompetensi Literasi Media</h3>\n        <ul>\n          <li><strong>Literasi Media:</strong> Kemampuan mengakses, menganalisis, mengevaluasi, dan memproduksi pesan media dalam berbagai format secara kritis.</li>\n          <li><strong>Prinsip Kritis (Potter):</strong> Semua pesan media dikonstruksi oleh pembuatnya dengan tujuan komersial, ideologis, atau sosial tertentu — bukan cerminan realitas netral.</li>\n        </ul><h3>KB 2: Melawan Misinformasi, Disinformasi, &amp; Hoaks</h3>\n        <ul>\n          <li><strong>Misinformasi vs Disinformasi:</strong> <em>Misinformasi</em> adalah info salah yang disebar tanpa niat jahat; <em>Disinformasi</em> adalah kebohongan yang sengaja dibuat untuk menyesatkan.</li>\n          <li><strong>Verifikasi Konten:</strong> Periksa sumber asli, tanggal publikasi, bukti pendukung, dan bias emosional judul (<em>clickbait</em>).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Empat Tahap Kompetensi Literasi Media: Akses, Analisis, Evaluasi, Produksi\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"20\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"92.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">1. Akses</text><text x=\"92.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Menemukan sumber</text><line x1=\"165\" y1=\"98\" x2=\"185\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"185\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"257.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">2. Analisis</text><text x=\"257.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pahami tujuan &amp; bias</text><line x1=\"330\" y1=\"98\" x2=\"350\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"350\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"422.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">3. Evaluasi</text><text x=\"422.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Cek fakta &amp; akurasi</text><line x1=\"495\" y1=\"98\" x2=\"515\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"515\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"587.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">4. Produksi</text><text x=\"587.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Buat konten etis</text>\n  </svg>\n  <p class=\"svg-caption\">Empat Tahap Kompetensi Literasi Media: Akses, Analisis, Evaluasi, Produksi</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Literasi Media</span>\n          <span class=\"kw-chip\">Misinformasi vs Disinformasi</span>\n          <span class=\"kw-chip\">Clickbait</span>\n          <span class=\"kw-chip\">Konstruksi Media</span>\n          <span class=\"kw-chip\">Cek Fakta</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 3: Literasi Media Modul 3 KB 1: Konsep Dasar & Kompetensi Literasi Media Literasi Media: Kemampuan mengakses, menganalisis, mengevaluasi, dan memproduksi pesan media dalam berbagai format secara kritis. Prinsip Kritis (Potter): Semua pesan media dikonstruksi oleh pembuatnya dengan tujuan komersial, ideologis, atau sosial tertentu — bukan cerminan realitas netral. KB 2: Melawan Misinformasi, Disinformasi, & Hoaks Misinformasi vs Disinformasi: Misinformasi adalah info salah yang disebar tanpa niat jahat; Disinformasi adalah kebohongan yang sengaja dibuat untuk menyesatkan. Verifikasi Konten: Periksa sumber asli, tanggal publikasi, bukti pendukung, dan bias emosional judul ( clickbait ). 1. Akses Menemukan sumber 2. Analisis Pahami tujuan & bias 3. Evaluasi Cek fakta & akurasi 4. Produksi Buat konten etis Empat Tahap Kompetensi Literasi Media: Akses, Analisis, Evaluasi, Produksi 🔑 Kata Kunci Wajib Ingat: Literasi Media Misinformasi vs Disinformasi Clickbait Konstruksi Media Cek Fakta"
+    },
+    {
+      "id": "m4",
+      "title": "Modul 4: Mass Media Digital dan Budaya Partisipatif",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-head\">\n        <h2>Modul 4: Mass Media Digital dan Budaya Partisipatif</h2>\n        <span class=\"mod-tag\">Modul 4</span>\n      </div>\n      <h3>KB 1: Evolusi Media Massa ke Media Baru (New Media)</h3>\n        <ul>\n          <li><strong>Media Lama vs Media Digital:</strong> Media tradisional bersifat satu arah (<em>one-to-many</em>); media baru bersifat interaktif, terkonvergensi, dan jaringan (<em>many-to-many</em>).</li>\n          <li><strong>Konvergensi Media (Henry Jenkins):</strong> Aliran konten melintasi berbagai platform media sekaligus, disertai budaya partisipatif.</li>\n        </ul><h3>KB 2: Prosumer &amp; Algoritma Media Sosial</h3>\n        <ul>\n          <li><strong>Prosumer (Producer + Consumer):</strong> Pengguna era digital tidak lagi pasif mengonsumsi berita, melainkan ikut memproduksi dan menyebarkan konten.</li>\n          <li><strong>Filter Bubble &amp; Echo Chamber:</strong> Algoritma merekomendasikan konten serupa preferensi pengguna sehingga mempersempit paparan sudut pandang berbeda.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Transformasi Media Massa Menuju Budaya Partisipatif Prosumer\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"58\" width=\"195\" height=\"76\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"1.8\"/><text x=\"132.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#334155\">Media Tradisional</text><text x=\"132.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">One-to-Many (Pasif)</text><line x1=\"230\" y1=\"96\" x2=\"280\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"255.0\" y=\"90.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Konvergensi</text><rect x=\"280\" y=\"58\" width=\"175\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"367.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Prosumer</text><text x=\"367.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Konsumsi + Produksi</text><line x1=\"455\" y1=\"96\" x2=\"495\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"495\" y=\"58\" width=\"155\" height=\"76\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"572.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Risiko Algoritma</text><text x=\"572.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Echo Chamber</text>\n  </svg>\n  <p class=\"svg-caption\">Transformasi Media Massa Menuju Budaya Partisipatif Prosumer</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Konvergensi Media</span>\n          <span class=\"kw-chip\">Budaya Partisipatif</span>\n          <span class=\"kw-chip\">Prosumer</span>\n          <span class=\"kw-chip\">Filter Bubble</span>\n          <span class=\"kw-chip\">Echo Chamber</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 4: Mass Media Digital dan Budaya Partisipatif Modul 4 KB 1: Evolusi Media Massa ke Media Baru (New Media) Media Lama vs Media Digital: Media tradisional bersifat satu arah ( one-to-many ); media baru bersifat interaktif, terkonvergensi, dan jaringan ( many-to-many ). Konvergensi Media (Henry Jenkins): Aliran konten melintasi berbagai platform media sekaligus, disertai budaya partisipatif. KB 2: Prosumer & Algoritma Media Sosial Prosumer (Producer + Consumer): Pengguna era digital tidak lagi pasif mengonsumsi berita, melainkan ikut memproduksi dan menyebarkan konten. Filter Bubble & Echo Chamber: Algoritma merekomendasikan konten serupa preferensi pengguna sehingga mempersempit paparan sudut pandang berbeda. Media Tradisional One-to-Many (Pasif) Konvergensi Prosumer Konsumsi + Produksi Risiko Algoritma Echo Chamber Transformasi Media Massa Menuju Budaya Partisipatif Prosumer 🔑 Kata Kunci Wajib Ingat: Konvergensi Media Budaya Partisipatif Prosumer Filter Bubble Echo Chamber"
+    },
+    {
+      "id": "m5",
+      "title": "Modul 5: Literasi Informasi dan Pemanfaatan Wikipedia",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-head\">\n        <h2>Modul 5: Literasi Informasi dan Pemanfaatan Wikipedia</h2>\n        <span class=\"mod-tag\">Modul 5</span>\n      </div>\n      <h3>KB 1: Standar Literasi Informasi (CRAAP / SIFT)</h3>\n        <ul>\n          <li><strong>Literasi Informasi:</strong> Kemampuan mengenali kapan informasi dibutuhkan, menemukannya, mengevaluasi kredibilitasnya, dan menggunakannya secara etis tanpa plagiarisme.</li>\n          <li><strong>Uji Kredibilitas CRAAP:</strong> <em>Currency</em> (kebaruan), <em>Relevance</em> (relevansi), <em>Authority</em> (otoritas penulis), <em>Accuracy</em> (akurasi/referensi), dan <em>Purpose</em> (tujuan objektif vs promosi).</li>\n        </ul><h3>KB 2: Memanfaatkan Wikipedia Secara Cerdas</h3>\n        <ul>\n          <li><strong>Posisi Wikipedia dalam Akademik:</strong> Wikipedia sangat baik sebagai <em>titik awal eksplorasi</em> dan mencari daftar rujukan primer di bagian <em>References</em>, namun tidak disarankan sebagai kutipan utama karya ilmiah karena sifatnya yang dapat disunting terbuka.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kerangka Evaluasi Kredibilitas Sumber Informasi: Uji CRAAP\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"20\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"79.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Currency</text><text x=\"79.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kapan terbit?</text><rect x=\"150\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"209.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Relevance</text><text x=\"209.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Sesuai topik?</text><rect x=\"280\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"339.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Authority</text><text x=\"339.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Siapa penulis?</text><rect x=\"410\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"469.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Accuracy</text><text x=\"469.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ada sitasi valid?</text><rect x=\"540\" y=\"62\" width=\"120\" height=\"72\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"600.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Purpose</text><text x=\"600.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Fakta vs Iklan?</text>\n  </svg>\n  <p class=\"svg-caption\">Kerangka Evaluasi Kredibilitas Sumber Informasi: Uji CRAAP</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Literasi Informasi</span>\n          <span class=\"kw-chip\">Uji CRAAP</span>\n          <span class=\"kw-chip\">Referensi Primer</span>\n          <span class=\"kw-chip\">Wikipedia Etis</span>\n          <span class=\"kw-chip\">Anti-Plagiarisme</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 5: Literasi Informasi dan Pemanfaatan Wikipedia Modul 5 KB 1: Standar Literasi Informasi (CRAAP / SIFT) Literasi Informasi: Kemampuan mengenali kapan informasi dibutuhkan, menemukannya, mengevaluasi kredibilitasnya, dan menggunakannya secara etis tanpa plagiarisme. Uji Kredibilitas CRAAP: Currency (kebaruan), Relevance (relevansi), Authority (otoritas penulis), Accuracy (akurasi/referensi), dan Purpose (tujuan objektif vs promosi). KB 2: Memanfaatkan Wikipedia Secara Cerdas Posisi Wikipedia dalam Akademik: Wikipedia sangat baik sebagai titik awal eksplorasi dan mencari daftar rujukan primer di bagian References , namun tidak disarankan sebagai kutipan utama karya ilmiah karena sifatnya yang dapat disunting terbuka. Currency Kapan terbit? Relevance Sesuai topik? Authority Siapa penulis? Accuracy Ada sitasi valid? Purpose Fakta vs Iklan? Kerangka Evaluasi Kredibilitas Sumber Informasi: Uji CRAAP 🔑 Kata Kunci Wajib Ingat: Literasi Informasi Uji CRAAP Referensi Primer Wikipedia Etis Anti-Plagiarisme"
+    },
+    {
+      "id": "m6",
+      "title": "Modul 6: Pengembangan Media Digital untuk Belajar",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-head\">\n        <h2>Modul 6: Pengembangan Media Digital untuk Belajar</h2>\n        <span class=\"mod-tag\">Modul 6</span>\n      </div>\n      <h3>KB 1: Prinsip Multimedia Pembelajaran (Mayer)</h3>\n        <ul>\n          <li><strong>Prinsip Multimedia:</strong> Manusia belajar lebih baik dari gabungan <em>kata-kata dan gambar</em> daripada kata-kata saja.</li>\n          <li><strong>Prinsip Koherensi &amp; Redundansi:</strong> Hapus elemen visual/audio yang tidak relevan agar tidak membebani memori kerja (<em>Cognitive Load Theory</em>).</li>\n        </ul><h3>KB 2: Alat &amp; Format Media Pembelajaran Digital</h3>\n        <ul>\n          <li><strong>Format Populer:</strong> Infografis, podcast audio, video microlearning (durasi singkat 3–7 menit fokus satu topik), dan presentasi interaktif.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Teori Kognitif Pembelajaran Multimedia Richard Mayer (Dual-Channel)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"58\" width=\"195\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"132.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Saluran Verbal (Teks)</text><text x=\"132.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Diproses Memori Auditori</text><rect x=\"248\" y=\"58\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Saluran Visual (Gambar)</text><text x=\"340.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Diproses Memori Visual</text><line x1=\"230\" y1=\"96\" x2=\"248\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"239.0\" y=\"90.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">+</text><line x1=\"433\" y1=\"96\" x2=\"470\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"451.5\" y=\"90.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">=</text><rect x=\"470\" y=\"58\" width=\"180\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"560.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Pemahaman Mendalam</text><text x=\"560.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Beban Kognitif Optimal</text>\n  </svg>\n  <p class=\"svg-caption\">Teori Kognitif Pembelajaran Multimedia Richard Mayer (Dual-Channel)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Multimedia Mayer</span>\n          <span class=\"kw-chip\">Cognitive Load</span>\n          <span class=\"kw-chip\">Prinsip Koherensi</span>\n          <span class=\"kw-chip\">Microlearning</span>\n          <span class=\"kw-chip\">Infografis</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 6: Pengembangan Media Digital untuk Belajar Modul 6 KB 1: Prinsip Multimedia Pembelajaran (Mayer) Prinsip Multimedia: Manusia belajar lebih baik dari gabungan kata-kata dan gambar daripada kata-kata saja. Prinsip Koherensi & Redundansi: Hapus elemen visual/audio yang tidak relevan agar tidak membebani memori kerja ( Cognitive Load Theory ). KB 2: Alat & Format Media Pembelajaran Digital Format Populer: Infografis, podcast audio, video microlearning (durasi singkat 3–7 menit fokus satu topik), dan presentasi interaktif. Saluran Verbal (Teks) Diproses Memori Auditori Saluran Visual (Gambar) Diproses Memori Visual + = Pemahaman Mendalam Beban Kognitif Optimal Teori Kognitif Pembelajaran Multimedia Richard Mayer (Dual-Channel) 🔑 Kata Kunci Wajib Ingat: Multimedia Mayer Cognitive Load Prinsip Koherensi Microlearning Infografis"
+    },
+    {
+      "id": "m7",
+      "title": "Modul 7: Pendidikan Terbuka (Open Education), OER, dan MOOC",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-head\">\n        <h2>Modul 7: Pendidikan Terbuka (Open Education), OER, dan MOOC</h2>\n        <span class=\"mod-tag\">Modul 7</span>\n      </div>\n      <h3>KB 1: Konsep Open Education &amp; OER (5R)</h3>\n        <ul>\n          <li><strong>OER (Open Educational Resources):</strong> Sumber daya belajar terbuka berlisensi bebas yang dapat diakses publik tanpa biaya.</li>\n          <li><strong>5R Hak OER (David Wiley):</strong> <em>Retain</em> (menyimpan), <em>Reuse</em> (menggunakan ulang), <em>Revise</em> (mengubah/menerjemahkan), <em>Remix</em> (menggabungkan), dan <em>Redistribute</em> (membagikan kembali).</li>\n        </ul><h3>KB 2: MOOC (Massive Open Online Course)</h3>\n        <ul>\n          <li><strong>MOOC:</strong> Kursus daring terbuka berskala massal (contoh: Coursera, edX, IndonesiaX, UT OpenCourseWare). Memberikan akses pendidikan tinggi berkualitas ke seluruh dunia.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lima Aktivitas Kebebasan Open Educational Resources (5R David Wiley)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"18\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"77.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Retain</text><text x=\"77.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Simpan &amp; Miliki</text><rect x=\"150\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"209.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Reuse</text><text x=\"209.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pakai Ulang</text><rect x=\"282\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"341.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Revise</text><text x=\"341.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Modifikasi/Alih</text><rect x=\"414\" y=\"62\" width=\"118\" height=\"72\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"473.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Remix</text><text x=\"473.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Gabung Materi</text><rect x=\"546\" y=\"62\" width=\"116\" height=\"72\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"604.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Redistribute</text><text x=\"604.0\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Bagikan Lagi</text>\n  </svg>\n  <p class=\"svg-caption\">Lima Aktivitas Kebebasan Open Educational Resources (5R David Wiley)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Open Education</span>\n          <span class=\"kw-chip\">OER 5R</span>\n          <span class=\"kw-chip\">MOOC</span>\n          <span class=\"kw-chip\">OpenCourseWare</span>\n          <span class=\"kw-chip\">Akses Terbuka</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 7: Pendidikan Terbuka (Open Education), OER, dan MOOC Modul 7 KB 1: Konsep Open Education & OER (5R) OER (Open Educational Resources): Sumber daya belajar terbuka berlisensi bebas yang dapat diakses publik tanpa biaya. 5R Hak OER (David Wiley): Retain (menyimpan), Reuse (menggunakan ulang), Revise (mengubah/menerjemahkan), Remix (menggabungkan), dan Redistribute (membagikan kembali). KB 2: MOOC (Massive Open Online Course) MOOC: Kursus daring terbuka berskala massal (contoh: Coursera, edX, IndonesiaX, UT OpenCourseWare). Memberikan akses pendidikan tinggi berkualitas ke seluruh dunia. Retain Simpan & Miliki Reuse Pakai Ulang Revise Modifikasi/Alih Remix Gabung Materi Redistribute Bagikan Lagi Lima Aktivitas Kebebasan Open Educational Resources (5R David Wiley) 🔑 Kata Kunci Wajib Ingat: Open Education OER 5R MOOC OpenCourseWare Akses Terbuka"
+    },
+    {
+      "id": "m8",
+      "title": "Modul 8: Hak Cipta, Plagiarisme, dan Lisensi Creative Commons",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-head\">\n        <h2>Modul 8: Hak Cipta, Plagiarisme, dan Lisensi Creative Commons</h2>\n        <span class=\"mod-tag\">Modul 8</span>\n      </div>\n      <h3>KB 1: Hak Cipta (Copyright) &amp; Etika Sitasi</h3>\n        <ul>\n          <li><strong>Hak Cipta:</strong> Hak eksklusif pencipta atas karya intelektual yang timbul otomatis sejak karya diwujudkan.</li>\n          <li><strong>Plagiarisme &amp; Fair Use:</strong> Menggunakan karya orang lain tanpa atribusi yang sah adalah plagiarisme. Kutipan wajar untuk pendidikan/kritik termasuk <em>Fair Use / Penggunaan Wajar</em> dengan tetap mencantumkan sumber.</li>\n        </ul><h3>KB 2: Lisensi Creative Commons (CC)</h3>\n        <ul>\n          <li><strong>4 Elemen Utama CC:</strong> <strong>BY</strong> (wajib cantumkan nama pencipta), <strong>NC</strong> (<em>NonCommercial</em> — bukan untuk komersial), <strong>ND</strong> (<em>NoDerivatives</em> — tidak boleh diubah), dan <strong>SA</strong> (<em>ShareAlike</em> — turunan wajib memakai lisensi sama).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Empat Kondisi Utama dalam Lisensi Terbuka Creative Commons (CC)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"58\" width=\"145\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"97.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">CC BY</text><text x=\"97.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Wajib Atribusi Pencipta</text><rect x=\"185\" y=\"58\" width=\"145\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"257.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">NC (NonCommercial)</text><text x=\"257.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Dilarang Komersial</text><rect x=\"345\" y=\"58\" width=\"145\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"417.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">SA (ShareAlike)</text><text x=\"417.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Lisensi Turunan Sama</text><rect x=\"505\" y=\"58\" width=\"150\" height=\"76\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"580.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">ND (NoDerivatives)</text><text x=\"580.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Dilarang Mengubah</text>\n  </svg>\n  <p class=\"svg-caption\">Empat Kondisi Utama dalam Lisensi Terbuka Creative Commons (CC)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Hak Cipta</span>\n          <span class=\"kw-chip\">Plagiarisme</span>\n          <span class=\"kw-chip\">Fair Use</span>\n          <span class=\"kw-chip\">Creative Commons (CC)</span>\n          <span class=\"kw-chip\">BY-NC-SA-ND</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 8: Hak Cipta, Plagiarisme, dan Lisensi Creative Commons Modul 8 KB 1: Hak Cipta (Copyright) & Etika Sitasi Hak Cipta: Hak eksklusif pencipta atas karya intelektual yang timbul otomatis sejak karya diwujudkan. Plagiarisme & Fair Use: Menggunakan karya orang lain tanpa atribusi yang sah adalah plagiarisme. Kutipan wajar untuk pendidikan/kritik termasuk Fair Use / Penggunaan Wajar dengan tetap mencantumkan sumber. KB 2: Lisensi Creative Commons (CC) 4 Elemen Utama CC: BY (wajib cantumkan nama pencipta), NC ( NonCommercial — bukan untuk komersial), ND ( NoDerivatives — tidak boleh diubah), dan SA ( ShareAlike — turunan wajib memakai lisensi sama). CC BY Wajib Atribusi Pencipta NC (NonCommercial) Dilarang Komersial SA (ShareAlike) Lisensi Turunan Sama ND (NoDerivatives) Dilarang Mengubah Empat Kondisi Utama dalam Lisensi Terbuka Creative Commons (CC) 🔑 Kata Kunci Wajib Ingat: Hak Cipta Plagiarisme Fair Use Creative Commons (CC) BY-NC-SA-ND"
+    },
+    {
+      "id": "m9",
+      "title": "Modul 9: Warga Digital (Digital Citizenship)",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-head\">\n        <h2>Modul 9: Warga Digital (Digital Citizenship)</h2>\n        <span class=\"mod-tag\">Modul 9</span>\n      </div>\n      <h3>KB 1: 9 Elemen Kewargaan Digital (Mike Ribble)</h3>\n        <ul>\n          <li><strong>Kewargaan Digital:</strong> Norma perilaku yang tepat dan bertanggung jawab terkait penggunaan teknologi.</li>\n          <li><strong>Tiga Pilar Utama:</strong> (1) <em>Respect</em> (etiket/netiket, akses digital, hukum digital), (2) <em>Educate</em> (literasi digital, komunikasi, perdagangan digital), (3) <em>Protect</em> (hak &amp; tanggung jawab, keamanan digital, kesehatan/ergonomi digital).</li>\n        </ul><h3>KB 2: Jejak Digital &amp; Keamanan Diri</h3>\n        <ul>\n          <li><strong>Jejak Digital (Digital Footprint):</strong> Rekam jejak aktivitas daring (<em>aktif</em> seperti unggahan media sosial maupun <em>pasif</em> seperti cookie/IP) yang bersifat permanen dan memengaruhi reputasi profesional.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Pilar Kewargaan Digital (REP) Menurut Mike Ribble\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"190\" height=\"78\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"125.0\" y=\"91.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Respect (Menghormati)</text><text x=\"125.0\" y=\"114.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Etiket, Hukum, Akses Digital</text><rect x=\"245\" y=\"58\" width=\"190\" height=\"78\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"91.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Educate (Mendidik)</text><text x=\"340.0\" y=\"114.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Literasi, Komunikasi, Transaksi</text><rect x=\"460\" y=\"58\" width=\"190\" height=\"78\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"555.0\" y=\"91.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Protect (Melindungi)</text><text x=\"555.0\" y=\"114.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Keamanan, Privasi, Kesehatan</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Pilar Kewargaan Digital (REP) Menurut Mike Ribble</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Digital Citizenship</span>\n          <span class=\"kw-chip\">Netiket</span>\n          <span class=\"kw-chip\">Jejak Digital</span>\n          <span class=\"kw-chip\">Mike Ribble REP</span>\n          <span class=\"kw-chip\">Keamanan &amp; Privasi</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 9: Warga Digital (Digital Citizenship) Modul 9 KB 1: 9 Elemen Kewargaan Digital (Mike Ribble) Kewargaan Digital: Norma perilaku yang tepat dan bertanggung jawab terkait penggunaan teknologi. Tiga Pilar Utama: (1) Respect (etiket/netiket, akses digital, hukum digital), (2) Educate (literasi digital, komunikasi, perdagangan digital), (3) Protect (hak & tanggung jawab, keamanan digital, kesehatan/ergonomi digital). KB 2: Jejak Digital & Keamanan Diri Jejak Digital (Digital Footprint): Rekam jejak aktivitas daring ( aktif seperti unggahan media sosial maupun pasif seperti cookie/IP) yang bersifat permanen dan memengaruhi reputasi profesional. Respect (Menghormati) Etiket, Hukum, Akses Digital Educate (Mendidik) Literasi, Komunikasi, Transaksi Protect (Melindungi) Keamanan, Privasi, Kesehatan Tiga Pilar Kewargaan Digital (REP) Menurut Mike Ribble 🔑 Kata Kunci Wajib Ingat: Digital Citizenship Netiket Jejak Digital Mike Ribble REP Keamanan & Privasi"
+    },
+    {
+      "id": "ahli",
+      "title": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-head\">\n        <h2>Menurut Ahli + 📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h2>\n        <span class=\"mod-tag\">Tokoh &amp; Referensi</span>\n      </div>\n      <h3>Tokoh &amp; Teori Kunci dalam Belajar Era Digital</h3>\n      <ul>\n        <li><strong>George Siemens</strong> — Pencetus teori belajar <em>Konektivisme</em> yang menekankan pembelajaran melalui jaringan simpul informasi digital.</li>\n        <li><strong>Henry Jenkins</strong> — Mengemukakan konsep <em>Konvergensi Media</em> dan <em>Budaya Partisipatif</em> di mana khalayak menjadi prosumer aktif.</li>\n        <li><strong>Richard E. Mayer</strong> — Merumuskan <em>Cognitive Theory of Multimedia Learning</em> (memadukan saluran visual dan verbal untuk belajar efektif).</li>\n        <li><strong>David Wiley</strong> — Merumuskan kerangka <strong>5R</strong> pada Open Educational Resources (Retain, Reuse, Revise, Remix, Redistribute).</li>\n        <li><strong>Mike Ribble</strong> — Mengklasifikasikan 9 elemen Kewargaan Digital ke dalam tiga prinsip: Respect, Educate, dan Protect.</li>\n      </ul>\n      <h3>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h3>\n      <ul>\n        <li><strong>Lisensi CC BY-ND vs OER</strong>: Karya berlisensi <strong>ND (NoDerivatives)</strong> sebenarnya <em>tidak memenuhi</em> syarat penuh OER 5R karena melarang hak <em>Revise</em> dan <em>Remix</em>.</li>\n        <li><strong>Jejak Digital Aktif vs Pasif</strong>: Jejak aktif dibuat sengaja (komentar, status, email); jejak pasif dikumpulkan otomatis tanpa disadari langsung (riwayat pencarian, lokasi GPS, cookies).</li>\n        <li><strong>Netiket Dasar Akademik</strong>: Hindari penggunaan huruf kapital semua (dianggap berteriak), cantumkan subjek jelas pada email dosen, dan jaga privasi data pribadi orang lain.</li>\n      </ul>\n    </section>",
+      "text": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Tokoh & Referensi Tokoh & Teori Kunci dalam Belajar Era Digital George Siemens — Pencetus teori belajar Konektivisme yang menekankan pembelajaran melalui jaringan simpul informasi digital. Henry Jenkins — Mengemukakan konsep Konvergensi Media dan Budaya Partisipatif di mana khalayak menjadi prosumer aktif. Richard E. Mayer — Merumuskan Cognitive Theory of Multimedia Learning (memadukan saluran visual dan verbal untuk belajar efektif). David Wiley — Merumuskan kerangka 5R pada Open Educational Resources (Retain, Reuse, Revise, Remix, Redistribute). Mike Ribble — Mengklasifikasikan 9 elemen Kewargaan Digital ke dalam tiga prinsip: Respect, Educate, dan Protect. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Lisensi CC BY-ND vs OER : Karya berlisensi ND (NoDerivatives) sebenarnya tidak memenuhi syarat penuh OER 5R karena melarang hak Revise dan Remix . Jejak Digital Aktif vs Pasif : Jejak aktif dibuat sengaja (komentar, status, email); jejak pasif dikumpulkan otomatis tanpa disadari langsung (riwayat pencarian, lokasi GPS, cookies). Netiket Dasar Akademik : Hindari penggunaan huruf kapital semua (dianggap berteriak), cantumkan subjek jelas pada email dosen, dan jaga privasi data pribadi orang lain."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Empat keterampilan utama abad ke-21 yang dikenal dengan singkatan 4C adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coding, Cloud, Cyber, Crypto"
+        },
+        {
+          "letter": "B",
+          "text": "Critical Thinking, Communication, Collaboration, Creativity"
+        },
+        {
+          "letter": "C",
+          "text": "Copy, Cut, Create, Check"
+        },
+        {
+          "letter": "D",
+          "text": "Control, Command, Care, Cost"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "4C merupakan fondasi kompetensi pembelajar di era digital",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Tenaga kerja berbasis pengetahuan di era ekonomi digital yang cenderung bekerja mandiri, fleksibel, dan bergantung pada jejaring sosial disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blue-collar workers"
+        },
+        {
+          "letter": "B",
+          "text": "Knowledge workers (pekerja pengetahuan)"
+        },
+        {
+          "letter": "C",
+          "text": "Manual operators"
+        },
+        {
+          "letter": "D",
+          "text": "Passive consumers"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 1 menjelaskan munculnya knowledge workers yang membutuhkan kompetensi komunikasi, kolaborasi, berpikir kritis, dan manajemen pengetahuan",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Pergeseran paradigma pendidikan tinggi di era digital menempatkan mahasiswa sebagai subjek aktif, yang dikenal sebagai pendekatan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Teacher-centered"
+        },
+        {
+          "letter": "B",
+          "text": "Learner-centered"
+        },
+        {
+          "letter": "C",
+          "text": "Lecture-only"
+        },
+        {
+          "letter": "D",
+          "text": "Closed-book"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pendekatan learner-centered menekankan individualisasi pembelajaran, kemandirian, dan partisipasi aktif mahasiswa",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Kemampuan untuk terus memperbarui pengetahuan secara mandiri sepanjang hayat agar relevan dengan perubahan teknologi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rote learning"
+        },
+        {
+          "letter": "B",
+          "text": "Lifelong learning"
+        },
+        {
+          "letter": "C",
+          "text": "Machine learning"
+        },
+        {
+          "letter": "D",
+          "text": "Passive reading"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Lifelong learning/belajar sepanjang hayat penting karena laju perubahan teknologi dan pengetahuan berlangsung sangat cepat",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Dalam Modul 1, perbedaan mendasar antara literasi digital dan keterampilan digital adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Literasi digital hanya soal perangkat keras, keterampilan digital soal perangkat lunak"
+        },
+        {
+          "letter": "B",
+          "text": "Literasi digital membahas mengapa, siapa, dan untuk siapa; sedangkan keterampilan digital membahas apa dan bagaimana"
+        },
+        {
+          "letter": "C",
+          "text": "Literasi digital untuk dosen, keterampilan digital untuk mahasiswa"
+        },
+        {
+          "letter": "D",
+          "text": "Keduanya tidak memiliki perbedaan konseptual"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Literasi digital mencakup kesadaran kritis mengapa/siapa/untuk siapa, sedangkan keterampilan digital berfokus pada penguasaan teknis apa dan bagaimana",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-6] Berikut ini yang termasuk tujuh unsur literasi digital di perguruan tinggi menurut Modul 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Communication and collaboration, digital scholarship, serta ICT literacy"
+        },
+        {
+          "letter": "B",
+          "text": "Stenografi, mengetik manual, dan pengarsipan kertas"
+        },
+        {
+          "letter": "C",
+          "text": "Monopoli data dan sensor informasi"
+        },
+        {
+          "letter": "D",
+          "text": "Hafalan definisi tanpa praktik"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Tujuh unsur literasi digital mencakup communication & collaboration, digital scholarship, career & identity management, learning skills, ICT literacy, dan lainnya",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1-7] Menurut literatur manajemen perubahan (Weiner, 2009) yang dikutip dalam Modul 1, perubahan di perguruan tinggi akan lebih konsisten dan mendalam apabila...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dipaksakan semata-mata dari tekanan luar tanpa pemahaman"
+        },
+        {
+          "letter": "B",
+          "text": "Terdapat pemahaman yang baik terhadap kebutuhan untuk berubah dan keinginan kuat untuk berubah"
+        },
+        {
+          "letter": "C",
+          "text": "Menghapus seluruh nilai kebebasan akademik"
+        },
+        {
+          "letter": "D",
+          "text": "Menutup akses teknologi baru di kelas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kesiapan berubah yang efektif lahir dari pemahaman kebutuhan dan komitmen internal sambil menjaga integritas lembaga",
+      "num": 7
+    },
+    {
+      "module": "M1",
+      "question": "[M1-8] Dalam menghadapi peningkatan jumlah lulusan dan munculnya kelas-kelas besar, strategi pembelajaran yang paling dianjurkan bagi perguruan tinggi di era digital adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mempertahankan ceramah satu arah tanpa interaksi"
+        },
+        {
+          "letter": "B",
+          "text": "Mengembangkan metode pembelajaran fleksibel yang memicu pertanyaan kritis dan gagasan orisinal"
+        },
+        {
+          "letter": "C",
+          "text": "Melarang penggunaan sumber daring"
+        },
+        {
+          "letter": "D",
+          "text": "Mengurangi kolaborasi antar-mahasiswa"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pembelajaran era digital mendorong aktivitas yang memunculkan pertanyaan kritis, ide alternatif, dan fleksibilitas penyajian konten",
+      "num": 8
+    },
+    {
+      "module": "M1",
+      "question": "[M1-9] Posisi strategis mahasiswa dalam proses pembelajaran di era digital memungkinkan mereka berperan tidak hanya sebagai pengguna teknologi, tetapi juga sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penonton pasif"
+        },
+        {
+          "letter": "B",
+          "text": "Agen perubahan dan pelopor pembelajaran digital"
+        },
+        {
+          "letter": "C",
+          "text": "Penghambat inovasi kurikulum"
+        },
+        {
+          "letter": "D",
+          "text": "Pengganti seluruh fungsi perguruan tinggi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Mahasiswa terlibat langsung dalam pengembangan literasi digital sehingga dapat mengambil peran sebagai agen perubahan dan pelopor",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Teori belajar era digital yang dikembangkan oleh George Siemens dan menyatakan bahwa pengetahuan tersebar dalam jaringan simpul (nodes) dan koneksi adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Behaviorisme"
+        },
+        {
+          "letter": "B",
+          "text": "Konektivisme"
+        },
+        {
+          "letter": "C",
+          "text": "Psikoanalisis"
+        },
+        {
+          "letter": "D",
+          "text": "Determinisme"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Konektivisme memandang belajar sebagai proses membangun dan menavigasi jaringan informasi pada manusia maupun basis data digital",
+      "num": 10
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Model pembelajaran di mana mahasiswa mempelajari materi dasar secara daring di rumah lalu mendiskusikan atau mempraktikkannya di kelas disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flipped Classroom"
+        },
+        {
+          "letter": "B",
+          "text": "Traditional Lecture"
+        },
+        {
+          "letter": "C",
+          "text": "Correspondence"
+        },
+        {
+          "letter": "D",
+          "text": "Synchronous Only"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Flipped classroom membalik urutan penyampaian materi pasif ke ruang daring dan pendalaman aktif ke sesi tatap muka",
+      "num": 11
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Forum diskusi di LMS (seperti UT Online) yang memungkinkan mahasiswa menanggapi kapan saja tanpa harus online bersamaan bersifat...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinkron"
+        },
+        {
+          "letter": "B",
+          "text": "Asinkron"
+        },
+        {
+          "letter": "C",
+          "text": "Tatap muka langsung"
+        },
+        {
+          "letter": "D",
+          "text": "Real-time audio"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pembelajaran asinkron memberi fleksibilitas waktu dan tempat bagi pembelajar mandiri",
+      "num": 12
+    },
+    {
+      "module": "M2",
+      "question": "[M2-4] Munculnya berbagai kredensial alternatif di pendidikan tinggi seperti Nano Degree, Micro-Master, Specialization, dan digital badges bertujuan untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghapus seluruh ijazah dan gelar akademik konvensional"
+        },
+        {
+          "letter": "B",
+          "text": "Memenuhi kebutuhan kompetensi spesifik dan fleksibel di pasar kerja sejalan dengan konsep lifelong learning"
+        },
+        {
+          "letter": "C",
+          "text": "Membatasi akses pendidikan tinggi hanya bagi lulusan baru"
+        },
+        {
+          "letter": "D",
+          "text": "Menggantikan fungsi perpustakaan kampus"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kredensial alternatif tidak menggantikan gelar konvensional, tetapi melengkapi kebutuhan kompetensi spesifik dan pembelajaran sepanjang hayat",
+      "num": 13
+    },
+    {
+      "module": "M2",
+      "question": "[M2-5] Dalam KB 2 Modul 2, teknik pencarian informasi di mesin pencari atau basis data yang digunakan untuk mempersempit atau memperluas hasil pencarian secara logis disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pencarian acak"
+        },
+        {
+          "letter": "B",
+          "text": "Penggunaan operator pencarian lanjutan (advanced search / Boolean)"
+        },
+        {
+          "letter": "C",
+          "text": "Penghapusan kata kunci"
+        },
+        {
+          "letter": "D",
+          "text": "Pengulangan judul yang sama"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Operator pencarian lanjutan membantu menyaring data yang terlalu luas dan umum menjadi hasil yang lebih spesifik",
+      "num": 14
+    },
+    {
+      "module": "M2",
+      "question": "[M2-6] Dalam metode membaca efektif SQW3R (Survey, Question, Read, Recite, Review), fungsi huruf Q (Question) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghafal seluruh halaman tanpa bertanya"
+        },
+        {
+          "letter": "B",
+          "text": "Merumuskan pertanyaan untuk memandu fokus dan tujuan saat membaca materi"
+        },
+        {
+          "letter": "C",
+          "text": "Mengabaikan bagian rangkuman"
+        },
+        {
+          "letter": "D",
+          "text": "Menutup buku sebelum selesai"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Tahap Question mendorong pembaca mengajukan pertanyaan kritis sebelum dan selama membaca agar pemahaman lebih terarah",
+      "num": 15
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Berikut ini yang termasuk alasan pentingnya mencatat materi selama perkuliahan atau tutorial daring maupun saat membaca adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agar tidak perlu memahami isi materi"
+        },
+        {
+          "letter": "B",
+          "text": "Membantu mengolah, mengingat, dan merekonstruksi poin-poin penting secara aktif"
+        },
+        {
+          "letter": "C",
+          "text": "Menggantikan seluruh proses evaluasi"
+        },
+        {
+          "letter": "D",
+          "text": "Menghindari diskusi kelompok"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Mencatat materi membantu penguatan memori, pemilahan gagasan utama, dan bahan tinjauan ulang",
+      "num": 16
+    },
+    {
+      "module": "M2",
+      "question": "[M2-8] Jenis tulisan reflektif yang berfungsi mencatat tindakan atau proses eksperimental secara akurat untuk direnungkan dan menjadi dasar keputusan di masa mendatang adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iklan komersial"
+        },
+        {
+          "letter": "B",
+          "text": "Buku log (logbook)"
+        },
+        {
+          "letter": "C",
+          "text": "Siaran pers"
+        },
+        {
+          "letter": "D",
+          "text": "Brosur promosi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Buku log mencatat proses secara akurat sehingga membantu mengevaluasi tindakan masa lalu dan memperbaiki langkah berikutnya",
+      "num": 17
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Secara umum, tulisan reflektif mahasiswa bersifat subjektif karena berawal dari tanggapan pribadi terhadap pengalaman atau informasi baru, dan dapat berbentuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deskriptif, ekspresif, dan analitis"
+        },
+        {
+          "letter": "B",
+          "text": "Statis, rahasia, dan tanpa argumen"
+        },
+        {
+          "letter": "C",
+          "text": "Fiktif tanpa dasar materi"
+        },
+        {
+          "letter": "D",
+          "text": "Salinan langsung tanpa parafrase"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 2 KB 4 menegaskan tulisan reflektif umumnya bersifat deskriptif, ekspresif, dan analitis",
+      "num": 18
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Urutan empat tahap kompetensi utama dalam literasi media adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghafal, menyalin, mencetak, menjual"
+        },
+        {
+          "letter": "B",
+          "text": "Mengakses, menganalisis, mengevaluasi, dan memproduksi pesan media"
+        },
+        {
+          "letter": "C",
+          "text": "Membeli, mengunduh, menyebarkan, menghapus"
+        },
+        {
+          "letter": "D",
+          "text": "Mengklik tanpa membaca"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Center for Media Literacy merumuskan literasi media sebagai kemampuan mengakses, menganalisis, mengevaluasi, dan mencipta/memproduksi pesan media",
+      "num": 19
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Informasi keliru yang sengaja diproduksi dan disebarkan untuk menipu atau menyesatkan pihak lain disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Misinformasi"
+        },
+        {
+          "letter": "B",
+          "text": "Disinformasi"
+        },
+        {
+          "letter": "C",
+          "text": "Literasi"
+        },
+        {
+          "letter": "D",
+          "text": "Kurasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Disinformasi melibatkan niat sengaja untuk menyesatkan, berbeda dengan misinformasi yang disebarkan tanpa niat jahat",
+      "num": 20
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Judul berita sensasional yang dirancang semata-mata untuk memancing klik pembaca tanpa mencerminkan isi berita secara akurat disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fact-check"
+        },
+        {
+          "letter": "B",
+          "text": "Clickbait"
+        },
+        {
+          "letter": "C",
+          "text": "Peer-review"
+        },
+        {
+          "letter": "D",
+          "text": "Sitasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Clickbait mengeksploitasi emosi pembaca demi meningkatkan trafik klik",
+      "num": 21
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Rumusan terkenal Marshall McLuhan yang menggambarkan bahwa bentuk medium itu sendiri membawa dampak sosial dan personal yang lebih besar daripada sekadar isi pesannya adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The medium is the message"
+        },
+        {
+          "letter": "B",
+          "text": "Knowledge is power"
+        },
+        {
+          "letter": "C",
+          "text": "Survival of the fittest"
+        },
+        {
+          "letter": "D",
+          "text": "Form follows function"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "McLuhan menyatakan 'the medium is the message' untuk menegaskan pengaruh struktur teknologi media terhadap pengalaman manusia",
+      "num": 22
+    },
+    {
+      "module": "M3",
+      "question": "[M3-5] Salah satu fungsi media massa dalam masyarakat yang berperan mengawasi jalannya pemerintahan, bisnis, dan lembaga publik lainnya disebut fungsi sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penghibur semata"
+        },
+        {
+          "letter": "B",
+          "text": "Pengawas (watchdog)"
+        },
+        {
+          "letter": "C",
+          "text": "Penjual produk"
+        },
+        {
+          "letter": "D",
+          "text": "Penyensor tunggal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Selain menghibur, mendidik, dan menjadi forum publik, media berperan sebagai pengawas/watchdog bagi kekuasaan dan lembaga",
+      "num": 23
+    },
+    {
+      "module": "M3",
+      "question": "[M3-6] Penemuan teknologi pada abad ke-15 yang memungkinkan produksi media cetak secara massal sebelum diindustrialisasi oleh Friedrich Koenig pada awal 1800-an adalah mesin cetak karya...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Johannes Gutenberg"
+        },
+        {
+          "letter": "B",
+          "text": "Thomas Edison"
+        },
+        {
+          "letter": "C",
+          "text": "Alexander Graham Bell"
+        },
+        {
+          "letter": "D",
+          "text": "Tim Berners-Lee"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Mesin cetak Johannes Gutenberg memicu revolusi produksi teks massal dan mendorong lahirnya surat kabar harian",
+      "num": 24
+    },
+    {
+      "module": "M3",
+      "question": "[M3-7] Dalam perspektif literasi media sebagai keterampilan menurut Baran (2015), kemampuan penting yang harus dimiliki khalayak antara lain...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Membedakan reaksi emosional dari reaksi rasional serta berpikir kritis terhadap pesan media"
+        },
+        {
+          "letter": "B",
+          "text": "Menerima semua pesan iklan sebagai kebenaran mutlak"
+        },
+        {
+          "letter": "C",
+          "text": "Menghindari seluruh bentuk media digital"
+        },
+        {
+          "letter": "D",
+          "text": "Menilai berita hanya dari jumlah tayangan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Baran menekankan pemilahan reaksi emosional vs rasional, kesadaran konvensi genre, dan berpikir kritis atas efek media",
+      "num": 25
+    },
+    {
+      "module": "M3",
+      "question": "[M3-8] Berita singkat dan menarik yang ditulis oleh profesional hubungan masyarakat (humas) untuk dikirimkan kepada media guna kepentingan publikasi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Siaran pers (press release)"
+        },
+        {
+          "letter": "B",
+          "text": "Tajuk rencana"
+        },
+        {
+          "letter": "C",
+          "text": "Surat kaleng"
+        },
+        {
+          "letter": "D",
+          "text": "Catatan kaki"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Siaran pers dibuat oleh humas untuk menarik perhatian jurnalis/media agar meliput informasi lembaga",
+      "num": 26
+    },
+    {
+      "module": "M3",
+      "question": "[M3-9] Dalam melakukan verifikasi atau cek fakta terhadap berita daring, langkah yang paling tepat menurut Modul 3 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hanya membaca satu situs yang sesuai dengan opini pribadi"
+        },
+        {
+          "letter": "B",
+          "text": "Memeriksa berbagai situs lain yang kredibel (lateral reading) untuk membandingkan bukti dan sumber asli"
+        },
+        {
+          "letter": "C",
+          "text": "Langsung membagikan berita agar cepat viral"
+        },
+        {
+          "letter": "D",
+          "text": "Mengabaikan tanggal dan penulis artikel"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pemeriksa fakta yang baik memeriksa lintas sumber tepercaya daripada terjebak pada satu situs yang selaras dengan bias pribadi",
+      "num": 27
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Aliran konten lintas berbagai platform media yang melibatkan partisipasi aktif audiens menurut Henry Jenkins disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Konvergensi Media"
+        },
+        {
+          "letter": "B",
+          "text": "Monopoli Media"
+        },
+        {
+          "letter": "C",
+          "text": "Sensor Media"
+        },
+        {
+          "letter": "D",
+          "text": "Analogisasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Konvergensi media menggabungkan teknologi, industri, dan budaya partisipatif lintas platform",
+      "num": 28
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Pengguna internet di era budaya partisipatif yang sekaligus berperan sebagai konsumen dan produsen konten digital disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prosumer"
+        },
+        {
+          "letter": "B",
+          "text": "Programmer"
+        },
+        {
+          "letter": "C",
+          "text": "Broadcaster"
+        },
+        {
+          "letter": "D",
+          "text": "Auditor"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Prosumer merupakan gabungan dari Producer dan Consumer",
+      "num": 29
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Fenomena ketika algoritma media sosial hanya menampilkan konten yang sesuai preferensi pengguna sehingga menutup perspektif berbeda disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Open Access"
+        },
+        {
+          "letter": "B",
+          "text": "Echo Chamber / Filter Bubble"
+        },
+        {
+          "letter": "C",
+          "text": "Crowdsourcing"
+        },
+        {
+          "letter": "D",
+          "text": "Netiquette"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Filter bubble dan echo chamber mempersempit paparan sudut pandang beragam dan memperkuat bias konfirmasi",
+      "num": 30
+    },
+    {
+      "module": "M4",
+      "question": "[M4-4] Perbedaan utama pola komunikasi antara media massa tradisional dan media baru (new media) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Media tradisional bersifat many-to-many, media baru bersifat satu arah"
+        },
+        {
+          "letter": "B",
+          "text": "Media tradisional bersifat satu arah (one-to-many), sedangkan media baru bersifat interaktif dan jejaring (many-to-many)"
+        },
+        {
+          "letter": "C",
+          "text": "Media tradisional selalu berbasis internet"
+        },
+        {
+          "letter": "D",
+          "text": "Media baru tidak memungkinkan umpan balik audiens"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Media digital memungkinkan komunikasi dua arah dan jejaring banyak-ke-banyak secara real-time",
+      "num": 31
+    },
+    {
+      "module": "M4",
+      "question": "[M4-5] Dalam komunikasi massa, pesan yang disampaikan oleh komunikator ditujukan kepada khalayak yang luas, anonim, dan memiliki latar belakang beragam yang disebut khalayak...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Homogen"
+        },
+        {
+          "letter": "B",
+          "text": "Heterogen"
+        },
+        {
+          "letter": "C",
+          "text": "Tertutup"
+        },
+        {
+          "letter": "D",
+          "text": "Internal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Khalayak komunikasi massa bersifat luas dan heterogen dalam usia, pekerjaan, pendidikan, tempat tinggal, serta adat budaya",
+      "num": 32
+    },
+    {
+      "module": "M4",
+      "question": "[M4-6] Praktik warga masyarakat biasa yang berperan mengumpulkan, melaporkan, menganalisis, dan menyebarkan berita atau informasi melalui media digital disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jurnalisme warga (citizen journalism)"
+        },
+        {
+          "letter": "B",
+          "text": "Sensor negara"
+        },
+        {
+          "letter": "C",
+          "text": "Percetakan konvensional"
+        },
+        {
+          "letter": "D",
+          "text": "Monopoli penyiaran"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Citizen journalism memanfaatkan internet dan media sosial untuk partisipasi publik dalam pelaporan informasi",
+      "num": 33
+    },
+    {
+      "module": "M4",
+      "question": "[M4-7] Pemanfaatan media sosial yang positif dan produktif dalam konteks akademik serta kemasyarakatan menurut Modul 4 antara lain...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menyebarkan ujaran kebencian secara anonim"
+        },
+        {
+          "letter": "B",
+          "text": "Berkolaborasi dalam karya kreatif, berbagi video pembelajaran, serta mempromosikan budaya dan kampanye positif"
+        },
+        {
+          "letter": "C",
+          "text": "Menyalin karya orang lain tanpa izin"
+        },
+        {
+          "letter": "D",
+          "text": "Mengabaikan dampak sosial unggahan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Media sosial dapat memacu kreativitas, kolaborasi pembelajaran jarak jauh, promosi pariwisata/budaya, hingga kampanye antirkadikalisme",
+      "num": 34
+    },
+    {
+      "module": "M4",
+      "question": "[M4-8] Salah satu dampak negatif penggunaan media sosial yang tidak bijak dan perlu diantisipasi oleh mahasiswa di era digital adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Peningkatan kolaborasi ilmiah internasional"
+        },
+        {
+          "letter": "B",
+          "text": "Kecanduan gawai, penyebaran hoaks, cyberbullying, dan pelanggaran privasi"
+        },
+        {
+          "letter": "C",
+          "text": "Kemudahan akses sumber belajar terbuka"
+        },
+        {
+          "letter": "D",
+          "text": "Efisiensi komunikasi lintas wilayah"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Penggunaan media sosial tanpa literasi berisiko memicu adiksi, disinformasi, perundungan siber, dan kebocoran data pribadi",
+      "num": 35
+    },
+    {
+      "module": "M4",
+      "question": "[M4-9] Kemampuan individu memahami cara kerja algoritma dan pesan media massa digital secara kritis bertujuan agar mahasiswa mampu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menjadi konsumen pasif yang mudah terprovokasi"
+        },
+        {
+          "letter": "B",
+          "text": "Memberdayakan diri dalam menafsirkan pesan media dan mengantisipasi dampaknya"
+        },
+        {
+          "letter": "C",
+          "text": "Menutup seluruh akses informasi daring"
+        },
+        {
+          "letter": "D",
+          "text": "Mengganti semua referensi ilmiah dengan unggahan media sosial"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 4 menekankan pemberdayaan diri mahasiswa dalam mengakses, menganalisis, mengevaluasi, dan mengomunikasikan pesan media digital",
+      "num": 36
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Dalam uji kredibilitas informasi CRAAP, huruf 'A' yang merujuk pada keahlian, kualifikasi, dan kredensial penulis atau penerbit adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Accuracy"
+        },
+        {
+          "letter": "B",
+          "text": "Authority"
+        },
+        {
+          "letter": "C",
+          "text": "Availability"
+        },
+        {
+          "letter": "D",
+          "text": "Algorithm"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "CRAAP terdiri dari Currency, Relevance, Authority, Accuracy, dan Purpose",
+      "num": 37
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Cara paling tepat memanfaatkan Wikipedia dalam penyusunan karya ilmiah akademik adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menyalin seluruh artikel tanpa sitasi"
+        },
+        {
+          "letter": "B",
+          "text": "Menjadikannya referensi primer tunggal"
+        },
+        {
+          "letter": "C",
+          "text": "Menggunakannya sebagai titik awal eksplorasi lalu menelusuri daftar referensi primernya di bagian bawah artikel"
+        },
+        {
+          "letter": "D",
+          "text": "Melarang pembacaan Wikipedia sama sekali"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Wikipedia bermanfaat untuk gambaran awal dan menelusuri sumber primer pada bagian References, bukan sebagai rujukan utama karya ilmiah",
+      "num": 38
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Alasan utama mengapa artikel Wikipedia sebaiknya tidak dijadikan referensi utama dalam tulisan saintifik adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wikipedia berbayar sangat mahal"
+        },
+        {
+          "letter": "B",
+          "text": "Kontennya dapat disunting secara terbuka oleh siapa saja kapan pun sehingga berisiko berubah atau belum melalui peer-review formal"
+        },
+        {
+          "letter": "C",
+          "text": "Wikipedia hanya berisi gambar tanpa teks"
+        },
+        {
+          "letter": "D",
+          "text": "Wikipedia tidak memiliki daftar pustaka"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sifat penyuntingan terbuka dan kolaboratif membuat stabilitas serta otoritas akademik artikel Wikipedia perlu diverifikasi ke sumber primer",
+      "num": 39
+    },
+    {
+      "module": "M5",
+      "question": "[M5-4] Sebelum menjadi ensiklopedia kolaboratif terbesar saat ini, Wikipedia awalnya dimulai sebagai proyek pelengkap untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Britannica Online"
+        },
+        {
+          "letter": "B",
+          "text": "Nupedia"
+        },
+        {
+          "letter": "C",
+          "text": "Google Scholar"
+        },
+        {
+          "letter": "D",
+          "text": "Encyclopedia.com"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 5 KB 2 mencatat Wikipedia berawal sebagai proyek pelengkap Nupedia yang proses peninjauannya formal dan lambat",
+      "num": 40
+    },
+    {
+      "module": "M5",
+      "question": "[M5-5] Keputusan editorial terbesar dan penyelesaian sengketa penyuntingan artikel di komunitas Wikipedia umumnya dicapai melalui...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pemungutan suara tertutup oleh direksi perusahaan"
+        },
+        {
+          "letter": "B",
+          "text": "Konsensus komunitas sesuai dengan pedoman dan kebijakan editorial Wikipedia"
+        },
+        {
+          "letter": "C",
+          "text": "Keputusan sepihak satu penulis anonim"
+        },
+        {
+          "letter": "D",
+          "text": "Pengundian acak"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Wikipedia mengandalkan konsensus editor yang berlandaskan pedoman netralitas dan keterverifikasian sumber",
+      "num": 41
+    },
+    {
+      "module": "M5",
+      "question": "[M5-6] Berikut ini yang termasuk dalam Lima Pilar Wikipedia adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wikipedia adalah ensiklopedia berbayar dengan hak cipta tertutup"
+        },
+        {
+          "letter": "B",
+          "text": "Wikipedia adalah ensiklopedia dengan sudut pandang netral, konten bebas yang dapat disunting siapa saja, serta memperlakukan sesama kontributor dengan hormat"
+        },
+        {
+          "letter": "C",
+          "text": "Wikipedia hanya boleh disunting oleh profesor bergelar doktor"
+        },
+        {
+          "letter": "D",
+          "text": "Wikipedia melarang penambahan referensi eksternal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Lima pilar Wikipedia mencakup: ensiklopedia, sudut pandang netral/NPOV, konten gratis, etika saling menghormati, dan aturan yang fleksibel",
+      "num": 42
+    },
+    {
+      "module": "M5",
+      "question": "[M5-7] Dalam kerangka pemecahan masalah literasi informasi Big6, tahap menggabungkan informasi yang diperoleh dari berbagai sumber untuk membangun produk informasi baru disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Task Definition"
+        },
+        {
+          "letter": "B",
+          "text": "Synthesis (Sintesis)"
+        },
+        {
+          "letter": "C",
+          "text": "Location and Access"
+        },
+        {
+          "letter": "D",
+          "text": "Evaluation"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pada tahap Synthesis dalam model Big6, informasi dari berbagai sumber diorganisasikan dan dipadukan menjadi produk karya baru",
+      "num": 43
+    },
+    {
+      "module": "M5",
+      "question": "[M5-8] Organisasi di Inggris yang pada tahun 2011 menerbitkan model 'The Seven Pillars of Information Literacy' adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SCONUL (Society of College, National and University Libraries)"
+        },
+        {
+          "letter": "B",
+          "text": "UNESCO"
+        },
+        {
+          "letter": "C",
+          "text": "OECD"
+        },
+        {
+          "letter": "D",
+          "text": "IEEE"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "SCONUL menerbitkan model Seven Pillars of Information Literacy sebagai panduan kompetensi literasi informasi di pendidikan tinggi",
+      "num": 44
+    },
+    {
+      "module": "M5",
+      "question": "[M5-9] Jenis literasi dalam Modul 5 yang merujuk pada kemampuan memahami dan memperoleh informasi melalui media massa seperti televisi, radio, rekaman musik, dan koran adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Literasi jaringan"
+        },
+        {
+          "letter": "B",
+          "text": "Literasi media"
+        },
+        {
+          "letter": "C",
+          "text": "Literasi numerik"
+        },
+        {
+          "letter": "D",
+          "text": "Literasi perangkat keras"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 5 membedakan berbagai elemen literasi, termasuk literasi media, literasi komputer/elektronik, literasi jaringan, dan literasi visual",
+      "num": 45
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Menurut teori pembelajaran multimedia Richard E. Mayer, penyampaian materi paling efektif apabila memadukan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Teks penuh satu layar tanpa gambar"
+        },
+        {
+          "letter": "B",
+          "text": "Kata-kata dan visual/gambar yang relevan secara bersamaan"
+        },
+        {
+          "letter": "C",
+          "text": "Musik latar yang keras terus-menerus"
+        },
+        {
+          "letter": "D",
+          "text": "Animasi acak tanpa narasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Dual-channel processing mengoptimalkan jalur verbal dan visual secara bersamaan untuk membangun pemahaman mendalam",
+      "num": 46
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Menghapus gambar dekoratif atau musik latar yang tidak relevan dengan materi ajar agar tidak membebani memori kerja sesuai dengan prinsip...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Koherensi"
+        },
+        {
+          "letter": "B",
+          "text": "Redundansi"
+        },
+        {
+          "letter": "C",
+          "text": "Ambiguitas"
+        },
+        {
+          "letter": "D",
+          "text": "Plagiarisme"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Prinsip koherensi mengurangi extraneous cognitive load sehingga fokus pembelajar tetap pada inti materi",
+      "num": 47
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Video pembelajaran berdurasi singkat (3–7 menit) yang berfokus pada satu tujuan belajar spesifik agar mudah dipahami dan diulang disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microlearning"
+        },
+        {
+          "letter": "B",
+          "text": "Macro-lecture"
+        },
+        {
+          "letter": "C",
+          "text": "Podcast 3 jam"
+        },
+        {
+          "letter": "D",
+          "text": "E-book cetak"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Microlearning menjaga rentang perhatian pembelajar dan efektif untuk pembelajaran mandiri",
+      "num": 48
+    },
+    {
+      "module": "M6",
+      "question": "[M6-4] Dalam konteks proses belajar mengajar di Modul 6, media pembelajaran secara khusus diartikan sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sekadar hiasan ruang kelas"
+        },
+        {
+          "letter": "B",
+          "text": "Alat-alat peraga grafis, fotografis, atau elektronis untuk menangkap, memproses, dan menyusun kembali informasi tekstual, visual, dan verbal"
+        },
+        {
+          "letter": "C",
+          "text": "Pengganti sepenuhnya peran pendidik"
+        },
+        {
+          "letter": "D",
+          "text": "Perangkat permainan tanpa tujuan belajar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Media pembelajaran berfungsi menangkap, memproses, dan menyajikan kembali informasi secara efektif",
+      "num": 49
+    },
+    {
+      "module": "M6",
+      "question": "[M6-5] Dalam merancang dan memilih media pembelajaran digital, pendidik harus mempertimbangkan kesesuaian antara karakteristik siswa, tujuan pembelajaran, materi ajar, serta...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Harga perangkat termahal"
+        },
+        {
+          "letter": "B",
+          "text": "Teori, prinsip, dan pedoman cara manusia memproses informasi dan belajar"
+        },
+        {
+          "letter": "C",
+          "text": "Tren hiburan semata"
+        },
+        {
+          "letter": "D",
+          "text": "Jumlah efek transisi yang berlebihan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 6 menegaskan pemilihan dan penempatan media digital harus mematuhi prinsip pemrosesan informasi dan teori belajar",
+      "num": 50
+    },
+    {
+      "module": "M6",
+      "question": "[M6-6] Menurut teori beban kognitif (Cognitive Load Theory) dalam desain multimedia, prinsip redundansi menyarankan agar pengajar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menampilkan teks tertulis persis sama dengan narasi audio sekaligus animasi padat secara bersamaan"
+        },
+        {
+          "letter": "B",
+          "text": "Menghindari pengulangan informasi identik di saluran yang sama secara berlebihan (misalnya narasi + gambar lebih baik daripada narasi + gambar + teks penuh)"
+        },
+        {
+          "letter": "C",
+          "text": "Memperbanyak teks pada setiap slide"
+        },
+        {
+          "letter": "D",
+          "text": "Menghilangkan seluruh gambar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Prinsip redundansi mencegah kelebihan beban pada saluran visual ketika teks penuh dibacakan bersamaan dengan grafik",
+      "num": 51
+    },
+    {
+      "module": "M6",
+      "question": "[M6-7] Dalam pemanfaatan media pembelajaran digital di kelas (seperti presentasi interaktif Microsoft Sway), penekanan utama menurut Modul 6 KB 2 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hanya guru yang boleh menyentuh media tersebut"
+        },
+        {
+          "letter": "B",
+          "text": "Guru berperan sebagai kreator media yang tepat dan menyenangkan, namun siswalah yang seharusnya aktif memanfaatkan media tersebut untuk berpikir kritis dan berkarya"
+        },
+        {
+          "letter": "C",
+          "text": "Media digunakan tanpa skenario pembelajaran"
+        },
+        {
+          "letter": "D",
+          "text": "Semua materi harus dicetak ulang secara manual"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Siswa harus menjadi pihak yang aktif memanfaatkan media pembelajaran sebagai jembatan untuk berpikir kritis dan berbuat",
+      "num": 52
+    },
+    {
+      "module": "M6",
+      "question": "[M6-8] Format media digital yang menggabungkan data, teks singkat, dan elemen visual grafis untuk menyajikan informasi kompleks secara ringkas dan mudah dipahami disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Infografis"
+        },
+        {
+          "letter": "B",
+          "text": "Audio podcast murni"
+        },
+        {
+          "letter": "C",
+          "text": "Transkrip verbatim"
+        },
+        {
+          "letter": "D",
+          "text": "Basis data mentah"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Infografis memadukan visualisasi data dan teks ringkas sehingga mempercepat pemahaman konsep",
+      "num": 53
+    },
+    {
+      "module": "M6",
+      "question": "[M6-9] Pengembangan media digital dalam Modul 6 dipahami sebagai aktivitas konvergensi kreatif yang memadukan unsur...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Seni digital, ilmu pengetahuan, teknologi, dan bisnis untuk mengakomodasi ekspresi komunikasi serta pengembangan pendidikan"
+        },
+        {
+          "letter": "B",
+          "text": "Hanya pemrograman tingkat rendah tanpa desain"
+        },
+        {
+          "letter": "C",
+          "text": "Administrasi keuangan semata"
+        },
+        {
+          "letter": "D",
+          "text": "Pencetakan buku konvensional"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Media digital merupakan konvergensi kreatif seni digital, sains, teknologi, dan bisnis dalam ekosistem komunikasi dan pendidikan",
+      "num": 54
+    },
+    {
+      "module": "M7",
+      "question": "[M7-1] Dalam prinsip 5R Open Educational Resources (OER) menurut David Wiley, hak untuk menggabungkan beberapa materi terbuka menjadi karya baru disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retain"
+        },
+        {
+          "letter": "B",
+          "text": "Reuse"
+        },
+        {
+          "letter": "C",
+          "text": "Remix"
+        },
+        {
+          "letter": "D",
+          "text": "Redistribute"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Remix berarti memadukan konten asli atau hasil revisi dengan materi terbuka lain untuk menciptakan sesuatu yang baru",
+      "num": 55
+    },
+    {
+      "module": "M7",
+      "question": "[M7-2] Lisensi terbuka memudahkan dosen menerjemahkan modul berbahasa asing ke bahasa Indonesia atau menyesuaikan contoh kasus lokal. Aktivitas ini termasuk hak OER...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Revise"
+        },
+        {
+          "letter": "B",
+          "text": "Retain"
+        },
+        {
+          "letter": "C",
+          "text": "Restrict"
+        },
+        {
+          "letter": "D",
+          "text": "Copyrighted"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Revise mencakup hak mengadaptasi, memodifikasi, memperbarui, dan menerjemahkan konten OER",
+      "num": 56
+    },
+    {
+      "module": "M7",
+      "question": "[M7-3] Kursus daring terbuka yang dapat diikuti secara massal oleh siapa saja melalui internet tanpa batasan kuota kelas fisik disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LAN"
+        },
+        {
+          "letter": "B",
+          "text": "MOOC (Massive Open Online Course)"
+        },
+        {
+          "letter": "C",
+          "text": "Intranet"
+        },
+        {
+          "letter": "D",
+          "text": "Firewall"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "MOOC memperluas akses pendidikan tinggi terbuka berskala global, seperti Coursera, edX, IndonesiaX, dan UT OpenCourseWare",
+      "num": 57
+    },
+    {
+      "module": "M7",
+      "question": "[M7-4] Menurut Modul 7 KB 1, terdapat lima dimensi keterbukaan yang terkait dengan pendidikan terbuka, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Open access, free and open source software (FOSS), open policy, open business model, dan open educational practices (OEP)"
+        },
+        {
+          "letter": "B",
+          "text": "Open price, closed source, private network, paid license, dan secret data"
+        },
+        {
+          "letter": "C",
+          "text": "Hak cipta eksklusif, paten, merek dagang, rahasia dagang, dan royalti"
+        },
+        {
+          "letter": "D",
+          "text": "Hanya gratis biaya cetak"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Lima dimensi keterbukaan tersebut membentuk ekosistem pendidikan terbuka yang berkelanjutan",
+      "num": 58
+    },
+    {
+      "module": "M7",
+      "question": "[M7-5] Alasan filosofis mengapa ilmu pengetahuan dan ide cocok dikembangkan dalam ekosistem OER adalah karena ide bersifat seperti...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Barang fisik yang habis jika diberikan"
+        },
+        {
+          "letter": "B",
+          "text": "Barang publik yang jika dibagikan tidak akan mengurangi kepemilikan awal, bahkan berpotensi memperkaya dan menyempurnakan ide tersebut"
+        },
+        {
+          "letter": "C",
+          "text": "Aset rahasia perusahaan yang wajib dikunci"
+        },
+        {
+          "letter": "D",
+          "text": "Komoditas langka yang tidak dapat didigitalkan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Berbeda dengan benda fisik seperti apel, ide yang dibagikan tetap dimiliki pengirimnya dan berlipat ganda manfaatnya",
+      "num": 59
+    },
+    {
+      "module": "M7",
+      "question": "[M7-6] Menurut definisi OECD (2007) yang dikutip dalam Modul 7, Open Educational Resources (OER) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Buku cetak komersial berharga tinggi"
+        },
+        {
+          "letter": "B",
+          "text": "Materi terdigitalisasi yang ditawarkan secara bebas dan terbuka bagi pendidik, mahasiswa, serta pembelajar mandiri untuk digunakan dan digunakan ulang dalam pengajaran, pembelajaran, dan penelitian"
+        },
+        {
+          "letter": "C",
+          "text": "Perangkat lunak berbayar tanpa izin modifikasi"
+        },
+        {
+          "letter": "D",
+          "text": "Arsip internal kampus yang tidak boleh diakses publik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Definisi OECD menekankan akses bebas dan terbuka atas aset digital untuk pengajaran, belajar, dan riset",
+      "num": 60
+    },
+    {
+      "module": "M7",
+      "question": "[M7-7] Idealnya, sebuah sumber daya OER mengandung tiga dimensi utama menurut Modul 7 KB 2, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dimensi nilai pendidikan, dimensi nilai pedagogik (5R), dan dimensi teknologi"
+        },
+        {
+          "letter": "B",
+          "text": "Dimensi harga jual, dimensi iklan, dan dimensi eksklusivitas"
+        },
+        {
+          "letter": "C",
+          "text": "Dimensi cetak, dimensi fotokopi, dan dimensi distribusi tertutup"
+        },
+        {
+          "letter": "D",
+          "text": "Dimensi hiburan semata"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Ketiga dimensi tersebut memastikan OER terbuka secara akses, fleksibel secara pedagogik melalui 5R, dan tidak terkunci oleh teknologi berpemilik",
+      "num": 61
+    },
+    {
+      "module": "M7",
+      "question": "[M7-8] Hak dalam kerangka 5R OER yang berarti pengguna berhak membuat, memiliki, dan mengontrol salinan konten secara permanen (misalnya mengunduh dan menyimpannya di perangkat sendiri) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retain"
+        },
+        {
+          "letter": "B",
+          "text": "Revise"
+        },
+        {
+          "letter": "C",
+          "text": "Remix"
+        },
+        {
+          "letter": "D",
+          "text": "Redistribute"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Retain adalah hak untuk menyimpan, memiliki, dan mengendalikan salinan materi secara mandiri",
+      "num": 62
+    },
+    {
+      "module": "M7",
+      "question": "[M7-9] Pada model bisnis beberapa platform MOOC, materi pembelajaran (video dan bacaan) dapat diakses secara gratis, namun penyelenggara menarik biaya untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengakses halaman beranda"
+        },
+        {
+          "letter": "B",
+          "text": "Asesmen hasil belajar dan penerbitan sertifikat terverifikasi"
+        },
+        {
+          "letter": "C",
+          "text": "Membaca judul mata kuliah"
+        },
+        {
+          "letter": "D",
+          "text": "Membuat akun pengguna dasar"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Banyak penyelenggara MOOC menerapkan model freemium: akses materi gratis, tetapi sertifikat dan asesmen resmi berbayar",
+      "num": 63
+    },
+    {
+      "module": "M8",
+      "question": "[M8-1] Simbol NC pada lisensi Creative Commons (misalnya CC BY-NC) memiliki arti bahwa karya tersebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak boleh disalin sama sekali"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak boleh digunakan untuk tujuan komersial"
+        },
+        {
+          "letter": "C",
+          "text": "Wajib diubah"
+        },
+        {
+          "letter": "D",
+          "text": "Bebas dipakai tanpa menyebut nama pencipta"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "NC = NonCommercial, melarang pemanfaatan karya untuk keuntungan komersial",
+      "num": 64
+    },
+    {
+      "module": "M8",
+      "question": "[M8-2] Jika sebuah karya menggunakan lisensi CC BY-SA , maka setiap karya turunan hasil adaptasinya...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boleh dijual dengan lisensi tertutup"
+        },
+        {
+          "letter": "B",
+          "text": "Wajib dibagikan kembali dengan lisensi yang sama (ShareAlike)"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak boleh dimodifikasi"
+        },
+        {
+          "letter": "D",
+          "text": "Menjadi rahasia negara"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "SA = ShareAlike mewajibkan lisensi identik atau kompatibel pada seluruh karya turunan",
+      "num": 65
+    },
+    {
+      "module": "M8",
+      "question": "[M8-3] Elemen lisensi Creative Commons yang mewajibkan pengguna tetap mencantumkan kredit atau nama pencipta asli pada setiap pemanfaatan karya adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BY (Attribution)"
+        },
+        {
+          "letter": "B",
+          "text": "ND"
+        },
+        {
+          "letter": "C",
+          "text": "NC"
+        },
+        {
+          "letter": "D",
+          "text": "SA"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Semua enam kombinasi lisensi standar Creative Commons menyertakan syarat BY / Attribution",
+      "num": 66
+    },
+    {
+      "module": "M8",
+      "question": "[M8-4] Karya berlisensi CC BY-ND (NoDerivatives) tidak memenuhi syarat penuh OER 5R karena...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mewajibkan pencantuman nama pencipta"
+        },
+        {
+          "letter": "B",
+          "text": "Melarang pembuatan karya turunan atau modifikasi isi (menghalangi hak Revise dan Remix), meskipun konversi format diperbolehkan"
+        },
+        {
+          "letter": "C",
+          "text": "Berbayar sangat mahal"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak boleh dibagikan ulang"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "ND membatasi hak Revise dan Remix yang menjadi syarat pedagogik OER 5R",
+      "num": 67
+    },
+    {
+      "module": "M8",
+      "question": "[M8-5] Secara prinsip hukum kekayaan intelektual dalam Modul 8 KB 1, hak cipta (copyright) melindungi...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ide abstrak yang belum diwujudkan"
+        },
+        {
+          "letter": "B",
+          "text": "Ekspresi nyata dari suatu karya kreatif asli (sastra, ilmiah, atau artistik), bukan ide yang mendasarinya"
+        },
+        {
+          "letter": "C",
+          "text": "Rumus matematika dasar seperti luas segitiga"
+        },
+        {
+          "letter": "D",
+          "text": "Fakta pengetahuan umum tanpa bentuk ekspresi unik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Hak cipta melindungi ekspresi nyata yang tertulis, terekam, atau berwujud fisik, bukan gagasan atau fakta umum",
+      "num": 68
+    },
+    {
+      "module": "M8",
+      "question": "[M8-6] Pengecualian hak cipta yang memungkinkan penggunaan wajar karya berhak cipta tanpa izin dan tanpa biaya untuk tujuan pendidikan, kritik, atau berita di Amerika Serikat dikenal sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fair Use"
+        },
+        {
+          "letter": "B",
+          "text": "Public Domain"
+        },
+        {
+          "letter": "C",
+          "text": "Plagiarisme"
+        },
+        {
+          "letter": "D",
+          "text": "Royalti"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "AS menggunakan doktrin Fair Use yang fleksibel, sedangkan negara Persemakmuran seperti Inggris, Australia, dan Kanada menggunakan Fair Dealing",
+      "num": 69
+    },
+    {
+      "module": "M8",
+      "question": "[M8-7] Di negara-negara Persemakmuran (seperti Inggris, Kanada, Australia, dan Selandia Baru), konsep pengecualian hak cipta yang memiliki aturan lebih spesifik dan kurang fleksibel dibanding Fair Use disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fair Dealing (transaksi yang adil)"
+        },
+        {
+          "letter": "B",
+          "text": "Copyleft mutlak"
+        },
+        {
+          "letter": "C",
+          "text": "Patent Pool"
+        },
+        {
+          "letter": "D",
+          "text": "Trade Secret"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 8 KB 1 membedakan Fair Use di AS dengan Fair Dealing di negara-negara Persemakmuran",
+      "num": 70
+    },
+    {
+      "module": "M8",
+      "question": "[M8-8] Jika Anda menggabungkan materi berlisensi CC BY ke dalam sebuah karya turunan baru yang akan Anda rilis dengan lisensi CC BY-SA, hal tersebut secara hukum lisensi CC adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diperbolehkan, karena syarat CC BY kompatibel untuk dimasukkan ke dalam karya berlisensi CC BY-SA (dengan tetap memberi atribusi)"
+        },
+        {
+          "letter": "B",
+          "text": "Dilarang keras dalam semua kondisi"
+        },
+        {
+          "letter": "C",
+          "text": "Menghapus hak cipta pencipta asli"
+        },
+        {
+          "letter": "D",
+          "text": "Mengubahnya menjadi hak paten"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 8 KB 2 menjelaskan materi CC BY dapat disertakan dalam karya turunan berlisensi CC BY-SA atau CC BY-NC-SA",
+      "num": 71
+    },
+    {
+      "module": "M8",
+      "question": "[M8-9] Mengutip gagasan atau tulisan orang lain tanpa mencantumkan sumber atau pengakuan yang sah merupakan pelanggaran etika akademik yang disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fair Use"
+        },
+        {
+          "letter": "B",
+          "text": "Plagiarisme"
+        },
+        {
+          "letter": "C",
+          "text": "Open Access"
+        },
+        {
+          "letter": "D",
+          "text": "Netiket"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Plagiarisme mencederai integritas akademik dan hak moral pencipta",
+      "num": 72
+    },
+    {
+      "module": "M9",
+      "question": "[M9-1] Tiga pilar pengelompokan sembilan elemen Kewargaan Digital menurut Mike Ribble adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Read, Write, Execute"
+        },
+        {
+          "letter": "B",
+          "text": "Respect, Educate, Protect"
+        },
+        {
+          "letter": "C",
+          "text": "Plan, Do, Check"
+        },
+        {
+          "letter": "D",
+          "text": "Input, Process, Output"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "REP: Respect, Educate, dan Protect menjadi kerangka utama 9 elemen kewargaan digital",
+      "num": 73
+    },
+    {
+      "module": "M9",
+      "question": "[M9-2] Data lokasi GPS, riwayat pencarian, dan cookie peramban yang terekam otomatis tanpa kita unggah secara sadar termasuk kategori...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jejak digital aktif"
+        },
+        {
+          "letter": "B",
+          "text": "Jejak digital pasif"
+        },
+        {
+          "letter": "C",
+          "text": "Etiket forum"
+        },
+        {
+          "letter": "D",
+          "text": "Lisensi terbuka"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Jejak digital pasif dikumpulkan otomatis oleh sistem/aplikasi, berbeda dengan jejak aktif seperti unggahan atau komentar",
+      "num": 74
+    },
+    {
+      "module": "M9",
+      "question": "[M9-3] Menulis seluruh kalimat dengan HURUF KAPITAL di forum diskusi akademik sebaiknya dihindari karena melanggar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hak cipta"
+        },
+        {
+          "letter": "B",
+          "text": "Netiket (etika komunikasi daring)"
+        },
+        {
+          "letter": "C",
+          "text": "Lisensi CC"
+        },
+        {
+          "letter": "D",
+          "text": "Uji CRAAP"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Huruf kapital penuh dalam teks daring dianggap sebagai nada berteriak atau marah",
+      "num": 75
+    },
+    {
+      "module": "M9",
+      "question": "[M9-4] Menurut standar internasional ISO/IEC 24760-1 yang dikutip dalam Modul 9 KB 1, pengertian identitas adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nomor induk kependudukan fisik semata"
+        },
+        {
+          "letter": "B",
+          "text": "Seperangkat atribut yang terkait dengan suatu entitas (orang, organisasi, aplikasi, atau perangkat)"
+        },
+        {
+          "letter": "C",
+          "text": "Kata sandi akun media sosial"
+        },
+        {
+          "letter": "D",
+          "text": "Alamat rumah tinggal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Identitas digital merupakan informasi berupa seperangkat atribut yang digunakan sistem komputer untuk mewakili agen eksternal",
+      "num": 76
+    },
+    {
+      "module": "M9",
+      "question": "[M9-5] Kebiasaan membaca informasi kesehatan secara daring secara berlebihan hingga memicu kecemasan dan keyakinan keliru bahwa dirinya mengidap penyakit tertentu disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cyberchondria"
+        },
+        {
+          "letter": "B",
+          "text": "Netiquette"
+        },
+        {
+          "letter": "C",
+          "text": "Microlearning"
+        },
+        {
+          "letter": "D",
+          "text": "Crowdsourcing"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 9 KB 2 membahas cyberchondria sebagai salah satu dampak psikologis negatif pencarian informasi kesehatan daring",
+      "num": 77
+    },
+    {
+      "module": "M9",
+      "question": "[M9-6] Dalam pilar Protect (Melindungi) dari Kewargaan Digital menurut Mike Ribble, elemen yang berkaitan langsung dengan pencegahan kelelahan mata, postur tubuh, dan kesehatan mental akibat penggunaan gawai adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perdagangan digital"
+        },
+        {
+          "letter": "B",
+          "text": "Kesehatan dan kesejahteraan digital (digital health and wellness)"
+        },
+        {
+          "letter": "C",
+          "text": "Hukum digital"
+        },
+        {
+          "letter": "D",
+          "text": "Akses digital"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pilar Protect mencakup hak & tanggung jawab digital, keamanan & privasi digital, serta kesehatan & kesejahteraan digital",
+      "num": 78
+    },
+    {
+      "module": "M9",
+      "question": "[M9-7] Agar warga digital dapat beradaptasi secara aman dan optimal di ruang siber, Modul 9 KB 1 menekankan perlunya penguasaan tiga literasi utama, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Literasi digital, kesantunan digital (netiket), dan literasi informasi"
+        },
+        {
+          "letter": "B",
+          "text": "Literasi cetak, kaligrafi, dan akuntansi"
+        },
+        {
+          "letter": "C",
+          "text": "Pemrograman mesin, desain PCB, dan jaringan kabel"
+        },
+        {
+          "letter": "D",
+          "text": "Pemasaran tradisional dan negosiasi tatap muka"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Ketiga literasi tersebut membekali warga digital agar cakap teknis, santun berinteraksi, dan kritis menyaring informasi",
+      "num": 79
+    },
+    {
+      "module": "M9",
+      "question": "[M9-8] Konsep digital hygiene (kesehatan/kebersihan digital) dalam Modul 9 KB 2 merujuk pada...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Membersihkan layar monitor dengan cairan kimia saja"
+        },
+        {
+          "letter": "B",
+          "text": "Pengetahuan dan praktik dasar untuk berinteraksi secara selamat, aman, menjaga privasi, serta menghormati hak orang lain di dunia digital"
+        },
+        {
+          "letter": "C",
+          "text": "Menghapus seluruh akun email"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak pernah menggunakan internet"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Digital hygiene menjaga keamanan, keselamatan, dan sikap saling menghormati antar-warga digital",
+      "num": 80
+    },
+    {
+      "module": "M9",
+      "question": "[M9-9] Dalam pilar Respect (Menghormati) Kewargaan Digital, kemampuan menyikapi kesenjangan akses teknologi agar semua warga mendapat kesempatan berpartisipasi secara inklusif termasuk elemen...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Akses digital (digital access)"
+        },
+        {
+          "letter": "B",
+          "text": "Perdagangan digital"
+        },
+        {
+          "letter": "C",
+          "text": "Keamanan fisik"
+        },
+        {
+          "letter": "D",
+          "text": "Literasi visual"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Pilar Respect meliputi akses digital, kesopanan/etiket digital, dan hukum digital",
+      "num": 81
+    }
+  ],
+  "essayQuestions": []
+}

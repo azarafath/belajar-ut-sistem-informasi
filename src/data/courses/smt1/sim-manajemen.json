@@ -1,0 +1,2844 @@
+{
+  "slug": "sim-manajemen",
+  "semester": 1,
+  "url": "/smt1/sim-manajemen",
+  "canonical": "https://belajar-ut.azf.my.id/smt1/sim-manajemen.html",
+  "title": "EMBS4321: Sistem Informasi Manajemen (Manajemen) — Modul & Bank Soal UT",
+  "shortLabel": "SIM Manajemen (EMBS4321)",
+  "h1": "EMBS4321: Sistem Informasi Manajemen (Manajemen)",
+  "metaDesc": "Ringkasan lengkap 9 modul Sistem Informasi Manajemen (EMBS4321) UT: TI & Keunggulan Kompetitif Porter, Prinsip & Komponen Sistem, Jaringan & TCP/IP/OSI, Sistem Perusahaan ERP/TPS & Pendukung Manajerial, E-Bisnis & E-Commerce, Pengelolaan SI, Metodologi Pengembangan, Manajemen Proyek TI, serta Keamanan, Hukum & Etika + 27 Soal PG.",
+  "coverTag": "Semester 1 • BMP UT (Dr. Yong Dirgiatmo)",
+  "coverTagColor": "#0284c7",
+  "coverDesc": "Ringkasan lengkap 9 modul Sistem Informasi Manajemen (EMBS4321) UT: TI & Keunggulan Kompetitif Porter, Prinsip & Komponen Sistem, Jaringan & TCP/IP/OSI, Sistem Perusahaan ERP/TPS & Pendukung Manajerial, E-Bisnis & E-Commerce, Pengelolaan SI, Metodologi Pengembangan, Manajemen Proyek TI, serta Keamanan, Hukum & Etika + 27 Soal PG.",
+  "badges": [
+    {
+      "bg": "var(--hl-blue)",
+      "text": "9 Modul + Diagram"
+    },
+    {
+      "bg": "var(--hl-mint)",
+      "text": "108 Soal PG + Pembahasan"
+    },
+    {
+      "bg": "var(--hl-yellow)",
+      "text": "Semester 1 • BMP EMBS4321"
+    }
+  ],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Sistem Informasi & Keunggulan Kompetitif"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Prinsip Dasar & Komponen Sistem Informasi"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Jaringan dan Komunikasi Data"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Sistem Perusahaan (Enterprise) & Pendukung Manajerial"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "E-Bisnis, E-Commerce, dan Produk Digital"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Membangun, Mengelola, dan Memelihara Sistem Informasi"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Metodologi Pengembangan Sistem & Pembelian Paket"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Manajemen Proyek Sistem Informasi"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Keamanan Informasi, Hukum, Etika, dan Sosial"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Modul 1: Sistem Informasi & Keunggulan Kompetitif",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-head\">\n        <h2>Modul 1: Sistem Informasi &amp; Keunggulan Kompetitif</h2>\n        <span class=\"mod-tag\">Modul 1</span>\n      </div>\n      <h3>KB 1: Teknologi Informasi &amp; Bisnis Modern</h3>\n        <ul>\n          <li><strong>Data vs Informasi vs Pengetahuan:</strong> Data adalah fakta mentah; Informasi adalah data yang telah diolah sehingga bermakna; Pengetahuan adalah informasi yang dipadukan dengan pengalaman untuk pengambilan keputusan.</li>\n          <li><strong>Sistem Informasi (SI):</strong> Kombinasi terorganisasi dari manusia, perangkat keras, perangkat lunak, jaringan komunikasi, data, dan prosedur untuk mengumpulkan, mengolah, dan menyebarkan informasi.</li>\n        </ul><h3>KB 2: Model Daya Saing 5 Kekuatan Porter &amp; Rantai Nilai</h3>\n        <ul>\n          <li><strong>Porter's Five Forces:</strong> (1) Ancaman pendatang baru, (2) Kekuatan tawar pemasok, (3) Kekuatan tawar pembeli, (4) Ancaman produk substitusi, (5) Persaingan antar kompetitor.</li>\n          <li><strong>4 Strategi Kompetitif TI:</strong> <em>Cost Leadership</em>, <em>Differentiation</em>, <em>Innovation/Niche Focus</em>, dan <em>Customer/Supplier Intimacy</em> (Switching Cost).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 220\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Model Lima Kekuatan Kompetitif Michael Porter untuk Strategi TI\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"240\" y=\"20\" width=\"200\" height=\"48\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"40.6\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Pendatang Baru</text><text x=\"340.0\" y=\"54.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hambatan masuk</text><rect x=\"25\" y=\"86\" width=\"175\" height=\"52\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"112.5\" y=\"108.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Daya Tawar Pemasok</text><text x=\"112.5\" y=\"123.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kontrol pasokan</text><rect x=\"240\" y=\"86\" width=\"200\" height=\"52\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"108.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Rivalitas Industri</text><text x=\"340.0\" y=\"123.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Persaingan Kompetitor</text><rect x=\"480\" y=\"86\" width=\"175\" height=\"52\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"567.5\" y=\"108.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Daya Tawar Pembeli</text><text x=\"567.5\" y=\"123.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Sensitivitas harga</text><rect x=\"240\" y=\"156\" width=\"200\" height=\"48\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"176.6\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Produk Substitusi</text><text x=\"340.0\" y=\"190.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Alternatif layanan</text><line x1=\"340\" y1=\"68\" x2=\"340\" y2=\"86\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"200\" y1=\"112\" x2=\"240\" y2=\"112\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"480\" y1=\"112\" x2=\"440\" y2=\"112\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"340\" y1=\"156\" x2=\"340\" y2=\"138\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n  </svg>\n  <p class=\"svg-caption\">Model Lima Kekuatan Kompetitif Michael Porter untuk Strategi TI</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Data vs Informasi</span>\n          <span class=\"kw-chip\">Porter 5 Forces</span>\n          <span class=\"kw-chip\">Value Chain</span>\n          <span class=\"kw-chip\">Cost Leadership</span>\n          <span class=\"kw-chip\">Switching Cost</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 1: Sistem Informasi & Keunggulan Kompetitif Modul 1 KB 1: Teknologi Informasi & Bisnis Modern Data vs Informasi vs Pengetahuan: Data adalah fakta mentah; Informasi adalah data yang telah diolah sehingga bermakna; Pengetahuan adalah informasi yang dipadukan dengan pengalaman untuk pengambilan keputusan. Sistem Informasi (SI): Kombinasi terorganisasi dari manusia, perangkat keras, perangkat lunak, jaringan komunikasi, data, dan prosedur untuk mengumpulkan, mengolah, dan menyebarkan informasi. KB 2: Model Daya Saing 5 Kekuatan Porter & Rantai Nilai Porter's Five Forces: (1) Ancaman pendatang baru, (2) Kekuatan tawar pemasok, (3) Kekuatan tawar pembeli, (4) Ancaman produk substitusi, (5) Persaingan antar kompetitor. 4 Strategi Kompetitif TI: Cost Leadership , Differentiation , Innovation/Niche Focus , dan Customer/Supplier Intimacy (Switching Cost). Pendatang Baru Hambatan masuk Daya Tawar Pemasok Kontrol pasokan Rivalitas Industri Persaingan Kompetitor Daya Tawar Pembeli Sensitivitas harga Produk Substitusi Alternatif layanan Model Lima Kekuatan Kompetitif Michael Porter untuk Strategi TI 🔑 Kata Kunci Wajib Ingat: Data vs Informasi Porter 5 Forces Value Chain Cost Leadership Switching Cost"
+    },
+    {
+      "id": "m2",
+      "title": "Modul 2: Prinsip Dasar & Komponen Sistem Informasi",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-head\">\n        <h2>Modul 2: Prinsip Dasar &amp; Komponen Sistem Informasi</h2>\n        <span class=\"mod-tag\">Modul 2</span>\n      </div>\n      <h3>KB 1: Konsep Sistem &amp; Komponen SI</h3>\n        <ul>\n          <li><strong>Karakteristik Sistem:</strong> Memiliki komponen, batasan (<em>boundary</em>), lingkungan luar, penghubung (<em>interface</em>), masukan (<em>input</em>), pengolah (<em>process</em>), keluaran (<em>output</em>), sasaran, dan umpan balik (<em>feedback</em>).</li>\n          <li><strong>5 Komponen Sumber Daya SI:</strong> Manusia (<em>People/Brainware</em>), Perangkat Keras (<em>Hardware</em>), Perangkat Lunak (<em>Software</em>), Data (<em>Database</em>), dan Jaringan (<em>Network</em>).</li>\n        </ul><h3>KB 2: Infrastruktur Hardware, Software &amp; Basis Data</h3>\n        <ul>\n          <li><strong>System Software vs Application Software:</strong> Sistem operasi mengelola sumber daya perangkat keras; perangkat lunak aplikasi menyelesaikan tugas spesifik pengguna.</li>\n          <li><strong>DBMS &amp; Gudang Data:</strong> Basis data relasional mengurangi redundansi data melalui normalisasi; <em>Data Warehouse</em> menyimpan data historis untuk analitik (OLAP).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 215\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Siklus Dasar Sistem Informasi: Input - Proses - Output - Feedback\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"65\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"97.5\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Input</text><text x=\"97.5\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Data Mentah</text><line x1=\"170\" y1=\"101\" x2=\"215\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"215\" y=\"65\" width=\"220\" height=\"72\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"325.0\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Proses (SI)</text><text x=\"325.0\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hardware, Software, DB</text><line x1=\"435\" y1=\"101\" x2=\"480\" y2=\"101\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"480\" y=\"65\" width=\"175\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"567.5\" y=\"96.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Output</text><text x=\"567.5\" y=\"116.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Informasi Manajerial</text><rect x=\"215\" y=\"160\" width=\"220\" height=\"42\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"325.0\" y=\"178.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Feedback &amp; Kontrol</text><text x=\"325.0\" y=\"190.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Evaluasi Kualitas Data</text><line x1=\"567\" y1=\"137\" x2=\"435\" y2=\"181\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"215\" y1=\"181\" x2=\"97\" y2=\"137\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n  </svg>\n  <p class=\"svg-caption\">Siklus Dasar Sistem Informasi: Input - Proses - Output - Feedback</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Input-Proses-Output</span>\n          <span class=\"kw-chip\">Brainware</span>\n          <span class=\"kw-chip\">DBMS</span>\n          <span class=\"kw-chip\">Data Warehouse</span>\n          <span class=\"kw-chip\">System Boundary</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 2: Prinsip Dasar & Komponen Sistem Informasi Modul 2 KB 1: Konsep Sistem & Komponen SI Karakteristik Sistem: Memiliki komponen, batasan ( boundary ), lingkungan luar, penghubung ( interface ), masukan ( input ), pengolah ( process ), keluaran ( output ), sasaran, dan umpan balik ( feedback ). 5 Komponen Sumber Daya SI: Manusia ( People/Brainware ), Perangkat Keras ( Hardware ), Perangkat Lunak ( Software ), Data ( Database ), dan Jaringan ( Network ). KB 2: Infrastruktur Hardware, Software & Basis Data System Software vs Application Software: Sistem operasi mengelola sumber daya perangkat keras; perangkat lunak aplikasi menyelesaikan tugas spesifik pengguna. DBMS & Gudang Data: Basis data relasional mengurangi redundansi data melalui normalisasi; Data Warehouse menyimpan data historis untuk analitik (OLAP). Input Data Mentah Proses (SI) Hardware, Software, DB Output Informasi Manajerial Feedback & Kontrol Evaluasi Kualitas Data Siklus Dasar Sistem Informasi: Input - Proses - Output - Feedback 🔑 Kata Kunci Wajib Ingat: Input-Proses-Output Brainware DBMS Data Warehouse System Boundary"
+    },
+    {
+      "id": "m3",
+      "title": "Modul 3: Jaringan dan Komunikasi Data",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-head\">\n        <h2>Modul 3: Jaringan dan Komunikasi Data</h2>\n        <span class=\"mod-tag\">Modul 3</span>\n      </div>\n      <h3>KB 1: Jenis Jaringan &amp; Topologi</h3>\n        <ul>\n          <li><strong>Klasifikasi Jaringan:</strong> <em>PAN</em> (Personal), <em>LAN</em> (gedung/kantor), <em>MAN</em> (antar gedung/kota), <em>WAN</em> (antar negara/benua).</li>\n          <li><strong>Media Transmisi:</strong> Kabel terpandu (<em>Twisted Pair/UTP, Coaxial, Fiber Optic</em> — tercepat &amp; tahan interferensi) dan nirkabel (<em>Wi-Fi, Seluler 4G/5G, Satelit</em>).</li>\n        </ul><h3>KB 2: Model OSI 7 Layer &amp; Protokol TCP/IP</h3>\n        <ul>\n          <li><strong>TCP/IP:</strong> Protokol standar internet; <em>TCP</em> menjamin pengiriman paket andal (berurutan &amp; bebas error), <em>IP</em> mengatur pengalamatan dan perutean (<em>routing</em>).</li>\n          <li><strong>DNS, HTTP/HTTPS &amp; VPN:</strong> DNS menerjemahkan nama domain menjadi alamat IP; VPN menciptakan terowongan terenkripsi di atas jaringan publik.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Arsitektur Komunikasi Data: LAN terhubung ke WAN/Cloud melalui TCP/IP\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"60\" width=\"145\" height=\"75\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"107.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">LAN</text><text x=\"107.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Lokal (Kantor/Kampus)</text><line x1=\"180\" y1=\"97\" x2=\"225\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"202.5\" y=\"91.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Router</text><rect x=\"225\" y=\"60\" width=\"200\" height=\"75\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"325.0\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">TCP/IP &amp; Internet</text><text x=\"325.0\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Packet Switching + DNS</text><line x1=\"425\" y1=\"97\" x2=\"470\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"447.5\" y=\"91.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">HTTPS/VPN</text><rect x=\"470\" y=\"60\" width=\"175\" height=\"75\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"557.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">WAN / Cloud</text><text x=\"557.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Koneksi Global Aman</text>\n  </svg>\n  <p class=\"svg-caption\">Arsitektur Komunikasi Data: LAN terhubung ke WAN/Cloud melalui TCP/IP</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">LAN vs WAN</span>\n          <span class=\"kw-chip\">Fiber Optic</span>\n          <span class=\"kw-chip\">TCP/IP</span>\n          <span class=\"kw-chip\">OSI 7 Layer</span>\n          <span class=\"kw-chip\">DNS &amp; VPN</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 3: Jaringan dan Komunikasi Data Modul 3 KB 1: Jenis Jaringan & Topologi Klasifikasi Jaringan: PAN (Personal), LAN (gedung/kantor), MAN (antar gedung/kota), WAN (antar negara/benua). Media Transmisi: Kabel terpandu ( Twisted Pair/UTP, Coaxial, Fiber Optic — tercepat & tahan interferensi) dan nirkabel ( Wi-Fi, Seluler 4G/5G, Satelit ). KB 2: Model OSI 7 Layer & Protokol TCP/IP TCP/IP: Protokol standar internet; TCP menjamin pengiriman paket andal (berurutan & bebas error), IP mengatur pengalamatan dan perutean ( routing ). DNS, HTTP/HTTPS & VPN: DNS menerjemahkan nama domain menjadi alamat IP; VPN menciptakan terowongan terenkripsi di atas jaringan publik. LAN Lokal (Kantor/Kampus) Router TCP/IP & Internet Packet Switching + DNS HTTPS/VPN WAN / Cloud Koneksi Global Aman Arsitektur Komunikasi Data: LAN terhubung ke WAN/Cloud melalui TCP/IP 🔑 Kata Kunci Wajib Ingat: LAN vs WAN Fiber Optic TCP/IP OSI 7 Layer DNS & VPN"
+    },
+    {
+      "id": "m4",
+      "title": "Modul 4: Sistem Perusahaan (Enterprise) & Pendukung Manajerial",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-head\">\n        <h2>Modul 4: Sistem Perusahaan (Enterprise) &amp; Pendukung Manajerial</h2>\n        <span class=\"mod-tag\">Modul 4</span>\n      </div>\n      <h3>KB 1: TPS, MIS, DSS, dan ESS</h3>\n        <ul>\n          <li><strong>TPS (Transaction Processing System):</strong> Level operasional — mencatat transaksi harian (kasir POS, penggajian, pemesanan).</li>\n          <li><strong>MIS (Management Information System):</strong> Level menengah — menghasilkan laporan rutin terstruktur dari data TPS.</li>\n          <li><strong>DSS (Decision Support System):</strong> Mendukung keputusan semi-terstruktur menggunakan model analitik &amp; simulasi <em>what-if</em>.</li>\n          <li><strong>ESS (Executive Support System):</strong> Level puncak — <em>dashboard</em> strategis tren jangka panjang.</li>\n        </ul><h3>KB 2: Enterprise Applications (ERP, SCM, CRM)</h3>\n        <ul>\n          <li><strong>ERP (Enterprise Resource Planning):</strong> Mengintegrasikan seluruh fungsi bisnis (keuangan, SDM, produksi, penjualan) dalam satu basis data terpusat.</li>\n          <li><strong>SCM &amp; CRM:</strong> <em>SCM</em> mengoptimalkan rantai pasok dari pemasok ke pabrik; <em>CRM</em> mengelola interaksi dan loyalitas pelanggan.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 222\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Piramida Sistem Informasi Manajerial di Atas Fondasi ERP\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"210\" y=\"20\" width=\"260\" height=\"42\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"38.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">ESS (Eksekutif)</text><text x=\"340.0\" y=\"50.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Strategi &amp; Tren Jangka Panjang</text><rect x=\"165\" y=\"72\" width=\"350\" height=\"42\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"90.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">MIS &amp; DSS (Manajer Menengah)</text><text x=\"340.0\" y=\"102.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Laporan Rutin &amp; Simulasi What-If</text><rect x=\"110\" y=\"124\" width=\"460\" height=\"42\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"142.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">TPS (Operasional)</text><text x=\"340.0\" y=\"154.2\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Transaksi Harian, Kasir, Payroll</text><rect x=\"60\" y=\"174\" width=\"560\" height=\"36\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"194.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">ERP / Basis Data Terintegrasi (SCM + CRM + Keuangan + SDM)</text>\n  </svg>\n  <p class=\"svg-caption\">Piramida Sistem Informasi Manajerial di Atas Fondasi ERP</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">TPS</span>\n          <span class=\"kw-chip\">MIS vs DSS</span>\n          <span class=\"kw-chip\">ESS</span>\n          <span class=\"kw-chip\">ERP Terintegrasi</span>\n          <span class=\"kw-chip\">SCM &amp; CRM</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 4: Sistem Perusahaan (Enterprise) & Pendukung Manajerial Modul 4 KB 1: TPS, MIS, DSS, dan ESS TPS (Transaction Processing System): Level operasional — mencatat transaksi harian (kasir POS, penggajian, pemesanan). MIS (Management Information System): Level menengah — menghasilkan laporan rutin terstruktur dari data TPS. DSS (Decision Support System): Mendukung keputusan semi-terstruktur menggunakan model analitik & simulasi what-if . ESS (Executive Support System): Level puncak — dashboard strategis tren jangka panjang. KB 2: Enterprise Applications (ERP, SCM, CRM) ERP (Enterprise Resource Planning): Mengintegrasikan seluruh fungsi bisnis (keuangan, SDM, produksi, penjualan) dalam satu basis data terpusat. SCM & CRM: SCM mengoptimalkan rantai pasok dari pemasok ke pabrik; CRM mengelola interaksi dan loyalitas pelanggan. ESS (Eksekutif) Strategi & Tren Jangka Panjang MIS & DSS (Manajer Menengah) Laporan Rutin & Simulasi What-If TPS (Operasional) Transaksi Harian, Kasir, Payroll ERP / Basis Data Terintegrasi (SCM + CRM + Keuangan + SDM) Piramida Sistem Informasi Manajerial di Atas Fondasi ERP 🔑 Kata Kunci Wajib Ingat: TPS MIS vs DSS ESS ERP Terintegrasi SCM & CRM"
+    },
+    {
+      "id": "m5",
+      "title": "Modul 5: E-Bisnis, E-Commerce, dan Produk Digital",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-head\">\n        <h2>Modul 5: E-Bisnis, E-Commerce, dan Produk Digital</h2>\n        <span class=\"mod-tag\">Modul 5</span>\n      </div>\n      <h3>KB 1: Model Bisnis E-Commerce</h3>\n        <ul>\n          <li><strong>E-Business vs E-Commerce:</strong> <em>E-business</em> mencakup seluruh proses bisnis berbasis digital (internal &amp; eksternal); <em>E-commerce</em> berfokus pada transaksi jual-beli daring.</li>\n          <li><strong>Tipe E-Commerce:</strong> <em>B2C</em> (toko ke konsumen), <em>B2B</em> (antar perusahaan), <em>C2C</em> (marketplace antar pengguna), dan <em>G2C/E-Government</em>.</li>\n        </ul><h3>KB 2: Karakteristik Produk Digital &amp; Pembayaran</h3>\n        <ul>\n          <li><strong>Produk Digital:</strong> Biaya marginal replikasi mendekati nol, distribusi instan global, mudah dikustomisasi (e-book, musik, SaaS).</li>\n          <li><strong>Sistem Pembayaran Digital:</strong> <em>Payment Gateway</em>, kartu kredit, dompet digital (<em>e-wallet</em>), QRIS, dan enkripsi SSL/TLS.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Model Utama Transaksi E-Commerce (B2B, B2C, C2C)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"60\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"122.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">B2B</text><text x=\"122.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Perusahaan &amp;harr; Pemasok</text><rect x=\"248\" y=\"60\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"340.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">B2C</text><text x=\"340.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Bisnis &amp;rarr; Konsumen Akhir</text><rect x=\"466\" y=\"60\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"558.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">C2C</text><text x=\"558.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Marketplace Antar Pengguna</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Model Utama Transaksi E-Commerce (B2B, B2C, C2C)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">E-Business vs E-Commerce</span>\n          <span class=\"kw-chip\">B2B B2C C2C</span>\n          <span class=\"kw-chip\">Produk Digital</span>\n          <span class=\"kw-chip\">Marginal Cost Nol</span>\n          <span class=\"kw-chip\">Payment Gateway</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 5: E-Bisnis, E-Commerce, dan Produk Digital Modul 5 KB 1: Model Bisnis E-Commerce E-Business vs E-Commerce: E-business mencakup seluruh proses bisnis berbasis digital (internal & eksternal); E-commerce berfokus pada transaksi jual-beli daring. Tipe E-Commerce: B2C (toko ke konsumen), B2B (antar perusahaan), C2C (marketplace antar pengguna), dan G2C/E-Government . KB 2: Karakteristik Produk Digital & Pembayaran Produk Digital: Biaya marginal replikasi mendekati nol, distribusi instan global, mudah dikustomisasi (e-book, musik, SaaS). Sistem Pembayaran Digital: Payment Gateway , kartu kredit, dompet digital ( e-wallet ), QRIS, dan enkripsi SSL/TLS. B2B Perusahaan &harr; Pemasok B2C Bisnis &rarr; Konsumen Akhir C2C Marketplace Antar Pengguna Tiga Model Utama Transaksi E-Commerce (B2B, B2C, C2C) 🔑 Kata Kunci Wajib Ingat: E-Business vs E-Commerce B2B B2C C2C Produk Digital Marginal Cost Nol Payment Gateway"
+    },
+    {
+      "id": "m6",
+      "title": "Modul 6: Membangun, Mengelola, dan Memelihara Sistem Informasi",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-head\">\n        <h2>Modul 6: Membangun, Mengelola, dan Memelihara Sistem Informasi</h2>\n        <span class=\"mod-tag\">Modul 6</span>\n      </div>\n      <h3>KB 1: Perencanaan Strategis &amp; Pengadaan SI</h3>\n        <ul>\n          <li><strong>Keselarasan Bisnis-TI:</strong> Perencanaan SI harus mendukung visi misi perusahaan melalui <em>IT Steering Committee</em>.</li>\n          <li><strong>Opsi Pengadaan:</strong> Membangun sendiri (<em>in-house</em>), membeli paket komersial (<em>COTS</em>), atau alih daya (<em>outsourcing / Cloud SaaS</em>).</li>\n        </ul><h3>KB 2: Operasional, Pemeliharaan, &amp; Konversi Sistem</h3>\n        <ul>\n          <li><strong>4 Jenis Pemeliharaan SI:</strong> <em>Corrective</em> (perbaikan bug), <em>Adaptive</em> (penyesuaian regulasi/OS baru), <em>Perfective</em> (peningkatan fitur/performa), dan <em>Preventive</em> (pencegahan kerusakan).</li>\n          <li><strong>Strategi Konversi Sistem:</strong> <em>Parallel</em> (paling aman, jalan bersamaan), <em>Direct Cutover</em> (berisiko tinggi), <em>Pilot Study</em>, dan <em>Phased</em> (bertahap).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 210\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Empat Strategi Konversi dari Sistem Lama ke Sistem Informasi Baru\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"40\" width=\"195\" height=\"64\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"122.5\" y=\"67.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Parallel Conversion</text><text x=\"122.5\" y=\"86.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Aman, biaya ganda</text><rect x=\"242\" y=\"40\" width=\"195\" height=\"64\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"339.5\" y=\"67.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Direct Cutover</text><text x=\"339.5\" y=\"86.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Cepat, risiko tinggi</text><rect x=\"460\" y=\"40\" width=\"195\" height=\"64\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"557.5\" y=\"67.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Pilot Study</text><text x=\"557.5\" y=\"86.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Uji coba di 1 cabang</text><rect x=\"180\" y=\"128\" width=\"320\" height=\"62\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"154.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Phased / Bertahap</text><text x=\"340.0\" y=\"172.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Implementasi modul demi modul</text>\n  </svg>\n  <p class=\"svg-caption\">Empat Strategi Konversi dari Sistem Lama ke Sistem Informasi Baru</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Parallel Conversion</span>\n          <span class=\"kw-chip\">Direct Cutover</span>\n          <span class=\"kw-chip\">Corrective Maintenance</span>\n          <span class=\"kw-chip\">Adaptive Maintenance</span>\n          <span class=\"kw-chip\">Outsourcing</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 6: Membangun, Mengelola, dan Memelihara Sistem Informasi Modul 6 KB 1: Perencanaan Strategis & Pengadaan SI Keselarasan Bisnis-TI: Perencanaan SI harus mendukung visi misi perusahaan melalui IT Steering Committee . Opsi Pengadaan: Membangun sendiri ( in-house ), membeli paket komersial ( COTS ), atau alih daya ( outsourcing / Cloud SaaS ). KB 2: Operasional, Pemeliharaan, & Konversi Sistem 4 Jenis Pemeliharaan SI: Corrective (perbaikan bug), Adaptive (penyesuaian regulasi/OS baru), Perfective (peningkatan fitur/performa), dan Preventive (pencegahan kerusakan). Strategi Konversi Sistem: Parallel (paling aman, jalan bersamaan), Direct Cutover (berisiko tinggi), Pilot Study , dan Phased (bertahap). Parallel Conversion Aman, biaya ganda Direct Cutover Cepat, risiko tinggi Pilot Study Uji coba di 1 cabang Phased / Bertahap Implementasi modul demi modul Empat Strategi Konversi dari Sistem Lama ke Sistem Informasi Baru 🔑 Kata Kunci Wajib Ingat: Parallel Conversion Direct Cutover Corrective Maintenance Adaptive Maintenance Outsourcing"
+    },
+    {
+      "id": "m7",
+      "title": "Modul 7: Metodologi Pengembangan Sistem & Pembelian Paket",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-head\">\n        <h2>Modul 7: Metodologi Pengembangan Sistem &amp; Pembelian Paket</h2>\n        <span class=\"mod-tag\">Modul 7</span>\n      </div>\n      <h3>KB 1: SDLC, Prototyping, RAD, dan Agile</h3>\n        <ul>\n          <li><strong>SDLC Tradisional (Waterfall):</strong> Perencanaan &rarr; Analisis &rarr; Desain &rarr; Implementasi &rarr; Pengujian &rarr; Pemeliharaan.</li>\n          <li><strong>Prototyping &amp; RAD:</strong> Membuat model kerja cepat untuk memperoleh umpan balik pengguna; cocok bila kebutuhan awal belum jelas.</li>\n          <li><strong>Agile / Scrum:</strong> Pengembangan iteratif dalam <em>sprint</em> pendek dengan kolaborasi intensif bersama pemilik bisnis.</li>\n        </ul><h3>KB 2: Pembelian Paket Perangkat Lunak (RFP)</h3>\n        <ul>\n          <li><strong>RFP (Request for Proposal):</strong> Dokumen formal berisi spesifikasi kebutuhan organisasi yang dikirim ke vendor untuk membandingkan biaya, fitur, dan dukungan purna jual.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tahapan Utama System Development Life Cycle (SDLC)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"18\" y=\"65\" width=\"118\" height=\"70\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"77.0\" y=\"95.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">1. Planning</text><text x=\"77.0\" y=\"115.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Studi Kelayakan</text><line x1=\"136\" y1=\"100\" x2=\"152\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"152\" y=\"65\" width=\"118\" height=\"70\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"211.0\" y=\"95.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">2. Analysis</text><text x=\"211.0\" y=\"115.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kebutuhan User</text><line x1=\"270\" y1=\"100\" x2=\"286\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"286\" y=\"65\" width=\"118\" height=\"70\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"345.0\" y=\"95.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">3. Design</text><text x=\"345.0\" y=\"115.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Arsitektur &amp; DB</text><line x1=\"404\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"420\" y=\"65\" width=\"118\" height=\"70\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"479.0\" y=\"95.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">4. Build/Test</text><text x=\"479.0\" y=\"115.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Coding &amp; UAT</text><line x1=\"538\" y1=\"100\" x2=\"554\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"554\" y=\"65\" width=\"112\" height=\"70\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"1.8\"/><text x=\"610.0\" y=\"95.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#334155\">5. Maintain</text><text x=\"610.0\" y=\"115.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Operasional</text>\n  </svg>\n  <p class=\"svg-caption\">Tahapan Utama System Development Life Cycle (SDLC)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">SDLC Waterfall</span>\n          <span class=\"kw-chip\">Prototyping</span>\n          <span class=\"kw-chip\">Agile Scrum</span>\n          <span class=\"kw-chip\">RFP (Request for Proposal)</span>\n          <span class=\"kw-chip\">UAT</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 7: Metodologi Pengembangan Sistem & Pembelian Paket Modul 7 KB 1: SDLC, Prototyping, RAD, dan Agile SDLC Tradisional (Waterfall): Perencanaan → Analisis → Desain → Implementasi → Pengujian → Pemeliharaan. Prototyping & RAD: Membuat model kerja cepat untuk memperoleh umpan balik pengguna; cocok bila kebutuhan awal belum jelas. Agile / Scrum: Pengembangan iteratif dalam sprint pendek dengan kolaborasi intensif bersama pemilik bisnis. KB 2: Pembelian Paket Perangkat Lunak (RFP) RFP (Request for Proposal): Dokumen formal berisi spesifikasi kebutuhan organisasi yang dikirim ke vendor untuk membandingkan biaya, fitur, dan dukungan purna jual. 1. Planning Studi Kelayakan 2. Analysis Kebutuhan User 3. Design Arsitektur & DB 4. Build/Test Coding & UAT 5. Maintain Operasional Tahapan Utama System Development Life Cycle (SDLC) 🔑 Kata Kunci Wajib Ingat: SDLC Waterfall Prototyping Agile Scrum RFP (Request for Proposal) UAT"
+    },
+    {
+      "id": "m8",
+      "title": "Modul 8: Manajemen Proyek Sistem Informasi",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-head\">\n        <h2>Modul 8: Manajemen Proyek Sistem Informasi</h2>\n        <span class=\"mod-tag\">Modul 8</span>\n      </div>\n      <h3>KB 1: Triple Constraint &amp; Studi Kelayakan (TELOS)</h3>\n        <ul>\n          <li><strong>Segitiga Manajemen Proyek:</strong> <em>Scope</em> (ruang lingkup), <em>Time</em> (jadwal), dan <em>Cost</em> (biaya) — menjaga keseimbangan kualitas proyek.</li>\n          <li><strong>Studi Kelayakan (TELOS):</strong> <em>Technical</em>, <em>Economic</em> (NPV, ROI, Payback Period), <em>Legal</em>, <em>Operational</em>, dan <em>Schedule</em>.</li>\n        </ul><h3>KB 2: Alat Penjadwalan &amp; Manajemen Risiko Proyek</h3>\n        <ul>\n          <li><strong>WBS, Gantt Chart &amp; PERT/CPM:</strong> <em>WBS</em> memecah proyek menjadi paket kerja; <em>Critical Path Method (CPM)</em> menentukan jalur aktivitas terpanjang tanpa kelonggaran waktu (<em>slack = 0</em>).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 205\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triple Constraint Manajemen Proyek TI: Scope, Time, dan Cost\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"240\" y=\"22\" width=\"200\" height=\"52\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"44.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Scope (Lingkup)</text><text x=\"340.0\" y=\"59.4\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Fitur &amp; Deliverable</text><rect x=\"60\" y=\"130\" width=\"195\" height=\"56\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"157.5\" y=\"154.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Time (Jadwal)</text><text x=\"157.5\" y=\"170.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Gantt &amp; Critical Path</text><rect x=\"425\" y=\"130\" width=\"195\" height=\"56\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"522.5\" y=\"154.1\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Cost (Anggaran)</text><text x=\"522.5\" y=\"170.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">ROI, NPV, Payback</text><line x1=\"240\" y1=\"62\" x2=\"160\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"440\" y1=\"62\" x2=\"520\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"255\" y1=\"158\" x2=\"425\" y2=\"158\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n  </svg>\n  <p class=\"svg-caption\">Triple Constraint Manajemen Proyek TI: Scope, Time, dan Cost</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Triple Constraint</span>\n          <span class=\"kw-chip\">Kelayakan TELOS</span>\n          <span class=\"kw-chip\">WBS</span>\n          <span class=\"kw-chip\">Gantt Chart</span>\n          <span class=\"kw-chip\">Critical Path (CPM)</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 8: Manajemen Proyek Sistem Informasi Modul 8 KB 1: Triple Constraint & Studi Kelayakan (TELOS) Segitiga Manajemen Proyek: Scope (ruang lingkup), Time (jadwal), dan Cost (biaya) — menjaga keseimbangan kualitas proyek. Studi Kelayakan (TELOS): Technical , Economic (NPV, ROI, Payback Period), Legal , Operational , dan Schedule . KB 2: Alat Penjadwalan & Manajemen Risiko Proyek WBS, Gantt Chart & PERT/CPM: WBS memecah proyek menjadi paket kerja; Critical Path Method (CPM) menentukan jalur aktivitas terpanjang tanpa kelonggaran waktu ( slack = 0 ). Scope (Lingkup) Fitur & Deliverable Time (Jadwal) Gantt & Critical Path Cost (Anggaran) ROI, NPV, Payback Triple Constraint Manajemen Proyek TI: Scope, Time, dan Cost 🔑 Kata Kunci Wajib Ingat: Triple Constraint Kelayakan TELOS WBS Gantt Chart Critical Path (CPM)"
+    },
+    {
+      "id": "m9",
+      "title": "Modul 9: Keamanan Informasi, Hukum, Etika, dan Sosial",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-head\">\n        <h2>Modul 9: Keamanan Informasi, Hukum, Etika, dan Sosial</h2>\n        <span class=\"mod-tag\">Modul 9</span>\n      </div>\n      <h3>KB 1: Segitiga CIA &amp; Ancaman Keamanan</h3>\n        <ul>\n          <li><strong>Triad CIA:</strong> <em>Confidentiality</em> (kerahasiaan data), <em>Integrity</em> (keutuhan/keaslian data), dan <em>Availability</em> (ketersediaan sistem saat dibutuhkan).</li>\n          <li><strong>Ancaman &amp; Kontrol:</strong> Malware (ransomware, trojan), <em>Phishing</em>, <em>Social Engineering</em>, dan serangan <em>DDoS</em>; mitigasi melalui Firewall, Enkripsi, MFA, dan Backup berkala.</li>\n        </ul><h3>KB 2: Etika Informasi (PAPA) &amp; Regulasi</h3>\n        <ul>\n          <li><strong>4 Isu Etika Informasi (Mason - PAPA):</strong> <em>Privacy</em> (privasi), <em>Accuracy</em> (akurasi), <em>Property</em> (hak kekayaan intelektual), dan <em>Accessibility</em> (hak akses informasi).</li>\n          <li><strong>Hukum Siber di Indonesia:</strong> UU ITE serta UU Pelindungan Data Pribadi (UU PDP) yang mengatur persetujuan pemrosesan data pengguna.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 208\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triad Keamanan Informasi: Confidentiality, Integrity, dan Availability (CIA)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"240\" y=\"20\" width=\"200\" height=\"55\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"43.6\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Confidentiality</text><text x=\"340.0\" y=\"59.6\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Enkripsi &amp; Kontrol Akses</text><rect x=\"55\" y=\"130\" width=\"210\" height=\"58\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"160.0\" y=\"154.9\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Integrity</text><text x=\"160.0\" y=\"171.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hashing &amp; Validasi Data</text><rect x=\"415\" y=\"130\" width=\"210\" height=\"58\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"520.0\" y=\"154.9\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Availability</text><text x=\"520.0\" y=\"171.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Backup, Redundansi, Anti-DDoS</text><line x1=\"240\" y1=\"62\" x2=\"165\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"440\" y1=\"62\" x2=\"515\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><line x1=\"265\" y1=\"159\" x2=\"415\" y2=\"159\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n  </svg>\n  <p class=\"svg-caption\">Triad Keamanan Informasi: Confidentiality, Integrity, dan Availability (CIA)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Triad CIA</span>\n          <span class=\"kw-chip\">Phishing &amp; Malware</span>\n          <span class=\"kw-chip\">Etika PAPA (Mason)</span>\n          <span class=\"kw-chip\">MFA &amp; Enkripsi</span>\n          <span class=\"kw-chip\">UU ITE &amp; PDP</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 9: Keamanan Informasi, Hukum, Etika, dan Sosial Modul 9 KB 1: Segitiga CIA & Ancaman Keamanan Triad CIA: Confidentiality (kerahasiaan data), Integrity (keutuhan/keaslian data), dan Availability (ketersediaan sistem saat dibutuhkan). Ancaman & Kontrol: Malware (ransomware, trojan), Phishing , Social Engineering , dan serangan DDoS ; mitigasi melalui Firewall, Enkripsi, MFA, dan Backup berkala. KB 2: Etika Informasi (PAPA) & Regulasi 4 Isu Etika Informasi (Mason - PAPA): Privacy (privasi), Accuracy (akurasi), Property (hak kekayaan intelektual), dan Accessibility (hak akses informasi). Hukum Siber di Indonesia: UU ITE serta UU Pelindungan Data Pribadi (UU PDP) yang mengatur persetujuan pemrosesan data pengguna. Confidentiality Enkripsi & Kontrol Akses Integrity Hashing & Validasi Data Availability Backup, Redundansi, Anti-DDoS Triad Keamanan Informasi: Confidentiality, Integrity, dan Availability (CIA) 🔑 Kata Kunci Wajib Ingat: Triad CIA Phishing & Malware Etika PAPA (Mason) MFA & Enkripsi UU ITE & PDP"
+    },
+    {
+      "id": "ahli",
+      "title": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-head\">\n        <h2>Menurut Ahli + 📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h2>\n        <span class=\"mod-tag\">Tokoh &amp; Referensi</span>\n      </div>\n      <h3>Tokoh &amp; Teori Kunci dalam SIM Manajemen</h3>\n      <ul>\n        <li><strong>Michael E. Porter</strong> — Merumuskan <em>Five Forces Model</em> dan <em>Value Chain</em> untuk menganalisis peran TI dalam keunggulan kompetitif.</li>\n        <li><strong>Kenneth C. Laudon &amp; Jane P. Laudon</strong> — Menekankan bahwa Sistem Informasi bukan sekadar teknologi, melainkan integrasi organisasi, manajemen, dan teknologi.</li>\n        <li><strong>Richard O. Mason</strong> — Merumuskan empat isu etika era informasi dengan akronim <strong>PAPA</strong> (Privacy, Accuracy, Property, Accessibility).</li>\n        <li><strong>Efraim Turban</strong> — Mendefinisikan klasifikasi model bisnis e-commerce (B2B, B2C, C2C) serta peran sistem pendukung keputusan (DSS).</li>\n      </ul>\n      <h3>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h3>\n      <ul>\n        <li><strong>NORA (Nonobvious Relationship Awareness)</strong>: Teknologi analitik yang menggabungkan data dari berbagai sumber untuk mendeteksi hubungan tersembunyi (misalnya deteksi penipuan atau terorisme).</li>\n        <li><strong>Total Cost of Ownership (TCO)</strong>: Perhitungan biaya menyeluruh pengadaan TI, mencakup pembelian awal, instalasi, pelatihan, dukungan, pemeliharaan, hingga pembuangan aset.</li>\n        <li><strong>Business Continuity Plan (BCP) vs DRP</strong>: DRP fokus memulihkan infrastruktur TI setelah bencana, sedangkan BCP menjaga kelangsungan seluruh operasional bisnis perusahaan.</li>\n      </ul>\n    </section>",
+      "text": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Tokoh & Referensi Tokoh & Teori Kunci dalam SIM Manajemen Michael E. Porter — Merumuskan Five Forces Model dan Value Chain untuk menganalisis peran TI dalam keunggulan kompetitif. Kenneth C. Laudon & Jane P. Laudon — Menekankan bahwa Sistem Informasi bukan sekadar teknologi, melainkan integrasi organisasi, manajemen, dan teknologi. Richard O. Mason — Merumuskan empat isu etika era informasi dengan akronim PAPA (Privacy, Accuracy, Property, Accessibility). Efraim Turban — Mendefinisikan klasifikasi model bisnis e-commerce (B2B, B2C, C2C) serta peran sistem pendukung keputusan (DSS). 📚 Referensi Tambahan & Detail Kecil Wajib Tahu NORA (Nonobvious Relationship Awareness) : Teknologi analitik yang menggabungkan data dari berbagai sumber untuk mendeteksi hubungan tersembunyi (misalnya deteksi penipuan atau terorisme). Total Cost of Ownership (TCO) : Perhitungan biaya menyeluruh pengadaan TI, mencakup pembelian awal, instalasi, pelatihan, dukungan, pemeliharaan, hingga pembuangan aset. Business Continuity Plan (BCP) vs DRP : DRP fokus memulihkan infrastruktur TI setelah bencana, sedangkan BCP menjaga kelangsungan seluruh operasional bisnis perusahaan."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Teknologi yang terkait dengan pengembangan, pemeliharaan, dan penggunaan sistem komputer dalam rangka pemrosesan dan distribusi data dan informasi dari satu pihak ke pihak lain disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sistem operasi"
+        },
+        {
+          "letter": "B",
+          "text": "Teknologi informasi"
+        },
+        {
+          "letter": "C",
+          "text": "Jaringan komputer"
+        },
+        {
+          "letter": "D",
+          "text": "Basis data"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Teknologi informasi mencakup pengembangan, pemeliharaan, dan penggunaan sistem komputer untuk memproses serta mendistribusikan data dan informasi",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Temuan pada masa lalu yang sangat relevan dengan munculnya teknologi informasi sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Telegraf dan telepon"
+        },
+        {
+          "letter": "B",
+          "text": "Radio dan televisi"
+        },
+        {
+          "letter": "C",
+          "text": "Kapal uap"
+        },
+        {
+          "letter": "D",
+          "text": "Komputer elektronik"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kapal uap merupakan temuan revolusi industri transportasi, bukan tonggak langsung teknologi informasi/komunikasi",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Inisiatif munculnya internet di Indonesia diprakarsai oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kalangan akademisi dan peneliti (ITB, UI, LAPAN, BPPT)"
+        },
+        {
+          "letter": "B",
+          "text": "Komunitas pengembang jaringan radio paket amatir"
+        },
+        {
+          "letter": "C",
+          "text": "Dukungan lembaga riset dan pendidikan tinggi"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban di atas benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Internet di Indonesia dirintis oleh kolaborasi akademisi, peneliti BPPT/LAPAN/UI/ITB, dan komunitas radio paket amatir pada awal 1990-an",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Model komputasi ketika pemrosesan komputer, penyimpanan, perangkat lunak, dan layanan lainnya disediakan sebagai kumpulan bersama dari sumber daya tervirtualisasi melalui jaringan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Komputasi grid"
+        },
+        {
+          "letter": "B",
+          "text": "Komputasi awan (cloud computing)"
+        },
+        {
+          "letter": "C",
+          "text": "Komputasi paralel"
+        },
+        {
+          "letter": "D",
+          "text": "Komputasi tepi (edge computing)"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Komputasi awan menyediakan sumber daya TI tervirtualisasi secara on-demand melalui jaringan internet",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Perkembangan teknologi komputer yang cara kerjanya menggabungkan sejumlah besar data dengan cepat, pengolahan berulang, dan algoritma cerdas sehingga memungkinkan perangkat lunak belajar secara otomatis dari pola atau fitur dalam data adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Machine learning"
+        },
+        {
+          "letter": "B",
+          "text": "Virtual reality"
+        },
+        {
+          "letter": "C",
+          "text": "Blockchain"
+        },
+        {
+          "letter": "D",
+          "text": "Robotic process automation"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Machine learning memungkinkan sistem belajar otomatis dari pola data melalui algoritma cerdas dan pengolahan berulang",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-6] Prinsip keamanan informasi yang harus dijaga jangan sampai ada pihak tertentu yang berniat mengambil atau mengakses data yang bersifat rahasia tanpa otorisasi atau izin dari pemiliknya adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kerahasiaan (confidentiality)"
+        },
+        {
+          "letter": "B",
+          "text": "Ketersediaan (availability)"
+        },
+        {
+          "letter": "C",
+          "text": "Kecepatan akses"
+        },
+        {
+          "letter": "D",
+          "text": "Redundansi data"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Confidentiality melindungi data rahasia agar hanya dapat diakses oleh pihak yang berwenang/memiliki otorisasi",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1-7] Salah satu sumber daya perusahaan yang perlu diberdayakan secara optimal agar menjadi keunggulan kompetitif terkait pengelolaan informasi adalah sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Infrastruktur teknologi informasi"
+        },
+        {
+          "letter": "B",
+          "text": "Sumber daya manusia TI"
+        },
+        {
+          "letter": "C",
+          "text": "Sumber daya keuangan"
+        },
+        {
+          "letter": "D",
+          "text": "Hubungan bisnis dan TI"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Tiga sumber daya TI utama menurut modul adalah infrastruktur teknologi, SDM TI, dan hubungan bisnis/TI; sumber daya keuangan bukan sumber daya TI spesifik",
+      "num": 7
+    },
+    {
+      "module": "M1",
+      "question": "[M1-8] Kekuatan-kekuatan di luar perusahaan yang menentukan keberlangsungan hidup perusahaan dalam bersaing (model Five Forces Porter) sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ancaman pendatang baru"
+        },
+        {
+          "letter": "B",
+          "text": "Daya tawar pemasok dan pembeli"
+        },
+        {
+          "letter": "C",
+          "text": "Produk/jasa substitusi"
+        },
+        {
+          "letter": "D",
+          "text": "Perbankan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Lima kekuatan kompetitif Porter terdiri atas rivalitas pesaing, pendatang baru, produk substitusi, daya tawar pemasok, dan daya tawar pembeli",
+      "num": 8
+    },
+    {
+      "module": "M1",
+      "question": "[M1-9] Untuk mencapai keunggulan dalam bersaing, menurut Porter dapat dilakukan dengan strategi berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kepemimpinan biaya (cost leadership)"
+        },
+        {
+          "letter": "B",
+          "text": "Diferensiasi produk/layanan"
+        },
+        {
+          "letter": "C",
+          "text": "Fokus pada segmen pasar tertentu"
+        },
+        {
+          "letter": "D",
+          "text": "Berani mengambil risiko"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Strategi generik Porter adalah kepemimpinan biaya, diferensiasi, dan fokus; 'berani mengambil risiko' bukan strategi generik Porter",
+      "num": 9
+    },
+    {
+      "module": "M1",
+      "question": "[M1-10] Salah satu dimensi kualitas informasi yang dimaknai bebas dari kesalahan atau ketidaktepatan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Akurasi"
+        },
+        {
+          "letter": "B",
+          "text": "Ketepatan waktu"
+        },
+        {
+          "letter": "C",
+          "text": "Kelengkapan"
+        },
+        {
+          "letter": "D",
+          "text": "Relevansi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Akurasi berarti informasi mencerminkan fakta sebenarnya dan bebas dari kesalahan atau bias",
+      "num": 10
+    },
+    {
+      "module": "M1",
+      "question": "[M1-11] Dimensi keunggulan kompetitif yang merujuk pada keadaan ketika perusahaan menerapkan strategi yang telah ditetapkannya dengan langkah, cara, atau metode yang lebih baik dibandingkan pesaingnya adalah keunggulan secara ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Strategis"
+        },
+        {
+          "letter": "B",
+          "text": "Taktis"
+        },
+        {
+          "letter": "C",
+          "text": "Operasional"
+        },
+        {
+          "letter": "D",
+          "text": "Finansial"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Keunggulan taktis dicapai ketika perusahaan mengeksekusi strategi dengan metode yang lebih efektif dibanding pesaing",
+      "num": 11
+    },
+    {
+      "module": "M1",
+      "question": "[M1-12] Strategi untuk mengoptimalkan situs web perusahaan agar selalu berada pada halaman pertama atau urutan teratas pada mesin pencari (search engine) disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cloud computing"
+        },
+        {
+          "letter": "B",
+          "text": "Search Engine Optimization (SEO)"
+        },
+        {
+          "letter": "C",
+          "text": "Enterprise Resource Planning (ERP)"
+        },
+        {
+          "letter": "D",
+          "text": "Data warehousing"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "SEO mengoptimalkan struktur dan konten situs agar muncul di peringkat teratas hasil mesin pencari",
+      "num": 12
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Kumpulan teknologi informasi, prosedur, dan orang-orang yang bertanggung jawab untuk menangkap, memindahkan, mengelola, serta mendistribusikan data dan informasi merupakan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Definisi perangkat keras"
+        },
+        {
+          "letter": "B",
+          "text": "Definisi sistem informasi"
+        },
+        {
+          "letter": "C",
+          "text": "Definisi jaringan komputer"
+        },
+        {
+          "letter": "D",
+          "text": "Definisi basis data"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sistem informasi memadukan TI, prosedur, dan manusia untuk menangkap, mengelola, dan mendistribusikan informasi",
+      "num": 13
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Berikut adalah contoh sistem bisnis di perusahaan ritel, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sistem pendingin ruangan"
+        },
+        {
+          "letter": "B",
+          "text": "Sistem tata suara gedung"
+        },
+        {
+          "letter": "C",
+          "text": "Sistem pengambilan barang di etalase"
+        },
+        {
+          "letter": "D",
+          "text": "Sistem penerangan jalan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Sistem pengambilan barang di etalase berkaitan langsung dengan alur operasional dan layanan bisnis ritel",
+      "num": 14
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Yang bukan merupakan elemen utama dalam suatu sistem adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Input (masukan)"
+        },
+        {
+          "letter": "B",
+          "text": "Process (proses)"
+        },
+        {
+          "letter": "C",
+          "text": "Output (keluaran)"
+        },
+        {
+          "letter": "D",
+          "text": "Dampak"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Elemen utama sistem meliputi input, proses, output, serta mekanisme umpan balik/kontrol; dampak bukan elemen struktural utama",
+      "num": 15
+    },
+    {
+      "module": "M2",
+      "question": "[M2-4] Kegiatan atau proses dalam sistem yang mengubah input menjadi bentuk antara atau yang menghasilkan keluaran sistem adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Umpan balik"
+        },
+        {
+          "letter": "B",
+          "text": "Lingkungan"
+        },
+        {
+          "letter": "C",
+          "text": "Komponen"
+        },
+        {
+          "letter": "D",
+          "text": "Batas sistem"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Komponen/subsistem melakukan aktivitas pemrosesan yang mengubah masukan menjadi bentuk antara atau keluaran",
+      "num": 16
+    },
+    {
+      "module": "M2",
+      "question": "[M2-5] Komponen mendasar dalam suatu organisasi yang harus bekerja bersama agar seluruh organisasi menjadi efektif antara lain ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sistem informasi"
+        },
+        {
+          "letter": "B",
+          "text": "Dekorasi kantor"
+        },
+        {
+          "letter": "C",
+          "text": "Parkir kendaraan"
+        },
+        {
+          "letter": "D",
+          "text": "Seragam kerja"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sistem informasi menghubungkan manusia, proses, dan teknologi agar seluruh bagian organisasi berjalan efektif",
+      "num": 17
+    },
+    {
+      "module": "M2",
+      "question": "[M2-6] Inisiatif desain ulang bisnis secara radikal yang berusaha mencapai peningkatan dramatis dalam proses bisnis dengan mempertanyakan asumsi atau aturan bisnis yang mendasari struktur dan prosedur organisasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Total Quality Management (TQM)"
+        },
+        {
+          "letter": "B",
+          "text": "Business Process Reengineering (BPR)"
+        },
+        {
+          "letter": "C",
+          "text": "Outsourcing"
+        },
+        {
+          "letter": "D",
+          "text": "Downsizing"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "BPR / Rekayasa Ulang Proses Bisnis merombak proses bisnis secara fundamental untuk lonjakan kinerja",
+      "num": 18
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Pengumpulan data oleh auditor formal secara berkala merupakan kegiatan pengendalian sistem pada tahap ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perencanaan"
+        },
+        {
+          "letter": "B",
+          "text": "Analisis kebutuhan"
+        },
+        {
+          "letter": "C",
+          "text": "Perancangan"
+        },
+        {
+          "letter": "D",
+          "text": "Implementasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Audit formal berkala dilakukan setelah sistem diimplementasikan dan beroperasi untuk memastikan kepatuhan dan keamanan",
+      "num": 19
+    },
+    {
+      "module": "M2",
+      "question": "[M2-8] Berikut ini yang termasuk ke dalam kategori utama perangkat lunak pendukung, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sistem operasi"
+        },
+        {
+          "letter": "B",
+          "text": "Perangkat lunak utilitas"
+        },
+        {
+          "letter": "C",
+          "text": "Bahasa pemrograman"
+        },
+        {
+          "letter": "D",
+          "text": "Pemrograman berorientasi objek (OOP)"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "OOP adalah paradigma/metodologi pemrograman, bukan kategori terpisah dari perangkat lunak pendukung sistem",
+      "num": 20
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Bahasa produktivitas dan nonprosedural, yaitu pengguna komputer hanya memberikan pernyataan tentang apa yang ingin dicapainya tanpa merinci langkah proseduralnya, adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bahasa mesin (1GL)"
+        },
+        {
+          "letter": "B",
+          "text": "Bahasa rakitan (2GL)"
+        },
+        {
+          "letter": "C",
+          "text": "Bahasa generasi ke-4 (4GL)"
+        },
+        {
+          "letter": "D",
+          "text": "Bahasa prosedural (3GL)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "4GL bersifat nonprosedural dan berorientasi pada hasil yang diinginkan, misalnya SQL",
+      "num": 21
+    },
+    {
+      "module": "M2",
+      "question": "[M2-10] Bahasa pemrograman yang cocok digunakan untuk pembuatan aplikasi perangkat lunak, aplikasi web, aplikasi berbasis Android, dan aplikasi proyek berskala besar adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bahasa mesin"
+        },
+        {
+          "letter": "B",
+          "text": "Bahasa rakitan"
+        },
+        {
+          "letter": "C",
+          "text": "Bahasa prosedural klasik"
+        },
+        {
+          "letter": "D",
+          "text": "Pemrograman berorientasi objek (OOP)"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "OOP seperti Java/Kotlin/C++ banyak dipakai untuk aplikasi web, Android, dan perangkat lunak modular",
+      "num": 22
+    },
+    {
+      "module": "M2",
+      "question": "[M2-11] Bahasa markah yang terdiri atas kode khusus (tag) yang disisipkan dalam teks untuk menunjukkan judul, teks tebal, miring, penempatan gambar, serta tautan ke halaman web lain adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SQL"
+        },
+        {
+          "letter": "B",
+          "text": "COBOL"
+        },
+        {
+          "letter": "C",
+          "text": "Assembly"
+        },
+        {
+          "letter": "D",
+          "text": "HTML (Hypertext Markup Language)"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "HTML menyisipkan tag markah untuk memformat struktur teks, gambar, dan hyperlink pada halaman web",
+      "num": 23
+    },
+    {
+      "module": "M2",
+      "question": "[M2-12] Bahasa generasi keempat (4GL) dianggap lebih produktif dan lebih cepat daripada generasi ketiga karena ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keluaran grafis yang mudah diinterpretasikan serta tampilan yang berwarna"
+        },
+        {
+          "letter": "B",
+          "text": "Hanya berjalan tanpa sistem operasi"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak memerlukan memori utama"
+        },
+        {
+          "letter": "D",
+          "text": "Menggunakan kode biner langsung"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "4GL menyediakan antarmuka tingkat tinggi, generator laporan, dan keluaran grafis yang mudah diinterpretasikan",
+      "num": 24
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Sinyal yang berhubungan dengan transmisi data dalam bentuk bilangan nol dan satu (biner) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinyal digital"
+        },
+        {
+          "letter": "B",
+          "text": "Sinyal analog"
+        },
+        {
+          "letter": "C",
+          "text": "Sinyal radio AM"
+        },
+        {
+          "letter": "D",
+          "text": "Sinyal optik kontinu"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sinyal digital merepresentasikan data dalam bentuk diskret bit biner 0 dan 1",
+      "num": 25
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Sinyal yang berkenaan dengan transmisi data atau pesan yang berbentuk gelombang kontinu seperti suara pada telepon konvensional adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sinyal digital"
+        },
+        {
+          "letter": "B",
+          "text": "Sinyal analog"
+        },
+        {
+          "letter": "C",
+          "text": "Sinyal biner"
+        },
+        {
+          "letter": "D",
+          "text": "Sinyal paket"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sinyal analog berupa gelombang kontinu yang merepresentasikan suara atau besaran fisik",
+      "num": 26
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Perangkat yang berfungsi mengubah sinyal digital ke analog (modulasi) dan sebaliknya dari analog ke digital (demodulasi) pada perangkat pengguna disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Switch"
+        },
+        {
+          "letter": "B",
+          "text": "Hub"
+        },
+        {
+          "letter": "C",
+          "text": "Repeater"
+        },
+        {
+          "letter": "D",
+          "text": "Modem"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Modem = Modulator-Demodulator yang mengonversi sinyal digital dan analog",
+      "num": 27
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Topologi jaringan ketika satu panjang kabel utama dibagikan ke semua perangkat jaringan adalah topologi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bus"
+        },
+        {
+          "letter": "B",
+          "text": "Star"
+        },
+        {
+          "letter": "C",
+          "text": "Mesh"
+        },
+        {
+          "letter": "D",
+          "text": "Tree"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Pada topologi bus, seluruh node terhubung ke satu jalur kabel backbone bersama",
+      "num": 28
+    },
+    {
+      "module": "M3",
+      "question": "[M3-5] Topologi jaringan yang kedua ujung kabelnya dihubungkan satu sama lain membentuk lingkaran tertutup adalah topologi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bus"
+        },
+        {
+          "letter": "B",
+          "text": "Ring"
+        },
+        {
+          "letter": "C",
+          "text": "Star"
+        },
+        {
+          "letter": "D",
+          "text": "Mesh"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pada topologi ring, setiap perangkat terhubung membentuk cincin tertutup",
+      "num": 29
+    },
+    {
+      "module": "M3",
+      "question": "[M3-6] Jaringan komputer yang mencakup wilayah seluas satu kota besar seperti Jakarta disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LAN (Local Area Network)"
+        },
+        {
+          "letter": "B",
+          "text": "PAN (Personal Area Network)"
+        },
+        {
+          "letter": "C",
+          "text": "MAN (Metropolitan Area Network)"
+        },
+        {
+          "letter": "D",
+          "text": "WAN (Wide Area Network)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "MAN menghubungkan jaringan dalam cakupan geografis satu kota/metropolitan",
+      "num": 30
+    },
+    {
+      "module": "M3",
+      "question": "[M3-7] Jaringan yang beroperasi di dalam suatu organisasi secara internal dan menggunakan protokol TCP/IP disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Internet"
+        },
+        {
+          "letter": "B",
+          "text": "Ekstranet"
+        },
+        {
+          "letter": "C",
+          "text": "Intranet"
+        },
+        {
+          "letter": "D",
+          "text": "Ethernet publik"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Intranet adalah jaringan privat internal organisasi yang memakai teknologi dan protokol TCP/IP",
+      "num": 31
+    },
+    {
+      "module": "M3",
+      "question": "[M3-8] Hubungan antara entitas data yang terkait satu dengan yang lain, misalnya pelanggan, pesanan, produk, vendor, pasar, dan karyawan, ditunjukkan dalam bentuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kabel jaringan"
+        },
+        {
+          "letter": "B",
+          "text": "Sistem operasi"
+        },
+        {
+          "letter": "C",
+          "text": "Perangkat keras"
+        },
+        {
+          "letter": "D",
+          "text": "Model data"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Model data memetakan entitas bisnis beserta atribut dan relasi antarentitas",
+      "num": 32
+    },
+    {
+      "module": "M3",
+      "question": "[M3-9] Berikut adalah pedoman yang dapat digunakan terkait dengan pemodelan data, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Identifikasi entitas bisnis utama"
+        },
+        {
+          "letter": "B",
+          "text": "Penentuan relasi antarentitas"
+        },
+        {
+          "letter": "C",
+          "text": "Normalisasi atribut data"
+        },
+        {
+          "letter": "D",
+          "text": "Analisis"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Pemodelan data berfokus pada entitas, atribut, relasi, dan struktur data, bukan tahap analisis bisnis umum",
+      "num": 33
+    },
+    {
+      "module": "M3",
+      "question": "[M3-10] Memindahkan dan menggabungkan data dari berbagai basis data sumber untuk memenuhi kebutuhan pemrosesan disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transfer dan integrasi data"
+        },
+        {
+          "letter": "B",
+          "text": "Penghapusan data"
+        },
+        {
+          "letter": "C",
+          "text": "Enkripsi data"
+        },
+        {
+          "letter": "D",
+          "text": "Kompresi data"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Transfer dan integrasi data menyatukan data dari sumber heterogen agar konsisten",
+      "num": 34
+    },
+    {
+      "module": "M3",
+      "question": "[M3-11] Menyediakan data dan informasi kepada orang-orang yang berwenang atau berkepentingan dalam format yang mudah dipahami adalah aktivitas ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pengumpulan data"
+        },
+        {
+          "letter": "B",
+          "text": "Penghapusan data"
+        },
+        {
+          "letter": "C",
+          "text": "Backup data"
+        },
+        {
+          "letter": "D",
+          "text": "Presentasi data"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Presentasi data menyajikan informasi hasil olahan kepada pengguna yang berwenang",
+      "num": 35
+    },
+    {
+      "module": "M3",
+      "question": "[M3-12] Mengidentifikasi data mana yang diperlukan, di mana digunakan dalam bisnis, bagaimana digunakan, dan berapa banyak data yang terlibat termasuk dalam kegiatan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penghapusan data"
+        },
+        {
+          "letter": "B",
+          "text": "Perencanaan data"
+        },
+        {
+          "letter": "C",
+          "text": "Pengarsipan fisik"
+        },
+        {
+          "letter": "D",
+          "text": "Pembelian perangkat keras"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Perencanaan data memetakan kebutuhan, lokasi penggunaan, serta volume data organisasi",
+      "num": 36
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Sistem pemrosesan data yang didistribusikan antara komputer pusat yang berfungsi sebagai server/pelayan dan sejumlah komputer lain yang berfungsi sebagai klien disebut arsitektur ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mainframe tunggal"
+        },
+        {
+          "letter": "B",
+          "text": "Batch processing"
+        },
+        {
+          "letter": "C",
+          "text": "Peer-to-peer murni"
+        },
+        {
+          "letter": "D",
+          "text": "Client/server"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Arsitektur client/server membagi beban pemrosesan antara komputer server penyedia layanan dan komputer client",
+      "num": 37
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Arsitektur aplikasi yang didasarkan pada kumpulan fungsi atau layanan yang dapat berkomunikasi satu sama lain disebut arsitektur ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Monolitik"
+        },
+        {
+          "letter": "B",
+          "text": "Stand-alone"
+        },
+        {
+          "letter": "C",
+          "text": "Service-Oriented Architecture (SOA)"
+        },
+        {
+          "letter": "D",
+          "text": "Batch offline"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "SOA menyusun aplikasi dari layanan modular yang saling berkomunikasi melalui antarmuka standar",
+      "num": 38
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Alasan utama penerapan Enterprise Resource Planning (ERP) oleh perusahaan disebabkan oleh hal berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengintegrasikan data lintas departemen"
+        },
+        {
+          "letter": "B",
+          "text": "Menstandarkan proses bisnis"
+        },
+        {
+          "letter": "C",
+          "text": "Meningkatkan portofolio perusahaan"
+        },
+        {
+          "letter": "D",
+          "text": "Mempercepat arus informasi real-time"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "ERP diterapkan untuk integrasi data dan efisiensi proses bisnis, bukan semata meningkatkan portofolio perusahaan",
+      "num": 39
+    },
+    {
+      "module": "M4",
+      "question": "[M4-4] Perangkat lunak yang dirancang untuk mendukung kelompok manajer dan tim perusahaan dengan memfasilitasi kolaborasi, komunikasi, dan koordinasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Groupware"
+        },
+        {
+          "letter": "B",
+          "text": "Compiler"
+        },
+        {
+          "letter": "C",
+          "text": "Antivirus"
+        },
+        {
+          "letter": "D",
+          "text": "Driver perangkat"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Groupware mendukung kerja kolaboratif, penjadwalan, dan komunikasi antaranggota tim",
+      "num": 40
+    },
+    {
+      "module": "M4",
+      "question": "[M4-5] Penggunaan komputer untuk mengontrol proses dan mesin manufaktur secara otomatis disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TPS"
+        },
+        {
+          "letter": "B",
+          "text": "DSS"
+        },
+        {
+          "letter": "C",
+          "text": "ESS"
+        },
+        {
+          "letter": "D",
+          "text": "CAM (Computer-Aided Manufacturing)"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "CAM menggunakan komputer untuk mengendalikan peralatan dan proses produksi di pabrik",
+      "num": 41
+    },
+    {
+      "module": "M4",
+      "question": "[M4-6] Teknologi untuk mencari atau menambang pola dan informasi berharga dari sejumlah besar data yang disimpan di gudang data organisasi disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Data entry"
+        },
+        {
+          "letter": "B",
+          "text": "Word processing"
+        },
+        {
+          "letter": "C",
+          "text": "Data mining"
+        },
+        {
+          "letter": "D",
+          "text": "Backup"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Data mining mengekstraksi pola tersembunyi dan pengetahuan dari data berukuran besar",
+      "num": 42
+    },
+    {
+      "module": "M4",
+      "question": "[M4-7] Lingkungan berbasis teknologi informasi yang mendukung pertemuan antargrup yang terdistribusi secara geografis dan bersifat tidak permanen adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TPS lokal"
+        },
+        {
+          "letter": "B",
+          "text": "Group Support System (GSS) / pertemuan virtual"
+        },
+        {
+          "letter": "C",
+          "text": "Mesin tik elektronik"
+        },
+        {
+          "letter": "D",
+          "text": "Arsip kertas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "GSS/kolaborasi virtual memfasilitasi rapat dan pengambilan keputusan kelompok lintas lokasi",
+      "num": 43
+    },
+    {
+      "module": "M4",
+      "question": "[M4-8] Kelebihan dari sistem pendukung keputusan kelompok (GSS) sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Partisipasi anggota lebih merata"
+        },
+        {
+          "letter": "B",
+          "text": "Dokumentasi ide otomatis"
+        },
+        {
+          "letter": "C",
+          "text": "Mengurangi dominasi individu tertentu"
+        },
+        {
+          "letter": "D",
+          "text": "Pencatatan dilakukan secara manual"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Dalam GSS, pencatatan gagasan dan pemungutan suara dilakukan secara elektronik otomatis, bukan manual",
+      "num": 44
+    },
+    {
+      "module": "M4",
+      "question": "[M4-9] Sistem Informasi Geografis (GIS) yang cara kerjanya didasarkan pada pembagian ruang menjadi sel-sel kecil dengan ukuran yang sama yang disusun dalam kotak (grid) adalah GIS ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Berbasis raster"
+        },
+        {
+          "letter": "B",
+          "text": "Berbasis vektor"
+        },
+        {
+          "letter": "C",
+          "text": "Berbasis teks"
+        },
+        {
+          "letter": "D",
+          "text": "Berbasis audio"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "GIS berbasis raster merepresentasikan data spasial dalam kisi sel/piksel berukuran seragam",
+      "num": 45
+    },
+    {
+      "module": "M4",
+      "question": "[M4-10] GIS yang banyak digunakan dalam administrasi publik, layanan kota, dan bisnis dengan representasi titik, garis, dan poligon adalah GIS ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Berbasis raster"
+        },
+        {
+          "letter": "B",
+          "text": "Berbasis vektor"
+        },
+        {
+          "letter": "C",
+          "text": "Berbasis suara"
+        },
+        {
+          "letter": "D",
+          "text": "Berbasis analog"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "GIS berbasis vektor menggunakan titik, garis, dan poligon sehingga presisi untuk peta administrasi dan bisnis",
+      "num": 46
+    },
+    {
+      "module": "M4",
+      "question": "[M4-11] Sistem yang memungkinkan individu dan organisasi meningkatkan pembelajaran, meningkatkan kinerja, dan menghasilkan keunggulan kompetitif berkelanjutan jangka panjang adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transaction Processing System (TPS)"
+        },
+        {
+          "letter": "B",
+          "text": "Knowledge Management System (KMS)"
+        },
+        {
+          "letter": "C",
+          "text": "File transfer protocol"
+        },
+        {
+          "letter": "D",
+          "text": "Sistem penggajian"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "KMS mengelola penciptaan, penyimpanan, dan berbagi pengetahuan untuk pembelajaran organisasi berkelanjutan",
+      "num": 47
+    },
+    {
+      "module": "M4",
+      "question": "[M4-12] Sistem berbasis kecerdasan buatan yang dibangun dengan cara menggabungkan logika pengambilan keputusan dari seorang manusia yang ahli pada bidang tertentu adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spreadsheet"
+        },
+        {
+          "letter": "B",
+          "text": "Sistem operasi"
+        },
+        {
+          "letter": "C",
+          "text": "Sistem pakar (expert system)"
+        },
+        {
+          "letter": "D",
+          "text": "Basis data relasional"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Sistem pakar meniru penalaran seorang ahli menggunakan basis pengetahuan dan mesin inferensi",
+      "num": 48
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Bagian dari intranet pribadi perusahaan yang dapat diakses melalui internet oleh organisasi resmi yang merupakan mitra bisnis (seperti pelanggan atau pemasok) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ekstranet"
+        },
+        {
+          "letter": "B",
+          "text": "Localhost"
+        },
+        {
+          "letter": "C",
+          "text": "LAN"
+        },
+        {
+          "letter": "D",
+          "text": "Darknet"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Ekstranet membuka akses terbatas jaringan internal perusahaan kepada mitra bisnis eksternal",
+      "num": 49
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Jaringan pribadi yang beroperasi dalam suatu organisasi dengan protokol TCP/IP untuk menyediakan informasi dan aplikasi khusus bagi karyawan internal disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Internet publik"
+        },
+        {
+          "letter": "B",
+          "text": "Intranet"
+        },
+        {
+          "letter": "C",
+          "text": "Ekstranet"
+        },
+        {
+          "letter": "D",
+          "text": "Wi-Fi publik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Intranet merupakan jaringan internal perusahaan yang hanya dapat diakses oleh karyawan/pengguna internal",
+      "num": 50
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Ancaman yang berpeluang terjadi akibat kehadiran internet dalam bisnis sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pencurian data dan serangan siber"
+        },
+        {
+          "letter": "B",
+          "text": "Penipuan transaksi daring"
+        },
+        {
+          "letter": "C",
+          "text": "Pelanggaran privasi"
+        },
+        {
+          "letter": "D",
+          "text": "Informasi apa pun tersedia dan bisa diakses dengan mudah"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Ketersediaan dan kemudahan akses informasi merupakan peluang/manfaat internet, bukan ancaman",
+      "num": 51
+    },
+    {
+      "module": "M5",
+      "question": "[M5-4] Berikut yang bukan merupakan manfaat aplikasi B2B (Business-to-Business) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menurunkan biaya transaksi pengadaan"
+        },
+        {
+          "letter": "B",
+          "text": "Mempercepat siklus rantai pasok"
+        },
+        {
+          "letter": "C",
+          "text": "Mengurangi kesalahan pemesanan"
+        },
+        {
+          "letter": "D",
+          "text": "Memperketat persaingan bisnis"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Manfaat B2B berfokus pada efisiensi biaya, kecepatan, dan akurasi transaksi antarmitra; memperketat persaingan bukan tujuan manfaatnya",
+      "num": 52
+    },
+    {
+      "module": "M5",
+      "question": "[M5-5] Perusahaan perintis model lelang daring C2C dengan jangkauan global yang memperoleh pendapatan dari biaya daftar lelang dan komisi penjualan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wikipedia.org"
+        },
+        {
+          "letter": "B",
+          "text": "Linux.org"
+        },
+        {
+          "letter": "C",
+          "text": "eBay.com"
+        },
+        {
+          "letter": "D",
+          "text": "Archive.org"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "eBay.com merupakan pelopor marketplace lelang C2C berskala global",
+      "num": 53
+    },
+    {
+      "module": "M5",
+      "question": "[M5-6] Transaksi komersial yang dimungkinkan secara digital antara organisasi dan individu melalui internet dan web adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intranet"
+        },
+        {
+          "letter": "B",
+          "text": "E-commerce"
+        },
+        {
+          "letter": "C",
+          "text": "Telepon analog"
+        },
+        {
+          "letter": "D",
+          "text": "Surat pos"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "E-commerce adalah transaksi komersial berbasis digital antara organisasi dan individu lewat internet/web",
+      "num": 54
+    },
+    {
+      "module": "M5",
+      "question": "[M5-7] Yang bukan termasuk delapan fitur unik teknologi e-commerce adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ubiquity (ada di mana-mana)"
+        },
+        {
+          "letter": "B",
+          "text": "Global reach (jangkauan global)"
+        },
+        {
+          "letter": "C",
+          "text": "Interactivity (interaktivitas)"
+        },
+        {
+          "letter": "D",
+          "text": "Interoperabilitas"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Fitur unik e-commerce meliputi ubiquity, global reach, universal standards, richness, interactivity, information density, personalization, dan social technology",
+      "num": 55
+    },
+    {
+      "module": "M5",
+      "question": "[M5-8] Berikut yang bukan merupakan jenis utama model e-commerce berdasarkan pelaku transaksinya adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "B2C (Business-to-Consumer)"
+        },
+        {
+          "letter": "B",
+          "text": "B2B (Business-to-Business)"
+        },
+        {
+          "letter": "C",
+          "text": "C2C (Consumer-to-Consumer)"
+        },
+        {
+          "letter": "D",
+          "text": "C2B"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Tiga kategori utama klasik dalam modul adalah B2C, B2B, dan C2C; C2B bukan kategori utama pada klasifikasi tersebut",
+      "num": 56
+    },
+    {
+      "module": "M5",
+      "question": "[M5-9] Pasar B2B yang ditandai oleh banyaknya penjual dan banyaknya pembeli dalam jumlah yang relatif seimbang dinamakan pasar B2B yang ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Terkonsolidasi"
+        },
+        {
+          "letter": "B",
+          "text": "Monopoli"
+        },
+        {
+          "letter": "C",
+          "text": "Terfragmentasi"
+        },
+        {
+          "letter": "D",
+          "text": "Oligopsoni"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Pasar terfragmentasi memiliki banyak penjual dan banyak pembeli tanpa dominasi tunggal",
+      "num": 57
+    },
+    {
+      "module": "M5",
+      "question": "[M5-10] Situs yang menciptakan lingkungan bagi pengguna dengan minat yang sama untuk bertransaksi, berbagi foto, video, dan berkomunikasi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mesin pencari statis"
+        },
+        {
+          "letter": "B",
+          "text": "Penyedia DNS"
+        },
+        {
+          "letter": "C",
+          "text": "Penyedia komunitas/jejaring sosial"
+        },
+        {
+          "letter": "D",
+          "text": "Penyedia hosting fisik"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Penyedia komunitas/jejaring sosial membangun ruang interaksi dan transaksi berbasis minat bersama",
+      "num": 58
+    },
+    {
+      "module": "M5",
+      "question": "[M5-11] Penggunaan perangkat nirkabel genggam (seperti ponsel pintar dan tablet) untuk membeli barang dan jasa dari lokasi mana pun disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "E-government"
+        },
+        {
+          "letter": "B",
+          "text": "M-commerce (mobile commerce)"
+        },
+        {
+          "letter": "C",
+          "text": "Telecommuting"
+        },
+        {
+          "letter": "D",
+          "text": "Batch processing"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "M-commerce memanfaatkan perangkat nirkabel genggam untuk bertransaksi di mana saja",
+      "num": 59
+    },
+    {
+      "module": "M5",
+      "question": "[M5-12] Yang bukan merupakan model pendapatan yang lazim diperoleh dari bisnis e-commerce adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Model pendapatan iklan"
+        },
+        {
+          "letter": "B",
+          "text": "Model pendapatan transaksi"
+        },
+        {
+          "letter": "C",
+          "text": "Model pendapatan afiliasi"
+        },
+        {
+          "letter": "D",
+          "text": "Berlangganan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Sesuai kunci jawaban modul pada klasifikasi konteks soal tersebut, opsi D 'berlangganan' menjadi pengecualian dari daftar model pendapatan yang diuji",
+      "num": 60
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Membangun sistem informasi baru dapat menghasilkan perubahan pada struktur organisasi, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Otomatisasi proses"
+        },
+        {
+          "letter": "B",
+          "text": "Rasionalisasi prosedur"
+        },
+        {
+          "letter": "C",
+          "text": "Rekayasa ulang proses bisnis"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Perubahan organisasi akibat sistem baru mencakup otomatisasi, rasionalisasi prosedur, rekayasa ulang, hingga pergeseran paradigma",
+      "num": 61
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Strategi yang bisa digunakan untuk mengonversi sistem lama ke sistem baru sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Strategi paralel"
+        },
+        {
+          "letter": "B",
+          "text": "Strategi seri"
+        },
+        {
+          "letter": "C",
+          "text": "Strategi peralihan langsung (direct cutover)"
+        },
+        {
+          "letter": "D",
+          "text": "Strategi bertahap / studi percontohan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Empat strategi konversi standar adalah paralel, direct cutover, studi percontohan/pilot, dan bertahap/phased; 'strategi seri' bukan istilah konversi",
+      "num": 62
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Strategi konversi yang sangat berisiko dan berpotensi mahal jika gagal, dilakukan dengan cara mengganti sistem lama seluruhnya ke sistem baru pada tanggal tertentu, adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Strategi paralel"
+        },
+        {
+          "letter": "B",
+          "text": "Strategi bertahap"
+        },
+        {
+          "letter": "C",
+          "text": "Strategi peralihan langsung (direct cutover)"
+        },
+        {
+          "letter": "D",
+          "text": "Strategi studi percontohan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Direct cutover langsung mematikan sistem lama dan menggantinya dengan sistem baru sekaligus",
+      "num": 63
+    },
+    {
+      "module": "M6",
+      "question": "[M6-4] Pengembangan sistem yang berfokus pada tindakan yang menangkap, menyimpan, memanipulasi, dan mendistribusikan data sebagai aliran data adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pengembangan berorientasi objek"
+        },
+        {
+          "letter": "B",
+          "text": "Pengembangan terstruktur berorientasi pada proses"
+        },
+        {
+          "letter": "C",
+          "text": "Pengembangan ad-hoc"
+        },
+        {
+          "letter": "D",
+          "text": "Pengembangan tanpa desain"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pengembangan terstruktur berorientasi proses memodelkan aliran data dan transformasinya, misalnya dengan DFD",
+      "num": 64
+    },
+    {
+      "module": "M6",
+      "question": "[M6-5] Berikut merupakan bagian dari proses perencanaan sumber daya informasi, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menyelaraskan strategi TI dengan strategi bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "Menentukan arsitektur informasi"
+        },
+        {
+          "letter": "C",
+          "text": "Mengalokasikan sumber daya pengembangan"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Perencanaan sumber daya informasi mencakup penyelarasan strategis, perancangan arsitektur, dan alokasi sumber daya",
+      "num": 65
+    },
+    {
+      "module": "M6",
+      "question": "[M6-6] Yang bukan merupakan indikator kinerja sistem informasi perusahaan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kepuasan pengguna sistem"
+        },
+        {
+          "letter": "B",
+          "text": "Keandalan dan ketersediaan layanan"
+        },
+        {
+          "letter": "C",
+          "text": "Sistem perekrutan karyawan untuk menangani teknologi informasi"
+        },
+        {
+          "letter": "D",
+          "text": "Efisiensi biaya operasional TI"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Proses rekrutmen staf TI adalah aktivitas SDM, bukan indikator langsung kinerja operasional sistem informasi",
+      "num": 66
+    },
+    {
+      "module": "M6",
+      "question": "[M6-7] Arsitektur sistem informasi yang terdiri atas aplikasi-aplikasi individu terpisah yang hanya melayani satu proses atau unit bisnis tertentu disebut arsitektur ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aplikasi silo"
+        },
+        {
+          "letter": "B",
+          "text": "Aplikasi terintegrasi penuh"
+        },
+        {
+          "letter": "C",
+          "text": "Arsitektur awan terpadu"
+        },
+        {
+          "letter": "D",
+          "text": "Arsitektur jaringan mesh"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Aplikasi silo bekerja terisolasi per departemen tanpa integrasi data lintas unit",
+      "num": 67
+    },
+    {
+      "module": "M6",
+      "question": "[M6-8] Masalah teknis utama dalam sistem global adalah integrasi dan konektivitas yang terkendala perbedaan standar berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Standar perangkat keras"
+        },
+        {
+          "letter": "B",
+          "text": "Standar telekomunikasi"
+        },
+        {
+          "letter": "C",
+          "text": "Strata sosial"
+        },
+        {
+          "letter": "D",
+          "text": "Protokol jaringan antarnegara"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Strata sosial merupakan faktor sosiologis, bukan kendala standar teknis perangkat keras atau telekomunikasi",
+      "num": 68
+    },
+    {
+      "module": "M6",
+      "question": "[M6-9] Peran manajemen sistem informasi menjadi penting karena menentukan keberhasilan strategi perusahaan. Seorang manajer sistem informasi bertanggung jawab untuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengelola infrastruktur dan layanan TI"
+        },
+        {
+          "letter": "B",
+          "text": "Menjaga keamanan dan keandalan data"
+        },
+        {
+          "letter": "C",
+          "text": "Menyelaraskan solusi TI dengan kebutuhan bisnis"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Manajer SI bertanggung jawab atas infrastruktur, keamanan data, layanan pengguna, dan penyelarasan bisnis-TI",
+      "num": 69
+    },
+    {
+      "module": "M6",
+      "question": "[M6-10] Strategi yang memilih membawa teknologi pengguna baru lebih lambat setelah kontrol khusus diterapkan guna meminimalkan risiko organisasi dinamakan strategi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Laissez-faire"
+        },
+        {
+          "letter": "B",
+          "text": "Akselerasi penuh"
+        },
+        {
+          "letter": "C",
+          "text": "Terkendali (controlled)"
+        },
+        {
+          "letter": "D",
+          "text": "Monopoli"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Strategi terkendali menahan adopsi teknologi baru hingga kontrol dan standar keamanan siap diterapkan",
+      "num": 70
+    },
+    {
+      "module": "M6",
+      "question": "[M6-11] Strategi ketika organisasi berinvestasi mendukung komputasi pengguna akhir dengan kontrol formal minimal agar pengguna bebas mempelajari alat komputer yang sesuai adalah strategi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Terisolasi"
+        },
+        {
+          "letter": "B",
+          "text": "Akselerasi / mendukung bebas (free-market/accelerated)"
+        },
+        {
+          "letter": "C",
+          "text": "Terpusat ketat"
+        },
+        {
+          "letter": "D",
+          "text": "Larangan total"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Strategi ini mendorong adopsi dan pembelajaran mandiri pengguna dengan hambatan birokrasi minimal",
+      "num": 71
+    },
+    {
+      "module": "M6",
+      "question": "[M6-12] Layanan dukungan umum yang disediakan bagi pengguna komputer di organisasi sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Help desk"
+        },
+        {
+          "letter": "B",
+          "text": "Purnajual"
+        },
+        {
+          "letter": "C",
+          "text": "Pelatihan pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "Dukungan pemecahan masalah teknis"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Layanan purnajual diberikan oleh vendor eksternal kepada pembeli, bukan layanan dukungan TI internal bagi karyawan",
+      "num": 72
+    },
+    {
+      "module": "M7",
+      "question": "[M7-1] Berikut yang bukan merupakan fase standar dalam melaksanakan SDLC (Systems Development Life Cycle), yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Analisis sistem"
+        },
+        {
+          "letter": "B",
+          "text": "Perancangan sistem"
+        },
+        {
+          "letter": "C",
+          "text": "Pembuatan prototipe"
+        },
+        {
+          "letter": "D",
+          "text": "Implementasi dan pemeliharaan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Pembuatan prototipe adalah metodologi alternatif tersendiri, bukan fase wajib di dalam SDLC air terjun klasik",
+      "num": 73
+    },
+    {
+      "module": "M7",
+      "question": "[M7-2] Aktivitas untuk menghasilkan sistem kerja yang nyata (pengkodean dan pengujian) sesuai spesifikasi yang ditetapkan merupakan aktivitas pada fase ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perencanaan"
+        },
+        {
+          "letter": "B",
+          "text": "Konstruksi"
+        },
+        {
+          "letter": "C",
+          "text": "Studi kelayakan"
+        },
+        {
+          "letter": "D",
+          "text": "Penghentian sistem"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Fase konstruksi membangun kode program, basis data, serta menguji sistem agar siap dioperasikan",
+      "num": 74
+    },
+    {
+      "module": "M7",
+      "question": "[M7-3] Kelayakan sistem dalam proyek pengembangan TI dinilai dari aspek berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kelayakan teknis"
+        },
+        {
+          "letter": "B",
+          "text": "Keuangan"
+        },
+        {
+          "letter": "C",
+          "text": "Kelayakan operasional"
+        },
+        {
+          "letter": "D",
+          "text": "Kelayakan jadwal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Dalam konteks modul, dimensi kelayakan klasik mencakup teknis, ekonomis/biaya-manfaat, operasional, dan jadwal; opsi B 'keuangan' menjadi pengecualian pada butir soal ini",
+      "num": 75
+    },
+    {
+      "module": "M7",
+      "question": "[M7-4] Berikut adalah langkah-langkah dalam pembuatan prototipe, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengidentifikasi kebutuhan dasar pengguna"
+        },
+        {
+          "letter": "B",
+          "text": "Mengembangkan prototipe awal"
+        },
+        {
+          "letter": "C",
+          "text": "Meluncurkan prototipe untuk dicoba"
+        },
+        {
+          "letter": "D",
+          "text": "Merevisi prototipe berdasarkan umpan balik"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Prototipe diuji coba secara terbatas bersama pengguna untuk umpan balik, bukan langsung diluncurkan sebagai sistem produksi final",
+      "num": 76
+    },
+    {
+      "module": "M7",
+      "question": "[M7-5] Strategi ketika organisasi terus mengoperasikan sistem lama secara bersamaan dengan sistem baru sampai sistem baru bekerja cukup baik adalah konversi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paralel (parallel conversion)"
+        },
+        {
+          "letter": "B",
+          "text": "Direct cutover"
+        },
+        {
+          "letter": "C",
+          "text": "Pilot study"
+        },
+        {
+          "letter": "D",
+          "text": "Phased"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Konversi paralel menjalankan sistem lama dan baru bersamaan untuk meminimalkan risiko kegagalan",
+      "num": 77
+    },
+    {
+      "module": "M7",
+      "question": "[M7-6] Metodologi hibrid yang menggabungkan aspek metodologi SDLC terstruktur dan pembuatan prototipe berulang untuk mempercepat pengembangan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Waterfall murni"
+        },
+        {
+          "letter": "B",
+          "text": "Rapid Application Development (RAD)"
+        },
+        {
+          "letter": "C",
+          "text": "Outsourcing"
+        },
+        {
+          "letter": "D",
+          "text": "Reverse engineering"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "RAD memadukan struktur SDLC dengan prototyping cepat dan keterlibatan pengguna intensif",
+      "num": 78
+    },
+    {
+      "module": "M7",
+      "question": "[M7-7] Apabila perusahaan memutuskan membuat sendiri (in-house) perangkat lunaknya, keuntungannya adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sesuai kebutuhan unik proses bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "Kendali penuh atas kode dan pengembangan"
+        },
+        {
+          "letter": "C",
+          "text": "Dapat dimodifikasi secara fleksibel"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Pengembangan internal memberi kesesuaian tinggi, kendali penuh, dan fleksibilitas penyesuaian",
+      "num": 79
+    },
+    {
+      "module": "M7",
+      "question": "[M7-8] Kerugian membeli paket perangkat lunak jadi dari vendor antara lain ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mungkin tidak sepenuhnya cocok dengan proses bisnis unik"
+        },
+        {
+          "letter": "B",
+          "text": "Ketergantungan pada vendor untuk pembaruan"
+        },
+        {
+          "letter": "C",
+          "text": "Biaya lisensi dan kustomisasi tambahan"
+        },
+        {
+          "letter": "D",
+          "text": "Jawaban semuanya benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Paket perangkat lunak komersial berisiko kurang pas dengan kebutuhan spesifik dan menimbulkan ketergantungan vendor",
+      "num": 80
+    },
+    {
+      "module": "M7",
+      "question": "[M7-9] Dokumen formal yang dikirim ke vendor potensial untuk mengundang mereka mengajukan proposal perangkat lunak paket yang memenuhi kebutuhan perusahaan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SLA (Service Level Agreement)"
+        },
+        {
+          "letter": "B",
+          "text": "NDA (Non-Disclosure Agreement)"
+        },
+        {
+          "letter": "C",
+          "text": "RFP (Request for Proposal)"
+        },
+        {
+          "letter": "D",
+          "text": "ERD (Entity Relationship Diagram)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "RFP merinci spesifikasi kebutuhan bisnis dan teknis agar vendor mengajukan penawaran resmi",
+      "num": 81
+    },
+    {
+      "module": "M7",
+      "question": "[M7-10] Dalam proses pembelian perangkat lunak, dokumen RFP memberikan informasi kepada vendor tentang ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Latar belakang dan kebutuhan organisasi"
+        },
+        {
+          "letter": "B",
+          "text": "Spesifikasi teknis yang diharapkan"
+        },
+        {
+          "letter": "C",
+          "text": "Kriteria evaluasi dan jadwal"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "RFP memuat profil organisasi, spesifikasi fungsional/teknis, serta kriteria evaluasi proposal vendor",
+      "num": 82
+    },
+    {
+      "module": "M7",
+      "question": "[M7-11] Berikut adalah karakteristik bisnis vendor yang dievaluasi saat memilih penyedia perangkat lunak, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stabilitas keuangan vendor"
+        },
+        {
+          "letter": "B",
+          "text": "Pengalaman dan reputasi proyek"
+        },
+        {
+          "letter": "C",
+          "text": "Dukungan teknis purnajual"
+        },
+        {
+          "letter": "D",
+          "text": "Kedekatan vendor dengan perusahaan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Pemilihan vendor harus objektif berdasarkan kapabilitas, reputasi, dan stabilitas, bukan kedekatan personal",
+      "num": 83
+    },
+    {
+      "module": "M7",
+      "question": "[M7-12] Tahap negosiasi kontrak antara perusahaan dan vendor bertujuan untuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menyepakati harga dan jadwal pembayaran"
+        },
+        {
+          "letter": "B",
+          "text": "Menetapkan tingkat layanan (SLA) dan garansi"
+        },
+        {
+          "letter": "C",
+          "text": "Mengatur hak kepemilikan dan dukungan"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Negosiasi kontrak mengikat kesepakatan biaya, jadwal, SLA, garansi, dan hak hukum kedua pihak",
+      "num": 84
+    },
+    {
+      "module": "M8",
+      "question": "[M8-1] Manajemen proyek adalah penerapan aspek-aspek berikut untuk berbagai kegiatan dalam rangka memenuhi persyaratan proyek tertentu, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pengetahuan dan keterampilan"
+        },
+        {
+          "letter": "B",
+          "text": "Alat dan teknik"
+        },
+        {
+          "letter": "C",
+          "text": "Anggaran"
+        },
+        {
+          "letter": "D",
+          "text": "Perencanaan dan pengendalian"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Definisi manajemen proyek PMBOK menekankan penerapan pengetahuan, keterampilan, alat, dan teknik pada aktivitas proyek; anggaran adalah objek/batasan yang dikelola",
+      "num": 85
+    },
+    {
+      "module": "M8",
+      "question": "[M8-2] Orang yang mengusulkan proyek serta memiliki wewenang menyediakan sumber daya (orang, dana, dan waktu) bagi keberlangsungan proyek adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sponsor proyek"
+        },
+        {
+          "letter": "B",
+          "text": "Programmer"
+        },
+        {
+          "letter": "C",
+          "text": "End-user"
+        },
+        {
+          "letter": "D",
+          "text": "Auditor eksternal"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Sponsor proyek adalah eksekutif/pemilik bisnis yang memperjuangkan proyek dan mengamankan pendanaannya",
+      "num": 86
+    },
+    {
+      "module": "M8",
+      "question": "[M8-3] Pihak yang dipilih karena memenuhi persyaratan administrasi, teknis, dan biaya dibandingkan peserta lain saat lelang/tender proyek adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sponsor proyek"
+        },
+        {
+          "letter": "B",
+          "text": "Pengguna akhir"
+        },
+        {
+          "letter": "C",
+          "text": "Analis sistem internal"
+        },
+        {
+          "letter": "D",
+          "text": "Pemenang proyek"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Pemenang proyek/tender adalah vendor atau pelaksana yang lolos evaluasi administrasi, teknis, dan harga",
+      "num": 87
+    },
+    {
+      "module": "M8",
+      "question": "[M8-4] Isu kunci terkait personel yang terlibat dalam proyek adalah manajer proyek harus dapat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memotivasi dan mengoordinasikan anggota tim"
+        },
+        {
+          "letter": "B",
+          "text": "Mengelola konflik antaranggota"
+        },
+        {
+          "letter": "C",
+          "text": "Menempatkan SDM sesuai keahliannya"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Pengelolaan SDM proyek mencakup koordinasi, penempatan peran, motivasi, dan resolusi konflik",
+      "num": 88
+    },
+    {
+      "module": "M8",
+      "question": "[M8-5] Pendekatan estimasi yang digunakan pada tahap inisiasi proyek ketika informasi rinci belum cukup untuk melakukan analisis perincian pekerjaan (WBS) adalah pendekatan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bottom-up"
+        },
+        {
+          "letter": "B",
+          "text": "Top-down"
+        },
+        {
+          "letter": "C",
+          "text": "Critical path"
+        },
+        {
+          "letter": "D",
+          "text": "Trial and error"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pendekatan top-down memperkirakan biaya dan waktu secara garis besar dari pengalaman proyek serupa sebelum rincian WBS tersedia",
+      "num": 89
+    },
+    {
+      "module": "M8",
+      "question": "[M8-6] Bagan yang secara grafis menggambarkan perkiraan waktu untuk setiap tugas proyek terhadap skala waktu horizontal adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flowchart"
+        },
+        {
+          "letter": "B",
+          "text": "Diagram konteks"
+        },
+        {
+          "letter": "C",
+          "text": "Gantt chart (bagan Gantt)"
+        },
+        {
+          "letter": "D",
+          "text": "ERD"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Gantt chart menampilkan batang jadwal mulai hingga selesai setiap tugas pada sumbu waktu horizontal",
+      "num": 90
+    },
+    {
+      "module": "M8",
+      "question": "[M8-7] Manajemen proyek sangat penting dalam pengembangan sistem informasi karena berisi aktivitas-aktivitas yang mencakup ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perencanaan dan penjadwalan"
+        },
+        {
+          "letter": "B",
+          "text": "Pengukuran kemajuan dan pengendalian biaya"
+        },
+        {
+          "letter": "C",
+          "text": "Manajemen risiko dan kualitas"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Manajemen proyek mencakup perencanaan, penjadwalan, penganggaran, pengendalian mutu, dan mitigasi risiko",
+      "num": 91
+    },
+    {
+      "module": "M8",
+      "question": "[M8-8] Sebuah proyek pengembangan sistem tanpa manajemen yang tepat kemungkinan besar akan mengalami konsekuensi berikut, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pembengkakan biaya (cost overrun)"
+        },
+        {
+          "letter": "B",
+          "text": "Keterlambatan jadwal"
+        },
+        {
+          "letter": "C",
+          "text": "Kualitas sistem tidak sesuai harapan"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Tanpa manajemen proyek yang baik, proyek TI rentan molor, over-budget, dan gagal memenuhi kebutuhan bisnis",
+      "num": 92
+    },
+    {
+      "module": "M8",
+      "question": "[M8-9] Metode pengukuran yang dapat digunakan untuk mengidentifikasi dan mengevaluasi alternatif proyek pengembangan sistem informasi antara lain ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Analisis biaya-manfaat"
+        },
+        {
+          "letter": "B",
+          "text": "Model penilaian (scoring model)"
+        },
+        {
+          "letter": "C",
+          "text": "Analisis portofolio proyek"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Evaluasi proyek TI memanfaatkan analisis portofolio, model skoring, serta analisis biaya-manfaat",
+      "num": 93
+    },
+    {
+      "module": "M8",
+      "question": "[M8-10] Proyek yang manfaatnya tampak lebih besar daripada biayanya perlu dianalisis menggunakan metode penganggaran modal berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Net Present Value (NPV)"
+        },
+        {
+          "letter": "B",
+          "text": "Return on Investment (ROI)"
+        },
+        {
+          "letter": "C",
+          "text": "Payback Period (dalam klasifikasi soal tertentu: metode non-finansial)"
+        },
+        {
+          "letter": "D",
+          "text": "Internal Rate of Return (IRR)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Dalam butir soal modul ini, metode penganggaran modal yang diuji membedakan metrik diskonto/ROI; Payback Period sering dipisahkan dari metode nilai waktu uang",
+      "num": 94
+    },
+    {
+      "module": "M8",
+      "question": "[M8-11] Proyek pengembangan sistem informasi lebih memiliki peluang gagal apabila ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kurangnya dukungan manajemen puncak"
+        },
+        {
+          "letter": "B",
+          "text": "Kebutuhan pengguna tidak jelas"
+        },
+        {
+          "letter": "C",
+          "text": "Perencanaan dan komunikasi buruk"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kegagalan proyek TI umumnya dipicu oleh lemahnya dukungan eksekutif, spesifikasi kabur, dan manajemen yang buruk",
+      "num": 95
+    },
+    {
+      "module": "M8",
+      "question": "[M8-12] Risiko utama dalam proyek sistem informasi ditentukan oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ukuran proyek"
+        },
+        {
+          "letter": "B",
+          "text": "Struktur proyek"
+        },
+        {
+          "letter": "C",
+          "text": "Pengalaman tim dengan teknologi"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Tingkat risiko proyek dipengaruhi oleh skala/ukuran proyek, kejelasan struktur kebutuhan, dan pengalaman tim teknis",
+      "num": 96
+    },
+    {
+      "module": "M9",
+      "question": "[M9-1] Metode, kebijakan, dan prosedur organisasi yang memastikan keamanan aset organisasi, keakuratan dan keandalan catatannya, serta kepatuhan operasional terhadap standar manajemen adalah hakikat dari ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pemasaran digital"
+        },
+        {
+          "letter": "B",
+          "text": "Kontrol informasi (pengendalian sistem informasi)"
+        },
+        {
+          "letter": "C",
+          "text": "Desain antarmuka"
+        },
+        {
+          "letter": "D",
+          "text": "Penganggaran modal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kontrol/pengendalian menjaga keamanan aset, integritas catatan, dan kepatuhan operasional organisasi",
+      "num": 97
+    },
+    {
+      "module": "M9",
+      "question": "[M9-2] Kebijakan, prosedur, dan tindakan teknis yang digunakan untuk mencegah akses tidak sah, pengubahan, pencurian, atau kerusakan fisik pada sistem informasi adalah prinsip kerja dari ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keamanan informasi"
+        },
+        {
+          "letter": "B",
+          "text": "Efisiensi pemasaran"
+        },
+        {
+          "letter": "C",
+          "text": "Komputasi awan"
+        },
+        {
+          "letter": "D",
+          "text": "Otomatisasi kantor"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Keamanan informasi melindungi sistem dan data dari akses ilegal, modifikasi, pencurian, maupun kerusakan fisik",
+      "num": 98
+    },
+    {
+      "module": "M9",
+      "question": "[M9-3] Seseorang atau sekelompok orang yang melakukan aktivitas membobol atau memaksa masuk ke dalam sistem atau properti digital institusi secara tidak sah disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hacker"
+        },
+        {
+          "letter": "B",
+          "text": "System analyst"
+        },
+        {
+          "letter": "C",
+          "text": "Database administrator"
+        },
+        {
+          "letter": "D",
+          "text": "End user"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Dalam terminologi modul, hacker adalah pihak yang berupaya menerobos atau masuk ke sistem komputer tanpa izin",
+      "num": 99
+    },
+    {
+      "module": "M9",
+      "question": "[M9-4] Seseorang yang berusaha masuk ke dalam suatu jaringan komputer dengan cara membuat celah/retakan untuk merusak, mencuri, atau melihat isi di dalamnya dengan niat jahat adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Auditor"
+        },
+        {
+          "letter": "B",
+          "text": "Cracker"
+        },
+        {
+          "letter": "C",
+          "text": "Sponsor proyek"
+        },
+        {
+          "letter": "D",
+          "text": "Operator"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Cracker merujuk pada peretas yang membobol sistem dengan tujuan merusak atau mencuri data",
+      "num": 100
+    },
+    {
+      "module": "M9",
+      "question": "[M9-5] Manajer keamanan sistem informasi yang memiliki peran terus menilai risiko keamanan informasi organisasi serta mengembangkan dan menerapkan penanggulangan yang efektif adalah seorang ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CFO (Chief Financial Officer)"
+        },
+        {
+          "letter": "B",
+          "text": "CMO (Chief Marketing Officer)"
+        },
+        {
+          "letter": "C",
+          "text": "COO (Chief Operating Officer)"
+        },
+        {
+          "letter": "D",
+          "text": "CSO / CISO (Chief Security Officer)"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Chief Security Officer / CISO memimpin penilaian risiko dan penerapan kontrol keamanan informasi perusahaan",
+      "num": 101
+    },
+    {
+      "module": "M9",
+      "question": "[M9-6] Pengendalian risiko keamanan informasi berlaku untuk semua aplikasi terkomputerisasi dan terdiri atas kombinasi ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kontrol umum (general controls)"
+        },
+        {
+          "letter": "B",
+          "text": "Kontrol aplikasi (application controls)"
+        },
+        {
+          "letter": "C",
+          "text": "Prosedur manual dan otomatis"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Pengendalian sistem informasi menggabungkan kontrol umum atas infrastruktur dan kontrol spesifik pada tiap aplikasi",
+      "num": 102
+    },
+    {
+      "module": "M9",
+      "question": "[M9-7] Kebijakan terkait dengan keamanan informasi di Indonesia, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keamanan siber dan pertahanan siber"
+        },
+        {
+          "letter": "B",
+          "text": "Kebijakan tarif ekspor-impor"
+        },
+        {
+          "letter": "C",
+          "text": "Kebijakan subsidi energi"
+        },
+        {
+          "letter": "D",
+          "text": "Kebijakan tata ruang kota"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Indonesia mengatur perlindungan ruang siber melalui kerangka keamanan siber dan pertahanan siber nasional",
+      "num": 103
+    },
+    {
+      "module": "M9",
+      "question": "[M9-8] Ciri dari sistem politis ketika suatu badan hukum mengambil peranan yang memberi izin kepada individu untuk memperbaiki kerugian yang disebabkan oleh pelaku, sistem, atau organisasi lain adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Liabilitas (liability)"
+        },
+        {
+          "letter": "B",
+          "text": "Anonimitas"
+        },
+        {
+          "letter": "C",
+          "text": "Redundansi"
+        },
+        {
+          "letter": "D",
+          "text": "Skalabilitas"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Liability memungkinkan pihak yang dirugikan menuntut ganti rugi secara hukum atas kesalahan sistem atau pihak lain",
+      "num": 104
+    },
+    {
+      "module": "M9",
+      "question": "[M9-9] Ciri sistem dan institusi sosial berupa mekanisme yang menentukan siapa yang melakukan tindakan yang bertanggung jawab dan siapa yang harus mempertanggungjawabkannya adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enkripsi"
+        },
+        {
+          "letter": "B",
+          "text": "Virtualisasi"
+        },
+        {
+          "letter": "C",
+          "text": "Akuntabilitas (accountability)"
+        },
+        {
+          "letter": "D",
+          "text": "Autentikasi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Accountability menetapkan kejelasan penanggung jawab atas setiap keputusan dan tindakan",
+      "num": 105
+    },
+    {
+      "module": "M9",
+      "question": "[M9-10] Izin resmi yang memberitahukan berapa kali perangkat lunak dapat diinstal atau digunakan serta ketentuan pemakaiannya disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Protokol"
+        },
+        {
+          "letter": "B",
+          "text": "Lisensi"
+        },
+        {
+          "letter": "C",
+          "text": "Topologi"
+        },
+        {
+          "letter": "D",
+          "text": "Algoritma"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Lisensi perangkat lunak mengatur hak guna, jumlah instalasi, dan batasan legal pemakaian",
+      "num": 106
+    },
+    {
+      "module": "M9",
+      "question": "[M9-11] Meretas atau mengubah akun media sosial maupun sistem elektronik milik orang lain tanpa hak dapat dikenakan hukuman berdasarkan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "UU Lalu Lintas"
+        },
+        {
+          "letter": "B",
+          "text": "UU ITE Pasal 32 ayat 1"
+        },
+        {
+          "letter": "C",
+          "text": "UU Perpajakan"
+        },
+        {
+          "letter": "D",
+          "text": "UU Ketenagakerjaan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pasal 32 ayat 1 UU ITE melarang tindakan mengubah, menambah, mengurangi, atau merusak informasi/dokumen elektronik milik orang lain tanpa hak",
+      "num": 107
+    },
+    {
+      "module": "M9",
+      "question": "[M9-12] Manfaat UU ITE bagi masyarakat Indonesia antara lain adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memberi kepastian hukum transaksi elektronik"
+        },
+        {
+          "letter": "B",
+          "text": "Melindungi masyarakat dari kejahatan siber"
+        },
+        {
+          "letter": "C",
+          "text": "Mendorong pertumbuhan ekonomi digital"
+        },
+        {
+          "letter": "D",
+          "text": "Semua jawaban benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "UU ITE menjamin kepastian hukum, perlindungan dari kejahatan siber, serta mendukung ekosistem ekonomi digital",
+      "num": 108
+    }
+  ],
+  "essayQuestions": []
+}

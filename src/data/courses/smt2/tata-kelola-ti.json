@@ -1,0 +1,899 @@
+{
+  "slug": "tata-kelola-ti",
+  "semester": 2,
+  "url": "/smt2/tata-kelola-ti",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/tata-kelola-ti.html",
+  "title": "STSI4402 / MSIM440201: Tata Kelola TI — Modul & Bank Soal UT",
+  "shortLabel": "Tata Kelola TI (STSI4402 / MSIM440201)",
+  "h1": "STSI4402 / MSIM440201: Tata Kelola TI — Modul & Bank Soal UT",
+  "metaDesc": "Ringkasan lengkap 6 modul Tata Kelola Teknologi Informasi (STSI4402 / MSIM440201) UT: Maturity Level, COSO & COBIT, Cloud & BCP, SOA & IEEE, Audit Internal & ECM, budaya etis, serta 30 soal PG & 10 Essay.",
+  "coverTag": "Semester 2",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 6 modul Tata Kelola Teknologi Informasi (STSI4402 / MSIM440201) UT: Maturity Level, COSO & COBIT, Cloud & BCP, SOA & IEEE, Audit Internal & ECM, budaya etis, serta 30 soal PG & 10 Essay.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Konsep Dasar Tata Kelola TI, Organisasi & Maturity Level"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Kerangka Kerja Tata Kelola TI: COSO, COBIT & ITIL/ITSM"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Cloud Computing, Virtualisasi, Keamanan GASSP & BCP"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Service-Oriented Architecture (SOA) & Manajemen Konfigurasi TI"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Enterprise Content Management (ECM) & Audit Internal TI"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Tata Kelola TI, Budaya Etis Perusahaan, Whistleblower & Media Sosial"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Tokoh & Lembaga Standar Kunci dalam BMP MSIM4402"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Konsep Dasar Tata Kelola TI, Organisasi & Maturity Level",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#10b981;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Konsep Dasar Tata Kelola TI, Organisasi &amp; Maturity Level</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Tata Kelola TI, Risiko &amp; 6 Kekuatan Lingkungan</h4>\n          <ul class=\"neat\">\n            <li><strong>Tata Kelola TI:</strong> Penyelarasan strategis antara tujuan bisnis dan pemanfaatan sumber daya\n              TI.</li>\n            <li><strong>4 Perspektif Tata Kelola:</strong> Perusahaan, Teknologi Informasi, Pengembangan Produk, &amp;\n              Pengembangan Tata Kelola.</li>\n            <li><strong>4 Tahap Manajemen Risiko:</strong> Identifikasi → Kuantifikasi → Respon Risiko (<em>hindari,\n                kurangi, pindahkan, retensi</em>) → Pengendalian Risiko.</li>\n            <li><strong>6 Kekuatan Lingkungan Bisnis:</strong> Sosial-budaya, kompetitif, teknologi, ekonomi, politik\n              &amp; regulasi, serta alam.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Peran CIO, Desain Organisasi TI &amp; Maturity Model</h4>\n          <ul class=\"neat\">\n            <li><strong>2 Tugas Utama CIO &amp; Direksi:</strong> (1) Memahami bisnis perusahaan secara menyeluruh, (2)\n              Membangun kredibilitas direktorat sistem informasi.</li>\n            <li><strong>Tujuan Desain Organisasi TI:</strong> Penyelarasan strategis, solusi inefisiensi struktur,\n              hilangkan konflik kerja, <mark class=\"hl-mint\">meminimalkan kesalahan manusia</mark>, memperjelas hierarki\n              tanggung jawab.</li>\n            <li><strong>Perencanaan Strategis SI:</strong> Pendekatan <em>Top-Down, Bottom-Up, dan Kombinasi</em>.</li>\n            <li><strong>Maturity Level 0 (Non-Existent):</strong> <mark class=\"hl-pink\">Kekurangan menyeluruh</mark>\n              terhadap proses TI; Level 5 (Optimized): perbaikan berkelanjutan.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">6 Tingkat Maturity Level Tata\n          Kelola TI (Modul 1)</div>\n        <svg width=\"680\" height=\"68\" viewBox=\"0 0 680 68\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"102\" height=\"40\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#dc2626\" /><text x=\"61\" y=\"38\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">0: Non-Existent</text>\n          <rect x=\"122\" y=\"14\" width=\"102\" height=\"40\" rx=\"6\" fill=\"#ffedd5\" stroke=\"#24292f\" /><text x=\"173\" y=\"38\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1: Initial</text>\n          <rect x=\"234\" y=\"14\" width=\"102\" height=\"40\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"285\" y=\"38\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">2: Repeatable</text>\n          <rect x=\"346\" y=\"14\" width=\"102\" height=\"40\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"397\" y=\"38\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">3: Defined</text>\n          <rect x=\"458\" y=\"14\" width=\"102\" height=\"40\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"509\" y=\"38\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">4: Managed</text>\n          <rect x=\"570\" y=\"14\" width=\"100\" height=\"40\" rx=\"6\" fill=\"#ede9fe\" stroke=\"#24292f\" /><text x=\"620\" y=\"38\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">5: Optimized</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Skala kematangan proses tata kelola TI dimulai dari\n          <strong>Level 0 (Non-Existent)</strong> di mana proses teknologi belum ada sama sekali, hingga <strong>Level 5\n            (Optimized)</strong> yang sudah terukur dan terus disempurnakan.\n        </p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 1</h4>\n        <ul class=\"neat\">\n          <li><strong>3 Mekanisme Tata Kelola TI:</strong> (1) <em>Struktur</em> (peran &amp; tanggung jawab, struktur organisasi TI, dewan komite), (2) <em>Proses</em> (perencanaan strategis SI, <em>Balanced Scorecard</em>, SLA), dan (3) <em>Mekanisme Hubungan/Relasional</em> (partisipasi aktif pemangku kepentingan, dialog strategis, pembelajaran bersama, kemitraan bisnis-TI).</li>\n          <li><strong>Rincian Maturity Level 0–5 (Self-Assessment &amp; Benchmarking):</strong>\n            <strong>0 (Non-Existent):</strong> kekurangan menyeluruh, belum sadar masalah;\n            <strong>1 (Initial/Ad-Hoc):</strong> sadar masalah tapi ad-hoc &amp; reaktif per insiden, belum ada metrik;\n            <strong>2 (Repeatable but Intuitive):</strong> prosedur diikuti berbeda-beda, bertumpu pada pengetahuan individu, belum ada pelatihan formal, mulai ada draf piagam;\n            <strong>3 (Defined):</strong> prosedur distandarisasi, didokumentasikan &amp; dilatih, komite pengarah &amp; piagam formal ada, tapi penyimpangan sulit terdeteksi;\n            <strong>4 (Managed &amp; Measurable):</strong> kepatuhan prosedur diawasi &amp; diukur, ada tindakan korektif;\n            <strong>5 (Optimized):</strong> praktik terbaik &amp; perbaikan berkelanjutan.</li>\n          <li><strong>Lingkungan TI &amp; Tata Kelola Organik:</strong> Lingkungan TI memiliki <em>dampak positif</em> (manfaat TI) dan <em>dampak negatif</em> (limbah produksi &amp; dampak sosial). Organisasi kecil cenderung memakai <strong>Tata Kelola Organik</strong> (adaptif &amp; kolaboratif); pilihan nyata perusahaan bukan \"ada atau tanpa tata kelola\", melainkan <em>tata kelola yang baik vs yang buruk</em>.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Penyelarasan Bisnis-TI</span>\n          <span class=\"kw-chip\">Maturity Level 0–5</span>\n          <span class=\"kw-chip\">4 Respon Risiko</span>\n          <span class=\"kw-chip\">Tugas CIO</span>\n          <span class=\"kw-chip\">Tata Kelola Organik</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Level 0 (<em>Non-Existent</em>) = kekurangan menyeluruh atas\n          proses teknologi. <strong>Tata Kelola Organik</strong> = pengambilan keputusan kolaboratif &amp; adaptif\n          lintas unit.</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Konsep Dasar Tata Kelola TI, Organisasi & Maturity Level KB 1: Tata Kelola TI, Risiko & 6 Kekuatan Lingkungan Tata Kelola TI: Penyelarasan strategis antara tujuan bisnis dan pemanfaatan sumber daya TI. 4 Perspektif Tata Kelola: Perusahaan, Teknologi Informasi, Pengembangan Produk, & Pengembangan Tata Kelola. 4 Tahap Manajemen Risiko: Identifikasi → Kuantifikasi → Respon Risiko ( hindari, kurangi, pindahkan, retensi ) → Pengendalian Risiko. 6 Kekuatan Lingkungan Bisnis: Sosial-budaya, kompetitif, teknologi, ekonomi, politik & regulasi, serta alam. KB 2: Peran CIO, Desain Organisasi TI & Maturity Model 2 Tugas Utama CIO & Direksi: (1) Memahami bisnis perusahaan secara menyeluruh, (2) Membangun kredibilitas direktorat sistem informasi. Tujuan Desain Organisasi TI: Penyelarasan strategis, solusi inefisiensi struktur, hilangkan konflik kerja, meminimalkan kesalahan manusia , memperjelas hierarki tanggung jawab. Perencanaan Strategis SI: Pendekatan Top-Down, Bottom-Up, dan Kombinasi . Maturity Level 0 (Non-Existent): Kekurangan menyeluruh terhadap proses TI; Level 5 (Optimized): perbaikan berkelanjutan. 6 Tingkat Maturity Level Tata Kelola TI (Modul 1) 0: Non-Existent 1: Initial 2: Repeatable 3: Defined 4: Managed 5: Optimized Penjelasan Diagram: Skala kematangan proses tata kelola TI dimulai dari Level 0 (Non-Existent) di mana proses teknologi belum ada sama sekali, hingga Level 5 (Optimized) yang sudah terukur dan terus disempurnakan. 📌 Detail Kecil Wajib Tahu — Modul 1 3 Mekanisme Tata Kelola TI: (1) Struktur (peran & tanggung jawab, struktur organisasi TI, dewan komite), (2) Proses (perencanaan strategis SI, Balanced Scorecard , SLA), dan (3) Mekanisme Hubungan/Relasional (partisipasi aktif pemangku kepentingan, dialog strategis, pembelajaran bersama, kemitraan bisnis-TI). Rincian Maturity Level 0–5 (Self-Assessment & Benchmarking): 0 (Non-Existent): kekurangan menyeluruh, belum sadar masalah; 1 (Initial/Ad-Hoc): sadar masalah tapi ad-hoc & reaktif per insiden, belum ada metrik; 2 (Repeatable but Intuitive): prosedur diikuti berbeda-beda, bertumpu pada pengetahuan individu, belum ada pelatihan formal, mulai ada draf piagam; 3 (Defined): prosedur distandarisasi, didokumentasikan & dilatih, komite pengarah & piagam formal ada, tapi penyimpangan sulit terdeteksi; 4 (Managed & Measurable): kepatuhan prosedur diawasi & diukur, ada tindakan korektif; 5 (Optimized): praktik terbaik & perbaikan berkelanjutan. Lingkungan TI & Tata Kelola Organik: Lingkungan TI memiliki dampak positif (manfaat TI) dan dampak negatif (limbah produksi & dampak sosial). Organisasi kecil cenderung memakai Tata Kelola Organik (adaptif & kolaboratif); pilihan nyata perusahaan bukan \"ada atau tanpa tata kelola\", melainkan tata kelola yang baik vs yang buruk . 🔑 Kata Kunci Wajib Ingat — Modul 1 Penyelarasan Bisnis-TI Maturity Level 0–5 4 Respon Risiko Tugas CIO Tata Kelola Organik Poin Ujian: Level 0 ( Non-Existent ) = kekurangan menyeluruh atas proses teknologi. Tata Kelola Organik = pengambilan keputusan kolaboratif & adaptif lintas unit."
+    },
+    {
+      "id": "m2",
+      "title": "Kerangka Kerja Tata Kelola TI: COSO, COBIT & ITIL/ITSM",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#059669;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Kerangka Kerja Tata Kelola TI: COSO, COBIT &amp; ITIL/ITSM</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Tujuan Tata Kelola &amp; Kerangka Pengendalian COSO</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-yellow\">Piramida COSO:</mark> Fondasi/dasar piramida adalah <strong>Internal Control\n                Environment</strong> (integritas, etika, kompetensi, peran dewan/komite audit, struktur &amp; wewenang).\n            </li>\n            <li><strong>Komponen COSO:</strong> Lingkungan pengendalian, penilaian risiko (<em>Prioritize Risk</em>),\n              aktivitas pengendalian, informasi &amp; komunikasi, serta pemantauan (<em>monitoring</em>).</li>\n            <li><strong>Kelemahan COSO untuk TI:</strong> Tidak cukup menekankan alat dan proses TI secara spesifik →\n              memunculkan COBIT.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: 5 Prinsip COBIT &amp; ITIL / ITSM</h4>\n          <ul class=\"neat\">\n            <li><strong>Prinsip Kunci COBIT:</strong> Memisahkan <strong>Tata Kelola (Governance)</strong> dan\n              <strong>Manajemen (Management)</strong>, namun tetap terintegrasi dalam tata kelola perusahaan.\n            </li>\n            <li><strong>5 Prinsip COBIT:</strong> (1) Memenuhi kebutuhan pemangku kepentingan, (2) Mencakup perusahaan\n              <em>end-to-end</em>, (3) Kerangka tunggal terintegrasi, (4) Pendekatan holistik, (5) Memisahkan Governance\n              &amp; Management.\n            </li>\n            <li><strong>3 Tujuan Nilai COBIT:</strong> Realisasi manfaat, optimalisasi risiko, optimalisasi sumber daya.\n              <em>(Bukan optimalisasi biaya!)</em>\n            </li>\n            <li><strong>ITSM / ITIL:</strong> Disiplin pengelolaan layanan TI yang berpusat pada perspektif pelanggan\n              untuk meningkatkan ketersediaan &amp; kepuasan layanan.</li>\n          </ul>\n        </div>\n      </div>\n\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">3 Tujuan Nilai Tata Kelola COBIT\n          &amp; Fondasi Piramida COSO (Modul 2)</div>\n        <svg width=\"680\" height=\"110\" viewBox=\"0 0 680 110\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"320\" height=\"84\" rx=\"10\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"1.6\" />\n          <text x=\"170\" y=\"32\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">COBIT: 3 Tujuan Nilai Tata\n            Kelola</text>\n          <rect x=\"22\" y=\"42\" width=\"92\" height=\"42\" rx=\"6\" fill=\"#fff3a1\" stroke=\"#24292f\" />\n          <text x=\"68\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Realisasi</text>\n          <text x=\"68\" y=\"73\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Manfaat</text>\n          <rect x=\"124\" y=\"42\" width=\"92\" height=\"42\" rx=\"6\" fill=\"#ffd6e0\" stroke=\"#24292f\" />\n          <text x=\"170\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Optimalisasi</text>\n          <text x=\"170\" y=\"73\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Risiko</text>\n          <rect x=\"226\" y=\"42\" width=\"92\" height=\"42\" rx=\"6\" fill=\"#cde8ff\" stroke=\"#24292f\" />\n          <text x=\"272\" y=\"60\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Optimalisasi</text>\n          <text x=\"272\" y=\"73\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Sumber Daya</text>\n\n          <rect x=\"350\" y=\"12\" width=\"320\" height=\"84\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.6\" />\n          <text x=\"510\" y=\"32\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">Piramida COSO</text>\n          <polygon points=\"510,42 420,86 600,86\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"510\" y=\"79\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Dasar: Internal Control\n            Environment</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: <strong>COBIT</strong> berfokus pada 3 tujuan\n          penciptaan nilai (Realisasi Manfaat, Optimalisasi Risiko, Optimalisasi Sumber Daya). Kanan: Fondasi paling\n          dasar dari piramida <strong>COSO</strong> adalah <em>Internal Control Environment</em>.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 2</h4>\n        <ul class=\"neat\">\n          <li><strong>8 Elemen Lingkungan Kontrol COSO (Fondasi Piramida):</strong> Integritas &amp; nilai etis, komitmen terhadap kompetensi, dewan direksi &amp; komite audit, filosofi manajemen &amp; gaya operasi, struktur organisasi, penugasan otoritas &amp; tanggung jawab, serta kebijakan &amp; praktik SDM.</li>\n          <li><strong>Evaluasi Pengendalian Internal COSO:</strong> Terdiri dari dua langkah utama: (1) <em>evaluasi rencana tindakan</em> dan (2) <em>melaporkan defisiensi pengendalian internal</em>.</li>\n          <li><strong>5 Prinsip COBIT menurut BMP Moeller (2013):</strong> (1) Kerangka kerja TI terintegrasi, (2) Penggerak nilai pemangku kepentingan, (3) Sumber daya berfokus konteks bisnis (aplikasi, informasi, infrastruktur, SDM), (4) Manajemen risiko (selera risiko &amp; kepatuhan), dan (5) Pengukuran kinerja. <em>(Di COBIT 5 ISACA, prinsip ke-5 menekankan pemisahan Governance &amp; Management).</em></li>\n          <li><strong>Manfaat Nyata ITIL / ITSM:</strong> Meningkatkan kepuasan pelanggan, menaikkan ketersediaan layanan (berdampak ke pendapatan), penghematan finansial (kurangi pengerjaan ulang), mempercepat <em>time-to-market</em>, dan mengoptimalkan risiko TI.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">COSO: Internal Control Environment</span>\n          <span class=\"kw-chip\">COBIT: Governance vs Management</span>\n          <span class=\"kw-chip\">3 Tujuan Nilai COBIT</span>\n          <span class=\"kw-chip\">ITSM / ITIL</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Jebakan sering muncul di 3 tujuan nilai COBIT:\n          <strong>Realisasi Manfaat, Optimalisasi Risiko, Optimalisasi Sumber Daya</strong> (bukan optimalisasi biaya!).\n        </p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Kerangka Kerja Tata Kelola TI: COSO, COBIT & ITIL/ITSM KB 1: Tujuan Tata Kelola & Kerangka Pengendalian COSO Piramida COSO: Fondasi/dasar piramida adalah Internal Control Environment (integritas, etika, kompetensi, peran dewan/komite audit, struktur & wewenang). Komponen COSO: Lingkungan pengendalian, penilaian risiko ( Prioritize Risk ), aktivitas pengendalian, informasi & komunikasi, serta pemantauan ( monitoring ). Kelemahan COSO untuk TI: Tidak cukup menekankan alat dan proses TI secara spesifik → memunculkan COBIT. KB 2: 5 Prinsip COBIT & ITIL / ITSM Prinsip Kunci COBIT: Memisahkan Tata Kelola (Governance) dan Manajemen (Management) , namun tetap terintegrasi dalam tata kelola perusahaan. 5 Prinsip COBIT: (1) Memenuhi kebutuhan pemangku kepentingan, (2) Mencakup perusahaan end-to-end , (3) Kerangka tunggal terintegrasi, (4) Pendekatan holistik, (5) Memisahkan Governance & Management. 3 Tujuan Nilai COBIT: Realisasi manfaat, optimalisasi risiko, optimalisasi sumber daya. (Bukan optimalisasi biaya!) ITSM / ITIL: Disiplin pengelolaan layanan TI yang berpusat pada perspektif pelanggan untuk meningkatkan ketersediaan & kepuasan layanan. 3 Tujuan Nilai Tata Kelola COBIT & Fondasi Piramida COSO (Modul 2) COBIT: 3 Tujuan Nilai Tata Kelola Realisasi Manfaat Optimalisasi Risiko Optimalisasi Sumber Daya Piramida COSO Dasar: Internal Control Environment Penjelasan Diagram: Kiri: COBIT berfokus pada 3 tujuan penciptaan nilai (Realisasi Manfaat, Optimalisasi Risiko, Optimalisasi Sumber Daya). Kanan: Fondasi paling dasar dari piramida COSO adalah Internal Control Environment . 📌 Detail Kecil Wajib Tahu — Modul 2 8 Elemen Lingkungan Kontrol COSO (Fondasi Piramida): Integritas & nilai etis, komitmen terhadap kompetensi, dewan direksi & komite audit, filosofi manajemen & gaya operasi, struktur organisasi, penugasan otoritas & tanggung jawab, serta kebijakan & praktik SDM. Evaluasi Pengendalian Internal COSO: Terdiri dari dua langkah utama: (1) evaluasi rencana tindakan dan (2) melaporkan defisiensi pengendalian internal . 5 Prinsip COBIT menurut BMP Moeller (2013): (1) Kerangka kerja TI terintegrasi, (2) Penggerak nilai pemangku kepentingan, (3) Sumber daya berfokus konteks bisnis (aplikasi, informasi, infrastruktur, SDM), (4) Manajemen risiko (selera risiko & kepatuhan), dan (5) Pengukuran kinerja. (Di COBIT 5 ISACA, prinsip ke-5 menekankan pemisahan Governance & Management). Manfaat Nyata ITIL / ITSM: Meningkatkan kepuasan pelanggan, menaikkan ketersediaan layanan (berdampak ke pendapatan), penghematan finansial (kurangi pengerjaan ulang), mempercepat time-to-market , dan mengoptimalkan risiko TI. 🔑 Kata Kunci Wajib Ingat — Modul 2 COSO: Internal Control Environment COBIT: Governance vs Management 3 Tujuan Nilai COBIT ITSM / ITIL Poin Ujian: Jebakan sering muncul di 3 tujuan nilai COBIT: Realisasi Manfaat, Optimalisasi Risiko, Optimalisasi Sumber Daya (bukan optimalisasi biaya!)."
+    },
+    {
+      "id": "m3",
+      "title": "Cloud Computing, Virtualisasi, Keamanan GASSP & BCP",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#3b82f6;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Cloud Computing, Virtualisasi, Keamanan GASSP &amp; BCP</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Cloud Computing, 7 Area Jaminan &amp; Virtualisasi</h4>\n          <ul class=\"neat\">\n            <li><strong>Manfaat Cloud:</strong> Mengurangi biaya infrastruktur via sentralisasi, kapasitas beban puncak,\n              &amp; kinerja konsisten.</li>\n            <li><strong>Isu Utama Cloud:</strong> Transparansi, privasi, kepatuhan, <mark class=\"hl-pink\">arus informasi\n                lintas batas</mark> (yurisdiksi hukum lokasi fisik server), &amp; sertifikasi.</li>\n            <li><strong>7 Area Jaminan Cloud:</strong> Hak istimewa user, kepatuhan regulasi, lokasi data, pemisahan\n              data, pemulihan, dukungan investigasi, viabilitas jangka panjang.</li>\n            <li><strong>Virtualisasi:</strong> Butuh kontrol baru pada manajemen identitas, mobilitas VM, &amp;\n              pemisahan data.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: GASSP (Keamanan TI) &amp; Business Continuity Planning (BCP)</h4>\n          <ul class=\"neat\">\n            <li><strong>GASSP v2.0 ((ISC)²):</strong> <em>Generally Accepted System Security Principles</em> — keamanan\n              TI mendukung misi perusahaan, biaya langsung/tak langsung, pemilik sistem punya tanggung jawab keamanan.\n            </li>\n            <li><strong>Faktor Efektivitas Kontrol Keamanan:</strong> Manajemen sistem, masalah hukum, jaminan kualitas.\n            </li>\n            <li><strong>Faktor Sosial Pembatas:</strong> Keamanan &amp; privasi tempat kerja dapat membatasi kontrol.\n            </li>\n            <li><strong>BCP:</strong> Menjamin operasional TI &amp; proses bisnis tetap berjalan saat terjadi bencana\n              (berisi <em>Disaster Recovery Plan</em>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Isu Tata Kelola Cloud Computing\n          &amp; Alur Keberlangsungan Bisnis BCP (Modul 3)</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" />\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">5 Isu Utama Cloud\n            Computing</text>\n          <rect x=\"22\" y=\"38\" width=\"90\" height=\"26\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"67\" y=\"55\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Transparansi</text>\n          <rect x=\"122\" y=\"38\" width=\"96\" height=\"26\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"170\" y=\"55\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Privasi</text>\n          <rect x=\"228\" y=\"38\" width=\"90\" height=\"26\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"273\" y=\"55\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Kepatuhan</text>\n          <rect x=\"22\" y=\"70\" width=\"186\" height=\"26\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#24292f\" /><text x=\"115\" y=\"87\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Arus Data Lintas Batas</text>\n          <rect x=\"218\" y=\"70\" width=\"100\" height=\"26\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"268\" y=\"87\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Sertifikasi</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\" />\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Alur BCP &amp; Keamanan\n            GASSP</text>\n          <rect x=\"362\" y=\"44\" width=\"90\" height=\"40\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\" /><text x=\"407\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Insiden/Bencana</text>\n          <path d=\"M454 64 L470 64\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"472\" y=\"44\" width=\"90\" height=\"40\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"517\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Aktivasi DRP</text>\n          <path d=\"M564 64 L580 64\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"582\" y=\"44\" width=\"76\" height=\"40\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"620\" y=\"68\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Operasi Pulih</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: 5 tantangan tata kelola <em>Cloud\n            Computing</em> terutama isu yurisdiksi hukum akibat arus data lintas batas. Kanan: Alur <strong>BCP &amp;\n            DRP</strong> memulihkan operasional saat bencana agar layanan bisnis tetap berjalan.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 3</h4>\n        <ul class=\"neat\">\n          <li><strong>Rincian 7 Area Jaminan Cloud:</strong> (1) Akses pengguna hak istimewa (pengawasan admin cloud), (2) Kepatuhan peraturan (perusahaan tetap penanggung jawab akhir integritas data), (3) Lokasi data (isu arus informasi lintas batas), (4) Pemisahan data, (5) Pemulihan bencana, (6) Dukungan investigasi, dan (7) Viabilitas jangka panjang penyedia cloud.</li>\n          <li><strong>4 Kontrol Baru Virtualisasi:</strong> Manajemen identitas, kontrol mobilitas VM, penyediaan server virtual yang cepat (proses <em>provisioning</em> tradisional mudah dibuang di ruang virtual), dan pemisahan data antar-VM.</li>\n          <li><strong>4 Prinsip GASSP v2.0 (1999, (ISC)²):</strong> (1) Keamanan TI harus mendukung misi perusahaan, (2) Manfaat keamanan memiliki biaya langsung &amp; tidak langsung, (3) Pemilik sistem memiliki tanggung jawab keamanan di luar organisasinya sendiri, dan (4) Perbedaan antara <em>tanggung jawab</em> dan <em>akuntabilitas</em> keamanan TI tidak selalu jelas.</li>\n          <li><strong>5 Kebutuhan Strategi BCP:</strong> Analisis saling ketergantungan layanan, proses, data, &amp; teknologi harus memenuhi kebutuhan: (1) SDM, (2) tempat kerja, (3) teknologi pendukung, (4) informasi fisik &amp; virtual, dan (5) peralatan &amp; perlengkapan (mencakup DRP TI maupun rencana darurat faktor cuaca).</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Arus Informasi Lintas Batas</span>\n          <span class=\"kw-chip\">7 Area Jaminan Cloud</span>\n          <span class=\"kw-chip\">GASSP ((ISC)²)</span>\n          <span class=\"kw-chip\">BCP &amp; DRP</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Lokasi fisik server cloud menimbulkan isu hukum <strong>arus\n            informasi lintas batas negara</strong>. <strong>BCP</strong> menjaga kelangsungan bisnis saat bencana.</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Cloud Computing, Virtualisasi, Keamanan GASSP & BCP KB 1: Cloud Computing, 7 Area Jaminan & Virtualisasi Manfaat Cloud: Mengurangi biaya infrastruktur via sentralisasi, kapasitas beban puncak, & kinerja konsisten. Isu Utama Cloud: Transparansi, privasi, kepatuhan, arus informasi lintas batas (yurisdiksi hukum lokasi fisik server), & sertifikasi. 7 Area Jaminan Cloud: Hak istimewa user, kepatuhan regulasi, lokasi data, pemisahan data, pemulihan, dukungan investigasi, viabilitas jangka panjang. Virtualisasi: Butuh kontrol baru pada manajemen identitas, mobilitas VM, & pemisahan data. KB 2: GASSP (Keamanan TI) & Business Continuity Planning (BCP) GASSP v2.0 ((ISC)²): Generally Accepted System Security Principles — keamanan TI mendukung misi perusahaan, biaya langsung/tak langsung, pemilik sistem punya tanggung jawab keamanan. Faktor Efektivitas Kontrol Keamanan: Manajemen sistem, masalah hukum, jaminan kualitas. Faktor Sosial Pembatas: Keamanan & privasi tempat kerja dapat membatasi kontrol. BCP: Menjamin operasional TI & proses bisnis tetap berjalan saat terjadi bencana (berisi Disaster Recovery Plan ). Isu Tata Kelola Cloud Computing & Alur Keberlangsungan Bisnis BCP (Modul 3) 5 Isu Utama Cloud Computing Transparansi Privasi Kepatuhan Arus Data Lintas Batas Sertifikasi Alur BCP & Keamanan GASSP Insiden/Bencana Aktivasi DRP Operasi Pulih Penjelasan Diagram: Kiri: 5 tantangan tata kelola Cloud Computing terutama isu yurisdiksi hukum akibat arus data lintas batas. Kanan: Alur BCP & DRP memulihkan operasional saat bencana agar layanan bisnis tetap berjalan. 📌 Detail Kecil Wajib Tahu — Modul 3 Rincian 7 Area Jaminan Cloud: (1) Akses pengguna hak istimewa (pengawasan admin cloud), (2) Kepatuhan peraturan (perusahaan tetap penanggung jawab akhir integritas data), (3) Lokasi data (isu arus informasi lintas batas), (4) Pemisahan data, (5) Pemulihan bencana, (6) Dukungan investigasi, dan (7) Viabilitas jangka panjang penyedia cloud. 4 Kontrol Baru Virtualisasi: Manajemen identitas, kontrol mobilitas VM, penyediaan server virtual yang cepat (proses provisioning tradisional mudah dibuang di ruang virtual), dan pemisahan data antar-VM. 4 Prinsip GASSP v2.0 (1999, (ISC)²): (1) Keamanan TI harus mendukung misi perusahaan, (2) Manfaat keamanan memiliki biaya langsung & tidak langsung, (3) Pemilik sistem memiliki tanggung jawab keamanan di luar organisasinya sendiri, dan (4) Perbedaan antara tanggung jawab dan akuntabilitas keamanan TI tidak selalu jelas. 5 Kebutuhan Strategi BCP: Analisis saling ketergantungan layanan, proses, data, & teknologi harus memenuhi kebutuhan: (1) SDM, (2) tempat kerja, (3) teknologi pendukung, (4) informasi fisik & virtual, dan (5) peralatan & perlengkapan (mencakup DRP TI maupun rencana darurat faktor cuaca). 🔑 Kata Kunci Wajib Ingat — Modul 3 Arus Informasi Lintas Batas 7 Area Jaminan Cloud GASSP ((ISC)²) BCP & DRP Poin Ujian: Lokasi fisik server cloud menimbulkan isu hukum arus informasi lintas batas negara . BCP menjaga kelangsungan bisnis saat bencana."
+    },
+    {
+      "id": "m4",
+      "title": "Service-Oriented Architecture (SOA) & Manajemen Konfigurasi TI",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#2563eb;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Service-Oriented Architecture (SOA) &amp; Manajemen Konfigurasi TI</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Service-Oriented Architecture (SOA)</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-mint\">SOA:</mark> Pendekatan arsitektur di mana logika bisnis dimodulasi menjadi\n              <strong>layanan (service)</strong> independen untuk aplikasi konsumen demi <strong>fleksibilitas</strong>.\n            </li>\n            <li><strong>Pemangku Kepentingan SOA:</strong> Pemilik bisnis, arsitek SOA, pengembang aplikasi, manajer\n              kualitas SOA.</li>\n            <li><strong>Kebijakan &amp; Keamanan SOA:</strong> <em>Service Level Agreement (SLA)</em>, autentikasi\n              pengguna, otorisasi layanan, dan enkripsi.</li>\n            <li><strong>Manfaat SOA:</strong> Implementasi cepat kemampuan bisnis baru, mengurangi dampak perubahan\n              teknologi, &amp; melindungi investasi TI.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Manajemen Konfigurasi TI (Standar IEEE)</h4>\n          <ul class=\"neat\">\n            <li><strong>Fungsi:</strong> Mengelola kompatibilitas dan status seluruh komponen perangkat keras, perangkat\n              lunak, jaringan, dan dokumentasi agar saling terhubung.</li>\n            <li><strong>4 Elemen Wajib IEEE:</strong> <mark class=\"hl-yellow\">Identifikasi → Kontrol → Status → Audit\n                dan Review</mark>.</li>\n            <li><strong>Inventaris Konfigurasi TI:</strong> Mencatat semua platform fisik, jaringan, aplikasi, sistem\n              operasi, PBX/telekomunikasi, serta layanan &amp; dokumentasi.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Arsitektur SOA &amp; 4 Elemen\n          Manajemen Konfigurasi IEEE (Modul 4)</div>\n        <svg width=\"680\" height=\"120\" viewBox=\"0 0 680 120\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"58\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" />\n          <text x=\"170\" y=\"25\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Service-Oriented Architecture\n            (SOA)</text>\n          <rect x=\"24\" y=\"32\" width=\"84\" height=\"28\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"66\" y=\"50\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Consumer</text>\n          <path d=\"M110 46 L128 46\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"130\" y=\"32\" width=\"80\" height=\"28\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"170\" y=\"50\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Registry</text>\n          <path d=\"M212 46 L230 46\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"232\" y=\"32\" width=\"84\" height=\"28\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"274\" y=\"50\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Provider</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"58\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\" />\n          <text x=\"510\" y=\"25\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Kebijakan Layanan SOA</text>\n          <rect x=\"364\" y=\"32\" width=\"90\" height=\"28\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"409\" y=\"50\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">SLA</text>\n          <rect x=\"464\" y=\"32\" width=\"92\" height=\"28\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"510\" y=\"50\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Otorisasi</text>\n          <rect x=\"566\" y=\"32\" width=\"90\" height=\"28\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#24292f\" /><text x=\"611\" y=\"50\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Enkripsi</text>\n\n          <rect x=\"10\" y=\"78\" width=\"155\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\" /><text x=\"87\" y=\"98\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">IEEE 1: Identifikasi</text>\n          <rect x=\"178\" y=\"78\" width=\"155\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\" /><text x=\"255\" y=\"98\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">IEEE 2: Kontrol</text>\n          <rect x=\"346\" y=\"78\" width=\"155\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\" /><text x=\"423\" y=\"98\"\n            text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">IEEE 3: Status</text>\n          <rect x=\"514\" y=\"78\" width=\"156\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\" /><text x=\"592\" y=\"98\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">IEEE 4: Audit &amp; Review</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Atas: Pola <strong>SOA</strong>\n          (<em>Consumer–Registry–Provider</em>) dilindungi kebijakan <em>SLA, Otorisasi, dan Enkripsi</em>. Bawah: 4\n          elemen wajib manajemen konfigurasi TI standar <strong>IEEE</strong> (Identifikasi, Kontrol, Status, Audit\n          &amp; Review).</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 4</h4>\n        <ul class=\"neat\">\n          <li><strong>Hambatan Tata Kelola SOA:</strong> Cara manual lama dan proses persetujuan yang kaku untuk memaksa kepatuhan justru menjadi hambatan (<em>bottleneck</em>) yang mendorong tim menghindari kebijakan dan mengalahkan misi inti tata kelola SOA.</li>\n          <li><strong>CMDB &amp; 4 Elemen Proyek Manajemen Konfigurasi:</strong> Proyek konfigurasi mencakup: (1) tentukan elemen konfigurasi, (2) bangun hubungan konfigurasi, (3) optimalkan proses, (4) dokumentasi konsisten. Komponen <strong>CMDB</strong> (<em>Configuration Management Database</em>) meliputi administrasi pengguna, alat keamanan &amp; akses, fasilitas manajemen DB konfigurasi, manajemen data &amp; repositori, serta kontrol keamanan &amp; perlindungan data.</li>\n          <li><strong>Manajemen Portofolio TI &amp; 5 Poin Implementasi ERP:</strong> Mengelola sumber daya TI (aplikasi, infrastruktur, proyek) seperti portofolio investasi. Untuk implementasi <strong>ERP</strong>, tata kelola TI mensyaratkan: (1) definisikan tujuan &amp; persyaratan ERP, (2) bangun tim lintas fungsi, (3) kenali biaya &amp; waktu implementasi, (4) pilih produk perangkat lunak ERP yang tepat, dan (5) terapkan teknik manajemen proyek formal.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">SOA (Fleksibilitas Layanan)</span>\n          <span class=\"kw-chip\">SLA · Autentikasi · Enkripsi</span>\n          <span class=\"kw-chip\">IEEE: Identifikasi·Kontrol·Status·Audit</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> 4 elemen manajemen konfigurasi TI menurut\n          <strong>IEEE</strong>: <em>Identifikasi, Kontrol, Status, Audit dan Review</em>.\n        </p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Service-Oriented Architecture (SOA) & Manajemen Konfigurasi TI KB 1: Service-Oriented Architecture (SOA) SOA: Pendekatan arsitektur di mana logika bisnis dimodulasi menjadi layanan (service) independen untuk aplikasi konsumen demi fleksibilitas . Pemangku Kepentingan SOA: Pemilik bisnis, arsitek SOA, pengembang aplikasi, manajer kualitas SOA. Kebijakan & Keamanan SOA: Service Level Agreement (SLA) , autentikasi pengguna, otorisasi layanan, dan enkripsi. Manfaat SOA: Implementasi cepat kemampuan bisnis baru, mengurangi dampak perubahan teknologi, & melindungi investasi TI. KB 2: Manajemen Konfigurasi TI (Standar IEEE) Fungsi: Mengelola kompatibilitas dan status seluruh komponen perangkat keras, perangkat lunak, jaringan, dan dokumentasi agar saling terhubung. 4 Elemen Wajib IEEE: Identifikasi → Kontrol → Status → Audit dan Review . Inventaris Konfigurasi TI: Mencatat semua platform fisik, jaringan, aplikasi, sistem operasi, PBX/telekomunikasi, serta layanan & dokumentasi. Arsitektur SOA & 4 Elemen Manajemen Konfigurasi IEEE (Modul 4) Service-Oriented Architecture (SOA) Consumer Registry Provider Kebijakan Layanan SOA SLA Otorisasi Enkripsi IEEE 1: Identifikasi IEEE 2: Kontrol IEEE 3: Status IEEE 4: Audit & Review Penjelasan Diagram: Atas: Pola SOA ( Consumer–Registry–Provider ) dilindungi kebijakan SLA, Otorisasi, dan Enkripsi . Bawah: 4 elemen wajib manajemen konfigurasi TI standar IEEE (Identifikasi, Kontrol, Status, Audit & Review). 📌 Detail Kecil Wajib Tahu — Modul 4 Hambatan Tata Kelola SOA: Cara manual lama dan proses persetujuan yang kaku untuk memaksa kepatuhan justru menjadi hambatan ( bottleneck ) yang mendorong tim menghindari kebijakan dan mengalahkan misi inti tata kelola SOA. CMDB & 4 Elemen Proyek Manajemen Konfigurasi: Proyek konfigurasi mencakup: (1) tentukan elemen konfigurasi, (2) bangun hubungan konfigurasi, (3) optimalkan proses, (4) dokumentasi konsisten. Komponen CMDB ( Configuration Management Database ) meliputi administrasi pengguna, alat keamanan & akses, fasilitas manajemen DB konfigurasi, manajemen data & repositori, serta kontrol keamanan & perlindungan data. Manajemen Portofolio TI & 5 Poin Implementasi ERP: Mengelola sumber daya TI (aplikasi, infrastruktur, proyek) seperti portofolio investasi. Untuk implementasi ERP , tata kelola TI mensyaratkan: (1) definisikan tujuan & persyaratan ERP, (2) bangun tim lintas fungsi, (3) kenali biaya & waktu implementasi, (4) pilih produk perangkat lunak ERP yang tepat, dan (5) terapkan teknik manajemen proyek formal. 🔑 Kata Kunci Wajib Ingat — Modul 4 SOA (Fleksibilitas Layanan) SLA · Autentikasi · Enkripsi IEEE: Identifikasi·Kontrol·Status·Audit Poin Ujian: 4 elemen manajemen konfigurasi TI menurut IEEE : Identifikasi, Kontrol, Status, Audit dan Review ."
+    },
+    {
+      "id": "m5",
+      "title": "Enterprise Content Management (ECM) & Audit Internal TI",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#8b5cf6;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Enterprise Content Management (ECM) &amp; Audit Internal TI</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Enterprise Content Management (ECM)</h4>\n          <ul class=\"neat\">\n            <li><strong>Definisi ECM:</strong> Strategi, metode, &amp; alat untuk mendapatkan, mengelola, menyimpan,\n              menjaga, dan menyampaikan konten/dokumen organisasi.</li>\n            <li><strong>Langkah Awal Penerapan ECM:</strong> Manajemen wajib <strong>melakukan dokumentasi siklus hidup\n                konten</strong>.</li>\n            <li><strong>5 Area Utama ECM (AIIM):</strong> <em>Capture, Manage, Store, Preserve, Deliver</em>.</li>\n            <li><strong>4 Manfaat Adopsi ECM:</strong> Efisiensi, ketersediaan, ketertelusuran (<em>traceability</em>),\n              &amp; konsistensi.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Audit Internal &amp; Auditor TI (ISACA / EDP)</h4>\n          <ul class=\"neat\">\n            <li><strong>Peran Audit Internal:</strong> Fungsi penilaian independen untuk komite audit &amp; dewan\n              direksi (dipimpin <em>Chief Audit Executive / CAE</em>).</li>\n            <li><strong>Fokus Audit Internal Tata Kelola TI:</strong> Penyampaian nilai (<em>value delivery</em>),\n              manajemen risiko, manajemen sumber daya, pengukuran kinerja, &amp; keselarasan strategis.</li>\n            <li><strong>Proses Audit Internal:</strong> Penjadwalan audit → penugasan auditor → penilaian audit awal.\n            </li>\n            <li><strong>Organisasi Profesi Auditor TI:</strong> Dulunya <em>Asosiasi Auditor EDP</em>, kini\n              <strong>ISACA</strong>.\n            </li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">5 Area Utama ECM (AIIM) &amp;\n          Proses Audit Internal TI (Modul 5)</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"660\" height=\"46\" rx=\"8\" fill=\"#f5f3ff\" stroke=\"#8b5cf6\" stroke-width=\"1.5\" />\n          <rect x=\"20\" y=\"18\" width=\"116\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\" /><text x=\"78\" y=\"37\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">1. Capture</text>\n          <path d=\"M138 33 L150 33\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"152\" y=\"18\" width=\"116\" height=\"30\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\" /><text x=\"210\" y=\"37\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">2. Manage</text>\n          <path d=\"M270 33 L282 33\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"284\" y=\"18\" width=\"116\" height=\"30\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#24292f\" /><text x=\"342\" y=\"37\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">3. Store</text>\n          <path d=\"M402 33 L414 33\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"416\" y=\"18\" width=\"116\" height=\"30\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"474\" y=\"37\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">4. Preserve</text>\n          <path d=\"M534 33 L546 33\" stroke=\"#24292f\" stroke-width=\"1.8\" />\n          <rect x=\"548\" y=\"18\" width=\"112\" height=\"30\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#24292f\" /><text x=\"604\" y=\"37\"\n            text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">5. Deliver</text>\n\n          <rect x=\"10\" y=\"66\" width=\"205\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\" /><text x=\"112\" y=\"88\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1. Jadwal Audit Internal</text>\n          <path d=\"M218 84 L235 84\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"237\" y=\"66\" width=\"205\" height=\"36\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\" /><text x=\"339\" y=\"88\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">2. Penugasan Auditor TI</text>\n          <path d=\"M445 84 L462 84\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"464\" y=\"66\" width=\"206\" height=\"36\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\" /><text x=\"567\" y=\"88\"\n            text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">3. Penilaian Audit Awal</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Atas: Lima siklus utama manajemen konten\n          <strong>ECM</strong> menurut AIIM (<em>Capture → Manage → Store → Preserve → Deliver</em>). Bawah: 3 tahapan\n          pelaksanaan <strong>Audit Internal TI</strong>.\n        </p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 5</h4>\n        <ul class=\"neat\">\n          <li><strong>Arsitektur Referensi &amp; Komponen Administrasi ECM:</strong> Dokumen arsitektur referensi ECM memuat 4 bagian: ikhtisar ECM, <em>ECM reference architecture description</em>, glosarium, dan referensi. Komponen pengembangan &amp; administrasi ECM meliputi: desain alur kerja/proses bisnis, <strong>manajemen taksonomi</strong> (prasyarat otomatisasi alur kerja &amp; aturan validasi/distribusi konten), desain formulir/template, dan alat penulisan konten.</li>\n          <li><strong>Piagam Audit Internal (<em>Audit Charter</em>) &amp; Standar IIA:</strong> Wewenang tim audit internal untuk memeriksa pusat data &amp; dokumen diamanatkan dalam <strong>piagam audit internal</strong> yang disetujui komite audit (jika kedaluwarsa, CAE wajib memperbaruinya). <strong>IIA</strong> (<em>Institute of Internal Auditors</em>) menerbitkan standar praktik wajib auditor internal secara global, sedangkan <strong>CAE</strong> berkomunikasi langsung dengan komite audit.</li>\n          <li><strong>5 Aktivitas &amp; Tanggung Jawab Audit Internal Tata Kelola TI:</strong> Independensi dan objektivitas, ruang lingkup dan tanggung jawab, otoritas audit internal, akuntabilitas, serta kepatuhan standar profesional.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">ECM (Dokumentasi Siklus Hidup)</span>\n          <span class=\"kw-chip\">AIIM (Capture·Manage·Store·Preserve·Deliver)</span>\n          <span class=\"kw-chip\">CAE &amp; Komite Audit</span>\n          <span class=\"kw-chip\">ISACA (ex-EDP)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Langkah pertama penerapan <strong>ECM</strong> adalah\n          <em>mendokumentasikan siklus hidup konten</em>. Standar audit internal menilai penyampaian nilai &amp;\n          keselarasan visi/misi organisasi.\n        </p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Enterprise Content Management (ECM) & Audit Internal TI KB 1: Enterprise Content Management (ECM) Definisi ECM: Strategi, metode, & alat untuk mendapatkan, mengelola, menyimpan, menjaga, dan menyampaikan konten/dokumen organisasi. Langkah Awal Penerapan ECM: Manajemen wajib melakukan dokumentasi siklus hidup konten . 5 Area Utama ECM (AIIM): Capture, Manage, Store, Preserve, Deliver . 4 Manfaat Adopsi ECM: Efisiensi, ketersediaan, ketertelusuran ( traceability ), & konsistensi. KB 2: Audit Internal & Auditor TI (ISACA / EDP) Peran Audit Internal: Fungsi penilaian independen untuk komite audit & dewan direksi (dipimpin Chief Audit Executive / CAE ). Fokus Audit Internal Tata Kelola TI: Penyampaian nilai ( value delivery ), manajemen risiko, manajemen sumber daya, pengukuran kinerja, & keselarasan strategis. Proses Audit Internal: Penjadwalan audit → penugasan auditor → penilaian audit awal. Organisasi Profesi Auditor TI: Dulunya Asosiasi Auditor EDP , kini ISACA . 5 Area Utama ECM (AIIM) & Proses Audit Internal TI (Modul 5) 1. Capture 2. Manage 3. Store 4. Preserve 5. Deliver 1. Jadwal Audit Internal 2. Penugasan Auditor TI 3. Penilaian Audit Awal Penjelasan Diagram: Atas: Lima siklus utama manajemen konten ECM menurut AIIM ( Capture → Manage → Store → Preserve → Deliver ). Bawah: 3 tahapan pelaksanaan Audit Internal TI . 📌 Detail Kecil Wajib Tahu — Modul 5 Arsitektur Referensi & Komponen Administrasi ECM: Dokumen arsitektur referensi ECM memuat 4 bagian: ikhtisar ECM, ECM reference architecture description , glosarium, dan referensi. Komponen pengembangan & administrasi ECM meliputi: desain alur kerja/proses bisnis, manajemen taksonomi (prasyarat otomatisasi alur kerja & aturan validasi/distribusi konten), desain formulir/template, dan alat penulisan konten. Piagam Audit Internal ( Audit Charter ) & Standar IIA: Wewenang tim audit internal untuk memeriksa pusat data & dokumen diamanatkan dalam piagam audit internal yang disetujui komite audit (jika kedaluwarsa, CAE wajib memperbaruinya). IIA ( Institute of Internal Auditors ) menerbitkan standar praktik wajib auditor internal secara global, sedangkan CAE berkomunikasi langsung dengan komite audit. 5 Aktivitas & Tanggung Jawab Audit Internal Tata Kelola TI: Independensi dan objektivitas, ruang lingkup dan tanggung jawab, otoritas audit internal, akuntabilitas, serta kepatuhan standar profesional. 🔑 Kata Kunci Wajib Ingat — Modul 5 ECM (Dokumentasi Siklus Hidup) AIIM (Capture·Manage·Store·Preserve·Deliver) CAE & Komite Audit ISACA (ex-EDP) Poin Ujian: Langkah pertama penerapan ECM adalah mendokumentasikan siklus hidup konten . Standar audit internal menilai penyampaian nilai & keselarasan visi/misi organisasi."
+    },
+    {
+      "id": "m6",
+      "title": "Tata Kelola TI, Budaya Etis Perusahaan, Whistleblower & Media Sosial",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#7c3aed;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Tata Kelola TI, Budaya Etis Perusahaan, Whistleblower &amp; Media Sosial</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Pernyataan Misi, Kode Etik &amp; Whistleblower</h4>\n          <ul class=\"neat\">\n            <li><strong>Pernyataan Misi:</strong> Elemen kunci struktur tata kelola perusahaan.</li>\n            <li><strong>Kode Etik (Code of Conduct):</strong> Aturan pendukung jelas bagi karyawan/vendor/pemangku\n              kepentingan; harus ditinjau berkala minimal setiap <mark class=\"hl-yellow\">2 tahun</mark>.</li>\n            <li><strong>5 Langkah Peluncuran Etika &amp; Whistleblower:</strong> Kebijakan perusahaan, program\n              kepedulian karyawan, pelatihan supervisor, bimbingan kontraktor, &amp; survei karyawan.</li>\n            <li><mark class=\"hl-mint\">Whistleblower &amp; Hotline:</mark> Pelapor aktivitas ilegal/tidak jujur via\n              saluran rahasia tanpa takut pembalasan.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Risiko &amp; Kebijakan Tata Kelola Media Sosial</h4>\n          <ul class=\"neat\">\n            <li><strong>Risiko Social Media Computing:</strong> Hilangnya reputasi &amp; tanggung jawab hukum, kebocoran\n              data sensitif, pencurian identitas, <em>phishing</em>, malware/<em>spyware</em>, &amp; penurunan\n              produktivitas.</li>\n            <li><strong>Masalah Tata Kelola Medsos:</strong> Kurangnya kendali atas konten perusahaan, ketidakpatuhan\n              aturan arsip catatan (<em>records management</em>), &amp; beban bandwidth.</li>\n            <li><strong>Solusi:</strong> Kebijakan media sosial spesifik (apa yang boleh &amp; dilarang) disertai\n              edukasi rutin karyawan.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Ekosistem Budaya Etis &amp;\n          Pengendalian Perusahaan (Modul 6)</div>\n        <svg width=\"680\" height=\"82\" viewBox=\"0 0 680 82\" xmlns=\"http://www.w3.org/2000/svg\"\n          style=\"max-width:100%;height:auto;\">\n          <rect x=\"20\" y=\"16\" width=\"145\" height=\"48\" rx=\"8\" fill=\"#ffffff\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"92\" y=\"37\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Pernyataan Misi</text>\n          <text x=\"92\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">Arah Tata Kelola</text>\n          <path d=\"M167 40 L193 40\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"195\" y=\"16\" width=\"145\" height=\"48\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"267\" y=\"37\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Kode Etik</text>\n          <text x=\"267\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">Review min. 2 tahun</text>\n          <path d=\"M342 40 L368 40\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"370\" y=\"16\" width=\"145\" height=\"48\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"442\" y=\"37\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Whistleblower</text>\n          <text x=\"442\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">Hotline Rahasia</text>\n          <path d=\"M517 40 L543 40\" stroke=\"#24292f\" stroke-width=\"2\" />\n          <rect x=\"545\" y=\"16\" width=\"115\" height=\"48\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\" />\n          <text x=\"602\" y=\"37\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Kebijakan Medsos</text>\n          <text x=\"602\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">Cegah Kebocoran</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Ekosistem budaya etis perusahaan berawal dari\n          <em>Pernyataan Misi</em>, dijabarkan ke <em>Kode Etik</em> (ditinjau minimal tiap 2 tahun), dikawal saluran\n          <em>Whistleblower</em> rahasia, serta dilengkapi kebijakan <em>Media Sosial</em>.\n        </p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 6</h4>\n        <ul class=\"neat\">\n          <li><strong>6 Topik Kode Etik &amp; Sosialisasi:</strong> Mencakup pendahuluan, kejujuran, perilaku di tempat kerja (kesempatan kerja setara, anti-pelecehan, larangan alkohol/zat), konflik kepentingan, properti &amp; catatan perusahaan, serta kepatuhan hukum. Manajer senior wajib mengakui secara formal telah membaca kode etik; peluncuran dapat dipimpin <strong>CEO</strong> melalui webinar/pelatihan dan ditinjau minimal tiap <strong>2 tahun</strong>.</li>\n          <li><strong>Perlindungan Whistleblower (SOx / Sarbanes-Oxley):</strong> Peraturan <strong>SOx</strong> melindungi pelapor (<em>whistleblower</em>) di perusahaan publik terdaftar SEC (serta aturan Departemen Tenaga Kerja AS) dari pembalasan saat melaporkan dugaan penipuan akuntansi, audit, atau aktivitas ilegal melalui hotline etika rahasia.</li>\n          <li><strong>Kebijakan Media Sosial (Penafian &amp; Hak Cipta):</strong> Karyawan yang berkomentar terkait perusahaan/industri wajib mencantumkan <strong>penafian (<em>disclaimer</em>)</strong> bahwa pandangan tersebut milik pribadi bukan perusahaan, mematuhi hukum <strong>hak cipta</strong>, dan memahami hak perusahaan memantau penggunaan platform sosial.</li>\n          <li><strong>Komite Audit TI &amp; Rapat Triwulanan:</strong> Sesuai aturan SOx, anggota komite audit harus <strong>direktur independen</strong> (umumnya 5–6 orang dari dewan 12–16 anggota; tamu luar tidak memiliki hak suara). Komite audit menyetujui piagam audit, meninjau kinerja <strong>CAE</strong>, dan menjadwalkan <strong>pengarahan triwulanan</strong> (<em>quarterly briefing</em>) atas risiko tata kelola TI yang berkembang.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Pernyataan Misi</span>\n          <span class=\"kw-chip\">Kode Etik (Review 2 Tahun)</span>\n          <span class=\"kw-chip\">Whistleblower &amp; Hotline</span>\n          <span class=\"kw-chip\">Risiko Social Media</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Kode etik perusahaan wajib ditinjau ulang minimal setiap\n          <strong>2 tahun</strong>. Saluran <em>Whistleblower</em> melindungi pelapor dari pembalasan.\n        </p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Tata Kelola TI, Budaya Etis Perusahaan, Whistleblower & Media Sosial KB 1: Pernyataan Misi, Kode Etik & Whistleblower Pernyataan Misi: Elemen kunci struktur tata kelola perusahaan. Kode Etik (Code of Conduct): Aturan pendukung jelas bagi karyawan/vendor/pemangku kepentingan; harus ditinjau berkala minimal setiap 2 tahun . 5 Langkah Peluncuran Etika & Whistleblower: Kebijakan perusahaan, program kepedulian karyawan, pelatihan supervisor, bimbingan kontraktor, & survei karyawan. Whistleblower & Hotline: Pelapor aktivitas ilegal/tidak jujur via saluran rahasia tanpa takut pembalasan. KB 2: Risiko & Kebijakan Tata Kelola Media Sosial Risiko Social Media Computing: Hilangnya reputasi & tanggung jawab hukum, kebocoran data sensitif, pencurian identitas, phishing , malware/ spyware , & penurunan produktivitas. Masalah Tata Kelola Medsos: Kurangnya kendali atas konten perusahaan, ketidakpatuhan aturan arsip catatan ( records management ), & beban bandwidth. Solusi: Kebijakan media sosial spesifik (apa yang boleh & dilarang) disertai edukasi rutin karyawan. Ekosistem Budaya Etis & Pengendalian Perusahaan (Modul 6) Pernyataan Misi Arah Tata Kelola Kode Etik Review min. 2 tahun Whistleblower Hotline Rahasia Kebijakan Medsos Cegah Kebocoran Penjelasan Diagram: Ekosistem budaya etis perusahaan berawal dari Pernyataan Misi , dijabarkan ke Kode Etik (ditinjau minimal tiap 2 tahun), dikawal saluran Whistleblower rahasia, serta dilengkapi kebijakan Media Sosial . 📌 Detail Kecil Wajib Tahu — Modul 6 6 Topik Kode Etik & Sosialisasi: Mencakup pendahuluan, kejujuran, perilaku di tempat kerja (kesempatan kerja setara, anti-pelecehan, larangan alkohol/zat), konflik kepentingan, properti & catatan perusahaan, serta kepatuhan hukum. Manajer senior wajib mengakui secara formal telah membaca kode etik; peluncuran dapat dipimpin CEO melalui webinar/pelatihan dan ditinjau minimal tiap 2 tahun . Perlindungan Whistleblower (SOx / Sarbanes-Oxley): Peraturan SOx melindungi pelapor ( whistleblower ) di perusahaan publik terdaftar SEC (serta aturan Departemen Tenaga Kerja AS) dari pembalasan saat melaporkan dugaan penipuan akuntansi, audit, atau aktivitas ilegal melalui hotline etika rahasia. Kebijakan Media Sosial (Penafian & Hak Cipta): Karyawan yang berkomentar terkait perusahaan/industri wajib mencantumkan penafian ( disclaimer ) bahwa pandangan tersebut milik pribadi bukan perusahaan, mematuhi hukum hak cipta , dan memahami hak perusahaan memantau penggunaan platform sosial. Komite Audit TI & Rapat Triwulanan: Sesuai aturan SOx, anggota komite audit harus direktur independen (umumnya 5–6 orang dari dewan 12–16 anggota; tamu luar tidak memiliki hak suara). Komite audit menyetujui piagam audit, meninjau kinerja CAE , dan menjadwalkan pengarahan triwulanan ( quarterly briefing ) atas risiko tata kelola TI yang berkembang. 🔑 Kata Kunci Wajib Ingat — Modul 6 Pernyataan Misi Kode Etik (Review 2 Tahun) Whistleblower & Hotline Risiko Social Media Poin Ujian: Kode etik perusahaan wajib ditinjau ulang minimal setiap 2 tahun . Saluran Whistleblower melindungi pelapor dari pembalasan."
+    },
+    {
+      "id": "ahli",
+      "title": "Tokoh & Lembaga Standar Kunci dalam BMP MSIM4402",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI &amp; STANDAR</span>\n        <h2 class=\"mod-title\">Tokoh &amp; Lembaga Standar Kunci dalam BMP MSIM4402</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Robert R. Moeller (2013):</strong> Rujukan utama kerangka pengendalian internal\n              <strong>COSO</strong>, <strong>COBIT</strong>, audit internal TI, serta program etika &amp;\n              <em>whistleblower</em>.\n            </li>\n            <li><strong>COSO &amp; ISACA (ex-Asosiasi Auditor EDP):</strong> Standar pengendalian internal (fondasi <em>Internal Control\n                Environment</em>) &amp; tata kelola TI COBIT (3 tujuan nilai: realisasi manfaat, optimalisasi risiko,\n              optimalisasi sumber daya).</li>\n            <li><strong>IIA (<em>Institute of Internal Auditors</em>):</strong> Organisasi profesi auditor internal global yang menerbitkan standar praktik wajib &amp; pedoman tata kelola audit internal.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>AIIM (Association for Information and Image Management):</strong> Merumuskan 5 area utama dalam\n              <em>Enterprise Content Management (ECM)</em> (Capture, Manage, Store, Preserve, Deliver).\n            </li>\n            <li><strong>IEEE:</strong> Mendefinisikan 4 elemen Manajemen Konfigurasi TI (<em>Identifikasi, Kontrol,\n                Status, Audit dan Review</em>).</li>\n            <li><strong>(ISC)² &amp; Regulasi SOx (Sarbanes-Oxley):</strong> (ISC)² mengembangkan standar keamanan <strong>GASSP v2.0 (1999)</strong>; <strong>SOx / SEC</strong> mewajibkan perlindungan <em>whistleblower</em> dan independensi anggota komite audit.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu (Weill &amp; Ross; ISACA COBIT 5; NIST Cloud)</h4>\n        <ul class=\"neat\">\n          <li><strong>5 Keputusan Kunci Tata Kelola TI (Weill &amp; Ross, MIT):</strong> (1) <em>IT Principles</em> (peran TI), (2) <em>IT Architecture</em>, (3) <em>IT Infrastructure</em>, (4) <em>Business Application Needs</em>, (5) <em>IT Investment &amp; Prioritization</em>.</li>\n          <li><strong>Pemisahan Governance vs Management di COBIT (ISACA):</strong> Domain Governance hanya 1 yaitu <strong>EDM</strong> (<em>Evaluate, Direct, Monitor</em>), sedangkan Management ada 4 yaitu <strong>APO</strong> (Align, Plan, Organise), <strong>BAI</strong> (Build, Acquire, Implement), <strong>DSS</strong> (Deliver, Service, Support), dan <strong>MEA</strong> (Monitor, Evaluate, Assess).</li>\n          <li><strong>Model Layanan Cloud (NIST):</strong> <strong>IaaS</strong> (kelola OS &amp; aplikasi sendiri), <strong>PaaS</strong> (fokus deploy aplikasi/kode), dan <strong>SaaS</strong> (tinggal pakai layanan siap jadi).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Pemisahan Domain COBIT: Governance (EDM) vs Management (APO·BAI·DSS·MEA)</div>\n        <svg width=\"680\" height=\"106\" viewBox=\"0 0 680 106\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"660\" height=\"38\" rx=\"8\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"33\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">GOVERNANCE (Dewan/Direksi): EDM — Evaluate, Direct, Monitor</text>\n\n          <rect x=\"10\" y=\"56\" width=\"155\" height=\"40\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"87\" y=\"80\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">APO (Plan)</text>\n          <rect x=\"178\" y=\"56\" width=\"155\" height=\"40\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"255\" y=\"80\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">BAI (Build)</text>\n          <rect x=\"346\" y=\"56\" width=\"155\" height=\"40\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"423\" y=\"80\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">DSS (Deliver)</text>\n          <rect x=\"514\" y=\"56\" width=\"156\" height=\"40\" rx=\"6\" fill=\"#ede9fe\" stroke=\"#24292f\"/><text x=\"592\" y=\"80\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">MEA (Monitor)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> COBIT memisahkan tata kelola (<strong>EDM</strong> oleh dewan direksi untuk mengarahkan &amp; mengevaluasi) dari manajemen operasional harian (<strong>APO, BAI, DSS, MEA</strong> oleh eksekutif/manajer TI).</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Perbandingan Model Layanan Cloud (IaaS vs PaaS vs SaaS) &amp; Kontrol Keamanan</div>\n        <svg width=\"680\" height=\"104\" viewBox=\"0 0 680 104\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"205\" height=\"84\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"112\" y=\"29\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">IaaS (Infrastructure)</text>\n          <text x=\"112\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">User kelola: App, Data, OS</text>\n          <text x=\"112\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Vendor: Server, Network</text>\n\n          <rect x=\"237\" y=\"10\" width=\"205\" height=\"84\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"339\" y=\"29\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">PaaS (Platform)</text>\n          <text x=\"339\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">User kelola: App &amp; Data</text>\n          <text x=\"339\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Vendor: OS, Runtime, DB</text>\n\n          <rect x=\"464\" y=\"10\" width=\"206\" height=\"84\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"567\" y=\"29\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">SaaS (Software)</text>\n          <text x=\"567\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">User kelola: Data &amp; Akses</text>\n          <text x=\"567\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Vendor: Semua Stack TI</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Semakin ke kanan (<em>IaaS → PaaS → SaaS</em>), semakin banyak pengelolaan teknis yang ditangani vendor cloud, tetapi tanggung jawab privasi &amp; kepatuhan data tetap di pihak perusahaan.</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI & STANDAR Tokoh & Lembaga Standar Kunci dalam BMP MSIM4402 Robert R. Moeller (2013): Rujukan utama kerangka pengendalian internal COSO , COBIT , audit internal TI, serta program etika & whistleblower . COSO & ISACA (ex-Asosiasi Auditor EDP): Standar pengendalian internal (fondasi Internal Control Environment ) & tata kelola TI COBIT (3 tujuan nilai: realisasi manfaat, optimalisasi risiko, optimalisasi sumber daya). IIA ( Institute of Internal Auditors ): Organisasi profesi auditor internal global yang menerbitkan standar praktik wajib & pedoman tata kelola audit internal. AIIM (Association for Information and Image Management): Merumuskan 5 area utama dalam Enterprise Content Management (ECM) (Capture, Manage, Store, Preserve, Deliver). IEEE: Mendefinisikan 4 elemen Manajemen Konfigurasi TI ( Identifikasi, Kontrol, Status, Audit dan Review ). (ISC)² & Regulasi SOx (Sarbanes-Oxley): (ISC)² mengembangkan standar keamanan GASSP v2.0 (1999) ; SOx / SEC mewajibkan perlindungan whistleblower dan independensi anggota komite audit. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu (Weill & Ross; ISACA COBIT 5; NIST Cloud) 5 Keputusan Kunci Tata Kelola TI (Weill & Ross, MIT): (1) IT Principles (peran TI), (2) IT Architecture , (3) IT Infrastructure , (4) Business Application Needs , (5) IT Investment & Prioritization . Pemisahan Governance vs Management di COBIT (ISACA): Domain Governance hanya 1 yaitu EDM ( Evaluate, Direct, Monitor ), sedangkan Management ada 4 yaitu APO (Align, Plan, Organise), BAI (Build, Acquire, Implement), DSS (Deliver, Service, Support), dan MEA (Monitor, Evaluate, Assess). Model Layanan Cloud (NIST): IaaS (kelola OS & aplikasi sendiri), PaaS (fokus deploy aplikasi/kode), dan SaaS (tinggal pakai layanan siap jadi). Pemisahan Domain COBIT: Governance (EDM) vs Management (APO·BAI·DSS·MEA) GOVERNANCE (Dewan/Direksi): EDM — Evaluate, Direct, Monitor APO (Plan) BAI (Build) DSS (Deliver) MEA (Monitor) Penjelasan Diagram: COBIT memisahkan tata kelola ( EDM oleh dewan direksi untuk mengarahkan & mengevaluasi) dari manajemen operasional harian ( APO, BAI, DSS, MEA oleh eksekutif/manajer TI). Perbandingan Model Layanan Cloud (IaaS vs PaaS vs SaaS) & Kontrol Keamanan IaaS (Infrastructure) User kelola: App, Data, OS Vendor: Server, Network PaaS (Platform) User kelola: App & Data Vendor: OS, Runtime, DB SaaS (Software) User kelola: Data & Akses Vendor: Semua Stack TI Penjelasan Diagram: Semakin ke kanan ( IaaS → PaaS → SaaS ), semakin banyak pengelolaan teknis yang ditangani vendor cloud, tetapi tanggung jawab privasi & kepatuhan data tetap di pihak perusahaan."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Tata kelola TI mencakup hal berikut ini, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sistem"
+        },
+        {
+          "letter": "B",
+          "text": "infrastruktur TI secara keseluruhan"
+        },
+        {
+          "letter": "C",
+          "text": "komunikasi"
+        },
+        {
+          "letter": "D",
+          "text": "SDM (soal asli M1: cek konteks) / semua termasuk kecuali di luar cakupan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci M1: C",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Kondisi sangat kekurangan menyeluruh terhadap seluruh proses teknologi di perusahaan merupakan maturity level ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "level 0"
+        },
+        {
+          "letter": "B",
+          "text": "level 1"
+        },
+        {
+          "letter": "C",
+          "text": "level 2"
+        },
+        {
+          "letter": "D",
+          "text": "level 3"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Level 0",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Manajemen TI mendesain organisasi TI pada level strategis dan taktis dengan tujuan, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penyelarasan strategis baru"
+        },
+        {
+          "letter": "B",
+          "text": "solusi inefisiensi struktur"
+        },
+        {
+          "letter": "C",
+          "text": "hilangkan konflik posisi"
+        },
+        {
+          "letter": "D",
+          "text": "memaksimalkan kesalahan perilaku manusia"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Tata kelola TI yang berfokus pada kolaborasi dan adaptabilitas pengambilan keputusan lintas unit disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tata kelola birokratis"
+        },
+        {
+          "letter": "B",
+          "text": "Tata kelola TI organik"
+        },
+        {
+          "letter": "C",
+          "text": "Tata kelola statis"
+        },
+        {
+          "letter": "D",
+          "text": "Tata kelola tunggal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Dampak utama dari tata kelola TI yang buruk bagi perusahaan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Investasi TI boros & tak selaras bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "Efisiensi meningkat"
+        },
+        {
+          "letter": "C",
+          "text": "Keamanan sempurna"
+        },
+        {
+          "letter": "D",
+          "text": "Risiko hilang"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 5
+    },
+    {
+      "module": "M2",
+      "question": "[M2-6] Unit atau proses perusahaan memiliki pengendalian internal yang baik jika, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "misi dinyatakan etis"
+        },
+        {
+          "letter": "B",
+          "text": "butuh data akurat"
+        },
+        {
+          "letter": "C",
+          "text": "patuhi hukum"
+        },
+        {
+          "letter": "D",
+          "text": "pertimbangan ekonomis pemborosan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 6
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Berdasarkan piramida COSO, yang menjadi dasar (fondasi) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "internal control environment"
+        },
+        {
+          "letter": "B",
+          "text": "external control environment"
+        },
+        {
+          "letter": "C",
+          "text": "financial control"
+        },
+        {
+          "letter": "D",
+          "text": "operational control"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 7
+    },
+    {
+      "module": "M2",
+      "question": "[M2-8] Prioritize risk pada COSO monitoring design artinya memahami ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "risiko perusahaan"
+        },
+        {
+          "letter": "B",
+          "text": "internal perusahaan"
+        },
+        {
+          "letter": "C",
+          "text": "objektif perusahaan"
+        },
+        {
+          "letter": "D",
+          "text": "sistem monitoring"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 8
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Prinsip kunci terakhir COBIT berfokus pada konsep manajemen dan tata kelola yang terpisah namun ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tidak terkait"
+        },
+        {
+          "letter": "B",
+          "text": "terlepas"
+        },
+        {
+          "letter": "C",
+          "text": "terkait dalam perusahaan berorientasi TI"
+        },
+        {
+          "letter": "D",
+          "text": "berlawanan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-10] Ada tiga tujuan nilai tata kelola yang ditentukan COBIT, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "realisasi manfaat"
+        },
+        {
+          "letter": "B",
+          "text": "optimalisasi risiko"
+        },
+        {
+          "letter": "C",
+          "text": "optimalisasi sumber daya"
+        },
+        {
+          "letter": "D",
+          "text": "optimalisasi biaya"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 10
+    },
+    {
+      "module": "M3",
+      "question": "[M3-11] Mengurangi biaya infrastruktur karena sentralisasi layanan oleh pihak ketiga merupakan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manfaat cloud computing"
+        },
+        {
+          "letter": "B",
+          "text": "kelemahan cloud"
+        },
+        {
+          "letter": "C",
+          "text": "ancaman cloud"
+        },
+        {
+          "letter": "D",
+          "text": "kekurangan cloud"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 11
+    },
+    {
+      "module": "M3",
+      "question": "[M3-12] Informasi cloud yang dapat disimpan di mana saja menjadi masalah lokasi fisik karena ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "arus info lintas perusahaan"
+        },
+        {
+          "letter": "B",
+          "text": "arus informasi lintas batas"
+        },
+        {
+          "letter": "C",
+          "text": "lintas pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "lintas keamanan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 12
+    },
+    {
+      "module": "M3",
+      "question": "[M3-13] Efektivitas kontrol keamanan bergantung pada faktor berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manajemen sistem"
+        },
+        {
+          "letter": "B",
+          "text": "kontrol eksternal manajemen"
+        },
+        {
+          "letter": "C",
+          "text": "masalah hukum"
+        },
+        {
+          "letter": "D",
+          "text": "jaminan kualitas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 13
+    },
+    {
+      "module": "M3",
+      "question": "[M3-14] Dalam tata kelola TI di mana keamanan TI dibatasi oleh faktor sosial, artinya ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keamanan dan privasi tempat kerja dapat menjadi kendala"
+        },
+        {
+          "letter": "B",
+          "text": "jaringan jadi kendala"
+        },
+        {
+          "letter": "C",
+          "text": "keamanan jadi kekuatan"
+        },
+        {
+          "letter": "D",
+          "text": "kondisi lingkungan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 14
+    },
+    {
+      "module": "M3",
+      "question": "[M3-15] Perencanaan untuk memastikan operasional TI tetap berjalan saat terjadi bencana disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Business Continuity Planning (BCP)"
+        },
+        {
+          "letter": "B",
+          "text": "SOA"
+        },
+        {
+          "letter": "C",
+          "text": "ECM"
+        },
+        {
+          "letter": "D",
+          "text": "Whistleblower"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 15
+    },
+    {
+      "module": "M4",
+      "question": "[M4-16] SOA adalah gaya arsitektur TI yang bertujuan untuk mencapai ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "integritas"
+        },
+        {
+          "letter": "B",
+          "text": "fleksibilitas di antara bagian perangkat lunak yang berinteraksi"
+        },
+        {
+          "letter": "C",
+          "text": "koneksitas"
+        },
+        {
+          "letter": "D",
+          "text": "korelasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 16
+    },
+    {
+      "module": "M4",
+      "question": "[M4-17] Pemangku kepentingan yang terlibat langsung dalam perancangan proses SOA adalah, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pemilik bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "arsitek SOA"
+        },
+        {
+          "letter": "C",
+          "text": "pengembang aplikasi"
+        },
+        {
+          "letter": "D",
+          "text": "pengguna akhir umum"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 17
+    },
+    {
+      "module": "M4",
+      "question": "[M4-18] Implementasi SOA sepenuhnya memberikan manfaat berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "implementasi cepat kemampuan bisnis baru"
+        },
+        {
+          "letter": "B",
+          "text": "mengurangi dampak perubahan"
+        },
+        {
+          "letter": "C",
+          "text": "lindungi investasi"
+        },
+        {
+          "letter": "D",
+          "text": "menambah dampak perubahan bisnis & teknologi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 18
+    },
+    {
+      "module": "M4",
+      "question": "[M4-19] IEEE mendefinisikan Manajemen Konfigurasi TI memiliki 4 elemen: identifikasi, kontrol, status, dan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "audit dan review"
+        },
+        {
+          "letter": "B",
+          "text": "pemasaran"
+        },
+        {
+          "letter": "C",
+          "text": "rekrutmen"
+        },
+        {
+          "letter": "D",
+          "text": "penggajian"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 19
+    },
+    {
+      "module": "M4",
+      "question": "[M4-20] Peran Manajer Kualitas SOA terkait tata kelola TI adalah memastikan layanan memenuhi...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "standar kualitas & SLA"
+        },
+        {
+          "letter": "B",
+          "text": "harga terendah"
+        },
+        {
+          "letter": "C",
+          "text": "desain grafis"
+        },
+        {
+          "letter": "D",
+          "text": "jadwal liburan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 20
+    },
+    {
+      "module": "M5",
+      "question": "[M5-21] Langkah awal penerapan proses Enterprise Content Management (ECM) agar efisien adalah manajemen harus...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "melakukan dokumentasi siklus hidup konten"
+        },
+        {
+          "letter": "B",
+          "text": "menilai dokumentasi"
+        },
+        {
+          "letter": "C",
+          "text": "mereview"
+        },
+        {
+          "letter": "D",
+          "text": "merencanakan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 21
+    },
+    {
+      "module": "M5",
+      "question": "[M5-22] Lima bidang fokus audit internal dalam tinjauan tata kelola TI, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penyampaian nilai"
+        },
+        {
+          "letter": "B",
+          "text": "risiko manajemen"
+        },
+        {
+          "letter": "C",
+          "text": "manajemen sumber daya"
+        },
+        {
+          "letter": "D",
+          "text": "manajemen keuangan pribadi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 22
+    },
+    {
+      "module": "M5",
+      "question": "[M5-23] Meninjau penyampaian nilai fungsi TI dan keselarasan dengan visi/misi/strategi organisasi merupakan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "standar profesional audit internal"
+        },
+        {
+          "letter": "B",
+          "text": "standar audit eksternal"
+        },
+        {
+          "letter": "C",
+          "text": "standar proyek"
+        },
+        {
+          "letter": "D",
+          "text": "standar operasional"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 23
+    },
+    {
+      "module": "M5",
+      "question": "[M5-24] Audit kontrol TI untuk menyarankan proses pelaporan yang optimal berdampak pada berkurangnya...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "frekuensi risiko"
+        },
+        {
+          "letter": "B",
+          "text": "kedalaman pelaporan"
+        },
+        {
+          "letter": "C",
+          "text": "frekuensi jaminan"
+        },
+        {
+          "letter": "D",
+          "text": "ketidakefisienan/duplikasi kontrol"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "/ D",
+      "num": 24
+    },
+    {
+      "module": "M5",
+      "question": "[M5-25] Tujuan utama pengukuran dan pemantauan tata kelola TI adalah memastikan TI...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menghasilkan nilai bisnis & risiko terkendali"
+        },
+        {
+          "letter": "B",
+          "text": "memakai biaya terbesar"
+        },
+        {
+          "letter": "C",
+          "text": "berjalan tanpa aturan"
+        },
+        {
+          "letter": "D",
+          "text": "tertutup"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 25
+    },
+    {
+      "module": "M6",
+      "question": "[M6-26] Sementara pernyataan misi adalah elemen kunci tata kelola, fungsi kode etik adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "aturan utama"
+        },
+        {
+          "letter": "B",
+          "text": "aturan utama perusahaan"
+        },
+        {
+          "letter": "C",
+          "text": "memberikan aturan pendukung untuk pemangku kepentingan perusahaan"
+        },
+        {
+          "letter": "D",
+          "text": "aturan pelanggan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 26
+    },
+    {
+      "module": "M6",
+      "question": "[M6-27] Contoh kode etik perilaku di tempat kerja adalah berikut ini, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "standar kesempatan kerja setara"
+        },
+        {
+          "letter": "B",
+          "text": "pelecehan seksual"
+        },
+        {
+          "letter": "C",
+          "text": "penyalahgunaan alkohol/zat"
+        },
+        {
+          "letter": "D",
+          "text": "penyalahgunaan media sosial (kebijakan terpisah)"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 27
+    },
+    {
+      "module": "M6",
+      "question": "[M6-28] Saluran pelaporan rahasia bagi karyawan untuk melaporkan pelanggaran etika/hukum disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Whistleblower & hotline"
+        },
+        {
+          "letter": "B",
+          "text": "Helpdesk"
+        },
+        {
+          "letter": "C",
+          "text": "Switchboard"
+        },
+        {
+          "letter": "D",
+          "text": "Cloud"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 28
+    },
+    {
+      "module": "M6",
+      "question": "[M6-29] Dampak negatif social media computing yang harus diatur tata kelola TI perusahaan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kebocoran informasi rahasia & kerusakan reputasi"
+        },
+        {
+          "letter": "B",
+          "text": "Promosi gratis"
+        },
+        {
+          "letter": "C",
+          "text": "Komunikasi cepat"
+        },
+        {
+          "letter": "D",
+          "text": "Kolaborasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 29
+    },
+    {
+      "module": "M6",
+      "question": "[M6-30] Budaya tempat kerja yang etis dalam tata kelola TI paling efektif dibangun mulai dari...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keteladanan pimpinan (tone at the top) & program etika jelas"
+        },
+        {
+          "letter": "B",
+          "text": "Sanksi tanpa sosialisasi"
+        },
+        {
+          "letter": "C",
+          "text": "Dibiarkan alami"
+        },
+        {
+          "letter": "D",
+          "text": "Rahasia"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 30
+    }
+  ],
+  "essayQuestions": [
+    {
+      "question": "1. Jelaskan definisi Tata Kelola TI dan manfaat utamanya!",
+      "answer": "Mekanisme kepemimpinan, struktur organisasi, dan proses yang memastikan TI mendukung dan selaras dengan strategi serta tujuan bisnis; manfaatnya meliputi realisasi nilai investasi TI, pengendalian risiko, dan optimalisasi sumber daya.",
+      "num": 1
+    },
+    {
+      "question": "2. Jelaskan hubungan antara IT Governance dan COSO!",
+      "answer": "COSO menyediakan kerangka kerja pengendalian internal (berbasis Internal Control Environment) yang menjadi bagian penting dari tata kelola TI untuk memastikan pelaporan akurat, kepatuhan hukum, dan efisiensi operasi.",
+      "num": 2
+    },
+    {
+      "question": "3. Sebutkan 3 tujuan nilai tata kelola TI menurut COBIT!",
+      "answer": "(1) Realisasi manfaat (benefits realization), (2) Optimalisasi risiko (risk optimization), dan (3) Optimalisasi sumber daya (resource optimization).",
+      "num": 3
+    },
+    {
+      "question": "4. Jelaskan hubungan Business Continuity Planning (BCP) dengan tata kelola TI!",
+      "answer": "BCP memastikan fungsi kritis bisnis dan layanan TI tetap berjalan atau cepat pulih saat terjadi gangguan/bencana, yang merupakan bentuk nyata pengelolaan risiko dalam tata kelola TI.",
+      "num": 4
+    },
+    {
+      "question": "5. Apa itu SOA dan bagaimana manfaatnya bagi tata kelola TI?",
+      "answer": "Service-Oriented Architecture adalah gaya arsitektur perangkat lunak berbasis layanan modular yang fleksibel sehingga memudahkan respons cepat terhadap perubahan bisnis dan melindungi investasi TI.",
+      "num": 5
+    },
+    {
+      "question": "6. Sebutkan 4 elemen Manajemen Konfigurasi TI menurut IEEE!",
+      "answer": "(1) Identifikasi konfigurasi, (2) Kontrol perubahan konfigurasi, (3) Pelaporan status konfigurasi, dan (4) Audit dan review konfigurasi.",
+      "num": 6
+    },
+    {
+      "question": "7. Apa langkah awal implementasi Enterprise Content Management (ECM)?",
+      "answer": "Manajemen harus melakukan dokumentasi siklus hidup konten (dari pembuatan, penyimpanan, distribusi, hingga retensi/penghapusan).",
+      "num": 7
+    },
+    {
+      "question": "8. Sebutkan 5 bidang fokus Audit Internal pada Tata Kelola TI!",
+      "answer": "Keselarasan strategis (strategic alignment), penyampaian nilai (value delivery), manajemen risiko, manajemen sumber daya, dan pengukuran kinerja.",
+      "num": 8
+    },
+    {
+      "question": "9. Jelaskan fungsi Whistleblower dan Hotline dalam budaya perusahaan!",
+      "answer": "Memberikan mekanisme aman dan anonim bagi karyawan/pihak internal untuk melaporkan pelanggaran etika, kecurangan, atau pelanggaran hukum tanpa takut pembalasan.",
+      "num": 9
+    },
+    {
+      "question": "10. Bagaimana hubungan pernyataan misi dan kode etik dengan tata kelola TI?",
+      "answer": "Pernyataan misi menetapkan arah strategis utama organisasi, sedangkan kode etik memberikan aturan perilaku pendukung bagi seluruh pemangku kepentingan agar selaras dengan tata kelola perusahaan.",
+      "num": 10
+    }
+  ]
+}

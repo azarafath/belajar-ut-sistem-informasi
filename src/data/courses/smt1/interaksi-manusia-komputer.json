@@ -1,0 +1,2169 @@
+{
+  "slug": "interaksi-manusia-komputer",
+  "semester": 1,
+  "url": "/smt1/interaksi-manusia-komputer",
+  "canonical": "https://belajar-ut.azf.my.id/smt1/interaksi-manusia-komputer.html",
+  "title": "MSIM4208: Interaksi Manusia dan Komputer — Modul & Bank Soal UT",
+  "shortLabel": "IMK / HCI (MSIM4208)",
+  "h1": "MSIM4208: Interaksi Manusia dan Komputer",
+  "metaDesc": "Ringkasan lengkap 9 modul Interaksi Manusia dan Komputer (MSIM4208) UT: Antarmuka Manusia & Komputer, Faktor Manusia (Perseptual/Kognitif/Motorik), Kerangka Kerja & Paradigma Interaksi, Kebergunaan & 8 Aturan Emas Shneiderman, Manipulasi Langsung, Menu, Dialog & Borang, Perancangan Tampilan, serta Peranti & Ergonomi + 81 Soal PG.",
+  "coverTag": "Semester 1 • BMP UT (Ir. Paulus Insap Santosa)",
+  "coverTagColor": "#db2777",
+  "coverDesc": "Ringkasan lengkap 9 modul Interaksi Manusia dan Komputer (MSIM4208) UT: Antarmuka Manusia & Komputer, Faktor Manusia (Perseptual/Kognitif/Motorik), Kerangka Kerja & Paradigma Interaksi, Kebergunaan & 8 Aturan Emas Shneiderman, Manipulasi Langsung, Menu, Dialog & Borang, Perancangan Tampilan, serta Peranti & Ergonomi + 81 Soal PG.",
+  "badges": [
+    {
+      "bg": "var(--hl-pink)",
+      "text": "9 Modul + Diagram"
+    },
+    {
+      "bg": "var(--hl-mint)",
+      "text": "81 Soal PG + Pembahasan"
+    },
+    {
+      "bg": "var(--hl-yellow)",
+      "text": "Semester 1 • UI/UX & HCI"
+    }
+  ],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Antarmuka Manusia dan Komputer"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Faktor Manusia (Perseptual, Kognitif, Motorik)"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Kerangka Kerja dan Paradigma Interaksi"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Kebergunaan (Usability) & 8 Aturan Emas Shneiderman"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Manipulasi Langsung (Direct Manipulation)"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Antarmuka Berbasis Menu"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Dialog Berbasis Teks dan Pengisian Borang (Form Fill-In)"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Perancangan Tampilan (Screen Design & Layout)"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Peranti Interaksi dan Lingkungan Fisik (Ergonomi)"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Modul 1: Antarmuka Manusia dan Komputer",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-head\">\n        <h2>Modul 1: Antarmuka Manusia dan Komputer</h2>\n        <span class=\"mod-tag\">Modul 1</span>\n      </div>\n      <h3>KB 1: Pengertian &amp; Ruang Lingkup IMK (HCI)</h3>\n        <ul>\n          <li><strong>IMK (Human-Computer Interaction):</strong> Disiplin ilmu yang mempelajari perancangan, evaluasi, dan implementasi sistem komputasi interaktif untuk digunakan manusia.</li>\n          <li><strong>Sifat Multidisiplin:</strong> Memadukan Ilmu Komputer, Psikologi Kognitif, Desain Grafis/Tipografi, Ergonomi, Linguistik, dan Sosiologi.</li>\n        </ul><h3>KB 2: Tujuan Perancangan Antarmuka</h3>\n        <ul>\n          <li><strong>Mengapa Antarmuka Penting?</strong> Bagi pengguna akhir, <em>antarmuka adalah sistem itu sendiri</em>. Desain yang buruk menurunkan produktivitas dan meningkatkan kesalahan manusia (<em>human error</em>).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Model Dasar Interaksi Manusia, Antarmuka, dan Sistem Komputer\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"60\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"127.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Manusia (User)</text><text x=\"127.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Persepsi, Kognisi, Motorik</text><line x1=\"220\" y1=\"84\" x2=\"265\" y2=\"84\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"242.5\" y=\"78.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Aksi</text><rect x=\"265\" y=\"60\" width=\"150\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Antarmuka (UI)</text><text x=\"340.0\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Jembatan Interaksi</text><line x1=\"265\" y1=\"114\" x2=\"220\" y2=\"114\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"242.5\" y=\"108.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Umpan Balik</text><line x1=\"415\" y1=\"98\" x2=\"460\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"460\" y=\"60\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"552.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Komputer (Sistem)</text><text x=\"552.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hardware &amp; Software</text>\n  </svg>\n  <p class=\"svg-caption\">Model Dasar Interaksi Manusia, Antarmuka, dan Sistem Komputer</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">HCI / IMK</span>\n          <span class=\"kw-chip\">Multidisiplin</span>\n          <span class=\"kw-chip\">Human Error</span>\n          <span class=\"kw-chip\">Antarmuka Pengguna</span>\n          <span class=\"kw-chip\">Interaktivitas</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 1: Antarmuka Manusia dan Komputer Modul 1 KB 1: Pengertian & Ruang Lingkup IMK (HCI) IMK (Human-Computer Interaction): Disiplin ilmu yang mempelajari perancangan, evaluasi, dan implementasi sistem komputasi interaktif untuk digunakan manusia. Sifat Multidisiplin: Memadukan Ilmu Komputer, Psikologi Kognitif, Desain Grafis/Tipografi, Ergonomi, Linguistik, dan Sosiologi. KB 2: Tujuan Perancangan Antarmuka Mengapa Antarmuka Penting? Bagi pengguna akhir, antarmuka adalah sistem itu sendiri . Desain yang buruk menurunkan produktivitas dan meningkatkan kesalahan manusia ( human error ). Manusia (User) Persepsi, Kognisi, Motorik Aksi Antarmuka (UI) Jembatan Interaksi Umpan Balik Komputer (Sistem) Hardware & Software Model Dasar Interaksi Manusia, Antarmuka, dan Sistem Komputer 🔑 Kata Kunci Wajib Ingat: HCI / IMK Multidisiplin Human Error Antarmuka Pengguna Interaktivitas"
+    },
+    {
+      "id": "m2",
+      "title": "Modul 2: Faktor Manusia (Perseptual, Kognitif, Motorik)",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-head\">\n        <h2>Modul 2: Faktor Manusia (Perseptual, Kognitif, Motorik)</h2>\n        <span class=\"mod-tag\">Modul 2</span>\n      </div>\n      <h3>KB 1: Penglihatan, Pendengaran, &amp; Sentuhan</h3>\n        <ul>\n          <li><strong>Penglihatan (Visual):</strong> Kepekaan terhadap kontras, ukuran huruf, dan warna. Sekitar 8% pria mengalami buta warna merah-hijau, sehingga jangan mengandalkan warna saja sebagai penanda status.</li>\n          <li><strong>Pendengaran &amp; Haptik:</strong> Audio dan getaran memberikan umpan balik cepat tanpa mengalihkan fokus visual.</li>\n        </ul><h3>KB 2: Memori Manusia &amp; Hukum Fitts</h3>\n        <ul>\n          <li><strong>3 Jenis Memori:</strong> Memori Sensorik, Memori Jangka Pendek / Kerja (kapasitas <strong>7 &plusmn; 2 chunk</strong> menurut George Miller), dan Memori Jangka Panjang.</li>\n          <li><strong>Hukum Fitts (Fitts's Law):</strong> Waktu mencapai target bergantung pada jarak dan ukuran target — tombol penting harus berukuran cukup besar dan mudah dijangkau.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Model Pemrosesan Informasi Manusia: Sensorik, Working Memory (7±2), Long-Term\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"62\" width=\"185\" height=\"74\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"117.5\" y=\"93.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Memori Sensorik</text><text x=\"117.5\" y=\"115.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Sekilas (ms) - Visual/Audio</text><line x1=\"210\" y1=\"99\" x2=\"250\" y2=\"99\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"230.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Atensi</text><rect x=\"250\" y=\"62\" width=\"195\" height=\"74\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"347.5\" y=\"93.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Memori Jangka Pendek</text><text x=\"347.5\" y=\"115.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kapasitas 7 +/- 2 Chunk</text><line x1=\"445\" y1=\"99\" x2=\"485\" y2=\"99\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"465.0\" y=\"93.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Latihan</text><rect x=\"485\" y=\"62\" width=\"170\" height=\"74\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"570.0\" y=\"93.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Memori Jangka Panjang</text><text x=\"570.0\" y=\"115.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Skema &amp; Pengetahuan</text>\n  </svg>\n  <p class=\"svg-caption\">Model Pemrosesan Informasi Manusia: Sensorik, Working Memory (7±2), Long-Term</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Miller 7±2 Chunk</span>\n          <span class=\"kw-chip\">Hukum Fitts</span>\n          <span class=\"kw-chip\">Buta Warna</span>\n          <span class=\"kw-chip\">Memori Kerja</span>\n          <span class=\"kw-chip\">Umpan Balik Haptik</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 2: Faktor Manusia (Perseptual, Kognitif, Motorik) Modul 2 KB 1: Penglihatan, Pendengaran, & Sentuhan Penglihatan (Visual): Kepekaan terhadap kontras, ukuran huruf, dan warna. Sekitar 8% pria mengalami buta warna merah-hijau, sehingga jangan mengandalkan warna saja sebagai penanda status. Pendengaran & Haptik: Audio dan getaran memberikan umpan balik cepat tanpa mengalihkan fokus visual. KB 2: Memori Manusia & Hukum Fitts 3 Jenis Memori: Memori Sensorik, Memori Jangka Pendek / Kerja (kapasitas 7 ± 2 chunk menurut George Miller), dan Memori Jangka Panjang. Hukum Fitts (Fitts's Law): Waktu mencapai target bergantung pada jarak dan ukuran target — tombol penting harus berukuran cukup besar dan mudah dijangkau. Memori Sensorik Sekilas (ms) - Visual/Audio Atensi Memori Jangka Pendek Kapasitas 7 +/- 2 Chunk Latihan Memori Jangka Panjang Skema & Pengetahuan Model Pemrosesan Informasi Manusia: Sensorik, Working Memory (7±2), Long-Term 🔑 Kata Kunci Wajib Ingat: Miller 7±2 Chunk Hukum Fitts Buta Warna Memori Kerja Umpan Balik Haptik"
+    },
+    {
+      "id": "m3",
+      "title": "Modul 3: Kerangka Kerja dan Paradigma Interaksi",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-head\">\n        <h2>Modul 3: Kerangka Kerja dan Paradigma Interaksi</h2>\n        <span class=\"mod-tag\">Modul 3</span>\n      </div>\n      <h3>KB 1: Siklus Eksekusi-Evaluasi Donald Norman</h3>\n        <ul>\n          <li><strong>Gulf of Execution:</strong> Kesenjangan antara niat pengguna dan aksi fisik yang disediakan sistem (apakah pengguna tahu tombol mana yang harus diklik?).</li>\n          <li><strong>Gulf of Evaluation:</strong> Kesenjangan antara tampilan keluaran sistem dan pemahaman pengguna atas status sistem.</li>\n        </ul><h3>KB 2: Paradigma Interaksi</h3>\n        <ul>\n          <li><strong>Evolusi Paradigma:</strong> <em>Time-sharing</em>, <em>WIMP</em> (Windows, Icons, Menus, Pointer), <em>Hypertext/Web</em>, <em>Ubiquitous Computing</em> (komputasi meresap di sekitar kita), dan <em>Antarmuka Alami (Suara/Gestur)</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 215\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Siklus Tindakan Donald Norman: Menjembatani Gulf of Execution &amp; Evaluation\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"45\" y=\"35\" width=\"220\" height=\"64\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"155.0\" y=\"62.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Niat Pengguna (Goal)</text><text x=\"155.0\" y=\"81.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Apa yang ingin dicapai</text><line x1=\"265\" y1=\"67\" x2=\"415\" y2=\"67\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"340.0\" y=\"61.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Gulf of Execution</text><rect x=\"415\" y=\"35\" width=\"220\" height=\"64\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"525.0\" y=\"62.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Aksi pada Sistem</text><text x=\"525.0\" y=\"81.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Klik, Ketik, Sentuh</text><line x1=\"525\" y1=\"99\" x2=\"525\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"415\" y=\"130\" width=\"220\" height=\"64\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"525.0\" y=\"157.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Status Sistem (Output)</text><text x=\"525.0\" y=\"176.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Layar &amp; Umpan Balik</text><line x1=\"415\" y1=\"162\" x2=\"265\" y2=\"162\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"340.0\" y=\"156.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Gulf of Evaluation</text><rect x=\"45\" y=\"130\" width=\"220\" height=\"64\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"155.0\" y=\"157.5\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Interpretasi Pengguna</text><text x=\"155.0\" y=\"176.1\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Memahami Hasil</text><line x1=\"155\" y1=\"130\" x2=\"155\" y2=\"99\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n  </svg>\n  <p class=\"svg-caption\">Siklus Tindakan Donald Norman: Menjembatani Gulf of Execution &amp; Evaluation</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Donald Norman</span>\n          <span class=\"kw-chip\">Gulf of Execution</span>\n          <span class=\"kw-chip\">Gulf of Evaluation</span>\n          <span class=\"kw-chip\">WIMP</span>\n          <span class=\"kw-chip\">Ubiquitous Computing</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 3: Kerangka Kerja dan Paradigma Interaksi Modul 3 KB 1: Siklus Eksekusi-Evaluasi Donald Norman Gulf of Execution: Kesenjangan antara niat pengguna dan aksi fisik yang disediakan sistem (apakah pengguna tahu tombol mana yang harus diklik?). Gulf of Evaluation: Kesenjangan antara tampilan keluaran sistem dan pemahaman pengguna atas status sistem. KB 2: Paradigma Interaksi Evolusi Paradigma: Time-sharing , WIMP (Windows, Icons, Menus, Pointer), Hypertext/Web , Ubiquitous Computing (komputasi meresap di sekitar kita), dan Antarmuka Alami (Suara/Gestur) . Niat Pengguna (Goal) Apa yang ingin dicapai Gulf of Execution Aksi pada Sistem Klik, Ketik, Sentuh Status Sistem (Output) Layar & Umpan Balik Gulf of Evaluation Interpretasi Pengguna Memahami Hasil Siklus Tindakan Donald Norman: Menjembatani Gulf of Execution & Evaluation 🔑 Kata Kunci Wajib Ingat: Donald Norman Gulf of Execution Gulf of Evaluation WIMP Ubiquitous Computing"
+    },
+    {
+      "id": "m4",
+      "title": "Modul 4: Kebergunaan (Usability) & 8 Aturan Emas Shneiderman",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-head\">\n        <h2>Modul 4: Kebergunaan (Usability) &amp; 8 Aturan Emas Shneiderman</h2>\n        <span class=\"mod-tag\">Modul 4</span>\n      </div>\n      <h3>KB 1: 5 Atribut Usability (Jakob Nielsen)</h3>\n        <ul>\n          <li><strong>5 Komponen Kebergunaan:</strong> (1) <em>Learnability</em> (mudah dipelajari), (2) <em>Efficiency</em> (cepat digunakan saat mahir), (3) <em>Memorability</em> (mudah diingat kembali), (4) <em>Errors</em> (tingkat kesalahan rendah &amp; mudah pulih), (5) <em>Satisfaction</em> (menyenangkan dipakai).</li>\n        </ul><h3>KB 2: Eight Golden Rules of Interface Design (Shneiderman)</h3>\n        <ul>\n          <li><strong>8 Aturan Emas:</strong> (1) Konsistensi, (2) Sediakan pintasan (<em>shortcuts</em>) bagi pengguna mahir, (3) Umpan balik informatif, (4) Rancang dialog penutup, (5) Pencegahan &amp; penanganan kesalahan sederhana, (6) Izinkan pembalikan aksi (<em>Undo</em>), (7) Pengguna memegang kendali (<em>locus of control</em>), (8) Kurangi beban memori jangka pendek.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lima Dimensi Utama Kebergunaan (Usability) Menurut Jakob Nielsen\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"20\" y=\"58\" width=\"120\" height=\"74\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"89.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Learnability</text><text x=\"80.0\" y=\"111.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Mudah dipelajari</text><rect x=\"152\" y=\"58\" width=\"120\" height=\"74\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"212.0\" y=\"89.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Efficiency</text><text x=\"212.0\" y=\"111.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Cepat selesai</text><rect x=\"284\" y=\"58\" width=\"120\" height=\"74\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"344.0\" y=\"89.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Memorability</text><text x=\"344.0\" y=\"111.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Mudah diingat</text><rect x=\"416\" y=\"58\" width=\"120\" height=\"74\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"476.0\" y=\"89.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Low Errors</text><text x=\"476.0\" y=\"111.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Minim kesalahan</text><rect x=\"548\" y=\"58\" width=\"114\" height=\"74\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"605.0\" y=\"89.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Satisfaction</text><text x=\"605.0\" y=\"111.3\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Nyaman dipakai</text>\n  </svg>\n  <p class=\"svg-caption\">Lima Dimensi Utama Kebergunaan (Usability) Menurut Jakob Nielsen</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">5 Atribut Usability</span>\n          <span class=\"kw-chip\">8 Aturan Emas Shneiderman</span>\n          <span class=\"kw-chip\">Konsistensi</span>\n          <span class=\"kw-chip\">Undo / Reversal</span>\n          <span class=\"kw-chip\">Locus of Control</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 4: Kebergunaan (Usability) & 8 Aturan Emas Shneiderman Modul 4 KB 1: 5 Atribut Usability (Jakob Nielsen) 5 Komponen Kebergunaan: (1) Learnability (mudah dipelajari), (2) Efficiency (cepat digunakan saat mahir), (3) Memorability (mudah diingat kembali), (4) Errors (tingkat kesalahan rendah & mudah pulih), (5) Satisfaction (menyenangkan dipakai). KB 2: Eight Golden Rules of Interface Design (Shneiderman) 8 Aturan Emas: (1) Konsistensi, (2) Sediakan pintasan ( shortcuts ) bagi pengguna mahir, (3) Umpan balik informatif, (4) Rancang dialog penutup, (5) Pencegahan & penanganan kesalahan sederhana, (6) Izinkan pembalikan aksi ( Undo ), (7) Pengguna memegang kendali ( locus of control ), (8) Kurangi beban memori jangka pendek. Learnability Mudah dipelajari Efficiency Cepat selesai Memorability Mudah diingat Low Errors Minim kesalahan Satisfaction Nyaman dipakai Lima Dimensi Utama Kebergunaan (Usability) Menurut Jakob Nielsen 🔑 Kata Kunci Wajib Ingat: 5 Atribut Usability 8 Aturan Emas Shneiderman Konsistensi Undo / Reversal Locus of Control"
+    },
+    {
+      "id": "m5",
+      "title": "Modul 5: Manipulasi Langsung (Direct Manipulation)",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-head\">\n        <h2>Modul 5: Manipulasi Langsung (Direct Manipulation)</h2>\n        <span class=\"mod-tag\">Modul 5</span>\n      </div>\n      <h3>KB 1: Konsep &amp; Karakteristik Manipulasi Langsung</h3>\n        <ul>\n          <li><strong>Definisi (Shneiderman):</strong> Gaya interaksi di mana objek dan aksi direpresentasikan secara visual terus-menerus dan dapat dimanipulasi secara fisik (<em>drag-and-drop</em>, geser, cubit/zoom) dengan hasil instan yang dapat dibalik.</li>\n          <li><strong>Contoh Nyata:</strong> Menyeret berkas ke ikon tempat sampah, mengedit tata letak slide/desain grafis, atau mencubit peta digital.</li>\n        </ul><h3>KB 2: Kelebihan &amp; Kekurangan</h3>\n        <ul>\n          <li><strong>Kelebihan:</strong> Intuitif bagi pemula, mudah diingat, dan meminimalisasi kesalahan sintaks.</li>\n          <li><strong>Kekurangan:</strong> Memakan ruang layar lebih banyak dan kurang efisien untuk tugas berulang masif dibanding perintah teks/skrip (CLI).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Pilar Utama Antarmuka Manipulasi Langsung (Direct Manipulation)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"125.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Representasi Visual</text><text x=\"125.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Objek terlihat kontinu di layar</text><line x1=\"220\" y1=\"96\" x2=\"255\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"255\" y=\"58\" width=\"175\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"342.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Aksi Fisik Langsung</text><text x=\"342.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Drag, Klik, Pinch, Geser</text><line x1=\"430\" y1=\"96\" x2=\"465\" y2=\"96\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"465\" y=\"58\" width=\"185\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"557.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Hasil Instan &amp; Undo</text><text x=\"557.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Umpan balik seketika</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Pilar Utama Antarmuka Manipulasi Langsung (Direct Manipulation)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Direct Manipulation</span>\n          <span class=\"kw-chip\">Drag-and-Drop</span>\n          <span class=\"kw-chip\">WYSIWYG</span>\n          <span class=\"kw-chip\">Reversible Action</span>\n          <span class=\"kw-chip\">Visual Metaphor</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 5: Manipulasi Langsung (Direct Manipulation) Modul 5 KB 1: Konsep & Karakteristik Manipulasi Langsung Definisi (Shneiderman): Gaya interaksi di mana objek dan aksi direpresentasikan secara visual terus-menerus dan dapat dimanipulasi secara fisik ( drag-and-drop , geser, cubit/zoom) dengan hasil instan yang dapat dibalik. Contoh Nyata: Menyeret berkas ke ikon tempat sampah, mengedit tata letak slide/desain grafis, atau mencubit peta digital. KB 2: Kelebihan & Kekurangan Kelebihan: Intuitif bagi pemula, mudah diingat, dan meminimalisasi kesalahan sintaks. Kekurangan: Memakan ruang layar lebih banyak dan kurang efisien untuk tugas berulang masif dibanding perintah teks/skrip (CLI). Representasi Visual Objek terlihat kontinu di layar Aksi Fisik Langsung Drag, Klik, Pinch, Geser Hasil Instan & Undo Umpan balik seketika Tiga Pilar Utama Antarmuka Manipulasi Langsung (Direct Manipulation) 🔑 Kata Kunci Wajib Ingat: Direct Manipulation Drag-and-Drop WYSIWYG Reversible Action Visual Metaphor"
+    },
+    {
+      "id": "m6",
+      "title": "Modul 6: Antarmuka Berbasis Menu",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-head\">\n        <h2>Modul 6: Antarmuka Berbasis Menu</h2>\n        <span class=\"mod-tag\">Modul 6</span>\n      </div>\n      <h3>KB 1: Jenis Menu &amp; Prinsip Pengelompokan</h3>\n        <ul>\n          <li><strong>Ragam Menu:</strong> Menu datar (<em>single menu</em>), menu tarik-turun (<em>pull-down / drop-down</em>), menu kontekstual (klik kanan), dan <em>mega menu</em>.</li>\n          <li><strong>Struktur Hirarki (Breadth vs Depth):</strong> Riset menyarankan menu lebih baik agak <strong>lebar dan dangkal (broad &amp; shallow)</strong> daripada sempit tetapi sangat dalam (<em>deep</em>), agar pengguna tidak tersesat.</li>\n        </ul><h3>KB 2: Pemilihan &amp; Pengurutan Item Menu</h3>\n        <ul>\n          <li><strong>Pengurutan Logis:</strong> Berdasarkan frekuensi pemakaian, urutan proses kerja, kategori semantik, atau alfabetis.</li>\n          <li><strong>Keunggulan Menu:</strong> Mengurangi beban hafalan pengguna karena berbasis <em>recognition</em> (mengenali) daripada <em>recall</em> (mengingat).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Kedalaman vs Lebar Struktur Hirarki Menu\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"177.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Broad &amp; Shallow (Disarankan)</text><text x=\"177.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Mis. 8 item x 2 level (Cepat ditemukan)</text><rect x=\"360\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"502.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Narrow &amp; Deep (Hindari)</text><text x=\"502.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Mis. 2 item x 6 level (Mudah tersesat)</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Kedalaman vs Lebar Struktur Hirarki Menu</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Broad vs Shallow</span>\n          <span class=\"kw-chip\">Recognition over Recall</span>\n          <span class=\"kw-chip\">Pull-Down Menu</span>\n          <span class=\"kw-chip\">Context Menu</span>\n          <span class=\"kw-chip\">Pengelompokan Semantik</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 6: Antarmuka Berbasis Menu Modul 6 KB 1: Jenis Menu & Prinsip Pengelompokan Ragam Menu: Menu datar ( single menu ), menu tarik-turun ( pull-down / drop-down ), menu kontekstual (klik kanan), dan mega menu . Struktur Hirarki (Breadth vs Depth): Riset menyarankan menu lebih baik agak lebar dan dangkal (broad & shallow) daripada sempit tetapi sangat dalam ( deep ), agar pengguna tidak tersesat. KB 2: Pemilihan & Pengurutan Item Menu Pengurutan Logis: Berdasarkan frekuensi pemakaian, urutan proses kerja, kategori semantik, atau alfabetis. Keunggulan Menu: Mengurangi beban hafalan pengguna karena berbasis recognition (mengenali) daripada recall (mengingat). Broad & Shallow (Disarankan) Mis. 8 item x 2 level (Cepat ditemukan) Narrow & Deep (Hindari) Mis. 2 item x 6 level (Mudah tersesat) Perbandingan Kedalaman vs Lebar Struktur Hirarki Menu 🔑 Kata Kunci Wajib Ingat: Broad vs Shallow Recognition over Recall Pull-Down Menu Context Menu Pengelompokan Semantik"
+    },
+    {
+      "id": "m7",
+      "title": "Modul 7: Dialog Berbasis Teks dan Pengisian Borang (Form Fill-In)",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-head\">\n        <h2>Modul 7: Dialog Berbasis Teks dan Pengisian Borang (Form Fill-In)</h2>\n        <span class=\"mod-tag\">Modul 7</span>\n      </div>\n      <h3>KB 1: Command Line Interface (CLI) &amp; Bahasa Alami</h3>\n        <ul>\n          <li><strong>CLI (Baris Perintah):</strong> Sangat kuat, cepat, dan mudah diotomatisasi bagi pengguna ahli (<em>power user</em>), namun menuntut hafalan sintaks tinggi bagi pemula.</li>\n          <li><strong>Dialog Bahasa Alami / Chatbot:</strong> Memudahkan pengguna awam, tetapi rentan ambiguitas konteks.</li>\n        </ul><h3>KB 2: Desain Pengisian Borang (Form Fill-In)</h3>\n        <ul>\n          <li><strong>Prinsip Borang Baik:</strong> Label jelas di atas/samping kolom, penandaan field wajib (*), petunjuk format input (mis. DD/MM/YYYY), validasi seketika (<em>inline validation</em>) sebelum tombol kirim ditekan, dan pengelompokan logis.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Gaya Interaksi Berbasis Teks (CLI) dan Borang Terstruktur\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"177.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Command Line (CLI)</text><text x=\"177.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Cepat untuk Power User | Hafalan Sintaks</text><rect x=\"360\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"502.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Form Fill-In (Borang)</text><text x=\"502.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Terstruktur, Label Jelas, Validasi Inline</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Gaya Interaksi Berbasis Teks (CLI) dan Borang Terstruktur</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Command Line (CLI)</span>\n          <span class=\"kw-chip\">Power User</span>\n          <span class=\"kw-chip\">Form Fill-In</span>\n          <span class=\"kw-chip\">Inline Validation</span>\n          <span class=\"kw-chip\">Label &amp; Placeholder</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 7: Dialog Berbasis Teks dan Pengisian Borang (Form Fill-In) Modul 7 KB 1: Command Line Interface (CLI) & Bahasa Alami CLI (Baris Perintah): Sangat kuat, cepat, dan mudah diotomatisasi bagi pengguna ahli ( power user ), namun menuntut hafalan sintaks tinggi bagi pemula. Dialog Bahasa Alami / Chatbot: Memudahkan pengguna awam, tetapi rentan ambiguitas konteks. KB 2: Desain Pengisian Borang (Form Fill-In) Prinsip Borang Baik: Label jelas di atas/samping kolom, penandaan field wajib (*), petunjuk format input (mis. DD/MM/YYYY), validasi seketika ( inline validation ) sebelum tombol kirim ditekan, dan pengelompokan logis. Command Line (CLI) Cepat untuk Power User | Hafalan Sintaks Form Fill-In (Borang) Terstruktur, Label Jelas, Validasi Inline Perbandingan Gaya Interaksi Berbasis Teks (CLI) dan Borang Terstruktur 🔑 Kata Kunci Wajib Ingat: Command Line (CLI) Power User Form Fill-In Inline Validation Label & Placeholder"
+    },
+    {
+      "id": "m8",
+      "title": "Modul 8: Perancangan Tampilan (Screen Design & Layout)",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-head\">\n        <h2>Modul 8: Perancangan Tampilan (Screen Design &amp; Layout)</h2>\n        <span class=\"mod-tag\">Modul 8</span>\n      </div>\n      <h3>KB 1: Prinsip Gestalt &amp; Tata Letak Visual</h3>\n        <ul>\n          <li><strong>Hukum Gestalt dalam UI:</strong> <em>Proximity</em> (elemen berdekatan dianggap satu kelompok), <em>Similarity</em> (bentuk/warna sama dianggap sejenis), <em>Closure</em>, dan <em>Figure-Ground</em>.</li>\n          <li><strong>Whitespace (Ruang Kosong):</strong> Ruang kosong bukan area terbuang, melainkan alat meningkatkan keterbacaan dan fokus visual.</li>\n        </ul><h3>KB 2: Tipografi, Warna, &amp; Hirarki Visual</h3>\n        <ul>\n          <li><strong>Kontras &amp; Keterbacaan:</strong> Jaga rasio kontras teks terhadap latar (standar WCAG minimal 4.5:1), batasi palet warna (aturan 60-30-10), dan gunakan ukuran font berbeda untuk memandu mata pengguna.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Prinsip Inti Perancangan Tampilan Antarmuka yang Bersih dan Terstruktur\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"125.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Gestalt Proximity</text><text x=\"125.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Kelompokkan elemen terkait</text><rect x=\"245\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Visual Hierarchy</text><text x=\"340.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Ukuran &amp; Kontras Jelas</text><rect x=\"460\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"555.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Whitespace &amp; Grid</text><text x=\"555.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Napas visual &amp; keteraturan</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Prinsip Inti Perancangan Tampilan Antarmuka yang Bersih dan Terstruktur</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Prinsip Gestalt</span>\n          <span class=\"kw-chip\">Proximity &amp; Similarity</span>\n          <span class=\"kw-chip\">Whitespace</span>\n          <span class=\"kw-chip\">Kontras WCAG</span>\n          <span class=\"kw-chip\">Visual Hierarchy</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 8: Perancangan Tampilan (Screen Design & Layout) Modul 8 KB 1: Prinsip Gestalt & Tata Letak Visual Hukum Gestalt dalam UI: Proximity (elemen berdekatan dianggap satu kelompok), Similarity (bentuk/warna sama dianggap sejenis), Closure , dan Figure-Ground . Whitespace (Ruang Kosong): Ruang kosong bukan area terbuang, melainkan alat meningkatkan keterbacaan dan fokus visual. KB 2: Tipografi, Warna, & Hirarki Visual Kontras & Keterbacaan: Jaga rasio kontras teks terhadap latar (standar WCAG minimal 4.5:1), batasi palet warna (aturan 60-30-10), dan gunakan ukuran font berbeda untuk memandu mata pengguna. Gestalt Proximity Kelompokkan elemen terkait Visual Hierarchy Ukuran & Kontras Jelas Whitespace & Grid Napas visual & keteraturan Tiga Prinsip Inti Perancangan Tampilan Antarmuka yang Bersih dan Terstruktur 🔑 Kata Kunci Wajib Ingat: Prinsip Gestalt Proximity & Similarity Whitespace Kontras WCAG Visual Hierarchy"
+    },
+    {
+      "id": "m9",
+      "title": "Modul 9: Peranti Interaksi dan Lingkungan Fisik (Ergonomi)",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-head\">\n        <h2>Modul 9: Peranti Interaksi dan Lingkungan Fisik (Ergonomi)</h2>\n        <span class=\"mod-tag\">Modul 9</span>\n      </div>\n      <h3>KB 1: Peranti Masukan &amp; Keluaran (I/O Devices)</h3>\n        <ul>\n          <li><strong>Peranti Penunjuk:</strong> Mouse, touchpad, trackball, stylus, dan layar sentuh (<em>touchscreen</em> — langsung di layar, cocok untuk kios/mobile, namun rentan <em>fat-finger problem</em> dan menutupi layar).</li>\n          <li><strong>Peranti Khusus:</strong> Pengenalan suara, pelacak mata (<em>eye tracking</em>), serta teknologi asistif bagi penyandang disabilitas (<em>screen reader</em>).</li>\n        </ul><h3>KB 2: Ergonomi &amp; Lingkungan Kerja Komputer</h3>\n        <ul>\n          <li><strong>Ergonomi Kerja:</strong> Posisi layar sejajar atau sedikit di bawah garis mata (15–20&deg;), jarak pandang 50–70 cm, kursi menopang punggung bawah, sudut siku 90&deg;, dan pencahayaan bebas silau (<em>anti-glare</em>) untuk mencegah kelelahan mata (<em>CVS</em>) dan cedera pergelangan tangan (<em>RSI / Carpal Tunnel</em>).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Prinsip Ergonomi Lingkungan Kerja Komputer untuk Kesehatan Pengguna\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"125.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Postur &amp; Kursi</text><text x=\"125.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Siku 90 deg, punggung tegak</text><rect x=\"245\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Posisi Monitor</text><text x=\"340.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Jarak 50-70 cm, anti-glare</text><rect x=\"460\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.8\"/><text x=\"555.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#991b1b\">Cegah Cedera</text><text x=\"555.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Hindari RSI &amp; kelelahan mata</text>\n  </svg>\n  <p class=\"svg-caption\">Prinsip Ergonomi Lingkungan Kerja Komputer untuk Kesehatan Pengguna</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Ergonomi</span>\n          <span class=\"kw-chip\">Fat-Finger Problem</span>\n          <span class=\"kw-chip\">Screen Reader</span>\n          <span class=\"kw-chip\">RSI / Carpal Tunnel</span>\n          <span class=\"kw-chip\">Anti-Glare</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 9: Peranti Interaksi dan Lingkungan Fisik (Ergonomi) Modul 9 KB 1: Peranti Masukan & Keluaran (I/O Devices) Peranti Penunjuk: Mouse, touchpad, trackball, stylus, dan layar sentuh ( touchscreen — langsung di layar, cocok untuk kios/mobile, namun rentan fat-finger problem dan menutupi layar). Peranti Khusus: Pengenalan suara, pelacak mata ( eye tracking ), serta teknologi asistif bagi penyandang disabilitas ( screen reader ). KB 2: Ergonomi & Lingkungan Kerja Komputer Ergonomi Kerja: Posisi layar sejajar atau sedikit di bawah garis mata (15–20°), jarak pandang 50–70 cm, kursi menopang punggung bawah, sudut siku 90°, dan pencahayaan bebas silau ( anti-glare ) untuk mencegah kelelahan mata ( CVS ) dan cedera pergelangan tangan ( RSI / Carpal Tunnel ). Postur & Kursi Siku 90 deg, punggung tegak Posisi Monitor Jarak 50-70 cm, anti-glare Cegah Cedera Hindari RSI & kelelahan mata Prinsip Ergonomi Lingkungan Kerja Komputer untuk Kesehatan Pengguna 🔑 Kata Kunci Wajib Ingat: Ergonomi Fat-Finger Problem Screen Reader RSI / Carpal Tunnel Anti-Glare"
+    },
+    {
+      "id": "ahli",
+      "title": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-head\">\n        <h2>Menurut Ahli + 📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h2>\n        <span class=\"mod-tag\">Tokoh &amp; Referensi</span>\n      </div>\n      <h3>Tokoh &amp; Teori Kunci dalam IMK / HCI</h3>\n      <ul>\n        <li><strong>Ben Shneiderman</strong> — Merumuskan <strong>8 Golden Rules of Interface Design</strong> serta mempopulerkan konsep <em>Direct Manipulation</em>.</li>\n        <li><strong>Donald A. Norman</strong> — Memperkenalkan konsep <em>Affordance</em>, <em>Gulf of Execution</em>, dan <em>Gulf of Evaluation</em> dalam bukunya <em>The Design of Everyday Things</em>.</li>\n        <li><strong>Jakob Nielsen</strong> — Mendefinisikan 5 atribut Usability serta 10 <em>Usability Heuristics</em> untuk evaluasi antarmuka.</li>\n        <li><strong>George A. Miller</strong> — Mengemukakan keterbatasan kapasitas memori jangka pendek manusia sebesar <strong>7 &plusmn; 2 chunk</strong>.</li>\n        <li><strong>Paul Fitts</strong> — Merumuskan <em>Fitts's Law</em> yang memodelkan hubungan ukuran target dan jarak gerak terhadap kecepatan klik.</li>\n      </ul>\n      <h3>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h3>\n      <ul>\n        <li><strong>Affordance vs Signifier (Norman)</strong>: <em>Affordance</em> adalah kemungkinan aksi pada suatu objek (tombol bisa ditekan), sedangkan <em>Signifier</em> adalah petunjuk visual yang memberitahu pengguna di mana harus bertindak (bayangan tombol atau ikon kursor).</li>\n        <li><strong>Recognition vs Recall</strong>: Antarmuka menu/ikon memanfaatkan <em>recognition</em> (mengenali pilihan yang tampil), jauh lebih ringan bagi memori daripada CLI yang menuntut <em>recall</em> (mengingat perintah dari nol).</li>\n        <li><strong>Aksesibilitas (WCAG)</strong>: Desain inklusif memastikan pengguna dengan gangguan penglihatan atau motorik tetap dapat mengakses aplikasi lewat navigasi keyboard (Tab/Enter), teks alternatif gambar (<code>alt</code>), dan kontras memadai.</li>\n      </ul>\n    </section>",
+      "text": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Tokoh & Referensi Tokoh & Teori Kunci dalam IMK / HCI Ben Shneiderman — Merumuskan 8 Golden Rules of Interface Design serta mempopulerkan konsep Direct Manipulation . Donald A. Norman — Memperkenalkan konsep Affordance , Gulf of Execution , dan Gulf of Evaluation dalam bukunya The Design of Everyday Things . Jakob Nielsen — Mendefinisikan 5 atribut Usability serta 10 Usability Heuristics untuk evaluasi antarmuka. George A. Miller — Mengemukakan keterbatasan kapasitas memori jangka pendek manusia sebesar 7 ± 2 chunk . Paul Fitts — Merumuskan Fitts's Law yang memodelkan hubungan ukuran target dan jarak gerak terhadap kecepatan klik. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Affordance vs Signifier (Norman) : Affordance adalah kemungkinan aksi pada suatu objek (tombol bisa ditekan), sedangkan Signifier adalah petunjuk visual yang memberitahu pengguna di mana harus bertindak (bayangan tombol atau ikon kursor). Recognition vs Recall : Antarmuka menu/ikon memanfaatkan recognition (mengenali pilihan yang tampil), jauh lebih ringan bagi memori daripada CLI yang menuntut recall (mengingat perintah dari nol). Aksesibilitas (WCAG) : Desain inklusif memastikan pengguna dengan gangguan penglihatan atau motorik tetap dapat mengakses aplikasi lewat navigasi keyboard (Tab/Enter), teks alternatif gambar ( alt ), dan kontras memadai."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Disiplin ilmu yang mempelajari perancangan, implementasi, dan evaluasi sistem komputasi interaktif beserta berbagai aspek terkait disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rekayasa Perangkat Lunak"
+        },
+        {
+          "letter": "B",
+          "text": "Interaksi Manusia dan Komputer (IMK)"
+        },
+        {
+          "letter": "C",
+          "text": "Arsitektur Komputer"
+        },
+        {
+          "letter": "D",
+          "text": "Sistem Basis Data"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sesuai Modul 1, IMK adalah disiplin ilmu yang berfokus pada perancangan, implementasi, dan evaluasi sistem komputasi interaktif antara manusia dan mesin",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Suatu program aplikasi secara konseptual terdiri atas dua bagian penting yang terpisah, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bagian perangkat keras dan bagian jaringan"
+        },
+        {
+          "letter": "B",
+          "text": "Bagian antarmuka (interface) dan bagian aplikasi (algoritma pengolah data)"
+        },
+        {
+          "letter": "C",
+          "text": "Bagian basis data dan bagian keamanan"
+        },
+        {
+          "letter": "D",
+          "text": "Bagian dokumentasi dan bagian lisensi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 1 menegaskan dua bagian utama aplikasi: bagian antarmuka sebagai sarana dialog dan bagian aplikasi yang mengolah data dengan algoritma tertentu",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Kriteria utama agar sebuah perangkat lunak mendapat predikat ramah dengan pengguna (user-friendly) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memiliki kode sumber sangat panjang"
+        },
+        {
+          "letter": "B",
+          "text": "Mempunyai antarmuka bagus, mudah dioperasikan dan dipelajari, serta menimbulkan rasa senang"
+        },
+        {
+          "letter": "C",
+          "text": "Hanya berjalan di satu jenis prosesor"
+        },
+        {
+          "letter": "D",
+          "text": "Menggunakan tampilan baris perintah saja"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 1 menyebutkan kriteria user-friendly mencakup antarmuka yang bagus, mudah dioperasikan/dipelajari, dan menyenangkan pengguna",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Kesamaan tampilan dan tata letak fitur pada paket Microsoft Office (MS Word, MS Excel, MS PowerPoint) mencerminkan faktor penting dalam antarmuka, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Konsistensi"
+        },
+        {
+          "letter": "B",
+          "text": "Kompleksitas"
+        },
+        {
+          "letter": "C",
+          "text": "Redundansi"
+        },
+        {
+          "letter": "D",
+          "text": "Enkripsi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 1 mencontohkan MS Word, Excel, dan PowerPoint untuk menunjukkan pentingnya konsistensi tampilan dan fitur agar mudah dipelajari",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Pada contoh program sederhana Python di Modul 1, perbedaan antara statemen raw_input dan input adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "raw_input hanya menerima angka bulat"
+        },
+        {
+          "letter": "B",
+          "text": "raw_input memperbolehkan pengguna memasukkan sembarang karakter, sedangkan input hanya memperbolehkan masukan berupa angka"
+        },
+        {
+          "letter": "C",
+          "text": "input digunakan untuk mencetak ke layar"
+        },
+        {
+          "letter": "D",
+          "text": "Keduanya tidak menerima masukan dari keyboard"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Dalam Modul 1 KB 1 dijelaskan bahwa raw_input menerima sembarang karakter, sedangkan input hanya menerima nilai numerik/angka",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-6] Disiplin ilmu pendukung IMK yang membahas interaksi antara teknologi, cara kerja, dan organisasi dalam suatu lingkungan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antropologi"
+        },
+        {
+          "letter": "B",
+          "text": "Termodinamika"
+        },
+        {
+          "letter": "C",
+          "text": "Linguistik Komputasional"
+        },
+        {
+          "letter": "D",
+          "text": "Teknik Sipil"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 1 menjelaskan bahwa Antropologi berperan memahami interaksi antara teknologi, kerja, dan organisasi di lingkungan pengguna",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1-7] Ungkapan bijak bahwa sebuah gambar dapat bermakna sama dengan seribu kata dalam Modul 1 berkaitan erat dengan peran disiplin ilmu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perancangan Grafis dan Tipografi"
+        },
+        {
+          "letter": "B",
+          "text": "Akuntansi Manajerial"
+        },
+        {
+          "letter": "C",
+          "text": "Kimia Organik"
+        },
+        {
+          "letter": "D",
+          "text": "Hukum Siber"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 1 mengaitkan ungkapan tersebut dengan Perancangan Grafis dan Tipografi dalam menyajikan informasi visual yang efektif",
+      "num": 7
+    },
+    {
+      "module": "M1",
+      "question": "[M1-8] Salah satu keuntungan utama menggunakan peranti bantu pengembang sistem antarmuka (seperti MacApp) menurut Modul 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Program antarmuka harus ditulis ulang dari nol untuk setiap proyek"
+        },
+        {
+          "letter": "B",
+          "text": "Rancangan sementara dapat segera dibuatkan purwarupa (prototipe) dan komponennya bersifat dapat-digunakan-kembali (reusable)"
+        },
+        {
+          "letter": "C",
+          "text": "Menghilangkan kebutuhan evaluasi pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "Membatasi aplikasi hanya pada satu antarmuka saja"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 1 KB 2 menyatakan peranti bantu mempercepat pembuatan purwarupa, membuat kode antarmuka reusable, dan lebih ekonomis dipelihara",
+      "num": 8
+    },
+    {
+      "module": "M1",
+      "question": "[M1-9] Dalam strategi pengembangan antarmuka di Modul 1, pemisahan antara bagian antarmuka dan bagian aplikasi bertujuan agar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kedua bagian tidak dapat berkomunikasi"
+        },
+        {
+          "letter": "B",
+          "text": "Masing-masing dapat diimplementasikan dan dimodifikasi secara terpisah tanpa merusak logika inti aplikasi"
+        },
+        {
+          "letter": "C",
+          "text": "Pengguna langsung menulis kode algoritma"
+        },
+        {
+          "letter": "D",
+          "text": "Ukuran berkas aplikasi menjadi berlipat ganda"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pemisahan bagian antarmuka dan aplikasi memudahkan modifikasi, validasi, serta pemeliharaan antarmuka secara independen",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Menurut Modul 2, panca indera manusia yang menjadi indera utama penentu kualitas interaksi dengan komputer adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indera penciuman"
+        },
+        {
+          "letter": "B",
+          "text": "Indera penglihatan"
+        },
+        {
+          "letter": "C",
+          "text": "Indera pengecap"
+        },
+        {
+          "letter": "D",
+          "text": "Indera keseimbangan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 2 menegaskan indera penglihatan sebagai indera utama yang menentukan kualitas interaksi, meliputi luminasi, kontras, ketajaman, dan warna",
+      "num": 10
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Kapasitas rata-rata memori jangka pendek (working memory) manusia menurut prinsip George Miller adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2 ± 1 item"
+        },
+        {
+          "letter": "B",
+          "text": "7 ± 2 chunk"
+        },
+        {
+          "letter": "C",
+          "text": "25 ± 5 chunk"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak terbatas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Prinsip The Magical Number Seven, Plus or Minus Two menyatakan kapasitas memori kerja manusia sekitar 7 plus-minus 2 unit informasi/chunk",
+      "num": 11
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Menurut Hukum Fitts (Fitts Law), waktu yang dibutuhkan pengguna untuk mengarahkan penunjuk ke suatu tombol akan semakin singkat apabila...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ukuran tombol sangat kecil dan berada di sudut terjauh"
+        },
+        {
+          "letter": "B",
+          "text": "Ukuran tombol cukup besar dan jaraknya dekat dengan posisi kursor"
+        },
+        {
+          "letter": "C",
+          "text": "Warna tombol berkedip terus-menerus"
+        },
+        {
+          "letter": "D",
+          "text": "Tombol hanya muncul saat ditekan Ctrl"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Hukum Fitts memodelkan waktu gerak sebagai fungsi rasio jarak terhadap ukuran target: target besar dan dekat paling cepat dicapai",
+      "num": 12
+    },
+    {
+      "module": "M2",
+      "question": "[M2-4] Mengingat sebagian pengguna mengalami keterbatasan penglihatan warna (buta warna merah-hijau), praktik terbaik dalam merancang indikator status pada antarmuka adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hanya menggunakan perbedaan warna merah dan hijau"
+        },
+        {
+          "letter": "B",
+          "text": "Menggabungkan warna dengan ikon, teks, atau pola pembeda"
+        },
+        {
+          "letter": "C",
+          "text": "Menghilangkan seluruh indikator status"
+        },
+        {
+          "letter": "D",
+          "text": "Menggunakan warna abu-abu pucat untuk semua pesan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Warna tidak boleh menjadi satu-satunya penyampai informasi; kombinasikan dengan ikon atau teks agar tetap inklusif",
+      "num": 13
+    },
+    {
+      "module": "M2",
+      "question": "[M2-5] Dalam Modul 2, pemanfaatan indera pendengaran dalam IMK menuntut perancang untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memutar musik keras sepanjang waktu"
+        },
+        {
+          "letter": "B",
+          "text": "Menyesuaikan media interaksi audio dengan batas kemampuan mendengar manusia sebagai umpan balik atau peringatan"
+        },
+        {
+          "letter": "C",
+          "text": "Mengganti seluruh tampilan teks dengan suara"
+        },
+        {
+          "letter": "D",
+          "text": "Menghapus semua sinyal audio sistem"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Indera pendengaran digunakan untuk sinyal umpan balik dan peringatan yang harus disesuaikan dengan jangkauan pendengaran manusia",
+      "num": 14
+    },
+    {
+      "module": "M2",
+      "question": "[M2-6] Indera peraba (sentuhan) dalam Modul 2 dikaitkan secara langsung dengan aspek...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kecepatan prosesor server"
+        },
+        {
+          "letter": "B",
+          "text": "Ergonomi peranti masukan agar pengguna merasa nyaman, mudah, dan tertarik saat berinteraksi"
+        },
+        {
+          "letter": "C",
+          "text": "Kompresi berkas gambar"
+        },
+        {
+          "letter": "D",
+          "text": "Pengalamatan IP jaringan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 2 menghubungkan indera peraba dengan aspek ergonomis peranti interaksi yang nyaman dan memudahkan pengguna",
+      "num": 15
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Urutan proses kognitif manusia saat menerima rangsangan dari antarmuka komputer yang tepat adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengeksekusi respon, lalu menyandikan informasi"
+        },
+        {
+          "letter": "B",
+          "text": "Menyandikan informasi dari lingkungan ke representasi internal, membandingkannya dengan memori di otak, memutuskan respon, lalu mengeksekusi respon"
+        },
+        {
+          "letter": "C",
+          "text": "Langsung menekan tombol tanpa persepsi"
+        },
+        {
+          "letter": "D",
+          "text": "Menghapus memori jangka panjang terlebih dahulu"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sesuai Modul 2, pemrosesan dimulai dari penyandian rangsangan, pencocokan dengan informasi di otak, pengambilan keputusan respon, dan eksekusi tindakan",
+      "num": 16
+    },
+    {
+      "module": "M2",
+      "question": "[M2-8] Aspek visual yang meliputi luminasi, kontras, kecerahan, sudut dan ketajaman penglihatan, serta medan penglihatan perlu dipahami perancang agar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Teks dan elemen antarmuka mudah dibaca serta tidak cepat melelahkan mata pengguna"
+        },
+        {
+          "letter": "B",
+          "text": "Konsumsi daya monitor meningkat drastis"
+        },
+        {
+          "letter": "C",
+          "text": "Ukuran font dibuat sekecil mungkin"
+        },
+        {
+          "letter": "D",
+          "text": "Seluruh layar diisi warna neon kontras rendah"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Pemahaman faktor penglihatan memastikan keterbacaan optimal dan kenyamanan mata selama berinteraksi dengan layar",
+      "num": 17
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Selain kemampuan individu pengguna, Modul 2 menekankan bahwa perancang sistem interaktif juga harus memperhatikan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lingkungan sosial dan lingkungan kognitif tempat pengguna bekerja"
+        },
+        {
+          "letter": "B",
+          "text": "Merek meja kerja semata"
+        },
+        {
+          "letter": "C",
+          "text": "Harga saham produsen komputer"
+        },
+        {
+          "letter": "D",
+          "text": "Bahasa pemrograman backend yang dipakai"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 2 menyebutkan perancang perlu memperhatikan lingkungan sosial dan kognitif sekitar pengguna untuk mencapai sasaran perancangan interaktif",
+      "num": 18
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Menurut Modul 3 KB 1, fungsi utama kerangka kerja (framework) dalam interaksi manusia dan komputer adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menggantikan seluruh proses pengujian pengguna"
+        },
+        {
+          "letter": "B",
+          "text": "Memahami cara manusia berinteraksi dengan komputer, menyusun proses perancangan, dan mengidentifikasi bagian rancangan yang bermasalah"
+        },
+        {
+          "letter": "C",
+          "text": "Membatasi kreativitas perancang antarmuka"
+        },
+        {
+          "letter": "D",
+          "text": "Mengubah bahasa pemrograman menjadi kode mesin"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kerangka kerja mengkonseptualisasikan ruang persoalan secara menyeluruh dan membantu menemukan titik masalah dalam rancangan",
+      "num": 19
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Dalam model siklus interaksi Donald Norman, kesenjangan antara niat pengguna dan aksi fisik yang disediakan oleh sistem disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gulf of Evaluation"
+        },
+        {
+          "letter": "B",
+          "text": "Gulf of Execution"
+        },
+        {
+          "letter": "C",
+          "text": "Direct Manipulation"
+        },
+        {
+          "letter": "D",
+          "text": "System Image"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Gulf of Execution mengukur seberapa sulit atau mudah pengguna menerjemahkan niatnya menjadi aksi nyata pada antarmuka",
+      "num": 20
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Kesenjangan antara kondisi aktual sistem yang ditampilkan dengan kemampuan pengguna menginterpretasikan apakah tujuannya sudah tercapai disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gulf of Execution"
+        },
+        {
+          "letter": "B",
+          "text": "Gulf of Evaluation"
+        },
+        {
+          "letter": "C",
+          "text": "Jarak Artikulatori"
+        },
+        {
+          "letter": "D",
+          "text": "Idiom Visual"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Gulf of Evaluation berkaitan dengan seberapa jelas sistem menampilkan keadaannya agar mudah dipahami dan dievaluasi pengguna",
+      "num": 21
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Menurut Modul 3 KB 2, karakteristik alami dari model mental pengguna terhadap suatu sistem adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Selalu ilmiah, lengkap, dan permanen"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak ilmiah, tidak lengkap, tidak stabil, tidak konsisten, dan bersifat personal"
+        },
+        {
+          "letter": "C",
+          "text": "Identik persis di setiap pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "Hanya dimiliki oleh perancang perangkat lunak"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 3 KB 2 menegaskan model mental pengguna bersifat tidak ilmiah, tidak lengkap, tidak stabil, tidak konsisten, dan personal",
+      "num": 22
+    },
+    {
+      "module": "M3",
+      "question": "[M3-5] Tiga bagian penting yang membentuk hubungan dalam konsep model mental pada Modul 3 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Input, proses, dan output"
+        },
+        {
+          "letter": "B",
+          "text": "Model konseptual (model perancang), gambaran sistem (system image), dan model mental (pengguna)"
+        },
+        {
+          "letter": "C",
+          "text": "Hardware, software, dan brainware"
+        },
+        {
+          "letter": "D",
+          "text": "Menu, toolbar, dan dialog"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pengguna membentuk model mentalnya berdasarkan gambaran sistem yang dibangun perancang dari model konseptualnya",
+      "num": 23
+    },
+    {
+      "module": "M3",
+      "question": "[M3-6] Konsep yang menjelaskan bagaimana pengguna menghubungkan satu benda atau kontrol dengan fungsi/objek lain pada sistem disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pemetaan (mapping)"
+        },
+        {
+          "letter": "B",
+          "text": "Kompilasi"
+        },
+        {
+          "letter": "C",
+          "text": "Enkapsulasi"
+        },
+        {
+          "letter": "D",
+          "text": "Fragmentasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Pemetaan atau mapping membantu pengguna memahami hubungan antara kontrol dan efeknya di dalam sistem",
+      "num": 24
+    },
+    {
+      "module": "M3",
+      "question": "[M3-7] Petunjuk visual atau sifat elemen yang mengkomunikasikan kepada pengguna bagaimana cara menggunakan komponen tersebut (misalnya tombol tampak timbul atau tautan bergaris bawah) berkaitan erat dengan konsep...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Affordance dan signifier"
+        },
+        {
+          "letter": "B",
+          "text": "Latensi jaringan"
+        },
+        {
+          "letter": "C",
+          "text": "Polusi lingkungan"
+        },
+        {
+          "letter": "D",
+          "text": "Batch processing"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Affordance menunjukkan kemungkinan aksi, sedangkan signifier memberi petunjuk eksplisit bagaimana aksi itu dilakukan",
+      "num": 25
+    },
+    {
+      "module": "M3",
+      "question": "[M3-8] Paradigma perancangan antarmuka yang bergantung pada hubungan intuitif pengguna saat melihat simbol visual komponen dan fungsinya (misalnya ikon tempat sampah untuk menghapus berkas) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antarmuka berpusat-pada-implementasi"
+        },
+        {
+          "letter": "B",
+          "text": "Antarmuka metaforik"
+        },
+        {
+          "letter": "C",
+          "text": "Antarmuka idiomatik"
+        },
+        {
+          "letter": "D",
+          "text": "Antarmuka baris perintah murni"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 3 KB 3 menjelaskan antarmuka metaforik didasarkan pada intuisi melalui simbol visual yang menyerupai objek dunia nyata",
+      "num": 26
+    },
+    {
+      "module": "M3",
+      "question": "[M3-9] Paradigma antarmuka yang tidak bergantung pada pemahaman teknis maupun intuisi dunia nyata, melainkan pada pembelajaran perilaku sederhana dan idiom visual yang konsisten adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antarmuka berpusat-pada-implementasi"
+        },
+        {
+          "letter": "B",
+          "text": "Antarmuka metaforik"
+        },
+        {
+          "letter": "C",
+          "text": "Antarmuka idiomatik"
+        },
+        {
+          "letter": "D",
+          "text": "Antarmuka analog mekanis"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Rangkuman Modul 3 KB 3 menyatakan antarmuka idiomatik berfokus pada idiom visual dan perilaku sederhana yang dipelajari pengguna",
+      "num": 27
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Berikut ini yang termasuk lima komponen kualitas kebergunaan (usability) menurut Modul 4 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Learnability, efficiency, memorability, errors dan keamanan, serta satisfaction"
+        },
+        {
+          "letter": "B",
+          "text": "Harga, warna, ukuran layar, CPU, dan RAM"
+        },
+        {
+          "letter": "C",
+          "text": "Enkripsi, firewall, VPN, backup, dan audit"
+        },
+        {
+          "letter": "D",
+          "text": "Kompilasi, linking, debugging, profiling, dan deploy"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 4 menyebutkan lima komponen kualitas kebergunaan: kemampuan dipelajari, efisiensi, mudah diingat, kesalahan dan keamanan, serta kepuasan",
+      "num": 28
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Komponen kebergunaan yang mengukur seberapa mudah pengguna baru menyelesaikan tugas dasar pada pertama kali menggunakan sistem adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memorability"
+        },
+        {
+          "letter": "B",
+          "text": "Learnability"
+        },
+        {
+          "letter": "C",
+          "text": "Efficiency"
+        },
+        {
+          "letter": "D",
+          "text": "Throughput"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Learnability mengukur kemudahan sistem untuk dipelajari oleh pengguna pemula",
+      "num": 29
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Setelah pengguna memahami cara kerja sistem, komponen kebergunaan yang mengukur seberapa cepat mereka dapat menyelesaikan tugas secara produktif adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Efficiency"
+        },
+        {
+          "letter": "B",
+          "text": "Learnability"
+        },
+        {
+          "letter": "C",
+          "text": "Memorability"
+        },
+        {
+          "letter": "D",
+          "text": "Ambiguity"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Efficiency menilai kecepatan dan produktivitas pengguna setelah mereka terbiasa mengoperasikan sistem",
+      "num": 30
+    },
+    {
+      "module": "M4",
+      "question": "[M4-4] Apabila seorang pengguna sudah lama tidak membuka suatu aplikasi, lalu kembali menggunakannya tanpa perlu belajar ulang dari awal, maka aplikasi tersebut memiliki nilai tinggi pada aspek...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memorability"
+        },
+        {
+          "letter": "B",
+          "text": "Latency"
+        },
+        {
+          "letter": "C",
+          "text": "Complexity"
+        },
+        {
+          "letter": "D",
+          "text": "Redundancy"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Memorability mengukur kemudahan pengguna mengingat kembali cara penggunaan sistem setelah jeda waktu tertentu",
+      "num": 31
+    },
+    {
+      "module": "M4",
+      "question": "[M4-5] Salah satu dari 8 Aturan Emas Shneiderman yang bertujuan mengurangi kecemasan pengguna saat bereksplorasi adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menghapus seluruh pesan konfirmasi"
+        },
+        {
+          "letter": "B",
+          "text": "Mengizinkan pembalikan aksi dengan mudah (Permit easy reversal of actions / Undo)"
+        },
+        {
+          "letter": "C",
+          "text": "Menyembunyikan semua menu"
+        },
+        {
+          "letter": "D",
+          "text": "Memaksa pengguna menghafal perintah"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Fitur Undo/pembalikan aksi membuat pengguna berani mencoba karena kesalahan dapat dibatalkan dengan mudah",
+      "num": 32
+    },
+    {
+      "module": "M4",
+      "question": "[M4-6] Aturan Emas Shneiderman tentang pengurangan beban memori jangka pendek (Reduce short-term memory load) menganjurkan perancang untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memaksa pengguna mengingat kode angka antar halaman"
+        },
+        {
+          "letter": "B",
+          "text": "Menjaga tampilan tetap sederhana, konsolidasi halaman, dan menyediakan informasi yang cukup di layar"
+        },
+        {
+          "letter": "C",
+          "text": "Menghilangkan label pada ikon"
+        },
+        {
+          "letter": "D",
+          "text": "Menggunakan istilah berbeda untuk fungsi yang sama"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Keterbatasan memori kerja 7 ± 2 chunk menuntut antarmuka menampilkan konteks yang jelas tanpa membebani ingatan pengguna",
+      "num": 33
+    },
+    {
+      "module": "M4",
+      "question": "[M4-7] Untuk melayani pengguna yang sudah mahir agar dapat bekerja lebih cepat, 8 Aturan Emas Shneiderman menyarankan penyediaan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Animasi pembuka yang lama"
+        },
+        {
+          "letter": "B",
+          "text": "Pintasan (shortcuts) seperti kombinasi tombol keyboard atau makro"
+        },
+        {
+          "letter": "C",
+          "text": "Formulir berulang di setiap aksi"
+        },
+        {
+          "letter": "D",
+          "text": "Pesan error tanpa penjelasan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Aturan Enable frequent users to use shortcuts menyediakan tombol pintas bagi pengguna berpengalaman",
+      "num": 34
+    },
+    {
+      "module": "M4",
+      "question": "[M4-8] Tujuan utama dilakukannya uji kebergunaan (usability testing) menurut Rangkuman Modul 4 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menambah jumlah baris kode program"
+        },
+        {
+          "letter": "B",
+          "text": "Mengukur karakteristik interaksi manusia-komputer dan mengidentifikasi kelemahan sistem agar dapat diperbaiki secara tepat"
+        },
+        {
+          "letter": "C",
+          "text": "Mengganti seluruh perangkat keras pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "Menunda peluncuran sistem tanpa batas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Uji kebergunaan mengukur kualitas interaksi dan mengungkap kelemahan antarmuka untuk perbaikan yang tepat sasaran",
+      "num": 35
+    },
+    {
+      "module": "M4",
+      "question": "[M4-9] Tiga metode uji kebergunaan yang disebutkan dalam Rangkuman Modul 4 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pemilihan kartu (card sorting), evaluasi heuristik, dan uji berbasis skenario"
+        },
+        {
+          "letter": "B",
+          "text": "Uji tegangan listrik, uji drop test, dan uji termal"
+        },
+        {
+          "letter": "C",
+          "text": "Pengujian unit backend, uji beban server, dan pentest jaringan"
+        },
+        {
+          "letter": "D",
+          "text": "Wawancara HRD, audit keuangan, dan survei harga"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 4 secara eksplisit menyebut pemilihan kartu, evaluasi heuristik, dan uji berbasis skenario",
+      "num": 36
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Gaya interaksi yang memungkinkan pengguna berinteraksi langsung dengan objek visual di layar (misalnya menyeret ikon berkas ke folder) disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Batch Processing"
+        },
+        {
+          "letter": "B",
+          "text": "Manipulasi Langsung (Direct Manipulation)"
+        },
+        {
+          "letter": "C",
+          "text": "Command Line Interface"
+        },
+        {
+          "letter": "D",
+          "text": "Dialog Bahasa Alami"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Manipulasi langsung merepresentasikan objek dan aksi secara visual serta memberikan umpan balik instan atas tindakan fisik pengguna",
+      "num": 37
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Faktor pengalaman positif yang dirasakan pengguna saat memakai antarmuka manipulasi langsung menurut Modul 5 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aksi terasa lambat dan tidak bisa dibatalkan"
+        },
+        {
+          "letter": "B",
+          "text": "Tindakan cepat, dapat dibalik/dibatalkan, dan meningkat secara bertahap"
+        },
+        {
+          "letter": "C",
+          "text": "Harus menghafal puluhan sintaks perintah"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak ada umpan balik visual sama sekali"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 5 menyebutkan manipulasi langsung memberi pengalaman positif karena aksinya cepat, dapat dibatalkan, dan bertahap sehingga pengguna lebih percaya diri",
+      "num": 38
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Keuntungan penggunaan ragam dialog manipulasi langsung yang tercantum dalam Modul 5 antara lain...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak membutuhkan kartu grafis"
+        },
+        {
+          "letter": "B",
+          "text": "Mengurangi waktu pembelajaran, penampilan visual bagus, dan tersedianya perangkat bantu perancangan"
+        },
+        {
+          "letter": "C",
+          "text": "Selalu lebih hemat memori dibanding teks murni"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak memerlukan perancangan tampilan khusus"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Tabel keuntungan dan kerugian Modul 5 mencantumkan pengurangan waktu belajar, visual menarik, dan dukungan perangkat bantu",
+      "num": 39
+    },
+    {
+      "module": "M5",
+      "question": "[M5-4] Salah satu kerugian atau keterbatasan antarmuka manipulasi langsung menurut Modul 5 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sulit dipahami oleh pengguna pemula"
+        },
+        {
+          "letter": "B",
+          "text": "Memerlukan tampilan grafis berkinerja tinggi dan perancangan tampilan dengan kualifikasi tertentu"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak mendukung penggunaan mouse"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak dapat menampilkan ikon"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 5 mencatat bahwa manipulasi langsung menuntut perangkat grafis berkinerja tinggi serta keahlian perancangan tampilan yang baik",
+      "num": 40
+    },
+    {
+      "module": "M5",
+      "question": "[M5-5] Contoh penerapan manipulasi langsung yang dibahas dalam Modul 5 KB 1 meliputi...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Simulator, kontrol lalu lintas penerbangan, dan perangkat lunak CAD seperti AutoCAD"
+        },
+        {
+          "letter": "B",
+          "text": "Pengisian formulir kertas manual"
+        },
+        {
+          "letter": "C",
+          "text": "Pengiriman surat pos"
+        },
+        {
+          "letter": "D",
+          "text": "Pemanggilan fungsi BIOS lewat jumper fisik"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 5 KB 1 menyajikan contoh kontrol proses, simulator, radar kontrol lalu lintas penerbangan, dan AutoCAD",
+      "num": 41
+    },
+    {
+      "module": "M5",
+      "question": "[M5-6] Pada mouse dengan dua tombol, kegunaan utama dari tombol kiri menurut Modul 5 KB 2 adalah untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mematikan monitor secara otomatis"
+        },
+        {
+          "letter": "B",
+          "text": "Pengaktifan atau pemilihan objek (seperti menekan tombol atau kotak cek)"
+        },
+        {
+          "letter": "C",
+          "text": "Mengubah resolusi layar"
+        },
+        {
+          "letter": "D",
+          "text": "Membuka BIOS sistem"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 5 menjelaskan tombol kiri paling banyak digunakan untuk pengaktifan, pemilihan objek, atau menekan kontrol antarmuka",
+      "num": 42
+    },
+    {
+      "module": "M5",
+      "question": "[M5-7] Dua operasi paling mendasar yang dapat dilakukan menggunakan mouse menurut Modul 5 KB 2 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengetik teks dan memindai sidik jari"
+        },
+        {
+          "letter": "B",
+          "text": "Memindah mouse untuk menunjuk objek berbeda dan mengklik tombol yang tersedia"
+        },
+        {
+          "letter": "C",
+          "text": "Mengukur suhu ruangan dan merekam suara"
+        },
+        {
+          "letter": "D",
+          "text": "Mencetak dokumen dan memformat disk"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Dua operasi dasar mouse adalah memindahkan kursor untuk menunjuk objek dan mengklik tombol; operasi lain merupakan pengembangan dari keduanya",
+      "num": 43
+    },
+    {
+      "module": "M5",
+      "question": "[M5-8] Dalam Modul 5 KB 2, penggeser (slider) disebut sebagai objek kelompok kelabu pada operasi klik dan geser karena...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Warnanya selalu abu-abu gelap"
+        },
+        {
+          "letter": "B",
+          "text": "Selain berfungsi untuk menggeser, penggeser juga merupakan sebuah kontrol sekaligus objek"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak dapat digerakkan dengan mouse"
+        },
+        {
+          "letter": "D",
+          "text": "Hanya muncul pada sistem operasi lama"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Penggeser termasuk kelompok kelabu karena perannya ganda: berfungsi menggeser nilai sekaligus menjadi kontrol dan objek visual",
+      "num": 44
+    },
+    {
+      "module": "M5",
+      "question": "[M5-9] Standar interpretasi operasi klik ganda (double-click) pada antarmuka grafis kontemporer berasal dari sistem...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MS-DOS dan UNIX Shell"
+        },
+        {
+          "letter": "B",
+          "text": "Xerox Alto/Star dan Macintosh"
+        },
+        {
+          "letter": "C",
+          "text": "Mesin ketik manual"
+        },
+        {
+          "letter": "D",
+          "text": "Terminal teks mainframe"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 5 KB 2 mencatat bahwa interpretasi dasar klik ganda berasal dari Xerox Alto/Star berbasis Macintosh dan bertahan hingga kini",
+      "num": 45
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Tujuan utama pengorganisasian menu yang baik dalam perancangan antarmuka sistem menurut Modul 6 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menyembunyikan fitur agar jarang dipakai"
+        },
+        {
+          "letter": "B",
+          "text": "Memudahkan pengguna menelusuri pilihan dan berinteraksi dengan sistem secara cepat tanpa tersesat"
+        },
+        {
+          "letter": "C",
+          "text": "Memperbanyak jumlah klik pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "Menggantikan seluruh teks dengan kode biner"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 6 menekankan menu yang terorganisir memudahkan interaksi dan mempercepat penelusuran target oleh pengguna",
+      "num": 46
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Dalam perancangan struktur pohon menu, penelitian IMK merekomendasikan bentuk hierarki yang cenderung...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sangat dalam dan sempit (banyak level, sedikit pilihan per level)"
+        },
+        {
+          "letter": "B",
+          "text": "Lebih lebar dan dangkal (broad and shallow)"
+        },
+        {
+          "letter": "C",
+          "text": "Acak tanpa pengelompokan"
+        },
+        {
+          "letter": "D",
+          "text": "Satu pilihan per halaman terpisah"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Struktur lebar dan dangkal mengurangi jumlah langkah navigasi serta memperkecil risiko pengguna tersesat di dalam kedalaman menu",
+      "num": 47
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Keunggulan antarmuka berbasis menu dibandingkan antarmuka baris perintah (CLI) bagi pengguna baru adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memaksa pengguna menghafal seluruh sintaks"
+        },
+        {
+          "letter": "B",
+          "text": "Mengandalkan pengenalan (recognition) atas opsi yang tampil di layar daripada hafalan (recall)"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak membutuhkan layar tampilan"
+        },
+        {
+          "letter": "D",
+          "text": "Selalu berjalan tanpa peranti penunjuk"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Menu menampilkan opsi secara eksplisit sehingga pengguna cukup mengenali pilihan yang sesuai tanpa harus menghafal perintah",
+      "num": 48
+    },
+    {
+      "module": "M6",
+      "question": "[M6-4] Selektor pilihan pada menu datar yang menggunakan huruf awal atau angka yang selaras dengan arti pilihannya disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Selektor acak"
+        },
+        {
+          "letter": "B",
+          "text": "Selektor kompatibel (huruf kompatibel atau angka kompatibel)"
+        },
+        {
+          "letter": "C",
+          "text": "Selektor tersembunyi"
+        },
+        {
+          "letter": "D",
+          "text": "Selektor biner"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 6 KB 1 menjelaskan selektor huruf/angka kompatibel memudahkan pengguna menghafal pintasan pilihan menu",
+      "num": 49
+    },
+    {
+      "module": "M6",
+      "question": "[M6-5] Untuk menampilkan menu tunggal dengan daftar pilihan yang sangat panjang atau banyak secara efektif, alternatif yang dibahas dalam Modul 6 meliputi...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menu gulung, menu mata ikan (fisheye menu), dan menu dua dimensi"
+        },
+        {
+          "letter": "B",
+          "text": "Menghapus separuh daftar pilihan"
+        },
+        {
+          "letter": "C",
+          "text": "Memecah menjadi berkas teks terpisah"
+        },
+        {
+          "letter": "D",
+          "text": "Menggunakan perintah suara saja"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 6 KB 1 membahas menu panjang seperti daftar negara, contoh menu mata ikan pada Dock OS X, serta menu dua dimensi",
+      "num": 50
+    },
+    {
+      "module": "M6",
+      "question": "[M6-6] Menurut Jakob Nielsen yang dikutip dalam Modul 6, fungsi menu breadcrumb pada situs web adalah sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pengganti utama halaman beranda"
+        },
+        {
+          "letter": "B",
+          "text": "Bantuan navigasi kedua (seperti peta situs) yang menunjukkan posisi pengguna saat ini"
+        },
+        {
+          "letter": "C",
+          "text": "Sistem autentikasi kata sandi"
+        },
+        {
+          "letter": "D",
+          "text": "Alat pengukur kecepatan internet"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Breadcrumb membantu orientasi pengguna agar mengetahui posisinya dalam struktur situs dan mudah kembali ke tingkat di atasnya",
+      "num": 51
+    },
+    {
+      "module": "M6",
+      "question": "[M6-7] Struktur menu yang memungkinkan pengguna berpindah antar simpul secara fleksibel tidak hanya satu arah ke bawah seperti pohon murni, melainkan membentuk hubungan antar simpul disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menu tunggal datar"
+        },
+        {
+          "letter": "B",
+          "text": "Jaring menu (tak berputar maupun berputar)"
+        },
+        {
+          "letter": "C",
+          "text": "Menu linear satu langkah"
+        },
+        {
+          "letter": "D",
+          "text": "Selektor angka tunggal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Modul 6 KB 1 membahas jaring menu tak berputar dan berputar yang lebih luwes untuk layanan komersial online dibanding pohon kaku",
+      "num": 52
+    },
+    {
+      "module": "M6",
+      "question": "[M6-8] Apabila pilihan menu tidak memiliki urutan berbasis tugas yang baku, urutan penyajian pilihan menurut Modul 6 KB 2 dapat didasarkan pada...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pilihan paling penting/sering digunakan di awal, pengelompokan pilihan terkait dengan pemisah, atau urutan alfabetis"
+        },
+        {
+          "letter": "B",
+          "text": "Pengacakan setiap kali menu dibuka"
+        },
+        {
+          "letter": "C",
+          "text": "Panjang kata dari yang terpendek ke terpanjang saja"
+        },
+        {
+          "letter": "D",
+          "text": "Warna latar belakang huruf"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 6 KB 2 merinci dasar pengurutan: tugas/waktu/numeris/fisik, atau paling penting/sering dipakai, pengelompokan terkait, dan alfabetis",
+      "num": 53
+    },
+    {
+      "module": "M6",
+      "question": "[M6-9] Studi McGrenere et al. (2002) yang dirujuk dalam Modul 6 KB 2 menyoroti alternatif menarik dari menu adaptif otomatis, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menu yang dapat disesuaikan atau dikendalikan langsung oleh pengguna"
+        },
+        {
+          "letter": "B",
+          "text": "Menu yang menghapus opsi tanpa izin"
+        },
+        {
+          "letter": "C",
+          "text": "Menu tanpa label teks"
+        },
+        {
+          "letter": "D",
+          "text": "Menu yang hanya tampil 1 detik"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Menu yang dapat dikendalikan oleh pengguna memberi rasa kontrol lebih baik dibanding perubahan posisi otomatis yang membingungkan",
+      "num": 54
+    },
+    {
+      "module": "M7",
+      "question": "[M7-1] Menurut Rangkuman Modul 7 KB 1, dialog berbasis perintah tunggal memiliki karakteristik utama yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sangat atraktif bagi pengguna ahli, namun instruksinya dibatasi ketat oleh sintaksis sehingga bisa menakutkan bagi pemula"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak memiliki aturan sintaksis sama sekali"
+        },
+        {
+          "letter": "C",
+          "text": "Hanya memakai ikon grafis"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak memerlukan keyboard"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Dialog perintah tunggal efisien bagi ahli yang hafal sintaksis, tetapi sulit dipelajari oleh pengguna awam",
+      "num": 55
+    },
+    {
+      "module": "M7",
+      "question": "[M7-2] Ragam dialog berbasis bahasa pemrograman dalam Modul 7 memungkinkan pengguna untuk...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengemas sejumlah perintah ke dalam suatu berkas yang sering disebut batch file"
+        },
+        {
+          "letter": "B",
+          "text": "Menggambar ilustrasi vektor dengan mouse"
+        },
+        {
+          "letter": "C",
+          "text": "Mengubah posisi monitor secara otomatis"
+        },
+        {
+          "letter": "D",
+          "text": "Menghindari penggunaan sintaks komputer"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 7 KB 1 menyatakan dialog bahasa pemrograman mengemas rangkaian perintah ke dalam berkas seperti batch file",
+      "num": 56
+    },
+    {
+      "module": "M7",
+      "question": "[M7-3] Agar dialog berbasis bahasa alami (natural language) dapat berjalan dengan baik, sistem komputer mutlak memerlukan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sistem penerjemah dua arah yang mampu mengolah arti (semantik) instruksi manusia ke format komputer dan sebaliknya"
+        },
+        {
+          "letter": "B",
+          "text": "Mouse dengan lima tombol"
+        },
+        {
+          "letter": "C",
+          "text": "Monitor monokrom MDA"
+        },
+        {
+          "letter": "D",
+          "text": "Papan tombol numerik saja"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 7 KB 1 menjelaskan sistem bahasa alami butuh penerjemah dua arah untuk memahami semantik kalimat manusia dan menjawabnya kembali",
+      "num": 57
+    },
+    {
+      "module": "M7",
+      "question": "[M7-4] Tantangan atau kelemahan utama dari dialog berbasis bahasa alami apabila tidak disertai panduan visual atau konteks yang jelas adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rentan terhadap ambiguitas makna kalimat yang diinputkan pengguna"
+        },
+        {
+          "letter": "B",
+          "text": "Terlalu kaku seperti kode mesin"
+        },
+        {
+          "letter": "C",
+          "text": "Tidak mendukung huruf alfabet"
+        },
+        {
+          "letter": "D",
+          "text": "Hanya bisa dijalankan secara offline"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Bahasa manusia bersifat kaya dan bermakna ganda sehingga berisiko menimbulkan salah tafsir semantik oleh sistem",
+      "num": 58
+    },
+    {
+      "module": "M7",
+      "question": "[M7-5] Kunci terpenting dalam ragam dialog berbasis pengisian borang (form fill-in) menurut Rangkuman Modul 7 KB 2 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Informasi ditampilkan satu per satu di halaman terpisah"
+        },
+        {
+          "letter": "B",
+          "text": "Hampir semua informasi tampak secara serentak sehingga memudahkan pengguna mengontrol dan memanipulasi data di layar"
+        },
+        {
+          "letter": "C",
+          "text": "Pengguna harus menulis skrip SQL manual"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak ada label pada kotak isian"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Tampilan serentak pada borang memberi gambaran menyeluruh dan kontrol langsung atas medan isian yang sedang diisi",
+      "num": 59
+    },
+    {
+      "module": "M7",
+      "question": "[M7-6] Peranti masukan yang paling populer digunakan pada antarmuka berbasis pengisian borang untuk menggerakkan kursor dan memanipulasi isian adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Joystick dan pena cahaya"
+        },
+        {
+          "letter": "B",
+          "text": "Keyboard dan mouse"
+        },
+        {
+          "letter": "C",
+          "text": "Pemindai barcode dan mikrofon"
+        },
+        {
+          "letter": "D",
+          "text": "Trackball dan pedal kaki"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 7 KB 2 menyebut keyboard dan mouse sebagai peranti masukan paling populer untuk mengontrol isian borang",
+      "num": 60
+    },
+    {
+      "module": "M7",
+      "question": "[M7-7] Menurut Modul 7 KB 2, kualitas dialog berbasis pengisian borang sangat bergantung pada...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penggunaan warna latar yang mencolok"
+        },
+        {
+          "letter": "B",
+          "text": "Organisasi medan yang logis, label ringkas namun informatif/tidak rancu, dan tata letak rapi tanpa tumpang tindih"
+        },
+        {
+          "letter": "C",
+          "text": "Jumlah halaman borang yang sangat banyak"
+        },
+        {
+          "letter": "D",
+          "text": "Penghapusan tombol batal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 7 KB 2 menekankan organisasi logis, label jelas tidak rancu, dan tata letak rapi sebagai penentu kualitas borang",
+      "num": 61
+    },
+    {
+      "module": "M7",
+      "question": "[M7-8] Praktik terbaik validasi isian dan penanganan kesalahan pada borang agar pengguna tidak kesulitan memperbaiki input adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mengosongkan seluruh borang saat terjadi satu kesalahan"
+        },
+        {
+          "letter": "B",
+          "text": "Memberikan validasi isian yang jelas (inline validation) serta prosedur perbaikan kesalahan yang mudah"
+        },
+        {
+          "letter": "C",
+          "text": "Menampilkan kode error heksadesimal saja"
+        },
+        {
+          "letter": "D",
+          "text": "Membiarkan data salah masuk ke basis data"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Validasi isian yang langsung menunjuk letak dan format kesalahan meminimalkan frustrasi saat mengisi borang",
+      "num": 62
+    },
+    {
+      "module": "M7",
+      "question": "[M7-9] Dibandingkan dialog perintah tunggal berbasis teks, salah satu keuntungan utama dialog pengisian borang bagi pengguna umum adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pengguna tidak perlu menghafal nama perintah karena setiap data yang diminta sudah terstruktur dalam medan berlabel"
+        },
+        {
+          "letter": "B",
+          "text": "Tidak memerlukan layar tampilan"
+        },
+        {
+          "letter": "C",
+          "text": "Selalu lebih cepat daripada makro skrip untuk ribuan berkas"
+        },
+        {
+          "letter": "D",
+          "text": "Tidak membutuhkan validasi data"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Borang memandu pengguna secara visual melalui label medan sehingga jauh lebih mudah dipelajari dan minim kesalahan sintaks",
+      "num": 63
+    },
+    {
+      "module": "M8",
+      "question": "[M8-1] Menurut Rangkuman Modul 8 KB 1, pendokumentasian pekerjaan perancang antarmuka dapat dilakukan menggunakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sketsa, peranti prototipe GUI, deskripsi keterkaitan jendela, atau peranti bantu CASE"
+        },
+        {
+          "letter": "B",
+          "text": "Hanya catatan lisan tanpa dokumen tertulis"
+        },
+        {
+          "letter": "C",
+          "text": "Kode biner mentah tanpa komentar"
+        },
+        {
+          "letter": "D",
+          "text": "Diagram kelistrikan gedung"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 8 KB 1 menyebutkan sketsa, prototipe GUI, teks keterkaitan antar jendela, dan peranti CASE sebagai sarana dokumentasi rancangan",
+      "num": 64
+    },
+    {
+      "module": "M8",
+      "question": "[M8-2] Urutan tahapan perancangan antarmuka yang benar menurut prinsip pertama pada Rangkuman Modul 8 KB 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perancangan struktur data → format pesan → ragam dialog"
+        },
+        {
+          "letter": "B",
+          "text": "Pemilihan ragam dialog → perancangan struktur dialog → perancangan format pesan → perancangan penanganan kesalahan → perancangan struktur data"
+        },
+        {
+          "letter": "C",
+          "text": "Penanganan kesalahan → pemilihan warna → ragam dialog"
+        },
+        {
+          "letter": "D",
+          "text": "Uji publik → sketsa awal → analisis kebutuhan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 8 KB 1 merinci urutan: pemilihan ragam dialog, struktur dialog, format pesan, penanganan kesalahan, dan struktur data",
+      "num": 65
+    },
+    {
+      "module": "M8",
+      "question": "[M8-3] Enam prinsip perancangan tampilan berbasis teks yang disebutkan dalam Rangkuman Modul 8 KB 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Urutan penyajian, kelonggaran (whitespace), pengelompokan, relevansi, konsistensi, dan kesederhanaan"
+        },
+        {
+          "letter": "B",
+          "text": "Animasi, suara keras, gradasi warna, bayangan, transparansi, dan kedipan"
+        },
+        {
+          "letter": "C",
+          "text": "Kecepatan CPU, kapasitas RAM, ukuran disk, jaringan, daya, dan suhu"
+        },
+        {
+          "letter": "D",
+          "text": "Enkripsi, kompresi, indeksing, sharding, replikasi, dan caching"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Keenam prinsip tampilan teks di Modul 8 menjaga informasi tetap terstruktur, lapang, relevan, konsisten, dan sederhana",
+      "num": 66
+    },
+    {
+      "module": "M8",
+      "question": "[M8-4] Prinsip perancangan tampilan berbasis grafis menurut Modul 8 KB 1 mencakup hal-hal berikut, kecuali...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ilusi pada objek yang dapat dimanipulasi serta urutan visual dan fokus pengguna"
+        },
+        {
+          "letter": "B",
+          "text": "Struktur internal dan kosa kata grafis yang konsisten"
+        },
+        {
+          "letter": "C",
+          "text": "Kesesuaian dengan media yang digunakan"
+        },
+        {
+          "letter": "D",
+          "text": "Menghilangkan seluruh ruang kosong agar layar penuh teks"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kelonggaran/ruang kosong justru diperlukan untuk keterbacaan dan fokus visual; bukan memadatkan layar dengan teks",
+      "num": 67
+    },
+    {
+      "module": "M8",
+      "question": "[M8-5] Selain urutan perancangan, tampilan teks, dan tampilan grafis, dua poin petunjuk perancangan lain yang ditekankan di Modul 8 KB 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Waktu tanggap (response time) dan penanganan kesalahan"
+        },
+        {
+          "letter": "B",
+          "text": "Harga jual aplikasi dan strategi iklan"
+        },
+        {
+          "letter": "C",
+          "text": "Jenis kabel LAN dan merek router"
+        },
+        {
+          "letter": "D",
+          "text": "Kapasitas baterai dan berat laptop"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Lima poin prinsip perancangan Modul 8 terdiri dari urutan perancangan, tampilan teks, tampilan grafis, waktu tanggap, dan penanganan kesalahan",
+      "num": 68
+    },
+    {
+      "module": "M8",
+      "question": "[M8-6] Peranti bantu sederhana yang digunakan untuk mendokumentasikan wajah antarmuka setiap tampilan pada sistem yang akan dibuat disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flowchart Jaringan"
+        },
+        {
+          "letter": "B",
+          "text": "Lembar Kerja Tampilan (LKT)"
+        },
+        {
+          "letter": "C",
+          "text": "Entity Relationship Diagram (ERD)"
+        },
+        {
+          "letter": "D",
+          "text": "Gantt Chart"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 8 KB 2 mendefinisikan Lembar Kerja Tampilan/LKT sebagai peranti bantu sederhana untuk mendokumentasikan wajah antarmuka",
+      "num": 69
+    },
+    {
+      "module": "M8",
+      "question": "[M8-7] Empat bagian utama yang harus ada di dalam sebuah Lembar Kerja Tampilan (LKT) menurut Modul 8 KB 2 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Judul proyek, nama programmer, tanggal rilis, dan harga"
+        },
+        {
+          "letter": "B",
+          "text": "Nomor lembar kerja, tampilan, navigasi, dan keterangan"
+        },
+        {
+          "letter": "C",
+          "text": "Header HTTP, body JSON, status code, dan cookies"
+        },
+        {
+          "letter": "D",
+          "text": "Input, proses, output, dan penyimpanan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rangkuman Modul 8 KB 2 secara tegas menyebutkan empat komponen LKT: nomor lembar kerja, tampilan, navigasi, dan keterangan",
+      "num": 70
+    },
+    {
+      "module": "M8",
+      "question": "[M8-8] Untuk menggambarkan hubungan transisi perpindahan antar satu tampilan (LKT) dengan tampilan lainnya sesuai isi navigasi, perancang menggunakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jaring semantik tampilan"
+        },
+        {
+          "letter": "B",
+          "text": "Tabel kebenaran logika"
+        },
+        {
+          "letter": "C",
+          "text": "Diagram tulang ikan"
+        },
+        {
+          "letter": "D",
+          "text": "Kurva distribusi normal"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 8 KB 2 menjelaskan jaring semantik tampilan memetakan nomor tampilan/lembar kerja beserta transisi perpindahannya",
+      "num": 71
+    },
+    {
+      "module": "M8",
+      "question": "[M8-9] Dalam perancangan antarmuka modern yang memperhatikan keterbacaan dan aksesibilitas, pengelompokan elemen berdekatan (Gestalt proximity) dan rasio kontras teks normal WCAG AA minimal sebesar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1.2 : 1"
+        },
+        {
+          "letter": "B",
+          "text": "4.5 : 1"
+        },
+        {
+          "letter": "C",
+          "text": "12 : 1"
+        },
+        {
+          "letter": "D",
+          "text": "0.5 : 1"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Standar WCAG AA mensyaratkan rasio kontras minimal 4.5:1 untuk teks normal agar tetap terbaca jelas oleh pengguna",
+      "num": 72
+    },
+    {
+      "module": "M9",
+      "question": "[M9-1] Menurut Rangkuman Modul 9 KB 1, peranti masukan/keluaran dalam IMK dikelompokkan menjadi tiga kelompok besar, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Peranti masukan tekstual, peranti penuding dan pengambil, serta layar tampilan"
+        },
+        {
+          "letter": "B",
+          "text": "Peranti jaringan, peranti penyimpanan, dan prosesor"
+        },
+        {
+          "letter": "C",
+          "text": "Printer, scanner, dan proyektor saja"
+        },
+        {
+          "letter": "D",
+          "text": "Kabel daya, baterai, dan adaptor"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 9 KB 1 membagi peranti interaksi menjadi peranti masukan tekstual, peranti penuding/pengambil, dan layar tampilan",
+      "num": 73
+    },
+    {
+      "module": "M9",
+      "question": "[M9-2] Tata letak papan ketik (keyboard) yang paling umum dijumpai saat ini adalah QWERTY, sedangkan beberapa tata letak alternatif yang dibahas di Modul 9 KB 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dvorak, tata letak alfabetik, dan tata letak Klockenberg"
+        },
+        {
+          "letter": "B",
+          "text": "ASCII, UTF-8, dan Unicode"
+        },
+        {
+          "letter": "C",
+          "text": "RGB, CMYK, dan HSL"
+        },
+        {
+          "letter": "D",
+          "text": "TCP, UDP, dan ICMP"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 9 KB 1 menyebutkan tata letak Dvorak, alfabetik, Klockenberg, papan ketik penyingkat kata, numerik, dan tombol fungsi",
+      "num": 74
+    },
+    {
+      "module": "M9",
+      "question": "[M9-3] Contoh peranti penuding dan pengambil (pointing and picking devices) yang dibahas dalam Modul 9 KB 1 antara lain...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mouse, joystick, trackball, digitizing tablet, light pen, dan touch-sensitive panel"
+        },
+        {
+          "letter": "B",
+          "text": "Harddisk, SSD, dan flashdisk"
+        },
+        {
+          "letter": "C",
+          "text": "Speaker, mikrofon, dan kartu suara"
+        },
+        {
+          "letter": "D",
+          "text": "Modem, switch, dan access point"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Keenam peranti tersebut tercantum langsung dalam Rangkuman Modul 9 KB 1 sebagai peranti penuding dan pengambil",
+      "num": 75
+    },
+    {
+      "module": "M9",
+      "question": "[M9-4] Prinsip kerja pena cahaya (light pen) sebagai peranti gambar atau point-shoot device menurut Modul 9 KB 1 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Memantau selisih waktu saat berkas elektron mulai memindai layar hingga mengenai sensor pena"
+        },
+        {
+          "letter": "B",
+          "text": "Mengukur tekanan udara di sekitar meja"
+        },
+        {
+          "letter": "C",
+          "text": "Memancarkan sinar laser berdaya tinggi ke kertas"
+        },
+        {
+          "letter": "D",
+          "text": "Menghubungkan langsung ke port audio"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 9 KB 1 menjelaskan light pen mendeteksi waktu tibanya pindaian elektron pada posisi layar yang ditunjuk",
+      "num": 76
+    },
+    {
+      "module": "M9",
+      "question": "[M9-5] Bidang ilmu yang berhubungan dengan pengukuran tubuh manusia (seperti tinggi badan dan jangkauan tangan) untuk membantu merancang lingkungan fisik stasiun kerja disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antropometri"
+        },
+        {
+          "letter": "B",
+          "text": "Geometri Analitik"
+        },
+        {
+          "letter": "C",
+          "text": "Astronomi"
+        },
+        {
+          "letter": "D",
+          "text": "Kriptografi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Rangkuman Modul 9 KB 2 mendefinisikan antropometri sebagai ilmu pengukuran tubuh manusia untuk merancang jangkauan, kenyamanan pandang, dan tinggi meja",
+      "num": 77
+    },
+    {
+      "module": "M9",
+      "question": "[M9-6] Beberapa isu utama yang harus diperhatikan dalam merancang lingkungan fisik komputasi menurut Rangkuman Modul 9 KB 2 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Keamanan, efisiensi, ruang pengguna, ruang kerja, pencahayaan, kegaduhan, dan polusi"
+        },
+        {
+          "letter": "B",
+          "text": "Warna logo perusahaan dan jenis huruf brosur"
+        },
+        {
+          "letter": "C",
+          "text": "Bahasa pemrograman dan basis data"
+        },
+        {
+          "letter": "D",
+          "text": "Lisensi sistem operasi dan harga domain"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Ketujuh isu tersebut tercantum dalam Rangkuman Modul 9 KB 2 sebagai aspek perancangan lingkungan fisik tempat kerja komputer",
+      "num": 78
+    },
+    {
+      "module": "M9",
+      "question": "[M9-7] Untuk mencegah keluhan mata akibat kilau (glare) dan pantulan cahaya pada layar tampilan stasiun kerja, Modul 9 KB 2 dan KB 3 menyarankan agar...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Layar ditempatkan sejajar dengan jendela, menghindari cahaya terang langsung, dan menjaga keseimbangan kecerahan layar dengan lingkungan sekitar"
+        },
+        {
+          "letter": "B",
+          "text": "Layar diarahkan langsung menghadap jendela terang"
+        },
+        {
+          "letter": "C",
+          "text": "Seluruh lampu ruangan dimatikan total"
+        },
+        {
+          "letter": "D",
+          "text": "Kecerahan layar selalu disetel maksimal 100%"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 9 menekankan posisi layar sejajar jendela, penggunaan pelindung kilau jika perlu, dan keseimbangan kecerahan layar dengan area kerja",
+      "num": 79
+    },
+    {
+      "module": "M9",
+      "question": "[M9-8] Menurut Rangkuman Modul 9 KB 3, faktor lingkungan fisik yang memengaruhi konsentrasi dan tingkat stres pengguna serta dapat diatasi dengan penutup telinga pada kondisi khusus adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gangguan suara (kegaduhan)"
+        },
+        {
+          "letter": "B",
+          "text": "Jenis tata letak keyboard"
+        },
+        {
+          "letter": "C",
+          "text": "Ukuran font menu"
+        },
+        {
+          "letter": "D",
+          "text": "Resolusi ikon desktop"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 9 KB 3 menyatakan suara sangat berpengaruh pada konsentrasi dan tingkat stres, dan dalam keadaan khusus dapat diatasi dengan penutup telinga",
+      "num": 80
+    },
+    {
+      "module": "M9",
+      "question": "[M9-9] Pekerjaan pemasukan data dengan pengulangan tinggi dan posisi pergelangan tangan yang buruk berisiko menimbulkan cedera otot/persendian (seperti RSI/Carpal Tunnel Syndrome); pencegahannya menurut Modul 9 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menyediakan penopang lengan/pergelangan tangan, tidak mengetik terus-menerus dalam waktu lama, serta mengubah posisi duduk dan berolahraga ringan berkala"
+        },
+        {
+          "letter": "B",
+          "text": "Mengetik lebih cepat tanpa jeda istirahat"
+        },
+        {
+          "letter": "C",
+          "text": "Memposisikan monitor jauh di atas kepala"
+        },
+        {
+          "letter": "D",
+          "text": "Menggunakan meja yang terlalu tinggi atau sempit ruang kakinya"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Modul 9 KB 2 & KB 3 menekankan dukungan pergelangan tangan, pengaturan posisi duduk, jeda istirahat berkala, dan peregangan ringan",
+      "num": 81
+    }
+  ],
+  "essayQuestions": []
+}

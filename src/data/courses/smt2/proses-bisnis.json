@@ -1,0 +1,2077 @@
+{
+  "slug": "proses-bisnis",
+  "semester": 2,
+  "url": "/smt2/proses-bisnis",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/proses-bisnis.html",
+  "title": "STSI4206 / STSI420601: Proses Bisnis — Ringkasan Modul & 130 Soal UT",
+  "shortLabel": "Proses Bisnis (STSI4206)",
+  "h1": "STSI4206 / STSI420601: Proses Bisnis — Ringkasan Modul & 130 Soal UT",
+  "metaDesc": "Ringkasan lengkap 6 modul Proses Bisnis (STSI4206 / STSI420601) Universitas Terbuka: pemodelan BPMN, analisis & perbaikan proses bisnis, ditambah 130 soal Tes Formatif asli dan kunci jawaban BMP.",
+  "coverTag": "Semester 2",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 6 modul Proses Bisnis (STSI4206 / STSI420601) Universitas Terbuka: pemodelan BPMN, analisis & perbaikan proses bisnis, ditambah 130 soal Tes Formatif asli dan kunci jawaban BMP.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Bisnis dan Proses Bisnis"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Siklus Proses Manajemen (Six Sigma & BPM)"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Metodologi Manajemen Proyek"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Siklus Hidup Manajemen Proyek"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Manajemen Proses untuk Pekerjaan Pengetahuan"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Sistem Informasi Eksekutif (EIS) & Pemodelan BPMN"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Tokoh, Ahli & Sumber Kunci dalam BMP STSI4206"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Bisnis dan Proses Bisnis",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#ec4899;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Bisnis dan Proses Bisnis</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Tujuan Analisis Proses Bisnis</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-yellow\">Proses Bisnis:</mark> Kumpulan aktivitas/tugas terkait dan terstruktur (oleh orang/peralatan) dalam urutan tertentu untuk menghasilkan produk/layanan bernilai bagi pelanggan &amp; tujuan organisasi.</li>\n            <li><strong>Jeston &amp; Nelis (2014):</strong> BPM membantu manajemen mencapai <em>keunggulan kompetitif</em> di lingkungan yang bergejolak.</li>\n            <li><strong>Hutton (2011):</strong> Analisis Proses Bisnis sebagai inisiatif perbaikan proses atau bagian dari implementasi <strong>ERP</strong> / proyek <strong>BPR</strong> (<em>Business Process Reengineering</em>).</li>\n            <li><strong>4 Bentuk Hukum Bisnis:</strong> Kepemilikan Tunggal (<em>Sole Proprietorship</em>), Kemitraan (<em>Partnerships</em>), Korporasi (<em>Corporations</em>), dan Perseroan Terbatas (<em>LLC</em>).</li>\n            <li><strong>6 Karakteristik Proses Bisnis:</strong> (1) Definabilitas, (2) Urutan, (3) Pelanggan, (4) Nilai Tambah, (5) Keterkaitan, (6) Fungsi Silang (<em>cross-functional</em> / <em>across organisation</em>).</li>\n            <li><strong>5 Langkah BPA:</strong> <em>Define</em> (Definisikan) → <em>Measure</em> (Ukur) → <em>Analyze</em> (Analisis) → <em>Improve</em> (Perbaikan) → <em>Control</em> (Pengendalian).</li>\n            <li><strong>7 Manfaat:</strong> (1) Kurangi pengeluaran &amp; risiko, (2) Kurangi <em>human error</em>, (3) Tingkatkan efisiensi, (4) Fokus pelanggan, (5) Jembatani komunikasi, (6) Manajemen waktu lebih baik, (7) Adaptasi teknologi baru.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Identifikasi &amp; Pengukuran Kinerja (PPM)</h4>\n          <ul class=\"neat\">\n            <li><mark class=\"hl-mint\">Keluaran Identifikasi Proses:</mark> <strong>Arsitektur Proses</strong> (kerangka kerja prioritas &amp; ruang lingkup pemodelan/desain ulang).</li>\n            <li><strong>3 Kriteria Evaluasi Proses:</strong> (1) Tingkat Kepentingan (dampak strategis), (2) Disfungsi (kesehatan/masalah terdalam), (3) Kelayakan (budaya &amp; politik).</li>\n            <li><strong>PPM &amp; PPI:</strong> <em>Process Performance Measurement</em> menggunakan <strong>PPI</strong> (<em>Process Performance Indicators</em>) &amp; <strong>KPI</strong>.</li>\n            <li><strong>3 Kategori Metrik Proses:</strong> (a) <em>Statis</em> (properti proses), (b) <em>Dinamis</em> (kinerja proses), (c) <em>Evolusi</em> (perubahan dari waktu ke waktu).</li>\n            <li><strong>Throughput:</strong> Jumlah unit diproduksi ÷ waktu produksi per unit.</li>\n          </ul>\n          <div class=\"note-box\">\n            <strong>Detail Kecil Wajib Tahu:</strong> Analisis Proses Bisnis dipandu dua filosofi utama: <strong>Six Sigma</strong> (5–7 langkah) dan <strong>Lean Six Sigma</strong> (gabungan pengurangan limbah Lean + statistik Six Sigma). Tujuan akhirnya bukan sekadar efisiensi internal, melainkan menjawab <em>customer needs</em> secara lintas fungsi organisasi.\n          </div>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Siklus Identifikasi &amp; Pengukuran Kinerja Proses Bisnis (PPM &amp; 3 Kategori Metrik)</div>\n        <svg width=\"680\" height=\"115\" viewBox=\"0 0 680 115\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"14\" width=\"150\" height=\"44\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"85\" y=\"40\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">1. Identifikasi Proses</text>\n          <path d=\"M162 36 L180 36\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"182\" y=\"14\" width=\"150\" height=\"44\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"257\" y=\"40\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">2. Arsitektur Proses</text>\n          <path d=\"M334 36 L352 36\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"354\" y=\"14\" width=\"150\" height=\"44\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"429\" y=\"40\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">3. Ukur PPI / KPI</text>\n          <path d=\"M506 36 L524 36\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"526\" y=\"14\" width=\"144\" height=\"44\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"598\" y=\"40\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">4. Optimalisasi BPR</text>\n          <rect x=\"10\" y=\"70\" width=\"210\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"115\" y=\"90\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">Metrik Statis (Properti Proses)</text>\n          <rect x=\"235\" y=\"70\" width=\"210\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"340\" y=\"90\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">Metrik Dinamis (Kinerja Proses)</text>\n          <rect x=\"460\" y=\"70\" width=\"210\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"565\" y=\"90\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">Metrik Evolusi (Perubahan Waktu)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Siklus PPM memetakan proses dari <em>Identifikasi → Pemodelan → Pengukuran → Optimalisasi BPR</em>. Kinerja proses diukur melalui 3 jenis metrik: <strong>Statis</strong> (struktur), <strong>Dinamis</strong> (performa), dan <strong>Evolusi</strong> (perubahan waktu).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Proses Bisnis (Input → Aktivitas → Output)</span>\n          <span class=\"kw-chip\">BPR (Radikal)</span>\n          <span class=\"kw-chip\">Metrik Statis · Dinamis · Evolusi</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Metrik <strong>Statis</strong> mengukur properti struktur proses, <strong>Dinamis</strong> mengukur kinerja saat berjalan, <strong>Evolusi</strong> mengukur perubahan seiring waktu.</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Bisnis dan Proses Bisnis KB 1: Tujuan Analisis Proses Bisnis Proses Bisnis: Kumpulan aktivitas/tugas terkait dan terstruktur (oleh orang/peralatan) dalam urutan tertentu untuk menghasilkan produk/layanan bernilai bagi pelanggan & tujuan organisasi. Jeston & Nelis (2014): BPM membantu manajemen mencapai keunggulan kompetitif di lingkungan yang bergejolak. Hutton (2011): Analisis Proses Bisnis sebagai inisiatif perbaikan proses atau bagian dari implementasi ERP / proyek BPR ( Business Process Reengineering ). 4 Bentuk Hukum Bisnis: Kepemilikan Tunggal ( Sole Proprietorship ), Kemitraan ( Partnerships ), Korporasi ( Corporations ), dan Perseroan Terbatas ( LLC ). 6 Karakteristik Proses Bisnis: (1) Definabilitas, (2) Urutan, (3) Pelanggan, (4) Nilai Tambah, (5) Keterkaitan, (6) Fungsi Silang ( cross-functional / across organisation ). 5 Langkah BPA: Define (Definisikan) → Measure (Ukur) → Analyze (Analisis) → Improve (Perbaikan) → Control (Pengendalian). 7 Manfaat: (1) Kurangi pengeluaran & risiko, (2) Kurangi human error , (3) Tingkatkan efisiensi, (4) Fokus pelanggan, (5) Jembatani komunikasi, (6) Manajemen waktu lebih baik, (7) Adaptasi teknologi baru. KB 2: Identifikasi & Pengukuran Kinerja (PPM) Keluaran Identifikasi Proses: Arsitektur Proses (kerangka kerja prioritas & ruang lingkup pemodelan/desain ulang). 3 Kriteria Evaluasi Proses: (1) Tingkat Kepentingan (dampak strategis), (2) Disfungsi (kesehatan/masalah terdalam), (3) Kelayakan (budaya & politik). PPM & PPI: Process Performance Measurement menggunakan PPI ( Process Performance Indicators ) & KPI . 3 Kategori Metrik Proses: (a) Statis (properti proses), (b) Dinamis (kinerja proses), (c) Evolusi (perubahan dari waktu ke waktu). Throughput: Jumlah unit diproduksi ÷ waktu produksi per unit. Detail Kecil Wajib Tahu: Analisis Proses Bisnis dipandu dua filosofi utama: Six Sigma (5–7 langkah) dan Lean Six Sigma (gabungan pengurangan limbah Lean + statistik Six Sigma). Tujuan akhirnya bukan sekadar efisiensi internal, melainkan menjawab customer needs secara lintas fungsi organisasi. Siklus Identifikasi & Pengukuran Kinerja Proses Bisnis (PPM & 3 Kategori Metrik) 1. Identifikasi Proses 2. Arsitektur Proses 3. Ukur PPI / KPI 4. Optimalisasi BPR Metrik Statis (Properti Proses) Metrik Dinamis (Kinerja Proses) Metrik Evolusi (Perubahan Waktu) Penjelasan Diagram: Siklus PPM memetakan proses dari Identifikasi → Pemodelan → Pengukuran → Optimalisasi BPR . Kinerja proses diukur melalui 3 jenis metrik: Statis (struktur), Dinamis (performa), dan Evolusi (perubahan waktu). 🔑 Kata Kunci Wajib Ingat — Modul 1 Proses Bisnis (Input → Aktivitas → Output) BPR (Radikal) Metrik Statis · Dinamis · Evolusi Poin Ujian: Metrik Statis mengukur properti struktur proses, Dinamis mengukur kinerja saat berjalan, Evolusi mengukur perubahan seiring waktu."
+    },
+    {
+      "id": "m2",
+      "title": "Siklus Proses Manajemen (Six Sigma & BPM)",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#8b5cf6;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Siklus Proses Manajemen (Six Sigma &amp; BPM)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Six Sigma &amp; Lean Sigma</h4>\n          <ul class=\"neat\">\n            <li>Dikembangkan pertama kali di <mark class=\"hl-yellow\">Motorola</mark>; diterapkan Microsoft untuk keandalan jaringannya.</li>\n            <li>Alat kontrol kualitas berbasis statistik &amp; data untuk menghilangkan cacat/pemborosan.</li>\n            <li><strong>2 Metode Six Sigma:</strong> <mark class=\"hl-mint\">DMAIC</mark> (perbaikan proses yang ada: <em>Define, Measure, Analyze, Improve, Control</em>) dan <mark class=\"hl-blue\">DMADV</mark> (desain proses/produk baru: <em>Define, Measure, Analyze, Design, Verify</em>).</li>\n            <li><strong>Lean Sigma:</strong> Fokus tim menghilangkan pemborosan (<em>waste</em>) &amp; cacat sambil meningkatkan standardisasi kerja.</li>\n            <li><strong>6 Elemen Inti BPM (Brocke, 2015):</strong> <em>Strategic Alignment, Governance, Methods, Information Technology, People, Culture</em>.</li>\n            <li><strong>CMM:</strong> Model kematangan (<em>Maturity Model</em>) untuk menilai proses pengembangan perangkat lunak.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Siklus Hidup BPM &amp; SIPOC</h4>\n          <ul class=\"neat\">\n            <li><strong>BPM (6 Fase Berulang):</strong> Menemukan, memodelkan, menganalisis, mengoptimalkan, mengimplementasikan, dan memantau/mengendalikan proses secara <strong>bertahap &amp; berulang</strong>.</li>\n            <li><strong>7 Langkah Inisiatif Perbaikan (Conger, 2011):</strong> Petakan proses target → singkirkan limbah → identifikasi masalah → prioritaskan → identifikasi akar masalah → analisis alternatif → desain ulang (<em>pembersihan</em> &amp; <em>penyegaran</em>).</li>\n            <li><strong>SIPOC:</strong> <mark class=\"hl-pink\">Suppliers, Inputs, Process, Outputs, Customers</mark> (Hati-hati jebakan soal: bukan <em>Correlation</em>!).</li>\n            <li><strong>4 Jenis Event-Driven Proses:</strong> Manajemen, pengaruh pelanggan, primer (rekayasa desain), dan dukungan (SDM, hukum, TI).</li>\n            <li><strong>3 Peran TI dalam BPM:</strong> Manajemen Informasi (simpan/kueri), Memproses Informasi (hitung/visualisasi), dan Komunikasi.</li>\n            <li><strong>Peta Proses:</strong> Memvisualisasikan aktivitas dan interaksi semua partisipan proses.</li>\n          </ul>\n          <div class=\"note-box\">\n            <strong>Detail Kecil Wajib Tahu:</strong> Six Sigma unggul memperbaiki fungsi spesifik lewat data statistik tetapi lambat menyinkronkan lintas proses; menggabungkannya dengan <strong>BPM</strong> menutup kelemahan tersebut agar perubahan berjalan berkelanjutan di tingkat perusahaan. Layanan <em>Service Desk</em> dapat diformalkan mengikuti standar <strong>ITIL</strong>.\n          </div>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Diagram SIPOC &amp; Metode Six Sigma (DMAIC vs DMADV)</div>\n        <svg width=\"700\" height=\"136\" viewBox=\"0 0 700 136\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"15\" width=\"120\" height=\"44\" rx=\"8\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"70\" y=\"41\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">S - Suppliers</text>\n          <path d=\"M132 37 L150 37\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"152\" y=\"15\" width=\"110\" height=\"44\" rx=\"8\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"207\" y=\"41\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">I - Inputs</text>\n          <path d=\"M264 37 L282 37\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"284\" y=\"15\" width=\"120\" height=\"44\" rx=\"8\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"344\" y=\"41\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">P - Process</text>\n          <path d=\"M406 37 L424 37\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"426\" y=\"15\" width=\"120\" height=\"44\" rx=\"8\" fill=\"#c9f7dc\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"486\" y=\"41\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">O - Outputs</text>\n          <path d=\"M548 37 L566 37\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"568\" y=\"15\" width=\"122\" height=\"44\" rx=\"8\" fill=\"#e5d8ff\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"629\" y=\"41\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">C - Customers</text>\n          <rect x=\"10\" y=\"74\" width=\"335\" height=\"48\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"1.5\"/>\n          <text x=\"177\" y=\"94\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">DMAIC (Proses Lama)</text>\n          <text x=\"177\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\">Define – Measure – Analyze – Improve – Control</text>\n          <rect x=\"355\" y=\"74\" width=\"335\" height=\"48\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n          <text x=\"522\" y=\"94\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">DMADV (Proses Baru)</text>\n          <text x=\"522\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\">Define – Measure – Analyze – Design – Verify</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kerangka <strong>SIPOC</strong> memetakan proses dari hulu ke hilir (<em>Suppliers → Inputs → Process → Outputs → Customers</em>). Di bawahnya, Six Sigma memakai <strong>DMAIC</strong> untuk memperbaiki proses lama dan <strong>DMADV</strong> untuk merancang proses baru.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">SIPOC</span>\n          <span class=\"kw-chip\">DMAIC (Proses Lama)</span>\n          <span class=\"kw-chip\">DMADV (Proses Baru)</span>\n          <span class=\"kw-chip\">4 Event-Driven Proses</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>DMAIC</strong> untuk perbaikan proses yang sudah ada; <strong>DMADV</strong> untuk merancang proses/produk baru.</p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Siklus Proses Manajemen (Six Sigma & BPM) KB 1: Six Sigma & Lean Sigma Dikembangkan pertama kali di Motorola ; diterapkan Microsoft untuk keandalan jaringannya. Alat kontrol kualitas berbasis statistik & data untuk menghilangkan cacat/pemborosan. 2 Metode Six Sigma: DMAIC (perbaikan proses yang ada: Define, Measure, Analyze, Improve, Control ) dan DMADV (desain proses/produk baru: Define, Measure, Analyze, Design, Verify ). Lean Sigma: Fokus tim menghilangkan pemborosan ( waste ) & cacat sambil meningkatkan standardisasi kerja. 6 Elemen Inti BPM (Brocke, 2015): Strategic Alignment, Governance, Methods, Information Technology, People, Culture . CMM: Model kematangan ( Maturity Model ) untuk menilai proses pengembangan perangkat lunak. KB 2: Siklus Hidup BPM & SIPOC BPM (6 Fase Berulang): Menemukan, memodelkan, menganalisis, mengoptimalkan, mengimplementasikan, dan memantau/mengendalikan proses secara bertahap & berulang . 7 Langkah Inisiatif Perbaikan (Conger, 2011): Petakan proses target → singkirkan limbah → identifikasi masalah → prioritaskan → identifikasi akar masalah → analisis alternatif → desain ulang ( pembersihan & penyegaran ). SIPOC: Suppliers, Inputs, Process, Outputs, Customers (Hati-hati jebakan soal: bukan Correlation !). 4 Jenis Event-Driven Proses: Manajemen, pengaruh pelanggan, primer (rekayasa desain), dan dukungan (SDM, hukum, TI). 3 Peran TI dalam BPM: Manajemen Informasi (simpan/kueri), Memproses Informasi (hitung/visualisasi), dan Komunikasi. Peta Proses: Memvisualisasikan aktivitas dan interaksi semua partisipan proses. Detail Kecil Wajib Tahu: Six Sigma unggul memperbaiki fungsi spesifik lewat data statistik tetapi lambat menyinkronkan lintas proses; menggabungkannya dengan BPM menutup kelemahan tersebut agar perubahan berjalan berkelanjutan di tingkat perusahaan. Layanan Service Desk dapat diformalkan mengikuti standar ITIL . Diagram SIPOC & Metode Six Sigma (DMAIC vs DMADV) S - Suppliers I - Inputs P - Process O - Outputs C - Customers DMAIC (Proses Lama) Define – Measure – Analyze – Improve – Control DMADV (Proses Baru) Define – Measure – Analyze – Design – Verify Penjelasan Diagram: Kerangka SIPOC memetakan proses dari hulu ke hilir ( Suppliers → Inputs → Process → Outputs → Customers ). Di bawahnya, Six Sigma memakai DMAIC untuk memperbaiki proses lama dan DMADV untuk merancang proses baru. 🔑 Kata Kunci Wajib Ingat — Modul 2 SIPOC DMAIC (Proses Lama) DMADV (Proses Baru) 4 Event-Driven Proses Poin Ujian: DMAIC untuk perbaikan proses yang sudah ada; DMADV untuk merancang proses/produk baru."
+    },
+    {
+      "id": "m3",
+      "title": "Metodologi Manajemen Proyek",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#3b82f6;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Metodologi Manajemen Proyek</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Teknik Analisis Proses &amp; Risiko</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Metodologi Utama:</strong> Agile (sprint pendek), Lean (manufaktur), Six Sigma.</li>\n            <li><strong>Kendala Tiga (Triple Constraint / Segitiga Besi):</strong> <em>Scope</em> (ruang lingkup), <em>Time</em> (waktu), dan <em>Cost</em> (biaya) — manajer proyek menyeimbangkan <em>trade-off</em> ketiganya.</li>\n            <li><strong>Value-Added Analysis (3 kategori):</strong> <mark class=\"hl-mint\">Value Added (VA)</mark>, <mark class=\"hl-yellow\">Business Value Added (BVA)</mark>, <mark class=\"hl-pink\">Non-Value Added (NVA)</mark>. <em>(Tidak ada PVA!)</em></li>\n            <li><strong>Root Cause (6M &amp; Why-Why):</strong> Diagram sebab-akibat <strong>6M</strong> (<em>Machine, Method, Material, Man, Measurement, Milieu</em>) dan <em>Why-Why Diagram</em> untuk menggali akar masalah hingga faktor fundamental.</li>\n            <li><strong>Issue Register, Pareto (80–20) &amp; PICK Chart:</strong> <em>Issue Register</em> mencatat dampak kualitatif/kuantitatif; <strong>Pareto</strong> menyoroti 20% penyebab dari 80% dampak; <strong>PICK Chart</strong> (<em>Possible, Implement, Challenge, Kill</em>) memetakan hasil vs tingkat kesulitan.</li>\n            <li><strong>Analisis Kuantitatif:</strong> Simulasi numerik risiko (mis. <strong>Monte Carlo</strong> &amp; diagram tornado pada analisis sensitivitas).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: PMBOK &amp; 5 Kelompok Proses</h4>\n          <div class=\"flow\">\n            <span class=\"flow-step\">1. Initiating</span><span class=\"flow-arrow\">→</span>\n            <span class=\"flow-step\">2. Planning</span><span class=\"flow-arrow\">→</span>\n            <span class=\"flow-step\">3. Executing</span><span class=\"flow-arrow\">→</span>\n            <span class=\"flow-step\">4. Monitoring &amp; Controlling</span><span class=\"flow-arrow\">→</span>\n            <span class=\"flow-step\">5. Closing</span>\n          </div>\n          <ul class=\"neat\">\n            <li><strong>10 Area Pengetahuan PMBOK:</strong> <em>Integration, Scope, Time, Cost, Quality, Human Resource, Communications, Risk, Procurement, Stakeholder</em>.</li>\n            <li><strong>Project Scope Management:</strong> Mengelola total pekerjaan agar menghasilkan produk sesuai fitur yang ditentukan.</li>\n            <li><strong>Integrated Change Control (3 langkah):</strong> Pengarahan faktor perubahan, menentukan perubahan telah terjadi, dan mengelola perubahan aktual saat terjadi.</li>\n            <li><strong>90% pekerjaan manajer proyek besar:</strong> Mengomunikasikan dan mengelola perubahan.</li>\n            <li><strong>Generally Recognized vs Good Practice:</strong> <em>Generally recognized</em> = berlaku untuk berbagai proyek hampir sepanjang waktu; <em>Good practice</em> = meningkatkan peluang keberhasilan.</li>\n          </ul>\n          <div class=\"note-box\">\n            <strong>Detail Kecil Wajib Tahu:</strong> PMBOK Guide pertama kali terbit tahun <strong>1996</strong> (hingga edisi ke-6) sebagai standar ANSI dan menjadi dasar sertifikasi <strong>PMP (Project Management Professional)</strong>. Pada PICK Chart, kuadran <em>Kill</em> berarti hasil rendah dan sulit dilakukan.\n          </div>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Value-Added Analysis, Prinsip Pareto 80–20 &amp; 5 Kelompok Proses PMBOK (Modul 3)</div>\n        <svg width=\"680\" height=\"122\" viewBox=\"0 0 680 122\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"58\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"25\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3 Kategori Value-Added Analysis</text>\n          <rect x=\"22\" y=\"33\" width=\"90\" height=\"26\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"67\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">VA (Nilai+)</text>\n          <rect x=\"122\" y=\"33\" width=\"96\" height=\"26\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"170\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">BVA (Bisnis)</text>\n          <rect x=\"228\" y=\"33\" width=\"90\" height=\"26\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"273\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">NVA (Boros)</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"58\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"25\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Prinsip Pareto (80–20)</text>\n          <rect x=\"364\" y=\"33\" width=\"96\" height=\"26\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"412\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">20% Penyebab</text>\n          <path d=\"M464 46 L496 46\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"500\" y=\"33\" width=\"156\" height=\"26\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"578\" y=\"50\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">80% Dampak Masalah</text>\n\n          <rect x=\"10\" y=\"76\" width=\"120\" height=\"34\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/><text x=\"70\" y=\"97\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">1. Initiating</text>\n          <rect x=\"145\" y=\"76\" width=\"120\" height=\"34\" rx=\"6\" fill=\"#fef9c3\" stroke=\"#24292f\"/><text x=\"205\" y=\"97\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">2. Planning</text>\n          <rect x=\"280\" y=\"76\" width=\"120\" height=\"34\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"340\" y=\"97\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">3. Executing</text>\n          <rect x=\"415\" y=\"76\" width=\"125\" height=\"34\" rx=\"6\" fill=\"#ffedd5\" stroke=\"#24292f\"/><text x=\"477\" y=\"97\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">4. Monitoring</text>\n          <rect x=\"555\" y=\"76\" width=\"115\" height=\"34\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"612\" y=\"97\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">5. Closing</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Analisis nilai memilah aktivitas menjadi <em>VA</em> (bernilai), <em>BVA</em> (perlu bagi bisnis), dan <em>NVA</em> (pemborosan). Prinsip <strong>Pareto 80–20</strong> menyoroti 20% akar penyebab utama dari 80% masalah, sedangkan <strong>PMBOK</strong> mengatur proyek dalam 5 kelompok proses.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">PMBOK (Generally Recognized)</span>\n          <span class=\"kw-chip\">Project Scope Management</span>\n          <span class=\"kw-chip\">90% Komunikasi &amp; Perubahan</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Sekitar <strong>90%</strong> pekerjaan manajer proyek besar adalah mengomunikasikan dan mengelola perubahan.</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Metodologi Manajemen Proyek KB 1: Teknik Analisis Proses & Risiko 3 Metodologi Utama: Agile (sprint pendek), Lean (manufaktur), Six Sigma. Kendala Tiga (Triple Constraint / Segitiga Besi): Scope (ruang lingkup), Time (waktu), dan Cost (biaya) — manajer proyek menyeimbangkan trade-off ketiganya. Value-Added Analysis (3 kategori): Value Added (VA) , Business Value Added (BVA) , Non-Value Added (NVA) . (Tidak ada PVA!) Root Cause (6M & Why-Why): Diagram sebab-akibat 6M ( Machine, Method, Material, Man, Measurement, Milieu ) dan Why-Why Diagram untuk menggali akar masalah hingga faktor fundamental. Issue Register, Pareto (80–20) & PICK Chart: Issue Register mencatat dampak kualitatif/kuantitatif; Pareto menyoroti 20% penyebab dari 80% dampak; PICK Chart ( Possible, Implement, Challenge, Kill ) memetakan hasil vs tingkat kesulitan. Analisis Kuantitatif: Simulasi numerik risiko (mis. Monte Carlo & diagram tornado pada analisis sensitivitas). KB 2: PMBOK & 5 Kelompok Proses 1. Initiating → 2. Planning → 3. Executing → 4. Monitoring & Controlling → 5. Closing 10 Area Pengetahuan PMBOK: Integration, Scope, Time, Cost, Quality, Human Resource, Communications, Risk, Procurement, Stakeholder . Project Scope Management: Mengelola total pekerjaan agar menghasilkan produk sesuai fitur yang ditentukan. Integrated Change Control (3 langkah): Pengarahan faktor perubahan, menentukan perubahan telah terjadi, dan mengelola perubahan aktual saat terjadi. 90% pekerjaan manajer proyek besar: Mengomunikasikan dan mengelola perubahan. Generally Recognized vs Good Practice: Generally recognized = berlaku untuk berbagai proyek hampir sepanjang waktu; Good practice = meningkatkan peluang keberhasilan. Detail Kecil Wajib Tahu: PMBOK Guide pertama kali terbit tahun 1996 (hingga edisi ke-6) sebagai standar ANSI dan menjadi dasar sertifikasi PMP (Project Management Professional) . Pada PICK Chart, kuadran Kill berarti hasil rendah dan sulit dilakukan. Value-Added Analysis, Prinsip Pareto 80–20 & 5 Kelompok Proses PMBOK (Modul 3) 3 Kategori Value-Added Analysis VA (Nilai+) BVA (Bisnis) NVA (Boros) Prinsip Pareto (80–20) 20% Penyebab 80% Dampak Masalah 1. Initiating 2. Planning 3. Executing 4. Monitoring 5. Closing Penjelasan Diagram: Analisis nilai memilah aktivitas menjadi VA (bernilai), BVA (perlu bagi bisnis), dan NVA (pemborosan). Prinsip Pareto 80–20 menyoroti 20% akar penyebab utama dari 80% masalah, sedangkan PMBOK mengatur proyek dalam 5 kelompok proses. 🔑 Kata Kunci Wajib Ingat — Modul 3 PMBOK (Generally Recognized) Project Scope Management 90% Komunikasi & Perubahan Poin Ujian: Sekitar 90% pekerjaan manajer proyek besar adalah mengomunikasikan dan mengelola perubahan."
+    },
+    {
+      "id": "m4",
+      "title": "Siklus Hidup Manajemen Proyek",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#10b981;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Siklus Hidup Manajemen Proyek</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1 &amp; 2: Siklus Hidup &amp; Komunikasi</h4>\n          <ul class=\"neat\">\n            <li>Proyek selesai tepat waktu &amp; sesuai anggaran tetapi <strong>kualitas tidak sesuai standar</strong> = <mark class=\"hl-pink\">proyek dinyatakan gagal</mark>.</li>\n            <li><strong>3 Faktor Keberhasilan Proyek TI:</strong> Keterlibatan pengguna, manajemen eksekutif, pernyataan persyaratan yang jelas.</li>\n            <li><strong>5 Mode Resolusi Konflik:</strong> <mark class=\"hl-mint\">Konfrontasi</mark> (paling efektif &amp; paling banyak dipakai, pemecahan masalah bersama), Kompromi (saling mengalah), Smoothing (tekankan persamaan), Pemaksaan (<em>win-lose</em>), Penarikan (menghindar).</li>\n            <li><strong>Pengelolaan Rapat Efektif:</strong> Tentukan tujuan/hasil → tentukan peserta → bagikan agenda sebelum rapat → siapkan <em>handout</em>/visual.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 3: Saluran Komunikasi, MBWA &amp; Manajemen Risiko</h4>\n          <ul class=\"neat\">\n            <li><strong>Rumus Saluran Komunikasi Potensial:</strong><br><mark class=\"hl-yellow\"><code>N × (N - 1) / 2</code></mark> (Contoh: N=8 → 28 saluran; N=5 → 10 saluran).</li>\n            <li><strong>MBWA (Managing By Walking Around):</strong> Berkomunikasi langsung dengan tim untuk mendeteksi masalah jalur kritis.</li>\n            <li><strong>Urutan Infrastruktur Komunikasi (paling efektif):</strong> Konferensi video → Telepon → Instant Messaging → Email.</li>\n            <li><strong>5 Langkah Manajemen Risiko:</strong> (1) Rencana Manajemen Risiko, (2) Identifikasi Risiko, (3) Analisis/Prioritas Risiko, (4) Perlakukan/Respon Risiko (mitigasi), (5) Pemantauan &amp; Pengendalian.</li>\n            <li><strong>Kualitatif vs Kuantitatif:</strong> Penilaian risiko <em>kuantitatif</em> (angka, uang, suku bunga) paling cocok di sektor keuangan, lebih mudah diotomasi, dan lebih objektif.</li>\n          </ul>\n          <div class=\"note-box\">\n            <strong>Detail Kecil Wajib Tahu:</strong> Komunikasi adalah \"perekat\" tim proyek; kegagalan berkomunikasi adalah ancaman terbesar proyek TI. Setelah mengidentifikasi pesan dan audiens target, langkah berikutnya dalam proses komunikasi adalah <strong>menentukan format dan waktu pesan</strong>.\n          </div>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">5 Mode Resolusi Konflik &amp; Rumus Saluran Komunikasi N(N-1)/2 (Modul 4)</div>\n        <svg width=\"680\" height=\"115\" viewBox=\"0 0 680 115\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"122\" height=\"46\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.6\"/>\n          <text x=\"71\" y=\"32\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">1. Konfrontasi</text>\n          <text x=\"71\" y=\"48\" text-anchor=\"middle\" font-size=\"9.5\">(Paling Efektif)</text>\n          <rect x=\"144\" y=\"12\" width=\"122\" height=\"46\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"205\" y=\"32\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">2. Kompromi</text>\n          <text x=\"205\" y=\"48\" text-anchor=\"middle\" font-size=\"9.5\">(Saling Mengalah)</text>\n          <rect x=\"278\" y=\"12\" width=\"122\" height=\"46\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"339\" y=\"32\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3. Smoothing</text>\n          <text x=\"339\" y=\"48\" text-anchor=\"middle\" font-size=\"9.5\">(Tekan Persamaan)</text>\n          <rect x=\"412\" y=\"12\" width=\"122\" height=\"46\" rx=\"8\" fill=\"#ffedd5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"473\" y=\"32\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">4. Pemaksaan</text>\n          <text x=\"473\" y=\"48\" text-anchor=\"middle\" font-size=\"9.5\">(Win-Lose)</text>\n          <rect x=\"546\" y=\"12\" width=\"124\" height=\"46\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"608\" y=\"32\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">5. Penarikan</text>\n          <text x=\"608\" y=\"48\" text-anchor=\"middle\" font-size=\"9.5\">(Menghindar)</text>\n          <rect x=\"10\" y=\"70\" width=\"660\" height=\"32\" rx=\"6\" fill=\"#faf9f5\" stroke=\"#24292f\"/>\n          <text x=\"340\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Saluran Komunikasi = N × (N - 1) / 2   |   N = 5 → 10 saluran   |   N = 8 → 28 saluran</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Lima gaya resolusi konflik di proyek (<em>Konfrontasi, Kompromi, Pemecahan Masalah, Pemaksaan, Penarikan</em>). Rumus <code>N(N-1)/2</code> menunjukkan lonjakan jumlah saluran komunikasi saat anggota tim bertambah.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Rumus N(N-1)/2</span>\n          <span class=\"kw-chip\">5 Teknik Resolusi Konflik</span>\n          <span class=\"kw-chip\">WBS &amp; Baseline</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Hafalkan rumus saluran komunikasi <strong>N(N-1)/2</strong> (jika N=5 → 10 saluran; N=8 → 28 saluran).</p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Siklus Hidup Manajemen Proyek KB 1 & 2: Siklus Hidup & Komunikasi Proyek selesai tepat waktu & sesuai anggaran tetapi kualitas tidak sesuai standar = proyek dinyatakan gagal . 3 Faktor Keberhasilan Proyek TI: Keterlibatan pengguna, manajemen eksekutif, pernyataan persyaratan yang jelas. 5 Mode Resolusi Konflik: Konfrontasi (paling efektif & paling banyak dipakai, pemecahan masalah bersama), Kompromi (saling mengalah), Smoothing (tekankan persamaan), Pemaksaan ( win-lose ), Penarikan (menghindar). Pengelolaan Rapat Efektif: Tentukan tujuan/hasil → tentukan peserta → bagikan agenda sebelum rapat → siapkan handout /visual. KB 3: Saluran Komunikasi, MBWA & Manajemen Risiko Rumus Saluran Komunikasi Potensial: N × (N - 1) / 2 (Contoh: N=8 → 28 saluran; N=5 → 10 saluran). MBWA (Managing By Walking Around): Berkomunikasi langsung dengan tim untuk mendeteksi masalah jalur kritis. Urutan Infrastruktur Komunikasi (paling efektif): Konferensi video → Telepon → Instant Messaging → Email. 5 Langkah Manajemen Risiko: (1) Rencana Manajemen Risiko, (2) Identifikasi Risiko, (3) Analisis/Prioritas Risiko, (4) Perlakukan/Respon Risiko (mitigasi), (5) Pemantauan & Pengendalian. Kualitatif vs Kuantitatif: Penilaian risiko kuantitatif (angka, uang, suku bunga) paling cocok di sektor keuangan, lebih mudah diotomasi, dan lebih objektif. Detail Kecil Wajib Tahu: Komunikasi adalah \"perekat\" tim proyek; kegagalan berkomunikasi adalah ancaman terbesar proyek TI. Setelah mengidentifikasi pesan dan audiens target, langkah berikutnya dalam proses komunikasi adalah menentukan format dan waktu pesan . 5 Mode Resolusi Konflik & Rumus Saluran Komunikasi N(N-1)/2 (Modul 4) 1. Konfrontasi (Paling Efektif) 2. Kompromi (Saling Mengalah) 3. Smoothing (Tekan Persamaan) 4. Pemaksaan (Win-Lose) 5. Penarikan (Menghindar) Saluran Komunikasi = N × (N - 1) / 2 | N = 5 → 10 saluran | N = 8 → 28 saluran Penjelasan Diagram: Lima gaya resolusi konflik di proyek ( Konfrontasi, Kompromi, Pemecahan Masalah, Pemaksaan, Penarikan ). Rumus N(N-1)/2 menunjukkan lonjakan jumlah saluran komunikasi saat anggota tim bertambah. 🔑 Kata Kunci Wajib Ingat — Modul 4 Rumus N(N-1)/2 5 Teknik Resolusi Konflik WBS & Baseline Poin Ujian: Hafalkan rumus saluran komunikasi N(N-1)/2 (jika N=5 → 10 saluran; N=8 → 28 saluran)."
+    },
+    {
+      "id": "m5",
+      "title": "Manajemen Proses untuk Pekerjaan Pengetahuan",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#f59e0b;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Manajemen Proses untuk Pekerjaan Pengetahuan</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Knowledge Worker &amp; Transformasi Digital</h4>\n          <ul class=\"neat\">\n            <li><strong>2 Tujuan Umum KM (Dalkir, 2013):</strong> (1) Penggunaan kembali pengetahuan (<em>reuse</em>) untuk efisiensi, dan (2) Inovasi untuk cara kerja lebih efektif.</li>\n            <li><strong>Knowledge Worker:</strong> Ahli yang menggunakan <strong>pengetahuan (kekuatan otak)</strong> sebagai modal utama untuk memecahkan masalah; membutuhkan otonomi tinggi &amp; cenderung berpindah kerja (<em>menggiring kucing</em>).</li>\n            <li>Pertumbuhan pekerjaan non-rutin 3 dekade terakhir: <strong>pekerjaan pengetahuan &amp; pekerjaan jasa</strong>.</li>\n            <li><strong>Transformasi Digital:</strong> Melayani bisnis dengan memberdayakan orang; menyesuaikan dengan cara orang bekerja (bukan sistem semata).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Knowledge Management &amp; Model SECI</h4>\n          <ul class=\"neat\">\n            <li><strong>Hierarki Pengetahuan:</strong> <code>Data → Information → Knowledge → Wisdom</code>.</li>\n            <li><mark class=\"hl-pink\">Tacit Knowledge:</mark> Personal, di dalam pikiran orang, sulit diakses/dikodifikasikan.</li>\n            <li><mark class=\"hl-blue\">Explicit Knowledge:</mark> Terkodifikasi, sistematis, mudah didokumentasikan (pedoman/SOP).</li>\n            <li><strong>4 Siklus KM Klasik:</strong> <em>Meyer &amp; Zack (1996)</em> (Acquisition, Refinement, Storage/Retrieval, Distribution, Presentation/Use), <em>Bukowitz &amp; Williams (2000)</em> (Get, Use, Learn, Contribute, Assess, Build/Sustain, Divest), <em>McElroy (2003)</em>, dan <em>Wiig (1993)</em>.</li>\n            <li><strong>Model SECI (Nonaka &amp; Takeuchi):</strong> (1) <strong>S</strong>osialisasi (tacit→tacit), (2) <strong>E</strong>ksternalisasi (tacit→explicit), (3) <strong>C</strong>ombinasi (explicit→explicit), (4) <strong>I</strong>nternalisasi (explicit→tacit).</li>\n          </ul>\n          <div class=\"note-box\">\n            <strong>Detail Kecil Wajib Tahu:</strong> Proses internalisasi dapat berupa referensi beranotasi, komponen program/teks, <em>template</em> proposal, atau pola siap pakai ulang. Pada siklus Meyer &amp; Zack, tahap <strong>Refinement</strong> (pemurnian/standarisasi) adalah sumber utama penciptaan nilai tambah aset pengetahuan.\n          </div>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Model SECI Knowledge Management (4 Kuadran Konversi Pengetahuan)</div>\n        <svg width=\"640\" height=\"135\" viewBox=\"0 0 640 135\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"20\" y=\"10\" width=\"285\" height=\"52\" rx=\"10\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"162\" y=\"32\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">1. Socialization (Tacit → Tacit)</text>\n          <text x=\"162\" y=\"50\" text-anchor=\"middle\" font-size=\"10.5\">Berbagi pengalaman tatap muka</text>\n          <rect x=\"335\" y=\"10\" width=\"285\" height=\"52\" rx=\"10\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"477\" y=\"32\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">2. Externalization (Tacit → Explicit)</text>\n          <text x=\"477\" y=\"50\" text-anchor=\"middle\" font-size=\"10.5\">Menulis SOP / dokumentasi ide</text>\n          <rect x=\"335\" y=\"72\" width=\"285\" height=\"52\" rx=\"10\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"477\" y=\"94\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">3. Combination (Explicit → Explicit)</text>\n          <text x=\"477\" y=\"112\" text-anchor=\"middle\" font-size=\"10.5\">Menggabungkan dokumen/laporan baru</text>\n          <rect x=\"20\" y=\"72\" width=\"285\" height=\"52\" rx=\"10\" fill=\"#c9f7dc\" stroke=\"#24292f\" stroke-width=\"1.6\"/>\n          <text x=\"162\" y=\"94\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">4. Internalization (Explicit → Tacit)</text>\n          <text x=\"162\" y=\"112\" text-anchor=\"middle\" font-size=\"10.5\">Belajar dari SOP jadi keahlian pribadi</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Model <strong>SECI</strong> memetakan konversi pengetahuan: <em>Socialization</em> (tacit→tacit), <em>Externalization</em> (tacit→explicit / menulis SOP), <em>Combination</em> (explicit→explicit), dan <em>Internalization</em> (explicit→tacit).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Knowledge Worker</span>\n          <span class=\"kw-chip\">Tacit vs Explicit</span>\n          <span class=\"kw-chip\">SECI (Socialization·Externalization·Combination·Internalization)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>Externalization</strong> = mengubah tacit → explicit (menulis SOP); <strong>Internalization</strong> = belajar explicit → tacit.</p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Manajemen Proses untuk Pekerjaan Pengetahuan KB 1: Knowledge Worker & Transformasi Digital 2 Tujuan Umum KM (Dalkir, 2013): (1) Penggunaan kembali pengetahuan ( reuse ) untuk efisiensi, dan (2) Inovasi untuk cara kerja lebih efektif. Knowledge Worker: Ahli yang menggunakan pengetahuan (kekuatan otak) sebagai modal utama untuk memecahkan masalah; membutuhkan otonomi tinggi & cenderung berpindah kerja ( menggiring kucing ). Pertumbuhan pekerjaan non-rutin 3 dekade terakhir: pekerjaan pengetahuan & pekerjaan jasa . Transformasi Digital: Melayani bisnis dengan memberdayakan orang; menyesuaikan dengan cara orang bekerja (bukan sistem semata). KB 2: Knowledge Management & Model SECI Hierarki Pengetahuan: Data → Information → Knowledge → Wisdom . Tacit Knowledge: Personal, di dalam pikiran orang, sulit diakses/dikodifikasikan. Explicit Knowledge: Terkodifikasi, sistematis, mudah didokumentasikan (pedoman/SOP). 4 Siklus KM Klasik: Meyer & Zack (1996) (Acquisition, Refinement, Storage/Retrieval, Distribution, Presentation/Use), Bukowitz & Williams (2000) (Get, Use, Learn, Contribute, Assess, Build/Sustain, Divest), McElroy (2003) , dan Wiig (1993) . Model SECI (Nonaka & Takeuchi): (1) S osialisasi (tacit→tacit), (2) E ksternalisasi (tacit→explicit), (3) C ombinasi (explicit→explicit), (4) I nternalisasi (explicit→tacit). Detail Kecil Wajib Tahu: Proses internalisasi dapat berupa referensi beranotasi, komponen program/teks, template proposal, atau pola siap pakai ulang. Pada siklus Meyer & Zack, tahap Refinement (pemurnian/standarisasi) adalah sumber utama penciptaan nilai tambah aset pengetahuan. Model SECI Knowledge Management (4 Kuadran Konversi Pengetahuan) 1. Socialization (Tacit → Tacit) Berbagi pengalaman tatap muka 2. Externalization (Tacit → Explicit) Menulis SOP / dokumentasi ide 3. Combination (Explicit → Explicit) Menggabungkan dokumen/laporan baru 4. Internalization (Explicit → Tacit) Belajar dari SOP jadi keahlian pribadi Penjelasan Diagram: Model SECI memetakan konversi pengetahuan: Socialization (tacit→tacit), Externalization (tacit→explicit / menulis SOP), Combination (explicit→explicit), dan Internalization (explicit→tacit). 🔑 Kata Kunci Wajib Ingat — Modul 5 Knowledge Worker Tacit vs Explicit SECI (Socialization·Externalization·Combination·Internalization) Poin Ujian: Externalization = mengubah tacit → explicit (menulis SOP); Internalization = belajar explicit → tacit."
+    },
+    {
+      "id": "m6",
+      "title": "Sistem Informasi Eksekutif (EIS) & Pemodelan BPMN",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#06b6d4;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Sistem Informasi Eksekutif (EIS) &amp; Pemodelan BPMN</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Klasifikasi Sistem Informasi &amp; EIS</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Informasi Manajemen:</strong> Strategis, Taktis, Operasional.</li>\n            <li><strong>TPS (Transaction Processing System):</strong> Penggajian, pemrosesan pesanan, reservasi; menjalankan 5 fungsi dasar: <em>Validasi, Sortir, Daftar, Penggabungan, Memperbarui</em>.</li>\n            <li><strong>DSS &amp; GDSS:</strong> Untuk manajer menengah/bawah memproyeksikan masa depan (<em>Group DSS</em> untuk keputusan kelompok).</li>\n            <li><strong>EIS (Executive Information System):</strong> Untuk manajer puncak, ringkas, fokus antarmuka grafis mudah dipakai, melacak <strong>CSF (Critical Success Factors)</strong>.</li>\n            <li><strong>4 Komponen Hardware EIS:</strong> Perangkat entri data input, CPU, File Penyimpanan Data, dan Perangkat Output.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: BPMN &amp; 9 Teknik Pemodelan Proses</h4>\n          <ul class=\"neat\">\n            <li><strong>BPMN (Mendling &amp; Weidlich, 2012):</strong> Dikembangkan <em>BPMI / OMG</em> dalam bentuk <em>Business Process Diagram (BPD)</em> yang dapat dipetakan ke bahasa eksekusi <strong>BPEL</strong>.</li>\n            <li><strong>4 Manfaat Pemodelan BP:</strong> Efisiensi, Praktik Terbaik &amp; Standardisasi, Kelincahan Proses, dan Transparansi/Akuntabilitas.</li>\n            <li><strong>Kategori Simbol BPMN:</strong> <em>Flow Objects, Connecting Objects, Swim Lanes, Artifacts</em>. (Tidak ada <em>Line Object</em>!)</li>\n            <li><strong>PERT Diagram:</strong> Menunjukkan <strong>jalur kritis (critical path)</strong> &amp; kerangka waktu realistis (estimasi terpendek, terpanjang, paling mungkin).</li>\n            <li><strong>Gantt Chart:</strong> Fokus pada jadwal/waktu (bukan pada data).</li>\n            <li><strong>Teknik Pemodelan Lain:</strong> <em>UML</em> (berasal dari pengembang perangkat lunak), <em>DFD</em> (fokus aliran data), <em>Flowchart</em> (sekuensial, lemah di paralel), <em>Functional Flow Block Diagram</em>, <em>IDEF</em> (15 bentuk aliran), dan <em>Petri Nets / Colored Petri Nets (CPN)</em> (sinkronisasi sub-proses paralel via tempat, transisi, &amp; busur).</li>\n          </ul>\n          <div class=\"note-box\">\n            <strong>Detail Kecil Wajib Tahu:</strong> <em>BPMN</em> adalah evolusi dari <em>flowchart</em> agar mampu memodelkan aktivitas paralel dan semantik proses kompleks secara intuitif bagi pengguna bisnis maupun teknis. Sebaliknya, <em>DFD Yourdon</em> dinilai ketinggalan zaman untuk pemodelan proses bisnis modern karena hanya fokus pada aliran data.\n          </div>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Klasifikasi Sistem Informasi Manajemen &amp; 4 Kategori Simbol BPMN</div>\n        <svg width=\"680\" height=\"150\" viewBox=\"0 0 680 150\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <polygon points=\"155,16 45,134 265,134\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <line x1=\"115\" y1=\"58\" x2=\"195\" y2=\"58\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <line x1=\"80\" y1=\"96\" x2=\"230\" y2=\"96\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"155\" y=\"47\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">EIS (Puncak)</text>\n          <text x=\"155\" y=\"81\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">DSS &amp; MIS (Menengah)</text>\n          <text x=\"155\" y=\"119\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\">TPS (Operasional)</text>\n\n          <rect x=\"305\" y=\"14\" width=\"365\" height=\"122\" rx=\"10\" fill=\"#faf9f5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"487\" y=\"34\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">4 Kategori Utama Notasi BPMN</text>\n          <rect x=\"320\" y=\"44\" width=\"160\" height=\"38\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/>\n          <text x=\"400\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">1. Flow Objects</text>\n          <text x=\"400\" y=\"74\" text-anchor=\"middle\" font-size=\"9\">(Event, Activity, Gateway)</text>\n          <rect x=\"495\" y=\"44\" width=\"160\" height=\"38\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/>\n          <text x=\"575\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">2. Connecting Objects</text>\n          <text x=\"575\" y=\"74\" text-anchor=\"middle\" font-size=\"9\">(Sequence, Message)</text>\n          <rect x=\"320\" y=\"90\" width=\"160\" height=\"38\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/>\n          <text x=\"400\" y=\"106\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">3. Swim Lanes</text>\n          <text x=\"400\" y=\"120\" text-anchor=\"middle\" font-size=\"9\">(Pool &amp; Lane)</text>\n          <rect x=\"495\" y=\"90\" width=\"160\" height=\"38\" rx=\"6\" fill=\"#ede9fe\" stroke=\"#24292f\"/>\n          <text x=\"575\" y=\"106\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">4. Artifacts</text>\n          <text x=\"575\" y=\"120\" text-anchor=\"middle\" font-size=\"9\">(Data Object, Group)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: Piramida SI menempatkan <em>TPS</em> di level operasional, <em>DSS &amp; MIS</em> di menengah, dan <em>EIS</em> di puncak eksekutif. Kanan: 4 kategori resmi notasi BPMN (<em>Flow Objects, Connecting Objects, Swim Lanes, Artifacts</em>).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">EIS · DSS · MIS · TPS</span>\n          <span class=\"kw-chip\">4 Kategori BPMN (Flow·Connecting·Swim Lanes·Artifacts)</span>\n          <span class=\"kw-chip\">PERT (Critical Path) vs Gantt</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Dalam BPMN <strong>tidak ada</strong> kategori <em>Line Object</em>! <strong>PERT</strong> fokus pada jalur kritis (<em>critical path</em>), sedangkan <strong>Gantt Chart</strong> fokus pada jadwal/waktu.</p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Sistem Informasi Eksekutif (EIS) & Pemodelan BPMN KB 1: Klasifikasi Sistem Informasi & EIS 3 Informasi Manajemen: Strategis, Taktis, Operasional. TPS (Transaction Processing System): Penggajian, pemrosesan pesanan, reservasi; menjalankan 5 fungsi dasar: Validasi, Sortir, Daftar, Penggabungan, Memperbarui . DSS & GDSS: Untuk manajer menengah/bawah memproyeksikan masa depan ( Group DSS untuk keputusan kelompok). EIS (Executive Information System): Untuk manajer puncak, ringkas, fokus antarmuka grafis mudah dipakai, melacak CSF (Critical Success Factors) . 4 Komponen Hardware EIS: Perangkat entri data input, CPU, File Penyimpanan Data, dan Perangkat Output. KB 2: BPMN & 9 Teknik Pemodelan Proses BPMN (Mendling & Weidlich, 2012): Dikembangkan BPMI / OMG dalam bentuk Business Process Diagram (BPD) yang dapat dipetakan ke bahasa eksekusi BPEL . 4 Manfaat Pemodelan BP: Efisiensi, Praktik Terbaik & Standardisasi, Kelincahan Proses, dan Transparansi/Akuntabilitas. Kategori Simbol BPMN: Flow Objects, Connecting Objects, Swim Lanes, Artifacts . (Tidak ada Line Object !) PERT Diagram: Menunjukkan jalur kritis (critical path) & kerangka waktu realistis (estimasi terpendek, terpanjang, paling mungkin). Gantt Chart: Fokus pada jadwal/waktu (bukan pada data). Teknik Pemodelan Lain: UML (berasal dari pengembang perangkat lunak), DFD (fokus aliran data), Flowchart (sekuensial, lemah di paralel), Functional Flow Block Diagram , IDEF (15 bentuk aliran), dan Petri Nets / Colored Petri Nets (CPN) (sinkronisasi sub-proses paralel via tempat, transisi, & busur). Detail Kecil Wajib Tahu: BPMN adalah evolusi dari flowchart agar mampu memodelkan aktivitas paralel dan semantik proses kompleks secara intuitif bagi pengguna bisnis maupun teknis. Sebaliknya, DFD Yourdon dinilai ketinggalan zaman untuk pemodelan proses bisnis modern karena hanya fokus pada aliran data. Klasifikasi Sistem Informasi Manajemen & 4 Kategori Simbol BPMN EIS (Puncak) DSS & MIS (Menengah) TPS (Operasional) 4 Kategori Utama Notasi BPMN 1. Flow Objects (Event, Activity, Gateway) 2. Connecting Objects (Sequence, Message) 3. Swim Lanes (Pool & Lane) 4. Artifacts (Data Object, Group) Penjelasan Diagram: Kiri: Piramida SI menempatkan TPS di level operasional, DSS & MIS di menengah, dan EIS di puncak eksekutif. Kanan: 4 kategori resmi notasi BPMN ( Flow Objects, Connecting Objects, Swim Lanes, Artifacts ). 🔑 Kata Kunci Wajib Ingat — Modul 6 EIS · DSS · MIS · TPS 4 Kategori BPMN (Flow·Connecting·Swim Lanes·Artifacts) PERT (Critical Path) vs Gantt Poin Ujian: Dalam BPMN tidak ada kategori Line Object ! PERT fokus pada jalur kritis ( critical path ), sedangkan Gantt Chart fokus pada jadwal/waktu."
+    },
+    {
+      "id": "ahli",
+      "title": "Tokoh, Ahli & Sumber Kunci dalam BMP STSI4206",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI</span>\n        <h2 class=\"mod-title\">Tokoh, Ahli &amp; Sumber Kunci dalam BMP STSI4206</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Hutton (2011):</strong> Analisis Proses Bisnis adalah inisiatif perbaikan proses atau bagian dari implementasi <strong>ERP</strong> maupun proyek <strong>BPR</strong>.</li>\n            <li><strong>Jeston &amp; Nelis (2014):</strong> Manajemen Proses Bisnis (BPM) membantu manajemen mencapai keunggulan kompetitif dalam lingkungan yang bergejolak.</li>\n            <li><strong>Hammer &amp; Champy (1990) / Hammer (2007):</strong> Pelopor <em>Business Process Reengineering (BPR)</em> dan <em>Hammer's BPM Maturity Model (Process Audit)</em>.</li>\n            <li><strong>Rosemann &amp; vom Brocke (2014/2015):</strong> Merumuskan <em>Six Core Elements of BPM</em> dan peran TI sebagai elemen inti manajemen proses.</li>\n            <li><strong>Conger (2011):</strong> Acuan perbaikan proses melalui <em>pembersihan</em> (penyederhanaan) dan <em>penyegaran</em> (otomatisasi/outsourcing).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>Davenport (1993):</strong> Inovasi proses bisnis melalui pemanfaatan teknologi informasi.</li>\n            <li><strong>PMI (2013) &amp; Schwalbe (2016):</strong> Standar de facto manajemen proyek dalam <em>PMBOK Guide</em> (5 kelompok proses &amp; 10 area pengetahuan) serta manajemen proyek TI.</li>\n            <li><strong>Dalkir (2013, 2017):</strong> <em>Knowledge Management</em> (tujuan <em>reuse</em> &amp; inovasi, hierarki DIKW, dan sintesis siklus KM Meyer &amp; Zack, Bukowitz &amp; Williams, McElroy, Wiig).</li>\n            <li><strong>Mendling &amp; Weidlich (2012):</strong> Standar grafis <em>Business Process Model and Notation (BPMN)</em> dan pemetaannya ke BPEL.</li>\n            <li><strong>Bakharia et al. (2016):</strong> Klasifikasi diagram sebab-akibat <strong>6M</strong> dalam analisis akar masalah.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu (Dumas et al.; PMI PMBOK; Nonaka &amp; Takeuchi)</h4>\n        <ul class=\"neat\">\n          <li><strong>Simbol Gateway BPMN (Dumas et al., Fundamentals of BPM):</strong> Bedakan <strong>XOR Gateway (×)</strong> = pilih tepat satu jalur kondisi (<em>exclusive</em>), <strong>AND Gateway (+)</strong> = semua jalur berjalan paralel bersamaan, dan <strong>OR Gateway (○)</strong> = satu atau lebih jalur dapat aktif.</li>\n          <li><strong>Triple Constraint &amp; Jalur Kritis (PMI PMBOK):</strong> Kualitas proyek bergantung pada keseimbangan <em>Scope (Ruang Lingkup), Time (Waktu), dan Cost (Biaya)</em>. Pada diagram PERT/CPM, <strong>Critical Path</strong> adalah jalur terpanjang dengan <em>float/slack = 0</em> — keterlambatan di jalur ini langsung menunda seluruh proyek.</li>\n          <li><strong>Detail Kecil Nonaka &amp; Takeuchi (SECI):</strong> Pengetahuan <em>Tacit</em> bersifat personal dan melekat pada pengalaman individu (sulit ditulis), sedangkan <em>Explicit</em> sudah terkodifikasi dalam SOP, manual, atau basis data.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Triple Constraint Manajemen Proyek (Scope–Time–Cost) &amp; Jalur Kritis PERT</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Triple Constraint PMBOK</text>\n          <rect x=\"22\" y=\"42\" width=\"90\" height=\"44\" rx=\"6\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"67\" y=\"68\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Scope</text>\n          <rect x=\"122\" y=\"42\" width=\"96\" height=\"44\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"170\" y=\"68\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Time</text>\n          <rect x=\"228\" y=\"42\" width=\"90\" height=\"44\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"273\" y=\"68\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">Cost</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"94\" rx=\"8\" fill=\"#fef2f2\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Jalur Kritis (Critical Path)</text>\n          <rect x=\"364\" y=\"44\" width=\"70\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"399\" y=\"66\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">A (3 hr)</text>\n          <path d=\"M436 62 L464 62\" stroke=\"#dc2626\" stroke-width=\"2.5\"/>\n          <rect x=\"466\" y=\"44\" width=\"84\" height=\"36\" rx=\"6\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"508\" y=\"66\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">B (5 hr)</text>\n          <path d=\"M552 62 L580 62\" stroke=\"#dc2626\" stroke-width=\"2.5\"/>\n          <rect x=\"582\" y=\"44\" width=\"74\" height=\"36\" rx=\"6\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"619\" y=\"66\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">C (2 hr)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Perubahan pada salah satu sisi <em>Scope, Time, atau Cost</em> memengaruhi kualitas proyek. Pada diagram PERT, jalur kritis (garis merah) memiliki total durasi terpanjang dengan kelonggaran waktu (<em>slack</em>) nol.</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Jenis Gateway pada Notasi BPMN (XOR vs AND vs OR)</div>\n        <svg width=\"680\" height=\"94\" viewBox=\"0 0 680 94\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"205\" height=\"70\" rx=\"8\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"112\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">XOR Gateway (×)</text>\n          <text x=\"112\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Exclusive: pilih tepat</text>\n          <text x=\"112\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">1 jalur (Ya / Tidak)</text>\n\n          <rect x=\"237\" y=\"12\" width=\"205\" height=\"70\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"339\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">AND Gateway (+)</text>\n          <text x=\"339\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Parallel: semua jalur</text>\n          <text x=\"339\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">jalan bersamaan</text>\n\n          <rect x=\"464\" y=\"12\" width=\"206\" height=\"70\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"567\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">OR Gateway (○)</text>\n          <text x=\"567\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Inclusive: boleh 1 atau</text>\n          <text x=\"567\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">lebih jalur aktif</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Simbol belah ketupat (<em>Gateway</em>) mengendalikan percabangan alur BPMN: tanda <strong>×</strong> untuk percabangan eksklusif, tanda <strong>+</strong> untuk eksekusi paralel, dan tanda <strong>○</strong> untuk kondisi inklusif.</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI Tokoh, Ahli & Sumber Kunci dalam BMP STSI4206 Hutton (2011): Analisis Proses Bisnis adalah inisiatif perbaikan proses atau bagian dari implementasi ERP maupun proyek BPR . Jeston & Nelis (2014): Manajemen Proses Bisnis (BPM) membantu manajemen mencapai keunggulan kompetitif dalam lingkungan yang bergejolak. Hammer & Champy (1990) / Hammer (2007): Pelopor Business Process Reengineering (BPR) dan Hammer's BPM Maturity Model (Process Audit) . Rosemann & vom Brocke (2014/2015): Merumuskan Six Core Elements of BPM dan peran TI sebagai elemen inti manajemen proses. Conger (2011): Acuan perbaikan proses melalui pembersihan (penyederhanaan) dan penyegaran (otomatisasi/outsourcing). Davenport (1993): Inovasi proses bisnis melalui pemanfaatan teknologi informasi. PMI (2013) & Schwalbe (2016): Standar de facto manajemen proyek dalam PMBOK Guide (5 kelompok proses & 10 area pengetahuan) serta manajemen proyek TI. Dalkir (2013, 2017): Knowledge Management (tujuan reuse & inovasi, hierarki DIKW, dan sintesis siklus KM Meyer & Zack, Bukowitz & Williams, McElroy, Wiig). Mendling & Weidlich (2012): Standar grafis Business Process Model and Notation (BPMN) dan pemetaannya ke BPEL. Bakharia et al. (2016): Klasifikasi diagram sebab-akibat 6M dalam analisis akar masalah. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu (Dumas et al.; PMI PMBOK; Nonaka & Takeuchi) Simbol Gateway BPMN (Dumas et al., Fundamentals of BPM): Bedakan XOR Gateway (×) = pilih tepat satu jalur kondisi ( exclusive ), AND Gateway (+) = semua jalur berjalan paralel bersamaan, dan OR Gateway (○) = satu atau lebih jalur dapat aktif. Triple Constraint & Jalur Kritis (PMI PMBOK): Kualitas proyek bergantung pada keseimbangan Scope (Ruang Lingkup), Time (Waktu), dan Cost (Biaya) . Pada diagram PERT/CPM, Critical Path adalah jalur terpanjang dengan float/slack = 0 — keterlambatan di jalur ini langsung menunda seluruh proyek. Detail Kecil Nonaka & Takeuchi (SECI): Pengetahuan Tacit bersifat personal dan melekat pada pengalaman individu (sulit ditulis), sedangkan Explicit sudah terkodifikasi dalam SOP, manual, atau basis data. Triple Constraint Manajemen Proyek (Scope–Time–Cost) & Jalur Kritis PERT Triple Constraint PMBOK Scope Time Cost Jalur Kritis (Critical Path) A (3 hr) B (5 hr) C (2 hr) Penjelasan Diagram: Perubahan pada salah satu sisi Scope, Time, atau Cost memengaruhi kualitas proyek. Pada diagram PERT, jalur kritis (garis merah) memiliki total durasi terpanjang dengan kelonggaran waktu ( slack ) nol. Jenis Gateway pada Notasi BPMN (XOR vs AND vs OR) XOR Gateway (×) Exclusive: pilih tepat 1 jalur (Ya / Tidak) AND Gateway (+) Parallel: semua jalur jalan bersamaan OR Gateway (○) Inclusive: boleh 1 atau lebih jalur aktif Penjelasan Diagram: Simbol belah ketupat ( Gateway ) mengendalikan percabangan alur BPMN: tanda × untuk percabangan eksklusif, tanda + untuk eksekusi paralel, dan tanda ○ untuk kondisi inklusif."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1] 1) Seorang bisnis analis perlu melihat berjalannya proses-proses beserta komponennya dengan sangat teliti dan terperinci, karena ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "belum pakai prosedur ISO"
+        },
+        {
+          "letter": "B",
+          "text": "ada kemungkinan proses saat ini memakai terlalu banyak sumber daya atau tidak efisien karena teknologi ketinggalan zaman"
+        },
+        {
+          "letter": "C",
+          "text": "monitoring sistem lama"
+        },
+        {
+          "letter": "D",
+          "text": "sistem sudah terlalu lama"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 2) Hal yang membantu mengidentifikasi area yang perlu ditingkatkan sebelum menjadi masalah besar, serta merespon perubahan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menilai kinerja karyawan"
+        },
+        {
+          "letter": "B",
+          "text": "menilai kinerja sistem"
+        },
+        {
+          "letter": "C",
+          "text": "menilai kinerja bisnis berkelanjutan"
+        },
+        {
+          "letter": "D",
+          "text": "menilai kinerja pimpinan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 3) Ahli yang menyatakan BPM membantu manajemen mencapai keunggulan kompetitif dalam lingkungan bergejolak adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jeston & Nelis, 2014"
+        },
+        {
+          "letter": "B",
+          "text": "Hutton, 2011"
+        },
+        {
+          "letter": "C",
+          "text": "Satzinger, 2016"
+        },
+        {
+          "letter": "D",
+          "text": "Pressman, 2010"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 4) Satu cara membuat perusahaan dapat menghemat biaya produksi mereka adalah ....",
+      "options": [
+        {
+          "letter": "E",
+          "text": "mendistribusikan"
+        },
+        {
+          "letter": "",
+          "text": "F. globalisasi"
+        },
+        {
+          "letter": "",
+          "text": "G. digitalisasi"
+        },
+        {
+          "letter": "",
+          "text": "H. pemantauan teknologi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Globalisasi",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 5) Analisis Proses Bisnis sebagai inisiatif perbaikan proses atau bagian implementasi ERP/BPR dinyatakan oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jeston & Nelis, 2014"
+        },
+        {
+          "letter": "B",
+          "text": "Hutton, 2011"
+        },
+        {
+          "letter": "C",
+          "text": "Satzinger, 2016"
+        },
+        {
+          "letter": "D",
+          "text": "Pressman, 2010"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 6) Pengurangan pengeluaran dan resiko merupakan salah satu proses terencana dan strategis yang membantu usaha.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 7) Meningkatkan produktivitas departemen dengan memetakan langkah relevan adalah usaha untuk 'mengurangi kesalahan manusia'.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 7
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 8) Ketika teknologi dimanfaatkan dengan benar maka memiliki potensi meningkatkan kesuksesan organisasi.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 8
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 9) Khusus organisasi kecil/menengah, alat populer mengukur keterlibatan dan loyalitas pengguna yaitu Business analytic.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 9
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 10) Salah satu kunci kesuksesan dalam bisnis adalah memfasilitasi layanan pelanggan yang baik.",
+      "options": [
+        {
+          "letter": "C",
+          "text": "Benar"
+        },
+        {
+          "letter": "D",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 10
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 1) Identifikasi proses bertujuan mendefinisikan serangkaian Proses Bisnis perusahaan yang keluarannya adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "komunikasi proses"
+        },
+        {
+          "letter": "B",
+          "text": "arsitektur proses"
+        },
+        {
+          "letter": "C",
+          "text": "penetapan bisnis proses"
+        },
+        {
+          "letter": "D",
+          "text": "SOP"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 11
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 2) Tidak semua bisnis meluangkan waktu mengidentifikasi dan memetakan proses, namun yang pasti semua bisnis memiliki ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "process"
+        },
+        {
+          "letter": "B",
+          "text": "input"
+        },
+        {
+          "letter": "C",
+          "text": "resources"
+        },
+        {
+          "letter": "D",
+          "text": "output"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 12
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 3) Metrik terukur untuk evaluasi efisiensi & efektivitas Proses Bisnis langsung dari data aliran proses disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "indikator kinerja proses"
+        },
+        {
+          "letter": "B",
+          "text": "indikator kinerja prosedur"
+        },
+        {
+          "letter": "C",
+          "text": "indikator kinerja karyawan"
+        },
+        {
+          "letter": "D",
+          "text": "indikator kinerja utama"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 13
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 4) Kegiatan mengidentifikasi area yang perlu ditingkatkan sebelum jadi masalah besar dilakukan melalui ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penilaian teman sejawat"
+        },
+        {
+          "letter": "B",
+          "text": "penilaian atasan"
+        },
+        {
+          "letter": "C",
+          "text": "penilaian kinerja proses berkelanjutan"
+        },
+        {
+          "letter": "D",
+          "text": "penilaian prosedur"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 14
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 5) Hal baik yang perlu dilakukan perusahaan untuk solusi teknologi cerdas bisnis dengan sentuhan manusiawi adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "asisten virtual"
+        },
+        {
+          "letter": "B",
+          "text": "CEO"
+        },
+        {
+          "letter": "C",
+          "text": "CTO"
+        },
+        {
+          "letter": "D",
+          "text": "leaders"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 15
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 6) Identifikasi proses bertujuan mendefinisikan Proses Bisnis dan mempertimbangkan kriteria untuk kemudahan komunikasi stakeholder.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 16
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 7) Six Sigma adalah metodologi lima hingga tujuh langkah yang digunakan bisnis untuk menganalisis efisiensi dan pembatasan.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 17
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 8) Lean adalah pendekatan kolaboratif yang berfokus menghilangkan tugas dan sumber daya yang tidak memberi nilai.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 18
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 9) Proses Bisnis adalah sekumpulan kegiatan yang saling mempengaruhi antar fungsi organisasi guna mencapai tujuan organisasi.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 19
+    },
+    {
+      "module": "M1",
+      "question": "[M1] 10) Proses Bisnis adalah kumpulan pekerjaan yang saling terhubung untuk menyelesaikan masalah dengan cara mereka sendiri.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 20
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 1) Pengertian tentang Six Sigma di bawah ini benar, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "alat kontrol kualitas"
+        },
+        {
+          "letter": "B",
+          "text": "proses berbasis statistik dengan pertimbangan tertentu saja"
+        },
+        {
+          "letter": "C",
+          "text": "ideologi manajemen perbaikan statistik"
+        },
+        {
+          "letter": "D",
+          "text": "daftar input potensial"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 21
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 2) Manfaat menerapkan Six Sigma dan BPM secara efektif adalah, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penghematan biaya"
+        },
+        {
+          "letter": "B",
+          "text": "otomatisasi proses"
+        },
+        {
+          "letter": "C",
+          "text": "peningkatan kualitas & kinerja"
+        },
+        {
+          "letter": "D",
+          "text": "semuanya benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 22
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 3) Six Sigma adalah praktik peningkatan berkelanjutan yang mengikuti metode yang dikembangkan di ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Samsung"
+        },
+        {
+          "letter": "B",
+          "text": "Motorola"
+        },
+        {
+          "letter": "C",
+          "text": "Nokia"
+        },
+        {
+          "letter": "D",
+          "text": "Apple"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 23
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 4) Metode Six Sigma terdiri dari dua, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DMAIC dan DMADV"
+        },
+        {
+          "letter": "B",
+          "text": "DMIIN dan DMOUT"
+        },
+        {
+          "letter": "C",
+          "text": "DMMIN dan DMMAX"
+        },
+        {
+          "letter": "D",
+          "text": "DMACD dan DMACE"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 24
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 5) Untuk meningkatkan keandalan dan ketersediaan jaringannya di seluruh dunia, Microsoft menerapkan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SDLC"
+        },
+        {
+          "letter": "B",
+          "text": "Scrum"
+        },
+        {
+          "letter": "C",
+          "text": "Six sigma"
+        },
+        {
+          "letter": "D",
+          "text": "7FE framework"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 25
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 6) Microsoft (MSFT) adalah salah satu produsen perangkat lunak terkecil di dunia.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 26
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 7) Sigma adalah proses berbasis statistik dan data yang bekerja meninjau kesalahan atau cacat batas.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 27
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 8) Lean Sigma berfokus pada tim menghilangkan pemborosan dan cacat sambil meningkatkan standarisasi kerja.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 28
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 9) Six Sigma alat manajemen baru untuk mengganti TQM yang terfokus pada pengendalian kualitas sistem produksi.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 29
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 10) Model untuk menilai kematangan proses pengembangan perangkat lunak disebut model maturity CMM.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 30
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 1) Manajemen Proses Bisnis berfokus pada menemukan, mengoptimalkan, memodelkan, memantau dan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menganalisis aktivitas bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "mengelola proses sebelumnya"
+        },
+        {
+          "letter": "C",
+          "text": "mengelola proses setelahnya"
+        },
+        {
+          "letter": "D",
+          "text": "A dan B benar"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 31
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 2) Business Process Management mengarah ke langkah-langkah lain seperti ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "desain Proses Bisnis dan pemodelan Proses Bisnis"
+        },
+        {
+          "letter": "B",
+          "text": "desain usulan"
+        },
+        {
+          "letter": "C",
+          "text": "analisis sistem lama"
+        },
+        {
+          "letter": "D",
+          "text": "konsolidasi tim"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 32
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 3) Hal penting membuat Proses Bisnis lebih baik sesuai rencana sebelumnya adalah dengan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pengajuan anggaran disesuaikan"
+        },
+        {
+          "letter": "B",
+          "text": "memastikan akses data keuangan agar tidak kekurangan budget"
+        },
+        {
+          "letter": "C",
+          "text": "semua budget ditanggung"
+        },
+        {
+          "letter": "D",
+          "text": "hak personel"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 33
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 4) Siklus hidup Proses Bisnis Manajemen dicirikan aktivitas berulang namun dilakukan secara ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sekaligus"
+        },
+        {
+          "letter": "B",
+          "text": "bertahap"
+        },
+        {
+          "letter": "C",
+          "text": "menyesuaikan prioritas"
+        },
+        {
+          "letter": "D",
+          "text": "sesuai instruksi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 34
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 5) Manajemen proses membutuhkan acuan menghapus langkah perbaikan tak perlu, seperti ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "outsourcing"
+        },
+        {
+          "letter": "B",
+          "text": "pemangkasan SDM"
+        },
+        {
+          "letter": "C",
+          "text": "penyederhanaan dan penyempurnaan langkah tersisa"
+        },
+        {
+          "letter": "D",
+          "text": "perampingan SDM"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 35
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 6) Penerapan beberapa teknik untuk setiap langkah perbaikan proses ditunjukkan melalui analisis biaya.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 36
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 7) BPM saat ini diusulkan sebagai rentang disiplin yang mengintegrasikan disiplin sebelumnya.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 37
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 8) SIPOC adalah singkatan dari Suppliers, Inputs, Process, Output, Correlation.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "Harusnya Customers",
+      "num": 38
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 9) Empat jenis event-driven proses yaitu Manajemen, pengaruh pelanggan, primer, dan dukungan.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 39
+    },
+    {
+      "module": "M2",
+      "question": "[M2] 10) Model proses membantu memvisualisasikan langkah-langkah apa yang penting dalam suatu proses.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 40
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 1) Elemen manajemen proyek meliputi hal berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "siklus hidup proyek"
+        },
+        {
+          "letter": "B",
+          "text": "area pengetahuan"
+        },
+        {
+          "letter": "C",
+          "text": "sertifikasi"
+        },
+        {
+          "letter": "D",
+          "text": "perangkat keras manajemen proyek"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 41
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 2) Teknik untuk mengidentifikasi langkah tidak perlu dalam proses agar dihilangkan dikenal dengan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "value-added analysis"
+        },
+        {
+          "letter": "B",
+          "text": "business process analysis"
+        },
+        {
+          "letter": "C",
+          "text": "identify process analysis"
+        },
+        {
+          "letter": "D",
+          "text": "BPM"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 42
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 3) Klasifikasi langkah dalam analisis nilai tambah terdiri dari 3 kategori, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NVA"
+        },
+        {
+          "letter": "B",
+          "text": "Process Value Added (PVA)"
+        },
+        {
+          "letter": "C",
+          "text": "BVA"
+        },
+        {
+          "letter": "D",
+          "text": "VA"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 43
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 4) Teknik lain menganalisis penyebab efek negatif/masalah proses bisnis disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "root cause diagram"
+        },
+        {
+          "letter": "B",
+          "text": "why-why diagram"
+        },
+        {
+          "letter": "C",
+          "text": "model diagram"
+        },
+        {
+          "letter": "D",
+          "text": "scrum diagram"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 44
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 5) Proses menganalisis secara numerik efek gabungan risiko proyek individu dan ketidakpastian disebut analisis ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "proses kuantitatif"
+        },
+        {
+          "letter": "B",
+          "text": "proses kualitatif"
+        },
+        {
+          "letter": "C",
+          "text": "mix method"
+        },
+        {
+          "letter": "D",
+          "text": "campuran"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 45
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 6) PMBOK berisi kumpulan proses praktik, terminologi, dan pedoman standar manajemen proyek.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 46
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 7) Analisis Pareto bersandar pada prinsip bahwa sejumlah besar faktor bertanggung jawab atas bagian terbesar efek.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "Prinsip 80-20: sebagian kecil faktor",
+      "num": 47
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 8) Proses Analisis Risiko Kualitatif memiliki potensi signifikan memengaruhi tujuan proyek.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 48
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 9) Analisis risiko kuantitatif menggunakan model simulasi (seperti Monte Carlo) untuk dampak tujuan proyek.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 49
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 10) Salah satu tampilan khas dari analisis sensitivitas adalah diagram big torpedo.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 50
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 1) PMBOK menggunakan lima kelompok proses manajemen proyek, salah satunya adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "monitoring and controlling"
+        },
+        {
+          "letter": "B",
+          "text": "adding"
+        },
+        {
+          "letter": "C",
+          "text": "analyze"
+        },
+        {
+          "letter": "D",
+          "text": "identification"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 51
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 2) Fase membangun infrastruktur proyek untuk mencapai tujuan dalam batasan waktu & anggaran disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "initiating"
+        },
+        {
+          "letter": "B",
+          "text": "executing"
+        },
+        {
+          "letter": "C",
+          "text": "planning"
+        },
+        {
+          "letter": "D",
+          "text": "closing"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 52
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 3) Pengetahuan mengacu pada jumlah total pekerjaan untuk menghasilkan produk/layanan dengan fitur tertentu adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "project integration"
+        },
+        {
+          "letter": "B",
+          "text": "project scope management"
+        },
+        {
+          "letter": "C",
+          "text": "project time"
+        },
+        {
+          "letter": "D",
+          "text": "project quality"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 53
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 4) Pada proyek besar, banyak manajer proyek menyatakan 90 persen pekerjaannya adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengomunikasikan dan mengelola perubahan"
+        },
+        {
+          "letter": "B",
+          "text": "mengelola SDM"
+        },
+        {
+          "letter": "C",
+          "text": "inisiasi"
+        },
+        {
+          "letter": "D",
+          "text": "diskusi tambahan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 54
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 5) Generally recognized pada PMBOK Guide berarti ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "meningkatkan peluang sukses"
+        },
+        {
+          "letter": "B",
+          "text": "pengetahuan dan praktik berlaku untuk berbagai proyek dan hampir sepanjang waktu"
+        },
+        {
+          "letter": "C",
+          "text": "sertifikasi PMP"
+        },
+        {
+          "letter": "D",
+          "text": "menjelaskan sistem"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 55
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 6) Rencana manajemen proyek menyediakan dasar mengidentifikasi dan mengendalikan perubahan proyek.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 56
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 7) Salah satu dari tiga tujuan pengendalian perubahan terpadu adalah pengidentifikasian perubahan siklus hidup proyek.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 57
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 8) Proses terakhir manajemen integrasi proyek adalah menutup proyek atau fase.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 58
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 9) Manajemen risiko proyek akan meningkatkan potensi dampak positif kejadian tak terduga terkait biaya/jadwal.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "mengurangi dampak negatif",
+      "num": 59
+    },
+    {
+      "module": "M3",
+      "question": "[M3] 10) Manajemen proyek dapat mengakibatkan peningkatan risiko operasional di masa depan.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 60
+    },
+    {
+      "module": "M4",
+      "question": "[M4] 1) 'Siklus hidup proyek adalah serangkaian fase dari inisiasi hingga penutupan' dikutip dari ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PMI (2012)"
+        },
+        {
+          "letter": "B",
+          "text": "PMI (2013)"
+        },
+        {
+          "letter": "C",
+          "text": "PMI (2014)"
+        },
+        {
+          "letter": "D",
+          "text": "PMI (2015)"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 61
+    },
+    {
+      "module": "M4",
+      "question": "[M4] 2) Metodologi PMI merupakan standar de facto yang ditemukan dalam buku ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PMBOK"
+        },
+        {
+          "letter": "B",
+          "text": "PMBK"
+        },
+        {
+          "letter": "C",
+          "text": "MPM"
+        },
+        {
+          "letter": "D",
+          "text": "PMBK"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 62
+    },
+    {
+      "module": "M4",
+      "question": "[M4] 3) Area pengetahuan bertepatan dengan kelompok proses (inisiasi s.d. penutupan), ini merupakan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fase mutasi"
+        },
+        {
+          "letter": "B",
+          "text": "fase kronologis yang dilalui setiap proyek"
+        },
+        {
+          "letter": "C",
+          "text": "fase keberlangsungan"
+        },
+        {
+          "letter": "D",
+          "text": "fase penyelesaian"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 63
+    },
+    {
+      "module": "M4",
+      "question": "[M4] 4) Proyek selesai tepat waktu & anggaran, tetapi kualitas tidak sesuai standar maka ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "proyek dinyatakan gagal"
+        },
+        {
+          "letter": "B",
+          "text": "tetap berhasil"
+        },
+        {
+          "letter": "C",
+          "text": "re-design"
+        },
+        {
+          "letter": "D",
+          "text": "perbaikan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 64
+    },
+    {
+      "module": "M4",
+      "question": "[M4] 5) Fase-fase dalam siklus hidup proyek umumnya dilakukan secara ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "random"
+        },
+        {
+          "letter": "B",
+          "text": "acak"
+        },
+        {
+          "letter": "C",
+          "text": "berurutan"
+        },
+        {
+          "letter": "D",
+          "text": "terstruktur"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 65
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF2-1] Status proyek perlu dilacak dan dipantau secara efektif menggunakan berbagai alat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "komunikasi"
+        },
+        {
+          "letter": "B",
+          "text": "pelacakan"
+        },
+        {
+          "letter": "C",
+          "text": "diskusi"
+        },
+        {
+          "letter": "D",
+          "text": "kerjasama"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 66
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF2-2] Tiga faktor keberhasilan proyek TI, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keterlibatan pengguna"
+        },
+        {
+          "letter": "B",
+          "text": "manajemen eksekutif"
+        },
+        {
+          "letter": "C",
+          "text": "kerjasama stakeholder"
+        },
+        {
+          "letter": "D",
+          "text": "persyaratan jelas"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 67
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF2-3] Kegiatan penting tim proyek adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memberi informasi ke pemangku kepentingan secara teratur"
+        },
+        {
+          "letter": "B",
+          "text": "mengelola tim"
+        },
+        {
+          "letter": "C",
+          "text": "pengambilan keputusan"
+        },
+        {
+          "letter": "D",
+          "text": "jadwal"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 68
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF2-4] Tujuan manajemen komunikasi proyek adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memastikan pengumpulan, penyimpanan, distribusi, pembuatan informasi tepat waktu & tepat"
+        },
+        {
+          "letter": "B",
+          "text": "rencana komunikasi"
+        },
+        {
+          "letter": "C",
+          "text": "dokumen"
+        },
+        {
+          "letter": "D",
+          "text": "rencana proyek"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 69
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF3-1] Proyek dengan 8 pemangku kepentingan utama memiliki jumlah potensial saluran komunikasi sebanyak ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "16"
+        },
+        {
+          "letter": "B",
+          "text": "28"
+        },
+        {
+          "letter": "C",
+          "text": "36"
+        },
+        {
+          "letter": "D",
+          "text": "56"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "8×7/2 = 28",
+      "num": 70
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF3-2] Mode penyelesaian konflik paling efektif untuk konflik sumber daya antar departemen adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menarik diri"
+        },
+        {
+          "letter": "B",
+          "text": "memaksakan"
+        },
+        {
+          "letter": "C",
+          "text": "pertemuan identifikasi akar masalah & solusi bersama (Konfrontasi)"
+        },
+        {
+          "letter": "D",
+          "text": "smoothing"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 71
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF3-3] Manajer proyek mengetahui masalah keterlambatan jalur kritis seharusnya dengan cara ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "email formal"
+        },
+        {
+          "letter": "B",
+          "text": "tunggu laporan mingguan"
+        },
+        {
+          "letter": "C",
+          "text": "MBWA (Managing By Walking Around) & komunikasi langsung"
+        },
+        {
+          "letter": "D",
+          "text": "rapat darurat"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 72
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF3-4] Urutan metode komunikasi tim virtual dari yang paling efektif adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "email-IM-telepon-video"
+        },
+        {
+          "letter": "B",
+          "text": "konferensi video, telepon, instant messaging, email"
+        },
+        {
+          "letter": "C",
+          "text": "telepon-email-video-IM"
+        },
+        {
+          "letter": "D",
+          "text": "IM-email-telepon-video"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 73
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF3-6] Rumus (N*(N-1))/2 dengan 5 pemangku kepentingan menghasilkan 10 saluran komunikasi.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 74
+    },
+    {
+      "module": "M4",
+      "question": "[M4] [TF3-9] Mengotomatisasi laporan status proyek lewat SIMP adalah strategi efektif mengelola komunikasi.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 75
+    },
+    {
+      "module": "M5",
+      "question": "[M5] [TF1-1] Penggunaan kembali pengetahuan untuk efisiensi & inovasi adalah tujuan dari ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "KMS"
+        },
+        {
+          "letter": "B",
+          "text": "knowledge management"
+        },
+        {
+          "letter": "C",
+          "text": "tacit knowledge"
+        },
+        {
+          "letter": "D",
+          "text": "explicit knowledge"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 76
+    },
+    {
+      "module": "M5",
+      "question": "[M5] [TF1-3] Pertumbuhan pekerjaan tidak rutin 3 dekade terakhir berasal dari 2 kategori: ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kesehatan & pengetahuan"
+        },
+        {
+          "letter": "B",
+          "text": "pekerjaan pengetahuan dan pekerjaan jasa"
+        },
+        {
+          "letter": "C",
+          "text": "medis & pengetahuan"
+        },
+        {
+          "letter": "D",
+          "text": "jasa & konsultan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 77
+    },
+    {
+      "module": "M5",
+      "question": "[M5] [TF1-6] Modal utama Knowledge Worker adalah pengetahuan mereka.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 78
+    },
+    {
+      "module": "M5",
+      "question": "[M5] [TF1-7] Knowledge Worker menggunakan kekuatan otot daripada kekuatan otak.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 79
+    },
+    {
+      "module": "M5",
+      "question": "[M5] [TF2-3] Hierarki pengaturan pengetahuan yang benar adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "business, data, info, storage"
+        },
+        {
+          "letter": "B",
+          "text": "data, information, knowledge, wisdom"
+        },
+        {
+          "letter": "C",
+          "text": "data, info, business, storage"
+        },
+        {
+          "letter": "D",
+          "text": "business, data, info, wisdom"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 80
+    },
+    {
+      "module": "M5",
+      "question": "[M5] [TF2-4] Pengetahuan personal yang dibawa dalam pikiran orang dan sulit diakses disebut knowledge ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tacit"
+        },
+        {
+          "letter": "B",
+          "text": "explicit"
+        },
+        {
+          "letter": "C",
+          "text": "implisit"
+        },
+        {
+          "letter": "D",
+          "text": "taxic"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 81
+    },
+    {
+      "module": "M5",
+      "question": "[M5] [TF2-5] Kemampuan mensistematisasikan, menerjemahkan visi jadi misi & pedoman operasional adalah ciri ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tacit"
+        },
+        {
+          "letter": "B",
+          "text": "explicit knowledge"
+        },
+        {
+          "letter": "C",
+          "text": "implisit"
+        },
+        {
+          "letter": "D",
+          "text": "taxic"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 82
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF1-2] Informasi manajemen untuk pengambilan keputusan dikategorikan menjadi 3 jenis, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "strategis"
+        },
+        {
+          "letter": "B",
+          "text": "taktis"
+        },
+        {
+          "letter": "C",
+          "text": "operasional"
+        },
+        {
+          "letter": "D",
+          "text": "informasi deferensial"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 83
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF1-3] Yang bukan merupakan Transaction Processing Systems (TPS) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penggajian"
+        },
+        {
+          "letter": "B",
+          "text": "antrian panggilan"
+        },
+        {
+          "letter": "C",
+          "text": "pemrosesan pesanan"
+        },
+        {
+          "letter": "D",
+          "text": "sistem reservasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Modul 6: D",
+      "num": 84
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF1-4] Critical Success Factors (CSF) perusahaan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "indikator bisnis proses"
+        },
+        {
+          "letter": "B",
+          "text": "beberapa indikator penting dari kinerja perusahaan"
+        },
+        {
+          "letter": "C",
+          "text": "lintas komunikasi"
+        },
+        {
+          "letter": "D",
+          "text": "kemudahan keputusan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 85
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF1-9] EIS menyediakan informasi internal & eksternal ke manajer puncak dalam bentuk ringkas dan nyaman.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 86
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF2-1] Salah satu manfaat pemodelan Proses Bisnis adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "meningkatkan efisiensi"
+        },
+        {
+          "letter": "B",
+          "text": "pertumbuhan"
+        },
+        {
+          "letter": "C",
+          "text": "keuntungan"
+        },
+        {
+          "letter": "D",
+          "text": "kombinasi stakeholder"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 87
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF2-3] BPMN dikembangkan oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Business Process Management Initiative"
+        },
+        {
+          "letter": "B",
+          "text": "BPM Executive"
+        },
+        {
+          "letter": "C",
+          "text": "BPM Informative"
+        },
+        {
+          "letter": "D",
+          "text": "BPM"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 88
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF2-4] Simbol BPMN termasuk dalam kategori berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "flow objects"
+        },
+        {
+          "letter": "B",
+          "text": "line object"
+        },
+        {
+          "letter": "C",
+          "text": "connecting objects"
+        },
+        {
+          "letter": "D",
+          "text": "swim lanes"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 89
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF2-8] Salah satu kelebihan bagan Gantt chart adalah berfokus pada data.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Salah",
+      "explanation": "",
+      "num": 90
+    },
+    {
+      "module": "M6",
+      "question": "[M6] [TF2-10] Diagram PERT menunjukkan jalur kritis dan membantu menentukan kerangka waktu realistis.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benar"
+        },
+        {
+          "letter": "B",
+          "text": "Salah"
+        }
+      ],
+      "answerLetter": "Benar",
+      "explanation": "",
+      "num": 91
+    }
+  ],
+  "essayQuestions": []
+}

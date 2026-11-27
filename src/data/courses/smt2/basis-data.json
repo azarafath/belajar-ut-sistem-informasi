@@ -1,0 +1,1942 @@
+{
+  "slug": "basis-data",
+  "semester": 2,
+  "url": "/smt2/basis-data",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/basis-data.html",
+  "title": "STSI4105 / MSIM420601: Basis Data — Ringkasan Modul & Bank Soal UT",
+  "shortLabel": "Basis Data (STSI4105 / MSIM420601)",
+  "h1": "STSI4105 / MSIM420601: Basis Data — Ringkasan Modul & Bank Soal UT",
+  "metaDesc": "Ringkasan lengkap Modul 1–9 Basis Data (STSI4105 / MSIM420601) Universitas Terbuka: ERD, normalisasi, sintaks SQL, DBMS, ACID, deadlock, basis data terdistribusi, glosarium, dan 72 soal PG + pembahasan.",
+  "coverTag": "Semester 2",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap Modul 1–9 Basis Data (STSI4105 / MSIM420601) Universitas Terbuka: ERD, normalisasi, sintaks SQL, DBMS, ACID, deadlock, basis data terdistribusi, glosarium, dan 72 soal PG + pembahasan.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Basis Data dan Sistem Basis Data"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Model Data & Entity Relationship Diagram (ERD)"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Praktikum Pembuatan ERD (yEd Graph Editor)"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Normalisasi Data & Denormalisasi"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Structured Query Language (SQL: DDL, DML, DCL)"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Praktikum DBMS & Ekosistem XAMPP (MySQL / MariaDB)"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Manajemen Transaksi & Basis Data Terdistribusi"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Pengembangan Aplikasi Basis Data & Integrasi Access–MySQL"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Praktikum Transaksi (TCL), Trigger & Replikasi VirtualBox"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Definisi Ahli & Tokoh Kunci dalam BMP MSIM4206"
+    },
+    {
+      "id": "glos",
+      "label": "Glosarium",
+      "desc": "Istilah Kunci yang Sering Muncul di Soal Ujian"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Basis Data dan Sistem Basis Data",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#3b82f6;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Basis Data dan Sistem Basis Data</h2>\n      </div>\n\n      <div class=\"kb-block\" style=\"margin-top:0; border-top:none; padding-top:0;\">\n        <h3 class=\"kb-title\">KB 1: Pengertian, Kriteria, Tujuan, Kelebihan &amp; Kekurangan</h3>\n        <p style=\"font-size:13.5px; margin:0 0 10px;\">\n          <mark class=\"hl-yellow\">Basis Data</mark> adalah koleksi terpadu dari data yang saling berkaitan dan dirancang untuk memenuhi kebutuhan informasi suatu organisasi. Setiap tabel/file menampung data yang saling berhubungan. <strong>Kriteria pentingnya:</strong> berorientasi pada data, bisa dipakai banyak aplikasi tanpa ubah struktur, mudah berkembang (volume &amp; struktur), mendukung sistem baru, dan <mark class=\"hl-mint\">kerangkapan data minimal</mark>.\n        </p>\n\n        <div class=\"box\" style=\"margin-bottom:12px;\">\n          <h4>9 Tujuan Basis Data (Wajib Hafal untuk PG!)</h4>\n          <div class=\"grid-3\">\n            <div><strong>1. Speed:</strong> Kecepatan &amp; kemudahan simpan/ubah/hapus/cari data.</div>\n            <div><strong>2. Space:</strong> Efisiensi ruang dengan minimalkan duplikasi &amp; pengkodean.</div>\n            <div><strong>3. Accuracy:</strong> Keakuratan via relasi, aturan tipe data &amp; batasan.</div>\n            <div><strong>4. Security:</strong> Keamanan menentukan siapa &amp; operasi apa yang boleh.</div>\n            <div><strong>5. Consistent:</strong> Keselarasan data otomatis di semua aplikasi.</div>\n            <div><strong>6. Shareability:</strong> Dipakai bersama-sama secara simultan.</div>\n            <div><strong>7. Standardization:</strong> Kontrol terpusat memudahkan pertukaran data.</div>\n            <div><strong>8. Availability:</strong> Pilah data master, transaksi, histori, kedaluwarsa.</div>\n            <div><strong>9. Completeness:</strong> Kelengkapan data relatif bergantung kebutuhan user.</div>\n          </div>\n        </div>\n\n        <div class=\"grid-2\">\n          <div class=\"box\" style=\"background:#f0fdf4;\">\n            <h4>8 Kelebihan Basis Data</h4>\n            <ol class=\"neat\">\n              <li>Meningkatkan kemandirian data (<em>data independence</em>).</li>\n              <li>Konsistensi data (disimpan 1 kali, ubah 1 kali).</li>\n              <li>Meningkatkan aksesibilitas &amp; respon lintas departemen.</li>\n              <li>Pengendalian terhadap kerangkapan data (redundansi).</li>\n              <li>Meningkatkan keamanan data (password &amp; hak akses).</li>\n              <li>Memperbaiki integritas data (validitas via <em>constraints</em>).</li>\n              <li>Data dapat dipakai secara bersama-sama (<em>multi-user</em>).</li>\n              <li>Memperoleh lebih banyak informasi dari data yang sama.</li>\n            </ol>\n          </div>\n          <div class=\"box\" style=\"background:#fef2f2;\">\n            <h4>3 Kekurangan Basis Data</h4>\n            <ol class=\"neat\">\n              <li><strong>Biaya mahal:</strong> Pembelian &amp; perawatan <em>hardware, software, storage, network</em>.</li>\n              <li><strong>Rumit:</strong> Perancang, pengembang, <strong>DBA</strong>, dan user harus memahami fungsinya secara mendalam.</li>\n              <li><strong>Tambahan biaya konversi:</strong> Biaya migrasi dari sistem lama, pelatihan staf, dan gaji staf khusus seperti DBA.</li>\n            </ol>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"kb-block\">\n        <h3 class=\"kb-title\">KB 2: Tingkatan Data, Sifat Tabel &amp; Operasi Dasar</h3>\n        <div class=\"svg-wrap\">\n          <svg width=\"720\" height=\"115\" viewBox=\"0 0 720 115\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n            <rect x=\"10\" y=\"20\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"2\"/>\n            <text x=\"82\" y=\"50\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"13\">1. Character</text>\n            <text x=\"82\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" fill=\"#57606a\">0-9, A-Z, *, %, #</text>\n            <path d=\"M160 56 L186 56\" stroke=\"#24292f\" stroke-width=\"2.5\"/>\n            <rect x=\"190\" y=\"20\" width=\"155\" height=\"72\" rx=\"12\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"2\"/>\n            <text x=\"267\" y=\"50\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"13\">2. Field / Attribute</text>\n            <text x=\"267\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" fill=\"#57606a\">Kolom (NIM, Nama)</text>\n            <path d=\"M350 56 L376 56\" stroke=\"#24292f\" stroke-width=\"2.5\"/>\n            <rect x=\"380\" y=\"20\" width=\"155\" height=\"72\" rx=\"12\" fill=\"#c9f7dc\" stroke=\"#24292f\" stroke-width=\"2\"/>\n            <text x=\"457\" y=\"50\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"13\">3. Record / Tuple</text>\n            <text x=\"457\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" fill=\"#57606a\">Baris (1 Entitas Utuh)</text>\n            <path d=\"M540 56 L566 56\" stroke=\"#24292f\" stroke-width=\"2.5\"/>\n            <rect x=\"570\" y=\"20\" width=\"140\" height=\"72\" rx=\"12\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"2\"/>\n            <text x=\"640\" y=\"50\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"13\">4. Table / Entity</text>\n            <text x=\"640\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" fill=\"#57606a\">Kumpulan Record (File)</text>\n          </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Hierarki unit data dari terkecil ke terbesar: kumpulan <em>Character</em> membentuk <em>Field/Kolom</em>, kumpulan field membentuk <em>Record/Baris</em>, dan kumpulan record sejenis membentuk <em>Table/File</em>.</p>\n        </div>\n        <div class=\"grid-2\">\n          <div class=\"box\">\n            <h4>Sifat yang Melekat pada Tabel</h4>\n            <ul class=\"neat\">\n              <li>Tidak boleh ada record yang sama/kembar.</li>\n              <li>Urutan record tidak terlalu penting (bisa diurutkan).</li>\n              <li>Setiap field harus punya nama unik.</li>\n              <li>Setiap field wajib punya tipe data &amp; karakteristik tertentu.</li>\n            </ul>\n          </div>\n          <div class=\"box\">\n            <h4>Operasi Dasar &amp; Analogi Lemari Arsip</h4>\n            <ul class=\"neat\">\n              <li><code>CREATE DATABASE</code> = buat lemari arsip baru</li>\n              <li><code>DROP DATABASE</code> = hapus seluruh lemari arsip + isinya</li>\n              <li><code>CREATE TABLE</code> = tambah kotak arsip baru</li>\n              <li><code>DROP TABLE</code> = hapus kotak arsip lama + isinya</li>\n              <li><code>INSERT INTO</code> = isi data baru ke kotak arsip</li>\n            </ul>\n          </div>\n        </div>\n\n        <div class=\"grid-2\" style=\"margin-top:12px;\">\n          <div class=\"box\" style=\"background:#eff6ff;\">\n            <h4>Komponen Sistem Basis Data</h4>\n            <ul class=\"neat\">\n              <li><strong>Perangkat Keras (Hardware):</strong> Komputer, memori, media penyimpanan sekunder, jaringan.</li>\n              <li><strong>Sistem Operasi (OS):</strong> Pengelola sumber daya sistem (Windows, Linux).</li>\n              <li><strong>Basis Data (Database):</strong> Kumpulan data terintegrasi + metadata.</li>\n              <li><strong>DBMS (Software):</strong> Mengatur organisasi, penyimpanan, pengamanan &amp; manipulasi data (MySQL, MariaDB, Oracle).</li>\n              <li><strong>Pemakai (User) &amp; Program Aplikasi:</strong> <em>DBA</em> (pengelola), <em>Programmer Aplikasi</em>, dan <em>End User</em>.</li>\n            </ul>\n          </div>\n          <div class=\"box\" style=\"background:#fef3c7;\">\n            <h4>3 Level Abstraksi Data</h4>\n            <ul class=\"neat\">\n              <li><strong>1. Level Fisik (Physical Level):</strong> Lapisan terendah; menjelaskan <em>bagaimana (how)</em> data sesungguhnya disimpan di disk secara rinci.</li>\n              <li><strong>2. Level Logis / Konseptual:</strong> Menjelaskan data <em>apa</em> yang disimpan dan bagaimana relasi antar data dalam tabel.</li>\n              <li><strong>3. Level Pandangan (View Level):</strong> Lapisan tertinggi; menampilkan sebagian data sederhana sesuai kebutuhan tiap user (mis. bagian keuangan vs akuntansi).</li>\n            </ul>\n          </div>\n        </div>\n\n        <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — Modul 1</h4>\n          <ul class=\"neat\">\n            <li><strong>Basis Data vs Sistem Basis Data:</strong> <em>Basis Data</em> = kumpulan datanya saja; <em>Sistem Basis Data</em> = kesatuan Basis Data + DBMS + Hardware + OS + User + Program Aplikasi.</li>\n            <li><strong>Penjamin Akurasi &amp; Integritas:</strong> Menggunakan fitur <code>Constraints</code> (aturan keterkaitan antartabel yang mencegah hapus/ubah sembarangan) dan <code>Default Value Check</code> (mengisi nilai default jika input kosong/<code>NULL</code>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">9 Tujuan (Speed·Space·Accuracy·Security·Consistent·Shareability·Standard·Availability·Completeness)</span>\n          <span class=\"kw-chip\">Character → Field → Record → Table</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Basis data meminimalkan <em>redundansi</em> &amp; menjaga konsistensi. Urutan hierarki: <strong>Character → Field → Record → Table</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Basis Data dan Sistem Basis Data KB 1: Pengertian, Kriteria, Tujuan, Kelebihan & Kekurangan Basis Data adalah koleksi terpadu dari data yang saling berkaitan dan dirancang untuk memenuhi kebutuhan informasi suatu organisasi. Setiap tabel/file menampung data yang saling berhubungan. Kriteria pentingnya: berorientasi pada data, bisa dipakai banyak aplikasi tanpa ubah struktur, mudah berkembang (volume & struktur), mendukung sistem baru, dan kerangkapan data minimal . 9 Tujuan Basis Data (Wajib Hafal untuk PG!) 1. Speed: Kecepatan & kemudahan simpan/ubah/hapus/cari data. 2. Space: Efisiensi ruang dengan minimalkan duplikasi & pengkodean. 3. Accuracy: Keakuratan via relasi, aturan tipe data & batasan. 4. Security: Keamanan menentukan siapa & operasi apa yang boleh. 5. Consistent: Keselarasan data otomatis di semua aplikasi. 6. Shareability: Dipakai bersama-sama secara simultan. 7. Standardization: Kontrol terpusat memudahkan pertukaran data. 8. Availability: Pilah data master, transaksi, histori, kedaluwarsa. 9. Completeness: Kelengkapan data relatif bergantung kebutuhan user. 8 Kelebihan Basis Data Meningkatkan kemandirian data ( data independence ). Konsistensi data (disimpan 1 kali, ubah 1 kali). Meningkatkan aksesibilitas & respon lintas departemen. Pengendalian terhadap kerangkapan data (redundansi). Meningkatkan keamanan data (password & hak akses). Memperbaiki integritas data (validitas via constraints ). Data dapat dipakai secara bersama-sama ( multi-user ). Memperoleh lebih banyak informasi dari data yang sama. 3 Kekurangan Basis Data Biaya mahal: Pembelian & perawatan hardware, software, storage, network . Rumit: Perancang, pengembang, DBA , dan user harus memahami fungsinya secara mendalam. Tambahan biaya konversi: Biaya migrasi dari sistem lama, pelatihan staf, dan gaji staf khusus seperti DBA. KB 2: Tingkatan Data, Sifat Tabel & Operasi Dasar 1. Character 0-9, A-Z, *, %, # 2. Field / Attribute Kolom (NIM, Nama) 3. Record / Tuple Baris (1 Entitas Utuh) 4. Table / Entity Kumpulan Record (File) Penjelasan Diagram: Hierarki unit data dari terkecil ke terbesar: kumpulan Character membentuk Field/Kolom , kumpulan field membentuk Record/Baris , dan kumpulan record sejenis membentuk Table/File . Sifat yang Melekat pada Tabel Tidak boleh ada record yang sama/kembar. Urutan record tidak terlalu penting (bisa diurutkan). Setiap field harus punya nama unik. Setiap field wajib punya tipe data & karakteristik tertentu. Operasi Dasar & Analogi Lemari Arsip CREATE DATABASE = buat lemari arsip baru DROP DATABASE = hapus seluruh lemari arsip + isinya CREATE TABLE = tambah kotak arsip baru DROP TABLE = hapus kotak arsip lama + isinya INSERT INTO = isi data baru ke kotak arsip Komponen Sistem Basis Data Perangkat Keras (Hardware): Komputer, memori, media penyimpanan sekunder, jaringan. Sistem Operasi (OS): Pengelola sumber daya sistem (Windows, Linux). Basis Data (Database): Kumpulan data terintegrasi + metadata. DBMS (Software): Mengatur organisasi, penyimpanan, pengamanan & manipulasi data (MySQL, MariaDB, Oracle). Pemakai (User) & Program Aplikasi: DBA (pengelola), Programmer Aplikasi , dan End User . 3 Level Abstraksi Data 1. Level Fisik (Physical Level): Lapisan terendah; menjelaskan bagaimana (how) data sesungguhnya disimpan di disk secara rinci. 2. Level Logis / Konseptual: Menjelaskan data apa yang disimpan dan bagaimana relasi antar data dalam tabel. 3. Level Pandangan (View Level): Lapisan tertinggi; menampilkan sebagian data sederhana sesuai kebutuhan tiap user (mis. bagian keuangan vs akuntansi). Detail Kecil Wajib Tahu — Modul 1 Basis Data vs Sistem Basis Data: Basis Data = kumpulan datanya saja; Sistem Basis Data = kesatuan Basis Data + DBMS + Hardware + OS + User + Program Aplikasi. Penjamin Akurasi & Integritas: Menggunakan fitur Constraints (aturan keterkaitan antartabel yang mencegah hapus/ubah sembarangan) dan Default Value Check (mengisi nilai default jika input kosong/ NULL ). 🔑 Kata Kunci Wajib Ingat — Modul 1 9 Tujuan (Speed·Space·Accuracy·Security·Consistent·Shareability·Standard·Availability·Completeness) Character → Field → Record → Table Poin Ujian: Basis data meminimalkan redundansi & menjaga konsistensi. Urutan hierarki: Character → Field → Record → Table ."
+    },
+    {
+      "id": "m2",
+      "title": "Model Data & Entity Relationship Diagram (ERD)",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#10b981;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Model Data &amp; Entity Relationship Diagram (ERD)</h2>\n      </div>\n\n      <div class=\"kb-block\" style=\"margin-top:0; border-top:none; padding-top:0;\">\n        <h3 class=\"kb-title\">KB 1: Kelompok Model Data</h3>\n        <div class=\"grid-3\">\n          <div class=\"box\" style=\"background:#f0fdf4;\">\n            <h4>1. Object-Based Data Model</h4>\n            <ul class=\"neat\">\n              <li><mark class=\"hl-mint\">Entity Relationship Model</mark></li>\n              <li>Semantic Model</li>\n              <li>Binary Model</li>\n            </ul>\n          </div>\n          <div class=\"box\" style=\"background:#eff6ff;\">\n            <h4>2. Record-Based Data Model</h4>\n            <ul class=\"neat\">\n              <li><mark class=\"hl-blue\">Relational Model</mark> (tabel 2D)</li>\n              <li>Hierarchical Model (struktur pohon/tree, 1 parent-banyak child)</li>\n              <li>Network Model (jaringan/graf, boleh banyak parent)</li>\n            </ul>\n          </div>\n          <div class=\"box\" style=\"background:#fef3c7;\">\n            <h4>3. Physical-Based Data Model</h4>\n            <ul class=\"neat\">\n              <li><mark class=\"hl-yellow\">Unifying Model</mark></li>\n              <li>Frame Memory</li>\n            </ul>\n          </div>\n        </div>\n        <div class=\"svg-wrap\">\n          <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Perbandingan 3 Struktur Model Database (Hierarki vs Jaringan vs Relasional)</div>\n          <svg width=\"700\" height=\"145\" viewBox=\"0 0 700 145\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n            <!-- Hierarchical -->\n            <rect x=\"10\" y=\"10\" width=\"210\" height=\"125\" rx=\"10\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"1.5\"/>\n            <text x=\"115\" y=\"28\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">1. Hierarki (Tree 1:N)</text>\n            <rect x=\"85\" y=\"38\" width=\"60\" height=\"24\" rx=\"5\" fill=\"#fff\" stroke=\"#24292f\"/><text x=\"115\" y=\"54\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\">Parent</text>\n            <line x1=\"100\" y1=\"62\" x2=\"60\" y2=\"90\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n            <line x1=\"130\" y1=\"62\" x2=\"170\" y2=\"90\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n            <rect x=\"28\" y=\"90\" width=\"64\" height=\"24\" rx=\"5\" fill=\"#c9f7dc\" stroke=\"#24292f\"/><text x=\"60\" y=\"106\" text-anchor=\"middle\" font-size=\"10\">Child 1</text>\n            <rect x=\"138\" y=\"90\" width=\"64\" height=\"24\" rx=\"5\" fill=\"#c9f7dc\" stroke=\"#24292f\"/><text x=\"170\" y=\"106\" text-anchor=\"middle\" font-size=\"10\">Child 2</text>\n\n            <!-- Network -->\n            <rect x=\"245\" y=\"10\" width=\"210\" height=\"125\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n            <text x=\"350\" y=\"28\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">2. Jaringan (Graph M:N)</text>\n            <rect x=\"268\" y=\"38\" width=\"65\" height=\"24\" rx=\"5\" fill=\"#fff\" stroke=\"#24292f\"/><text x=\"300\" y=\"54\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Parent A</text>\n            <rect x=\"368\" y=\"38\" width=\"65\" height=\"24\" rx=\"5\" fill=\"#fff\" stroke=\"#24292f\"/><text x=\"400\" y=\"54\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">Parent B</text>\n            <line x1=\"300\" y1=\"62\" x2=\"350\" y2=\"90\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n            <line x1=\"400\" y1=\"62\" x2=\"350\" y2=\"90\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n            <rect x=\"315\" y=\"90\" width=\"70\" height=\"24\" rx=\"5\" fill=\"#cde8ff\" stroke=\"#24292f\"/><text x=\"350\" y=\"106\" text-anchor=\"middle\" font-size=\"10\">Multi-Parent</text>\n\n            <!-- Relational -->\n            <rect x=\"480\" y=\"10\" width=\"210\" height=\"125\" rx=\"10\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\"/>\n            <text x=\"585\" y=\"28\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">3. Relasional (Tabel 2D)</text>\n            <rect x=\"505\" y=\"42\" width=\"160\" height=\"20\" fill=\"#fff3a1\" stroke=\"#24292f\"/><text x=\"585\" y=\"56\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">PK | Nama | FK</text>\n            <rect x=\"505\" y=\"62\" width=\"160\" height=\"20\" fill=\"#fff\" stroke=\"#24292f\"/><text x=\"585\" y=\"76\" text-anchor=\"middle\" font-size=\"10\">01 | Andi | D01</text>\n            <rect x=\"505\" y=\"82\" width=\"160\" height=\"20\" fill=\"#fff\" stroke=\"#24292f\"/><text x=\"585\" y=\"96\" text-anchor=\"middle\" font-size=\"10\">02 | Budi | D02</text>\n          </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Model <strong>Hierarki</strong> berbentuk pohon (1 induk banyak anak), model <strong>Jaringan</strong> berbentuk graf (banyak ke banyak), sedangkan model <strong>Relasional</strong> menyusun data sebagai tabel 2 dimensi (baris &amp; kolom) yang saling terhubung lewat Key.</p>\n        </div>\n      </div>\n\n      <div class=\"kb-block\">\n        <h3 class=\"kb-title\">KB 2: Jenis-Jenis Atribut ERD &amp; Istilah RDBM (Tabel 2.6)</h3>\n        <div class=\"grid-2\">\n          <div class=\"box\">\n            <h4>6 Jenis Atribut dalam ERD (Wajib Tahu Bedanya!)</h4>\n            <ul class=\"neat\">\n              <li><strong>Simple Attribute:</strong> Atomik, tak bisa dipilah lagi (mis. <code>Nama_peg</code>).</li>\n              <li><strong>Composite Attribute:</strong> Bisa dipecah jadi sub-atribut (mis. <code>Alamat_peg</code> → <code>Nama_jalan, Nama_kota, Kode_pos</code>).</li>\n              <li><strong>Single Value Attribute:</strong> Hanya punya 1 nilai (mis. <code>NIM, Tgl_lahir</code>).</li>\n              <li><strong>Multi Value Attribute:</strong> Boleh punya &gt;1 nilai (mis. <code>Hobi</code>).</li>\n              <li><mark class=\"hl-pink\">Mandatory Attribute:</mark> Wajib diisi / <strong>Not Null</strong> (mis. <code>NIM, Nama_mhs</code>).</li>\n              <li><mark class=\"hl-blue\">Non-Mandatory Attribute:</mark> Boleh kosong / <strong>Null</strong> (mis. <code>Hobi</code>).</li>\n            </ul>\n          </div>\n          <div class=\"box\">\n            <h4>Aturan Penamaan Simbol ERD</h4>\n            <ul class=\"neat\">\n              <li><strong>Entitas (Persegi Panjang):</strong> Nama berupa <mark class=\"hl-yellow\">kata benda tunggal</mark> (mis. <code>Mahasiswa</code>, <code>Pegawai</code>).</li>\n              <li><strong>Atribut (Elips):</strong> Nama berupa kata benda tunggal, terhubung garis ke entitas.</li>\n              <li><strong>Relasi (Belah Ketupat):</strong> Nama berupa <mark class=\"hl-mint\">kata kerja aktif (awalan me-)</mark> tunggal (mis. <code>Mengambil</code>, <code>Membimbing</code>).</li>\n            </ul>\n          </div>\n        </div>\n\n        <table class=\"mini\" style=\"margin-top:12px;\">\n          <thead><tr><th>Istilah Formal (RDBM)</th><th>Istilah Non-Formal</th><th>Keterangan</th></tr></thead>\n          <tbody>\n            <tr><td><strong>Atribut (Attribute)</strong></td><td>Kolom, Field, Medan data</td><td>Sekelompok rinci data dengan tipe, ukuran, &amp; domain sama</td></tr>\n            <tr><td><strong>Record (Tuple)</strong></td><td>Baris / Rekaman</td><td>Sekumpulan atribut terkait satu obyek tertentu</td></tr>\n            <tr><td><strong>Relasi (Entity)</strong></td><td>Tabel</td><td>Sekumpulan record yang sejenis secara relasi</td></tr>\n            <tr><td><strong>Derajat (Degree / Arity)</strong></td><td>Jumlah atribut</td><td>Banyaknya kolom/atribut dalam sebuah relasi</td></tr>\n            <tr><td><strong>Kardinalitas (Cardinality)</strong></td><td>Jumlah record</td><td>Banyaknya baris/record dalam sebuah relasi (atau maks hubungan antar entitas di ERD)</td></tr>\n            <tr><td><strong>Unary / Binary / Ternary / N-ary</strong></td><td>Relasi 1 / 2 / 3 / n</td><td>Relasi yang tersusun oleh 1, 2, 3, atau n atribut/entitas</td></tr>\n            <tr><td><strong>Candidate Key (CK)</strong></td><td>Kunci kandidat</td><td>Atribut/gabungan minimal yang unik mengidentifikasi record</td></tr>\n            <tr><td><strong>Primary Key (PK)</strong></td><td>Kunci utama</td><td>Bagian dari CK yang dipilih sebagai kunci utama tabel</td></tr>\n            <tr><td><strong>Alternate Key (AK)</strong></td><td>Kunci alternatif</td><td>Bagian dari CK yang <em>tidak</em> dipilih sebagai PK</td></tr>\n            <tr><td><strong>Foreign Key (FK)</strong></td><td>Kunci tamu / asing</td><td>Atribut yang menjadi PK di relasi lain untuk menghubungkan logis</td></tr>\n          </tbody>\n        </table>\n\n        <div class=\"grid-2\" style=\"margin-top:12px;\">\n          <div class=\"box\" style=\"background:#f0fdf4;\">\n            <h4>Entitas Lemah (Weak Entity) &amp; Sub Entitas</h4>\n            <ul class=\"neat\">\n              <li><strong>Weak Entity Sets:</strong> Kemunculannya bergantung pada <em>Strong Entity</em> dan tidak punya key unik sendiri; digambar dengan <mark class=\"hl-yellow\">persegi panjang bergaris ganda</mark> dan key bergaris bawah putus-putus (contoh Fathansyah: <code>Orang Tua</code> &amp; <code>Hobbi</code> bergantung pada <code>Mahasiswa</code>).</li>\n              <li><strong>Sub Entitas (Subtype Entities):</strong> Hasil dekomposisi/spesialisasi entitas superior dengan relasi khusus <code>ISA</code> (mis. <code>Dosen</code> → <code>Dosen Tetap</code> &amp; <code>Dosen Tidak Tetap</code>).</li>\n            </ul>\n          </div>\n          <div class=\"box\" style=\"background:#eff6ff;\">\n            <h4>Contoh Kunci &amp; Kardinalitas Relasi</h4>\n            <ul class=\"neat\">\n              <li><strong>Contoh Key:</strong> Tabel <code>Pembayaran(ID_Cus, Name, NoOfPay, Amount)</code>. Jika <code>ID_Cus</code> &amp; <code>NoOfPay</code> unik (<em>Candidate Key</em>) dan <code>ID_Cus</code> dipilih sebagai <strong>PK</strong>, maka <code>NoOfPay</code> otomatis menjadi <strong>Alternate Key</strong>.</li>\n              <li><strong>Kardinalitas Hubungan:</strong> <code>1:1</code> (satu ke satu), <code>1:N</code> / <code>1:M</code> (satu ke banyak), dan <code>M:N</code> (banyak ke banyak, mis. <code>Customer</code> memesan <code>Barang</code>).</li>\n            </ul>\n          </div>\n        </div>\n\n        <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — Modul 2</h4>\n          <ul class=\"neat\">\n            <li><strong>Derajat (Degree/Arity) vs Kardinalitas (Cardinality):</strong> Dalam Tabel 2.6 RDBM, <em>Derajat</em> = banyaknya <strong>kolom/atribut</strong> (atau jumlah entitas pada relasi: <em>Unary</em>=1, <em>Binary</em>=2, <em>Ternary</em>=3), sedangkan <em>Kardinalitas</em> = banyaknya <strong>baris/record</strong> (atau rasio maks hubungan antarentitas di ERD).</li>\n            <li><strong>Superkey vs Candidate Key:</strong> Setiap Candidate Key adalah Superkey minimal (tidak mengandung atribut berlebih), namun tidak semua Superkey adalah Candidate Key.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Superkey · Candidate Key · PK · AK · FK</span>\n          <span class=\"kw-chip\">Derajat Relasi (1:1 · 1:N · M:N)</span>\n          <span class=\"kw-chip\">Entitas Lemah (Garis Ganda)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>Candidate Key</strong> = superkey minimal; yang dipilih jadi <strong>PK</strong>, sisanya jadi <strong>Alternate Key</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Model Data & Entity Relationship Diagram (ERD) KB 1: Kelompok Model Data 1. Object-Based Data Model Entity Relationship Model Semantic Model Binary Model 2. Record-Based Data Model Relational Model (tabel 2D) Hierarchical Model (struktur pohon/tree, 1 parent-banyak child) Network Model (jaringan/graf, boleh banyak parent) 3. Physical-Based Data Model Unifying Model Frame Memory Perbandingan 3 Struktur Model Database (Hierarki vs Jaringan vs Relasional) 1. Hierarki (Tree 1:N) Parent Child 1 Child 2 2. Jaringan (Graph M:N) Parent A Parent B Multi-Parent 3. Relasional (Tabel 2D) PK | Nama | FK 01 | Andi | D01 02 | Budi | D02 Penjelasan Diagram: Model Hierarki berbentuk pohon (1 induk banyak anak), model Jaringan berbentuk graf (banyak ke banyak), sedangkan model Relasional menyusun data sebagai tabel 2 dimensi (baris & kolom) yang saling terhubung lewat Key. KB 2: Jenis-Jenis Atribut ERD & Istilah RDBM (Tabel 2.6) 6 Jenis Atribut dalam ERD (Wajib Tahu Bedanya!) Simple Attribute: Atomik, tak bisa dipilah lagi (mis. Nama_peg ). Composite Attribute: Bisa dipecah jadi sub-atribut (mis. Alamat_peg → Nama_jalan, Nama_kota, Kode_pos ). Single Value Attribute: Hanya punya 1 nilai (mis. NIM, Tgl_lahir ). Multi Value Attribute: Boleh punya >1 nilai (mis. Hobi ). Mandatory Attribute: Wajib diisi / Not Null (mis. NIM, Nama_mhs ). Non-Mandatory Attribute: Boleh kosong / Null (mis. Hobi ). Aturan Penamaan Simbol ERD Entitas (Persegi Panjang): Nama berupa kata benda tunggal (mis. Mahasiswa , Pegawai ). Atribut (Elips): Nama berupa kata benda tunggal, terhubung garis ke entitas. Relasi (Belah Ketupat): Nama berupa kata kerja aktif (awalan me-) tunggal (mis. Mengambil , Membimbing ). Istilah Formal (RDBM) Istilah Non-Formal Keterangan Atribut (Attribute) Kolom, Field, Medan data Sekelompok rinci data dengan tipe, ukuran, & domain sama Record (Tuple) Baris / Rekaman Sekumpulan atribut terkait satu obyek tertentu Relasi (Entity) Tabel Sekumpulan record yang sejenis secara relasi Derajat (Degree / Arity) Jumlah atribut Banyaknya kolom/atribut dalam sebuah relasi Kardinalitas (Cardinality) Jumlah record Banyaknya baris/record dalam sebuah relasi (atau maks hubungan antar entitas di ERD) Unary / Binary / Ternary / N-ary Relasi 1 / 2 / 3 / n Relasi yang tersusun oleh 1, 2, 3, atau n atribut/entitas Candidate Key (CK) Kunci kandidat Atribut/gabungan minimal yang unik mengidentifikasi record Primary Key (PK) Kunci utama Bagian dari CK yang dipilih sebagai kunci utama tabel Alternate Key (AK) Kunci alternatif Bagian dari CK yang tidak dipilih sebagai PK Foreign Key (FK) Kunci tamu / asing Atribut yang menjadi PK di relasi lain untuk menghubungkan logis Entitas Lemah (Weak Entity) & Sub Entitas Weak Entity Sets: Kemunculannya bergantung pada Strong Entity dan tidak punya key unik sendiri; digambar dengan persegi panjang bergaris ganda dan key bergaris bawah putus-putus (contoh Fathansyah: Orang Tua & Hobbi bergantung pada Mahasiswa ). Sub Entitas (Subtype Entities): Hasil dekomposisi/spesialisasi entitas superior dengan relasi khusus ISA (mis. Dosen → Dosen Tetap & Dosen Tidak Tetap ). Contoh Kunci & Kardinalitas Relasi Contoh Key: Tabel Pembayaran(ID_Cus, Name, NoOfPay, Amount) . Jika ID_Cus & NoOfPay unik ( Candidate Key ) dan ID_Cus dipilih sebagai PK , maka NoOfPay otomatis menjadi Alternate Key . Kardinalitas Hubungan: 1:1 (satu ke satu), 1:N / 1:M (satu ke banyak), dan M:N (banyak ke banyak, mis. Customer memesan Barang ). Detail Kecil Wajib Tahu — Modul 2 Derajat (Degree/Arity) vs Kardinalitas (Cardinality): Dalam Tabel 2.6 RDBM, Derajat = banyaknya kolom/atribut (atau jumlah entitas pada relasi: Unary =1, Binary =2, Ternary =3), sedangkan Kardinalitas = banyaknya baris/record (atau rasio maks hubungan antarentitas di ERD). Superkey vs Candidate Key: Setiap Candidate Key adalah Superkey minimal (tidak mengandung atribut berlebih), namun tidak semua Superkey adalah Candidate Key. 🔑 Kata Kunci Wajib Ingat — Modul 2 Superkey · Candidate Key · PK · AK · FK Derajat Relasi (1:1 · 1:N · M:N) Entitas Lemah (Garis Ganda) Poin Ujian: Candidate Key = superkey minimal; yang dipilih jadi PK , sisanya jadi Alternate Key ."
+    },
+    {
+      "id": "m3",
+      "title": "Praktikum Pembuatan ERD (yEd Graph Editor)",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#8b5cf6;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Praktikum Pembuatan ERD (yEd Graph Editor)</h2>\n      </div>\n      <div class=\"flow\">\n        <span class=\"flow-step\" style=\"background:var(--hl-lavender);\">1. Identifikasi Entity</span>\n        <span class=\"flow-arrow\">→</span>\n        <span class=\"flow-step\" style=\"background:var(--hl-blue);\">2. Attribute + Primary Key</span>\n        <span class=\"flow-arrow\">→</span>\n        <span class=\"flow-step\" style=\"background:var(--hl-mint);\">3. Himpunan Relasi + Foreign Key</span>\n        <span class=\"flow-arrow\">→</span>\n        <span class=\"flow-step\" style=\"background:var(--hl-yellow);\">4. Derajat Relasi</span>\n        <span class=\"flow-arrow\">→</span>\n        <span class=\"flow-step\" style=\"background:var(--hl-peach);\">5. Atribut Deskriptif (Non-Key)</span>\n      </div>\n      <div class=\"sticky-note\">\n        <div class=\"sticky-head\">Tools Praktikum: yEd Graph Editor</div>\n        Tersedia dalam versi <strong>Desktop</strong> (<code>yworks.com/products/yed/download</code>) dan <strong>yEd Live Web</strong> (<code>yworks.com/yed-live/</code>). Fungsi fitur menu di versi desktop dan web adalah <strong>sama persis</strong>.\n      </div>\n      <div class=\"grid-2\" style=\"margin-bottom:12px;\">\n        <div class=\"box\" style=\"background:#f5f3ff;\">\n          <h4>Menu &amp; Panel Penting di yEd Graph Editor</h4>\n          <ul class=\"neat\">\n            <li><strong>File:</strong> <code>New Document</code>, <code>Open</code>, <code>Export</code> (simpan ke PNG/SVG/PDF), <code>Preferences</code>, <code>Language</code>.</li>\n            <li><strong>Edit &amp; Layout:</strong> <code>Manage Palette…</code>, <code>Manage Custom Properties…</code>, <code>Properties Mapper…</code>, serta <code>Layout</code> untuk merapikan posisi node secara otomatis.</li>\n            <li><strong>Windows:</strong> <code>Palette</code> (daftar simbol ERD: Entity Relationship) dan <code>Properties View</code> (ubah label, warna, jenis garis node/edge).</li>\n          </ul>\n        </div>\n        <div class=\"box\" style=\"background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — Notasi Simbol ERD</h4>\n          <ul class=\"neat\">\n            <li><strong>Entitas Kuat:</strong> Persegi panjang tunggal; <strong>Entitas Lemah:</strong> Persegi panjang bergaris ganda.</li>\n            <li><strong>Atribut Kunci (PK):</strong> Oval dengan teks <u>bergaris bawah</u>; <strong>Atribut Kunci Lemah:</strong> Garis bawah putus-putus.</li>\n            <li><strong>Atribut Multinilai:</strong> Oval bergaris ganda (mis. <code>Hobi</code>, <code>No_Telp</code>); <strong>Atribut Turunan:</strong> Oval garis putus-putus (mis. <code>Umur</code> dari <code>Tgl_Lahir</code>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Contoh Diagram ERD Lengkap (Entitas, Atribut Key, Relasi M:N)</div>\n        <svg width=\"680\" height=\"150\" viewBox=\"0 0 680 150\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <!-- Attributes Mahasiswa -->\n          <ellipse cx=\"75\" cy=\"28\" rx=\"45\" ry=\"16\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"75\" y=\"32\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\" text-decoration=\"underline\">NIM (PK)</text>\n          <ellipse cx=\"185\" cy=\"28\" rx=\"48\" ry=\"16\" fill=\"#fff\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"185\" y=\"32\" text-anchor=\"middle\" font-size=\"11\">Nama_Mhs</text>\n          <line x1=\"85\" y1=\"44\" x2=\"115\" y2=\"70\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <line x1=\"175\" y1=\"44\" x2=\"145\" y2=\"70\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n\n          <!-- Entity Mahasiswa -->\n          <rect x=\"65\" y=\"70\" width=\"130\" height=\"44\" rx=\"4\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"130\" y=\"97\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"13\">MAHASISWA</text>\n\n          <!-- Relation -->\n          <line x1=\"195\" y1=\"92\" x2=\"265\" y2=\"92\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"230\" y=\"84\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"800\">M</text>\n          <polygon points=\"340,56 415,92 340,128 265,92\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"340\" y=\"96\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">Mengambil</text>\n          <line x1=\"415\" y1=\"92\" x2=\"485\" y2=\"92\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"450\" y=\"84\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"800\">N</text>\n\n          <!-- Entity Matkul -->\n          <rect x=\"485\" y=\"70\" width=\"135\" height=\"44\" rx=\"4\" fill=\"#c9f7dc\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <text x=\"552\" y=\"97\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"13\">MATA KULIAH</text>\n\n          <!-- Attributes Matkul -->\n          <ellipse cx=\"500\" cy=\"28\" rx=\"48\" ry=\"16\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"500\" y=\"32\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\" text-decoration=\"underline\">Kode_MK</text>\n          <ellipse cx=\"610\" cy=\"28\" rx=\"48\" ry=\"16\" fill=\"#fff\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <text x=\"610\" y=\"32\" text-anchor=\"middle\" font-size=\"11\">Nama_MK</text>\n          <line x1=\"510\" y1=\"44\" x2=\"535\" y2=\"70\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <line x1=\"600\" y1=\"44\" x2=\"575\" y2=\"70\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Persegi panjang adalah <em>Entitas</em>, belah ketupat adalah <em>Relasi</em> (contoh M:N antara Mahasiswa dan Matkul), sedangkan oval adalah <em>Atribut</em> (PK bergaris bawah; atribut komposit dipecah menjadi sub-atribut).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">yEd Graph Editor</span>\n          <span class=\"kw-chip\">Atribut Komposit vs Multinilai (Oval Ganda)</span>\n          <span class=\"kw-chip\">Atribut Turunan (Oval Putus-putus)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Atribut <em>multinilai</em> (mis. hobi/no_telp) digambar dengan <strong>oval bergaris ganda</strong>; atribut <em>turunan</em> (mis. umur) dengan <strong>garis putus-putus</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Praktikum Pembuatan ERD (yEd Graph Editor) 1. Identifikasi Entity → 2. Attribute + Primary Key → 3. Himpunan Relasi + Foreign Key → 4. Derajat Relasi → 5. Atribut Deskriptif (Non-Key) Tools Praktikum: yEd Graph Editor Tersedia dalam versi Desktop ( yworks.com/products/yed/download ) dan yEd Live Web ( yworks.com/yed-live/ ). Fungsi fitur menu di versi desktop dan web adalah sama persis . Menu & Panel Penting di yEd Graph Editor File: New Document , Open , Export (simpan ke PNG/SVG/PDF), Preferences , Language . Edit & Layout: Manage Palette… , Manage Custom Properties… , Properties Mapper… , serta Layout untuk merapikan posisi node secara otomatis. Windows: Palette (daftar simbol ERD: Entity Relationship) dan Properties View (ubah label, warna, jenis garis node/edge). Detail Kecil Wajib Tahu — Notasi Simbol ERD Entitas Kuat: Persegi panjang tunggal; Entitas Lemah: Persegi panjang bergaris ganda. Atribut Kunci (PK): Oval dengan teks bergaris bawah ; Atribut Kunci Lemah: Garis bawah putus-putus. Atribut Multinilai: Oval bergaris ganda (mis. Hobi , No_Telp ); Atribut Turunan: Oval garis putus-putus (mis. Umur dari Tgl_Lahir ). Contoh Diagram ERD Lengkap (Entitas, Atribut Key, Relasi M:N) NIM (PK) Nama_Mhs MAHASISWA M Mengambil N MATA KULIAH Kode_MK Nama_MK Penjelasan Diagram: Persegi panjang adalah Entitas , belah ketupat adalah Relasi (contoh M:N antara Mahasiswa dan Matkul), sedangkan oval adalah Atribut (PK bergaris bawah; atribut komposit dipecah menjadi sub-atribut). 🔑 Kata Kunci Wajib Ingat — Modul 3 yEd Graph Editor Atribut Komposit vs Multinilai (Oval Ganda) Atribut Turunan (Oval Putus-putus) Poin Ujian: Atribut multinilai (mis. hobi/no_telp) digambar dengan oval bergaris ganda ; atribut turunan (mis. umur) dengan garis putus-putus ."
+    },
+    {
+      "id": "m4",
+      "title": "Normalisasi Data & Denormalisasi",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#f59e0b;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Normalisasi Data &amp; Denormalisasi</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Konsep, Tujuan &amp; Contoh Anomali (Tabel 4.1)</h4>\n          <ul class=\"neat\">\n            <li>Diperkenalkan oleh <mark class=\"hl-yellow\">E.F. Codd (1972)</mark> sebagai teknik <em>logical design</em> &amp; verifikasi tabel hasil ERD.</li>\n            <li><strong>Ciri Relasi Optimal:</strong> Struktur record konsisten secara logis, mudah dimengerti, sederhana dipelihara, mudah ditampilkan, redundansi minimal.</li>\n            <li><strong>3 Anomali:</strong> <em>Insertion</em> (sulit tambah), <em>Update</em> (inkonsisten saat ubah), <em>Delete</em> (data penting ikut hilang).</li>\n          </ul>\n          <table class=\"mini\">\n            <thead><tr><th>NIP</th><th>Nama</th><th>Cabang</th><th>Manajer</th><th>Telp Cabang</th></tr></thead>\n            <tbody>\n              <tr><td>107</td><td>Soni</td><td>Bandung</td><td>Mrs. Keysha</td><td>022-0220</td></tr>\n              <tr><td>109</td><td>Roni</td><td>Jakarta</td><td>Mr. Daniswara</td><td><mark class=\"hl-pink\">021-0411</mark></td></tr>\n              <tr><td>112</td><td>Doni</td><td>Jakarta</td><td>Mr. Daniswara</td><td><mark class=\"hl-pink\">021-0410</mark></td></tr>\n            </tbody>\n          </table>\n          <small style=\"color:var(--muted);\">Contoh dari buku: Cabang Jakarta punya 2 nomor telepon berbeda (inkonsistensi/update anomaly) karena tabel belum dinormalisasi!</small>\n        </div>\n\n        <div class=\"box\">\n          <h4>KB 2: Tingkatan Normalisasi &amp; Denormalisasi</h4>\n          <table class=\"mini\">\n            <thead><tr><th>Tahap</th><th>Aturan Kunci</th></tr></thead>\n            <tbody>\n              <tr><td><strong>1NF</strong></td><td>Nilai atomik (tunggal), tidak ada grup berulang.</td></tr>\n              <tr><td><strong>2NF</strong></td><td>1NF + semua atribut non-key bergantung penuh pada PK (hapus ketergantungan parsial).</td></tr>\n              <tr><td><strong>3NF</strong></td><td>2NF + hapus ketergantungan transitif antar atribut non-key. <strong>(Optimal!)</strong></td></tr>\n              <tr><td><strong>BCNF – DKNF</strong></td><td>Pengetatan lanjutan (<em>Boyce-Codd, 4NF, 5NF, Domain-Key NF</em>).</td></tr>\n            </tbody>\n          </table>\n          <div style=\"margin-top:10px; font-size:13px;\">\n            <strong>Denormalisasi (3 Bentuk):</strong>\n            <ol class=\"neat\">\n              <li><strong>Atribut Turunan:</strong> Nilai hasil hitung atribut lain.</li>\n              <li><strong>Atribut Berlebihan:</strong> Menyatakan &gt;1 fakta (melanggar 1NF).</li>\n              <li><strong>Tabel Rekapitulasi:</strong> Tabel ringkasan khusus agar laporan cepat.</li>\n            </ol>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"grid-2\" style=\"margin-top:12px;\">\n        <div class=\"box\" style=\"background:#eff6ff;\">\n          <h4>Ketergantungan Fungsional (Functional Dependency)</h4>\n          <ul class=\"neat\">\n            <li>Disimbolkan <code>A → B</code> (B bergantung secara fungsional pada A / A menentukan B).</li>\n            <li><strong>Full Dependency:</strong> Atribut non-key bergantung penuh pada seluruh PK (syarat 2NF).</li>\n            <li><strong>Partial Dependency:</strong> Atribut non-key hanya bergantung pada <em>sebagian</em> PK komposit (dieliminasi di 2NF).</li>\n            <li><strong>Transitive Dependency:</strong> Ketergantungan antar 2+ atribut non-key, mis. <code>No_Fak → Kd_Brg → Nama_Brg</code> (dieliminasi di 3NF).</li>\n          </ul>\n        </div>\n        <div class=\"box note-box\" style=\"background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — BCNF, 4NF, 5NF, DKNF</h4>\n          <ul class=\"neat\">\n            <li><strong>BCNF (Boyce-Codd NF):</strong> Lebih ketat dari 3NF; setiap determinan (penentu) harus berupa <em>Candidate Key</em>.</li>\n            <li><strong>4NF:</strong> Sudah BCNF + bebas <em>Multi-Valued Dependency (MVD)</em> non-trivial.</li>\n            <li><strong>5NF &amp; DKNF:</strong> 5NF bebas <em>Join Dependency</em>; DKNF semua batasan disimpulkan dari domain &amp; key.</li>\n            <li><strong>Mengapa Redundansi ≠ 0%?</strong> Pada basis data relasional, PK yang dijadikan FK di tabel lain tetap dipertahankan sebagai penghubung logis antartabel.</li>\n          </ul>\n        </div>\n      </div>\n\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Alur Pemecahan Tabel saat Normalisasi (Unnormalized → 3NF)</div>\n        <svg width=\"700\" height=\"100\" viewBox=\"0 0 700 100\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"18\" width=\"145\" height=\"62\" rx=\"10\" fill=\"#ffd6e0\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"82\" y=\"42\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">Unnormalized</text>\n          <text x=\"82\" y=\"60\" text-anchor=\"middle\" font-size=\"10\">Data berulang &amp; ganda</text>\n          <path d=\"M160 49 L185 49\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"190\" y=\"18\" width=\"145\" height=\"62\" rx=\"10\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"262\" y=\"42\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">1NF (Atomik)</text>\n          <text x=\"262\" y=\"60\" text-anchor=\"middle\" font-size=\"10\">Hapus grup berulang</text>\n          <path d=\"M340 49 L365 49\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"370\" y=\"18\" width=\"145\" height=\"62\" rx=\"10\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"442\" y=\"42\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">2NF (Full Dep.)</text>\n          <text x=\"442\" y=\"60\" text-anchor=\"middle\" font-size=\"9\">Hapus ketergantungan parsial</text>\n          <path d=\"M520 49 L545 49\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"550\" y=\"18\" width=\"140\" height=\"62\" rx=\"10\" fill=\"#c9f7dc\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"620\" y=\"42\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"12\">3NF (Optimal)</text>\n          <text x=\"620\" y=\"60\" text-anchor=\"middle\" font-size=\"10\">Hapus transitif non-key</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Proses normalisasi memecah tabel bermasalah secara bertahap: <strong>1NF</strong> (nilai atomik, tanpa grup berulang) → <strong>2NF</strong> (hapus ketergantungan parsial) → <strong>3NF</strong> (hapus ketergantungan transitif antar kolom non-key).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Anomali Insert·Update·Delete</span>\n          <span class=\"kw-chip\">1NF (Atomik)</span>\n          <span class=\"kw-chip\">2NF (No Partial Dep.)</span>\n          <span class=\"kw-chip\">3NF (No Transitive Dep.)</span>\n          <span class=\"kw-chip\">BCNF</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>2NF</strong> menghilangkan ketergantungan parsial pada PK gabungan; <strong>3NF</strong> menghilangkan ketergantungan transitif antar atribut non-key.</p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Normalisasi Data & Denormalisasi KB 1: Konsep, Tujuan & Contoh Anomali (Tabel 4.1) Diperkenalkan oleh E.F. Codd (1972) sebagai teknik logical design & verifikasi tabel hasil ERD. Ciri Relasi Optimal: Struktur record konsisten secara logis, mudah dimengerti, sederhana dipelihara, mudah ditampilkan, redundansi minimal. 3 Anomali: Insertion (sulit tambah), Update (inkonsisten saat ubah), Delete (data penting ikut hilang). NIP Nama Cabang Manajer Telp Cabang 107 Soni Bandung Mrs. Keysha 022-0220 109 Roni Jakarta Mr. Daniswara 021-0411 112 Doni Jakarta Mr. Daniswara 021-0410 Contoh dari buku: Cabang Jakarta punya 2 nomor telepon berbeda (inkonsistensi/update anomaly) karena tabel belum dinormalisasi! KB 2: Tingkatan Normalisasi & Denormalisasi Tahap Aturan Kunci 1NF Nilai atomik (tunggal), tidak ada grup berulang. 2NF 1NF + semua atribut non-key bergantung penuh pada PK (hapus ketergantungan parsial). 3NF 2NF + hapus ketergantungan transitif antar atribut non-key. (Optimal!) BCNF – DKNF Pengetatan lanjutan ( Boyce-Codd, 4NF, 5NF, Domain-Key NF ). Denormalisasi (3 Bentuk): Atribut Turunan: Nilai hasil hitung atribut lain. Atribut Berlebihan: Menyatakan >1 fakta (melanggar 1NF). Tabel Rekapitulasi: Tabel ringkasan khusus agar laporan cepat. Ketergantungan Fungsional (Functional Dependency) Disimbolkan A → B (B bergantung secara fungsional pada A / A menentukan B). Full Dependency: Atribut non-key bergantung penuh pada seluruh PK (syarat 2NF). Partial Dependency: Atribut non-key hanya bergantung pada sebagian PK komposit (dieliminasi di 2NF). Transitive Dependency: Ketergantungan antar 2+ atribut non-key, mis. No_Fak → Kd_Brg → Nama_Brg (dieliminasi di 3NF). Detail Kecil Wajib Tahu — BCNF, 4NF, 5NF, DKNF BCNF (Boyce-Codd NF): Lebih ketat dari 3NF; setiap determinan (penentu) harus berupa Candidate Key . 4NF: Sudah BCNF + bebas Multi-Valued Dependency (MVD) non-trivial. 5NF & DKNF: 5NF bebas Join Dependency ; DKNF semua batasan disimpulkan dari domain & key. Mengapa Redundansi ≠ 0%? Pada basis data relasional, PK yang dijadikan FK di tabel lain tetap dipertahankan sebagai penghubung logis antartabel. Alur Pemecahan Tabel saat Normalisasi (Unnormalized → 3NF) Unnormalized Data berulang & ganda 1NF (Atomik) Hapus grup berulang 2NF (Full Dep.) Hapus ketergantungan parsial 3NF (Optimal) Hapus transitif non-key Penjelasan Diagram: Proses normalisasi memecah tabel bermasalah secara bertahap: 1NF (nilai atomik, tanpa grup berulang) → 2NF (hapus ketergantungan parsial) → 3NF (hapus ketergantungan transitif antar kolom non-key). 🔑 Kata Kunci Wajib Ingat — Modul 4 Anomali Insert·Update·Delete 1NF (Atomik) 2NF (No Partial Dep.) 3NF (No Transitive Dep.) BCNF Poin Ujian: 2NF menghilangkan ketergantungan parsial pada PK gabungan; 3NF menghilangkan ketergantungan transitif antar atribut non-key."
+    },
+    {
+      "id": "m5",
+      "title": "Structured Query Language (SQL: DDL, DML, DCL)",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#ec4899;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Structured Query Language (SQL: DDL, DML, DCL)</h2>\n      </div>\n      <div class=\"grid-3\">\n        <div class=\"box\" style=\"background:#fdf2f8;\">\n          <h4>1. DDL (Struktur Objek)</h4>\n          <p style=\"margin:0 0 6px;\">Mendefinisikan &amp; mengubah skema tabel/database:</p>\n          <code>CREATE</code>, <code>ALTER</code>, <code>DROP</code>, <code>TRUNCATE</code>, <code>CREATE INDEX</code>.\n        </div>\n        <div class=\"box\" style=\"background:#eff6ff;\">\n          <h4>2. DML (Manipulasi Data)</h4>\n          <p style=\"margin:0 0 6px;\">Mengolah baris data di dalam tabel:</p>\n          <code>SELECT</code>, <code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, <code>LIKE</code>, <code>ORDER BY</code>, <code>GROUP BY</code>, <code>HAVING</code>, fungsi agregat (<code>COUNT, SUM, AVG, MIN, MAX</code>).\n        </div>\n        <div class=\"box\" style=\"background:#f0fdf4;\">\n          <h4>3. DCL (Keamanan &amp; Akses)</h4>\n          <p style=\"margin:0 0 6px;\">Mengatur hak akses pengguna &amp; kontrol:</p>\n          <code>GRANT</code>, <code>REVOKE</code>, pengaturan <em>constraint</em> integritas (<code>PRIMARY KEY, FOREIGN KEY, CHECK, UNIQUE</code>).\n        </div>\n      </div>\n      <pre class=\"code-box\">-- Sintaks Penting Modul 5 (DDL, DML, DCL, Join, Group By):\nCREATE UNIQUE INDEX idx_pembeli ON tblpembeli(Kode_pembeli);\nALTER TABLE gaji ADD FOREIGN KEY (id_pegawai) REFERENCES pegawai(id_pegawai);\nALTER TABLE gaji ADD PRIMARY KEY (id_pegawai, tanggal_awal);\nALTER TABLE tblpembeli DROP COLUMN Kelamin;\n\nSELECT Kota, COUNT(*) AS jml FROM tblpembeli GROUP BY Kota HAVING COUNT(Kota) &gt; 1;\nSELECT departemen, COUNT(*) AS total, AVG(gaji) FROM pegawai GROUP BY departemen ORDER BY total DESC;\nSELECT p.nama, g.gaji FROM pegawai p INNER JOIN gaji g ON p.id_pegawai = g.id_pegawai;\nSELECT * FROM tblpembeli WHERE Nama_pembeli LIKE 'A%'; -- Awalan huruf A\nGRANT SELECT, INSERT ON pegawai TO 'user1'@'localhost';\nREVOKE INSERT ON pegawai FROM 'user1'@'localhost';</pre>\n      <div class=\"box note-box\" style=\"margin-bottom:12px; background:#fffbeb;\">\n        <h4>Detail Kecil Wajib Tahu — Modul 5 (SQL)</h4>\n        <ul class=\"neat\">\n          <li><strong>Wildcard Operator <code>LIKE</code>:</strong> <code>%</code> mewakili 0, 1, atau banyak karakter; <code>_</code> mewakili tepat 1 karakter (mis. <code>'_a%'</code> = huruf kedua adalah 'a').</li>\n          <li><strong>Bahaya <code>DELETE</code> &amp; <code>UPDATE</code> tanpa <code>WHERE</code>:</strong> <code>DELETE FROM tblpembeli;</code> menghapus <em>seluruh baris</em> (struktur tabel tetap ada, masih DML), berbeda dengan <code>DROP TABLE tblpembeli;</code> yang menghapus struktur + datanya (DDL).</li>\n          <li><strong>Fungsi Agregat &amp; String:</strong> Agregat (<code>COUNT, SUM, AVG, MIN, MAX</code>) mengabaikan <code>NULL</code> kecuali <code>COUNT(*)</code>; String (<code>CONCAT, SUBSTRING, UPPER, LOWER</code>).</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Diagram Jenis SQL JOIN (Venn Diagram)</div>\n        <svg width=\"680\" height=\"120\" viewBox=\"0 0 680 120\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"155\" height=\"100\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#d8d2c7\"/>\n          <circle cx=\"70\" cy=\"52\" r=\"28\" fill=\"none\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <circle cx=\"105\" cy=\"52\" r=\"28\" fill=\"none\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <path d=\"M87.5 30 A28 28 0 0 1 87.5 74 A28 28 0 0 1 87.5 30 Z\" fill=\"#fef08a\" stroke=\"#24292f\" stroke-width=\"1.2\"/>\n          <text x=\"87\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">INNER JOIN</text>\n\n          <rect x=\"178\" y=\"10\" width=\"155\" height=\"100\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#d8d2c7\"/>\n          <circle cx=\"238\" cy=\"52\" r=\"28\" fill=\"#dbeafe\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <circle cx=\"273\" cy=\"52\" r=\"28\" fill=\"none\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"255\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">LEFT JOIN</text>\n\n          <rect x=\"346\" y=\"10\" width=\"155\" height=\"100\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#d8d2c7\"/>\n          <circle cx=\"406\" cy=\"52\" r=\"28\" fill=\"none\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <circle cx=\"441\" cy=\"52\" r=\"28\" fill=\"#d1fae5\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"423\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">RIGHT JOIN</text>\n\n          <rect x=\"514\" y=\"10\" width=\"155\" height=\"100\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#d8d2c7\"/>\n          <circle cx=\"574\" cy=\"52\" r=\"28\" fill=\"#ffe4e6\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <circle cx=\"609\" cy=\"52\" r=\"28\" fill=\"#ffe4e6\" fill-opacity=\"0.7\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"591\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">FULL OUTER JOIN</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Diagram Venn SQL JOIN: <strong>INNER</strong> mengambil irisan cocok di kedua tabel; <strong>LEFT</strong> mengambil seluruh kiri + yang cocok; <strong>RIGHT</strong> seluruh kanan + yang cocok; <strong>FULL OUTER</strong> menggabungkan seluruh kedua sisi.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">DDL (CREATE·ALTER·DROP)</span>\n          <span class=\"kw-chip\">DML (SELECT·INSERT·UPDATE·DELETE)</span>\n          <span class=\"kw-chip\">DCL (GRANT·REVOKE)</span>\n          <span class=\"kw-chip\">WHERE vs HAVING</span>\n          <span class=\"kw-chip\">INNER vs LEFT/RIGHT JOIN</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <code>WHERE</code> menyaring baris sebelum agregasi; <code>HAVING</code> menyaring grup setelah <code>GROUP BY</code>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Structured Query Language (SQL: DDL, DML, DCL) 1. DDL (Struktur Objek) Mendefinisikan & mengubah skema tabel/database: CREATE , ALTER , DROP , TRUNCATE , CREATE INDEX . 2. DML (Manipulasi Data) Mengolah baris data di dalam tabel: SELECT , INSERT , UPDATE , DELETE , LIKE , ORDER BY , GROUP BY , HAVING , fungsi agregat ( COUNT, SUM, AVG, MIN, MAX ). 3. DCL (Keamanan & Akses) Mengatur hak akses pengguna & kontrol: GRANT , REVOKE , pengaturan constraint integritas ( PRIMARY KEY, FOREIGN KEY, CHECK, UNIQUE ). -- Sintaks Penting Modul 5 (DDL, DML, DCL, Join, Group By): CREATE UNIQUE INDEX idx_pembeli ON tblpembeli(Kode_pembeli); ALTER TABLE gaji ADD FOREIGN KEY (id_pegawai) REFERENCES pegawai(id_pegawai); ALTER TABLE gaji ADD PRIMARY KEY (id_pegawai, tanggal_awal); ALTER TABLE tblpembeli DROP COLUMN Kelamin; SELECT Kota, COUNT(*) AS jml FROM tblpembeli GROUP BY Kota HAVING COUNT(Kota) > 1; SELECT departemen, COUNT(*) AS total, AVG(gaji) FROM pegawai GROUP BY departemen ORDER BY total DESC; SELECT p.nama, g.gaji FROM pegawai p INNER JOIN gaji g ON p.id_pegawai = g.id_pegawai; SELECT * FROM tblpembeli WHERE Nama_pembeli LIKE 'A%'; -- Awalan huruf A GRANT SELECT, INSERT ON pegawai TO 'user1'@'localhost'; REVOKE INSERT ON pegawai FROM 'user1'@'localhost'; Detail Kecil Wajib Tahu — Modul 5 (SQL) Wildcard Operator LIKE : % mewakili 0, 1, atau banyak karakter; _ mewakili tepat 1 karakter (mis. '_a%' = huruf kedua adalah 'a'). Bahaya DELETE & UPDATE tanpa WHERE : DELETE FROM tblpembeli; menghapus seluruh baris (struktur tabel tetap ada, masih DML), berbeda dengan DROP TABLE tblpembeli; yang menghapus struktur + datanya (DDL). Fungsi Agregat & String: Agregat ( COUNT, SUM, AVG, MIN, MAX ) mengabaikan NULL kecuali COUNT(*) ; String ( CONCAT, SUBSTRING, UPPER, LOWER ). Diagram Jenis SQL JOIN (Venn Diagram) INNER JOIN LEFT JOIN RIGHT JOIN FULL OUTER JOIN Penjelasan Diagram: Diagram Venn SQL JOIN: INNER mengambil irisan cocok di kedua tabel; LEFT mengambil seluruh kiri + yang cocok; RIGHT seluruh kanan + yang cocok; FULL OUTER menggabungkan seluruh kedua sisi. 🔑 Kata Kunci Wajib Ingat — Modul 5 DDL (CREATE·ALTER·DROP) DML (SELECT·INSERT·UPDATE·DELETE) DCL (GRANT·REVOKE) WHERE vs HAVING INNER vs LEFT/RIGHT JOIN Poin Ujian: WHERE menyaring baris sebelum agregasi; HAVING menyaring grup setelah GROUP BY ."
+    },
+    {
+      "id": "m6",
+      "title": "Praktikum DBMS & Ekosistem XAMPP (MySQL / MariaDB)",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#db2777;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Praktikum DBMS &amp; Ekosistem XAMPP (MySQL / MariaDB)</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: Skala DBMS &amp; Sejarah MariaDB</h4>\n          <ul class=\"neat\">\n            <li><strong>Skala Menengah ke Bawah:</strong> MySQL, <mark class=\"hl-mint\">MariaDB</mark> (fork open-source dari MySQL setelah MySQL diakuisisi Oracle), PostgreSQL, MS SQL Server.</li>\n            <li><strong>Skala Menengah ke Atas (Enterprise):</strong> <mark class=\"hl-yellow\">Oracle Database</mark>, IBM DB2.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Komponen XAMPP &amp; Antarmuka Pengelolaan</h4>\n          <ul class=\"neat\">\n            <li><strong>Kepanjangan XAMPP (Apache Friends):</strong> <strong>X</strong> (Cross-platform), <strong>A</strong>pache, <strong>M</strong>ariaDB/MySQL, <strong>P</strong>HP, <strong>P</strong>erl.</li>\n            <li><strong>Cara Kelola Database di XAMPP:</strong> Melalui <strong>Command Prompt (CMD)</strong> (<code>cd C:\\xampp\\mysql\\bin</code> lalu <code>mysql -u root -p</code>) atau GUI web <strong>phpMyAdmin</strong> (<code>localhost/phpmyadmin</code>).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"grid-2\" style=\"margin-top:12px;\">\n        <div class=\"box\" style=\"background:#fdf2f8;\">\n          <h4>Tipe Data Penting MySQL / MariaDB (Tabel 6.5)</h4>\n          <ul class=\"neat\">\n            <li><strong>Numerik Bulat:</strong> <code>TINYINT</code> (-128..127), <code>SMALLINT</code>, <code>MEDIUMINT</code>, <code>INT</code>, <code>BIGINT</code>.</li>\n            <li><strong>Numerik Pecahan:</strong> <code>FLOAT</code>, <code>DOUBLE/REAL</code>, <code>DECIMAL/NUMERIC</code> (presisi tinggi untuk uang).</li>\n            <li><strong>String:</strong> <code>CHAR(n)</code> ukuran <em>tetap</em> (0–255), <code>VARCHAR(n)</code> ukuran <em>dinamis</em> (0–65.535), <code>TINYTEXT</code>, <code>TEXT</code>.</li>\n          </ul>\n        </div>\n        <div class=\"box note-box\" style=\"background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — Modul 6 (XAMPP &amp; DBMS)</h4>\n          <ul class=\"neat\">\n            <li><strong>Langkah Praktis XAMPP:</strong> Lokasi install standar di <code>C:\\xampp</code>; aktifkan modul <strong>Apache</strong> (webserver halaman admin) dan <strong>MySQL</strong> (engine DBMS) di XAMPP Control Panel.</li>\n            <li><strong>Perintah Dasar CLI:</strong> <code>SHOW DATABASES;</code>, <code>USE nama_db;</code>, <code>SHOW TABLES;</code>, <code>DESC nama_tabel;</code>.</li>\n            <li><strong>Catatan PostgreSQL &amp; Oracle:</strong> Oracle unggul di skala <em>enterprise</em> (biaya lisensi tinggi); PostgreSQL di Windows zaman modul disusun memakai lapisan emulasi <em>Cygwin</em>.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Arsitektur Ekosistem XAMPP &amp; Skala DBMS (Modul 6)</div>\n        <svg width=\"680\" height=\"118\" viewBox=\"0 0 680 118\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"320\" height=\"98\" rx=\"8\" fill=\"#fdf2f8\" stroke=\"#db2777\" stroke-width=\"1.5\"/>\n          <text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Stack XAMPP &amp; Akses Pengelolaan</text>\n          <rect x=\"22\" y=\"38\" width=\"90\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"67\" y=\"57\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Apache Web</text>\n          <rect x=\"122\" y=\"38\" width=\"96\" height=\"30\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"170\" y=\"57\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">MariaDB/MySQL</text>\n          <rect x=\"228\" y=\"38\" width=\"90\" height=\"30\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"273\" y=\"57\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">PHP &amp; Perl</text>\n          <rect x=\"44\" y=\"75\" width=\"110\" height=\"24\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"99\" y=\"91\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">CMD (CLI)</text>\n          <rect x=\"186\" y=\"75\" width=\"110\" height=\"24\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"241\" y=\"91\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">phpMyAdmin</text>\n\n          <rect x=\"350\" y=\"10\" width=\"320\" height=\"98\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"510\" y=\"28\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Klasifikasi Skala DBMS</text>\n          <rect x=\"364\" y=\"38\" width=\"292\" height=\"28\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/>\n          <text x=\"510\" y=\"56\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Menengah–Bawah: MySQL, MariaDB, PostgreSQL</text>\n          <rect x=\"364\" y=\"72\" width=\"292\" height=\"28\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/>\n          <text x=\"510\" y=\"90\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Menengah–Atas: Oracle Database, IBM DB2</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> <strong>XAMPP</strong> menggabungkan Apache, MariaDB/MySQL, serta PHP/Perl yang bisa dikelola lewat <em>CMD</em> maupun <em>phpMyAdmin</em>. DBMS dikelompokkan menjadi skala menengah–bawah (MySQL/MariaDB/PostgreSQL) dan enterprise (Oracle/DB2).</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">MariaDB (Fork MySQL)</span>\n          <span class=\"kw-chip\">Oracle (Enterprise)</span>\n          <span class=\"kw-chip\">XAMPP (Apache Friends)</span>\n          <span class=\"kw-chip\">CMD vs phpMyAdmin</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <strong>MariaDB</strong> dibuat sebagai fork MySQL oleh pendirinya (Michael \"Monty\" Widenius) setelah Oracle mengakuisisi Sun/MySQL.</p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Praktikum DBMS & Ekosistem XAMPP (MySQL / MariaDB) KB 1: Skala DBMS & Sejarah MariaDB Skala Menengah ke Bawah: MySQL, MariaDB (fork open-source dari MySQL setelah MySQL diakuisisi Oracle), PostgreSQL, MS SQL Server. Skala Menengah ke Atas (Enterprise): Oracle Database , IBM DB2. KB 2: Komponen XAMPP & Antarmuka Pengelolaan Kepanjangan XAMPP (Apache Friends): X (Cross-platform), A pache, M ariaDB/MySQL, P HP, P erl. Cara Kelola Database di XAMPP: Melalui Command Prompt (CMD) ( cd C:\\xampp\\mysql\\bin lalu mysql -u root -p ) atau GUI web phpMyAdmin ( localhost/phpmyadmin ). Tipe Data Penting MySQL / MariaDB (Tabel 6.5) Numerik Bulat: TINYINT (-128..127), SMALLINT , MEDIUMINT , INT , BIGINT . Numerik Pecahan: FLOAT , DOUBLE/REAL , DECIMAL/NUMERIC (presisi tinggi untuk uang). String: CHAR(n) ukuran tetap (0–255), VARCHAR(n) ukuran dinamis (0–65.535), TINYTEXT , TEXT . Detail Kecil Wajib Tahu — Modul 6 (XAMPP & DBMS) Langkah Praktis XAMPP: Lokasi install standar di C:\\xampp ; aktifkan modul Apache (webserver halaman admin) dan MySQL (engine DBMS) di XAMPP Control Panel. Perintah Dasar CLI: SHOW DATABASES; , USE nama_db; , SHOW TABLES; , DESC nama_tabel; . Catatan PostgreSQL & Oracle: Oracle unggul di skala enterprise (biaya lisensi tinggi); PostgreSQL di Windows zaman modul disusun memakai lapisan emulasi Cygwin . Arsitektur Ekosistem XAMPP & Skala DBMS (Modul 6) Stack XAMPP & Akses Pengelolaan Apache Web MariaDB/MySQL PHP & Perl CMD (CLI) phpMyAdmin Klasifikasi Skala DBMS Menengah–Bawah: MySQL, MariaDB, PostgreSQL Menengah–Atas: Oracle Database, IBM DB2 Penjelasan Diagram: XAMPP menggabungkan Apache, MariaDB/MySQL, serta PHP/Perl yang bisa dikelola lewat CMD maupun phpMyAdmin . DBMS dikelompokkan menjadi skala menengah–bawah (MySQL/MariaDB/PostgreSQL) dan enterprise (Oracle/DB2). 🔑 Kata Kunci Wajib Ingat — Modul 6 MariaDB (Fork MySQL) Oracle (Enterprise) XAMPP (Apache Friends) CMD vs phpMyAdmin Poin Ujian: MariaDB dibuat sebagai fork MySQL oleh pendirinya (Michael \"Monty\" Widenius) setelah Oracle mengakuisisi Sun/MySQL."
+    },
+    {
+      "id": "m7",
+      "title": "Manajemen Transaksi & Basis Data Terdistribusi",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#ef4444;\">MODUL 7</span>\n        <h2 class=\"mod-title\">Manajemen Transaksi &amp; Basis Data Terdistribusi</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>Properti ACID, State &amp; Deadlock</h4>\n          <ul class=\"neat\">\n            <li><strong>Atomicity:</strong> <em>All or nothing</em>.</li>\n            <li><strong>Consistency:</strong> Data konsisten sebelum &amp; sesudah transaksi.</li>\n            <li><strong>Isolation:</strong> Transaksi bersamaan tak saling ganggu.</li>\n            <li><strong>Durability:</strong> Hasil <code>COMMIT</code> permanen walau sistem gagal.</li>\n            <li><strong>State:</strong> <code>Active → Partially Committed → Committed</code> (atau <code>Failed → Abort</code>).</li>\n            <li><strong>Concurrency Control:</strong> <em>Schedule, Serializability, Locking (Lock-based, 2PL), Timestamp</em>.</li>\n            <li><strong>3 Solusi Deadlock:</strong> <em>Timeout, Deadlock Prevention, Deadlock Recovery</em>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>Basis Data Terdistribusi</h4>\n          <ul class=\"neat\">\n            <li><strong>Alasan:</strong> Unit bisnis tersebar, berbagi data, keandalan komunikasi, multi-vendor, <em>data recovery</em>, sinkronisasi.</li>\n            <li><strong>4 Opsi Implementasi:</strong> Replikasi, Partisi Horizontal (baris), Partisi Vertikal (kolom), Kombinasi.</li>\n            <li><strong>5 Pertimbangan Strategi:</strong> Kekuatan organisasi, frekuensi referensi data, pertumbuhan &amp; perluasan, kapabilitas teknologi, layanan andal (<em>mission-critical</em> → replikasi).</li>\n          </ul>\n        </div>\n      </div>\n\n      <div class=\"grid-2\" style=\"margin-top:12px;\">\n        <div class=\"box\" style=\"background:#fef2f2;\">\n          <h4>Detail Concurrency Control (Serializability, 2PL, Timestamp)</h4>\n          <ul class=\"neat\">\n            <li><strong>Conflict vs View Serializability:</strong> <em>Conflict serializability</em> diselesaikan dengan menukar (<em>swap</em>) operasi non-konflik pada data berbeda. Setiap <em>conflict serializable</em> pasti <em>view serializable</em>.</li>\n            <li><strong>Locking &amp; 2PL (Two-Phase Locking):</strong> Ada <code>lock-S</code> (Shared, baca bersama) dan <code>lock-X</code> (Exclusive, baca/tulis tunggal). 2PL punya 2 fase: <strong>Growing Phase</strong> (mengunci tanpa melepas) → <strong>Shrinking Phase</strong> (melepas tanpa mengunci baru).</li>\n            <li><strong>Timestamping:</strong> Transaksi dengan stempel waktu (<em>timestamp</em>) lebih kecil (lebih tua) mendapat prioritas saat konflik.</li>\n          </ul>\n        </div>\n        <div class=\"box note-box\" style=\"background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — Modul 7 (Deadlock &amp; Terdistribusi)</h4>\n          <ul class=\"neat\">\n            <li><strong>3 Solusi Deadlock:</strong> (1) <em>Timeout</em> (habis waktu tunggu → abort &amp; restart), (2) <em>Deadlock Prevention</em> (cek prioritas timestamp), (3) <em>Deadlock Recovery</em> (rollback ke titik terdekat sebelum deadlock).</li>\n            <li><strong>Federated vs Unfederated:</strong> <em>Federated</em> mendukung fitur terdistribusi antar node otonom; <em>Unfederated</em> mewajibkan semua akses lewat modul koordinasi pusat.</li>\n            <li><strong>Kelemahan Replikasi vs Partisi Horizontal:</strong> Replikasi punya 3 kelemahan (kompleksitas integritas, beban performa saat refresh berkala, heterogenitas jaringan). Partisi horizontal rentan jika 1 server mati karena data tidak direplikasi.</li>\n          </ul>\n        </div>\n      </div>\n\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#57606a; margin-bottom:6px;\">Diagram State Transaksi &amp; Replikasi Master–Slave (Modul 7 &amp; 9)</div>\n        <svg width=\"700\" height=\"115\" viewBox=\"0 0 700 115\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"32\" width=\"95\" height=\"44\" rx=\"10\" fill=\"#cde8ff\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"57\" y=\"58\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">Active</text>\n          <path d=\"M108 54 L132 54\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"135\" y=\"32\" width=\"125\" height=\"44\" rx=\"10\" fill=\"#fff3a1\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <text x=\"197\" y=\"51\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"10.5\">Partially</text>\n          <text x=\"197\" y=\"65\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"10.5\">Committed</text>\n          <path d=\"M262 45 L295 30\" stroke=\"#10b981\" stroke-width=\"2\"/>\n          <rect x=\"298\" y=\"10\" width=\"110\" height=\"38\" rx=\"10\" fill=\"#c9f7dc\" stroke=\"#10b981\" stroke-width=\"1.8\"/>\n          <text x=\"353\" y=\"33\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">Committed</text>\n          <path d=\"M262 64 L295 82\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n          <rect x=\"298\" y=\"65\" width=\"110\" height=\"38\" rx=\"10\" fill=\"#ffd6e0\" stroke=\"#ef4444\" stroke-width=\"1.8\"/>\n          <text x=\"353\" y=\"88\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">Failed → Abort</text>\n\n          <!-- Master Slave -->\n          <rect x=\"445\" y=\"25\" width=\"105\" height=\"60\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n          <text x=\"497\" y=\"50\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">Master (Win)</text>\n          <text x=\"497\" y=\"68\" text-anchor=\"middle\" font-size=\"10\">XAMPP MySQL</text>\n          <path d=\"M553 55 L585 55\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"588\" y=\"25\" width=\"102\" height=\"60\" rx=\"10\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"2\"/>\n          <text x=\"639\" y=\"50\" text-anchor=\"middle\" font-weight=\"800\" font-size=\"11\">Slave (Ubuntu)</text>\n          <text x=\"639\" y=\"68\" text-anchor=\"middle\" font-size=\"10\">Replikasi 1 Arah</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: Transaksi bergerak dari <em>Active → Partially Committed → Committed</em> (atau <em>Failed → Abort</em> bila gagal). Kanan: Replikasi 1 arah menyalin perubahan dari <em>Master (Windows)</em> ke <em>Slave (Ubuntu)</em>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 7</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">ACID (Atomicity·Consistency·Isolation·Durability)</span>\n          <span class=\"kw-chip\">2PL &amp; Timestamp</span>\n          <span class=\"kw-chip\">Deadlock (Timeout·Prevention·Recovery)</span>\n          <span class=\"kw-chip\">Partisi Horizontal vs Vertikal</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Sistem <em>mission-critical</em> mengutamakan opsi <strong>Replikasi</strong>. Partisi <strong>Horizontal</strong> = per baris; <strong>Vertikal</strong> = per kolom.</p>\n      </div>\n    </section>",
+      "text": "MODUL 7 Manajemen Transaksi & Basis Data Terdistribusi Properti ACID, State & Deadlock Atomicity: All or nothing . Consistency: Data konsisten sebelum & sesudah transaksi. Isolation: Transaksi bersamaan tak saling ganggu. Durability: Hasil COMMIT permanen walau sistem gagal. State: Active → Partially Committed → Committed (atau Failed → Abort ). Concurrency Control: Schedule, Serializability, Locking (Lock-based, 2PL), Timestamp . 3 Solusi Deadlock: Timeout, Deadlock Prevention, Deadlock Recovery . Basis Data Terdistribusi Alasan: Unit bisnis tersebar, berbagi data, keandalan komunikasi, multi-vendor, data recovery , sinkronisasi. 4 Opsi Implementasi: Replikasi, Partisi Horizontal (baris), Partisi Vertikal (kolom), Kombinasi. 5 Pertimbangan Strategi: Kekuatan organisasi, frekuensi referensi data, pertumbuhan & perluasan, kapabilitas teknologi, layanan andal ( mission-critical → replikasi). Detail Concurrency Control (Serializability, 2PL, Timestamp) Conflict vs View Serializability: Conflict serializability diselesaikan dengan menukar ( swap ) operasi non-konflik pada data berbeda. Setiap conflict serializable pasti view serializable . Locking & 2PL (Two-Phase Locking): Ada lock-S (Shared, baca bersama) dan lock-X (Exclusive, baca/tulis tunggal). 2PL punya 2 fase: Growing Phase (mengunci tanpa melepas) → Shrinking Phase (melepas tanpa mengunci baru). Timestamping: Transaksi dengan stempel waktu ( timestamp ) lebih kecil (lebih tua) mendapat prioritas saat konflik. Detail Kecil Wajib Tahu — Modul 7 (Deadlock & Terdistribusi) 3 Solusi Deadlock: (1) Timeout (habis waktu tunggu → abort & restart), (2) Deadlock Prevention (cek prioritas timestamp), (3) Deadlock Recovery (rollback ke titik terdekat sebelum deadlock). Federated vs Unfederated: Federated mendukung fitur terdistribusi antar node otonom; Unfederated mewajibkan semua akses lewat modul koordinasi pusat. Kelemahan Replikasi vs Partisi Horizontal: Replikasi punya 3 kelemahan (kompleksitas integritas, beban performa saat refresh berkala, heterogenitas jaringan). Partisi horizontal rentan jika 1 server mati karena data tidak direplikasi. Diagram State Transaksi & Replikasi Master–Slave (Modul 7 & 9) Active Partially Committed Committed Failed → Abort Master (Win) XAMPP MySQL Slave (Ubuntu) Replikasi 1 Arah Penjelasan Diagram: Kiri: Transaksi bergerak dari Active → Partially Committed → Committed (atau Failed → Abort bila gagal). Kanan: Replikasi 1 arah menyalin perubahan dari Master (Windows) ke Slave (Ubuntu) . 🔑 Kata Kunci Wajib Ingat — Modul 7 ACID (Atomicity·Consistency·Isolation·Durability) 2PL & Timestamp Deadlock (Timeout·Prevention·Recovery) Partisi Horizontal vs Vertikal Poin Ujian: Sistem mission-critical mengutamakan opsi Replikasi . Partisi Horizontal = per baris; Vertikal = per kolom."
+    },
+    {
+      "id": "m8",
+      "title": "Pengembangan Aplikasi Basis Data & Integrasi Access–MySQL",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#6366f1;\">MODUL 8</span>\n        <h2 class=\"mod-title\">Pengembangan Aplikasi Basis Data &amp; Integrasi Access–MySQL</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1: 7 Kriteria DBMS &amp; Siklus Pengembangan</h4>\n          <ul class=\"neat\">\n            <li><strong>7 Kriteria DBMS:</strong> <em>Physical &amp; Logical data independence</em>, akses &amp; pencarian cepat, standarisasi, <em>high-level interface</em>, <em>integrity control</em>, <em>fast recovery</em>, dan <em>automatic organization</em>.</li>\n            <li><strong>Model 3 Tahap:</strong> Analisis → Desain/Perancangan → Implementasi.</li>\n            <li><strong>Model 5 Tahap:</strong> Perencanaan → Analisis → Desain → Implementasi → Penggunaan/Review/Evaluasi.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 2: Integrasi MS Access + MySQL</h4>\n          <ul class=\"neat\">\n            <li><strong>Konektor Wajib:</strong> Membutuhkan <em>MySQL Connector/ODBC 8.0 (ANSI/Unicode Driver)</em> + <em>Microsoft Visual C++ Redistributable</em>.</li>\n            <li><strong>5 Objek Utama MS Access:</strong> <em>Form</em> (input), <em>Form Navigasi</em>, <em>Query</em>, <em>Report</em> (cetak laporan), dan <em>Switchboard</em> (menu utama).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"grid-2\" style=\"margin-top:12px;\">\n        <div class=\"box\" style=\"background:#eef2ff;\">\n          <h4>Organisasi Berkas &amp; Metode Akses</h4>\n          <ul class=\"neat\">\n            <li><strong>Definisi:</strong> Organisasi berkas = organisasi basis data (metode penyimpanan &amp; metode akses pada media penyimpanan sekunder untuk sistem <em>multi-user</em>).</li>\n            <li><strong>Sequential Access Memory:</strong> Pembacaan data berurutan dari awal (contoh: <em>magnetic tape</em>).</li>\n            <li><strong>Random Access Memory:</strong> Pembacaan data langsung ke alamat tujuan tanpa urut (contoh: <em>RAM &amp; disk</em>).</li>\n          </ul>\n        </div>\n        <div class=\"box note-box\" style=\"background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — Modul 8 (Siklus &amp; Access)</h4>\n          <ul class=\"neat\">\n            <li><strong>Model 3 Tahap vs 5 Tahap:</strong> Pada 3 tahap, studi kelayakan masuk di tahap <em>Analisis</em> dan konversi sistem di <em>Implementasi</em>. Pada 5 tahap, studi kelayakan masuk di <em>Perencanaan</em> (awal) dan konversi/evaluasi di <em>Penggunaan/Review/Evaluasi</em> (akhir).</li>\n            <li><strong>Analisis Kelayakan:</strong> Wajib memperhitungkan analisis kelayakan &amp; analisis biaya–manfaat alternatif desain sistem basis data.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Model Siklus Aplikasi 5 Tahap &amp; Bridge MS Access–MySQL (Modul 8)</div>\n        <svg width=\"680\" height=\"118\" viewBox=\"0 0 680 118\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"660\" height=\"48\" rx=\"8\" fill=\"#eef2ff\" stroke=\"#6366f1\" stroke-width=\"1.5\"/>\n          <rect x=\"20\" y=\"19\" width=\"112\" height=\"30\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"76\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">1. Perencanaan</text>\n          <path d=\"M134 34 L148 34\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"150\" y=\"19\" width=\"112\" height=\"30\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"206\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">2. Analisis</text>\n          <path d=\"M264 34 L278 34\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"280\" y=\"19\" width=\"112\" height=\"30\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"336\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">3. Desain</text>\n          <path d=\"M394 34 L408 34\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"410\" y=\"19\" width=\"112\" height=\"30\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"466\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">4. Implementasi</text>\n          <path d=\"M524 34 L538 34\" stroke=\"#24292f\" stroke-width=\"1.8\"/>\n          <rect x=\"540\" y=\"19\" width=\"120\" height=\"30\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"600\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">5. Review/Evaluasi</text>\n\n          <rect x=\"10\" y=\"68\" width=\"660\" height=\"40\" rx=\"8\" fill=\"#faf9f5\" stroke=\"#24292f\" stroke-width=\"1.5\"/>\n          <rect x=\"24\" y=\"75\" width=\"150\" height=\"26\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#24292f\"/><text x=\"99\" y=\"92\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">MS Access (UI/Form)</text>\n          <path d=\"M176 88 L220 88\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"222\" y=\"75\" width=\"236\" height=\"26\" rx=\"5\" fill=\"#fef08a\" stroke=\"#24292f\"/><text x=\"340\" y=\"92\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">MySQL Connector + Visual C++</text>\n          <path d=\"M460 88 L504 88\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"506\" y=\"75\" width=\"150\" height=\"26\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"581\" y=\"92\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">MySQL / MariaDB Server</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Atas: Siklus pengembangan aplikasi basis data 5 tahap dari perencanaan hingga evaluasi. Bawah: Integrasi <em>MS Access</em> sebagai antarmuka pengguna dengan server <em>MySQL/MariaDB</em> melalui driver <strong>MySQL Connector + Visual C++</strong>.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 8</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Data Independence (Physical &amp; Logical)</span>\n          <span class=\"kw-chip\">Model 3 Tahap vs 5 Tahap</span>\n          <span class=\"kw-chip\">MySQL Connector + Visual C++</span>\n          <span class=\"kw-chip\">Switchboard · Form · Report</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> <em>Logical data independence</em> = ubah skema logis tanpa ubah program aplikasi; <em>Physical</em> = ubah penyimpanan fisik tanpa ubah skema logis.</p>\n      </div>\n    </section>",
+      "text": "MODUL 8 Pengembangan Aplikasi Basis Data & Integrasi Access–MySQL KB 1: 7 Kriteria DBMS & Siklus Pengembangan 7 Kriteria DBMS: Physical & Logical data independence , akses & pencarian cepat, standarisasi, high-level interface , integrity control , fast recovery , dan automatic organization . Model 3 Tahap: Analisis → Desain/Perancangan → Implementasi. Model 5 Tahap: Perencanaan → Analisis → Desain → Implementasi → Penggunaan/Review/Evaluasi. KB 2: Integrasi MS Access + MySQL Konektor Wajib: Membutuhkan MySQL Connector/ODBC 8.0 (ANSI/Unicode Driver) + Microsoft Visual C++ Redistributable . 5 Objek Utama MS Access: Form (input), Form Navigasi , Query , Report (cetak laporan), dan Switchboard (menu utama). Organisasi Berkas & Metode Akses Definisi: Organisasi berkas = organisasi basis data (metode penyimpanan & metode akses pada media penyimpanan sekunder untuk sistem multi-user ). Sequential Access Memory: Pembacaan data berurutan dari awal (contoh: magnetic tape ). Random Access Memory: Pembacaan data langsung ke alamat tujuan tanpa urut (contoh: RAM & disk ). Detail Kecil Wajib Tahu — Modul 8 (Siklus & Access) Model 3 Tahap vs 5 Tahap: Pada 3 tahap, studi kelayakan masuk di tahap Analisis dan konversi sistem di Implementasi . Pada 5 tahap, studi kelayakan masuk di Perencanaan (awal) dan konversi/evaluasi di Penggunaan/Review/Evaluasi (akhir). Analisis Kelayakan: Wajib memperhitungkan analisis kelayakan & analisis biaya–manfaat alternatif desain sistem basis data. Model Siklus Aplikasi 5 Tahap & Bridge MS Access–MySQL (Modul 8) 1. Perencanaan 2. Analisis 3. Desain 4. Implementasi 5. Review/Evaluasi MS Access (UI/Form) MySQL Connector + Visual C++ MySQL / MariaDB Server Penjelasan Diagram: Atas: Siklus pengembangan aplikasi basis data 5 tahap dari perencanaan hingga evaluasi. Bawah: Integrasi MS Access sebagai antarmuka pengguna dengan server MySQL/MariaDB melalui driver MySQL Connector + Visual C++ . 🔑 Kata Kunci Wajib Ingat — Modul 8 Data Independence (Physical & Logical) Model 3 Tahap vs 5 Tahap MySQL Connector + Visual C++ Switchboard · Form · Report Poin Ujian: Logical data independence = ubah skema logis tanpa ubah program aplikasi; Physical = ubah penyimpanan fisik tanpa ubah skema logis."
+    },
+    {
+      "id": "m9",
+      "title": "Praktikum Transaksi (TCL), Trigger & Replikasi VirtualBox",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#4f46e5;\">MODUL 9</span>\n        <h2 class=\"mod-title\">Praktikum Transaksi (TCL), Trigger &amp; Replikasi VirtualBox</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h4>KB 1 &amp; 2: Transaksi (TCL) &amp; Trigger</h4>\n          <ul class=\"neat\">\n            <li><strong>TCL (Transaction Control Language):</strong> <code>COMMIT</code> (simpan permanen), <code>ROLLBACK</code> (batalkan ke awal/savepoint), <code>SAVEPOINT</code>, dan <code>CHECKPOINT</code> (titik simpan terakhir).</li>\n            <li><strong>TRIGGER:</strong> Program otomatis yang dieksekusi saat event tabel terjadi: waktu (<code>BEFORE / AFTER</code>) + aksi (<code>INSERT / UPDATE / DELETE</code>).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h4>KB 3: Praktikum Replikasi 1 Arah VirtualBox</h4>\n          <ul class=\"neat\">\n            <li><strong>Arsitektur Master–Slave:</strong> Komputer 1 (<strong>Windows: Master</strong>) mereplikasi data 1 arah ke Komputer 2 (<strong>Ubuntu: Slave</strong>) memakai XAMPP + MySQL (melalui binary log / <code>binlog</code>).</li>\n          </ul>\n        </div>\n      </div>\n      <pre class=\"code-box\">-- Contoh Trigger &amp; Transaksi (Modul 9):\nSTART TRANSACTION;\nUPDATE rekening SET saldo = saldo - 100000 WHERE id = 1;\nSAVEPOINT titik_aman;\nROLLBACK TO titik_aman;\nCOMMIT;\n\nCREATE TRIGGER log_insert_mhs AFTER INSERT ON mahasiswa\nFOR EACH ROW INSERT INTO log_aktivitas(aksi, waktu) VALUES ('Tambah Mahasiswa', NOW());</pre>\n      <div class=\"grid-2\" style=\"margin-bottom:12px;\">\n        <div class=\"box\" style=\"background:#eef2ff;\">\n          <h4>Langkah Konfigurasi Replikasi Master–Slave (VirtualBox)</h4>\n          <ul class=\"neat\">\n            <li><strong>1. Master (Windows):</strong> Edit <code>my.ini</code> (set <code>server-id=1</code> &amp; <code>log_bin</code>), buat user replikasi di phpMyAdmin dengan hak <code>Replication slave</code> &amp; Host = IP Ubuntu, cek <code>SHOW MASTER STATUS;</code> (catat <code>File</code> &amp; <code>Position</code>), lalu export <code>.sql</code>.</li>\n            <li><strong>2. Slave (Ubuntu VirtualBox):</strong> Jalankan XAMPP (<code>/opt/lampp/manager-linux-x64.run</code>), ubah izin <code>sudo chmod a+rwx my.cnf</code> (set <code>server-id=2</code>), import <code>.sql</code>.</li>\n            <li><strong>3. Hubungkan Slave:</strong> Jalankan <code>CHANGE MASTER TO MASTER_HOST='...', MASTER_USER='...', MASTER_PASSWORD='...', MASTER_LOG_FILE='...', MASTER_LOG_POS=...;</code> lalu <code>START SLAVE;</code> &amp; cek <code>SHOW SLAVE STATUS;</code>.</li>\n          </ul>\n        </div>\n        <div class=\"box note-box\" style=\"background:#fffbeb;\">\n          <h4>Detail Kecil Wajib Tahu — Modul 9 (TCL &amp; Trigger)</h4>\n          <ul class=\"neat\">\n            <li><strong>Referensi <code>OLD</code> vs <code>NEW</code> di Trigger:</strong> Pada <code>INSERT</code> hanya tersedia <code>NEW</code>; pada <code>DELETE</code> hanya tersedia <code>OLD</code>; pada <code>UPDATE</code> tersedia keduanya (<code>OLD</code> nilai lama, <code>NEW</code> nilai baru).</li>\n            <li><strong><code>ROLLBACK</code> vs <code>ROLLBACK TO savepoint</code>:</strong> <code>ROLLBACK</code> membatalkan seluruh transaksi sejak <code>START TRANSACTION</code>; <code>ROLLBACK TO titik_aman</code> hanya membatalkan perintah setelah <code>SAVEPOINT titik_aman</code>.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Opsi Partisi Data Terdistribusi (Horizontal vs Vertikal) &amp; Siklus Deadlock</div>\n        <svg width=\"680\" height=\"125\" viewBox=\"0 0 680 125\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"205\" height=\"100\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"112\" y=\"30\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">Partisi Horizontal (Per Baris)</text>\n          <rect x=\"28\" y=\"40\" width=\"168\" height=\"26\" fill=\"#dbeafe\" stroke=\"#24292f\"/><text x=\"112\" y=\"57\" text-anchor=\"middle\" font-size=\"10\">Server A: Baris 1 - 1000</text>\n          <rect x=\"28\" y=\"72\" width=\"168\" height=\"26\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"112\" y=\"89\" text-anchor=\"middle\" font-size=\"10\">Server B: Baris 1001 - 2000</text>\n          <rect x=\"235\" y=\"12\" width=\"205\" height=\"100\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"337\" y=\"30\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">Partisi Vertikal (Per Kolom)</text>\n          <rect x=\"252\" y=\"40\" width=\"80\" height=\"58\" fill=\"#d1fae5\" stroke=\"#24292f\"/><text x=\"292\" y=\"72\" text-anchor=\"middle\" font-size=\"10\">Kolom A, B</text>\n          <rect x=\"338\" y=\"40\" width=\"84\" height=\"58\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"380\" y=\"72\" text-anchor=\"middle\" font-size=\"10\">Kolom A, C, D</text>\n          <rect x=\"460\" y=\"12\" width=\"210\" height=\"100\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"565\" y=\"30\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Siklus Deadlock (Saling Tunggu)</text>\n          <rect x=\"475\" y=\"50\" width=\"60\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"505\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">T1</text>\n          <rect x=\"595\" y=\"50\" width=\"60\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"625\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">T2</text>\n          <path d=\"M536 58 L594 58\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"565\" y=\"52\" text-anchor=\"middle\" font-size=\"9.5\">Tunggu R2</text>\n          <path d=\"M594 74 L536 74\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"565\" y=\"90\" text-anchor=\"middle\" font-size=\"9.5\">Tunggu R1</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> <strong>Partisi Horizontal</strong> membagi tabel berdasarkan baris ke beberapa server, <strong>Partisi Vertikal</strong> membagi berdasarkan kolom, sedangkan <strong>Deadlock</strong> terjadi saat T1 dan T2 saling menunggu resource yang sedang dikunci pihak lain.</p>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 9</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">COMMIT · ROLLBACK · SAVEPOINT</span>\n          <span class=\"kw-chip\">TRIGGER (BEFORE/AFTER + INSERT/UPDATE/DELETE)</span>\n          <span class=\"kw-chip\">Master (Win) → Slave (Ubuntu)</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Ujian:</strong> Trigger selalu memadukan waktu eksekusi (<code>BEFORE/AFTER</code>) dan event DML (<code>INSERT/UPDATE/DELETE</code>).</p>\n      </div>\n    </section>",
+      "text": "MODUL 9 Praktikum Transaksi (TCL), Trigger & Replikasi VirtualBox KB 1 & 2: Transaksi (TCL) & Trigger TCL (Transaction Control Language): COMMIT (simpan permanen), ROLLBACK (batalkan ke awal/savepoint), SAVEPOINT , dan CHECKPOINT (titik simpan terakhir). TRIGGER: Program otomatis yang dieksekusi saat event tabel terjadi: waktu ( BEFORE / AFTER ) + aksi ( INSERT / UPDATE / DELETE ). KB 3: Praktikum Replikasi 1 Arah VirtualBox Arsitektur Master–Slave: Komputer 1 ( Windows: Master ) mereplikasi data 1 arah ke Komputer 2 ( Ubuntu: Slave ) memakai XAMPP + MySQL (melalui binary log / binlog ). -- Contoh Trigger & Transaksi (Modul 9): START TRANSACTION; UPDATE rekening SET saldo = saldo - 100000 WHERE id = 1; SAVEPOINT titik_aman; ROLLBACK TO titik_aman; COMMIT; CREATE TRIGGER log_insert_mhs AFTER INSERT ON mahasiswa FOR EACH ROW INSERT INTO log_aktivitas(aksi, waktu) VALUES ('Tambah Mahasiswa', NOW()); Langkah Konfigurasi Replikasi Master–Slave (VirtualBox) 1. Master (Windows): Edit my.ini (set server-id=1 & log_bin ), buat user replikasi di phpMyAdmin dengan hak Replication slave & Host = IP Ubuntu, cek SHOW MASTER STATUS; (catat File & Position ), lalu export .sql . 2. Slave (Ubuntu VirtualBox): Jalankan XAMPP ( /opt/lampp/manager-linux-x64.run ), ubah izin sudo chmod a+rwx my.cnf (set server-id=2 ), import .sql . 3. Hubungkan Slave: Jalankan CHANGE MASTER TO MASTER_HOST='...', MASTER_USER='...', MASTER_PASSWORD='...', MASTER_LOG_FILE='...', MASTER_LOG_POS=...; lalu START SLAVE; & cek SHOW SLAVE STATUS; . Detail Kecil Wajib Tahu — Modul 9 (TCL & Trigger) Referensi OLD vs NEW di Trigger: Pada INSERT hanya tersedia NEW ; pada DELETE hanya tersedia OLD ; pada UPDATE tersedia keduanya ( OLD nilai lama, NEW nilai baru). ROLLBACK vs ROLLBACK TO savepoint : ROLLBACK membatalkan seluruh transaksi sejak START TRANSACTION ; ROLLBACK TO titik_aman hanya membatalkan perintah setelah SAVEPOINT titik_aman . Opsi Partisi Data Terdistribusi (Horizontal vs Vertikal) & Siklus Deadlock Partisi Horizontal (Per Baris) Server A: Baris 1 - 1000 Server B: Baris 1001 - 2000 Partisi Vertikal (Per Kolom) Kolom A, B Kolom A, C, D Siklus Deadlock (Saling Tunggu) T1 T2 Tunggu R2 Tunggu R1 Penjelasan Diagram: Partisi Horizontal membagi tabel berdasarkan baris ke beberapa server, Partisi Vertikal membagi berdasarkan kolom, sedangkan Deadlock terjadi saat T1 dan T2 saling menunggu resource yang sedang dikunci pihak lain. 🔑 Kata Kunci Wajib Ingat — Modul 9 COMMIT · ROLLBACK · SAVEPOINT TRIGGER (BEFORE/AFTER + INSERT/UPDATE/DELETE) Master (Win) → Slave (Ubuntu) Poin Ujian: Trigger selalu memadukan waktu eksekusi ( BEFORE/AFTER ) dan event DML ( INSERT/UPDATE/DELETE )."
+    },
+    {
+      "id": "ahli",
+      "title": "Definisi Ahli & Tokoh Kunci dalam BMP MSIM4206",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI</span>\n        <h2 class=\"mod-title\">Definisi Ahli &amp; Tokoh Kunci dalam BMP MSIM4206</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>James Martin (1975) dalam Edhy Sutanta (2004):</strong> Basis data adalah koleksi data saling berhubungan tanpa redundansi berbahaya/tak perlu untuk melayani aplikasi secara optimal, independen dari program, dengan pendekatan terkontrol.</li>\n            <li><strong>Fathansyah (2015):</strong> Basis data adalah kumpulan file, tabel, atau arsip yang saling berhubungan dan disimpan dalam satu media penyimpanan elektronik (Tabel sebagai komponen utama).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <ul class=\"neat\">\n            <li><strong>C. J. Date:</strong> DBMS adalah sebuah aplikasi yang dapat menangani akses pengguna kepada basis data.</li>\n            <li><strong>E. F. Codd (1972):</strong> Pencetus model relasional dan proses <strong>Normalisasi</strong> untuk menghilangkan anomali.</li>\n            <li><strong>Peter Chen (1976):</strong> Pencetus <strong>Entity-Relationship (ER) Model</strong> sebagai pemodelan konseptual berbasis entitas, atribut, dan relasi.</li>\n            <li><strong>Michael \"Monty\" Widenius:</strong> Pencipta MySQL sekaligus pendiri <strong>MariaDB</strong> (fork open-source setelah MySQL diakuisisi Oracle).</li>\n            <li><strong>Octaviani (2010):</strong> Manipulasi data (DML) mencakup 4 hal: pengambilan info, penempatan baru, penghapusan, dan modifikasi.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu (Connolly &amp; Begg; Silberschatz; Elmasri)</h4>\n        <ul class=\"neat\">\n          <li><strong>Arsitektur 3-Level ANSI-SPARC (Connolly &amp; Begg):</strong> (1) <em>External Level</em> (view masing-masing user), (2) <em>Conceptual Level</em> (skema logis seluruh organisasi), (3) <em>Internal Level</em> (penyimpanan fisik &amp; indeks di disk). Pemisahan ini melahirkan <strong>Logical &amp; Physical Data Independence</strong>.</li>\n          <li><strong>Detail SQL Penting (Silberschatz):</strong> <code>DELETE</code> menghapus baris (bisa di-<em>rollback</em>, memicu trigger), <code>TRUNCATE</code> mengosongkan tabel cepat (reset auto-increment, DDL), sedangkan <code>DROP</code> menghapus tabel beserta strukturnya. Urutan evaluasi query SQL: <code>FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY</code>.</li>\n          <li><strong>Jebakan Normalisasi (Elmasri &amp; Navathe):</strong> Tabel dengan 1 kolom Primary Key (bukan komposit) otomatis sudah memenuhi <strong>2NF</strong> jika sudah 1NF! Pelanggaran 2NF hanya terjadi jika ada <em>Composite Key</em> dan atribut non-key bergantung pada sebagian PK saja.</li>\n          <li><strong>Primary Key vs Unique Key:</strong> Dalam 1 tabel hanya boleh ada <strong>1 Primary Key</strong> dan tidak boleh bernilai <code>NULL</code>, sedangkan <code>UNIQUE</code> boleh lebih dari 1 kolom dan mengizinkan nilai <code>NULL</code>.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Arsitektur 3-Level ANSI-SPARC &amp; Data Independence (Connolly &amp; Begg)</div>\n        <svg width=\"680\" height=\"122\" viewBox=\"0 0 680 122\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"205\" height=\"102\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"112\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">1. External (View User)</text>\n          <rect x=\"24\" y=\"40\" width=\"84\" height=\"28\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"66\" y=\"58\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">View A</text>\n          <rect x=\"116\" y=\"40\" width=\"84\" height=\"28\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"158\" y=\"58\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">View B</text>\n          <text x=\"112\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Logical Data Indep.</text>\n\n          <path d=\"M218 61 L234 61\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"236\" y=\"10\" width=\"205\" height=\"102\" rx=\"8\" fill=\"#fef9c3\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"338\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">2. Conceptual (Skema)</text>\n          <rect x=\"256\" y=\"40\" width=\"165\" height=\"28\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"338\" y=\"58\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Entitas, Atribut &amp; Relasi</text>\n          <text x=\"338\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Physical Data Indep.</text>\n\n          <path d=\"M444 61 L460 61\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"462\" y=\"10\" width=\"208\" height=\"102\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"566\" y=\"28\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3. Internal (Fisik Disk)</text>\n          <rect x=\"482\" y=\"40\" width=\"168\" height=\"28\" rx=\"5\" fill=\"#ffffff\" stroke=\"#24292f\"/><text x=\"566\" y=\"58\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">File, Blok &amp; B-Tree Index</text>\n          <text x=\"566\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Optimasi Storage</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Arsitektur 3-Level ANSI-SPARC memisahkan tampilan pengguna (<em>External</em>), struktur logis tabel (<em>Conceptual</em>), dan penyimpanan fisik (<em>Internal</em>) sehingga perubahan di satu level tidak merusak aplikasi di atasnya.</p>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Contoh Konkret Pemecahan Tabel saat Normalisasi (1NF → 2NF → 3NF)</div>\n        <svg width=\"680\" height=\"114\" viewBox=\"0 0 680 114\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"10\" width=\"205\" height=\"94\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n          <text x=\"112\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">1NF (1 Tabel Campur)</text>\n          <text x=\"112\" y=\"48\" text-anchor=\"middle\" font-size=\"9\">PK: (NIM, KodeMK)</text>\n          <text x=\"112\" y=\"65\" text-anchor=\"middle\" font-size=\"9\">NamaMhs, NamaMK, Nilai</text>\n          <text x=\"112\" y=\"86\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Masih ada partial dep.!</text>\n\n          <path d=\"M218 57 L234 57\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"236\" y=\"10\" width=\"205\" height=\"94\" rx=\"8\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"338\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">2NF (Pisah Entitas)</text>\n          <text x=\"338\" y=\"48\" text-anchor=\"middle\" font-size=\"9\">Mhs(NIM, Nama, KdProdi)</text>\n          <text x=\"338\" y=\"65\" text-anchor=\"middle\" font-size=\"9\">Nilai(NIM, KodeMK, Nilai)</text>\n          <text x=\"338\" y=\"86\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Cek transitif: KdProdi→Prodi</text>\n\n          <path d=\"M444 57 L460 57\" stroke=\"#24292f\" stroke-width=\"2\"/>\n          <rect x=\"462\" y=\"10\" width=\"208\" height=\"94\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"566\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"800\">3NF (Bebas Transitif)</text>\n          <text x=\"566\" y=\"48\" text-anchor=\"middle\" font-size=\"9\">Mhs(NIM, Nama, KdProdi)</text>\n          <text x=\"566\" y=\"65\" text-anchor=\"middle\" font-size=\"9\">Prodi(KdProdi, NamaProdi)</text>\n          <text x=\"566\" y=\"86\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Semua non-key → PK penuh!</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Pada 2NF, <code>NamaMhs</code> dipisah karena hanya bergantung pada <code>NIM</code> (bukan <code>KodeMK</code>). Pada 3NF, <code>NamaProdi</code> dipisah ke tabel <code>Prodi</code> karena bergantung transitif lewat <code>KdProdi</code>.</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI Definisi Ahli & Tokoh Kunci dalam BMP MSIM4206 James Martin (1975) dalam Edhy Sutanta (2004): Basis data adalah koleksi data saling berhubungan tanpa redundansi berbahaya/tak perlu untuk melayani aplikasi secara optimal, independen dari program, dengan pendekatan terkontrol. Fathansyah (2015): Basis data adalah kumpulan file, tabel, atau arsip yang saling berhubungan dan disimpan dalam satu media penyimpanan elektronik (Tabel sebagai komponen utama). C. J. Date: DBMS adalah sebuah aplikasi yang dapat menangani akses pengguna kepada basis data. E. F. Codd (1972): Pencetus model relasional dan proses Normalisasi untuk menghilangkan anomali. Peter Chen (1976): Pencetus Entity-Relationship (ER) Model sebagai pemodelan konseptual berbasis entitas, atribut, dan relasi. Michael \"Monty\" Widenius: Pencipta MySQL sekaligus pendiri MariaDB (fork open-source setelah MySQL diakuisisi Oracle). Octaviani (2010): Manipulasi data (DML) mencakup 4 hal: pengambilan info, penempatan baru, penghapusan, dan modifikasi. 📚 Referensi Tambahan & Detail Kecil Wajib Tahu (Connolly & Begg; Silberschatz; Elmasri) Arsitektur 3-Level ANSI-SPARC (Connolly & Begg): (1) External Level (view masing-masing user), (2) Conceptual Level (skema logis seluruh organisasi), (3) Internal Level (penyimpanan fisik & indeks di disk). Pemisahan ini melahirkan Logical & Physical Data Independence . Detail SQL Penting (Silberschatz): DELETE menghapus baris (bisa di- rollback , memicu trigger), TRUNCATE mengosongkan tabel cepat (reset auto-increment, DDL), sedangkan DROP menghapus tabel beserta strukturnya. Urutan evaluasi query SQL: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY . Jebakan Normalisasi (Elmasri & Navathe): Tabel dengan 1 kolom Primary Key (bukan komposit) otomatis sudah memenuhi 2NF jika sudah 1NF! Pelanggaran 2NF hanya terjadi jika ada Composite Key dan atribut non-key bergantung pada sebagian PK saja. Primary Key vs Unique Key: Dalam 1 tabel hanya boleh ada 1 Primary Key dan tidak boleh bernilai NULL , sedangkan UNIQUE boleh lebih dari 1 kolom dan mengizinkan nilai NULL . Arsitektur 3-Level ANSI-SPARC & Data Independence (Connolly & Begg) 1. External (View User) View A View B Logical Data Indep. 2. Conceptual (Skema) Entitas, Atribut & Relasi Physical Data Indep. 3. Internal (Fisik Disk) File, Blok & B-Tree Index Optimasi Storage Penjelasan Diagram: Arsitektur 3-Level ANSI-SPARC memisahkan tampilan pengguna ( External ), struktur logis tabel ( Conceptual ), dan penyimpanan fisik ( Internal ) sehingga perubahan di satu level tidak merusak aplikasi di atasnya. Contoh Konkret Pemecahan Tabel saat Normalisasi (1NF → 2NF → 3NF) 1NF (1 Tabel Campur) PK: (NIM, KodeMK) NamaMhs, NamaMK, Nilai Masih ada partial dep.! 2NF (Pisah Entitas) Mhs(NIM, Nama, KdProdi) Nilai(NIM, KodeMK, Nilai) Cek transitif: KdProdi→Prodi 3NF (Bebas Transitif) Mhs(NIM, Nama, KdProdi) Prodi(KdProdi, NamaProdi) Semua non-key → PK penuh! Penjelasan Diagram: Pada 2NF, NamaMhs dipisah karena hanya bergantung pada NIM (bukan KodeMK ). Pada 3NF, NamaProdi dipisah ke tabel Prodi karena bergantung transitif lewat KdProdi ."
+    },
+    {
+      "id": "glos",
+      "title": "Istilah Kunci yang Sering Muncul di Soal Ujian",
+      "html": "<section class=\"mod-card\" id=\"glos\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#0f766e;\">GLOSARIUM</span>\n        <h2 class=\"mod-title\">Istilah Kunci yang Sering Muncul di Soal Ujian</h2>\n      </div>\n      <div class=\"grid-3\">\n        <div class=\"box\"><strong>DBA (Database Administrator):</strong> Pengelola &amp; penanggung jawab keamanan, integritas, dan performa basis data.</div>\n        <div class=\"box\"><strong>ERD:</strong> Diagram konseptual yang memodelkan entitas, atribut, dan relasi dalam basis data.</div>\n        <div class=\"box\"><strong>Alternate Key:</strong> Candidate Key yang tidak terpilih menjadi Primary Key.</div>\n        <div class=\"box\"><strong>Serializability:</strong> Jaminan hasil eksekusi transaksi bersamaan sama seperti eksekusi berurutan.</div>\n        <div class=\"box\"><strong>2PL (Two-Phase Locking):</strong> Protokol penguncian dengan fase tumbuh (acquire) dan fase susut (release).</div>\n        <div class=\"box\"><strong>Master–Slave Replication:</strong> Replikasi satu arah dari server utama (Master) ke server salinan (Slave).</div>\n      </div>\n    </section>",
+      "text": "GLOSARIUM Istilah Kunci yang Sering Muncul di Soal Ujian DBA (Database Administrator): Pengelola & penanggung jawab keamanan, integritas, dan performa basis data. ERD: Diagram konseptual yang memodelkan entitas, atribut, dan relasi dalam basis data. Alternate Key: Candidate Key yang tidak terpilih menjadi Primary Key. Serializability: Jaminan hasil eksekusi transaksi bersamaan sama seperti eksekusi berurutan. 2PL (Two-Phase Locking): Protokol penguncian dengan fase tumbuh (acquire) dan fase susut (release). Master–Slave Replication: Replikasi satu arah dari server utama (Master) ke server salinan (Slave)."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Koleksi terpadu dari data yang saling berkaitan untuk memenuhi kebutuhan informasi organisasi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DBMS"
+        },
+        {
+          "letter": "B",
+          "text": "Basis Data"
+        },
+        {
+          "letter": "C",
+          "text": "Record"
+        },
+        {
+          "letter": "D",
+          "text": "File"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Urutan tingkatan data dari yang terkecil hingga terbesar adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Field-Character-Record-Table"
+        },
+        {
+          "letter": "B",
+          "text": "Character-Record-Field-Table"
+        },
+        {
+          "letter": "C",
+          "text": "Character-Field-Record-Table"
+        },
+        {
+          "letter": "D",
+          "text": "Record-Field-Character-Table"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Kumpulan data value dari beberapa atribut yang menjelaskan satu entitas secara lengkap disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Field"
+        },
+        {
+          "letter": "B",
+          "text": "Character"
+        },
+        {
+          "letter": "C",
+          "text": "Record/Tuple"
+        },
+        {
+          "letter": "D",
+          "text": "Attribute"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Tujuan basis data untuk memilah data master, transaksi, histori hingga data kedaluwarsa adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Completeness"
+        },
+        {
+          "letter": "B",
+          "text": "Availability"
+        },
+        {
+          "letter": "C",
+          "text": "Shareability"
+        },
+        {
+          "letter": "D",
+          "text": "Accuracy"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Berikut termasuk kekurangan sistem basis data, kecuali...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biaya mahal"
+        },
+        {
+          "letter": "B",
+          "text": "Rumit"
+        },
+        {
+          "letter": "C",
+          "text": "Tambahan biaya konversi"
+        },
+        {
+          "letter": "D",
+          "text": "Kerangkapan data minimal"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Itu kelebihan",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-6] Sifat tabel relasional di bawah ini benar, kecuali...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tidak boleh ada record kembar"
+        },
+        {
+          "letter": "B",
+          "text": "Nama field harus unik"
+        },
+        {
+          "letter": "C",
+          "text": "Urutan record harus selalu tetap"
+        },
+        {
+          "letter": "D",
+          "text": "Field punya tipe data"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1-7] Menghapus kotak arsip lama beserta isinya dalam operasi basis data identik dengan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DROP DATABASE"
+        },
+        {
+          "letter": "B",
+          "text": "DROP TABLE"
+        },
+        {
+          "letter": "C",
+          "text": "DELETE"
+        },
+        {
+          "letter": "D",
+          "text": "CREATE TABLE"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 7
+    },
+    {
+      "module": "M1",
+      "question": "[M1-8] Dalam sistem basis data tradisional, entity atau table disebut juga dengan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tuple"
+        },
+        {
+          "letter": "B",
+          "text": "Attribute"
+        },
+        {
+          "letter": "C",
+          "text": "File"
+        },
+        {
+          "letter": "D",
+          "text": "Character"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 8
+    },
+    {
+      "module": "M2",
+      "question": "[M2-9] Model data yang termasuk dalam kelompok Object-Based Data Model adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hierarchical"
+        },
+        {
+          "letter": "B",
+          "text": "Network"
+        },
+        {
+          "letter": "C",
+          "text": "Entity Relationship Model"
+        },
+        {
+          "letter": "D",
+          "text": "Frame Memory"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-10] Relational, Hierarchical, dan Network Model termasuk dalam kelompok...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Object-based"
+        },
+        {
+          "letter": "B",
+          "text": "Record-based"
+        },
+        {
+          "letter": "C",
+          "text": "Physical-based"
+        },
+        {
+          "letter": "D",
+          "text": "Semantic-based"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 10
+    },
+    {
+      "module": "M2",
+      "question": "[M2-11] Atribut yang dapat dipecah menjadi atribut-atribut lain (mis. Alamat menjadi Jalan, Kota, Kode Pos) disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Simple Attribute"
+        },
+        {
+          "letter": "B",
+          "text": "Composite Attribute"
+        },
+        {
+          "letter": "C",
+          "text": "Multi Value"
+        },
+        {
+          "letter": "D",
+          "text": "Mandatory"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 11
+    },
+    {
+      "module": "M2",
+      "question": "[M2-12] Atribut pada tabel yang wajib bernilai dan tidak boleh kosong (Not Null) disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mandatory Attribute"
+        },
+        {
+          "letter": "B",
+          "text": "Non-Mandatory"
+        },
+        {
+          "letter": "C",
+          "text": "Multi Value"
+        },
+        {
+          "letter": "D",
+          "text": "Composite"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 12
+    },
+    {
+      "module": "M2",
+      "question": "[M2-13] Atribut yang boleh memiliki lebih dari satu nilai (mis. Hobi) disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Single Value"
+        },
+        {
+          "letter": "B",
+          "text": "Multi Value Attribute"
+        },
+        {
+          "letter": "C",
+          "text": "Simple"
+        },
+        {
+          "letter": "D",
+          "text": "Mandatory"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 13
+    },
+    {
+      "module": "M2",
+      "question": "[M2-14] Aturan penamaan simbol Relasi (belah ketupat) dalam ERD menggunakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kata benda jamak"
+        },
+        {
+          "letter": "B",
+          "text": "Kata kerja aktif (awalan me-) tunggal"
+        },
+        {
+          "letter": "C",
+          "text": "Kata sifat"
+        },
+        {
+          "letter": "D",
+          "text": "Angka"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 14
+    },
+    {
+      "module": "M2",
+      "question": "[M2-15] Dalam Tabel 2.6 istilah RDBM, jumlah atribut dalam sebuah relasi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kardinalitas"
+        },
+        {
+          "letter": "B",
+          "text": "Derajat (Degree/Arity)"
+        },
+        {
+          "letter": "C",
+          "text": "Tuple"
+        },
+        {
+          "letter": "D",
+          "text": "Domain"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 15
+    },
+    {
+      "module": "M2",
+      "question": "[M2-16] Bagian dari Candidate Key yang tidak dipilih sebagai Primary Key disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Foreign Key"
+        },
+        {
+          "letter": "B",
+          "text": "Alternate Key (AK)"
+        },
+        {
+          "letter": "C",
+          "text": "Super Key"
+        },
+        {
+          "letter": "D",
+          "text": "Composite Key"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 16
+    },
+    {
+      "module": "M3",
+      "question": "[M3-17] Tahapan pertama dalam pembuatan ERD adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menentukan foreign key"
+        },
+        {
+          "letter": "B",
+          "text": "Mengidentifikasi seluruh entity"
+        },
+        {
+          "letter": "C",
+          "text": "Derajat relasi"
+        },
+        {
+          "letter": "D",
+          "text": "Atribut non-key"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 17
+    },
+    {
+      "module": "M3",
+      "question": "[M3-18] Tahap ke-2 dalam pembuatan ERD adalah menentukan atribut beserta...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Foreign key"
+        },
+        {
+          "letter": "B",
+          "text": "Primary key (key-nya)"
+        },
+        {
+          "letter": "C",
+          "text": "Kardinalitas"
+        },
+        {
+          "letter": "D",
+          "text": "Atribut deskriptif"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 18
+    },
+    {
+      "module": "M3",
+      "question": "[M3-19] Tahap ke-3 dalam pembuatan ERD adalah menetapkan himpunan relasi beserta...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary key"
+        },
+        {
+          "letter": "B",
+          "text": "Foreign key"
+        },
+        {
+          "letter": "C",
+          "text": "Tipe data"
+        },
+        {
+          "letter": "D",
+          "text": "Indeks"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 19
+    },
+    {
+      "module": "M3",
+      "question": "[M3-20] Tahap terakhir (ke-5) pembuatan ERD adalah melengkapi entitas dan relasi dengan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atribut deskriptif (non-key)"
+        },
+        {
+          "letter": "B",
+          "text": "Primary key"
+        },
+        {
+          "letter": "C",
+          "text": "Derajat relasi"
+        },
+        {
+          "letter": "D",
+          "text": "Entity baru"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 20
+    },
+    {
+      "module": "M3",
+      "question": "[M3-21] Aplikasi yang digunakan pada praktikum Modul 3 untuk menggambar ERD adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "XAMPP"
+        },
+        {
+          "letter": "B",
+          "text": "VirtualBox"
+        },
+        {
+          "letter": "C",
+          "text": "yEd Graph Editor"
+        },
+        {
+          "letter": "D",
+          "text": "phpMyAdmin"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 21
+    },
+    {
+      "module": "M3",
+      "question": "[M3-22] Perbedaan fungsi fitur menu antara yEd desktop dan yEd Live berbasis web adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Desktop lebih lengkap"
+        },
+        {
+          "letter": "B",
+          "text": "Web terbatas"
+        },
+        {
+          "letter": "C",
+          "text": "Fungsinya sama"
+        },
+        {
+          "letter": "D",
+          "text": "Web hanya view"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 22
+    },
+    {
+      "module": "M3",
+      "question": "[M3-23] Atribut yang menjadi PK di tabel induk dan dipakai sebagai penghubung di tabel lain disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alternate Key"
+        },
+        {
+          "letter": "B",
+          "text": "Candidate Key"
+        },
+        {
+          "letter": "C",
+          "text": "Foreign Key"
+        },
+        {
+          "letter": "D",
+          "text": "Super Key"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 23
+    },
+    {
+      "module": "M3",
+      "question": "[M3-24] Relasi yang tersusun oleh tiga entitas/atribut disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unary"
+        },
+        {
+          "letter": "B",
+          "text": "Binary"
+        },
+        {
+          "letter": "C",
+          "text": "Ternary Relation"
+        },
+        {
+          "letter": "D",
+          "text": "Single"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 24
+    },
+    {
+      "module": "M4",
+      "question": "[M4-25] Proses normalisasi basis data pertama kali diperkenalkan pada tahun 1972 oleh...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "E.F. Codd"
+        },
+        {
+          "letter": "B",
+          "text": "Peter Chen"
+        },
+        {
+          "letter": "C",
+          "text": "Bill Gates"
+        },
+        {
+          "letter": "D",
+          "text": "Lesikar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 25
+    },
+    {
+      "module": "M4",
+      "question": "[M4-26] Efek samping tidak diharapkan saat memanipulasi data yang tidak normal disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Integritas"
+        },
+        {
+          "letter": "B",
+          "text": "Anomali"
+        },
+        {
+          "letter": "C",
+          "text": "Serializability"
+        },
+        {
+          "letter": "D",
+          "text": "Deadlock"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 26
+    },
+    {
+      "module": "M4",
+      "question": "[M4-27] Hilangnya informasi penting lain secara tidak sengaja saat menghapus suatu record disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Insertion anomaly"
+        },
+        {
+          "letter": "B",
+          "text": "Update anomaly"
+        },
+        {
+          "letter": "C",
+          "text": "Delete anomaly"
+        },
+        {
+          "letter": "D",
+          "text": "Redundancy"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 27
+    },
+    {
+      "module": "M4",
+      "question": "[M4-28] Contoh Tabel 4.1 di mana cabang Jakarta punya dua nomor telepon berbeda merupakan contoh...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Update/inkonsistensi anomaly"
+        },
+        {
+          "letter": "B",
+          "text": "Delete anomaly"
+        },
+        {
+          "letter": "C",
+          "text": "Deadlock"
+        },
+        {
+          "letter": "D",
+          "text": "Rollback"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 28
+    },
+    {
+      "module": "M4",
+      "question": "[M4-29] Tahapan normalisasi yang umumnya dianggap sudah optimal adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1NF saja"
+        },
+        {
+          "letter": "B",
+          "text": "1NF-2NF"
+        },
+        {
+          "letter": "C",
+          "text": "Unnormalized-1NF-2NF-3NF"
+        },
+        {
+          "letter": "D",
+          "text": "DKNF saja"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 29
+    },
+    {
+      "module": "M4",
+      "question": "[M4-30] Syarat utama bentuk Normal Kedua (2NF) adalah 1NF dan semua atribut non-key...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boleh NULL"
+        },
+        {
+          "letter": "B",
+          "text": "Bergantung penuh pada Primary Key"
+        },
+        {
+          "letter": "C",
+          "text": "Bernilai ganda"
+        },
+        {
+          "letter": "D",
+          "text": "Transitif"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 30
+    },
+    {
+      "module": "M4",
+      "question": "[M4-31] Atribut yang nilainya diperoleh dari hasil olahan atribut lain pada denormalisasi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atribut turunan"
+        },
+        {
+          "letter": "B",
+          "text": "Atribut berlebihan"
+        },
+        {
+          "letter": "C",
+          "text": "Tabel rekapitulasi"
+        },
+        {
+          "letter": "D",
+          "text": "Foreign key"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 31
+    },
+    {
+      "module": "M4",
+      "question": "[M4-32] Atribut yang menyatakan lebih dari satu fakta melanggar aturan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1NF"
+        },
+        {
+          "letter": "B",
+          "text": "2NF"
+        },
+        {
+          "letter": "C",
+          "text": "3NF"
+        },
+        {
+          "letter": "D",
+          "text": "BCNF"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 32
+    },
+    {
+      "module": "M5",
+      "question": "[M5-33] SQL dikelompokkan menjadi 3 jenis, yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DDL, DML, DCL"
+        },
+        {
+          "letter": "B",
+          "text": "ERD, SQL, PHP"
+        },
+        {
+          "letter": "C",
+          "text": "1NF, 2NF, 3NF"
+        },
+        {
+          "letter": "D",
+          "text": "Input, Process, Output"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 33
+    },
+    {
+      "module": "M5",
+      "question": "[M5-34] Perintah SQL yang termasuk Data Definition Language (DDL) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SELECT, INSERT"
+        },
+        {
+          "letter": "B",
+          "text": "CREATE, ALTER, DROP"
+        },
+        {
+          "letter": "C",
+          "text": "GRANT, REVOKE"
+        },
+        {
+          "letter": "D",
+          "text": "COMMIT, ROLLBACK"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 34
+    },
+    {
+      "module": "M5",
+      "question": "[M5-35] Perintah untuk menambahkan Foreign Key pada tabel yang sudah ada menggunakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "INSERT INTO"
+        },
+        {
+          "letter": "B",
+          "text": "ALTER TABLE ... ADD FOREIGN KEY"
+        },
+        {
+          "letter": "C",
+          "text": "UPDATE TABLE"
+        },
+        {
+          "letter": "D",
+          "text": "CREATE INDEX"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 35
+    },
+    {
+      "module": "M5",
+      "question": "[M5-36] Fungsi DML untuk mengurutkan hasil query SELECT berdasarkan kolom tertentu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GROUP BY"
+        },
+        {
+          "letter": "B",
+          "text": "LIKE"
+        },
+        {
+          "letter": "C",
+          "text": "ORDER BY"
+        },
+        {
+          "letter": "D",
+          "text": "WHERE"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 36
+    },
+    {
+      "module": "M5",
+      "question": "[M5-37] Operator DML yang digunakan untuk pencarian pola teks tertentu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BETWEEN"
+        },
+        {
+          "letter": "B",
+          "text": "LIKE"
+        },
+        {
+          "letter": "C",
+          "text": "ALTER"
+        },
+        {
+          "letter": "D",
+          "text": "DROP"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 37
+    },
+    {
+      "module": "M5",
+      "question": "[M5-38] Klausa SQL untuk mengelompokkan baris sebelum menghitung fungsi agregat (COUNT/AVG) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ORDER BY"
+        },
+        {
+          "letter": "B",
+          "text": "GROUP BY"
+        },
+        {
+          "letter": "C",
+          "text": "HAVING"
+        },
+        {
+          "letter": "D",
+          "text": "JOIN"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 38
+    },
+    {
+      "module": "M5",
+      "question": "[M5-39] Berikut bukan fungsi manipulasi data (DML) menurut Octaviani (2010), yaitu...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pengambilan info"
+        },
+        {
+          "letter": "B",
+          "text": "Penempatan info baru"
+        },
+        {
+          "letter": "C",
+          "text": "Penghapusan info"
+        },
+        {
+          "letter": "D",
+          "text": "Pembuatan tabel baru"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 39
+    },
+    {
+      "module": "M5",
+      "question": "[M5-40] Kelompok perintah SQL untuk mengatur hak akses keamanan user adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DDL"
+        },
+        {
+          "letter": "B",
+          "text": "DML"
+        },
+        {
+          "letter": "C",
+          "text": "DCL"
+        },
+        {
+          "letter": "D",
+          "text": "XML"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 40
+    },
+    {
+      "module": "M6",
+      "question": "[M6-41] Aplikasi DBMS berikut yang cocok untuk skala menengah ke atas (enterprise) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MySQL"
+        },
+        {
+          "letter": "B",
+          "text": "MariaDB"
+        },
+        {
+          "letter": "C",
+          "text": "Oracle Database"
+        },
+        {
+          "letter": "D",
+          "text": "XAMPP"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 41
+    },
+    {
+      "module": "M6",
+      "question": "[M6-42] Pengembang MySQL membuat aplikasi baru MariaDB karena...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MySQL berbayar"
+        },
+        {
+          "letter": "B",
+          "text": "MySQL diakuisisi oleh Oracle"
+        },
+        {
+          "letter": "C",
+          "text": "MySQL tidak dukung SQL"
+        },
+        {
+          "letter": "D",
+          "text": "Hanya di Linux"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 42
+    },
+    {
+      "module": "M6",
+      "question": "[M6-43] Paket aplikasi webserver yang dikembangkan oleh Apache Friends adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "VirtualBox"
+        },
+        {
+          "letter": "B",
+          "text": "yEd"
+        },
+        {
+          "letter": "C",
+          "text": "XAMPP"
+        },
+        {
+          "letter": "D",
+          "text": "Access"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 43
+    },
+    {
+      "module": "M6",
+      "question": "[M6-44] Kepanjangan huruf 'M' pada XAMPP adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MongoDB"
+        },
+        {
+          "letter": "B",
+          "text": "MariaDB/MySQL"
+        },
+        {
+          "letter": "C",
+          "text": "MS Access"
+        },
+        {
+          "letter": "D",
+          "text": "Memcached"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 44
+    },
+    {
+      "module": "M6",
+      "question": "[M6-45] Halaman web bawaan XAMPP untuk mengelola basis data secara grafis adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "yEd Live"
+        },
+        {
+          "letter": "B",
+          "text": "phpMyAdmin"
+        },
+        {
+          "letter": "C",
+          "text": "Switchboard"
+        },
+        {
+          "letter": "D",
+          "text": "VirtualBox"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 45
+    },
+    {
+      "module": "M6",
+      "question": "[M6-46] Selain lewat phpMyAdmin, perintah DDL dan DML pada XAMPP bisa dijalankan lewat...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CMD (Command Prompt)"
+        },
+        {
+          "letter": "B",
+          "text": "Paint"
+        },
+        {
+          "letter": "C",
+          "text": "Notepad"
+        },
+        {
+          "letter": "D",
+          "text": "Excel"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 46
+    },
+    {
+      "module": "M6",
+      "question": "[M6-47] DBMS open-source berikut cocok untuk skala menengah ke bawah, kecuali...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MySQL"
+        },
+        {
+          "letter": "B",
+          "text": "MariaDB"
+        },
+        {
+          "letter": "C",
+          "text": "PostgreSQL"
+        },
+        {
+          "letter": "D",
+          "text": "Oracle Database"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 47
+    },
+    {
+      "module": "M6",
+      "question": "[M6-48] Perintah SQL untuk melihat seluruh kolom dari tabel pegawai adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SELECT ALL FROM pegawai"
+        },
+        {
+          "letter": "B",
+          "text": "SELECT * FROM pegawai"
+        },
+        {
+          "letter": "C",
+          "text": "SHOW pegawai"
+        },
+        {
+          "letter": "D",
+          "text": "GET * pegawai"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 48
+    },
+    {
+      "module": "M7",
+      "question": "[M7-49] Properti ACID yang memastikan transaksi berhasil seluruhnya atau batal seluruhnya adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atomicity"
+        },
+        {
+          "letter": "B",
+          "text": "Consistency"
+        },
+        {
+          "letter": "C",
+          "text": "Isolation"
+        },
+        {
+          "letter": "D",
+          "text": "Durability"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 49
+    },
+    {
+      "module": "M7",
+      "question": "[M7-50] Properti ACID yang menjamin hasil transaksi tetap tersimpan permanen walau sistem crash adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atomicity"
+        },
+        {
+          "letter": "B",
+          "text": "Consistency"
+        },
+        {
+          "letter": "C",
+          "text": "Isolation"
+        },
+        {
+          "letter": "D",
+          "text": "Durability"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "",
+      "num": 50
+    },
+    {
+      "module": "M7",
+      "question": "[M7-51] Urutan state transaksi yang berhasil dari awal hingga akhir adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Active-Failed-Committed"
+        },
+        {
+          "letter": "B",
+          "text": "Active-Partially Committed-Committed"
+        },
+        {
+          "letter": "C",
+          "text": "Abort-Active-Committed"
+        },
+        {
+          "letter": "D",
+          "text": "Failed-Abort-Committed"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 51
+    },
+    {
+      "module": "M7",
+      "question": "[M7-52] Tiga teknik untuk mengatasi deadlock pada manajemen transaksi adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Commit, Rollback, Checkpoint"
+        },
+        {
+          "letter": "B",
+          "text": "Timeout, Deadlock Prevention, Deadlock Recovery"
+        },
+        {
+          "letter": "C",
+          "text": "1NF, 2NF, 3NF"
+        },
+        {
+          "letter": "D",
+          "text": "DDL, DML, DCL"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 52
+    },
+    {
+      "module": "M7",
+      "question": "[M7-53] Teknik concurrency control dengan protokol penguncian dua fase disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2PL (Two-Phase Locking)"
+        },
+        {
+          "letter": "B",
+          "text": "Timestamp"
+        },
+        {
+          "letter": "C",
+          "text": "Replikasi"
+        },
+        {
+          "letter": "D",
+          "text": "Partisi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 53
+    },
+    {
+      "module": "M7",
+      "question": "[M7-54] Pemecahan satu tabel berdasarkan baris ke beberapa server berbeda disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Replikasi"
+        },
+        {
+          "letter": "B",
+          "text": "Partisi horizontal"
+        },
+        {
+          "letter": "C",
+          "text": "Partisi vertikal"
+        },
+        {
+          "letter": "D",
+          "text": "Denormalisasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 54
+    },
+    {
+      "module": "M7",
+      "question": "[M7-55] Pemecahan satu tabel berdasarkan kolom/atribut ke beberapa lokasi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Replikasi"
+        },
+        {
+          "letter": "B",
+          "text": "Partisi horizontal"
+        },
+        {
+          "letter": "C",
+          "text": "Partisi vertikal"
+        },
+        {
+          "letter": "D",
+          "text": "Fragmentasi baris"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 55
+    },
+    {
+      "module": "M7",
+      "question": "[M7-56] Aplikasi mission-critical yang butuh keandalan tinggi mendorong pemilihan skema...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Partisi vertikal"
+        },
+        {
+          "letter": "B",
+          "text": "Replikasi"
+        },
+        {
+          "letter": "C",
+          "text": "Single server"
+        },
+        {
+          "letter": "D",
+          "text": "Denormalisasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 56
+    },
+    {
+      "module": "M8",
+      "question": "[M8-57] Kemampuan DBMS agar perubahan penyimpanan fisik tidak mengubah program aplikasi disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Logical data independence"
+        },
+        {
+          "letter": "B",
+          "text": "Physical data independence"
+        },
+        {
+          "letter": "C",
+          "text": "Integrity control"
+        },
+        {
+          "letter": "D",
+          "text": "Fast recovery"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 57
+    },
+    {
+      "module": "M8",
+      "question": "[M8-58] Tahapan pengembangan aplikasi model 3 tahap terdiri dari...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perencanaan, Desain, Evaluasi"
+        },
+        {
+          "letter": "B",
+          "text": "Analisis, Desain/Perancangan, Implementasi"
+        },
+        {
+          "letter": "C",
+          "text": "Desain, Coding, Testing"
+        },
+        {
+          "letter": "D",
+          "text": "Analisis, Testing, Review"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 58
+    },
+    {
+      "module": "M8",
+      "question": "[M8-59] Tahap awal dan akhir pada model pengembangan aplikasi 5 tahap adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Analisis & Implementasi"
+        },
+        {
+          "letter": "B",
+          "text": "Perencanaan & Penggunaan/Evaluasi"
+        },
+        {
+          "letter": "C",
+          "text": "Desain & Implementasi"
+        },
+        {
+          "letter": "D",
+          "text": "Perencanaan & Desain"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 59
+    },
+    {
+      "module": "M8",
+      "question": "[M8-60] Komponen penghubung MySQL dengan Microsoft Access 365 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "yEd & VirtualBox"
+        },
+        {
+          "letter": "B",
+          "text": "MySQL Connector & Visual C++"
+        },
+        {
+          "letter": "C",
+          "text": "Ubuntu & Perl"
+        },
+        {
+          "letter": "D",
+          "text": "Oracle Client"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 60
+    },
+    {
+      "module": "M8",
+      "question": "[M8-61] Objek aplikasi yang dibuat di Microsoft Access (Modul 8) meliputi...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Form, Form Navigasi, Query, Report, Switchboard"
+        },
+        {
+          "letter": "B",
+          "text": "Trigger, Rollback, Commit"
+        },
+        {
+          "letter": "C",
+          "text": "1NF, 2NF, 3NF"
+        },
+        {
+          "letter": "D",
+          "text": "Master, Slave"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 61
+    },
+    {
+      "module": "M8",
+      "question": "[M8-62] Tujuan utama organisasi berkas adalah mengembangkan metode penanganan data besar secara...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Terpisah"
+        },
+        {
+          "letter": "B",
+          "text": "Cepat"
+        },
+        {
+          "letter": "C",
+          "text": "Manual"
+        },
+        {
+          "letter": "D",
+          "text": "Statis"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 62
+    },
+    {
+      "module": "M8",
+      "question": "[M8-63] Organisasi berkas diperlukan untuk sistem multi-user dan data disimpan pada...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cache CPU"
+        },
+        {
+          "letter": "B",
+          "text": "Media penyimpanan sekunder"
+        },
+        {
+          "letter": "C",
+          "text": "Register"
+        },
+        {
+          "letter": "D",
+          "text": "RAM saja"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 63
+    },
+    {
+      "module": "M8",
+      "question": "[M8-64] Istilah organisasi berkas dapat disamakan dengan istilah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Organisasi basis data"
+        },
+        {
+          "letter": "B",
+          "text": "Normalisasi"
+        },
+        {
+          "letter": "C",
+          "text": "Trigger"
+        },
+        {
+          "letter": "D",
+          "text": "Replikasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "",
+      "num": 64
+    },
+    {
+      "module": "M9",
+      "question": "[M9-65] Perintah yang menandakan transaksi telah selesai dilaksanakan dan perubahan data disimpan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ROLLBACK"
+        },
+        {
+          "letter": "B",
+          "text": "CHECKPOINT"
+        },
+        {
+          "letter": "C",
+          "text": "COMMIT"
+        },
+        {
+          "letter": "D",
+          "text": "TRIGGER"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 65
+    },
+    {
+      "module": "M9",
+      "question": "[M9-66] Perintah yang digunakan untuk menggugurkan perintah transaksi yang sedang berjalan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "COMMIT"
+        },
+        {
+          "letter": "B",
+          "text": "ROLLBACK"
+        },
+        {
+          "letter": "C",
+          "text": "CHECKPOINT"
+        },
+        {
+          "letter": "D",
+          "text": "ALTER"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 66
+    },
+    {
+      "module": "M9",
+      "question": "[M9-67] Titik tempat di mana proses atau status transaksi terakhir disimpan disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trigger"
+        },
+        {
+          "letter": "B",
+          "text": "Checkpoint"
+        },
+        {
+          "letter": "C",
+          "text": "Deadlock"
+        },
+        {
+          "letter": "D",
+          "text": "Timestamp"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 67
+    },
+    {
+      "module": "M9",
+      "question": "[M9-68] Event yang dapat digunakan pada pembuatan TRIGGER di SQL adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CREATE, ALTER, DROP"
+        },
+        {
+          "letter": "B",
+          "text": "INSERT, UPDATE, DELETE"
+        },
+        {
+          "letter": "C",
+          "text": "COMMIT, ROLLBACK"
+        },
+        {
+          "letter": "D",
+          "text": "GRANT, REVOKE"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 68
+    },
+    {
+      "module": "M9",
+      "question": "[M9-69] Jika trigger dijalankan setelah adanya perubahan data, fungsi waktu yang dipakai adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BEFORE"
+        },
+        {
+          "letter": "B",
+          "text": "DURING"
+        },
+        {
+          "letter": "C",
+          "text": "AFTER"
+        },
+        {
+          "letter": "D",
+          "text": "WHILE"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "",
+      "num": 69
+    },
+    {
+      "module": "M9",
+      "question": "[M9-70] Pada praktikum Modul 9, mesin virtual yang dipakai untuk menjalankan Linux Ubuntu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "VMware"
+        },
+        {
+          "letter": "B",
+          "text": "VirtualBox"
+        },
+        {
+          "letter": "C",
+          "text": "Docker"
+        },
+        {
+          "letter": "D",
+          "text": "Hyper-V"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 70
+    },
+    {
+      "module": "M9",
+      "question": "[M9-71] Pada praktikum replikasi, Komputer 1 (Windows) berperan sebagai Master, sedangkan Komputer 2 (Ubuntu) sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Client"
+        },
+        {
+          "letter": "B",
+          "text": "Slave"
+        },
+        {
+          "letter": "C",
+          "text": "Router"
+        },
+        {
+          "letter": "D",
+          "text": "Backup"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 71
+    },
+    {
+      "module": "M9",
+      "question": "[M9-72] Sifat replikasi pada praktikum Modul 9 adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dua arah otomatis"
+        },
+        {
+          "letter": "B",
+          "text": "Satu arah (Master ke Slave)"
+        },
+        {
+          "letter": "C",
+          "text": "Manual copy"
+        },
+        {
+          "letter": "D",
+          "text": "Slave ke Master"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "",
+      "num": 72
+    }
+  ],
+  "essayQuestions": []
+}

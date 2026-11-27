@@ -1,0 +1,2894 @@
+{
+  "slug": "rekayasa-perangkat-lunak",
+  "semester": 1,
+  "url": "/smt1/rekayasa-perangkat-lunak",
+  "canonical": "https://belajar-ut.azf.my.id/smt1/rekayasa-perangkat-lunak.html",
+  "title": "MSIM4303: Rekayasa Perangkat Lunak — Modul & Bank Soal UT",
+  "shortLabel": "Rekayasa Perangkat Lunak (MSIM4303)",
+  "h1": "MSIM4303: Rekayasa Perangkat Lunak",
+  "metaDesc": "Ringkasan lengkap 9 modul Rekayasa Perangkat Lunak (MSIM4303) UT: Pendahuluan RPL, Analisis & Desain Sistem (SRS), SDLC (Waterfall/Spiral/Prototyping), RPL Terstruktur & DFD, RPL Berorientasi Objek & UML, Metodologi Agile & Scrum, Manajemen Proyek PL, Manajemen Risiko Proyek, serta Manajemen Kualitas (SQA) + 27 Soal PG.",
+  "coverTag": "Semester 1 • BMP UT (Rosa Ariani Sukamto, Dian Nurdiana, Andri Suryadi)",
+  "coverTagColor": "#0d9488",
+  "coverDesc": "Ringkasan lengkap 9 modul Rekayasa Perangkat Lunak (MSIM4303) UT: Pendahuluan RPL, Analisis & Desain Sistem (SRS), SDLC (Waterfall/Spiral/Prototyping), RPL Terstruktur & DFD, RPL Berorientasi Objek & UML, Metodologi Agile & Scrum, Manajemen Proyek PL, Manajemen Risiko Proyek, serta Manajemen Kualitas (SQA) + 27 Soal PG.",
+  "badges": [
+    {
+      "bg": "var(--hl-mint)",
+      "text": "9 Modul + Diagram"
+    },
+    {
+      "bg": "var(--hl-blue)",
+      "text": "110 Soal PG + Pembahasan"
+    },
+    {
+      "bg": "var(--hl-yellow)",
+      "text": "Semester 1 • Software Engineering"
+    }
+  ],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Pendahuluan Rekayasa Perangkat Lunak (RPL)"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Analisis dan Desain Sistem (SRS)"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Software Development Life Cycle (SDLC)"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "RPL Terstruktur (DFD, ERD, Kamus Data)"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "RPL Berorientasi Objek (OOAD) & UML"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Metodologi Agile dan Scrum"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Manajemen Proyek Perangkat Lunak"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Manajemen Risiko Proyek Perangkat Lunak"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Manajemen Kualitas (SQA) dan Pengujian Perangkat Lunak"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Modul 1: Pendahuluan Rekayasa Perangkat Lunak (RPL)",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-head\">\n        <h2>Modul 1: Pendahuluan Rekayasa Perangkat Lunak (RPL)</h2>\n        <span class=\"mod-tag\">Modul 1</span>\n      </div>\n      <h3>KB 1: Karakteristik Perangkat Lunak &amp; Krisis PL</h3>\n        <ul>\n          <li><strong>Perangkat Lunak vs Perangkat Keras:</strong> Perangkat lunak <em>dikembangkan</em> (bukan dipabrikasi massal), tidak mengalami keausan fisik (<em>wear out</em>), namun dapat mengalami <em>deteriorasi</em> akibat perubahan berulang.</li>\n          <li><strong>RPL (Software Engineering):</strong> Penerapan pendekatan sistematis, disiplin, dan terukur pada pengembangan, pengoperasian, dan pemeliharaan perangkat lunak (IEEE).</li>\n        </ul><h3>KB 2: Lapisan Rekayasa Perangkat Lunak (Pressman)</h3>\n        <ul>\n          <li><strong>4 Lapisan RPL:</strong> (1) <em>A Quality Focus</em> (fondasi), (2) <em>Process</em> (kerangka kerja), (3) <em>Methods</em> (teknik analisis, desain, coding, testing), (4) <em>Tools</em> (alat bantu otomatis / CASE).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 220\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Empat Lapisan Rekayasa Perangkat Lunak Menurut Roger S. Pressman\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"110\" y=\"20\" width=\"460\" height=\"40\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"42.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Tools (IDE, Git, CASE, CI/CD)</text><rect x=\"110\" y=\"68\" width=\"460\" height=\"40\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"90.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Methods (Analisis, Desain, Coding, Testing)</text><rect x=\"110\" y=\"116\" width=\"460\" height=\"40\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"138.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Process (SDLC, Agile, Kerangka Kerja)</text><rect x=\"110\" y=\"164\" width=\"460\" height=\"40\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"186.4\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">A Quality Focus (Fondasi Utama RPL)</text>\n  </svg>\n  <p class=\"svg-caption\">Empat Lapisan Rekayasa Perangkat Lunak Menurut Roger S. Pressman</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Software Deterioration</span>\n          <span class=\"kw-chip\">4 Lapisan Pressman</span>\n          <span class=\"kw-chip\">Quality Focus</span>\n          <span class=\"kw-chip\">CASE Tools</span>\n          <span class=\"kw-chip\">IEEE Definition</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 1: Pendahuluan Rekayasa Perangkat Lunak (RPL) Modul 1 KB 1: Karakteristik Perangkat Lunak & Krisis PL Perangkat Lunak vs Perangkat Keras: Perangkat lunak dikembangkan (bukan dipabrikasi massal), tidak mengalami keausan fisik ( wear out ), namun dapat mengalami deteriorasi akibat perubahan berulang. RPL (Software Engineering): Penerapan pendekatan sistematis, disiplin, dan terukur pada pengembangan, pengoperasian, dan pemeliharaan perangkat lunak (IEEE). KB 2: Lapisan Rekayasa Perangkat Lunak (Pressman) 4 Lapisan RPL: (1) A Quality Focus (fondasi), (2) Process (kerangka kerja), (3) Methods (teknik analisis, desain, coding, testing), (4) Tools (alat bantu otomatis / CASE). Tools (IDE, Git, CASE, CI/CD) Methods (Analisis, Desain, Coding, Testing) Process (SDLC, Agile, Kerangka Kerja) A Quality Focus (Fondasi Utama RPL) Empat Lapisan Rekayasa Perangkat Lunak Menurut Roger S. Pressman 🔑 Kata Kunci Wajib Ingat: Software Deterioration 4 Lapisan Pressman Quality Focus CASE Tools IEEE Definition"
+    },
+    {
+      "id": "m2",
+      "title": "Modul 2: Analisis dan Desain Sistem (SRS)",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-head\">\n        <h2>Modul 2: Analisis dan Desain Sistem (SRS)</h2>\n        <span class=\"mod-tag\">Modul 2</span>\n      </div>\n      <h3>KB 1: Rekayasa Kebutuhan (Requirements Engineering)</h3>\n        <ul>\n          <li><strong>Kebutuhan Fungsional vs Non-Fungsional:</strong> <em>Fungsional</em> mendefinisikan layanan/fitur yang harus dilakukan sistem; <em>Non-Fungsional</em> mendefinisikan batasan kualitas (performa, keamanan, ketersediaan, portabilitas).</li>\n          <li><strong>Teknik Elisitasi:</strong> Wawancara, observasi, kuesioner, studi dokumen, dan <em>prototyping</em>.</li>\n        </ul><h3>KB 2: Dokumen SRS (Software Requirements Specification)</h3>\n        <ul>\n          <li><strong>Standar SRS (IEEE 830):</strong> Spesifikasi kebutuhan harus jelas, lengkap, konsisten, tidak ambigu, dan dapat diuji (<em>verifiable</em>) sebagai kontrak antara klien dan pengembang.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Proses Rekayasa Kebutuhan Menuju Dokumen SRS yang Tervalidasi\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"60\" width=\"145\" height=\"75\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"97.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Elisitasi</text><text x=\"97.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Wawancara &amp; Observasi</text><line x1=\"170\" y1=\"97\" x2=\"205\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"205\" y=\"60\" width=\"145\" height=\"75\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"277.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Analisis</text><text x=\"277.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pilihan &amp; Prioritas</text><line x1=\"350\" y1=\"97\" x2=\"385\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"385\" y=\"60\" width=\"130\" height=\"75\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"450.0\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Spesifikasi</text><text x=\"450.0\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Dokumen SRS</text><line x1=\"515\" y1=\"97\" x2=\"545\" y2=\"97\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"545\" y=\"60\" width=\"115\" height=\"75\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"602.5\" y=\"92.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Validasi</text><text x=\"602.5\" y=\"114.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Review Klien</text>\n  </svg>\n  <p class=\"svg-caption\">Proses Rekayasa Kebutuhan Menuju Dokumen SRS yang Tervalidasi</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Kebutuhan Fungsional</span>\n          <span class=\"kw-chip\">Non-Fungsional</span>\n          <span class=\"kw-chip\">Elisitasi</span>\n          <span class=\"kw-chip\">Dokumen SRS</span>\n          <span class=\"kw-chip\">Verifiable</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 2: Analisis dan Desain Sistem (SRS) Modul 2 KB 1: Rekayasa Kebutuhan (Requirements Engineering) Kebutuhan Fungsional vs Non-Fungsional: Fungsional mendefinisikan layanan/fitur yang harus dilakukan sistem; Non-Fungsional mendefinisikan batasan kualitas (performa, keamanan, ketersediaan, portabilitas). Teknik Elisitasi: Wawancara, observasi, kuesioner, studi dokumen, dan prototyping . KB 2: Dokumen SRS (Software Requirements Specification) Standar SRS (IEEE 830): Spesifikasi kebutuhan harus jelas, lengkap, konsisten, tidak ambigu, dan dapat diuji ( verifiable ) sebagai kontrak antara klien dan pengembang. Elisitasi Wawancara & Observasi Analisis Pilihan & Prioritas Spesifikasi Dokumen SRS Validasi Review Klien Proses Rekayasa Kebutuhan Menuju Dokumen SRS yang Tervalidasi 🔑 Kata Kunci Wajib Ingat: Kebutuhan Fungsional Non-Fungsional Elisitasi Dokumen SRS Verifiable"
+    },
+    {
+      "id": "m3",
+      "title": "Modul 3: Software Development Life Cycle (SDLC)",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-head\">\n        <h2>Modul 3: Software Development Life Cycle (SDLC)</h2>\n        <span class=\"mod-tag\">Modul 3</span>\n      </div>\n      <h3>KB 1: Model Proses Sekuensial (Waterfall &amp; V-Model)</h3>\n        <ul>\n          <li><strong>Waterfall:</strong> Mengalir berurutan dari Komunikasi &rarr; Perencanaan &rarr; Pemodelan &rarr; Konstruksi &rarr; Penyerahan; cocok jika kebutuhan stabil sejak awal.</li>\n          <li><strong>V-Model:</strong> Menghubungkan setiap tahap pengembangan di sisi kiri dengan tahap pengujian yang sesuai di sisi kanan (mis. Unit Test &harr; Coding, UAT &harr; Requirements).</li>\n        </ul><h3>KB 2: Model Evolusioner (Prototyping, Incremental, Spiral)</h3>\n        <ul>\n          <li><strong>Model Spiral (Barry Boehm):</strong> Menggabungkan sifat iteratif prototyping dengan kontrol sistematis Waterfall serta menempatkan <strong>Analisis Risiko</strong> di setiap putaran spiral.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Tiga Model Proses SDLC Klasik: Waterfall, V-Model, dan Spiral\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"120.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Waterfall</text><text x=\"120.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Sekuensial, kebutuhan stabil</text><rect x=\"245\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">V-Model</text><text x=\"340.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pemetaan Desain &lt;-&gt; Testing</text><rect x=\"465\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"560.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Model Spiral (Boehm)</text><text x=\"560.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Iteratif + Analisis Risiko</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Tiga Model Proses SDLC Klasik: Waterfall, V-Model, dan Spiral</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Waterfall</span>\n          <span class=\"kw-chip\">V-Model</span>\n          <span class=\"kw-chip\">Model Spiral (Boehm)</span>\n          <span class=\"kw-chip\">Incremental</span>\n          <span class=\"kw-chip\">Analisis Risiko</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 3: Software Development Life Cycle (SDLC) Modul 3 KB 1: Model Proses Sekuensial (Waterfall & V-Model) Waterfall: Mengalir berurutan dari Komunikasi → Perencanaan → Pemodelan → Konstruksi → Penyerahan; cocok jika kebutuhan stabil sejak awal. V-Model: Menghubungkan setiap tahap pengembangan di sisi kiri dengan tahap pengujian yang sesuai di sisi kanan (mis. Unit Test ↔ Coding, UAT ↔ Requirements). KB 2: Model Evolusioner (Prototyping, Incremental, Spiral) Model Spiral (Barry Boehm): Menggabungkan sifat iteratif prototyping dengan kontrol sistematis Waterfall serta menempatkan Analisis Risiko di setiap putaran spiral. Waterfall Sekuensial, kebutuhan stabil V-Model Pemetaan Desain <-> Testing Model Spiral (Boehm) Iteratif + Analisis Risiko Perbandingan Tiga Model Proses SDLC Klasik: Waterfall, V-Model, dan Spiral 🔑 Kata Kunci Wajib Ingat: Waterfall V-Model Model Spiral (Boehm) Incremental Analisis Risiko"
+    },
+    {
+      "id": "m4",
+      "title": "Modul 4: RPL Terstruktur (DFD, ERD, Kamus Data)",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-head\">\n        <h2>Modul 4: RPL Terstruktur (DFD, ERD, Kamus Data)</h2>\n        <span class=\"mod-tag\">Modul 4</span>\n      </div>\n      <h3>KB 1: Pemodelan Proses dengan Data Flow Diagram (DFD)</h3>\n        <ul>\n          <li><strong>4 Simbol Utama DFD:</strong> <em>External Entity</em> (sumber/tujuan luar), <em>Process</em> (transformasi data), <em>Data Store</em> (penyimpanan), dan <em>Data Flow</em> (aliran data).</li>\n          <li><strong>DFD Bertingkat:</strong> Dimulai dari <em>Diagram Konteks (Level 0)</em> yang hanya memiliki 1 proses utama, lalu dipecah ke Level 1, Level 2, dst.</li>\n        </ul><h3>KB 2: Kamus Data &amp; ERD</h3>\n        <ul>\n          <li><strong>Kamus Data (Data Dictionary):</strong> Mendefinisikan detail struktur setiap aliran data dan data store.</li>\n          <li><strong>ERD (Entity Relationship Diagram):</strong> Memodelkan struktur data statis (entitas, atribut, relasi, dan kardinalitas).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Empat Elemen Penyusun Data Flow Diagram (DFD) dalam RPL Terstruktur\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"155\" height=\"75\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"107.5\" y=\"90.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">External Entity</text><text x=\"107.5\" y=\"112.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pelanggan / Admin</text><line x1=\"185\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"217.5\" y=\"89.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Data Flow</text><rect x=\"250\" y=\"58\" width=\"170\" height=\"75\" rx=\"24\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"335.0\" y=\"90.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Process (1.0)</text><text x=\"335.0\" y=\"112.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Olah Pesanan</text><line x1=\"420\" y1=\"95\" x2=\"485\" y2=\"95\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><text x=\"452.5\" y=\"89.0\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"600\" fill=\"#475569\">Simpan</text><rect x=\"485\" y=\"58\" width=\"165\" height=\"75\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"567.5\" y=\"90.2\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Data Store</text><text x=\"567.5\" y=\"112.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">D1 | Tabel Order</text>\n  </svg>\n  <p class=\"svg-caption\">Empat Elemen Penyusun Data Flow Diagram (DFD) dalam RPL Terstruktur</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">DFD</span>\n          <span class=\"kw-chip\">Diagram Konteks</span>\n          <span class=\"kw-chip\">External Entity</span>\n          <span class=\"kw-chip\">Data Store</span>\n          <span class=\"kw-chip\">Kamus Data</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 4: RPL Terstruktur (DFD, ERD, Kamus Data) Modul 4 KB 1: Pemodelan Proses dengan Data Flow Diagram (DFD) 4 Simbol Utama DFD: External Entity (sumber/tujuan luar), Process (transformasi data), Data Store (penyimpanan), dan Data Flow (aliran data). DFD Bertingkat: Dimulai dari Diagram Konteks (Level 0) yang hanya memiliki 1 proses utama, lalu dipecah ke Level 1, Level 2, dst. KB 2: Kamus Data & ERD Kamus Data (Data Dictionary): Mendefinisikan detail struktur setiap aliran data dan data store. ERD (Entity Relationship Diagram): Memodelkan struktur data statis (entitas, atribut, relasi, dan kardinalitas). External Entity Pelanggan / Admin Data Flow Process (1.0) Olah Pesanan Simpan Data Store D1 | Tabel Order Empat Elemen Penyusun Data Flow Diagram (DFD) dalam RPL Terstruktur 🔑 Kata Kunci Wajib Ingat: DFD Diagram Konteks External Entity Data Store Kamus Data"
+    },
+    {
+      "id": "m5",
+      "title": "Modul 5: RPL Berorientasi Objek (OOAD) & UML",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-head\">\n        <h2>Modul 5: RPL Berorientasi Objek (OOAD) &amp; UML</h2>\n        <span class=\"mod-tag\">Modul 5</span>\n      </div>\n      <h3>KB 1: Konsep OOP &amp; Diagram Struktural UML</h3>\n        <ul>\n          <li><strong>4 Pilar OOP:</strong> <em>Encapsulation</em> (pembungkusan data), <em>Abstraction</em>, <em>Inheritance</em> (pewarisan), dan <em>Polymorphism</em>.</li>\n          <li><strong>Class Diagram:</strong> Memodelkan struktur kelas (nama, atribut, method) beserta relasi (Asosiasi, Agregasi, Komposisi, Generalisasi/Pewarisan).</li>\n        </ul><h3>KB 2: Diagram Perilaku UML</h3>\n        <ul>\n          <li><strong>Use Case Diagram:</strong> Menunjukkan interaksi antara <em>Actor</em> dan fungsi sistem (relasi <code>&laquo;include&raquo;</code> wajib vs <code>&laquo;extend&raquo;</code> opsional).</li>\n          <li><strong>Activity &amp; Sequence Diagram:</strong> <em>Activity</em> memodelkan alur kerja bisnis; <em>Sequence</em> memodelkan urutan pesan antar objek berdasarkan waktu.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tiga Diagram UML Terpenting dalam Pemodelan Berorientasi Objek (OOAD)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"30\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"125.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">Use Case Diagram</text><text x=\"125.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Interaksi Aktor &amp; Sistem</text><rect x=\"245\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"340.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Class Diagram</text><text x=\"340.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Struktur Kelas &amp; Relasi</text><rect x=\"460\" y=\"58\" width=\"190\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"555.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Sequence Diagram</text><text x=\"555.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Urutan Pesan Berbasis Waktu</text>\n  </svg>\n  <p class=\"svg-caption\">Tiga Diagram UML Terpenting dalam Pemodelan Berorientasi Objek (OOAD)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Encapsulation</span>\n          <span class=\"kw-chip\">Use Case Diagram</span>\n          <span class=\"kw-chip\">Class Diagram</span>\n          <span class=\"kw-chip\">Sequence Diagram</span>\n          <span class=\"kw-chip\">Include vs Extend</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 5: RPL Berorientasi Objek (OOAD) & UML Modul 5 KB 1: Konsep OOP & Diagram Struktural UML 4 Pilar OOP: Encapsulation (pembungkusan data), Abstraction , Inheritance (pewarisan), dan Polymorphism . Class Diagram: Memodelkan struktur kelas (nama, atribut, method) beserta relasi (Asosiasi, Agregasi, Komposisi, Generalisasi/Pewarisan). KB 2: Diagram Perilaku UML Use Case Diagram: Menunjukkan interaksi antara Actor dan fungsi sistem (relasi «include» wajib vs «extend» opsional). Activity & Sequence Diagram: Activity memodelkan alur kerja bisnis; Sequence memodelkan urutan pesan antar objek berdasarkan waktu. Use Case Diagram Interaksi Aktor & Sistem Class Diagram Struktur Kelas & Relasi Sequence Diagram Urutan Pesan Berbasis Waktu Tiga Diagram UML Terpenting dalam Pemodelan Berorientasi Objek (OOAD) 🔑 Kata Kunci Wajib Ingat: Encapsulation Use Case Diagram Class Diagram Sequence Diagram Include vs Extend"
+    },
+    {
+      "id": "m6",
+      "title": "Modul 6: Metodologi Agile dan Scrum",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-head\">\n        <h2>Modul 6: Metodologi Agile dan Scrum</h2>\n        <span class=\"mod-tag\">Modul 6</span>\n      </div>\n      <h3>KB 1: Agile Manifesto (4 Nilai &amp; 12 Prinsip)</h3>\n        <ul>\n          <li><strong>4 Nilai Agile Manifesto:</strong> (1) <em>Individu &amp; interaksi</em> lebih dari proses &amp; alat, (2) <em>Perangkat lunak yang bekerja</em> lebih dari dokumentasi lengkap, (3) <em>Kolaborasi pelanggan</em> lebih dari negosiasi kontrak, (4) <em>Merespons perubahan</em> lebih dari mengikuti rencana kaku.</li>\n        </ul><h3>KB 2: Kerangka Kerja Scrum &amp; XP</h3>\n        <ul>\n          <li><strong>3 Peran Scrum:</strong> <em>Product Owner</em> (mengelola Product Backlog), <em>Scrum Master</em> (fasilitator penghilang hambatan), dan <em>Development Team</em>.</li>\n          <li><strong>Ritual Scrum:</strong> <em>Sprint</em> (iterasi 1–4 minggu), <em>Sprint Planning</em>, <em>Daily Scrum</em> (15 menit), <em>Sprint Review</em>, dan <em>Sprint Retrospective</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Siklus Kerja Iteratif Kerangka Scrum dalam Pengembangan Agile\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"60\" width=\"155\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"102.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Product Backlog</text><text x=\"102.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Daftar Fitur Prioritas</text><line x1=\"180\" y1=\"98\" x2=\"225\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"225\" y=\"60\" width=\"210\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"330.0\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Sprint (1-4 Minggu)</text><text x=\"330.0\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Daily Scrum + Coding + Test</text><line x1=\"435\" y1=\"98\" x2=\"480\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"480\" y=\"60\" width=\"175\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"567.5\" y=\"92.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Increment + Review</text><text x=\"567.5\" y=\"114.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Produk Siap Rilis + Retro</text>\n  </svg>\n  <p class=\"svg-caption\">Siklus Kerja Iteratif Kerangka Scrum dalam Pengembangan Agile</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Agile Manifesto</span>\n          <span class=\"kw-chip\">Scrum Master</span>\n          <span class=\"kw-chip\">Product Owner</span>\n          <span class=\"kw-chip\">Daily Scrum</span>\n          <span class=\"kw-chip\">Sprint Retrospective</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 6: Metodologi Agile dan Scrum Modul 6 KB 1: Agile Manifesto (4 Nilai & 12 Prinsip) 4 Nilai Agile Manifesto: (1) Individu & interaksi lebih dari proses & alat, (2) Perangkat lunak yang bekerja lebih dari dokumentasi lengkap, (3) Kolaborasi pelanggan lebih dari negosiasi kontrak, (4) Merespons perubahan lebih dari mengikuti rencana kaku. KB 2: Kerangka Kerja Scrum & XP 3 Peran Scrum: Product Owner (mengelola Product Backlog), Scrum Master (fasilitator penghilang hambatan), dan Development Team . Ritual Scrum: Sprint (iterasi 1–4 minggu), Sprint Planning , Daily Scrum (15 menit), Sprint Review , dan Sprint Retrospective . Product Backlog Daftar Fitur Prioritas Sprint (1-4 Minggu) Daily Scrum + Coding + Test Increment + Review Produk Siap Rilis + Retro Siklus Kerja Iteratif Kerangka Scrum dalam Pengembangan Agile 🔑 Kata Kunci Wajib Ingat: Agile Manifesto Scrum Master Product Owner Daily Scrum Sprint Retrospective"
+    },
+    {
+      "id": "m7",
+      "title": "Modul 7: Manajemen Proyek Perangkat Lunak",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-head\">\n        <h2>Modul 7: Manajemen Proyek Perangkat Lunak</h2>\n        <span class=\"mod-tag\">Modul 7</span>\n      </div>\n      <h3>KB 1: 4P Manajemen Proyek &amp; Estimasi Biaya/Usaha</h3>\n        <ul>\n          <li><strong>4P (Pressman):</strong> <em>People</em>, <em>Product</em>, <em>Process</em>, dan <em>Project</em>.</li>\n          <li><strong>Metrik Ukuran &amp; Estimasi:</strong> <em>LOC</em> (Lines of Code), <em>Function Point (FP)</em> (mengukur kompleksitas fungsional independen bahasa pemrograman), dan model estimasi biaya <em>COCOMO</em>.</li>\n        </ul><h3>KB 2: Penjadwalan Proyek &amp; Jalur Kritis</h3>\n        <ul>\n          <li><strong>Teknik Penjadwalan:</strong> Pembagian kerja dengan <em>WBS</em>, visualisasi lini masa dengan <em>Gantt Chart</em>, dan identifikasi aktivitas tanpa jeda kelonggaran dengan <em>CPM/PERT</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Empat Elemen Kunci Manajemen Proyek Perangkat Lunak (4P)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"25\" y=\"58\" width=\"145\" height=\"76\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"97.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">People</text><text x=\"97.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Tim &amp; Stakeholder</text><rect x=\"185\" y=\"58\" width=\"145\" height=\"76\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"257.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">Product</text><text x=\"257.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Lingkup &amp; Tujuan</text><rect x=\"345\" y=\"58\" width=\"145\" height=\"76\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"417.5\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">Process</text><text x=\"417.5\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">SDLC / Agile</text><rect x=\"505\" y=\"58\" width=\"150\" height=\"76\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"580.0\" y=\"90.7\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Project</text><text x=\"580.0\" y=\"112.7\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Jadwal, WBS, Biaya</text>\n  </svg>\n  <p class=\"svg-caption\">Empat Elemen Kunci Manajemen Proyek Perangkat Lunak (4P)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">4P Pressman</span>\n          <span class=\"kw-chip\">Function Point</span>\n          <span class=\"kw-chip\">COCOMO</span>\n          <span class=\"kw-chip\">WBS &amp; Gantt Chart</span>\n          <span class=\"kw-chip\">LOC</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 7: Manajemen Proyek Perangkat Lunak Modul 7 KB 1: 4P Manajemen Proyek & Estimasi Biaya/Usaha 4P (Pressman): People , Product , Process , dan Project . Metrik Ukuran & Estimasi: LOC (Lines of Code), Function Point (FP) (mengukur kompleksitas fungsional independen bahasa pemrograman), dan model estimasi biaya COCOMO . KB 2: Penjadwalan Proyek & Jalur Kritis Teknik Penjadwalan: Pembagian kerja dengan WBS , visualisasi lini masa dengan Gantt Chart , dan identifikasi aktivitas tanpa jeda kelonggaran dengan CPM/PERT . People Tim & Stakeholder Product Lingkup & Tujuan Process SDLC / Agile Project Jadwal, WBS, Biaya Empat Elemen Kunci Manajemen Proyek Perangkat Lunak (4P) 🔑 Kata Kunci Wajib Ingat: 4P Pressman Function Point COCOMO WBS & Gantt Chart LOC"
+    },
+    {
+      "id": "m8",
+      "title": "Modul 8: Manajemen Risiko Proyek Perangkat Lunak",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-head\">\n        <h2>Modul 8: Manajemen Risiko Proyek Perangkat Lunak</h2>\n        <span class=\"mod-tag\">Modul 8</span>\n      </div>\n      <h3>KB 1: Strategi Reaktif vs Proaktif &amp; Kategori Risiko</h3>\n        <ul>\n          <li><strong>Proaktif vs Reaktif:</strong> Manajemen risiko proaktif mengidentifikasi potensi masalah sebelum terjadi dan menyiapkan rencana mitigasi (<em>RMMM Plan</em>).</li>\n          <li><strong>Jenis Risiko:</strong> <em>Project Risks</em> (anggaran, jadwal, SDM), <em>Technical Risks</em> (kompleksitas desain/integrasi), dan <em>Business Risks</em> (produk tidak laku, perubahan pasar).</li>\n        </ul><h3>KB 2: Eksposur Risiko (Risk Exposure) &amp; RMMM</h3>\n        <ul>\n          <li><strong>Rumus Risk Exposure:</strong> <strong>RE = P &times; C</strong>, di mana <em>P</em> = probabilitas terjadinya risiko (0–1) dan <em>C</em> = dampak kerugian (<em>cost/impact</em>).</li>\n          <li><strong>RMMM:</strong> <em>Risk Mitigation, Monitoring, and Management</em>.</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Siklus Manajemen Risiko Proaktif Perangkat Lunak (RMMM)\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"20\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"92.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">1. Identifikasi</text><text x=\"92.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Project/Tech/Business</text><line x1=\"165\" y1=\"98\" x2=\"185\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"185\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#fefce8\" stroke=\"#eab308\" stroke-width=\"1.8\"/><text x=\"257.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#854d0e\">2. Analisis RE</text><text x=\"257.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">RE = P x C</text><line x1=\"330\" y1=\"98\" x2=\"350\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"350\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"422.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">3. Mitigasi</text><text x=\"422.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Cegah sebelum terjadi</text><line x1=\"495\" y1=\"98\" x2=\"515\" y2=\"98\" stroke=\"#64748b\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/><rect x=\"515\" y=\"62\" width=\"145\" height=\"72\" rx=\"10\" fill=\"#fdf4ff\" stroke=\"#a855f7\" stroke-width=\"1.8\"/><text x=\"587.5\" y=\"93.0\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#6b21a8\">4. Monitoring</text><text x=\"587.5\" y=\"113.8\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Pantau pemicu RMMM</text>\n  </svg>\n  <p class=\"svg-caption\">Siklus Manajemen Risiko Proaktif Perangkat Lunak (RMMM)</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Risiko Proaktif</span>\n          <span class=\"kw-chip\">Risk Exposure = P x C</span>\n          <span class=\"kw-chip\">RMMM Plan</span>\n          <span class=\"kw-chip\">Technical Risk</span>\n          <span class=\"kw-chip\">Project Risk</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 8: Manajemen Risiko Proyek Perangkat Lunak Modul 8 KB 1: Strategi Reaktif vs Proaktif & Kategori Risiko Proaktif vs Reaktif: Manajemen risiko proaktif mengidentifikasi potensi masalah sebelum terjadi dan menyiapkan rencana mitigasi ( RMMM Plan ). Jenis Risiko: Project Risks (anggaran, jadwal, SDM), Technical Risks (kompleksitas desain/integrasi), dan Business Risks (produk tidak laku, perubahan pasar). KB 2: Eksposur Risiko (Risk Exposure) & RMMM Rumus Risk Exposure: RE = P × C , di mana P = probabilitas terjadinya risiko (0–1) dan C = dampak kerugian ( cost/impact ). RMMM: Risk Mitigation, Monitoring, and Management . 1. Identifikasi Project/Tech/Business 2. Analisis RE RE = P x C 3. Mitigasi Cegah sebelum terjadi 4. Monitoring Pantau pemicu RMMM Siklus Manajemen Risiko Proaktif Perangkat Lunak (RMMM) 🔑 Kata Kunci Wajib Ingat: Risiko Proaktif Risk Exposure = P x C RMMM Plan Technical Risk Project Risk"
+    },
+    {
+      "id": "m9",
+      "title": "Modul 9: Manajemen Kualitas (SQA) dan Pengujian Perangkat Lunak",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-head\">\n        <h2>Modul 9: Manajemen Kualitas (SQA) dan Pengujian Perangkat Lunak</h2>\n        <span class=\"mod-tag\">Modul 9</span>\n      </div>\n      <h3>KB 1: Software Quality Assurance (SQA) &amp; Standar ISO</h3>\n        <ul>\n          <li><strong>SQA:</strong> Aktivitas payung (<em>umbrella activity</em>) di seluruh proses RPL untuk menjamin kualitas lewat audit, standar (ISO 9001 / ISO 25010), dan <em>Formal Technical Review (FTR)</em>.</li>\n          <li><strong>Verifikasi vs Validasi (Boehm):</strong> <em>Verification</em> = 'Are we building the product right?' (sesuai spesifikasi); <em>Validation</em> = 'Are we building the right product?' (sesuai kebutuhan pengguna).</li>\n        </ul><h3>KB 2: Strategi Pengujian (Black-Box vs White-Box)</h3>\n        <ul>\n          <li><strong>White-Box Testing:</strong> Menguji logika internal kode, percabangan (<em>branch coverage</em>), dan jalur eksekusi.</li>\n          <li><strong>Black-Box Testing:</strong> Menguji fungsi input-output tanpa melihat kode sumber (<em>Equivalence Partitioning</em> &amp; <em>Boundary Value Analysis</em>).</li>\n          <li><strong>Tingkatan Uji:</strong> Unit Testing &rarr; Integration Testing &rarr; System Testing &rarr; Acceptance Testing (UAT).</li>\n        </ul>\n      \n      <div class=\"svg-wrap\">\n  <svg viewBox=\"0 0 680 200\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Perbandingan Pendekatan Pengujian Perangkat Lunak: White-Box vs Black-Box\">\n    <defs>\n      <marker id=\"arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n        <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#64748b\"/>\n      </marker>\n    </defs>\n    <rect x=\"35\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"1.8\"/><text x=\"177.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#1e3a8a\">White-Box Testing</text><text x=\"177.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Cek Struktur Kode Internal (Branch/Path)</text><rect x=\"360\" y=\"45\" width=\"285\" height=\"125\" rx=\"10\" fill=\"#ecfdf5\" stroke=\"#10b981\" stroke-width=\"1.8\"/><text x=\"502.5\" y=\"98.8\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"#065f46\">Black-Box Testing</text><text x=\"502.5\" y=\"135.0\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"#475569\">Cek Fungsi Input-Output (BVA &amp; Equivalence)</text>\n  </svg>\n  <p class=\"svg-caption\">Perbandingan Pendekatan Pengujian Perangkat Lunak: White-Box vs Black-Box</p>\n</div>\n      <div class=\"key-box\">\n        <strong>🔑 Kata Kunci Wajib Ingat:</strong>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">SQA</span>\n          <span class=\"kw-chip\">Verifikasi vs Validasi</span>\n          <span class=\"kw-chip\">White-Box vs Black-Box</span>\n          <span class=\"kw-chip\">Boundary Value Analysis</span>\n          <span class=\"kw-chip\">Unit &amp; UAT Testing</span>\n        </div>\n      </div>\n    </section>",
+      "text": "Modul 9: Manajemen Kualitas (SQA) dan Pengujian Perangkat Lunak Modul 9 KB 1: Software Quality Assurance (SQA) & Standar ISO SQA: Aktivitas payung ( umbrella activity ) di seluruh proses RPL untuk menjamin kualitas lewat audit, standar (ISO 9001 / ISO 25010), dan Formal Technical Review (FTR) . Verifikasi vs Validasi (Boehm): Verification = 'Are we building the product right?' (sesuai spesifikasi); Validation = 'Are we building the right product?' (sesuai kebutuhan pengguna). KB 2: Strategi Pengujian (Black-Box vs White-Box) White-Box Testing: Menguji logika internal kode, percabangan ( branch coverage ), dan jalur eksekusi. Black-Box Testing: Menguji fungsi input-output tanpa melihat kode sumber ( Equivalence Partitioning & Boundary Value Analysis ). Tingkatan Uji: Unit Testing → Integration Testing → System Testing → Acceptance Testing (UAT). White-Box Testing Cek Struktur Kode Internal (Branch/Path) Black-Box Testing Cek Fungsi Input-Output (BVA & Equivalence) Perbandingan Pendekatan Pengujian Perangkat Lunak: White-Box vs Black-Box 🔑 Kata Kunci Wajib Ingat: SQA Verifikasi vs Validasi White-Box vs Black-Box Boundary Value Analysis Unit & UAT Testing"
+    },
+    {
+      "id": "ahli",
+      "title": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-head\">\n        <h2>Menurut Ahli + 📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h2>\n        <span class=\"mod-tag\">Tokoh &amp; Referensi</span>\n      </div>\n      <h3>Tokoh &amp; Teori Kunci dalam Rekayasa Perangkat Lunak</h3>\n      <ul>\n        <li><strong>Roger S. Pressman</strong> — Penulis buku standar RPL dunia; merumuskan 4 lapisan RPL (Quality, Process, Methods, Tools) dan 4P manajemen proyek.</li>\n        <li><strong>Ian Sommerville</strong> — Menggarisbawahi rekayasa kebutuhan, pemisahan kebutuhan fungsional/non-fungsional, dan metode sosio-teknis RPL.</li>\n        <li><strong>Barry Boehm</strong> — Pencetus <em>Spiral Model</em>, estimasi biaya <em>COCOMO</em>, serta pembedaan klasik antara Verifikasi dan Validasi.</li>\n        <li><strong>Kent Beck &amp; Ken Schwaber</strong> — Pelopor metodologi <em>Agile</em> melalui <em>Extreme Programming (XP)</em> dan kerangka kerja <em>Scrum</em>.</li>\n      </ul>\n      <h3>📚 Referensi Tambahan &amp; Detail Kecil Wajib Tahu</h3>\n      <ul>\n        <li><strong>Kapan Pakai Include vs Extend di Use Case?</strong>: Gunakan <code>&laquo;include&raquo;</code> jika sub-fungsi <strong>wajib</strong> selalu dijalankan (mis. Checkout selalu me-include Validasi Login); gunakan <code>&laquo;extend&raquo;</code> jika fitur tambahan bersifat <strong>opsional</strong> (mis. Gunakan Kupon Diskon).</li>\n        <li><strong>Boundary Value Analysis (BVA)</strong>: Dalam pengujian Black-Box, bug paling sering bersembunyi di nilai batas! Jika rentang valid adalah 1–100, uji nilai <strong>0, 1, 2, 99, 100, 101</strong>.</li>\n        <li><strong>Technical Debt (Utang Teknis)</strong>: Biaya pekerjaan ulang di masa depan akibat memilih solusi kode cepat namun kurang rapi saat ini demi mengejar tenggat waktu.</li>\n      </ul>\n    </section>",
+      "text": "Menurut Ahli + 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Tokoh & Referensi Tokoh & Teori Kunci dalam Rekayasa Perangkat Lunak Roger S. Pressman — Penulis buku standar RPL dunia; merumuskan 4 lapisan RPL (Quality, Process, Methods, Tools) dan 4P manajemen proyek. Ian Sommerville — Menggarisbawahi rekayasa kebutuhan, pemisahan kebutuhan fungsional/non-fungsional, dan metode sosio-teknis RPL. Barry Boehm — Pencetus Spiral Model , estimasi biaya COCOMO , serta pembedaan klasik antara Verifikasi dan Validasi. Kent Beck & Ken Schwaber — Pelopor metodologi Agile melalui Extreme Programming (XP) dan kerangka kerja Scrum . 📚 Referensi Tambahan & Detail Kecil Wajib Tahu Kapan Pakai Include vs Extend di Use Case? : Gunakan «include» jika sub-fungsi wajib selalu dijalankan (mis. Checkout selalu me-include Validasi Login); gunakan «extend» jika fitur tambahan bersifat opsional (mis. Gunakan Kupon Diskon). Boundary Value Analysis (BVA) : Dalam pengujian Black-Box, bug paling sering bersembunyi di nilai batas! Jika rentang valid adalah 1–100, uji nilai 0, 1, 2, 99, 100, 101 . Technical Debt (Utang Teknis) : Biaya pekerjaan ulang di masa depan akibat memilih solusi kode cepat namun kurang rapi saat ini demi mengejar tenggat waktu."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Perbedaan mendasar sifat keausan perangkat lunak dibanding perangkat keras adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perangkat lunak aus karena gesekan fisik"
+        },
+        {
+          "letter": "B",
+          "text": "Perangkat lunak tidak aus secara fisik, tetapi mengalami deteriorasi akibat perubahan kode"
+        },
+        {
+          "letter": "C",
+          "text": "Perangkat lunak tidak pernah punya bug"
+        },
+        {
+          "letter": "D",
+          "text": "Perangkat keras bisa diperbaiki dengan restart"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kurva keausan perangkat lunak meningkat akibat efek samping modifikasi berulang",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Lapisan paling dasar yang menjadi fondasi seluruh aktivitas Rekayasa Perangkat Lunak menurut Roger S. Pressman adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tools"
+        },
+        {
+          "letter": "B",
+          "text": "Process"
+        },
+        {
+          "letter": "C",
+          "text": "A Quality Focus"
+        },
+        {
+          "letter": "D",
+          "text": "Methods"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Komitmen pada kualitas menjadi dasar sebelum menentukan proses, metode, dan alat",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Alat bantu otomatis yang mendukung aktivitas analisis, desain, dan pembangkitan kode dalam RPL dikenal sebagai...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CASE Tools"
+        },
+        {
+          "letter": "B",
+          "text": "Firmware"
+        },
+        {
+          "letter": "C",
+          "text": "Motherboard"
+        },
+        {
+          "letter": "D",
+          "text": "BIOS"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "CASE = Computer-Aided Software Engineering",
+      "num": 3
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Pernyataan 'Sistem harus mampu memproses 1.000 transaksi per detik dengan waktu respon di bawah 2 detik' termasuk kebutuhan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fungsional"
+        },
+        {
+          "letter": "B",
+          "text": "Non-Fungsional (Performa)"
+        },
+        {
+          "letter": "C",
+          "text": "Bisnis"
+        },
+        {
+          "letter": "D",
+          "text": "Legal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kebutuhan non-fungsional mengatur batasan kualitas dan performa sistem",
+      "num": 4
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Dokumen formal standar IEEE 830 yang menjadi kontrak kesepakatan kebutuhan antara klien dan tim pengembang adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SRS (Software Requirements Specification)"
+        },
+        {
+          "letter": "B",
+          "text": "WBS"
+        },
+        {
+          "letter": "C",
+          "text": "Gantt Chart"
+        },
+        {
+          "letter": "D",
+          "text": "DFD"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "SRS mendokumentasikan kebutuhan fungsional dan non-fungsional secara terukur",
+      "num": 5
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Proses penggalian kebutuhan pengguna melalui wawancara, observasi, dan kuesioner disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Refactoring"
+        },
+        {
+          "letter": "B",
+          "text": "Elisitasi Kebutuhan"
+        },
+        {
+          "letter": "C",
+          "text": "Deployment"
+        },
+        {
+          "letter": "D",
+          "text": "Black-Box Testing"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Elisitasi adalah langkah awal mengumpulkan kebutuhan dari stakeholder",
+      "num": 6
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Model SDLC yang memadukan iterasi prototyping dengan kontrol sistematis serta menempatkan analisis risiko di setiap putaran adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Waterfall"
+        },
+        {
+          "letter": "B",
+          "text": "Spiral Model (Barry Boehm)"
+        },
+        {
+          "letter": "C",
+          "text": "Big Bang"
+        },
+        {
+          "letter": "D",
+          "text": "Code-and-Fix"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Spiral model berfokus kuat pada identifikasi dan mitigasi risiko",
+      "num": 7
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Model proses perangkat lunak yang paling cocok ketika seluruh kebutuhan sudah jelas, lengkap, dan kecil kemungkinan berubah adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Waterfall"
+        },
+        {
+          "letter": "B",
+          "text": "Scrum"
+        },
+        {
+          "letter": "C",
+          "text": "Extreme Programming"
+        },
+        {
+          "letter": "D",
+          "text": "Prototyping"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Waterfall bekerja optimal saat cakupan kebutuhan stabil sejak awal",
+      "num": 8
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Model pengembangan yang memetakan setiap fase desain di sisi kiri dengan fase pengujian yang sesuai di sisi kanan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "V-Model"
+        },
+        {
+          "letter": "B",
+          "text": "Spiral"
+        },
+        {
+          "letter": "C",
+          "text": "RAD"
+        },
+        {
+          "letter": "D",
+          "text": "Waterfall"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "V-Model menekankan verifikasi dan validasi di setiap level abstraksi",
+      "num": 9
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Dalam Data Flow Diagram (DFD), diagram level tertinggi (Level 0) yang hanya memuat satu proses utama disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Class Diagram"
+        },
+        {
+          "letter": "B",
+          "text": "Diagram Konteks (Context Diagram)"
+        },
+        {
+          "letter": "C",
+          "text": "Sequence Diagram"
+        },
+        {
+          "letter": "D",
+          "text": "State Machine"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Diagram konteks menggambarkan batas sistem dengan seluruh entitas eksternal",
+      "num": 10
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Berikut yang BUKAN merupakan salah satu dari empat simbol dasar penyusun DFD adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "External Entity"
+        },
+        {
+          "letter": "B",
+          "text": "Process"
+        },
+        {
+          "letter": "C",
+          "text": "Data Store"
+        },
+        {
+          "letter": "D",
+          "text": "Inheritance Arrow"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Inheritance adalah relasi pada Class Diagram UML, bukan DFD",
+      "num": 11
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Dokumen pendamping DFD yang merinci struktur, tipe data, dan arti setiap aliran data serta penyimpanan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kamus Data (Data Dictionary)"
+        },
+        {
+          "letter": "B",
+          "text": "Gantt Chart"
+        },
+        {
+          "letter": "C",
+          "text": "Burn-down Chart"
+        },
+        {
+          "letter": "D",
+          "text": "Use Case"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kamus data menjaga konsistensi penamaan dan format data antar diagram",
+      "num": 12
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Diagram UML yang memodelkan interaksi antara aktor eksternal dan layanan utama sistem adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use Case Diagram"
+        },
+        {
+          "letter": "B",
+          "text": "Deployment Diagram"
+        },
+        {
+          "letter": "C",
+          "text": "DFD Level 2"
+        },
+        {
+          "letter": "D",
+          "text": "Gantt Chart"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Use Case Diagram menangkap kebutuhan fungsional dari sudut pandang pengguna",
+      "num": 13
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Relasi antar Use Case yang menunjukkan bahwa suatu sub-fungsi bersifat opsional/kondisional adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "«include»"
+        },
+        {
+          "letter": "B",
+          "text": "«extend»"
+        },
+        {
+          "letter": "C",
+          "text": "Generalization"
+        },
+        {
+          "letter": "D",
+          "text": "Composition"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "«extend» hanya dieksekusi pada kondisi tertentu, sedangkan «include» wajib",
+      "num": 14
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Diagram UML yang paling tepat untuk menggambarkan urutan pertukaran pesan antar objek berdasarkan garis waktu adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Class Diagram"
+        },
+        {
+          "letter": "B",
+          "text": "Sequence Diagram"
+        },
+        {
+          "letter": "C",
+          "text": "Package Diagram"
+        },
+        {
+          "letter": "D",
+          "text": "Component Diagram"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sequence diagram menampilkan lifeline objek dan urutan pemanggilan method",
+      "num": 15
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Sesuai Agile Manifesto, tim pengembang Agile lebih mengutamakan...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dokumentasi tebal daripada aplikasi jalan"
+        },
+        {
+          "letter": "B",
+          "text": "Perangkat lunak yang bekerja (working software) daripada dokumentasi lengkap"
+        },
+        {
+          "letter": "C",
+          "text": "Negosiasi kontrak kaku"
+        },
+        {
+          "letter": "D",
+          "text": "Mengikuti rencana awal tanpa perubahan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Working software over comprehensive documentation",
+      "num": 16
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Peran dalam tim Scrum yang bertanggung jawab memaksimalkan nilai produk dan mengelola prioritas Product Backlog adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scrum Master"
+        },
+        {
+          "letter": "B",
+          "text": "Product Owner"
+        },
+        {
+          "letter": "C",
+          "text": "QA Tester"
+        },
+        {
+          "letter": "D",
+          "text": "Database Admin"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Product Owner menjadi jembatan suara bisnis/pengguna",
+      "num": 17
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Pertemuan singkat harian selama maksimal 15 menit dalam Scrum untuk sinkronisasi progres dan hambatan disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sprint Retrospective"
+        },
+        {
+          "letter": "B",
+          "text": "Daily Scrum (Stand-up)"
+        },
+        {
+          "letter": "C",
+          "text": "Sprint Review"
+        },
+        {
+          "letter": "D",
+          "text": "Audit Tahunan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Daily Scrum menjaga transparansi dan koordinasi harian tim",
+      "num": 18
+    },
+    {
+      "module": "M7",
+      "question": "[M7-1] Metrik ukuran perangkat lunak yang mengukur kompleksitas fungsional secara independen dari bahasa pemrograman adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lines of Code (LOC)"
+        },
+        {
+          "letter": "B",
+          "text": "Function Point (FP)"
+        },
+        {
+          "letter": "C",
+          "text": "Clock Speed"
+        },
+        {
+          "letter": "D",
+          "text": "Bandwidth"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Function Point dihitung dari jumlah input, output, inquiry, file, dan antarmuka",
+      "num": 19
+    },
+    {
+      "module": "M7",
+      "question": "[M7-2] Empat elemen utama manajemen proyek perangkat lunak (4P) menurut Pressman adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Plan, Prepare, Perform, Publish"
+        },
+        {
+          "letter": "B",
+          "text": "People, Product, Process, Project"
+        },
+        {
+          "letter": "C",
+          "text": "Price, Place, Promotion, Product"
+        },
+        {
+          "letter": "D",
+          "text": "Python, PHP, Perl, Pascal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "4P berurutan dari People sebagai faktor paling menentukan",
+      "num": 20
+    },
+    {
+      "module": "M7",
+      "question": "[M7-3] Model estimasi biaya dan usaha pengembangan perangkat lunak yang dikembangkan oleh Barry Boehm adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "COCOMO"
+        },
+        {
+          "letter": "B",
+          "text": "COBIT"
+        },
+        {
+          "letter": "C",
+          "text": "COSO"
+        },
+        {
+          "letter": "D",
+          "text": "CRUD"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "COCOMO = Constructive Cost Model",
+      "num": 21
+    },
+    {
+      "module": "M8",
+      "question": "[M8-1] Jika suatu risiko teknis memiliki probabilitas terjadi 0,4 (40%) dan perkiraan dampak kerugian Rp100 juta, maka nilai Risk Exposure (RE) adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rp25 juta"
+        },
+        {
+          "letter": "B",
+          "text": "Rp40 juta"
+        },
+        {
+          "letter": "C",
+          "text": "Rp140 juta"
+        },
+        {
+          "letter": "D",
+          "text": "Rp250 juta"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "RE = P × C = 0,4 × 100 juta = Rp40 juta",
+      "num": 22
+    },
+    {
+      "module": "M8",
+      "question": "[M8-2] Dokumen RMMM dalam manajemen risiko proyek perangkat lunak merupakan singkatan dari...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Risk Mitigation, Monitoring, and Management"
+        },
+        {
+          "letter": "B",
+          "text": "Rapid Model Management Method"
+        },
+        {
+          "letter": "C",
+          "text": "Resource Metric Measurement"
+        },
+        {
+          "letter": "D",
+          "text": "Review, Merge, Maintain"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "RMMM merangkum langkah pencegahan, pemantauan pemicu, dan rencana kontinjensi",
+      "num": 23
+    },
+    {
+      "module": "M8",
+      "question": "[M8-3] Risiko yang mengancam kualitas dan kelayakan arsitektur atau integrasi teknologi baru termasuk kategori...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Business Risk"
+        },
+        {
+          "letter": "B",
+          "text": "Technical Risk"
+        },
+        {
+          "letter": "C",
+          "text": "Market Risk"
+        },
+        {
+          "letter": "D",
+          "text": "Legal Risk"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Technical risk berkaitan dengan desain, implementasi, dan antarmuka teknis",
+      "num": 24
+    },
+    {
+      "module": "M9",
+      "question": "[M9-1] Pertanyaan klasik 'Are we building the right product?' (apakah produk sudah sesuai kebutuhan nyata pengguna) merujuk pada...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Verifikasi"
+        },
+        {
+          "letter": "B",
+          "text": "Validasi"
+        },
+        {
+          "letter": "C",
+          "text": "Refactoring"
+        },
+        {
+          "letter": "D",
+          "text": "Kompilasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Verifikasi = sesuai spesifikasi teknis; Validasi = sesuai kebutuhan pengguna",
+      "num": 25
+    },
+    {
+      "module": "M9",
+      "question": "[M9-2] Teknik pengujian yang hanya memeriksa input dan output berdasarkan spesifikasi tanpa melihat struktur kode sumber internal disebut...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "White-Box Testing"
+        },
+        {
+          "letter": "B",
+          "text": "Black-Box Testing"
+        },
+        {
+          "letter": "C",
+          "text": "Code Coverage"
+        },
+        {
+          "letter": "D",
+          "text": "Static Code Review"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Black-Box Testing meliputi Equivalence Partitioning dan Boundary Value Analysis",
+      "num": 26
+    },
+    {
+      "module": "M9",
+      "question": "[M9-3] Tahap pengujian yang memeriksa interaksi dan pertukaran data antar modul yang baru digabungkan adalah...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unit Testing"
+        },
+        {
+          "letter": "B",
+          "text": "Integration Testing"
+        },
+        {
+          "letter": "C",
+          "text": "Acceptance Testing"
+        },
+        {
+          "letter": "D",
+          "text": "Alpha Coding"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Urutan: Unit -> Integration -> System -> Acceptance Testing",
+      "num": 27
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-7] Apa yang dimaksud dengan tantangan warisan dalam proses rekayasa perangkat lunak?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tantangan dimana perangkat lunak dikembangkan selama bertahun-t ahun oleh orang-or ang yang berbeda-beda."
+        },
+        {
+          "letter": "B",
+          "text": "Tantangan dimana perangkat lunak dapat beradaptasi terhadap perkembangan teknologi dan lingkungan."
+        },
+        {
+          "letter": "C",
+          "text": "Tantangan dimana perangkat lunak dengan skala besar tetap dapat sampai ke tangan pelanggan atau pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "Tantangan dimana perangkat lunak tidak dapat digunakan oleh ataupun"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 1",
+      "num": 28
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF2-8] Apa yang dimaksud dengan tantangan heterogenitas dalam proses rekayasa perangkat lunak?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tantangan dimana perangkat lunak dikembangkan selama bertahun-t ahun oleh orang-or ang yang berbeda-beda."
+        },
+        {
+          "letter": "B",
+          "text": "Tantangan dimana perangkat lunak dapat beradaptasi terhadap perkembangan teknologi dan lingkungan."
+        },
+        {
+          "letter": "C",
+          "text": "Tantangan dimana perangkat lunak dengan skala besar tetap dapat sampai ke tangan pelanggan atau pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "Tantangan dimana perangkat lunak tidak dapat digunakan oleh ataupun"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 1",
+      "num": 29
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF3-1] Berikut ini yang bukan merupakan proses umum rekayasa perangkat lunak adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pengumpulan spesifikasi"
+        },
+        {
+          "letter": "B",
+          "text": "validasi"
+        },
+        {
+          "letter": "C",
+          "text": "perekayasaan kembali produk perangkat lunak"
+        },
+        {
+          "letter": "D",
+          "text": "pengembangan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 3 Modul 1",
+      "num": 30
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF3-8] Proses konversi langsung adalah proses....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "bersamaan"
+        },
+        {
+          "letter": "B",
+          "text": "konversi yang dilakukan per fase untuk berpindah dari sistem lama ke sistem baru"
+        },
+        {
+          "letter": "C",
+          "text": "konversi per unit kerja atau per lokasi"
+        },
+        {
+          "letter": "D",
+          "text": "secara langsung ber ganti antara sistem lama ke sistem baru"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 3 Modul 1",
+      "num": 31
+    },
+    {
+      "module": "M1",
+      "question": "[M1-TF3-9] Proses konversi pilot adalah proses....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "konversi dimana ada waktu sistem lama dan sistem baru berjalan bersamaan"
+        },
+        {
+          "letter": "B",
+          "text": "konversi yang dilakukan per fase untuk berpindah dari sistem lama ke sistem baru"
+        },
+        {
+          "letter": "C",
+          "text": "konversi per unit kerja atau per lokasi"
+        },
+        {
+          "letter": "D",
+          "text": "secara langsung ber ganti antara sistem lama ke sistem baru"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 3 Modul 1",
+      "num": 32
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-1] Kegiatan untuk melihat sistem yang sudah berjalan, melihat bagian yang bagus dan tidak bagus, dan kemudian mendokumentasikan kebutuhan yang akan dipenuhi dalam sistem yang baru adalah merupakan kegiatan pada proses....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "teknik wawancara"
+        },
+        {
+          "letter": "B",
+          "text": "desain perangkat lunak"
+        },
+        {
+          "letter": "C",
+          "text": "analisis kebutuhan perangkat lunak"
+        },
+        {
+          "letter": "D",
+          "text": "teknik kuesioner"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 2",
+      "num": 33
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-2] Upaya untuk melakukan konstruksi sebuah sistem yang akan memberikan kepuasan (mungki n informal ) akan spesifikasi kebutuhan fungsional, memenuhi target, memenuhi kebutuhan secara implisit atau eksplisit dari segi performansi maupun penggunaan sumber daya, kepuasan batasan pada proses desain dari segi biaya, waktu, dan perangkat merupakan upaya yang dilakukan pada proses adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "teknik observasi"
+        },
+        {
+          "letter": "B",
+          "text": "desain perangkat lunak"
+        },
+        {
+          "letter": "C",
+          "text": "analisis kebutuhan perangkat lunak"
+        },
+        {
+          "letter": "D",
+          "text": "teknik kuesioner"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 2",
+      "num": 34
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-5] Panduan melakukan teknik wawancara dalam pengumpulan data adalah sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "membuat panduan wawancara yang akan Anda jadi kan arahan agar pertanyaan dapat fokus kepada hal-hal yang dibutuhkan"
+        },
+        {
+          "letter": "B",
+          "text": "membuat jadwal wawancara dengan narasumber dan ber itahukan maksud dan tujuan wawancara"
+        },
+        {
+          "letter": "C",
+          "text": "mencoba untuk menggali mengenai kelebihan dan kekurangan sistem yang telah berjalan sebelumnya"
+        },
+        {
+          "letter": "D",
+          "text": "hasil wawancara tidak perlu dicatat cukup diingat saja"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 2",
+      "num": 35
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-7] Panduan melakukan teknik observasi dalam pengumpulan data adalah sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tentukan hal-hal apa saja yang akan diobservasi agar kegiatan observasi menghasilkan sesuai dengan yang diharapkan"
+        },
+        {
+          "letter": "B",
+          "text": "jika a da yang Anda tidak mengerti, maka dapat membuat asumsi sendiri"
+        },
+        {
+          "letter": "C",
+          "text": "ber usaha se sedikit mungkin agar tidak mengganggu pekerjaan orang lain"
+        },
+        {
+          "letter": "D",
+          "text": "mintalah ijin kepada orang yang berwenang pada bagian yang akan diobservasi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 2",
+      "num": 36
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-8] Keuntungan dan kelemahan menggunakan teknik kuesioner untuk mengumpulkan data kebutuhan perangkat lunak adalah sebagai berikut, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mudah mendapatkan responden"
+        },
+        {
+          "letter": "B",
+          "text": "hasilnya lebih objektif, karena kuesioner dapat dilakukan kepada banyak orang se kaligus"
+        },
+        {
+          "letter": "C",
+          "text": "responden cenderung malas untuk mengisi kuesioner"
+        },
+        {
+          "letter": "D",
+          "text": "sulit untuk membuat pertanyaan yang singkat, jelas, dan mudah dipahami"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 2",
+      "num": 37
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-9] Beberapa cara melakukan teknik kuesioner agar dapat menghasilkan data yang baik dalam pengumpulan data adalah sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menghindari pertanyaan isian"
+        },
+        {
+          "letter": "B",
+          "text": "pertanyaan tidak terlalu banyak"
+        },
+        {
+          "letter": "C",
+          "text": "pertanyaan singkat, padat, jelas"
+        },
+        {
+          "letter": "D",
+          "text": "menghindari pertanyaan pilihan ganda"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 2",
+      "num": 38
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF1-10] Berikut ini yang bukan merupakan kategori kebutuhan",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kebutuhan fungsional"
+        },
+        {
+          "letter": "B",
+          "text": "kebutuhan kinerja"
+        },
+        {
+          "letter": "C",
+          "text": "kebutuhan modifikasi"
+        },
+        {
+          "letter": "D",
+          "text": "kebutuhan pengembangan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 2",
+      "num": 39
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-1] Berikut ini adalah hal-hal yang perlu diperhatikan dalam pembuatan dokumen perangkat lunak, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kel engkapan dokumen"
+        },
+        {
+          "letter": "B",
+          "text": "struktur dokumen"
+        },
+        {
+          "letter": "C",
+          "text": "standar dokumen"
+        },
+        {
+          "letter": "D",
+          "text": "kualitas dokumen"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 2",
+      "num": 40
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-2] Berikut ini adalah termasuk spesifikasi dokumen yang terasosiasi dengan perangkat lunak, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menyediakan penjelasan mengenai pengal am an dan jejak rekam dari setiap anggota tim pengembang perangkat lunak"
+        },
+        {
+          "letter": "B",
+          "text": "menyediakan informasi terkait manajemen proses pengembangan perangkat lunak"
+        },
+        {
+          "letter": "C",
+          "text": "merupakan alat komunikasi antara anggota di dalam tim pengembang"
+        },
+        {
+          "letter": "D",
+          "text": "dapat menjadi tem pat penyimpanan informasi perangkat lunak"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 2",
+      "num": 41
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-3] Berikut ini adalah merupakan kategori pengel om pokan dokumen proses, dokumentasi....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pekerjaan"
+        },
+        {
+          "letter": "B",
+          "text": "pemeliharaan"
+        },
+        {
+          "letter": "C",
+          "text": "terkait perencanaan, perkiraan, dan jadwal"
+        },
+        {
+          "letter": "D",
+          "text": "laporan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 2",
+      "num": 42
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-4] Dokumen proses sangat diperlukan untuk pengembangan perangkat lunak saat terjadi hal-hal berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "perubahan perangkat lunak"
+        },
+        {
+          "letter": "B",
+          "text": "perencanaan ulang"
+        },
+        {
+          "letter": "C",
+          "text": "pengiriman atau penyerahan perangkat lunak"
+        },
+        {
+          "letter": "D",
+          "text": "penent uan keput usan terkait perangkat lunak"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 2",
+      "num": 43
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-5] Berikut ini adalah merupakan kategori pengel om pokan dokumen proses, kecuali dokumentasi....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pekerjaan"
+        },
+        {
+          "letter": "B",
+          "text": "pemeliharaan"
+        },
+        {
+          "letter": "C",
+          "text": "terkait perencanaan, perkiraan, dan jadwal"
+        },
+        {
+          "letter": "D",
+          "text": "laporan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 2",
+      "num": 44
+    },
+    {
+      "module": "M2",
+      "question": "[M2-TF2-8] Dokumen yang mendeskripsi kan sistem perangkat lunak mulai dari spesifikasi kebutuhan sampai perencanaan pengujian penerim aan final disebut dengan dokumentasi....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "produk"
+        },
+        {
+          "letter": "B",
+          "text": "produksi"
+        },
+        {
+          "letter": "C",
+          "text": "pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "sistem"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 2",
+      "num": 45
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-2] Berikut ini merupakan karakteristik kualitas perangkat lunak sesuai dengan ISO/IEC 9126, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kehandalan"
+        },
+        {
+          "letter": "B",
+          "text": "kinerja"
+        },
+        {
+          "letter": "C",
+          "text": "pemeliharaan"
+        },
+        {
+          "letter": "D",
+          "text": "efisiensi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 3",
+      "num": 46
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-4] Dari pilihan berikut, yang merupakan urutan proses dari metode/model SDLC Ai r Ter j un",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mendengar kan Pelanggan Purwarupa"
+        },
+        {
+          "letter": "B",
+          "text": "Pemodelan Bisnis Aplikasi"
+        },
+        {
+          "letter": "C",
+          "text": "Analisis"
+        },
+        {
+          "letter": "D",
+          "text": "Permulaan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 3",
+      "num": 47
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-6] Dari pilihan berikut, yang merupakan urutan proses dari metode/model SDLC Prototipe adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Analisis"
+        },
+        {
+          "letter": "B",
+          "text": "Pemodelan Bisnis Aplikasi"
+        },
+        {
+          "letter": "C",
+          "text": "Mendengar kan Pelanggan Pu"
+        },
+        {
+          "letter": "D",
+          "text": "Permulaan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 3",
+      "num": 48
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-7] Met ode/model SDLC Prototipe cocok untuk digunakan kepada pelanggan yang....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "membutuhkan perangkat lunak dalam waktu cepat"
+        },
+        {
+          "letter": "B",
+          "text": "sudah sangat memahami kebutuhan perangkat lunak dan kemungkinan terjadinya perubahan spesifikasi kebutuhan sangat kecil"
+        },
+        {
+          "letter": "C",
+          "text": "belum memahami kebutuhan perangkat lunak dan tidak mengerti teknologi terkait perangkat lunak."
+        },
+        {
+          "letter": "D",
+          "text": "mengi ngi nkan perangkat lunak dengan skala besar"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 3",
+      "num": 49
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-8] Tahapan model perangkat lunak termasuk struktur data, arsitektur perangkat lunak, represent asi antarmuka, dan prosedur pengodea n terdapat padat ahapan....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "analisis"
+        },
+        {
+          "letter": "B",
+          "text": "desain"
+        },
+        {
+          "letter": "C",
+          "text": "implementasi"
+        },
+        {
+          "letter": "D",
+          "text": "pengujian"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 3",
+      "num": 50
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-9] Penerapan SDLC dimulai pada tahun....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1950-"
+        },
+        {
+          "letter": "B",
+          "text": "1960-"
+        },
+        {
+          "letter": "C",
+          "text": "1970-"
+        },
+        {
+          "letter": "D",
+          "text": "1980-"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 3",
+      "num": 51
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF1-10] Tahap SDLC yang berfokus pada mendefinisikan lingkup konsep termasuk dokumen lingkup sistem, analisis m anf aat biaya, manajemen rencana, dan pembelajaran kemudahan sistem adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "inisiasi"
+        },
+        {
+          "letter": "B",
+          "text": "pengembangan konsep sistem"
+        },
+        {
+          "letter": "C",
+          "text": "perencanaan"
+        },
+        {
+          "letter": "D",
+          "text": "analisis kebutuhan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 3",
+      "num": 52
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-1] Dari pilihan berikut, yang merupakan urutan proses dari metode/model SDLC RAD",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mendengar kan Pelanggan Purwarupa"
+        },
+        {
+          "letter": "B",
+          "text": "Permulaan"
+        },
+        {
+          "letter": "C",
+          "text": "Analisis"
+        },
+        {
+          "letter": "D",
+          "text": "Pemodelan Bisnis Aplikasi"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 3",
+      "num": 53
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-4] Ciri khas dari met ode/ model SDLC Iteratif adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "setiap proses yang dilakukan paralel selalu menghasilkan produk pada setiap t ahapa nnya"
+        },
+        {
+          "letter": "B",
+          "text": "prosesnya ber put ar dengan proses yang sama sampai seluruh kebutuhan pelanggan ter penuhi"
+        },
+        {
+          "letter": "C",
+          "text": "pengembang dibagi menjadi beberapa tim untuk mengerjakan setiap komponen yang telah di pilah dengan baik"
+        },
+        {
+          "letter": "D",
+          "text": "prosesnya dilakukan secara berurutan dan tidak dapat kembali ke proses sebelumnya"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 3",
+      "num": 54
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-5] Berikut ini yang bukan merupakan adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "analisis risiko"
+        },
+        {
+          "letter": "B",
+          "text": "evaluasi pelanggan"
+        },
+        {
+          "letter": "C",
+          "text": "rekayasa"
+        },
+        {
+          "letter": "D",
+          "text": "pengujian pengguna"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 3",
+      "num": 55
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-6] Berikut ini yang bukan merupakan karakteristik",
+      "options": [
+        {
+          "letter": "A",
+          "text": "proses iteratif"
+        },
+        {
+          "letter": "B",
+          "text": "ber tahap dengan progres menaik"
+        },
+        {
+          "letter": "C",
+          "text": "perubahan kebutuhan perangkat lunak kurang di akom odas i"
+        },
+        {
+          "letter": "D",
+          "text": "setiap iterasi memperbaiki iterasi sebelumnya"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 3",
+      "num": 56
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-7] Berikut ini yang bukan merupakan karakteristik adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "m engakomodasi perubahan kebutuhan perangkat lunak."
+        },
+        {
+          "letter": "B",
+          "text": "mendukung f asilitas penggunaan kembali."
+        },
+        {
+          "letter": "C",
+          "text": "mem bagi pengembangan menjadi beberapa tim pengembang yang bekerja secara paralel."
+        },
+        {
+          "letter": "D",
+          "text": "integrasi tidak hanya dilakukan di akhir proyek (\"big bang \")."
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 3",
+      "num": 57
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-8] Dari pilihan berikut, yang merupakan urutan proses dari metode/model SDLC RUP",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mendengar kan Pelanggan Purwarupa"
+        },
+        {
+          "letter": "B",
+          "text": "Permulaan"
+        },
+        {
+          "letter": "C",
+          "text": "Pemodelan Bisnis Aplikasi"
+        },
+        {
+          "letter": "D",
+          "text": "Analisis"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 3",
+      "num": 58
+    },
+    {
+      "module": "M3",
+      "question": "[M3-TF2-9] Dari pilihan berikut, merupakan tahap pada RUP yang fokus pada pengembangan komponen dan fitur-fit ur sistem adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "inception"
+        },
+        {
+          "letter": "B",
+          "text": "elaboration"
+        },
+        {
+          "letter": "C",
+          "text": "construction"
+        },
+        {
+          "letter": "D",
+          "text": "transition"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 3",
+      "num": 59
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF1-1] Karakteristik paradigma pemrograman terstruktur adalah sebagai berikut, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pemrograman berdasarkan pembuatan prosedur dan fungsi atau proses atau modul"
+        },
+        {
+          "letter": "B",
+          "text": "pemrograman berdasarkan pembuatan enkapsulasi"
+        },
+        {
+          "letter": "C",
+          "text": "fungsi-f ungsi dan prose dur-prosedur ditulis secara sekuensial atau t erur ut dari atas ke bawah sesuai dengan kebergantungan antar fungsi atau prosedur"
+        },
+        {
+          "letter": "D",
+          "text": "pemodulan pada pemrograman terstruktur dibagi berdasarkan f ungsi-fungsi dan prosedur-prosedur"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 4",
+      "num": 60
+    },
+    {
+      "module": "M4",
+      "question": "[M4-TF1-5] Dekomposisi proses pada DFD adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "melakukan pemecahan proses menjadi lebih detail"
+        },
+        {
+          "letter": "B",
+          "text": "menjadi kan pr o"
+        },
+        {
+          "letter": "C",
+          "text": "mengubah nama proses"
+        },
+        {
+          "letter": "D",
+          "text": "menggabungkan proses dari yang lebih detail ke yang lebih umum"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 4",
+      "num": 61
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1-1] Berikut ini adalah karakteristik dari metodologi berorientasi objek, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "strategi pem bangunan perangkat lunak yang mengorgani sasi kan kumpulan objek"
+        },
+        {
+          "letter": "B",
+          "text": "analisis objek yang dibuat menjadi prosedur dan fungsi terstrukt ur"
+        },
+        {
+          "letter": "C",
+          "text": "menggunakan pendekatan objek secara sistematik"
+        },
+        {
+          "letter": "D",
+          "text": "penerapan prinsip-prinsip pengelolaan kompleksitas yang meliputi rangkaian aktivitas analisis berorientasi objek"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 5",
+      "num": 62
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1-3] Di bawah ini merupakan keuntungan menggunakan metodologi berorientasi objek, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kecepatan pengembangan"
+        },
+        {
+          "letter": "B",
+          "text": "meningkatkan produktivitas"
+        },
+        {
+          "letter": "C",
+          "text": "kenyam anan pengembangan"
+        },
+        {
+          "letter": "D",
+          "text": "kemudahan pemeliharaan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 5",
+      "num": 63
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1-4] Di bawah ini yang bukan merupakan karakteristik kelas",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kumpulan hal dengan karakteristik sama"
+        },
+        {
+          "letter": "B",
+          "text": "definisi stat i k dan himpunan hal yang sama yang mungkin lahir atau dici ptakan di dalam nya"
+        },
+        {
+          "letter": "C",
+          "text": "mem punyai sifat (at ri but ), perilaku (operasi/met ode), hubungan"
+        },
+        {
+          "letter": "D",
+          "text": "kumpulan perilaku (fu ngsi atau prosedur) dan variabel global."
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 5",
+      "num": 64
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1-5] Di bawah ini yang bukan merupakan karakteristik objek adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kode program yang berisi kelas dan relasi nya"
+        },
+        {
+          "letter": "B",
+          "text": "abstraksi dan sesuat u yang m ewaki li dunia nyata seperti benda, m anusia, sat uan organisasi, tempat, kej adi an, struktur, status, atau hal-hal lain yang bersifat abst rak Rekayasa Perangkat Lunak untuk Pemrograman Berorientasi Objek"
+        },
+        {
+          "letter": "C",
+          "text": "entitas yang mampu menyimpan informasi (st at us) dan mem punvai operasi (perilaku) yang dapat diterapkan atau dapat berpengar uh pada status objeknya"
+        },
+        {
+          "letter": "D",
+          "text": "secara teknis merupakan elemen pada saat dimanipulasi, dan di hancurkan saat eksekusi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 5",
+      "num": 65
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1-6] Pengertian atribut adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "alokasi runtime dari kelas"
+        },
+        {
+          "letter": "B",
+          "text": "penggunaan kembali komponen yang telah dibuat"
+        },
+        {
+          "letter": "C",
+          "text": "variabel lokal yang terdapat di dalam kelas"
+        },
+        {
+          "letter": "D",
+          "text": "sej eni s variabel global di dalam kelas yang dapat ber upa nilai atau elemen data"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 5",
+      "num": 66
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF1-8] Enkapsulasi merupakan....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pembungkusan atribut untuk di pergunaka n objek lain"
+        },
+        {
+          "letter": "B",
+          "text": "pembungkusan atribut data dan layanan (operasi-operasi) yang dipunyai objek untuk menyembunyikan implementasi"
+        },
+        {
+          "letter": "C",
+          "text": "pembungkusan operasi menjadi metode"
+        },
+        {
+          "letter": "D",
+          "text": "prinsip atau konsep untuk merepresent asi kan dunia nyata yang kompleks menjadi satu bentuk model yang sederhana"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 5",
+      "num": 67
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2-2] Fungsi adanya pemodelan pada pem bangunan perangkat lunak adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mem ulai pembuatan perangkat lunak"
+        },
+        {
+          "letter": "B",
+          "text": "sebagai proses antara pada pem bangunan perangkat lunak"
+        },
+        {
+          "letter": "C",
+          "text": "sebagai proses akhir pembuatan perangkat lunak"
+        },
+        {
+          "letter": "D",
+          "text": "mem per mudah langkah berikut nya dari pengembangan sebuah sistem informasi atau perangkat lunak sehingga lebih terencana"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 5",
+      "num": 68
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2-3] Berikut adalah peran perangkat pemodelan, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "eksperiment asi"
+        },
+        {
+          "letter": "B",
+          "text": "prediksi"
+        },
+        {
+          "letter": "C",
+          "text": "pel uncuran"
+        },
+        {
+          "letter": "D",
+          "text": "Komunikasi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 5",
+      "num": 69
+    },
+    {
+      "module": "M5",
+      "question": "[M5-TF2-5] Berikut ini merupakan diagram UML kategori diagram",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kelas"
+        },
+        {
+          "letter": "B",
+          "text": "objek"
+        },
+        {
+          "letter": "C",
+          "text": "komponen"
+        },
+        {
+          "letter": "D",
+          "text": "Rekayasa Perangkat Lunak untuk Pemrograman Berorientasi Objek"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 5",
+      "num": 70
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1-1] Berikut ini adalah karakteristik umum dari metode Agile, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pemrosesan pendef inisi an spesifikasi kebutuhan, desain, dan implementasi berjalan secara paralel dan sering terjadi secara bersamaan"
+        },
+        {
+          "letter": "B",
+          "text": "perencanaan perlu dilakukan dengan membuat dokumentasi desain menggunakan beberapa jenis kar tu"
+        },
+        {
+          "letter": "C",
+          "text": "digunakannya perkakas/ perangkat yang mendukung proses pengembangan secara cepat dan sebi sa mungkin bersifat otomatis"
+        },
+        {
+          "letter": "D",
+          "text": "perangkat lunak yang dikembangkan merupakan hasil dari pengulangan proses"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 6",
+      "num": 71
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1-3] Berikut ini adalah pihak-pi hak yang terlibat dalam pengembangan Agile, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manajemen perusahaan"
+        },
+        {
+          "letter": "B",
+          "text": "pem angku kepentingan"
+        },
+        {
+          "letter": "C",
+          "text": "pengguna"
+        },
+        {
+          "letter": "D",
+          "text": "tim pengembang"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 6",
+      "num": 72
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1-4] Berikut ini adalah hal-hal yang terkait dengan prinsip metode Agile, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mem fasilit asi perubahan"
+        },
+        {
+          "letter": "B",
+          "text": "memelihara kesederhanaan"
+        },
+        {
+          "letter": "C",
+          "text": "tim pengembang yang memiliki keteram pi lan baik"
+        },
+        {
+          "letter": "D",
+          "text": "keterlibatan pelanggan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 6",
+      "num": 73
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1-5] Dengan menjalankan prinsip metode Agile maka dapat fokus pada nilai-ni lai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "perencanaan desain dan dokumentasi"
+        },
+        {
+          "letter": "B",
+          "text": "kolaborasi dengan pelanggan di bandingkan negosiasi kontrak"
+        },
+        {
+          "letter": "C",
+          "text": "perangkat lunak yang dapat bekerja dibandi ngkan dokumentasi yan menyel ur uh"
+        },
+        {
+          "letter": "D",
+          "text": "individu dan interaksi dibandi ngkan dengan proses dan per kakas/per angkat"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 6",
+      "num": 74
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1-7] Berikut ini adalah prinsip dari refleksi dari manifest asi Agile, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pengembangan perlu membuat dokumentasi desain secara detail"
+        },
+        {
+          "letter": "B",
+          "text": "pengembangan inkremental dapat dilakukan karena didukung oleh ukuran proyek yang cenderung kecil dan perlu adanya rilis perangkat lunak yang cukup sering"
+        },
+        {
+          "letter": "C",
+          "text": "perubahan didukung dengan adanya rilis versi perangkat lunak secara terjadwal kepada pelanggan"
+        },
+        {
+          "letter": "D",
+          "text": "keterlibatan pelanggan merupakan sesuat u yang sebaiknya didukung oleh kesepakatan secara berkelanjutan bersama tim pengembang"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 6",
+      "num": 75
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF1-10] Pengujian yang biasanya dilakukan pada karakteristik sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keterlibatan pengguna pada pengembangan pengujian dan validasi"
+        },
+        {
+          "letter": "B",
+          "text": "penggunaan kerangka kerja pengujian yang bersifat manual"
+        },
+        {
+          "letter": "C",
+          "text": "pengujian secara inkremental dari skenario yang didefinisikan dari setiap keterangan pengguna yang bisa jadi ber upa kart u keterangan"
+        },
+        {
+          "letter": "D",
+          "text": "penggunaan pendekatan pengembangan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 6",
+      "num": 76
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2-6] Pengertian Scrum Terdistribusi adalah scrum yang dilakukan pada beberapa....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tim yang memiliki latar belakang i lm u berbeda"
+        },
+        {
+          "letter": "B",
+          "text": "tim yang terdapat di lokasi yang berbeda"
+        },
+        {
+          "letter": "C",
+          "text": "pelanggan yang terdapat di lokasi yang berbeda"
+        },
+        {
+          "letter": "D",
+          "text": "pengguna yang terdapat di lokasi yang berbeda"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 6",
+      "num": 77
+    },
+    {
+      "module": "M6",
+      "question": "[M6-TF2-7] Scrum Master sebaiknya berada di lokasi yang sama dengan tim pengembang agar dapat lekas menyadari dan mengatasi permasalahan secara....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "bulanan"
+        },
+        {
+          "letter": "B",
+          "text": "mingguan"
+        },
+        {
+          "letter": "C",
+          "text": "tahunan"
+        },
+        {
+          "letter": "D",
+          "text": "harian"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 6",
+      "num": 78
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-1] Tujuan dari manajemen proyek perangkat lunak adalah agar perangkat lunak yang dibuat....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sesuai dengan harapan pengembang perangkat lunak"
+        },
+        {
+          "letter": "B",
+          "text": "sampai ke tangan pelanggan tepat waktu dan sesuai dengan harapan pelanggan"
+        },
+        {
+          "letter": "C",
+          "text": "dapat dijual kembali"
+        },
+        {
+          "letter": "D",
+          "text": "dapat digunakan oleh pengembang perangkat lunak dengan baik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 79
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-2] Berikut ini adalah aktivitas dalam manajemen perangkat lunak, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manajemen aktivitas proyek"
+        },
+        {
+          "letter": "B",
+          "text": "perencanaan proyek"
+        },
+        {
+          "letter": "C",
+          "text": "penjadwalan proyek"
+        },
+        {
+          "letter": "D",
+          "text": "manajemen komponen"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 80
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-3] Aktivitas yang dilakukan pada proyek perangkat lunak adalah sebagai berikut, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menulis proposal"
+        },
+        {
+          "letter": "B",
+          "text": "perencanaan dan penjadwalan"
+        },
+        {
+          "letter": "C",
+          "text": "seleksi dan evaluasi pelanggan"
+        },
+        {
+          "letter": "D",
+          "text": "seleksi dan evaluasi anggota proyek"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 81
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-4] Berikut ini adalah objek-objek yang harus dikelola dalam proyek perangkat lunak, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "orang/manusi a"
+        },
+        {
+          "letter": "B",
+          "text": "produk"
+        },
+        {
+          "letter": "C",
+          "text": "kakas"
+        },
+        {
+          "letter": "D",
+          "text": "proyek"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 82
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-5] Berikut ini adalah peran-per an dari orang-orang yang terlibat dalam proyek perangkat lunak, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "senior manager"
+        },
+        {
+          "letter": "B",
+          "text": "praktisi"
+        },
+        {
+          "letter": "C",
+          "text": "trainer"
+        },
+        {
+          "letter": "D",
+          "text": "pelanggan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 83
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-7] Berikut ini adalah faktor-f aktor yang perlu dipertimbangkan saat mem bet uk tim proyek perangkat lunak, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kebutuhan akan kualitas dan kehandalan dari sistem yang akan dibuat"
+        },
+        {
+          "letter": "B",
+          "text": "adanya relasi dengan pelanggan dan pihak-pi hak terkait"
+        },
+        {
+          "letter": "C",
+          "text": "lama nya waktu ker j asam a tim"
+        },
+        {
+          "letter": "D",
+          "text": "tingkat kesulitan dari permasalahan yang perlu untuk diselesaikan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 84
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-8] Berikut ini adalah hal-hal yang dapat membuat pekerjaan proyek mengalami masalah, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sudah adanya produk perangkat lunak yang sej eni s"
+        },
+        {
+          "letter": "B",
+          "text": "kesulitan koordinasi antar anggota tim"
+        },
+        {
+          "letter": "C",
+          "text": "terjadi kebingungan pada pekerjaan proyek"
+        },
+        {
+          "letter": "D",
+          "text": "besarnya skala dari usaha yang dilakukan pada proses pengembangan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 85
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-9] Hal-hal yang harus dimiliki oleh pendefinisian lingkup perangkat lunak adalah sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tidak ambigu dan dapat dipahami pada tingkat pengel ol a atau manajemen maupun pada tingkat teknis"
+        },
+        {
+          "letter": "B",
+          "text": "data terkait harus bersifat kuantitatif"
+        },
+        {
+          "letter": "C",
+          "text": "aturan dan batasan jelas dari perangkat lunak"
+        },
+        {
+          "letter": "D",
+          "text": "profil pengguna secara individu"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 86
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF1-10] Berikut ini adalah isi dari kerangka kerja aktivitas proyek perangkat lunak untuk mendukung perencanaan, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pembelian produk"
+        },
+        {
+          "letter": "B",
+          "text": "komunikasi"
+        },
+        {
+          "letter": "C",
+          "text": "proses rekayasa"
+        },
+        {
+          "letter": "D",
+          "text": "analisis risiko"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 7",
+      "num": 87
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-1] Berikut ini adalah fase-f ase dari perencanaan proyek perangkat lunak, fase....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "permulaan"
+        },
+        {
+          "letter": "B",
+          "text": "proposal"
+        },
+        {
+          "letter": "C",
+          "text": "pemantauan secara ber kala sepanjang proyek"
+        },
+        {
+          "letter": "D",
+          "text": "persetujuan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 88
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-2] Fase proposal adalah fase yang berisi rangkaian proses berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penent uan siapa saja tim proyek"
+        },
+        {
+          "letter": "B",
+          "text": "penent uan sumber daya"
+        },
+        {
+          "letter": "C",
+          "text": "penent uan jadwal dan biaya secara garis besar"
+        },
+        {
+          "letter": "D",
+          "text": "kontrak perjanjian"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 89
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-3] Berikut ini adalah waktu-wakt u dimana perencanaan proyek dapat dilakukan, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "di awal proyek"
+        },
+        {
+          "letter": "B",
+          "text": "di sepanjang proyek"
+        },
+        {
+          "letter": "C",
+          "text": "di setiap tahapan proses proyek"
+        },
+        {
+          "letter": "D",
+          "text": "di saat proyek selesai"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 90
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-4] Berikut ini adalah hal-hal yang harus masuk dalam perencanaan proyek, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "spesifikasi produk"
+        },
+        {
+          "letter": "B",
+          "text": "sumber daya"
+        },
+        {
+          "letter": "C",
+          "text": "pekerjaan yang perlu dilakukan"
+        },
+        {
+          "letter": "D",
+          "text": "perencanaan permasalahan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 91
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-5] Berikut ini adalah hal-hal yang harus masuk dalam perencanaan proyek, kecuali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "spesifikasi produk"
+        },
+        {
+          "letter": "B",
+          "text": "sumber daya"
+        },
+        {
+          "letter": "C",
+          "text": "pekerjaan yang perlu dilakukan"
+        },
+        {
+          "letter": "D",
+          "text": "perencanaan permasalahan"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 92
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-6] Berikut ini adalah hal-hal yang diperlukan dalam perencanaan ruang lingkup perangkat lunak dalam perencanaan proyek, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "metode pengujian perangkat lunak"
+        },
+        {
+          "letter": "B",
+          "text": "data dan kendali/ kontrol yang perlu untuk diproses"
+        },
+        {
+          "letter": "C",
+          "text": "antarmuka atau t am pi lan"
+        },
+        {
+          "letter": "D",
+          "text": "performansi perangkat lunak"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 93
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-7] Pengelompokan dari sumber daya proyek yang perlu direncanakan dalam perencanaan proyek adalah sebagai berikut, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lingkungan"
+        },
+        {
+          "letter": "B",
+          "text": "manusi a"
+        },
+        {
+          "letter": "C",
+          "text": "fasili tas m obili tas"
+        },
+        {
+          "letter": "D",
+          "text": "komponen perangkat lunak pendukung yang dapat digunakan kembali"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 94
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-9] Sumber daya komponen perangkat lunak pendukung yang dapat digunakan kembali",
+      "options": [
+        {
+          "letter": "A",
+          "text": "merupakan perangkat lunak yang sudah ada dan dapat digunakan, dapat dihasilkan dari pengembangan proyek sebelumnya ataupun di beli dari pihak ketiga"
+        },
+        {
+          "letter": "B",
+          "text": "merupakan perangkat lunak sej eni s ataupun bagian perangkat lunak yang dapat dimanfaat kan yang telah dikembangkan sebelumnya tanpa perlu mem odi fikasi"
+        },
+        {
+          "letter": "C",
+          "text": "komponen perangkat lunak yang perlu untuk dibangun dari awal di proyek saat ini"
+        },
+        {
+          "letter": "D",
+          "text": "merupakan perangkat lunak sej eni s ataupun bagian perangkat lunak yang dapat dim anf aat kan yang telah dikembangkan sebelumnya"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 95
+    },
+    {
+      "module": "M7",
+      "question": "[M7-TF2-10] Berikut ini adalah permasalahan yang dapat terjadi ketika perencanaan jadwal dan biaya kurang baik, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "jadwal yang dit etapkan menjadi molor"
+        },
+        {
+          "letter": "B",
+          "text": "m olornya jadwal dapat ber im bas pada pem bengkakan biaya"
+        },
+        {
+          "letter": "C",
+          "text": "rusa knya kredi bili tas atau reput asi peker ja proyek perangkat lunak"
+        },
+        {
+          "letter": "D",
+          "text": "kebi ngungan tim pengembang karena kurang jelas nya produk yang akan dibuat"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 2 Modul 7",
+      "num": 96
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1-1] Sebuah konseptual yang menyebutkan bahwa sebuah risiko akan berhubungan dengan masa depan di kem ukaka n oleh....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bob Charrette"
+        },
+        {
+          "letter": "B",
+          "text": "Robert Charette"
+        },
+        {
+          "letter": "C",
+          "text": "Denni s Mize"
+        },
+        {
+          "letter": "D",
+          "text": "Jeff Wi l helm"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 1 Modul 8",
+      "num": 97
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1-4] Risiko yang berdampak pada gagal nya migrasi data yang dilakukan kepada perangkat lunak yang baru merupakan risiko....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "proyek"
+        },
+        {
+          "letter": "B",
+          "text": "bisnis"
+        },
+        {
+          "letter": "C",
+          "text": "tidak terpr edi ksi"
+        },
+        {
+          "letter": "D",
+          "text": "teknik"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 8",
+      "num": 98
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1-8] Komponen risiko yang merupakan tingkat ketidakpastian jadwal proyek akan sesuai dengan rencana dan tepat waktu merupakan komponen risiko....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kinerja"
+        },
+        {
+          "letter": "B",
+          "text": "biaya"
+        },
+        {
+          "letter": "C",
+          "text": "dukungan"
+        },
+        {
+          "letter": "D",
+          "text": "jadwal"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kunci Tes Formatif 1 Modul 8",
+      "num": 99
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF1-9] Faktor komponen penggerak risiko yang harus diutamakan adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "bencana"
+        },
+        {
+          "letter": "B",
+          "text": "kritis"
+        },
+        {
+          "letter": "C",
+          "text": "kecil"
+        },
+        {
+          "letter": "D",
+          "text": "dapat diabaikan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 1 Modul 8",
+      "num": 100
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2-1] Proyeksi risiko merupakan kegiatan yang bert uj uan menilai setiap risiko ke dalam …",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "4 Manajemen Risiko Proyek Perangkat Lunak"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 8",
+      "num": 101
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2-2] Probabilitas dari risiko adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dampak dari risiko"
+        },
+        {
+          "letter": "B",
+          "text": "kemungkinan risiko terjadi"
+        },
+        {
+          "letter": "C",
+          "text": "mengontrol risiko"
+        },
+        {
+          "letter": "D",
+          "text": "mengevaluasi kerugian dari risiko"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 8",
+      "num": 102
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2-3] Kekurangan keuangan atau dana yang signifikan sehingga dapat mengakibatkan kegagalan proyek merupakan dampak risiko pada kategori....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "bencana"
+        },
+        {
+          "letter": "B",
+          "text": "kritis"
+        },
+        {
+          "letter": "C",
+          "text": "kecil"
+        },
+        {
+          "letter": "D",
+          "text": "dapat diabaikan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 8",
+      "num": 103
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2-4] Memproyeksikan risiko sama dengan....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengurangi risiko"
+        },
+        {
+          "letter": "B",
+          "text": "menilai risiko"
+        },
+        {
+          "letter": "C",
+          "text": "mem per kirakan risiko"
+        },
+        {
+          "letter": "D",
+          "text": "mengendalikan risiko"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 8",
+      "num": 104
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2-7] Format CTC yang digunakan untuk mengidentifikasi risiko adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tr ansisi-kondi si-konse kuensi"
+        },
+        {
+          "letter": "B",
+          "text": "kondisi-konsekuensi-transisi"
+        },
+        {
+          "letter": "C",
+          "text": "kondisi-transi si-konsekuensi"
+        },
+        {
+          "letter": "D",
+          "text": "konsekuensi-transi si-kondisi"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 8",
+      "num": 105
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2-8] Salah satu konsekuensi yang paling utama dalam mel aksa nakan langkah mitigasi pemantauan, dan manajemen risiko (RMMM) adalah mem erlukan tambahan....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SDM"
+        },
+        {
+          "letter": "B",
+          "text": "biaya"
+        },
+        {
+          "letter": "C",
+          "text": "waktu"
+        },
+        {
+          "letter": "D",
+          "text": "tenaga"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kunci Tes Formatif 2 Modul 8",
+      "num": 106
+    },
+    {
+      "module": "M8",
+      "question": "[M8-TF2-10] Memastikan bahwa lan gkah-langkah penghindaran risiko telah diterapkan dengan benar merupakan salah satu langkah dalam....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengidentifikasi risiko"
+        },
+        {
+          "letter": "B",
+          "text": "mem proyeksikan risiko"
+        },
+        {
+          "letter": "C",
+          "text": "memantau risiko"
+        },
+        {
+          "letter": "D",
+          "text": "menganal isis risiko"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 8",
+      "num": 107
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2-1] Prinsip Par et to adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengumpulkan dan mengel om pokkan informasi yang cacat dan kelir u terkait dengan pengembangan perangkat lunak"
+        },
+        {
+          "letter": "B",
+          "text": "melakukan tindakan pelacakan terhadap penyebab informasi yang cacat dan kel iru terkait dengan pengembangan perangkat lunak"
+        },
+        {
+          "letter": "C",
+          "text": "dari 80% cacat program biasanya dapat di l aca k hi ngga 20% penyebabnya"
+        },
+        {
+          "letter": "D",
+          "text": "setelah cacat dan kekeliruan dapat terident ifi kasi sel anjut nya lakukan per bai kan-perbai kan dari penyebab tersebut."
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 9",
+      "num": 108
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2-7] Salah satu dari tiga langkah inti dari Six Sigma adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "penyebab yang paling penting"
+        },
+        {
+          "letter": "B",
+          "text": "memperbaiki proses dengan m enghilangkan sumber penye bab cacat atau kesalahan program"
+        },
+        {
+          "letter": "C",
+          "text": "memastikan bahwa pengembangan se lanjut nya tidak akan m uncul kembali yang di se babkan oleh cacat"
+        },
+        {
+          "letter": "D",
+          "text": "tidak a da jawaban yang benar"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Kunci Tes Formatif 2 Modul 9",
+      "num": 109
+    },
+    {
+      "module": "M9",
+      "question": "[M9-TF2-8] Sebuah organisasi perusahaan pengembangan perangkat lunak melakukan analisis menggunakan Six Sigma. Namun, dalam melakukan analisis tersebut diperlukan per bai kan. Salah satu langkah dalam melakukan per bai kan tersebut adalah....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "perangkat lunak menggunakan metode komunikasi yang ter definisi dengan baik"
+        },
+        {
+          "letter": "B",
+          "text": "mengukur proses-proses perangkat lunak beserta out putnya yang sudah ada untuk menentukan kinerja kualitas yang se dang dikembangkan saat ini (me pada program)"
+        },
+        {
+          "letter": "C",
+          "text": "kesalahan program"
+        },
+        {
+          "letter": "D",
+          "text": "tidak a da jawaban yang benar"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Kunci Tes Formatif 2 Modul 9",
+      "num": 110
+    }
+  ],
+  "essayQuestions": []
+}
