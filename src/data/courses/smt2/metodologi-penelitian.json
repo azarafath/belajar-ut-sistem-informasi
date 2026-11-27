@@ -1,0 +1,1706 @@
+{
+  "slug": "metodologi-penelitian",
+  "semester": 2,
+  "url": "/smt2/metodologi-penelitian",
+  "canonical": "https://belajar-ut.azf.my.id/smt2/metodologi-penelitian.html",
+  "title": "MSIM431201: Metodologi Penelitian — Modul & Bank Soal UT",
+  "shortLabel": "Metodologi Penelitian (MSIM431201)",
+  "h1": "MSIM431201: Metodologi Penelitian — Modul & Bank Soal UT",
+  "metaDesc": "Ringkasan lengkap 9 modul Metodologi Penelitian (MSIM431201) UT: Konsep & Langkah Penelitian, Rumusan Masalah & Keaslian, Kajian Pustaka & Teori, Hipotesis, Kualitatif/Kuantitatif/Campuran, Pengukuran & Kuesioner, Validitas/Reliabilitas/Sampling, Statistika Deskriptif & Inferensial, Laporan & Sitasi, serta 63 soal PG.",
+  "coverTag": "Semester 2 • Non-UAS (Pendalaman Materi & Proposal)",
+  "coverTagColor": "#2563eb",
+  "coverDesc": "Ringkasan lengkap 9 modul Metodologi Penelitian (MSIM431201) UT: Konsep & Langkah Penelitian, Rumusan Masalah & Keaslian, Kajian Pustaka & Teori, Hipotesis, Kualitatif/Kuantitatif/Campuran, Pengukuran & Kuesioner, Validitas/Reliabilitas/Sampling, Statistika Deskriptif & Inferensial, Laporan & Sitasi, serta 63 soal PG.",
+  "badges": [],
+  "navItems": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "desc": "Konsep Dasar & Langkah-langkah Penelitian"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "desc": "Rumusan Masalah & Keaslian Penelitian"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "desc": "Kajian Pustaka & Landasan Teori"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "desc": "Pertanyaan Penelitian & Pengembangan Hipotesis"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "desc": "Metode Kualitatif, Kuantitatif & Campuran"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "desc": "Aras Pengukuran & Pembuatan Kuesioner"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "desc": "Validitas, Reliabilitas & Teknik Sampling"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "desc": "Distribusi Data, Statistika Deskriptif & Inferensial"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "desc": "Analisis Hasil, Kesimpulan, Saran & Sitasi"
+    },
+    {
+      "id": "ahli",
+      "label": "Ahli",
+      "desc": "Tokoh Metodologi Penelitian & Kerangka Rujukan Kunci"
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1",
+      "title": "Konsep Dasar & Langkah-langkah Penelitian",
+      "html": "<section class=\"mod-card\" id=\"m1\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#2563eb;\">MODUL 1</span>\n        <h2 class=\"mod-title\">Modul 1: Konsep Dasar &amp; Langkah-langkah Penelitian</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h3>KB 1: Pemahaman Umum tentang Penelitian</h3>\n          <ul class=\"neat\">\n            <li><strong>Definisi (Leedy &amp; Ormord, 2015):</strong> Proses <em>sistematis</em> untuk mengumpulkan data, menganalisisnya, dan menginterpretasikan hasil guna menambah pemahaman atas fenomena yang sudah ada atau baru.</li>\n            <li><strong>Karakteristik Penelitian Berkualitas:</strong> Didasarkan pada penelitian sebelumnya, dapat direplikasi, berlaku pada <em>setting</em> berbeda, terkait teori relevan, <em>doable</em>, bersifat siklis &amp; inkremental, serta apolitis untuk kebaikan masyarakat.</li>\n            <li><strong>Tipe Penelitian:</strong> Deskriptif vs Analitik; Terapan vs Dasar (<em>Basic</em>); Kualitatif vs Kuantitatif; Konseptual vs Empiris; Satu waktu (<em>cross-sectional</em>) vs Longitudinal; Laboratorium vs Lapangan vs Simulasi.</li>\n            <li><strong>Hierarki Konsep (Kothari, 2004):</strong> <em>Metodologi</em> (cara sistematis) → <em>Metode</em> (pendekatan/alat) → <em>Teknik</em> (perilaku &amp; instrumen spesifik seperti perekaman dan analisis data).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Langkah-langkah Penelitian</h3>\n          <ul class=\"neat\">\n            <li><strong>8 Langkah Sistematis:</strong> (1) Merumuskan masalah → (2) Kajian pustaka → (3) Menentukan pertanyaan penelitian &amp;/atau hipotesis → (4) Menentukan metode penelitian → (5) Mengumpulkan data → (6) Menganalisis data → (7) Menginterpretasikan hasil → (8) Melaporkan hasil.</li>\n            <li><strong>4 Kata Kunci Utama:</strong> Proses sistematis, mengumpulkan data, menganalisis &amp; menginterpretasikan data, serta meningkatkan pemahaman fenomena.</li>\n            <li><strong>5 Alat Bantu Peneliti:</strong> Perpustakaan &amp; sumber kepustakaan, teknologi komputer, alat ukur (instrumen), statistika, dan bahasa.</li>\n            <li><strong>Etika &amp; Objektivitas:</strong> Peneliti tidak boleh hanya mencari data yang mendukung hipotesisnya; generalisasi harus disampaikan secara cermat dan hati-hati.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Siklus 8 Langkah Penelitian Sistematis (Modul 1)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"12\" y=\"16\" width=\"148\" height=\"52\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"86\" y=\"38\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">1. Rumusan Masalah</text>\n          <text x=\"86\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Identifikasi persoalan</text>\n          <path d=\"M162 42 L180 42\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"182\" y=\"16\" width=\"148\" height=\"52\" rx=\"8\" fill=\"#e0e7ff\" stroke=\"#4338ca\" stroke-width=\"1.5\"/>\n          <text x=\"256\" y=\"38\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">2. Kajian Pustaka</text>\n          <text x=\"256\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Cari gap &amp; teori</text>\n          <path d=\"M332 42 L350 42\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"352\" y=\"16\" width=\"148\" height=\"52\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.5\"/>\n          <text x=\"426\" y=\"38\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">3. Pertanyaan/Hipotesis</text>\n          <text x=\"426\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">Arah &amp; dugaan cerdas</text>\n          <path d=\"M502 42 L520 42\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"522\" y=\"16\" width=\"146\" height=\"52\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"595\" y=\"38\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">4. Metode Penelitian</text>\n          <text x=\"595\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">KUAL / KUAN / Mix</text>\n\n          <path d=\"M595 70 L595 102\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"522\" y=\"104\" width=\"146\" height=\"52\" rx=\"8\" fill=\"#dcfce7\" stroke=\"#15803d\" stroke-width=\"1.5\"/>\n          <text x=\"595\" y=\"126\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">5. Kumpulkan Data</text>\n          <text x=\"595\" y=\"142\" text-anchor=\"middle\" font-size=\"9\">Primer &amp; sekunder</text>\n          <path d=\"M520 130 L502 130\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"352\" y=\"104\" width=\"148\" height=\"52\" rx=\"8\" fill=\"#fce7f3\" stroke=\"#be185d\" stroke-width=\"1.5\"/>\n          <text x=\"426\" y=\"126\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">6. Analisis Data</text>\n          <text x=\"426\" y=\"142\" text-anchor=\"middle\" font-size=\"9\">Statistik / tematik</text>\n          <path d=\"M350 130 L332 130\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"182\" y=\"104\" width=\"148\" height=\"52\" rx=\"8\" fill=\"#ede9fe\" stroke=\"#6d28d9\" stroke-width=\"1.5\"/>\n          <text x=\"256\" y=\"126\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">7. Interpretasi Hasil</text>\n          <text x=\"256\" y=\"142\" text-anchor=\"middle\" font-size=\"9\">Jawab pertanyaan</text>\n          <path d=\"M180 130 L162 130\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"12\" y=\"104\" width=\"148\" height=\"52\" rx=\"8\" fill=\"#f1f5f9\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n          <text x=\"86\" y=\"126\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">8. Laporan &amp; Siklus Baru</text>\n          <text x=\"86\" y=\"142\" text-anchor=\"middle\" font-size=\"9\">Saran riset lanjut</text>\n\n          <path d=\"M86 102 L86 70\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n          <text x=\"340\" y=\"186\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#475569\">Penelitian bersifat siklis: hasil &amp; saran memicu rumusan masalah baru</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Proses penelitian berjalan sistematis dari perumusan masalah hingga pelaporan hasil. Garis putus-putus menunjukkan sifat <em>siklis</em> penelitian di mana temuan baru memicu topik penelitian berikutnya.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 1</h4>\n        <ul class=\"neat\">\n          <li><strong>Bukan Penelitian:</strong> Sekadar mengumpulkan fakta tanpa interpretasi, memindahkan informasi dari satu tempat ke tempat lain, atau mencari pencerahan diri (misalnya belajar cara memakai fitur perangkat lunak).</li>\n          <li><strong>Perbedaan Metodologi vs Metode vs Teknik:</strong> Metodologi adalah ilmu/cara sistematis menyelesaikan masalah; metode adalah prosedur spesifik (misal survei, eksperimen); teknik adalah instrumen/cara operasional (misal kuesioner Likert, uji-t).</li>\n          <li><strong>Design Science Research (DSR) &amp; SDLC dalam SI:</strong> Dalam bidang Sistem Informasi, selain penelitian perilaku (<em>behavioral</em>), dikenal penelitian perancangan artefak TI (<em>Design Science Research</em> oleh Hevner dkk.) yang membangun dan mengevaluasi artefak/sistem.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 1</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Proses Sistematis</span>\n          <span class=\"kw-chip\">Metodologi vs Metode vs Teknik</span>\n          <span class=\"kw-chip\">Siklis &amp; Inkremental</span>\n          <span class=\"kw-chip\">8 Langkah Penelitian</span>\n          <span class=\"kw-chip\">Valid &amp; Andal</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Penelitian bukan sekadar mengumpulkan data, melainkan proses sistematis yang menuntut <strong>analisis dan interpretasi data</strong> untuk menghasilkan pemahaman baru.</p>\n      </div>\n    </section>",
+      "text": "MODUL 1 Modul 1: Konsep Dasar & Langkah-langkah Penelitian KB 1: Pemahaman Umum tentang Penelitian Definisi (Leedy & Ormord, 2015): Proses sistematis untuk mengumpulkan data, menganalisisnya, dan menginterpretasikan hasil guna menambah pemahaman atas fenomena yang sudah ada atau baru. Karakteristik Penelitian Berkualitas: Didasarkan pada penelitian sebelumnya, dapat direplikasi, berlaku pada setting berbeda, terkait teori relevan, doable , bersifat siklis & inkremental, serta apolitis untuk kebaikan masyarakat. Tipe Penelitian: Deskriptif vs Analitik; Terapan vs Dasar ( Basic ); Kualitatif vs Kuantitatif; Konseptual vs Empiris; Satu waktu ( cross-sectional ) vs Longitudinal; Laboratorium vs Lapangan vs Simulasi. Hierarki Konsep (Kothari, 2004): Metodologi (cara sistematis) → Metode (pendekatan/alat) → Teknik (perilaku & instrumen spesifik seperti perekaman dan analisis data). KB 2: Langkah-langkah Penelitian 8 Langkah Sistematis: (1) Merumuskan masalah → (2) Kajian pustaka → (3) Menentukan pertanyaan penelitian &/atau hipotesis → (4) Menentukan metode penelitian → (5) Mengumpulkan data → (6) Menganalisis data → (7) Menginterpretasikan hasil → (8) Melaporkan hasil. 4 Kata Kunci Utama: Proses sistematis, mengumpulkan data, menganalisis & menginterpretasikan data, serta meningkatkan pemahaman fenomena. 5 Alat Bantu Peneliti: Perpustakaan & sumber kepustakaan, teknologi komputer, alat ukur (instrumen), statistika, dan bahasa. Etika & Objektivitas: Peneliti tidak boleh hanya mencari data yang mendukung hipotesisnya; generalisasi harus disampaikan secara cermat dan hati-hati. Siklus 8 Langkah Penelitian Sistematis (Modul 1) Penjelasan Diagram: Proses penelitian berjalan sistematis dari perumusan masalah hingga pelaporan hasil. Garis putus-putus menunjukkan sifat siklis penelitian di mana temuan baru memicu topik penelitian berikutnya. 📌 Detail Kecil Wajib Tahu — Modul 1 Bukan Penelitian: Sekadar mengumpulkan fakta tanpa interpretasi, memindahkan informasi dari satu tempat ke tempat lain, atau mencari pencerahan diri (misalnya belajar cara memakai fitur perangkat lunak). Perbedaan Metodologi vs Metode vs Teknik: Metodologi adalah ilmu/cara sistematis menyelesaikan masalah; metode adalah prosedur spesifik (misal survei, eksperimen); teknik adalah instrumen/cara operasional (misal kuesioner Likert, uji-t). Design Science Research (DSR) & SDLC dalam SI: Dalam bidang Sistem Informasi, selain penelitian perilaku ( behavioral ), dikenal penelitian perancangan artefak TI ( Design Science Research oleh Hevner dkk.) yang membangun dan mengevaluasi artefak/sistem. 🔑 Kata Kunci Wajib Ingat — Modul 1 Proses Sistematis Metodologi vs Metode vs Teknik Siklis & Inkremental 8 Langkah Penelitian Valid & Andal Poin Penting: Penelitian bukan sekadar mengumpulkan data, melainkan proses sistematis yang menuntut analisis dan interpretasi data untuk menghasilkan pemahaman baru."
+    },
+    {
+      "id": "m2",
+      "title": "Rumusan Masalah & Keaslian Penelitian",
+      "html": "<section class=\"mod-card\" id=\"m2\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#059669;\">MODUL 2</span>\n        <h2 class=\"mod-title\">Modul 2: Rumusan Masalah &amp; Keaslian Penelitian</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h3>KB 1: Rumusan Masalah</h3>\n          <ul class=\"neat\">\n            <li><strong>Hierarki Istilah:</strong> <em>Bidang Penelitian</em> (misal Sistem Informasi) → <em>Topik Penelitian</em> → <em>Masalah Penelitian</em> → <em>Pertanyaan Penelitian</em> → <em>Hipotesis</em>.</li>\n            <li><strong>2 Jenis Masalah:</strong> <em>Masalah Praktis</em> (organisasi, layanan, pengguna) dan <em>Masalah Teoritis</em> (perluasan pemahaman/teori tanpa dampak langsung segera).</li>\n            <li><strong>Aturan Penulisan Rumusan Masalah:</strong> Wajib memakai <strong>kalimat berita/pernyataan</strong> (bukan kalimat tanya), berisi persoalan dari Latar Belakang + konsekuensinya jika tidak diselesaikan, dan <strong>tidak boleh berisi solusi</strong>.</li>\n            <li><strong>4 Situasi yang Dihindari:</strong> Sekadar pencerahan diri, hanya membandingkan dua set data tanpa interpretasi, jawaban sekadar ya/tidak, atau masalah yang tidak perlu interpretasi data.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Keaslian Penelitian, Tujuan &amp; Manfaat</h3>\n          <ul class=\"neat\">\n            <li><strong>Keaslian Penelitian:</strong> Membuktikan riset yang diusulkan berbeda dari studi sebelumnya dalam topik yang sama melalui kajian pustaka 5 tahun terakhir.</li>\n            <li><strong>Diagram Tulang Ikan (<em>Fishbone</em>):</strong> Alat visual menggunakan kata kunci untuk memetakan artikel relevan (5 tahun terakhir) sehingga tampak posisi unik riset kita.</li>\n            <li><strong>5 Kategori Kesenjangan (<em>Research Gap</em>):</strong> Kesenjangan bukti (<em>evidence</em>), metodologi, empiris, teoritis, dan populasi.</li>\n            <li><strong>Tujuan &amp; Manfaat:</strong> Tujuan memakai kata kerja terukur (<em>membandingkan, menghitung, menentukan, memverifikasi</em>) agar ketercapaiannya dapat dievaluasi.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Hierarki Penelitian &amp; Diagram Tulang Ikan Keaslian Penelitian (Modul 2)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"10\" y=\"12\" width=\"290\" height=\"180\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"155\" y=\"32\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Hierarki Masalah ke Hipotesis</text>\n          <rect x=\"35\" y=\"42\" width=\"240\" height=\"24\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#059669\"/><text x=\"155\" y=\"58\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">1. Bidang Penelitian (Sistem Informasi)</text>\n          <rect x=\"50\" y=\"72\" width=\"210\" height=\"24\" rx=\"5\" fill=\"#a7f3d0\" stroke=\"#059669\"/><text x=\"155\" y=\"88\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">2. Topik Penelitian (Keamanan SI)</text>\n          <rect x=\"65\" y=\"102\" width=\"180\" height=\"24\" rx=\"5\" fill=\"#fef08a\" stroke=\"#ca8a04\"/><text x=\"155\" y=\"118\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">3. Masalah (Kalimat Berita)</text>\n          <rect x=\"80\" y=\"132\" width=\"150\" height=\"24\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"155\" y=\"148\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">4. Pertanyaan Penelitian</text>\n          <rect x=\"95\" y=\"162\" width=\"120\" height=\"22\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#e11d48\"/><text x=\"155\" y=\"177\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">5. Hipotesis (H0 / Ha)</text>\n\n          <rect x=\"316\" y=\"12\" width=\"354\" height=\"180\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"1.5\"/>\n          <text x=\"493\" y=\"32\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Diagram Tulang Ikan (Keaslian Riset)</text>\n          <line x1=\"340\" y1=\"108\" x2=\"555\" y2=\"108\" stroke=\"#1e293b\" stroke-width=\"3\"/>\n          <line x1=\"375\" y1=\"54\" x2=\"405\" y2=\"108\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n          <line x1=\"445\" y1=\"54\" x2=\"475\" y2=\"108\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n          <line x1=\"375\" y1=\"162\" x2=\"405\" y2=\"108\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n          <line x1=\"445\" y1=\"162\" x2=\"475\" y2=\"108\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n          <text x=\"375\" y=\"48\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Tema/Kata Kunci 1</text>\n          <text x=\"455\" y=\"48\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Tema/Kata Kunci 2</text>\n          <text x=\"375\" y=\"176\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Studi 5 Thn Terakhir</text>\n          <text x=\"455\" y=\"176\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Gap Penelitian</text>\n          <rect x=\"555\" y=\"84\" width=\"102\" height=\"48\" rx=\"8\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n          <text x=\"606\" y=\"105\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Keaslian</text>\n          <text x=\"606\" y=\"120\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Penelitian</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: Penyempitan ruang lingkup dari Bidang hingga Hipotesis. Kanan: <em>Diagram Tulang Ikan</em> memetakan kata kunci dan studi 5 tahun terakhir untuk menampakkan kesenjangan (<em>research gap</em>) dan keaslian penelitian.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 2</h4>\n        <ul class=\"neat\">\n          <li><strong>Sumber Masalah Penelitian:</strong> Pengalaman pribadi, jurnal ilmiah, prosiding, buku teks, abstrak tesis/disertasi, serta bagian <em>saran (future works)</em> pada penelitian terdahulu.</li>\n          <li><strong>Fungsi Tujuan Penelitian:</strong> Membantu menentukan fokus studi, mengidentifikasi peubah yang diukur, menunjukkan langkah kerja, menetapkan batasan penelitian, dan menghindari pengumpulan data yang tidak relevan.</li>\n          <li><strong>Tujuan Umum vs Khusus:</strong> Tujuan umum dapat dipecah menjadi beberapa tujuan khusus yang lebih operasional dan terukur.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 2</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Rumusan Masalah = Kalimat Berita</span>\n          <span class=\"kw-chip\">Diagram Tulang Ikan</span>\n          <span class=\"kw-chip\">5 Kesenjangan Penelitian</span>\n          <span class=\"kw-chip\">Pustaka 5 Tahun Terakhir</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Rumusan masalah <strong>bukan kalimat tanya</strong> dan <strong>tidak berisi solusi</strong>; ia menyatakan persoalan dan konsekuensinya.</p>\n      </div>\n    </section>",
+      "text": "MODUL 2 Modul 2: Rumusan Masalah & Keaslian Penelitian KB 1: Rumusan Masalah Hierarki Istilah: Bidang Penelitian (misal Sistem Informasi) → Topik Penelitian → Masalah Penelitian → Pertanyaan Penelitian → Hipotesis . 2 Jenis Masalah: Masalah Praktis (organisasi, layanan, pengguna) dan Masalah Teoritis (perluasan pemahaman/teori tanpa dampak langsung segera). Aturan Penulisan Rumusan Masalah: Wajib memakai kalimat berita/pernyataan (bukan kalimat tanya), berisi persoalan dari Latar Belakang + konsekuensinya jika tidak diselesaikan, dan tidak boleh berisi solusi . 4 Situasi yang Dihindari: Sekadar pencerahan diri, hanya membandingkan dua set data tanpa interpretasi, jawaban sekadar ya/tidak, atau masalah yang tidak perlu interpretasi data. KB 2: Keaslian Penelitian, Tujuan & Manfaat Keaslian Penelitian: Membuktikan riset yang diusulkan berbeda dari studi sebelumnya dalam topik yang sama melalui kajian pustaka 5 tahun terakhir. Diagram Tulang Ikan ( Fishbone ): Alat visual menggunakan kata kunci untuk memetakan artikel relevan (5 tahun terakhir) sehingga tampak posisi unik riset kita. 5 Kategori Kesenjangan ( Research Gap ): Kesenjangan bukti ( evidence ), metodologi, empiris, teoritis, dan populasi. Tujuan & Manfaat: Tujuan memakai kata kerja terukur ( membandingkan, menghitung, menentukan, memverifikasi ) agar ketercapaiannya dapat dievaluasi. Hierarki Penelitian & Diagram Tulang Ikan Keaslian Penelitian (Modul 2) Penjelasan Diagram: Kiri: Penyempitan ruang lingkup dari Bidang hingga Hipotesis. Kanan: Diagram Tulang Ikan memetakan kata kunci dan studi 5 tahun terakhir untuk menampakkan kesenjangan ( research gap ) dan keaslian penelitian. 📌 Detail Kecil Wajib Tahu — Modul 2 Sumber Masalah Penelitian: Pengalaman pribadi, jurnal ilmiah, prosiding, buku teks, abstrak tesis/disertasi, serta bagian saran (future works) pada penelitian terdahulu. Fungsi Tujuan Penelitian: Membantu menentukan fokus studi, mengidentifikasi peubah yang diukur, menunjukkan langkah kerja, menetapkan batasan penelitian, dan menghindari pengumpulan data yang tidak relevan. Tujuan Umum vs Khusus: Tujuan umum dapat dipecah menjadi beberapa tujuan khusus yang lebih operasional dan terukur. 🔑 Kata Kunci Wajib Ingat — Modul 2 Rumusan Masalah = Kalimat Berita Diagram Tulang Ikan 5 Kesenjangan Penelitian Pustaka 5 Tahun Terakhir Poin Penting: Rumusan masalah bukan kalimat tanya dan tidak berisi solusi ; ia menyatakan persoalan dan konsekuensinya."
+    },
+    {
+      "id": "m3",
+      "title": "Kajian Pustaka & Landasan Teori",
+      "html": "<section class=\"mod-card\" id=\"m3\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#3b82f6;\">MODUL 3</span>\n        <h2 class=\"mod-title\">Modul 3: Kajian Pustaka &amp; Landasan Teori</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h3>KB 1: Kajian Pustaka (<em>Literature Review</em>)</h3>\n          <ul class=\"neat\">\n            <li><strong>Definisi:</strong> Pencarian dan evaluasi kritis terhadap sumber pustaka sesuai topik untuk mendokumentasikan <em>state of the art</em> penelitian terdahulu.</li>\n            <li><strong>2 Fungsi Utama:</strong> (1) Membangun argumentasi <em>kesenjangan penelitian</em> menuju keaslian riset; (2) Menjadi rujukan penyusunan pertanyaan penelitian dan/atau hipotesis.</li>\n            <li><strong>4 Tujuan Utama:</strong> Survei pustaka → Analisis kritis (identifikasi gap) → Sintesis informasi → Menyajikan pustaka relevan secara terorganisir.</li>\n            <li><strong>Struktur 3 Bagian:</strong> <em>Pengantar</em> (konteks, alasan, organisasi, ruang lingkup), <em>Bagian Utama</em> (narasi berdasarkan tema umum &amp; relasi bidang lebih luas), dan <em>Kesimpulan</em> (rangkuman, situasi terakhir, identifikasi kelemahan/gap).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Landasan Teori</h3>\n          <ul class=\"neat\">\n            <li><strong>Definisi Teori:</strong> Kumpulan konsep dan prinsip yang terorganisir untuk menjelaskan fenomena tertentu beserta kerangka pengamatan dan asumsinya.</li>\n            <li><strong>Fungsi vs Batasan Teori:</strong> Teori <strong>tidak bisa</strong> dipakai untuk mendukung keaslian penelitian, tetapi menjadi acuan menyusun pertanyaan penelitian dan hipotesis.</li>\n            <li><strong>Sifat Teori:</strong> Setiap teori memiliki keterbatasan dan dapat dibantah (<em>falsifiable</em>) jika ditemukan bukti empiris baru; peneliti wajib memahami batasan teori agar tepat konteks.</li>\n            <li><strong>Contoh Teori SI dalam BMP:</strong> <em>TAM</em> (Davis, 1989), <em>UTAUT</em> (Venkatesh dkk., 2003), <em>IS Success</em> (DeLone &amp; McLean, 2003), <em>TTF</em> (Goodhue &amp; Thompson, 1995), <em>TRA/TPB</em> (Fishbein &amp; Ajzen).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Peran Berbeda Kajian Pustaka vs Landasan Teori (Modul 3)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"14\" y=\"14\" width=\"316\" height=\"176\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"172\" y=\"36\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">Kajian Pustaka (State of the Art)</text>\n          <rect x=\"30\" y=\"48\" width=\"284\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b82f6\"/>\n          <text x=\"172\" y=\"68\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">1. Survei &amp; Evaluasi Kritis Artikel Terkini</text>\n          <rect x=\"30\" y=\"88\" width=\"284\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b82f6\"/>\n          <text x=\"172\" y=\"108\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">2. Sintesis Tema → Temukan Research Gap</text>\n          <rect x=\"30\" y=\"128\" width=\"284\" height=\"46\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/>\n          <text x=\"172\" y=\"148\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Output: Bukti Keaslian Penelitian</text>\n          <text x=\"172\" y=\"164\" text-anchor=\"middle\" font-size=\"9\">+ Rujukan Pertanyaan &amp; Hipotesis</text>\n\n          <rect x=\"350\" y=\"14\" width=\"316\" height=\"176\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"508\" y=\"36\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"800\">Landasan Teori (Kerangka Konsep)</text>\n          <rect x=\"366\" y=\"48\" width=\"284\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#10b981\"/>\n          <text x=\"508\" y=\"68\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">1. Kumpulan Konsep, Prinsip &amp; Asumsi</text>\n          <rect x=\"366\" y=\"88\" width=\"284\" height=\"32\" rx=\"6\" fill=\"#ffffff\" stroke=\"#10b981\"/>\n          <text x=\"508\" y=\"108\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">2. Pahami Batasan &amp; Konteks Teori</text>\n          <rect x=\"366\" y=\"128\" width=\"284\" height=\"46\" rx=\"6\" fill=\"#d1fae5\" stroke=\"#059669\"/>\n          <text x=\"508\" y=\"148\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Output: Acuan Hipotesis &amp; Konstruk</text>\n          <text x=\"508\" y=\"164\" text-anchor=\"middle\" font-size=\"9\">(Bukan untuk membuktikan keaslian!)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kajian pustaka berfokus pada pemetaan riset terdahulu untuk menemukan <em>research gap</em> (keaslian), sedangkan landasan teori menyediakan kerangka konsep dan asumsi untuk menurunkan hipotesis.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 3</h4>\n        <ul class=\"neat\">\n          <li><strong>Bukan Sekadar Ringkasan Daftar Artikel:</strong> Bagian utama kajian pustaka yang baik diorganisir berdasarkan <strong>tema umum</strong> (sintesis), bukan daftar ringkasan artikel satu per satu secara kronologis tanpa analisis kritis.</li>\n          <li><strong>Mengapa Teori Tidak Menjamin Keaslian?</strong> Banyak penelitian memakai teori yang sama (misalnya TAM), tetapi keasliannya terletak pada kesenjangan penelitian (konteks, peubah baru, populasi, atau metodologi) dari kajian pustaka.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 3</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">State of the Art</span>\n          <span class=\"kw-chip\">Sintesis Berbasis Tema</span>\n          <span class=\"kw-chip\">3 Struktur Kajian Pustaka</span>\n          <span class=\"kw-chip\">Batasan Teori</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Teori <strong>tidak dapat</strong> digunakan untuk mendukung argumentasi keaslian penelitian; keaslian hanya dibuktikan lewat kajian pustaka.</p>\n      </div>\n    </section>",
+      "text": "MODUL 3 Modul 3: Kajian Pustaka & Landasan Teori KB 1: Kajian Pustaka ( Literature Review ) Definisi: Pencarian dan evaluasi kritis terhadap sumber pustaka sesuai topik untuk mendokumentasikan state of the art penelitian terdahulu. 2 Fungsi Utama: (1) Membangun argumentasi kesenjangan penelitian menuju keaslian riset; (2) Menjadi rujukan penyusunan pertanyaan penelitian dan/atau hipotesis. 4 Tujuan Utama: Survei pustaka → Analisis kritis (identifikasi gap) → Sintesis informasi → Menyajikan pustaka relevan secara terorganisir. Struktur 3 Bagian: Pengantar (konteks, alasan, organisasi, ruang lingkup), Bagian Utama (narasi berdasarkan tema umum & relasi bidang lebih luas), dan Kesimpulan (rangkuman, situasi terakhir, identifikasi kelemahan/gap). KB 2: Landasan Teori Definisi Teori: Kumpulan konsep dan prinsip yang terorganisir untuk menjelaskan fenomena tertentu beserta kerangka pengamatan dan asumsinya. Fungsi vs Batasan Teori: Teori tidak bisa dipakai untuk mendukung keaslian penelitian, tetapi menjadi acuan menyusun pertanyaan penelitian dan hipotesis. Sifat Teori: Setiap teori memiliki keterbatasan dan dapat dibantah ( falsifiable ) jika ditemukan bukti empiris baru; peneliti wajib memahami batasan teori agar tepat konteks. Contoh Teori SI dalam BMP: TAM (Davis, 1989), UTAUT (Venkatesh dkk., 2003), IS Success (DeLone & McLean, 2003), TTF (Goodhue & Thompson, 1995), TRA/TPB (Fishbein & Ajzen). Peran Berbeda Kajian Pustaka vs Landasan Teori (Modul 3) Penjelasan Diagram: Kajian pustaka berfokus pada pemetaan riset terdahulu untuk menemukan research gap (keaslian), sedangkan landasan teori menyediakan kerangka konsep dan asumsi untuk menurunkan hipotesis. 📌 Detail Kecil Wajib Tahu — Modul 3 Bukan Sekadar Ringkasan Daftar Artikel: Bagian utama kajian pustaka yang baik diorganisir berdasarkan tema umum (sintesis), bukan daftar ringkasan artikel satu per satu secara kronologis tanpa analisis kritis. Mengapa Teori Tidak Menjamin Keaslian? Banyak penelitian memakai teori yang sama (misalnya TAM), tetapi keasliannya terletak pada kesenjangan penelitian (konteks, peubah baru, populasi, atau metodologi) dari kajian pustaka. 🔑 Kata Kunci Wajib Ingat — Modul 3 State of the Art Sintesis Berbasis Tema 3 Struktur Kajian Pustaka Batasan Teori Poin Penting: Teori tidak dapat digunakan untuk mendukung argumentasi keaslian penelitian; keaslian hanya dibuktikan lewat kajian pustaka."
+    },
+    {
+      "id": "m4",
+      "title": "Pertanyaan Penelitian & Pengembangan Hipotesis",
+      "html": "<section class=\"mod-card\" id=\"m4\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#0284c7;\">MODUL 4</span>\n        <h2 class=\"mod-title\">Modul 4: Pertanyaan Penelitian &amp; Pengembangan Hipotesis</h2>\n      </div>\n      <div class=\"grid-3\">\n        <div class=\"box\">\n          <h3>KB 1: Pertanyaan Penelitian</h3>\n          <ul class=\"neat\">\n            <li><strong>4 Kategori:</strong> (1) <em>Deskriptif</em> (1 peubah, kata kunci: berapa banyak/sering/persen), (2) <em>Komparatif</em> (membandingkan ≥2 kelompok/peubah), (3) <em>Relasional</em> (ada tidaknya hubungan, kekuatan &amp; arah), (4) <em>Sebab-Akibat / Prediktif</em> (peubah bebas/prediktor → tak bebas/luaran).</li>\n            <li><strong>Kriteria Baik:</strong> Fokus, spesifik, dapat dijawab berbasis data empiris/pustaka, terbuka untuk didebat, menghindari jawaban sekadar \"ya/tidak\" dan menghindari kata \"mengapa\" pada pertanyaan riset kuantitatif.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Jenis-jenis Hipotesis</h3>\n          <ul class=\"neat\">\n            <li><strong>Definisi:</strong> Dugaan cerdas dan masuk akal (bersifat <em>a priori</em> pada kuantitatif) tentang fenomena yang diteliti.</li>\n            <li><strong>4 Kategori Substansi:</strong> Deskriptif, Komparatif, Relasional, dan Sebab-Akibat/Prediktif (2 terakhir disebut <em>asosiatif</em>).</li>\n            <li><strong>Hipotesis Penelitian vs Statistik:</strong> Hipotesis penelitian ditulis naratif; hipotesis statistik terdiri atas <strong>H₀ (nol)</strong> memuat persamaan (\"tidak ada...\") dan <strong>Hₐ (alternatif)</strong> memuat pertidaksamaan (\"ada...\").</li>\n            <li><strong>Fokus Uji:</strong> Pengujian selalu ditujukan pada <strong>H₀</strong> (\"H₀ diterima/ditolak\"), bukan \"Hₐ diterima/ditolak\".</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 3: Pengembangan Hipotesis</h3>\n          <ul class=\"neat\">\n            <li><strong>2 Syarat Kualitas:</strong> <em>Testable</em> (dapat diuji dengan bukti) dan <em>Falsifiable</em> (dapat disalahkan jika bukti bertentangan).</li>\n            <li><strong>Aturan Penulisan:</strong> Kalimat berita (bukan tanya), menunjukkan hubungan peubah, merujuk teori/riset sebelumnya, singkat &amp; langsung, serta hindari kata subjektif (\"lebih baik\") — gunakan \"lebih tinggi/rendah\".</li>\n            <li><strong>Definisi Operasional Peubah:</strong> Pernyataan tegas tentang \"apa\" yang diukur oleh instrumen agar peubah abstrak (misal <em>minat belajar</em>) dapat diukur secara valid.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Kategori Pertanyaan &amp; Hipotesis serta Alur Uji H₀ (Modul 4)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"12\" y=\"14\" width=\"154\" height=\"82\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/>\n          <text x=\"89\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">1. Deskriptif</text>\n          <text x=\"89\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">1 Peubah</text>\n          <text x=\"89\" y=\"68\" text-anchor=\"middle\" font-size=\"8.5\">Berapa banyak / %?</text>\n          <text x=\"89\" y=\"84\" text-anchor=\"middle\" font-size=\"8.5\">Uji rerata / SD</text>\n\n          <rect x=\"178\" y=\"14\" width=\"154\" height=\"82\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"255\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">2. Komparatif</text>\n          <text x=\"255\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">Bandingkan ≥2 Kelompok</text>\n          <text x=\"255\" y=\"68\" text-anchor=\"middle\" font-size=\"8.5\">Apa perbedaannya?</text>\n          <text x=\"255\" y=\"84\" text-anchor=\"middle\" font-size=\"8.5\">Lebih tinggi / rendah</text>\n\n          <rect x=\"344\" y=\"14\" width=\"154\" height=\"82\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.5\"/>\n          <text x=\"421\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3. Relasional</text>\n          <text x=\"421\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">Korelasi ≥2 Peubah</text>\n          <text x=\"421\" y=\"68\" text-anchor=\"middle\" font-size=\"8.5\">Kekuatan &amp; arah relasi</text>\n          <text x=\"421\" y=\"84\" text-anchor=\"middle\" font-size=\"8.5\">(Asosiatif)</text>\n\n          <rect x=\"510\" y=\"14\" width=\"158\" height=\"82\" rx=\"8\" fill=\"#ffe4e6\" stroke=\"#e11d48\" stroke-width=\"1.5\"/>\n          <text x=\"589\" y=\"34\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">4. Sebab-Akibat</text>\n          <text x=\"589\" y=\"52\" text-anchor=\"middle\" font-size=\"9\">Prediktor → Luaran</text>\n          <text x=\"589\" y=\"68\" text-anchor=\"middle\" font-size=\"8.5\">Bagaimana pengaruh?</text>\n          <text x=\"589\" y=\"84\" text-anchor=\"middle\" font-size=\"8.5\">Jika X maka Y</text>\n\n          <rect x=\"12\" y=\"114\" width=\"656\" height=\"76\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"135\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Prinsip Pengujian Hipotesis Statistik</text>\n          <rect x=\"30\" y=\"146\" width=\"185\" height=\"32\" rx=\"6\" fill=\"#e2e8f0\" stroke=\"#475569\"/><text x=\"122\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">H₀: Tidak ada beda/pengaruh</text>\n          <path d=\"M218 162 L248 162\" stroke=\"#334155\" stroke-width=\"2\"/>\n          <rect x=\"250\" y=\"146\" width=\"175\" height=\"32\" rx=\"6\" fill=\"#fef08a\" stroke=\"#ca8a04\"/><text x=\"337\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Uji Statistik pada H₀</text>\n          <path d=\"M428 162 L458 162\" stroke=\"#334155\" stroke-width=\"2\"/>\n          <rect x=\"460\" y=\"146\" width=\"190\" height=\"32\" rx=\"6\" fill=\"#dcfce7\" stroke=\"#15803d\"/><text x=\"555\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">H₀ Ditolak → Dukung Hₐ</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kategori pertanyaan penelitian menentukan jenis hipotesis dan uji statistiknya. Dalam pengujian statistik, fokus keputusan selalu pada penerimaan atau penolakan <strong>H₀</strong>.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 4</h4>\n        <ul class=\"neat\">\n          <li><strong>Satu Hipotesis = Satu Hubungan Peubah:</strong> Jika pertanyaan penelitian menanyakan dua peubah sekaligus (misal tinggi dan berat badan), pecahlah menjadi dua hipotesis terpisah (HD₁ dan HD₂) agar kesimpulan uji tidak ambigu.</li>\n          <li><strong>Istilah \"Mendukung\", Bukan \"Membuktikan\":</strong> Data empiris tidak \"membuktikan\" hipotesis secara mutlak, melainkan <em>mendukung</em> atau <em>tidak mendukung</em> hipotesis.</li>\n          <li><strong>Kualitatif vs Kuantitatif:</strong> Penelitian kuantitatif/eksperimental memakai hipotesis <em>a priori</em>, sedangkan kualitatif sengaja tidak berspekulasi di awal agar terbuka pada pola data.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 4</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Deskriptif·Komparatif·Relasional·Prediktif</span>\n          <span class=\"kw-chip\">H₀ (Equality) vs Hₐ (Inequality)</span>\n          <span class=\"kw-chip\">Testable &amp; Falsifiable</span>\n          <span class=\"kw-chip\">Definisi Operasional</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Keputusan uji hipotesis selalu dinyatakan pada <strong>H₀</strong> (\"H₀ ditolak\" atau \"gagal menolak H₀\"), tidak pernah \"Hₐ diterima\".</p>\n      </div>\n    </section>",
+      "text": "MODUL 4 Modul 4: Pertanyaan Penelitian & Pengembangan Hipotesis KB 1: Pertanyaan Penelitian 4 Kategori: (1) Deskriptif (1 peubah, kata kunci: berapa banyak/sering/persen), (2) Komparatif (membandingkan ≥2 kelompok/peubah), (3) Relasional (ada tidaknya hubungan, kekuatan & arah), (4) Sebab-Akibat / Prediktif (peubah bebas/prediktor → tak bebas/luaran). Kriteria Baik: Fokus, spesifik, dapat dijawab berbasis data empiris/pustaka, terbuka untuk didebat, menghindari jawaban sekadar \"ya/tidak\" dan menghindari kata \"mengapa\" pada pertanyaan riset kuantitatif. KB 2: Jenis-jenis Hipotesis Definisi: Dugaan cerdas dan masuk akal (bersifat a priori pada kuantitatif) tentang fenomena yang diteliti. 4 Kategori Substansi: Deskriptif, Komparatif, Relasional, dan Sebab-Akibat/Prediktif (2 terakhir disebut asosiatif ). Hipotesis Penelitian vs Statistik: Hipotesis penelitian ditulis naratif; hipotesis statistik terdiri atas H₀ (nol) memuat persamaan (\"tidak ada...\") dan Hₐ (alternatif) memuat pertidaksamaan (\"ada...\"). Fokus Uji: Pengujian selalu ditujukan pada H₀ (\"H₀ diterima/ditolak\"), bukan \"Hₐ diterima/ditolak\". KB 3: Pengembangan Hipotesis 2 Syarat Kualitas: Testable (dapat diuji dengan bukti) dan Falsifiable (dapat disalahkan jika bukti bertentangan). Aturan Penulisan: Kalimat berita (bukan tanya), menunjukkan hubungan peubah, merujuk teori/riset sebelumnya, singkat & langsung, serta hindari kata subjektif (\"lebih baik\") — gunakan \"lebih tinggi/rendah\". Definisi Operasional Peubah: Pernyataan tegas tentang \"apa\" yang diukur oleh instrumen agar peubah abstrak (misal minat belajar ) dapat diukur secara valid. 4 Kategori Pertanyaan & Hipotesis serta Alur Uji H₀ (Modul 4) Penjelasan Diagram: Kategori pertanyaan penelitian menentukan jenis hipotesis dan uji statistiknya. Dalam pengujian statistik, fokus keputusan selalu pada penerimaan atau penolakan H₀ . 📌 Detail Kecil Wajib Tahu — Modul 4 Satu Hipotesis = Satu Hubungan Peubah: Jika pertanyaan penelitian menanyakan dua peubah sekaligus (misal tinggi dan berat badan), pecahlah menjadi dua hipotesis terpisah (HD₁ dan HD₂) agar kesimpulan uji tidak ambigu. Istilah \"Mendukung\", Bukan \"Membuktikan\": Data empiris tidak \"membuktikan\" hipotesis secara mutlak, melainkan mendukung atau tidak mendukung hipotesis. Kualitatif vs Kuantitatif: Penelitian kuantitatif/eksperimental memakai hipotesis a priori , sedangkan kualitatif sengaja tidak berspekulasi di awal agar terbuka pada pola data. 🔑 Kata Kunci Wajib Ingat — Modul 4 Deskriptif·Komparatif·Relasional·Prediktif H₀ (Equality) vs Hₐ (Inequality) Testable & Falsifiable Definisi Operasional Poin Penting: Keputusan uji hipotesis selalu dinyatakan pada H₀ (\"H₀ ditolak\" atau \"gagal menolak H₀\"), tidak pernah \"Hₐ diterima\"."
+    },
+    {
+      "id": "m5",
+      "title": "Metode Penelitian Kualitatif, Kuantitatif & Campuran",
+      "html": "<section class=\"mod-card\" id=\"m5\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#7c3aed;\">MODUL 5</span>\n        <h2 class=\"mod-title\">Modul 5: Metode Kualitatif, Kuantitatif &amp; Campuran</h2>\n      </div>\n      <div class=\"grid-3\">\n        <div class=\"box\">\n          <h3>KB 1: Metode Kualitatif</h3>\n          <ul class=\"neat\">\n            <li><strong>Karakteristik:</strong> Data non-numerik/tak terstruktur (teks, video, gambar), pendekatan <strong>induktif</strong>, <em>setting</em> alamiah (bukan lab), sampel <em>purposive</em> (non-probabilistik), fokus membangun hipotesis/teori.</li>\n            <li><strong>4 Tujuan:</strong> Deskriptif, Interpretasi, Verifikasi, dan Evaluasi.</li>\n            <li><strong>5 Tipe Utama:</strong> (1) <em>Studi Kasus</em>, (2) <em>Penelitian Tindakan (Action Research)</em>, (3) <em>Etnografi</em>, (4) <em>Grounded Theory</em> (4 pertama ambil data primer), dan (5) <em>Analisis Konten</em> (umumnya data sekunder).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Metode Kuantitatif</h3>\n          <ul class=\"neat\">\n            <li><strong>Karakteristik:</strong> Data numerik, pendekatan <strong>deduktif</strong>, analisis statistik/matematis untuk menguji hipotesis <em>a priori</em>.</li>\n            <li><strong>Non-Eksperimental</strong> (tidak memanipulasi peubah bebas, data sudah terjadi): <em>Deskriptif</em> (survei &amp; observasi), <em>Korelasional</em>, dan <em>Kausal-Komparatif</em>.</li>\n            <li><strong>Eksperimental</strong> (memanipulasi peubah bebas): <em>Eksperimen Murni</em> (pemilihan &amp; penugasan acak), <em>Eksperimen Kuasi</em> (hanya pemilihan acak / tanpa penugasan acak penuh), dan <em>Eksperimen Subyek Tunggal</em>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 3: Metode Campuran (<em>Mixed Methods</em>)</h3>\n          <ul class=\"neat\">\n            <li><strong>Prinsip:</strong> Menggabungkan <strong>KUAL + KUAN</strong> secara berurutan (<code>KUAL → KUAN</code> atau <code>KUAN → KUAL</code>), bersamaan (<em>triangulasi</em>), atau banyak-aras (<em>multilevel</em>).</li>\n            <li><strong>Orientasi:</strong> Bersifat praktis / <em>problem-driven</em>, bukan <em>theory-driven</em>.</li>\n            <li><strong>Keuntungan vs Kerugian:</strong> Gambaran lebih lengkap, triangulasi, saling menutupi kelemahan; namun butuh waktu &amp; biaya lebih besar serta penguasaan dua paradigma.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Taksonomi Metode Penelitian: Kualitatif, Kuantitatif &amp; Campuran (Modul 5)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"12\" y=\"14\" width=\"210\" height=\"176\" rx=\"8\" fill=\"#ede9fe\" stroke=\"#6d28d9\" stroke-width=\"1.5\"/>\n          <text x=\"117\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">KUALITATIF (Induktif)</text>\n          <text x=\"117\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">Data non-numerik, setting alamiah</text>\n          <rect x=\"26\" y=\"60\" width=\"182\" height=\"22\" rx=\"4\" fill=\"#fff\" stroke=\"#7c3aed\"/><text x=\"117\" y=\"75\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">1. Studi Kasus (Case Study)</text>\n          <rect x=\"26\" y=\"86\" width=\"182\" height=\"22\" rx=\"4\" fill=\"#fff\" stroke=\"#7c3aed\"/><text x=\"117\" y=\"101\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">2. Penelitian Tindakan</text>\n          <rect x=\"26\" y=\"112\" width=\"182\" height=\"22\" rx=\"4\" fill=\"#fff\" stroke=\"#7c3aed\"/><text x=\"117\" y=\"127\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">3. Etnografi</text>\n          <rect x=\"26\" y=\"138\" width=\"182\" height=\"22\" rx=\"4\" fill=\"#fff\" stroke=\"#7c3aed\"/><text x=\"117\" y=\"153\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">4. Grounded Theory</text>\n          <rect x=\"26\" y=\"164\" width=\"182\" height=\"20\" rx=\"4\" fill=\"#ddd6fe\" stroke=\"#7c3aed\"/><text x=\"117\" y=\"178\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">5. Analisis Konten (Sekunder)</text>\n\n          <rect x=\"235\" y=\"14\" width=\"210\" height=\"176\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">KUANTITATIF (Deduktif)</text>\n          <text x=\"340\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">Data numerik, uji hipotesis</text>\n          <rect x=\"249\" y=\"60\" width=\"182\" height=\"56\" rx=\"5\" fill=\"#fff\" stroke=\"#2563eb\"/>\n          <text x=\"340\" y=\"76\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Non-Eksperimental</text>\n          <text x=\"340\" y=\"92\" text-anchor=\"middle\" font-size=\"8.5\">Deskriptif (Survei/Observasi)</text>\n          <text x=\"340\" y=\"106\" text-anchor=\"middle\" font-size=\"8.5\">Korelasional · Kausal-Komp.</text>\n          <rect x=\"249\" y=\"124\" width=\"182\" height=\"58\" rx=\"5\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\"/>\n          <text x=\"340\" y=\"140\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Eksperimental (Manipulasi)</text>\n          <text x=\"340\" y=\"156\" text-anchor=\"middle\" font-size=\"8.5\">Murni (Acak penuh)</text>\n          <text x=\"340\" y=\"170\" text-anchor=\"middle\" font-size=\"8.5\">Kuasi · Subyek Tunggal</text>\n\n          <rect x=\"458\" y=\"14\" width=\"210\" height=\"176\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"563\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">CAMPURAN (Problem-Driven)</text>\n          <text x=\"563\" y=\"50\" text-anchor=\"middle\" font-size=\"9\">Kombinasi KUAL &amp; KUAN</text>\n          <rect x=\"472\" y=\"62\" width=\"182\" height=\"34\" rx=\"5\" fill=\"#fff\" stroke=\"#059669\"/>\n          <text x=\"563\" y=\"77\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Berurutan (Sequential)</text>\n          <text x=\"563\" y=\"90\" text-anchor=\"middle\" font-size=\"8.5\">KUAL→KUAN / KUAN→KUAL</text>\n          <rect x=\"472\" y=\"104\" width=\"182\" height=\"34\" rx=\"5\" fill=\"#fff\" stroke=\"#059669\"/>\n          <text x=\"563\" y=\"119\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Bersamaan (Triangulasi)</text>\n          <text x=\"563\" y=\"132\" text-anchor=\"middle\" font-size=\"8.5\">KUAL + KUAN paralel</text>\n          <rect x=\"472\" y=\"146\" width=\"182\" height=\"34\" rx=\"5\" fill=\"#a7f3d0\" stroke=\"#059669\"/>\n          <text x=\"563\" y=\"161\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Banyak-Aras (Multilevel)</text>\n          <text x=\"563\" y=\"174\" text-anchor=\"middle\" font-size=\"8.5\">KUAL individu + KUAN kelas</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kualitatif bersifat induktif dan alamiah, kuantitatif bersifat deduktif untuk menguji hipotesis, sedangkan metode campuran memadukan keduanya secara berurutan, bersamaan (triangulasi), atau multilevel.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 5</h4>\n        <ul class=\"neat\">\n          <li><strong>Eksperimen Murni vs Kuasi:</strong> Pada <em>eksperimen murni</em>, peneliti melakukan pemilihan sampel acak DAN penugasan acak (<em>random assignment</em>) ke kelompok kontrol/eksperimen. Pada <em>eksperimen kuasi</em>, penugasan acak tidak dapat dilakukan penuh.</li>\n          <li><strong>Kualitatif Tidak Selalu Tanpa Angka:</strong> Data utama kualitatif memang non-numerik, namun peneliti dapat menghitung frekuensi kemunculan tema pada analisis konten.</li>\n          <li><strong>Triangulasi:</strong> Penggunaan berbagai sumber data atau metode untuk memvalidasi temuan dari sudut pandang yang berbeda.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 5</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">5 Tipe Kualitatif</span>\n          <span class=\"kw-chip\">Eksperimen Murni vs Kuasi</span>\n          <span class=\"kw-chip\">KUAL &amp; KUAN</span>\n          <span class=\"kw-chip\">Triangulasi</span>\n          <span class=\"kw-chip\">Problem-Driven</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> 4 tipe kualitatif pertama mengambil <strong>data primer</strong>, sedangkan <em>Analisis Konten</em> umumnya memakai <strong>data sekunder</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 5 Modul 5: Metode Kualitatif, Kuantitatif & Campuran KB 1: Metode Kualitatif Karakteristik: Data non-numerik/tak terstruktur (teks, video, gambar), pendekatan induktif , setting alamiah (bukan lab), sampel purposive (non-probabilistik), fokus membangun hipotesis/teori. 4 Tujuan: Deskriptif, Interpretasi, Verifikasi, dan Evaluasi. 5 Tipe Utama: (1) Studi Kasus , (2) Penelitian Tindakan (Action Research) , (3) Etnografi , (4) Grounded Theory (4 pertama ambil data primer), dan (5) Analisis Konten (umumnya data sekunder). KB 2: Metode Kuantitatif Karakteristik: Data numerik, pendekatan deduktif , analisis statistik/matematis untuk menguji hipotesis a priori . Non-Eksperimental (tidak memanipulasi peubah bebas, data sudah terjadi): Deskriptif (survei & observasi), Korelasional , dan Kausal-Komparatif . Eksperimental (memanipulasi peubah bebas): Eksperimen Murni (pemilihan & penugasan acak), Eksperimen Kuasi (hanya pemilihan acak / tanpa penugasan acak penuh), dan Eksperimen Subyek Tunggal . KB 3: Metode Campuran ( Mixed Methods ) Prinsip: Menggabungkan KUAL + KUAN secara berurutan ( KUAL → KUAN atau KUAN → KUAL ), bersamaan ( triangulasi ), atau banyak-aras ( multilevel ). Orientasi: Bersifat praktis / problem-driven , bukan theory-driven . Keuntungan vs Kerugian: Gambaran lebih lengkap, triangulasi, saling menutupi kelemahan; namun butuh waktu & biaya lebih besar serta penguasaan dua paradigma. Taksonomi Metode Penelitian: Kualitatif, Kuantitatif & Campuran (Modul 5) Penjelasan Diagram: Kualitatif bersifat induktif dan alamiah, kuantitatif bersifat deduktif untuk menguji hipotesis, sedangkan metode campuran memadukan keduanya secara berurutan, bersamaan (triangulasi), atau multilevel. 📌 Detail Kecil Wajib Tahu — Modul 5 Eksperimen Murni vs Kuasi: Pada eksperimen murni , peneliti melakukan pemilihan sampel acak DAN penugasan acak ( random assignment ) ke kelompok kontrol/eksperimen. Pada eksperimen kuasi , penugasan acak tidak dapat dilakukan penuh. Kualitatif Tidak Selalu Tanpa Angka: Data utama kualitatif memang non-numerik, namun peneliti dapat menghitung frekuensi kemunculan tema pada analisis konten. Triangulasi: Penggunaan berbagai sumber data atau metode untuk memvalidasi temuan dari sudut pandang yang berbeda. 🔑 Kata Kunci Wajib Ingat — Modul 5 5 Tipe Kualitatif Eksperimen Murni vs Kuasi KUAL & KUAN Triangulasi Problem-Driven Poin Penting: 4 tipe kualitatif pertama mengambil data primer , sedangkan Analisis Konten umumnya memakai data sekunder ."
+    },
+    {
+      "id": "m6",
+      "title": "Aras Pengukuran & Pembuatan Kuesioner",
+      "html": "<section class=\"mod-card\" id=\"m6\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#d97706;\">MODUL 6</span>\n        <h2 class=\"mod-title\">Modul 6: Aras Pengukuran &amp; Pembuatan Kuesioner</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h3>KB 1: Aras Pengukuran &amp; Skala</h3>\n          <ul class=\"neat\">\n            <li><strong>4 Aras Pengukuran (Hierarkis):</strong>\n              <br>• <em>Nominal</em>: Kategori/label pembeda tanpa urutan (misal jenis kelamin, pekerjaan).\n              <br>• <em>Ordinal</em>: Kategori + urutan/peringkat, jarak belum tentu sama (misal ranking 1–4).\n              <br>• <em>Interval</em>: Kategori + urutan + jarak sama, tanpa nol absolut (misal suhu °C, skor tes).\n              <br>• <em>Rasio</em>: Kategori + urutan + jarak sama + <strong>nol absolut</strong> (misal berat, tinggi, usia, pendapatan).</li>\n            <li><strong>Skala Pengukuran:</strong> <em>Skala Likert</em> bersifat <strong>sumatif</strong> (menjumlahkan skor item, sering bipolar 1–5/7); <em>Skala Guttman</em> bersifat <strong>kumulatif</strong>; <em>Semantic Differential</em> memakai pasangan kata sifat bipolar.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Pembuatan Kuesioner &amp; Wawancara</h3>\n          <ul class=\"neat\">\n            <li><strong>Survei Kuesioner vs Wawancara:</strong> Kuesioner dominan pertanyaan tertutup → data kuantitatif; wawancara dominan pertanyaan terbuka → transkrip kualitatif.</li>\n            <li><strong>Cara Penyebaran Kuesioner:</strong> Daring (Google Form), <em>Group Administered Questionnaire (GAQ)</em> (respons tinggi, bisa klarifikasi langsung), dan <em>Household Drop-off</em>.</li>\n            <li><strong>Tipe Pertanyaan Kuesioner:</strong> Dikotomis (Ya/Tidak), berbasis aras pengukuran, dan <em>pertanyaan saringan</em> (maksimal 3 tingkat / 2 lompatan agar tidak membingungkan).</li>\n            <li><strong>Wawancara:</strong> Memerlukan pelatihan pewawancara (latar belakang, sponsor, logika sampling, hindari bias, strategi <em>walk-through</em>) &amp; alat bantu resmi (identitas, surat pengantar, no. verifikasi).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">4 Aras Pengukuran &amp; Perbandingan Skala Likert vs Guttman (Modul 6)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"12\" y=\"14\" width=\"152\" height=\"92\" rx=\"8\" fill=\"#f1f5f9\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n          <text x=\"88\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">1. Nominal</text>\n          <text x=\"88\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">✓ Kategori / Label</text>\n          <text x=\"88\" y=\"70\" text-anchor=\"middle\" font-size=\"8.5\" fill=\"#64748b\">✗ Urutan, Jarak, Nol</text>\n          <text x=\"88\" y=\"92\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Contoh: Gender, Prodi</text>\n\n          <rect x=\"178\" y=\"14\" width=\"152\" height=\"92\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/>\n          <text x=\"254\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">2. Ordinal</text>\n          <text x=\"254\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">✓ Kategori + Urutan</text>\n          <text x=\"254\" y=\"70\" text-anchor=\"middle\" font-size=\"8.5\" fill=\"#64748b\">✗ Jarak sama, Nol</text>\n          <text x=\"254\" y=\"92\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Contoh: Ranking 1-4</text>\n\n          <rect x=\"344\" y=\"14\" width=\"152\" height=\"92\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.5\"/>\n          <text x=\"420\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">3. Interval</text>\n          <text x=\"420\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">✓ Kategori+Urut+Jarak</text>\n          <text x=\"420\" y=\"70\" text-anchor=\"middle\" font-size=\"8.5\" fill=\"#64748b\">✗ Nol Absolut</text>\n          <text x=\"420\" y=\"92\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Contoh: Suhu °C, Likert</text>\n\n          <rect x=\"510\" y=\"14\" width=\"158\" height=\"92\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"589\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">4. Rasio</text>\n          <text x=\"589\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">✓ Semua + Nol Absolut</text>\n          <text x=\"589\" y=\"70\" text-anchor=\"middle\" font-size=\"8.5\" fill=\"#047857\">Bisa kali &amp; bagi mutlak</text>\n          <text x=\"589\" y=\"92\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Contoh: Usia, Tinggi, Berat</text>\n\n          <rect x=\"12\" y=\"120\" width=\"320\" height=\"72\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"172\" y=\"141\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Skala Likert (Sumatif)</text>\n          <text x=\"172\" y=\"160\" text-anchor=\"middle\" font-size=\"9\">1 (STS) — 2 (TS) — 3 (N) — 4 (S) — 5 (SS)</text>\n          <text x=\"172\" y=\"177\" text-anchor=\"middle\" font-size=\"8.5\">Skor total dijumlahkan dari tiap item</text>\n\n          <rect x=\"348\" y=\"120\" width=\"320\" height=\"72\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"508\" y=\"141\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Skala Guttman (Kumulatif)</text>\n          <text x=\"508\" y=\"160\" text-anchor=\"middle\" font-size=\"9\">Item disusun berjenjang (setuju item atas</text>\n          <text x=\"508\" y=\"177\" text-anchor=\"middle\" font-size=\"8.5\">berarti menyetujui item di bawahnya)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Aras pengukuran meningkat dari Nominal hingga Rasio (yang memiliki nol absolut). Skala Likert bersifat sumatif, sedangkan Skala Guttman bersifat kumulatif.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 6</h4>\n        <ul class=\"neat\">\n          <li><strong>Hindari Pertanyaan Ganda (<em>Double-Barreled</em>):</strong> Jangan menggabungkan dua topik dengan kata \"dan\" dalam satu item kuesioner (misal \"komentar tentang MS Word dan Apple Pages\") — pecahlah menjadi dua pertanyaan terpisah.</li>\n          <li><strong>Pertanyaan Sensitif:</strong> Untuk usia atau penghasilan, gunakan rentang kelas (misal Rp10–20 juta) agar responden bersedia menjawab jujur.</li>\n          <li><strong>Izin Merekam Wawancara:</strong> Pewawancara wajib meminta izin responden sebelum merekam suara/video; jika ditolak, tidak boleh memaksa dan segera buat catatan setelah wawancara selesai.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 6</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Nominal·Ordinal·Interval·Rasio</span>\n          <span class=\"kw-chip\">Likert = Sumatif</span>\n          <span class=\"kw-chip\">Guttman = Kumulatif</span>\n          <span class=\"kw-chip\">GAQ &amp; Drop-off</span>\n          <span class=\"kw-chip\">Pertanyaan Saringan</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Perbedaan utama aras <strong>Interval</strong> dan <strong>Rasio</strong> adalah keberadaan <strong>nol absolut</strong> pada aras rasio.</p>\n      </div>\n    </section>",
+      "text": "MODUL 6 Modul 6: Aras Pengukuran & Pembuatan Kuesioner KB 1: Aras Pengukuran & Skala 4 Aras Pengukuran (Hierarkis): • Nominal : Kategori/label pembeda tanpa urutan (misal jenis kelamin, pekerjaan). • Ordinal : Kategori + urutan/peringkat, jarak belum tentu sama (misal ranking 1–4). • Interval : Kategori + urutan + jarak sama, tanpa nol absolut (misal suhu °C, skor tes). • Rasio : Kategori + urutan + jarak sama + nol absolut (misal berat, tinggi, usia, pendapatan). Skala Pengukuran: Skala Likert bersifat sumatif (menjumlahkan skor item, sering bipolar 1–5/7); Skala Guttman bersifat kumulatif ; Semantic Differential memakai pasangan kata sifat bipolar. KB 2: Pembuatan Kuesioner & Wawancara Survei Kuesioner vs Wawancara: Kuesioner dominan pertanyaan tertutup → data kuantitatif; wawancara dominan pertanyaan terbuka → transkrip kualitatif. Cara Penyebaran Kuesioner: Daring (Google Form), Group Administered Questionnaire (GAQ) (respons tinggi, bisa klarifikasi langsung), dan Household Drop-off . Tipe Pertanyaan Kuesioner: Dikotomis (Ya/Tidak), berbasis aras pengukuran, dan pertanyaan saringan (maksimal 3 tingkat / 2 lompatan agar tidak membingungkan). Wawancara: Memerlukan pelatihan pewawancara (latar belakang, sponsor, logika sampling, hindari bias, strategi walk-through ) & alat bantu resmi (identitas, surat pengantar, no. verifikasi). 4 Aras Pengukuran & Perbandingan Skala Likert vs Guttman (Modul 6) Penjelasan Diagram: Aras pengukuran meningkat dari Nominal hingga Rasio (yang memiliki nol absolut). Skala Likert bersifat sumatif, sedangkan Skala Guttman bersifat kumulatif. 📌 Detail Kecil Wajib Tahu — Modul 6 Hindari Pertanyaan Ganda ( Double-Barreled ): Jangan menggabungkan dua topik dengan kata \"dan\" dalam satu item kuesioner (misal \"komentar tentang MS Word dan Apple Pages\") — pecahlah menjadi dua pertanyaan terpisah. Pertanyaan Sensitif: Untuk usia atau penghasilan, gunakan rentang kelas (misal Rp10–20 juta) agar responden bersedia menjawab jujur. Izin Merekam Wawancara: Pewawancara wajib meminta izin responden sebelum merekam suara/video; jika ditolak, tidak boleh memaksa dan segera buat catatan setelah wawancara selesai. 🔑 Kata Kunci Wajib Ingat — Modul 6 Nominal·Ordinal·Interval·Rasio Likert = Sumatif Guttman = Kumulatif GAQ & Drop-off Pertanyaan Saringan Poin Penting: Perbedaan utama aras Interval dan Rasio adalah keberadaan nol absolut pada aras rasio."
+    },
+    {
+      "id": "m7",
+      "title": "Validitas, Reliabilitas, Ukuran & Teknik Sampling",
+      "html": "<section class=\"mod-card\" id=\"m7\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#e11d48;\">MODUL 7</span>\n        <h2 class=\"mod-title\">Modul 7: Validitas, Reliabilitas &amp; Teknik Sampling</h2>\n      </div>\n      <div class=\"grid-3\">\n        <div class=\"box\">\n          <h3>KB 1: Validitas &amp; Reliabilitas</h3>\n          <ul class=\"neat\">\n            <li><strong>4 Jenis Validitas</strong> (mengukur apa yang seharusnya diukur):\n              <br>• <em>Face validity</em> (pemilihan kata/istilah tampak sesuai),\n              <br>• <em>Validitas konten</em> (keterwakilan domain item),\n              <br>• <em>Validitas kriteria</em> (korelasi dengan instrumen sejenis),\n              <br>• <em>Validitas konstruk</em> (mengukur sifat tak teramati langsung berdasar perilaku).</li>\n            <li><strong>4 Jenis Reliabilitas</strong> (konsistensi pengukuran):\n              <br>• <em>Inter-rater</em> → <strong>Cohen's Kappa</strong>,\n              <br>• <em>Test-retest</em> → <strong>Korelasi Pearson</strong>,\n              <br>• <em>Equivalent form</em> → <strong>Spearman-Brown</strong>,\n              <br>• <em>Internal consistency</em> → <strong>Cronbach's Alpha</strong>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Penentuan Ukuran Sampel</h3>\n          <ul class=\"neat\">\n            <li><strong>Pedoman Gay, Mills, &amp; Airasian (2012):</strong>\n              <br>• N ≤ 100 → survei seluruh populasi (sensus),\n              <br>• N ≈ 500 → 50% sampel,\n              <br>• N ≈ 1.500 → 20% sampel,\n              <br>• N ≥ 5.000 → ukuran sampel <strong>400</strong> sudah memadai.</li>\n            <li><strong>Central Limit Theorem:</strong> Ukuran sampel minimal <strong>30</strong> (dengan syarat tetap memperhatikan keterwakilan populasi).</li>\n            <li><strong>Rumus Slovin:</strong> <code>n = N / (1 + N·e²)</code>; semakin kecil <em>margin of error (e)</em>, semakin besar sampel yang dibutuhkan.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 3: Metode Sampling</h3>\n          <ul class=\"neat\">\n            <li><strong>Probabilistik</strong> (semua anggota berpeluang sama, acak): <em>Simple Random</em>, <em>Stratified Random</em>, <em>Proportional Stratified</em>, <em>Cluster Sampling</em>, dan <em>Systematic Sampling</em>.</li>\n            <li><strong>Non-Probabilistik</strong> (peluang tidak sama, tanpa acak): <em>Convenience</em> (kemudahan akses), <em>Quota</em> (kuota kelompok), dan <em>Purposive</em> (tujuan/kriteria tertentu).</li>\n            <li><strong>Multistage Sampling:</strong> Penyempitan wilayah bertahap untuk populasi sangat besar (misal Provinsi → Kabupaten → Kecamatan → RT).</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">3 Kondisi Validitas–Reliabilitas &amp; Koefisien Uji Reliabilitas (Modul 7)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"12\" y=\"14\" width=\"320\" height=\"176\" rx=\"8\" fill=\"#fff1f2\" stroke=\"#e11d48\" stroke-width=\"1.5\"/>\n          <text x=\"172\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">3 Kondisi Validitas &amp; Reliabilitas</text>\n          <circle cx=\"68\" cy=\"94\" r=\"36\" fill=\"#fff\" stroke=\"#64748b\" stroke-width=\"1.5\"/>\n          <circle cx=\"68\" cy=\"94\" r=\"14\" fill=\"none\" stroke=\"#94a3b8\"/>\n          <circle cx=\"52\" cy=\"78\" r=\"3\" fill=\"#e11d48\"/><circle cx=\"84\" cy=\"108\" r=\"3\" fill=\"#e11d48\"/><circle cx=\"76\" cy=\"72\" r=\"3\" fill=\"#e11d48\"/>\n          <text x=\"68\" y=\"148\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Tidak Valid</text>\n          <text x=\"68\" y=\"160\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">&amp; Tdk Reliabel</text>\n\n          <circle cx=\"172\" cy=\"94\" r=\"36\" fill=\"#fff\" stroke=\"#64748b\" stroke-width=\"1.5\"/>\n          <circle cx=\"172\" cy=\"94\" r=\"14\" fill=\"none\" stroke=\"#94a3b8\"/>\n          <circle cx=\"152\" cy=\"76\" r=\"3\" fill=\"#d97706\"/><circle cx=\"156\" cy=\"74\" r=\"3\" fill=\"#d97706\"/><circle cx=\"154\" cy=\"80\" r=\"3\" fill=\"#d97706\"/>\n          <text x=\"172\" y=\"148\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Tidak Valid</text>\n          <text x=\"172\" y=\"160\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"700\">Tapi Reliabel</text>\n\n          <circle cx=\"276\" cy=\"94\" r=\"36\" fill=\"#fff\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <circle cx=\"276\" cy=\"94\" r=\"14\" fill=\"#d1fae5\" stroke=\"#059669\"/>\n          <circle cx=\"274\" cy=\"93\" r=\"3\" fill=\"#059669\"/><circle cx=\"278\" cy=\"95\" r=\"3\" fill=\"#059669\"/><circle cx=\"276\" cy=\"91\" r=\"3\" fill=\"#059669\"/>\n          <text x=\"276\" y=\"148\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"800\" fill=\"#047857\">Valid &amp;</text>\n          <text x=\"276\" y=\"160\" text-anchor=\"middle\" font-size=\"8.5\" font-weight=\"800\" fill=\"#047857\">Reliabel</text>\n\n          <rect x=\"348\" y=\"14\" width=\"320\" height=\"176\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"508\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">4 Uji Reliabilitas Instrumen</text>\n          <rect x=\"364\" y=\"46\" width=\"288\" height=\"28\" rx=\"5\" fill=\"#fff\" stroke=\"#2563eb\"/><text x=\"508\" y=\"64\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Inter-rater → Cohen's Kappa</text>\n          <rect x=\"364\" y=\"80\" width=\"288\" height=\"28\" rx=\"5\" fill=\"#fff\" stroke=\"#2563eb\"/><text x=\"508\" y=\"98\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Test-retest → Korelasi Pearson</text>\n          <rect x=\"364\" y=\"114\" width=\"288\" height=\"28\" rx=\"5\" fill=\"#fff\" stroke=\"#2563eb\"/><text x=\"508\" y=\"132\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">Equivalent form → Spearman-Brown</text>\n          <rect x=\"364\" y=\"148\" width=\"288\" height=\"28\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/><text x=\"508\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Internal Consistency → Cronbach's Alpha</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: Instrumen dapat reliabel (konsisten mengelompok) tetapi tidak valid (meleset dari sasaran); kondisi ideal adalah valid dan reliabel. Kanan: Pasangan jenis reliabilitas dan koefisien statistiknya.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 7</h4>\n        <ul class=\"neat\">\n          <li><strong>Heterogenitas Populasi:</strong> Semakin heterogen karakteristik populasi, semakin besar ukuran sampel yang diperlukan agar tetap representatif.</li>\n          <li><strong>Reliabel Belum Tentu Valid:</strong> Alat ukur yang selalu memberi hasil sama (reliabel) bisa saja tidak mengukur konstruk yang dimaksud (tidak valid), tetapi alat yang valid pasti reliabel.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 7</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">4 Validitas</span>\n          <span class=\"kw-chip\">Cronbach's Alpha</span>\n          <span class=\"kw-chip\">Gay: N≥5000 → 400</span>\n          <span class=\"kw-chip\">Slovin &amp; CLT (30)</span>\n          <span class=\"kw-chip\">Probabilistik vs Non</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Konsistensi internal diukur dengan <strong>Cronbach's Alpha</strong>; kesepakatan antar-penilai diukur dengan <strong>Cohen's Kappa</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 7 Modul 7: Validitas, Reliabilitas & Teknik Sampling KB 1: Validitas & Reliabilitas 4 Jenis Validitas (mengukur apa yang seharusnya diukur): • Face validity (pemilihan kata/istilah tampak sesuai), • Validitas konten (keterwakilan domain item), • Validitas kriteria (korelasi dengan instrumen sejenis), • Validitas konstruk (mengukur sifat tak teramati langsung berdasar perilaku). 4 Jenis Reliabilitas (konsistensi pengukuran): • Inter-rater → Cohen's Kappa , • Test-retest → Korelasi Pearson , • Equivalent form → Spearman-Brown , • Internal consistency → Cronbach's Alpha . KB 2: Penentuan Ukuran Sampel Pedoman Gay, Mills, & Airasian (2012): • N ≤ 100 → survei seluruh populasi (sensus), • N ≈ 500 → 50% sampel, • N ≈ 1.500 → 20% sampel, • N ≥ 5.000 → ukuran sampel 400 sudah memadai. Central Limit Theorem: Ukuran sampel minimal 30 (dengan syarat tetap memperhatikan keterwakilan populasi). Rumus Slovin: n = N / (1 + N·e²) ; semakin kecil margin of error (e) , semakin besar sampel yang dibutuhkan. KB 3: Metode Sampling Probabilistik (semua anggota berpeluang sama, acak): Simple Random , Stratified Random , Proportional Stratified , Cluster Sampling , dan Systematic Sampling . Non-Probabilistik (peluang tidak sama, tanpa acak): Convenience (kemudahan akses), Quota (kuota kelompok), dan Purposive (tujuan/kriteria tertentu). Multistage Sampling: Penyempitan wilayah bertahap untuk populasi sangat besar (misal Provinsi → Kabupaten → Kecamatan → RT). 3 Kondisi Validitas–Reliabilitas & Koefisien Uji Reliabilitas (Modul 7) Penjelasan Diagram: Kiri: Instrumen dapat reliabel (konsisten mengelompok) tetapi tidak valid (meleset dari sasaran); kondisi ideal adalah valid dan reliabel. Kanan: Pasangan jenis reliabilitas dan koefisien statistiknya. 📌 Detail Kecil Wajib Tahu — Modul 7 Heterogenitas Populasi: Semakin heterogen karakteristik populasi, semakin besar ukuran sampel yang diperlukan agar tetap representatif. Reliabel Belum Tentu Valid: Alat ukur yang selalu memberi hasil sama (reliabel) bisa saja tidak mengukur konstruk yang dimaksud (tidak valid), tetapi alat yang valid pasti reliabel. 🔑 Kata Kunci Wajib Ingat — Modul 7 4 Validitas Cronbach's Alpha Gay: N≥5000 → 400 Slovin & CLT (30) Probabilistik vs Non Poin Penting: Konsistensi internal diukur dengan Cronbach's Alpha ; kesepakatan antar-penilai diukur dengan Cohen's Kappa ."
+    },
+    {
+      "id": "m8",
+      "title": "Distribusi Data, Statistika Deskriptif & Inferensial",
+      "html": "<section class=\"mod-card\" id=\"m8\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#0f766e;\">MODUL 8</span>\n        <h2 class=\"mod-title\">Modul 8: Distribusi Data, Statistika Deskriptif &amp; Inferensial</h2>\n      </div>\n      <div class=\"grid-3\">\n        <div class=\"box\">\n          <h3>KB 1: Distribusi Data</h3>\n          <ul class=\"neat\">\n            <li><strong>Visualisasi:</strong> <em>Scatter plot</em>, <em>line chart</em>, <em>pie chart</em>, dan <em>bar chart</em>.</li>\n            <li><strong>4 Ciri Distribusi Normal:</strong> Simetris horizontal, <code>mean = median = modus</code>, puncak tunggal di tengah, dua ujung mendekati sumbu-X tanpa menyentuhnya (asimtotis).</li>\n            <li><strong>Simpang Baku (SD) pada Kurva:</strong> SD kecil → kurva lebih tinggi &amp; kurus; SD besar → kurva lebih pendek &amp; gemuk.</li>\n            <li><strong>Parametrik vs Non-Parametrik:</strong> Data normal + aras interval/rasio → <em>parametrik</em>; selain itu → <em>non-parametrik</em>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Statistika Deskriptif</h3>\n          <ul class=\"neat\">\n            <li><strong>Pusat Kecenderungan:</strong> <em>Rerata (Mean)</em>, <em>Nilai Tengah (Median)</em> (tahan terhadap <em>outlier</em>, cocok untuk ordinal), dan <em>Modus</em> (satu-satunya ukuran untuk data nominal).</li>\n            <li><strong>Variabilitas:</strong> <em>Kisaran (Range)</em>, <em>Simpang Rerata</em> (jarang dipakai karena risiko lupa tanda mutlak), serta <em>Simpang Baku (s)</em> &amp; <em>Varians (s²)</em>.</li>\n            <li><strong>Skor Standar (z):</strong> <code>z = (xᵢ - x̄) / s</code> digunakan untuk membandingkan skor dari dua distribusi berbeda dengan syarat rerata keduanya sama.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 3: Statistika Inferensial</h3>\n          <ul class=\"neat\">\n            <li><strong>2 Fungsi Utama:</strong> (1) Estimasi parameter populasi (<code>μ, σ, P</code>) dari statistik sampel acak (<code>x̄, s, p</code>); (2) Uji hipotesis nol (H₀).</li>\n            <li><strong>Kesalahan Tipe I (α):</strong> Menolak H₀ padahal H₀ benar → diperkecil dengan menurunkan aras signifikansi (misal 5% → 1%).</li>\n            <li><strong>Kesalahan Tipe II (β):</strong> Menerima H₀ padahal H₀ salah → diperkecil dengan memperbesar ukuran sampel.</li>\n            <li><strong>Uji Z vs Uji t:</strong> <em>Uji Z</em> menguji rerata 1 peubah terhadap 1 nilai acuan; <em>Uji t</em> (<em>Student-t</em>) menguji rerata 2 kelompok sampel.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Distribusi Normal &amp; Matriks Kesalahan Uji Hipotesis (Modul 8)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"12\" y=\"14\" width=\"320\" height=\"176\" rx=\"8\" fill=\"#f0fdfa\" stroke=\"#0f766e\" stroke-width=\"1.5\"/>\n          <text x=\"172\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Kurva Distribusi Normal</text>\n          <line x1=\"32\" y1=\"145\" x2=\"312\" y2=\"145\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n          <path d=\"M40 142 C85 142 115 54 172 54 C229 54 259 142 304 142\" fill=\"none\" stroke=\"#0f766e\" stroke-width=\"2.5\"/>\n          <line x1=\"172\" y1=\"54\" x2=\"172\" y2=\"145\" stroke=\"#dc2626\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n          <text x=\"172\" y=\"162\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"800\">Mean = Median = Modus</text>\n          <text x=\"172\" y=\"177\" text-anchor=\"middle\" font-size=\"8.5\">SD kecil = kurus/tinggi | SD besar = gemuk</text>\n\n          <rect x=\"348\" y=\"14\" width=\"320\" height=\"176\" rx=\"8\" fill=\"#fffbeb\" stroke=\"#d97706\" stroke-width=\"1.5\"/>\n          <text x=\"508\" y=\"34\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Matriks Keputusan Uji H₀</text>\n          <text x=\"480\" y=\"54\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">H₀ Benar</text>\n          <text x=\"595\" y=\"54\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">H₀ Salah</text>\n          <text x=\"390\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Tolak H₀</text>\n          <text x=\"390\" y=\"142\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Terima H₀</text>\n\n          <rect x=\"430\" y=\"64\" width=\"106\" height=\"44\" rx=\"5\" fill=\"#ffe4e6\" stroke=\"#e11d48\"/>\n          <text x=\"483\" y=\"83\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Salah Tipe I (α)</text>\n          <text x=\"483\" y=\"98\" text-anchor=\"middle\" font-size=\"8\">Kecilkan α (5%→1%)</text>\n\n          <rect x=\"544\" y=\"64\" width=\"108\" height=\"44\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#059669\"/>\n          <text x=\"598\" y=\"83\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Keputusan Tepat</text>\n          <text x=\"598\" y=\"98\" text-anchor=\"middle\" font-size=\"8\">Power (1 - β)</text>\n\n          <rect x=\"430\" y=\"116\" width=\"106\" height=\"44\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#059669\"/>\n          <text x=\"483\" y=\"135\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Keputusan Tepat</text>\n          <text x=\"483\" y=\"150\" text-anchor=\"middle\" font-size=\"8\">Confidence (1 - α)</text>\n\n          <rect x=\"544\" y=\"116\" width=\"108\" height=\"44\" rx=\"5\" fill=\"#fef08a\" stroke=\"#ca8a04\"/>\n          <text x=\"598\" y=\"135\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"800\">Salah Tipe II (β)</text>\n          <text x=\"598\" y=\"150\" text-anchor=\"middle\" font-size=\"8\">Perbesar sampel (n)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kiri: Ciri kurva normal yang simetris dengan mean = median = modus. Kanan: Kesalahan Tipe I (α) terjadi saat menolak H₀ yang benar, sedangkan Kesalahan Tipe II (β) saat menerima H₀ yang salah.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 8</h4>\n        <ul class=\"neat\">\n          <li><strong>Kapan Memilih Median vs Mean?</strong> Jika data mengandung nilai ekstrem (<em>outlier</em>) atau miring (<em>skewed</em>), gunakan <strong>Median</strong> karena Mean mudah tertarik oleh outlier. Untuk data nominal, gunakan <strong>Modus</strong>.</li>\n          <li><strong>Interpretasi Skor z:</strong> Jika skor mentah &gt; rerata + 1 SD, maka skor <code>z &gt; +1</code>; jika skor mentah &lt; rerata - 1 SD, maka skor <code>z &lt; -1</code>.</li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 8</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Parametrik vs Non-Parametrik</span>\n          <span class=\"kw-chip\">Mean·Median·Modus</span>\n          <span class=\"kw-chip\">Skor z</span>\n          <span class=\"kw-chip\">Tipe I (α) vs Tipe II (β)</span>\n          <span class=\"kw-chip\">Uji Z vs Uji t</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Kesalahan Tipe I diperkecil dengan <strong>menurunkan α</strong>; Kesalahan Tipe II diperkecil dengan <strong>memperbesar ukuran sampel</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 8 Modul 8: Distribusi Data, Statistika Deskriptif & Inferensial KB 1: Distribusi Data Visualisasi: Scatter plot , line chart , pie chart , dan bar chart . 4 Ciri Distribusi Normal: Simetris horizontal, mean = median = modus , puncak tunggal di tengah, dua ujung mendekati sumbu-X tanpa menyentuhnya (asimtotis). Simpang Baku (SD) pada Kurva: SD kecil → kurva lebih tinggi & kurus; SD besar → kurva lebih pendek & gemuk. Parametrik vs Non-Parametrik: Data normal + aras interval/rasio → parametrik ; selain itu → non-parametrik . KB 2: Statistika Deskriptif Pusat Kecenderungan: Rerata (Mean) , Nilai Tengah (Median) (tahan terhadap outlier , cocok untuk ordinal), dan Modus (satu-satunya ukuran untuk data nominal). Variabilitas: Kisaran (Range) , Simpang Rerata (jarang dipakai karena risiko lupa tanda mutlak), serta Simpang Baku (s) & Varians (s²) . Skor Standar (z): z = (xᵢ - x̄) / s digunakan untuk membandingkan skor dari dua distribusi berbeda dengan syarat rerata keduanya sama. KB 3: Statistika Inferensial 2 Fungsi Utama: (1) Estimasi parameter populasi ( μ, σ, P ) dari statistik sampel acak ( x̄, s, p ); (2) Uji hipotesis nol (H₀). Kesalahan Tipe I (α): Menolak H₀ padahal H₀ benar → diperkecil dengan menurunkan aras signifikansi (misal 5% → 1%). Kesalahan Tipe II (β): Menerima H₀ padahal H₀ salah → diperkecil dengan memperbesar ukuran sampel. Uji Z vs Uji t: Uji Z menguji rerata 1 peubah terhadap 1 nilai acuan; Uji t ( Student-t ) menguji rerata 2 kelompok sampel. Distribusi Normal & Matriks Kesalahan Uji Hipotesis (Modul 8) Penjelasan Diagram: Kiri: Ciri kurva normal yang simetris dengan mean = median = modus. Kanan: Kesalahan Tipe I (α) terjadi saat menolak H₀ yang benar, sedangkan Kesalahan Tipe II (β) saat menerima H₀ yang salah. 📌 Detail Kecil Wajib Tahu — Modul 8 Kapan Memilih Median vs Mean? Jika data mengandung nilai ekstrem ( outlier ) atau miring ( skewed ), gunakan Median karena Mean mudah tertarik oleh outlier. Untuk data nominal, gunakan Modus . Interpretasi Skor z: Jika skor mentah > rerata + 1 SD, maka skor z > +1 ; jika skor mentah < rerata - 1 SD, maka skor z < -1 . 🔑 Kata Kunci Wajib Ingat — Modul 8 Parametrik vs Non-Parametrik Mean·Median·Modus Skor z Tipe I (α) vs Tipe II (β) Uji Z vs Uji t Poin Penting: Kesalahan Tipe I diperkecil dengan menurunkan α ; Kesalahan Tipe II diperkecil dengan memperbesar ukuran sampel ."
+    },
+    {
+      "id": "m9",
+      "title": "Analisis Hasil, Kesimpulan, Saran & Sitasi",
+      "html": "<section class=\"mod-card\" id=\"m9\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#4f46e5;\">MODUL 9</span>\n        <h2 class=\"mod-title\">Modul 9: Analisis Hasil, Kesimpulan, Saran &amp; Sitasi</h2>\n      </div>\n      <div class=\"grid-3\">\n        <div class=\"box\">\n          <h3>KB 1: Bagian Hasil &amp; Diskusi</h3>\n          <ul class=\"neat\">\n            <li><strong>Hasil Penelitian:</strong> Menyajikan temuan utama yang menjawab pertanyaan penelitian secara objektif <strong>tanpa penafsiran</strong>.</li>\n            <li><strong>Bagian Diskusi:</strong> Menafsirkan hasil secara rinci, membandingkan dengan pustaka sebelumnya (searah/bertentangan), menjelaskan hipotesis yang ditolak, manfaat praktis &amp; <em>lesson learned</em>.</li>\n            <li><strong>Pola Piramida Diskusi:</strong> Penjelasan bergerak dari temuan <strong>spesifik → umum</strong> (dikaitkan kembali ke Kajian Pustaka dan Teori).</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 2: Keterbatasan, Kesimpulan &amp; Saran</h3>\n          <ul class=\"neat\">\n            <li><strong>Keterbatasan Penelitian:</strong> Faktor rancangan/metodologi yang memengaruhi interpretasi negatif (ukuran sampel, profil sampel, pengumpulan data, metode, akses pustaka, umur data).</li>\n            <li><strong>Kesimpulan:</strong> Ringkasan fakta temuan hasil analisis data (bukan yang direncanakan), wajib melaporkan hasil positif maupun negatif.</li>\n            <li><strong>Saran (<em>Future Works</em>):</strong> Rekomendasi tindak lanjut bagi riset berikutnya yang <strong>wajib berdasar pada keterbatasan penelitian</strong>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>KB 3: Sitasi &amp; Daftar Pustaka</h3>\n          <ul class=\"neat\">\n            <li><strong>2 Cara Sitasi:</strong> <em>Sitasi Langsung</em> (pakai tanda petik &amp; wajib nomor halaman) dan <em>Parafrasa</em> (tulis ulang substansi tanpa petik).</li>\n            <li><strong>2 Jenis Penempatan:</strong> <em>Footnote</em> (bawah halaman, urut 1, 2, dst.) vs <em>Endnote</em> (Daftar Pustaka/Referensi di akhir).</li>\n            <li><strong>Gaya Sitasi:</strong> <strong>IEEE</strong> (angka berurutan, Teknik/TI), <strong>APA</strong> (nama belakang &amp; tahun, semua penulis di daftar pustaka, Sosial/Psikologi), <strong>MLA</strong> (penulis pertama + <em>et al.</em>, Humaniora).</li>\n            <li><strong>Reference Manager:</strong> Mendeley, Zotero, EndNote, JabRef, Bebop.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Alur Hasil → Diskusi (Pola Piramida) → Kesimpulan &amp; Saran (Modul 9)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"14\" y=\"16\" width=\"144\" height=\"78\" rx=\"8\" fill=\"#e0e7ff\" stroke=\"#4338ca\" stroke-width=\"1.5\"/>\n          <text x=\"86\" y=\"38\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">1. Hasil Penelitian</text>\n          <text x=\"86\" y=\"56\" text-anchor=\"middle\" font-size=\"9\">Fakta &amp; angka temuan</text>\n          <text x=\"86\" y=\"72\" text-anchor=\"middle\" font-size=\"8.5\">Tanpa penafsiran</text>\n          <path d=\"M160 55 L178 55\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"180\" y=\"16\" width=\"160\" height=\"78\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"260\" y=\"38\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">2. Diskusi (Piramida)</text>\n          <text x=\"260\" y=\"56\" text-anchor=\"middle\" font-size=\"9\">Spesifik → Umum</text>\n          <text x=\"260\" y=\"72\" text-anchor=\"middle\" font-size=\"8.5\">Bandingkan pustaka &amp; teori</text>\n          <path d=\"M342 55 L360 55\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"362\" y=\"16\" width=\"144\" height=\"78\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"434\" y=\"38\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">3. Kesimpulan</text>\n          <text x=\"434\" y=\"56\" text-anchor=\"middle\" font-size=\"9\">Ringkas hasil positif</text>\n          <text x=\"434\" y=\"72\" text-anchor=\"middle\" font-size=\"8.5\">&amp; negatif berdasar data</text>\n          <path d=\"M508 55 L526 55\" stroke=\"#334155\" stroke-width=\"2\"/>\n\n          <rect x=\"528\" y=\"16\" width=\"138\" height=\"78\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.5\"/>\n          <text x=\"597\" y=\"38\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">4. Saran</text>\n          <text x=\"597\" y=\"56\" text-anchor=\"middle\" font-size=\"9\">Berdasar Keterbatasan</text>\n          <text x=\"597\" y=\"72\" text-anchor=\"middle\" font-size=\"8.5\">(Future Works)</text>\n\n          <rect x=\"14\" y=\"114\" width=\"652\" height=\"76\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"135\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"800\">Perbandingan 3 Gaya Sitasi Populer</text>\n          <rect x=\"28\" y=\"146\" width=\"196\" height=\"32\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"126\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">IEEE: Angka [1], [2] (TI/Teknik)</text>\n          <rect x=\"242\" y=\"146\" width=\"196\" height=\"32\" rx=\"5\" fill=\"#d1fae5\" stroke=\"#059669\"/><text x=\"340\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">APA: (Nama, Tahun) (Sosial)</text>\n          <rect x=\"456\" y=\"146\" width=\"196\" height=\"32\" rx=\"5\" fill=\"#ede9fe\" stroke=\"#6d28d9\"/><text x=\"554\" y=\"166\" text-anchor=\"middle\" font-size=\"9.5\" font-weight=\"700\">MLA: Penulis 1 et al. (Humaniora)</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Kesimpulan bersumber dari analisis data (hasil &amp; diskusi), sedangkan Saran (<em>future works</em>) bersumber langsung dari keterbatasan penelitian. Gaya sitasi dipilih sesuai disiplin ilmu.</p>\n      </div>\n      <div class=\"box note-box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📌 Detail Kecil Wajib Tahu — Modul 9</h4>\n        <ul class=\"neat\">\n          <li><strong>Menghindari Plagiarisme:</strong> Setiap ide, teori, parafrasa, gambar, tabel, maupun data non-tekstual dari karya lain wajib disitasi dan dicantumkan di Daftar Pustaka.</li>\n          <li><strong>Perbedaan APA vs MLA pada Multi-Penulis:</strong> Dalam Daftar Pustaka APA, semua penulis ditulis lengkap; pada MLA, penulis pertama diikuti <em>et al.</em></li>\n        </ul>\n      </div>\n      <div class=\"key-box\">\n        <div class=\"key-head\">🔑 Kata Kunci Wajib Ingat — Modul 9</div>\n        <div class=\"kw-chips\">\n          <span class=\"kw-chip\">Pola Piramida Diskusi</span>\n          <span class=\"kw-chip\">Keterbatasan → Saran</span>\n          <span class=\"kw-chip\">Sitasi Langsung vs Parafrasa</span>\n          <span class=\"kw-chip\">IEEE · APA · MLA</span>\n          <span class=\"kw-chip\">Mendeley / Zotero</span>\n        </div>\n        <p style=\"margin:0;\"><strong>Poin Penting:</strong> Kesimpulan harus menuliskan <strong>fakta yang terjadi</strong> (positif maupun negatif), sedangkan Saran harus berakar pada <strong>keterbatasan penelitian</strong>.</p>\n      </div>\n    </section>",
+      "text": "MODUL 9 Modul 9: Analisis Hasil, Kesimpulan, Saran & Sitasi KB 1: Bagian Hasil & Diskusi Hasil Penelitian: Menyajikan temuan utama yang menjawab pertanyaan penelitian secara objektif tanpa penafsiran . Bagian Diskusi: Menafsirkan hasil secara rinci, membandingkan dengan pustaka sebelumnya (searah/bertentangan), menjelaskan hipotesis yang ditolak, manfaat praktis & lesson learned . Pola Piramida Diskusi: Penjelasan bergerak dari temuan spesifik → umum (dikaitkan kembali ke Kajian Pustaka dan Teori). KB 2: Keterbatasan, Kesimpulan & Saran Keterbatasan Penelitian: Faktor rancangan/metodologi yang memengaruhi interpretasi negatif (ukuran sampel, profil sampel, pengumpulan data, metode, akses pustaka, umur data). Kesimpulan: Ringkasan fakta temuan hasil analisis data (bukan yang direncanakan), wajib melaporkan hasil positif maupun negatif. Saran ( Future Works ): Rekomendasi tindak lanjut bagi riset berikutnya yang wajib berdasar pada keterbatasan penelitian . KB 3: Sitasi & Daftar Pustaka 2 Cara Sitasi: Sitasi Langsung (pakai tanda petik & wajib nomor halaman) dan Parafrasa (tulis ulang substansi tanpa petik). 2 Jenis Penempatan: Footnote (bawah halaman, urut 1, 2, dst.) vs Endnote (Daftar Pustaka/Referensi di akhir). Gaya Sitasi: IEEE (angka berurutan, Teknik/TI), APA (nama belakang & tahun, semua penulis di daftar pustaka, Sosial/Psikologi), MLA (penulis pertama + et al. , Humaniora). Reference Manager: Mendeley, Zotero, EndNote, JabRef, Bebop. Alur Hasil → Diskusi (Pola Piramida) → Kesimpulan & Saran (Modul 9) Penjelasan Diagram: Kesimpulan bersumber dari analisis data (hasil & diskusi), sedangkan Saran ( future works ) bersumber langsung dari keterbatasan penelitian. Gaya sitasi dipilih sesuai disiplin ilmu. 📌 Detail Kecil Wajib Tahu — Modul 9 Menghindari Plagiarisme: Setiap ide, teori, parafrasa, gambar, tabel, maupun data non-tekstual dari karya lain wajib disitasi dan dicantumkan di Daftar Pustaka. Perbedaan APA vs MLA pada Multi-Penulis: Dalam Daftar Pustaka APA, semua penulis ditulis lengkap; pada MLA, penulis pertama diikuti et al. 🔑 Kata Kunci Wajib Ingat — Modul 9 Pola Piramida Diskusi Keterbatasan → Saran Sitasi Langsung vs Parafrasa IEEE · APA · MLA Mendeley / Zotero Poin Penting: Kesimpulan harus menuliskan fakta yang terjadi (positif maupun negatif), sedangkan Saran harus berakar pada keterbatasan penelitian ."
+    },
+    {
+      "id": "ahli",
+      "title": "Tokoh Metodologi Penelitian & Kerangka Rujukan Kunci",
+      "html": "<section class=\"mod-card\" id=\"ahli\">\n      <div class=\"mod-header\">\n        <span class=\"mod-tag\" style=\"background:#1f2937;\">MENURUT AHLI &amp; STANDAR</span>\n        <h2 class=\"mod-title\">Tokoh Metodologi Penelitian &amp; Kerangka Rujukan Kunci</h2>\n      </div>\n      <div class=\"grid-2\">\n        <div class=\"box\">\n          <h3>Tokoh Utama dalam BMP MSIM4312</h3>\n          <ul class=\"neat\">\n            <li><strong>Ir. Paulus Insap Santosa, M.Sc., Ph.D., IPU:</strong> Penulis BMP MSIM4312 UT &amp; buku <em>Metode Penelitian Kuantitatif</em> (2018); mencontohkan pengembangan hipotesis berbasis kajian pustaka pada disertasi pencarian Web (2006).</li>\n            <li><strong>Paul D. Leedy &amp; Jeanne E. Ormord (2015):</strong> <em>Practical Research: Planning and Design</em> — rujukan definisi penelitian sistematis, karakteristik riset berkualitas, dan konsep hipotesis <em>a priori</em>.</li>\n            <li><strong>L. R. Gay, G. E. Mills, &amp; P. Airasian (2012):</strong> Pedoman praktis ukuran sampel (N≤100 sensus, N=500 → 50%, N=1.500 → 20%, N≥5.000 → 400 sampel).</li>\n            <li><strong>C. R. Kothari (2004):</strong> Membedakan secara tegas hierarki <em>Metodologi</em>, <em>Metode</em>, dan <em>Teknik Penelitian</em>.</li>\n          </ul>\n        </div>\n        <div class=\"box\">\n          <h3>Tokoh Metodologi Penelitian Global &amp; Sistem Informasi</h3>\n          <ul class=\"neat\">\n            <li><strong>John W. Creswell:</strong> Tokoh utama desain penelitian <em>Kualitatif, Kuantitatif, dan Mixed Methods</em> (sekuensial eksplanatori, eksploratori, serta triangulasi konkuren).</li>\n            <li><strong>Sugiyono:</strong> Rujukan metodologi penelitian kuantitatif, kualitatif, dan <em>Research &amp; Development (R&amp;D)</em> di Indonesia.</li>\n            <li><strong>Uma Sekaran &amp; Roger Bougie:</strong> <em>Research Methods for Business</em> — operasionalisasi variabel, skala pengukuran, dan desain survei bisnis/SI.</li>\n            <li><strong>Robert K. Yin:</strong> Pakar metodologi <em>Studi Kasus (Case Study Research)</em> — studi kasus tunggal/jamak dan validitas konstruk/eksternal.</li>\n            <li><strong>Mark Saunders, Philip Lewis, &amp; Adrian Thornhill:</strong> Pencetus <em>Research Onion</em> (filosofi, pendekatan, strategi, pilihan metode, horizon waktu, teknik).</li>\n            <li><strong>Alan R. Hevner dkk. (2004):</strong> Pencetus 7 pedoman <em>Design Science Research (DSR)</em> di Sistem Informasi untuk membangun dan mengevaluasi artefak TI.</li>\n          </ul>\n        </div>\n      </div>\n      <div class=\"box\" style=\"margin-top:12px; background:#fffbeb;\">\n        <h4>📚 Referensi Tambahan: Teori Sistem Informasi Populer untuk Proposal &amp; Landasan Teori</h4>\n        <ul class=\"neat\">\n          <li><strong>TAM (Davis, 1989):</strong> <em>Perceived Usefulness</em> &amp; <em>Perceived Ease of Use</em> memengaruhi minat dan perilaku penggunaan TI.</li>\n          <li><strong>UTAUT (Venkatesh dkk., 2003):</strong> Menyatukan 8 model penerimaan TI (<em>Performance Expectancy, Effort Expectancy, Social Influence, Facilitating Conditions</em>).</li>\n          <li><strong>IS Success Model (DeLone &amp; McLean, 2003):</strong> Kualitas sistem, informasi, dan layanan memengaruhi penggunaan, kepuasan pengguna, dan manfaat bersih (<em>net benefits</em>).</li>\n          <li><strong>TTF (Goodhue &amp; Thompson, 1995) &amp; TPB (Ajzen, 1985):</strong> Kesesuaian tugas-teknologi dan teori perilaku terencana sebagai dasar pengembangan hipotesis SI.</li>\n        </ul>\n      </div>\n      <div class=\"svg-wrap\" style=\"margin-top:12px;\">\n        <div style=\"font-size:12px; font-weight:700; color:#4b5563; margin-bottom:6px;\">Peta Paradigma Riset Sistem Informasi (Behavioral vs Design Science vs Mixed)</div>\n        <svg width=\"680\" height=\"205\" viewBox=\"0 0 680 205\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:100%;height:auto;\">\n          <rect x=\"12\" y=\"16\" width=\"206\" height=\"172\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/>\n          <text x=\"115\" y=\"38\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Behavioral Science (KUAN)</text>\n          <text x=\"115\" y=\"56\" text-anchor=\"middle\" font-size=\"9\">Leedy, Creswell, Sekaran</text>\n          <rect x=\"26\" y=\"70\" width=\"178\" height=\"44\" rx=\"5\" fill=\"#fff\" stroke=\"#2563eb\"/>\n          <text x=\"115\" y=\"88\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Fokus: Uji Teori &amp; Hipotesis</text>\n          <text x=\"115\" y=\"103\" text-anchor=\"middle\" font-size=\"8.5\">(TAM, UTAUT, IS Success)</text>\n          <rect x=\"26\" y=\"124\" width=\"178\" height=\"48\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/>\n          <text x=\"115\" y=\"144\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Instrumen: Kuesioner Likert</text>\n          <text x=\"115\" y=\"160\" text-anchor=\"middle\" font-size=\"8.5\">Uji Z/t, Regresi, SEM/PLS</text>\n\n          <rect x=\"237\" y=\"16\" width=\"206\" height=\"172\" rx=\"8\" fill=\"#ede9fe\" stroke=\"#6d28d9\" stroke-width=\"1.5\"/>\n          <text x=\"340\" y=\"38\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Interpretif (KUAL)</text>\n          <text x=\"340\" y=\"56\" text-anchor=\"middle\" font-size=\"9\">Yin, Urquhart, Creswell</text>\n          <rect x=\"251\" y=\"70\" width=\"178\" height=\"44\" rx=\"5\" fill=\"#fff\" stroke=\"#7c3aed\"/>\n          <text x=\"340\" y=\"88\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Fokus: Pahami Fenomena</text>\n          <text x=\"340\" y=\"103\" text-anchor=\"middle\" font-size=\"8.5\">Studi Kasus, Grounded Theory</text>\n          <rect x=\"251\" y=\"124\" width=\"178\" height=\"48\" rx=\"5\" fill=\"#ddd6fe\" stroke=\"#6d28d9\"/>\n          <text x=\"340\" y=\"144\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Instrumen: Wawancara/Obs.</text>\n          <text x=\"340\" y=\"160\" text-anchor=\"middle\" font-size=\"8.5\">Analisis Tematik / Konten</text>\n\n          <rect x=\"462\" y=\"16\" width=\"206\" height=\"172\" rx=\"8\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"1.5\"/>\n          <text x=\"565\" y=\"38\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"800\">Design Science (DSR)</text>\n          <text x=\"565\" y=\"56\" text-anchor=\"middle\" font-size=\"9\">Hevner dkk., Sugiyono (R&amp;D)</text>\n          <rect x=\"476\" y=\"70\" width=\"178\" height=\"44\" rx=\"5\" fill=\"#fff\" stroke=\"#059669\"/>\n          <text x=\"565\" y=\"88\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Fokus: Bangun Artefak TI</text>\n          <text x=\"565\" y=\"103\" text-anchor=\"middle\" font-size=\"8.5\">Model, Metode, Prototipe/SDLC</text>\n          <rect x=\"476\" y=\"124\" width=\"178\" height=\"48\" rx=\"5\" fill=\"#a7f3d0\" stroke=\"#059669\"/>\n          <text x=\"565\" y=\"144\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\">Evaluasi: Utility &amp; Kualitas</text>\n          <text x=\"565\" y=\"160\" text-anchor=\"middle\" font-size=\"8.5\">Uji coba, Usability, Efektivitas</text>\n        </svg>\n        <p class=\"svg-caption\"><strong>Penjelasan Diagram:</strong> Proposal penelitian Sistem Informasi umumnya memilih paradigma Behavioral/Kuantitatif (menguji teori), Interpretif/Kualitatif (mendalami konteks), atau Design Science Research/R&amp;D (merancang dan mengevaluasi artefak TI).</p>\n      </div>\n    </section>",
+      "text": "MENURUT AHLI & STANDAR Tokoh Metodologi Penelitian & Kerangka Rujukan Kunci Tokoh Utama dalam BMP MSIM4312 Ir. Paulus Insap Santosa, M.Sc., Ph.D., IPU: Penulis BMP MSIM4312 UT & buku Metode Penelitian Kuantitatif (2018); mencontohkan pengembangan hipotesis berbasis kajian pustaka pada disertasi pencarian Web (2006). Paul D. Leedy & Jeanne E. Ormord (2015): Practical Research: Planning and Design — rujukan definisi penelitian sistematis, karakteristik riset berkualitas, dan konsep hipotesis a priori . L. R. Gay, G. E. Mills, & P. Airasian (2012): Pedoman praktis ukuran sampel (N≤100 sensus, N=500 → 50%, N=1.500 → 20%, N≥5.000 → 400 sampel). C. R. Kothari (2004): Membedakan secara tegas hierarki Metodologi , Metode , dan Teknik Penelitian . Tokoh Metodologi Penelitian Global & Sistem Informasi John W. Creswell: Tokoh utama desain penelitian Kualitatif, Kuantitatif, dan Mixed Methods (sekuensial eksplanatori, eksploratori, serta triangulasi konkuren). Sugiyono: Rujukan metodologi penelitian kuantitatif, kualitatif, dan Research & Development (R&D) di Indonesia. Uma Sekaran & Roger Bougie: Research Methods for Business — operasionalisasi variabel, skala pengukuran, dan desain survei bisnis/SI. Robert K. Yin: Pakar metodologi Studi Kasus (Case Study Research) — studi kasus tunggal/jamak dan validitas konstruk/eksternal. Mark Saunders, Philip Lewis, & Adrian Thornhill: Pencetus Research Onion (filosofi, pendekatan, strategi, pilihan metode, horizon waktu, teknik). Alan R. Hevner dkk. (2004): Pencetus 7 pedoman Design Science Research (DSR) di Sistem Informasi untuk membangun dan mengevaluasi artefak TI. 📚 Referensi Tambahan: Teori Sistem Informasi Populer untuk Proposal & Landasan Teori TAM (Davis, 1989): Perceived Usefulness & Perceived Ease of Use memengaruhi minat dan perilaku penggunaan TI. UTAUT (Venkatesh dkk., 2003): Menyatukan 8 model penerimaan TI ( Performance Expectancy, Effort Expectancy, Social Influence, Facilitating Conditions ). IS Success Model (DeLone & McLean, 2003): Kualitas sistem, informasi, dan layanan memengaruhi penggunaan, kepuasan pengguna, dan manfaat bersih ( net benefits ). TTF (Goodhue & Thompson, 1995) & TPB (Ajzen, 1985): Kesesuaian tugas-teknologi dan teori perilaku terencana sebagai dasar pengembangan hipotesis SI. Peta Paradigma Riset Sistem Informasi (Behavioral vs Design Science vs Mixed) Penjelasan Diagram: Proposal penelitian Sistem Informasi umumnya memilih paradigma Behavioral/Kuantitatif (menguji teori), Interpretif/Kualitatif (mendalami konteks), atau Design Science Research/R&D (merancang dan mengevaluasi artefak TI)."
+    }
+  ],
+  "pgQuestions": [
+    {
+      "module": "M1",
+      "question": "[M1-1] Menurut Leedy dan Ormord (2015), kata kunci utama yang membedakan penelitian ilmiah dari sekadar pengumpulan informasi biasa adalah proses yang bersifat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "acak dan subjektif"
+        },
+        {
+          "letter": "B",
+          "text": "sistematis, meliputi pengumpulan, analisis, dan interpretasi data"
+        },
+        {
+          "letter": "C",
+          "text": "politik dan berpihak pada sponsor"
+        },
+        {
+          "letter": "D",
+          "text": "menghasilkan produk komersial semata"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Penelitian menurut Leedy dan Ormord (2015) adalah proses sistematis untuk mengumpulkan data, menganalisisnya, dan menginterpretasikan hasil guna menambah pemahaman atas suatu fenomena.",
+      "num": 1
+    },
+    {
+      "module": "M1",
+      "question": "[M1-2] Berikut ini yang merupakan karakteristik penelitian yang berkualitas, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dapat diulang atau direplikasi"
+        },
+        {
+          "letter": "B",
+          "text": "bersifat siklis dan inkremental"
+        },
+        {
+          "letter": "C",
+          "text": "hanya mencari data yang mendukung hipotesis peneliti"
+        },
+        {
+          "letter": "D",
+          "text": "memiliki keterkaitan dengan teori yang relevan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Peneliti yang objektif tidak boleh hanya mencari data yang mendukung hipotesisnya saja; semua data relevan harus dicatat dan dilaporkan secara jujur.",
+      "num": 2
+    },
+    {
+      "module": "M1",
+      "question": "[M1-3] Dalam hierarki konsep menurut Kothari (2004), cara sistematis untuk menyelesaikan masalah penelitian yang dapat mencakup beberapa metode disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "teknik penelitian"
+        },
+        {
+          "letter": "B",
+          "text": "metodologi penelitian"
+        },
+        {
+          "letter": "C",
+          "text": "instrumen penelitian"
+        },
+        {
+          "letter": "D",
+          "text": "populasi penelitian"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Metodologi penelitian adalah cara sistematis menyelesaikan masalah penelitian, yang dapat terdiri atas beberapa metode penelitian, dan tiap metode terdiri atas beberapa teknik.",
+      "num": 3
+    },
+    {
+      "module": "M1",
+      "question": "[M1-4] Penelitian yang dilakukan secara berulang pada waktu yang berbeda untuk mengamati perubahan suatu fenomena dari waktu ke waktu disebut penelitian ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "longitudinal"
+        },
+        {
+          "letter": "B",
+          "text": "satu waktu (cross-sectional)"
+        },
+        {
+          "letter": "C",
+          "text": "konseptual"
+        },
+        {
+          "letter": "D",
+          "text": "simulasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Penelitian longitudinal mengumpulkan data dalam rentang waktu berulang untuk melihat dinamika perubahan, berbeda dengan penelitian satu waktu.",
+      "num": 4
+    },
+    {
+      "module": "M1",
+      "question": "[M1-5] Urutan langkah awal yang tepat dalam proses penelitian sistematis adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mengumpulkan data → merumuskan masalah → kajian pustaka"
+        },
+        {
+          "letter": "B",
+          "text": "merumuskan masalah → kajian pustaka → menentukan pertanyaan penelitian/hipotesis"
+        },
+        {
+          "letter": "C",
+          "text": "menentukan metode → merumuskan masalah → interpretasi hasil"
+        },
+        {
+          "letter": "D",
+          "text": "menguji hipotesis → merumuskan masalah → melaporkan hasil"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Langkah sistematis dimulai dari merumuskan masalah, melakukan kajian pustaka, lalu menentukan pertanyaan penelitian dan/atau hipotesis sebelum memilih metode.",
+      "num": 5
+    },
+    {
+      "module": "M1",
+      "question": "[M1-6] Kegiatan berikut ini yang TIDAK termasuk kategori penelitian ilmiah karena kurangnya interpretasi data adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menganalisis faktor penerimaan aplikasi e-learning dengan TAM"
+        },
+        {
+          "letter": "B",
+          "text": "mempelajari cara membuat mailing-list di Microsoft Word untuk pencerahan diri"
+        },
+        {
+          "letter": "C",
+          "text": "menguji perbedaan efektivitas dua metode pembelajaran daring"
+        },
+        {
+          "letter": "D",
+          "text": "mengevaluasi kepuasan pengguna sistem informasi akademik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sekadar mencari informasi untuk pencerahan diri atau mempelajari keterampilan teknis tanpa menghasilkan pengetahuan baru tidak tergolong penelitian ilmiah.",
+      "num": 6
+    },
+    {
+      "module": "M1",
+      "question": "[M1-7] Manakah yang termasuk lima alat bantu utama peneliti dalam melaksanakan penelitian menurut BMP Modul 1?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perpustakaan, komputer, alat ukur, statistika, dan bahasa"
+        },
+        {
+          "letter": "B",
+          "text": "Laboratorium, sponsor, media sosial, iklan, dan bahasa"
+        },
+        {
+          "letter": "C",
+          "text": "Kuesioner, wawancara, observasi, sampel, dan populasi"
+        },
+        {
+          "letter": "D",
+          "text": "Teori, hipotesis, abstrak, daftar pustaka, dan indeks"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "BMP Modul 1 KB 2 menyebutkan lima alat bantu peneliti: perpustakaan dan sumber kepustakaannya, teknologi komputer, alat ukur, statistika, dan bahasa.",
+      "num": 7
+    },
+    {
+      "module": "M2",
+      "question": "[M2-1] Dalam hierarki istilah penelitian, urutan penyempitan ruang lingkup yang benar adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Topik penelitian → Bidang penelitian → Hipotesis → Masalah penelitian"
+        },
+        {
+          "letter": "B",
+          "text": "Bidang penelitian → Topik penelitian → Masalah penelitian → Pertanyaan penelitian → Hipotesis"
+        },
+        {
+          "letter": "C",
+          "text": "Masalah penelitian → Bidang penelitian → Pertanyaan penelitian → Topik penelitian"
+        },
+        {
+          "letter": "D",
+          "text": "Pertanyaan penelitian → Masalah penelitian → Topik penelitian → Bidang penelitian"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Ruang lingkup menyempit dari Bidang Penelitian (misal Sistem Informasi) → Topik → Masalah → Pertanyaan Penelitian → Hipotesis.",
+      "num": 8
+    },
+    {
+      "module": "M2",
+      "question": "[M2-2] Dua syarat penting dalam menuliskan rumusan masalah yang benar menurut BMP Modul 2 adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "berbentuk kalimat tanya dan memuat solusi"
+        },
+        {
+          "letter": "B",
+          "text": "berbentuk kalimat berita/pernyataan dan berisi persoalan beserta konsekuensinya"
+        },
+        {
+          "letter": "C",
+          "text": "berbentuk paragraf panjang tanpa konsekuensi"
+        },
+        {
+          "letter": "D",
+          "text": "selalu dimulai dengan kata 'Mengapa' dan 'Bagaimana'"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Rumusan masalah wajib ditulis dalam kalimat berita (bukan kalimat tanya), menjelaskan persoalan dari Latar Belakang serta konsekuensinya, dan tidak boleh berisi solusi.",
+      "num": 9
+    },
+    {
+      "module": "M2",
+      "question": "[M2-3] Alat bantu visual yang digunakan pada Modul 2 untuk memetakan artikel 5 tahun terakhir berdasarkan kata kunci guna menunjukkan keaslian penelitian adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "diagram batang (bar chart)"
+        },
+        {
+          "letter": "B",
+          "text": "diagram tulang ikan (fishbone diagram)"
+        },
+        {
+          "letter": "C",
+          "text": "kurva distribusi normal"
+        },
+        {
+          "letter": "D",
+          "text": "diagram pencar (scatter plot)"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Diagram tulang ikan dipakai untuk mengelompokkan artikel 5 tahun terakhir sesuai kata kunci sehingga kesenjangan dan keaslian penelitian terlihat jelas.",
+      "num": 10
+    },
+    {
+      "module": "M2",
+      "question": "[M2-4] Masalah penelitian yang berfokus pada perluasan pengetahuan dan pemahaman fenomena tanpa menuntut dampak praktis langsung di organisasi disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "masalah penelitian praktis"
+        },
+        {
+          "letter": "B",
+          "text": "masalah penelitian teoritis"
+        },
+        {
+          "letter": "C",
+          "text": "masalah operasional"
+        },
+        {
+          "letter": "D",
+          "text": "masalah administratif"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Masalah penelitian teoritis berfokus pada pengembangan pengetahuan/teori, sedangkan masalah praktis terkait langsung dengan organisasi atau layanan pengguna.",
+      "num": 11
+    },
+    {
+      "module": "M2",
+      "question": "[M2-5] Berikut ini adalah lima kategori kesenjangan penelitian (research gap) yang dijelaskan dalam Modul 2, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kesenjangan bukti dan kesenjangan metodologi"
+        },
+        {
+          "letter": "B",
+          "text": "kesenjangan empiris dan kesenjangan teoritis"
+        },
+        {
+          "letter": "C",
+          "text": "kesenjangan populasi"
+        },
+        {
+          "letter": "D",
+          "text": "kesenjangan anggaran dan kesenjangan jadwal"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Lima kategori kesenjangan penelitian dalam BMP Modul 2 adalah kesenjangan bukti, metodologi, empiris, teoritis, dan populasi.",
+      "num": 12
+    },
+    {
+      "module": "M2",
+      "question": "[M2-6] Bagian dalam artikel penelitian terdahulu yang sering menjadi sumber langsung untuk menggali ide masalah penelitian baru adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "halaman sampul dan daftar isi"
+        },
+        {
+          "letter": "B",
+          "text": "bagian saran atau future works"
+        },
+        {
+          "letter": "C",
+          "text": "ucapan terima kasih (acknowledgement)"
+        },
+        {
+          "letter": "D",
+          "text": "lampiran kuesioner kosong"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Bagian saran (future works) memuat keterbatasan atau tindak lanjut yang disarankan peneliti terdahulu sehingga menjadi sumber kaya untuk masalah penelitian baru.",
+      "num": 13
+    },
+    {
+      "module": "M2",
+      "question": "[M2-7] Penulisan tujuan penelitian sebaiknya diawali kata kerja operasional seperti 'membandingkan', 'menghitung', atau 'menentukan' dengan alasan utama ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "agar tampak lebih panjang dan akademis"
+        },
+        {
+          "letter": "B",
+          "text": "agar tingkat ketercapaian tujuan penelitian dapat dievaluasi secara jelas"
+        },
+        {
+          "letter": "C",
+          "text": "untuk menggantikan hipotesis penelitian"
+        },
+        {
+          "letter": "D",
+          "text": "agar terhindar dari kewajiban kajian pustaka"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Penggunaan kata kerja yang terukur memungkinkan peneliti dan pembaca mengevaluasi apakah tujuan penelitian benar-benar tercapai.",
+      "num": 14
+    },
+    {
+      "module": "M3",
+      "question": "[M3-1] Dua fungsi utama kajian pustaka menurut Modul 3 adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menggantikan pengumpulan data primer dan memperbanyak daftar pustaka"
+        },
+        {
+          "letter": "B",
+          "text": "membangun argumentasi kesenjangan penelitian (keaslian) dan menjadi rujukan pertanyaan penelitian/hipotesis"
+        },
+        {
+          "letter": "C",
+          "text": "membuktikan kebenaran teori secara mutlak dan menyusun anggaran"
+        },
+        {
+          "letter": "D",
+          "text": "menentukan ukuran sampel dan menghitung simpang baku"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kajian pustaka mendokumentasikan state of the art untuk menemukan kesenjangan penelitian sekaligus menjadi pijakan menyusun pertanyaan penelitian dan hipotesis.",
+      "num": 15
+    },
+    {
+      "module": "M3",
+      "question": "[M3-2] Struktur penulisan kajian pustaka yang lengkap terdiri atas tiga bagian utama, yaitu ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "abstrak, metode, dan daftar pustaka"
+        },
+        {
+          "letter": "B",
+          "text": "pengantar, bagian utama (berbasis tema umum), dan kesimpulan"
+        },
+        {
+          "letter": "C",
+          "text": "latar belakang, rumusan masalah, dan lampiran"
+        },
+        {
+          "letter": "D",
+          "text": "hipotesis nol, uji statistik, dan saran"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kajian pustaka tersusun atas Pengantar (konteks & ruang lingkup), Bagian Utama (narasi terorganisir menurut tema umum), dan Kesimpulan (rangkuman & identifikasi gap).",
+      "num": 16
+    },
+    {
+      "module": "M3",
+      "question": "[M3-3] Pernyataan yang PALING TEPAT mengenai hubungan antara landasan teori dan keaslian penelitian adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "teori tunggal sudah cukup untuk membuktikan keaslian penelitian"
+        },
+        {
+          "letter": "B",
+          "text": "teori tidak dapat digunakan untuk mendukung argumentasi keaslian penelitian"
+        },
+        {
+          "letter": "C",
+          "text": "keaslian penelitian hanya diukur dari banyaknya rumus matematika"
+        },
+        {
+          "letter": "D",
+          "text": "teori tidak perlu dipahami batasannya selama populer digunakan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Banyak studi memakai teori yang sama (misal TAM), sehingga teori tidak membuktikan keaslian penelitian; keaslian dibuktikan melalui kesenjangan pada kajian pustaka.",
+      "num": 17
+    },
+    {
+      "module": "M3",
+      "question": "[M3-4] Mengorganisir narasi pada bagian utama kajian pustaka paling baik dilakukan berdasarkan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "urutan abjad nama belakang penulis artikel"
+        },
+        {
+          "letter": "B",
+          "text": "tema umum yang relevan dengan topik penelitian"
+        },
+        {
+          "letter": "C",
+          "text": "jumlah halaman masing-masing artikel"
+        },
+        {
+          "letter": "D",
+          "text": "kota tempat seminar dilaksanakan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Bagian utama kajian pustaka mensintesis literatur berdasarkan tema umum dan relasinya dengan bidang yang lebih luas, bukan sekadar daftar ringkasan per penulis.",
+      "num": 18
+    },
+    {
+      "module": "M3",
+      "question": "[M3-5] Mengapa peneliti perlu mempelajari keterbatasan sebuah teori sebelum menjadikannya landasan penelitian?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agar dapat menempatkan teori pada konteks yang sesuai karena teori bisa dibantah oleh bukti baru"
+        },
+        {
+          "letter": "B",
+          "text": "Agar tidak perlu melakukan uji validitas instrumen"
+        },
+        {
+          "letter": "C",
+          "text": "Supaya hipotesis nol selalu ditolak"
+        },
+        {
+          "letter": "D",
+          "text": "Untuk menghindari penggunaan sitasi dalam laporan"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Setiap teori memiliki asumsi dan batasan konteks; memahami batasannya mencegah penerapan teori yang keliru pada fenomena penelitian.",
+      "num": 19
+    },
+    {
+      "module": "M3",
+      "question": "[M3-6] Berikut ini yang BUKAN merupakan salah satu dari empat tujuan utama kajian pustaka adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "melakukan survei pustaka di bidang studi pilihan"
+        },
+        {
+          "letter": "B",
+          "text": "menganalisis informasi secara kritis untuk mengidentifikasi kesenjangan"
+        },
+        {
+          "letter": "C",
+          "text": "mensintesis informasi dari hasil analisis"
+        },
+        {
+          "letter": "D",
+          "text": "memanipulasi data responden agar sesuai dengan teori lama"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Empat tujuan kajian pustaka adalah survei pustaka, analisis kritis untuk menemukan gap, sintesis informasi, dan penyajian pustaka secara terorganisir.",
+      "num": 20
+    },
+    {
+      "module": "M3",
+      "question": "[M3-7] Teori Technology Acceptance Model (TAM) yang sering dijadikan acuan hipotesis penerimaan sistem informasi dalam BMP MSIM4312 pertama kali dikemukakan oleh ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Davis (1989)"
+        },
+        {
+          "letter": "B",
+          "text": "Kothari (2004)"
+        },
+        {
+          "letter": "C",
+          "text": "Gay, Mills, & Airasian (2012)"
+        },
+        {
+          "letter": "D",
+          "text": "Slovin (1960)"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Fred D. Davis (1989) mengemukakan TAM dengan konstruk Perceived Usefulness dan Perceived Ease of Use yang banyak dirujuk dalam BMP MSIM4312.",
+      "num": 21
+    },
+    {
+      "module": "M4",
+      "question": "[M4-1] Pertanyaan penelitian 'Berapa persentase mahasiswa prodi Sistem Informasi yang lulus tepat waktu?' termasuk kategori pertanyaan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "komparatif"
+        },
+        {
+          "letter": "B",
+          "text": "relasional"
+        },
+        {
+          "letter": "C",
+          "text": "deskriptif"
+        },
+        {
+          "letter": "D",
+          "text": "sebab-akibat (prediktif)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Pertanyaan deskriptif berfokus pada satu peubah dan satu kelompok subyek dengan kata kunci seperti 'Berapa banyak', 'Berapa sering', atau 'Berapa persentase'.",
+      "num": 22
+    },
+    {
+      "module": "M4",
+      "question": "[M4-2] Dalam pertanyaan penelitian sebab-akibat, peubah yang menjadi 'sebab' sering disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "peubah tak bebas atau luaran"
+        },
+        {
+          "letter": "B",
+          "text": "peubah bebas atau prediktor"
+        },
+        {
+          "letter": "C",
+          "text": "peubah pengganggu"
+        },
+        {
+          "letter": "D",
+          "text": "peubah nominal"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Peubah bebas (independent variable) berperan sebagai sebab/prediktor yang memengaruhi peubah tak bebas (luaran).",
+      "num": 23
+    },
+    {
+      "module": "M4",
+      "question": "[M4-3] Dalam pengujian hipotesis statistik, pernyataan kesimpulan uji yang tepat secara metodologis adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "hipotesis alternatif (Hₐ) diterima atau ditolak"
+        },
+        {
+          "letter": "B",
+          "text": "hipotesis nol (H₀) ditolak atau gagal ditolak (diterima)"
+        },
+        {
+          "letter": "C",
+          "text": "hipotesis penelitian terbukti benar 100%"
+        },
+        {
+          "letter": "D",
+          "text": "hipotesis nol tidak pernah diuji secara statistik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pengujian statistik selalu difokuskan pada H₀ (yang memuat persamaan/equality); hasil pada Hₐ disimpulkan dari keputusan terhadap H₀.",
+      "num": 24
+    },
+    {
+      "module": "M4",
+      "question": "[M4-4] Dua kualitas utama hipotesis yang baik menurut Modul 4 KB 3 adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "panjang dan menggunakan kalimat tanya"
+        },
+        {
+          "letter": "B",
+          "text": "dapat diuji (testable) dan dapat disalahkan (falsifiable)"
+        },
+        {
+          "letter": "C",
+          "text": "subjektif dan tidak memerlukan teori"
+        },
+        {
+          "letter": "D",
+          "text": "mengandung kata 'lebih baik' dan bersifat rahasia"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Hipotesis yang baik harus dapat diuji dengan bukti empiris (testable) dan memungkinkan dibuktikan tidak benar jika bukti bertentangan (falsifiable).",
+      "num": 25
+    },
+    {
+      "module": "M4",
+      "question": "[M4-5] Jika sebuah pertanyaan penelitian menanyakan dua peubah sekaligus (misal rerata tinggi badan dan berat badan), maka penulisan hipotesis deskriptifnya sebaiknya ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "digabung dalam satu hipotesis agar ringkas"
+        },
+        {
+          "letter": "B",
+          "text": "dipisah menjadi dua hipotesis masing-masing untuk satu peubah"
+        },
+        {
+          "letter": "C",
+          "text": "dihapus salah satu peubahnya dari penelitian"
+        },
+        {
+          "letter": "D",
+          "text": "diubah menjadi pertanyaan wawancara terbuka"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Memisahkan menjadi satu peubah per hipotesis (HD1 dan HD2) mencegah kebingungan keputusan apabila data mendukung satu peubah tetapi tidak mendukung peubah lainnya.",
+      "num": 26
+    },
+    {
+      "module": "M4",
+      "question": "[M4-6] Untuk menyatakan hipotesis kuantitatif yang baik, pemilihan kata yang paling tepat digunakan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "'lebih baik' atau 'lebih buruk'"
+        },
+        {
+          "letter": "B",
+          "text": "'lebih tinggi' atau 'lebih rendah'"
+        },
+        {
+          "letter": "C",
+          "text": "'paling bagus' atau 'sangat lengkap'"
+        },
+        {
+          "letter": "D",
+          "text": "'mengapa' atau 'barangkali'"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kata 'lebih tinggi' atau 'lebih rendah' memiliki konotasi kuantitatif yang dapat diukur secara objektif dibandingkan 'lebih baik' yang bersifat opini.",
+      "num": 27
+    },
+    {
+      "module": "M4",
+      "question": "[M4-7] Pernyataan tegas tentang 'apa' yang akan diukur oleh sebuah alat ukur terhadap peubah abstrak disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "definisi operasional peubah"
+        },
+        {
+          "letter": "B",
+          "text": "kesalahan tipe I"
+        },
+        {
+          "letter": "C",
+          "text": "kerangka sampel"
+        },
+        {
+          "letter": "D",
+          "text": "sitasi langsung"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Definisi operasional menjembatani konsep abstrak dalam hipotesis dengan indikator terukur pada instrumen penelitian.",
+      "num": 28
+    },
+    {
+      "module": "M5",
+      "question": "[M5-1] Berikut ini merupakan lima tipe metode penelitian kualitatif menurut Modul 5, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "studi kasus dan penelitian tindakan"
+        },
+        {
+          "letter": "B",
+          "text": "etnografi dan grounded theory"
+        },
+        {
+          "letter": "C",
+          "text": "analisis konten"
+        },
+        {
+          "letter": "D",
+          "text": "eksperimen kuasi dan korelasional"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Eksperimen kuasi dan korelasional adalah tipe metode kuantitatif, sedangkan lima tipe kualitatif adalah studi kasus, penelitian tindakan, etnografi, grounded theory, dan analisis konten.",
+      "num": 29
+    },
+    {
+      "module": "M5",
+      "question": "[M5-2] Di antara lima tipe metode kualitatif, tipe yang umumnya berfokus pada sumber data sekunder (publikasi, catatan, laporan) adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "etnografi"
+        },
+        {
+          "letter": "B",
+          "text": "grounded theory"
+        },
+        {
+          "letter": "C",
+          "text": "analisis konten"
+        },
+        {
+          "letter": "D",
+          "text": "penelitian tindakan"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Empat tipe pertama (studi kasus, penelitian tindakan, etnografi, grounded theory) berfokus pada data primer, sedangkan analisis konten umumnya mengkaji data sekunder.",
+      "num": 30
+    },
+    {
+      "module": "M5",
+      "question": "[M5-3] Perbedaan utama antara eksperimen murni (true experiment) dan eksperimen kuasi terletak pada ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "eksperimen murni melakukan pemilihan DAN penugasan responden secara acak, sedangkan kuasi tidak melakukan penugasan acak penuh"
+        },
+        {
+          "letter": "B",
+          "text": "eksperimen murni tidak memanipulasi peubah bebas"
+        },
+        {
+          "letter": "C",
+          "text": "eksperimen kuasi hanya menggunakan data kualitatif"
+        },
+        {
+          "letter": "D",
+          "text": "eksperimen murni hanya melibatkan satu subyek tunggal"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Eksperimen murni mensyaratkan random selection dan random assignment, sementara eksperimen kuasi tidak dapat melakukan penugasan acak penuh.",
+      "num": 31
+    },
+    {
+      "module": "M5",
+      "question": "[M5-4] Metode kuantitatif yang mengambil data dari fenomena yang sudah terjadi tanpa memanipulasi peubah bebas termasuk kelompok ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "eksperimental murni"
+        },
+        {
+          "letter": "B",
+          "text": "non-eksperimental (deskriptif, korelasional, kausal-komparatif)"
+        },
+        {
+          "letter": "C",
+          "text": "etnografi partisipatif"
+        },
+        {
+          "letter": "D",
+          "text": "penelitian tindakan kelas"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pada metode non-eksperimental peneliti tidak memanipulasi peubah bebas dan mengamati fenomena yang sudah/sedang terjadi secara alami.",
+      "num": 32
+    },
+    {
+      "module": "M5",
+      "question": "[M5-5] Pendekatan penelitian campuran (mixed methods) pada dasarnya lebih berorientasi pada sifat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "theory-driven semata"
+        },
+        {
+          "letter": "B",
+          "text": "problem-driven (digerakkan oleh persoalan nyata)"
+        },
+        {
+          "letter": "C",
+          "text": "spekulatif tanpa data empiris"
+        },
+        {
+          "letter": "D",
+          "text": "menghindari triangulasi data"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Metode campuran bersifat pragmatis dan problem-driven, menggabungkan KUAL dan KUAN untuk menjawab masalah penelitian secara lebih utuh.",
+      "num": 33
+    },
+    {
+      "module": "M5",
+      "question": "[M5-6] Penggunaan metode kualitatif dan kuantitatif secara bersamaan untuk saling membandingkan dan memperkuat validitas temuan disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "triangulasi"
+        },
+        {
+          "letter": "B",
+          "text": "reduksi sampel"
+        },
+        {
+          "letter": "C",
+          "text": "parafrasa"
+        },
+        {
+          "letter": "D",
+          "text": "randomisasi"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Triangulasi memadukan dua atau lebih metode/sumber data pada fenomena yang sama untuk meningkatkan akurasi dan kepercayaan hasil.",
+      "num": 34
+    },
+    {
+      "module": "M5",
+      "question": "[M5-7] Salah satu potensi kerugian atau tantangan dalam menerapkan metode campuran adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "peneliti tidak perlu memahami metode kuantitatif"
+        },
+        {
+          "letter": "B",
+          "text": "waktu dan biaya membengkak serta kemungkinan temuan KUAL dan KUAN tidak saling mendukung"
+        },
+        {
+          "letter": "C",
+          "text": "data kualitatif tidak boleh digabung dengan angka"
+        },
+        {
+          "letter": "D",
+          "text": "tidak dapat digunakan untuk penelitian banyak-aras"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Metode campuran menuntut waktu, biaya, dan penguasaan dua paradigma; selain itu temuan dari kedua metode bisa saja bertentangan.",
+      "num": 35
+    },
+    {
+      "module": "M6",
+      "question": "[M6-1] Aras pengukuran yang memiliki sifat kategori, urutan, jarak yang sama, serta memiliki titik nol absolut adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "nominal"
+        },
+        {
+          "letter": "B",
+          "text": "ordinal"
+        },
+        {
+          "letter": "C",
+          "text": "interval"
+        },
+        {
+          "letter": "D",
+          "text": "rasio"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Aras rasio merupakan aras tertinggi karena memiliki kategori, urutan, jarak konstan, dan nol absolut (misal berat badan, usia, pendapatan).",
+      "num": 36
+    },
+    {
+      "module": "M6",
+      "question": "[M6-2] Perbedaan mendasar antara Skala Likert dan Skala Guttman dalam penyusunan kuesioner adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Skala Likert bersifat kumulatif, sedangkan Skala Guttman bersifat sumatif"
+        },
+        {
+          "letter": "B",
+          "text": "Skala Likert bersifat sumatif, sedangkan Skala Guttman bersifat kumulatif"
+        },
+        {
+          "letter": "C",
+          "text": "Skala Likert hanya untuk data nominal, Skala Guttman untuk data rasio"
+        },
+        {
+          "letter": "D",
+          "text": "Skala Likert hanya memiliki dua pilihan Ya/Tidak"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Skala Likert menjumlahkan skor item (sumatif), sedangkan item pada Skala Guttman disusun berjenjang secara kumulatif.",
+      "num": 37
+    },
+    {
+      "module": "M6",
+      "question": "[M6-3] Metode penyebaran kuesioner dengan mengumpulkan responden di satu tempat sehingga menghasilkan tingkat respons tinggi dan memungkinkan klarifikasi langsung adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "survei pos surat"
+        },
+        {
+          "letter": "B",
+          "text": "group administered questionnaire (GAQ)"
+        },
+        {
+          "letter": "C",
+          "text": "wawancara telepon acak"
+        },
+        {
+          "letter": "D",
+          "text": "analisis konten sekunder"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "GAQ mengumpulkan responden di satu lokasi untuk mengisi kuesioner terstruktur sekaligus memungkinkan klarifikasi pertanyaan jika ada keraguan.",
+      "num": 38
+    },
+    {
+      "module": "M6",
+      "question": "[M6-4] Dalam merancang pertanyaan saringan (filter question) pada kuesioner, konvensi yang disarankan agar responden tidak bingung adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "membuat minimal 10 tingkat lompatan"
+        },
+        {
+          "letter": "B",
+          "text": "membatasi aras saringan tidak lebih dari tiga tingkat (dua lompatan)"
+        },
+        {
+          "letter": "C",
+          "text": "tidak memberi petunjuk arah lompatan sama sekali"
+        },
+        {
+          "letter": "D",
+          "text": "menggabungkannya dengan pertanyaan sensitif tanpa izin"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Terlalu banyak lompatan membuat responden bingung dan enggan menyelesaikan survei; batas maksimal yang disarankan adalah tiga tingkat (dua lompatan).",
+      "num": 39
+    },
+    {
+      "module": "M6",
+      "question": "[M6-5] Pertanyaan kuesioner 'Apa pendapat Anda tentang aplikasi Microsoft Word dan Apple Pages?' memiliki kelemahan desain berupa ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "terlalu singkat"
+        },
+        {
+          "letter": "B",
+          "text": "menanyakan dua hal sekaligus (double-barreled) dengan kata 'dan'"
+        },
+        {
+          "letter": "C",
+          "text": "menggunakan skala rasio"
+        },
+        {
+          "letter": "D",
+          "text": "termasuk pertanyaan saringan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Menggabungkan dua objek dengan kata 'dan' membingungkan responden yang mungkin hanya mengenal salah satu aplikasi; pertanyaan harus dipecah menjadi dua.",
+      "num": 40
+    },
+    {
+      "module": "M6",
+      "question": "[M6-6] Untuk pertanyaan sensitif seperti usia atau penghasilan bulanan dalam kuesioner, cara terbaik agar responden menjawab jujur adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "meminta angka pasti hingga satuan rupiah"
+        },
+        {
+          "letter": "B",
+          "text": "menggunakan pilihan rentang/interval kelas"
+        },
+        {
+          "letter": "C",
+          "text": "mewajibkan melampirkan slip gaji"
+        },
+        {
+          "letter": "D",
+          "text": "menanyakan melalui pertanyaan terbuka wajib isi"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Menyajikan pilihan dalam bentuk rentang (misal usia 20–30 tahun) mengurangi rasa tidak nyaman responden sehingga meningkatkan kejujuran jawaban.",
+      "num": 41
+    },
+    {
+      "module": "M6",
+      "question": "[M6-7] Dalam pelatihan pewawancara, strategi menjelaskan seluruh protokol wawancara secara berurutan dari awal hingga akhir sebelum turun ke lapangan disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "strategi walk-through"
+        },
+        {
+          "letter": "B",
+          "text": "metode drop-off"
+        },
+        {
+          "letter": "C",
+          "text": "skala diferensial semantik"
+        },
+        {
+          "letter": "D",
+          "text": "uji korelasi Pearson"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Strategi walk-through memastikan pewawancara memahami alur, urutan, dan keterkaitan tiap bagian protokol wawancara secara utuh.",
+      "num": 42
+    },
+    {
+      "module": "M7",
+      "question": "[M7-1] Jenis validitas yang berkaitan dengan pemilihan kalimat, istilah, dan tampilan permukaan instrumen agar tampak mengukur apa yang dimaksud adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "validitas konstruk"
+        },
+        {
+          "letter": "B",
+          "text": "validitas kriteria"
+        },
+        {
+          "letter": "C",
+          "text": "face validity"
+        },
+        {
+          "letter": "D",
+          "text": "validitas eksternal"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Face validity menilai kesesuaian kalimat dan istilah pada permukaan instrumen, sedangkan validitas konten menilai keterwakilan domain.",
+      "num": 43
+    },
+    {
+      "module": "M7",
+      "question": "[M7-2] Untuk mengukur reliabilitas konsistensi internal (internal consistency reliability) dari seluruh item dalam sebuah kuesioner, koefisien yang digunakan adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cohen's Kappa"
+        },
+        {
+          "letter": "B",
+          "text": "Korelasi Pearson"
+        },
+        {
+          "letter": "C",
+          "text": "Spearman-Brown"
+        },
+        {
+          "letter": "D",
+          "text": "Cronbach's Alpha"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Cronbach's Alpha mengukur konsistensi internal antar-item; Cohen's Kappa untuk inter-rater, Pearson untuk test-retest, dan Spearman-Brown untuk equivalent form.",
+      "num": 44
+    },
+    {
+      "module": "M7",
+      "question": "[M7-3] Manakah pernyataan yang BENAR mengenai hubungan antara validitas dan reliabilitas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instrumen yang reliabel pasti selalu valid"
+        },
+        {
+          "letter": "B",
+          "text": "Instrumen dapat bersifat tidak valid tetapi reliabel"
+        },
+        {
+          "letter": "C",
+          "text": "Instrumen yang valid pasti tidak reliabel"
+        },
+        {
+          "letter": "D",
+          "text": "Validitas dan reliabilitas adalah istilah yang identik"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Tiga kondisi yang mungkin terjadi adalah (a) tidak valid & tidak reliabel, (b) tidak valid tetapi reliabel, dan (c) valid & reliabel.",
+      "num": 45
+    },
+    {
+      "module": "M7",
+      "question": "[M7-4] Menurut pedoman Gay, Mills, dan Airasian (2012), jika ukuran populasi sekitar 5.000 atau lebih, ukuran sampel yang sudah memadai adalah sebanyak ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "30 responden"
+        },
+        {
+          "letter": "B",
+          "text": "100 responden"
+        },
+        {
+          "letter": "C",
+          "text": "400 responden"
+        },
+        {
+          "letter": "D",
+          "text": "2.500 responden"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Gay dkk. (2012) menyarankan sensus untuk N≤100, 50% untuk N=500, 20% untuk N=1.500, dan 400 sampel sudah memadai untuk N≥5.000.",
+      "num": 46
+    },
+    {
+      "module": "M7",
+      "question": "[M7-5] Dalam penggunaan Rumus Slovin untuk menentukan ukuran sampel, apabila peneliti memperkecil batas kesalahan (margin of error) yang ditolerir, maka ukuran sampel yang diperlukan akan ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "semakin kecil"
+        },
+        {
+          "letter": "B",
+          "text": "semakin besar"
+        },
+        {
+          "letter": "C",
+          "text": "tetap sama"
+        },
+        {
+          "letter": "D",
+          "text": "selalu tepat 30"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pada rumus n = N / (1 + N·e²), nilai e yang lebih kecil menghasilkan penyebut lebih kecil sehingga jumlah sampel n menjadi lebih besar.",
+      "num": 47
+    },
+    {
+      "module": "M7",
+      "question": "[M7-6] Teknik pengambilan sampel di mana peneliti memilih responden secara sengaja berdasarkan kriteria atau tujuan tertentu yang relevan dengan riset disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "simple random sampling"
+        },
+        {
+          "letter": "B",
+          "text": "purposive sampling"
+        },
+        {
+          "letter": "C",
+          "text": "systematic sampling"
+        },
+        {
+          "letter": "D",
+          "text": "cluster sampling"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Purposive sampling adalah teknik non-probabilistik yang memilih partisipan berdasarkan pertimbangan tujuan/kriteria tertentu.",
+      "num": 48
+    },
+    {
+      "module": "M7",
+      "question": "[M7-7] Strategi pengambilan sampel pada populasi yang tersebar di wilayah geografis sangat luas dengan mempersempit area secara bertahap (misal Provinsi → Kabupaten → RT) disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "multistage sampling"
+        },
+        {
+          "letter": "B",
+          "text": "convenience sampling"
+        },
+        {
+          "letter": "C",
+          "text": "quota sampling"
+        },
+        {
+          "letter": "D",
+          "text": "test-retest sampling"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Multistage sampling melakukan pemilihan acak secara bertingkat dari area besar ke unit wilayah yang lebih kecil.",
+      "num": 49
+    },
+    {
+      "module": "M8",
+      "question": "[M8-1] Berikut ini merupakan ciri-ciri distribusi normal, kecuali ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "simetris secara horizontal terhadap titik tengah distribusi"
+        },
+        {
+          "letter": "B",
+          "text": "nilai rerata, median, dan modus adalah sama"
+        },
+        {
+          "letter": "C",
+          "text": "mempunyai titik tertinggi di tengah kurva"
+        },
+        {
+          "letter": "D",
+          "text": "kedua ujung kurva memotong sumbu X secara tegak lurus"
+        }
+      ],
+      "answerLetter": "D",
+      "explanation": "Kedua ujung kurva distribusi normal semakin mendekati sumbu X secara asimtotis tetapi tidak pernah menyentuhnya.",
+      "num": 50
+    },
+    {
+      "module": "M8",
+      "question": "[M8-2] Jika dua distribusi normal memiliki rerata yang sama, maka distribusi yang memiliki simpang baku lebih kecil akan tampak berbentuk ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lebih pendek dan gemuk"
+        },
+        {
+          "letter": "B",
+          "text": "lebih tinggi dan kurus"
+        },
+        {
+          "letter": "C",
+          "text": "miring ke kanan"
+        },
+        {
+          "letter": "D",
+          "text": "datar sempurna"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Simpang baku kecil berarti data terkonsentrasi dekat dengan rerata sehingga kurva normal tampak lebih tinggi dan kurus.",
+      "num": 51
+    },
+    {
+      "module": "M8",
+      "question": "[M8-3] Ukuran pusat kecenderungan yang paling tepat digunakan ketika data berada pada aras nominal adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rerata (mean)"
+        },
+        {
+          "letter": "B",
+          "text": "nilai tengah (median)"
+        },
+        {
+          "letter": "C",
+          "text": "modus"
+        },
+        {
+          "letter": "D",
+          "text": "simpang baku"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Data nominal hanya membedakan kategori tanpa urutan atau jarak numerik, sehingga modus adalah satu-satunya ukuran pusat kecenderungan yang cocok.",
+      "num": 52
+    },
+    {
+      "module": "M8",
+      "question": "[M8-4] Ukuran pusat kecenderungan yang paling tahan terhadap keberadaan nilai ekstrem (outlier) pada data adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rerata (mean)"
+        },
+        {
+          "letter": "B",
+          "text": "nilai tengah (median)"
+        },
+        {
+          "letter": "C",
+          "text": "kisaran (range)"
+        },
+        {
+          "letter": "D",
+          "text": "varians"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Median hanya bergantung pada posisi tengah data terurut sehingga tidak mudah terdistorsi oleh nilai ekstrem (outlier).",
+      "num": 53
+    },
+    {
+      "module": "M8",
+      "question": "[M8-5] Prosedur statistika parametrik tepat digunakan apabila data memenuhi syarat ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "berdistribusi mendekati normal dan berada pada aras interval atau rasio"
+        },
+        {
+          "letter": "B",
+          "text": "berada pada aras nominal saja"
+        },
+        {
+          "letter": "C",
+          "text": "memiliki ukuran sampel kurang dari 5"
+        },
+        {
+          "letter": "D",
+          "text": "berasal dari data wawancara kualitatif"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Statistika parametrik mensyaratkan asumsi distribusi normal dan skala pengukuran interval atau rasio; jika tidak terpenuhi, gunakan non-parametrik.",
+      "num": 54
+    },
+    {
+      "module": "M8",
+      "question": "[M8-6] Kesalahan Tipe I (α) dalam pengujian hipotesis terjadi apabila peneliti ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "menerima hipotesis nol padahal dalam kenyataannya salah"
+        },
+        {
+          "letter": "B",
+          "text": "menolak hipotesis nol padahal dalam kenyataannya benar"
+        },
+        {
+          "letter": "C",
+          "text": "menggunakan uji t untuk dua kelompok sampel"
+        },
+        {
+          "letter": "D",
+          "text": "memperbesar ukuran sampel menjadi 400"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kesalahan Tipe I adalah menolak H₀ yang benar (diperkecil dengan menurunkan α), sedangkan Kesalahan Tipe II adalah menerima H₀ yang salah.",
+      "num": 55
+    },
+    {
+      "module": "M8",
+      "question": "[M8-7] Untuk memperkecil risiko terjadinya Kesalahan Tipe II (β) dalam uji hipotesis, langkah yang dapat dilakukan peneliti adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "memperbesar ukuran sampel"
+        },
+        {
+          "letter": "B",
+          "text": "memperkecil ukuran sampel di bawah 10"
+        },
+        {
+          "letter": "C",
+          "text": "mengubah data rasio menjadi nominal"
+        },
+        {
+          "letter": "D",
+          "text": "menghapus hipotesis nol"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "BMP Modul 8 KB 3 menjelaskan bahwa Kesalahan Tipe II dapat diperkecil dengan memperbesar ukuran sampel.",
+      "num": 56
+    },
+    {
+      "module": "M9",
+      "question": "[M9-1] Perbedaan utama antara Bagian Hasil Penelitian dan Bagian Diskusi dalam laporan penelitian adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bagian Hasil menyajikan temuan utama tanpa penafsiran, sedangkan Bagian Diskusi menafsirkan dan membandingkannya dengan pustaka"
+        },
+        {
+          "letter": "B",
+          "text": "Bagian Hasil berisi saran, sedangkan Bagian Diskusi berisi daftar pustaka"
+        },
+        {
+          "letter": "C",
+          "text": "Bagian Hasil hanya untuk kualitatif, Bagian Diskusi hanya untuk kuantitatif"
+        },
+        {
+          "letter": "D",
+          "text": "Bagian Diskusi tidak boleh membahas hipotesis yang ditolak"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Bagian Hasil melaporkan fakta temuan secara objektif, sedangkan Bagian Diskusi menafsirkan makna temuan, termasuk membandingkannya dengan teori/pustaka dan menjelaskan hipotesis yang ditolak.",
+      "num": 57
+    },
+    {
+      "module": "M9",
+      "question": "[M9-2] Alur penjelasan pada Bagian Diskusi yang bergerak dari hasil spesifik menuju implikasi yang lebih umum disebut ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pola tulang ikan"
+        },
+        {
+          "letter": "B",
+          "text": "pola piramida"
+        },
+        {
+          "letter": "C",
+          "text": "pola siklis acak"
+        },
+        {
+          "letter": "D",
+          "text": "pola kronologis"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Pola piramida memulai diskusi dari temuan spesifik penelitian, lalu menghubungkannya ke kajian pustaka, teori, dan pemanfaatan praktis yang lebih umum.",
+      "num": 58
+    },
+    {
+      "module": "M9",
+      "question": "[M9-3] Dasar utama yang harus menjadi pijakan dalam menuliskan bagian Saran (future works) pada laporan penelitian adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "keinginan pribadi penulis di luar topik"
+        },
+        {
+          "letter": "B",
+          "text": "keterbatasan penelitian (research limitation) yang dialami"
+        },
+        {
+          "letter": "C",
+          "text": "jumlah halaman minimal skripsi"
+        },
+        {
+          "letter": "D",
+          "text": "daftar pustaka dari lima tahun mendatang"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Saran atau future works harus diturunkan dari keterbatasan penelitian (misal ukuran sampel, metode, atau umur data) agar riset berikutnya dapat memperbaikinya.",
+      "num": 59
+    },
+    {
+      "module": "M9",
+      "question": "[M9-4] Manakah pernyataan yang PALING TEPAT mengenai penulisan Kesimpulan penelitian?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kesimpulan hanya boleh melaporkan hasil positif yang mendukung hipotesis"
+        },
+        {
+          "letter": "B",
+          "text": "Kesimpulan bersumber dari analisis data dan wajib menuliskan fakta hasil positif maupun negatif"
+        },
+        {
+          "letter": "C",
+          "text": "Kesimpulan boleh berisi rencana yang belum sempat dikerjakan"
+        },
+        {
+          "letter": "D",
+          "text": "Kesimpulan ditulis sebelum data dikumpulkan"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Kesimpulan merangkum fakta hasil analisis data secara jujur, mencakup temuan yang mendukung maupun yang menolak hipotesis.",
+      "num": 60
+    },
+    {
+      "module": "M9",
+      "question": "[M9-5] Perbedaan penulisan antara sitasi langsung dan parafrasa terletak pada ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sitasi langsung tidak perlu dicantumkan di daftar pustaka"
+        },
+        {
+          "letter": "B",
+          "text": "sitasi langsung menggunakan tanda petik dan wajib mencantumkan nomor halaman, sedangkan parafrasa tidak"
+        },
+        {
+          "letter": "C",
+          "text": "parafrasa tidak memerlukan nama penulis sumber"
+        },
+        {
+          "letter": "D",
+          "text": "sitasi langsung hanya boleh digunakan pada footnote"
+        }
+      ],
+      "answerLetter": "B",
+      "explanation": "Sitasi langsung mengutip kata demi kata di antara tanda petik beserta nomor halaman sumber, sedangkan parafrasa menulis ulang substansi dengan bahasa sendiri tanpa tanda petik.",
+      "num": 61
+    },
+    {
+      "module": "M9",
+      "question": "[M9-6] Gaya penulisan sitasi yang menggunakan angka berurutan [1], [2], ... dan banyak dipakai pada bidang teknik serta teknologi informasi adalah gaya ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "APA (American Psychological Association)"
+        },
+        {
+          "letter": "B",
+          "text": "MLA (Modern Language Association)"
+        },
+        {
+          "letter": "C",
+          "text": "IEEE (Institute of Electrical and Electronics Engineers)"
+        },
+        {
+          "letter": "D",
+          "text": "AMA (American Medicine Association)"
+        }
+      ],
+      "answerLetter": "C",
+      "explanation": "Gaya IEEE menggunakan penomoran urut sesuai kemunculan sitasi dalam teks dan merupakan standar utama di bidang teknik dan teknologi informasi.",
+      "num": 62
+    },
+    {
+      "module": "M9",
+      "question": "[M9-7] Aplikasi berikut ini yang berfungsi sebagai pengelola pustaka (reference manager) untuk memudahkan sitasi dan daftar pustaka adalah ....",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mendeley, Zotero, dan JabRef"
+        },
+        {
+          "letter": "B",
+          "text": "Google Form dan SurveyMonkey"
+        },
+        {
+          "letter": "C",
+          "text": "Cohen's Kappa dan Cronbach's Alpha"
+        },
+        {
+          "letter": "D",
+          "text": "VirtualBox dan Docker"
+        }
+      ],
+      "answerLetter": "A",
+      "explanation": "Mendeley, Zotero, EndNote, JabRef, dan Bebop adalah perangkat lunak pengelola pustaka yang membantu penyimpanan referensi serta pemformatan gaya sitasi otomatis.",
+      "num": 63
+    }
+  ],
+  "essayQuestions": []
+}

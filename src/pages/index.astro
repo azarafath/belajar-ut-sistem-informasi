@@ -25,7 +25,8 @@ const jsonLd = {
 const smt1 = catalog['1'];
 const smt2 = catalog['2'];
 const smt2Wave1 = smt2.slice(0, 4);
-const smt2Wave2 = smt2.slice(4);
+const smt2Wave2 = smt2.slice(4, 7);
+const smt2NonUas = smt2.slice(7);
 ---
 
 <BaseLayout
@@ -121,7 +122,7 @@ const smt2Wave2 = smt2.slice(4);
         Ringkasan lengkap per modul, diagram visual interaktif, serta bank soal PG &amp; Essay lengkap dengan <strong>Mode Latihan</strong> beranimasi dan <strong>Mode Baca</strong>.
       </p>
       <div class="badge-row">
-        <span class="badge" style="background:var(--hl-yellow);">14 Mata Kuliah (Smt 1 &amp; Smt 2)</span>
+        <span class="badge" style="background:var(--hl-yellow);">15 Mata Kuliah (Smt 1 &amp; Smt 2)</span>
         <span class="badge" style="background:var(--hl-mint);">Mode Baca &amp; Latihan</span>
         <span class="badge" style="background:var(--hl-blue);">Pilgan (U) + Essay (E)</span>
       </div>
@@ -132,7 +133,7 @@ const smt2Wave2 = smt2.slice(4);
         <label for="semester-select">Pilih Semester:</label>
         <select id="semester-select" class="semester-select">
           <option value="1">Semester 1 (7 Matkul Aktif)</option>
-          <option value="2" selected>Semester 2 (7 Matkul Aktif)</option>
+          <option value="2" selected>Semester 2 (8 Matkul Aktif)</option>
           <option value="3">Semester 3</option>
           <option value="4">Semester 4</option>
           <option value="5">Semester 5</option>
@@ -203,6 +204,27 @@ const smt2Wave2 = smt2.slice(4);
           </a>
         ))}
       </div>
+
+      {smt2NonUas.length > 0 && (
+        <>
+          <h2 style="margin:28px 0 14px; font-size:18px;">Pendalaman Materi &amp; Proposal (Non-UAS)</h2>
+          <div class="grid-2">
+            {smt2NonUas.map((c) => (
+              <a class="course-card" href={c.href}>
+                <div class="course-meta">{c.meta}</div>
+                <h2 class="course-name">{c.name}</h2>
+                <p style="margin:0; font-size:13.5px; color:var(--muted);">{c.desc}</p>
+                <div class="badge-row">
+                  {c.badges.map((b) => (
+                    <span class="badge" style={`background:${b.bg};`}>{b.text}</span>
+                  ))}
+                </div>
+                <span class="cta-open">{c.cta} &rarr;</span>
+              </a>
+            ))}
+          </div>
+        </>
+      )}
     </section>
 
     <section class="box" id="semester-empty" hidden>
@@ -211,7 +233,7 @@ const smt2Wave2 = smt2.slice(4);
     </section>
 
     <footer class="site-footer">
-      <div>Portal &amp; ringkasan materi ini disusun oleh <strong>Ahmad Zakaria Fathoni</strong> (skema <strong>Non-SIPAS</strong>) mengikuti urutan mata kuliah dan jadwal ujian penulis, sehingga pembagian semesternya tidak terikat paket SIPAS. Silakan pilih mata kuliah sesuai KRS atau kebutuhan ujianmu.</div>
+      <div>Portal &amp; ringkasan materi ini disusun oleh penulis (skema <strong>Non-SIPAS</strong>) mengikuti urutan mata kuliah dan jadwal ujian penulis, sehingga pembagian semesternya tidak terikat paket SIPAS. Silakan pilih mata kuliah sesuai KRS atau kebutuhan ujianmu.</div>
       <div style="display:flex; gap:14px; align-items:center; flex-wrap:wrap; justify-content:center;">
         <a href="https://azf.my.id" target="_blank" rel="author noopener">azf.my.id</a>
         <span>·</span>

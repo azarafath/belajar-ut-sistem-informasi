@@ -34,7 +34,7 @@ Catatan ringkasan modul BMP, diagram visual, dan latihan soal UOLP untuk mahasis
 ## Fitur Utama
 
 - **Arsitektur Statis Ringan:** Dibangun dengan Astro SSG dan Preact Islands. Seluruh materi bacaan dan diagram SVG dikompilasi menjadi HTML statis murni; total JavaScript klien untuk kuis interaktif, pencarian, dan transisi halaman hanya ~17,9 KB (gzip).
-- **Bank Soal Dua Mode (973 Soal PG + 42 Essay):**
+- **Bank Soal Dua Mode (1.036 Soal PG + 42 Essay):**
   - **Mode Latihan:** Filter soal per modul (`M1`–`M9`), acak urutan soal, progress bar, feedback instan saat memilih jawaban beserta pembahasannya, dan skor tersimpan otomatis di `localStorage`.
   - **Mode Baca:** Tampilan seluruh soal dalam satu halaman dengan opsi vertikal, tombol sembunyikan kunci jawaban, panel pembahasan per opsi, serta tab khusus soal Essay.
 - **Navigasi Cepat Lintas Perangkat:** Sidebar kiri permanen di desktop dan drawer di mobile dengan *scroll-spy* aktif, ditambah floating dock (`Quiz`, `Baca`, `Cari`, `Atas`) untuk melompat ke latihan soal dari bagian mana pun.
@@ -69,6 +69,7 @@ Catatan ringkasan modul BMP, diagram visual, dan latihan soal UOLP untuk mahasis
 | `STSI4207` | Sistem Informasi Manajemen (`MSIM420701`) | 9 Modul + Diagram | 45 PG + 12 Essay | [Buka](https://belajar-ut.azf.my.id/smt2/sistem-informasi-manajemen) |
 | `STSI4402` | Tata Kelola TI (`MSIM440201`) | 6 Modul + Diagram | 30 PG + 10 Essay | [Buka](https://belajar-ut.azf.my.id/smt2/tata-kelola-ti) |
 | `STSI4208` | Analisis & Perancangan Sistem (`MSIM430201`) | 9 Modul + Diagram | 36 PG + 20 Essay | [Buka](https://belajar-ut.azf.my.id/smt2/analisis-perancangan-sistem) |
+| `MSIM431201` | Metodologi Penelitian (Non-UAS) | 9 Modul + Diagram | 63 PG | [Buka](https://belajar-ut.azf.my.id/smt2/metodologi-penelitian) |
 
 ---
 

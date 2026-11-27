@@ -253,6 +253,24 @@
         }
       ],
       "cta": "Buka Catatan APS"
+    },
+    {
+      "slug": "metodologi-penelitian",
+      "href": "/smt2/metodologi-penelitian",
+      "meta": "NON-UAS • BMP MSIM431201 • Pendalaman Materi & Proposal",
+      "name": "MSIM431201 / Metodologi Penelitian",
+      "desc": "9 Modul (MSIM431201): Konsep Penelitian, Rumusan Masalah & Keaslian, Kajian Pustaka, Hipotesis, Kualitatif/Kuantitatif/Campuran, Kuesioner, Validitas/Sampling, Statistika Deskriptif & Inferensial, serta Sitasi.",
+      "badges": [
+        {
+          "bg": "var(--hl-lavender)",
+          "text": "9 Modul + Diagram"
+        },
+        {
+          "bg": "var(--hl-mint)",
+          "text": "63 Soal PG + Pembahasan"
+        }
+      ],
+      "cta": "Buka Catatan Metodologi Penelitian"
     }
   ]
 }
