@@ -141,13 +141,19 @@ const smt2Wave2 = smt2.slice(4);
           <option value="8">Semester 8</option>
         </select>
       </div>
-      <button type="button" class="portal-search-btn" data-open-search>
-        <span class="search-trigger-left">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <span>Cari matkul atau materi...</span>
-        </span>
-        <span class="search-kbd">Ctrl+K</span>
-      </button>
+      <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+        <button type="button" class="portal-search-btn" data-open-search>
+          <span class="search-trigger-left">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <span>Cari matkul atau materi...</span>
+          </span>
+          <span class="search-kbd">Ctrl+K</span>
+        </button>
+        <button type="button" class="footer-support-link" data-open-support title="Traktir Kopi (QRIS)" style="padding:9px 12px; border-radius:12px; border:1.5px solid #d8d2c7;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>
+          <span>Traktir Kopi</span>
+        </button>
+      </div>
     </div>
 
     <section class="semester-panel" data-semester="1" hidden>
