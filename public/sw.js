@@ -1,4 +1,4 @@
-const CACHE_NAME = 'belajar-ut-v17';
+const CACHE_NAME = 'belajar-ut-v18';
 const CORE_ASSETS = [
   '/',
   '/index.html',
