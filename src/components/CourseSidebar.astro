@@ -64,8 +64,23 @@ const { shortLabel, navItems, pgCount, essayCount } = Astro.props;
 
 <button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Buka Menu Modul">
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-  <span>Menu Modul</span>
+  <span>Modul</span>
 </button>
+
+<nav class="floating-dock" aria-label="Menu Cepat">
+  <button type="button" class="dock-btn is-accent" data-jump-quiz="practice" title="Langsung ke Mode Latihan Quiz">
+    <span>🎯 Quiz</span>
+  </button>
+  <button type="button" class="dock-btn" data-jump-quiz="read" title="Lihat Semua Soal (Mode Baca)">
+    <span>📖 <span class="dock-hide-sm">Mode </span>Baca</span>
+  </button>
+  <button type="button" class="dock-btn" data-open-search title="Cari Materi (Ctrl+K)">
+    <span>🔍</span>
+  </button>
+  <button type="button" class="dock-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Kembali ke Atas">
+    <span>↑</span>
+  </button>
+</nav>
 
 <script>
   document.addEventListener('astro:page-load', () => {
@@ -79,6 +94,14 @@ const { shortLabel, navItems, pgCount, essayCount } = Astro.props;
     backdrop?.addEventListener('click', closeDrawer);
     document.querySelectorAll('.topbar-nav a.nav-pill').forEach((a) => {
       a.addEventListener('click', closeDrawer);
+    });
+
+    document.querySelectorAll<HTMLElement>('[data-jump-quiz]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const mode = btn.dataset.jumpQuiz || 'practice';
+        window.dispatchEvent(new CustomEvent('belajarut:quiz-mode', { detail: { mode } }));
+        document.getElementById('quiz-pg')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
     });
 
     // Scroll-spy
