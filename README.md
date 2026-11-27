@@ -4,10 +4,10 @@
 
 Catatan ringkasan modul BMP, diagram visual, dan latihan soal UOLP untuk mahasiswa Sistem Informasi Universitas Terbuka (Semester 1 & 2).
 
-[![Live](https://img.shields.io/static/v1?label=Live&message=belajar-ut.azf.my.id&color=1d4ed8&style=flat-square)](https://belajar-ut.azf.my.id)
-[![Astro](https://img.shields.io/static/v1?label=Astro&message=5.7%20SSG&color=bc52ee&style=flat-square)](https://astro.build)
-[![Preact](https://img.shields.io/static/v1?label=Preact&message=18%20KB%20gzip&color=673ab8&style=flat-square)](https://preactjs.com)
-[![PWA](https://img.shields.io/static/v1?label=PWA&message=Offline%20Ready&color=059669&style=flat-square)](https://belajar-ut.azf.my.id/manifest.webmanifest)
+[![Live](docs/badges/live.svg)](https://belajar-ut.azf.my.id)
+[![Astro](docs/badges/astro.svg)](https://astro.build)
+[![Preact](docs/badges/preact.svg)](https://preactjs.com)
+[![PWA](docs/badges/pwa.svg)](https://belajar-ut.azf.my.id/manifest.webmanifest)
 
 [Buka Website](https://belajar-ut.azf.my.id) · [Semester 1](https://belajar-ut.azf.my.id/smt1) · [Semester 2](https://belajar-ut.azf.my.id/smt2)
 
