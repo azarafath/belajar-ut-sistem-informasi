@@ -159,7 +159,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 1 KB 1, Basis Data didefinisikan sebagai koleksi terpadu dari data yang saling berkaitan dan dirancang untuk memenuhi kebutuhan informasi suatu organisasi. DBMS adalah perangkat lunak pengelolanya, bukan koleksi datanya.",
       "num": 1
     },
     {
@@ -184,7 +184,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 1 KB 2, hierarki tingkatan data dari yang terkecil ke terbesar adalah Character (karakter), Field/Attribute (kolom), Record/Tuple (baris), lalu Table/Entity (kumpulan record atau file).",
       "num": 2
     },
     {
@@ -209,7 +209,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 1 KB 2, Record atau Tuple adalah satu baris data yang berisi kumpulan nilai atribut untuk menjelaskan satu entitas secara utuh.",
       "num": 3
     },
     {
@@ -234,7 +234,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Dalam 9 Tujuan Basis Data pada Modul 1 KB 1, Availability bertujuan memilah data master, transaksi, histori, hingga data kedaluwarsa agar data tetap tersedia sesuai kebutuhan.",
       "num": 4
     },
     {
@@ -284,7 +284,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 1 KB 2, salah satu sifat tabel adalah urutan record tidak terlalu penting karena dapat diurutkan kembali, sehingga pernyataan bahwa urutan record harus selalu tetap adalah salah.",
       "num": 6
     },
     {
@@ -309,7 +309,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Dalam analogi lemari arsip pada Modul 1 KB 2, tabel diibaratkan sebagai kotak arsip sehingga menghapus kotak arsip lama beserta isinya identik dengan perintah DROP TABLE (sedangkan DROP DATABASE menghapus seluruh lemari arsip).",
       "num": 7
     },
     {
@@ -334,7 +334,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 1 KB 2, Table atau Entity merupakan kumpulan record sejenis yang dalam sistem basis data tradisional disebut juga sebagai File.",
       "num": 8
     },
     {
@@ -359,7 +359,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 2 KB 1, kelompok Object-Based Data Model mencakup Entity Relationship Model, Semantic Model, dan Binary Model. Hierarchical dan Network termasuk Record-Based Data Model, sedangkan Frame Memory termasuk Physical-Based Data Model.",
       "num": 9
     },
     {
@@ -384,7 +384,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 2 KB 1, Relational Model, Hierarchical Model, dan Network Model dikelompokkan ke dalam Record-Based Data Model karena menyusun data berbasis tabel, pohon, atau graf.",
       "num": 10
     },
     {
@@ -409,7 +409,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 2 KB 2, Composite Attribute adalah atribut yang masih dapat dipecah menjadi beberapa sub-atribut yang lebih kecil, seperti Alamat yang dipecah menjadi Jalan, Kota, dan Kode Pos.",
       "num": 11
     },
     {
@@ -434,7 +434,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 2 KB 2, Mandatory Attribute adalah atribut yang wajib diisi nilainya dan tidak boleh kosong (Not Null), berbeda dengan Non-Mandatory Attribute yang boleh Null.",
       "num": 12
     },
     {
@@ -459,7 +459,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 2 KB 2, Multi Value Attribute adalah atribut yang diperbolehkan memiliki lebih dari satu nilai untuk satu entitas, misalnya atribut Hobi.",
       "num": 13
     },
     {
@@ -484,7 +484,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Berdasarkan aturan penamaan simbol ERD di Modul 2 KB 2, simbol Relasi (belah ketupat) dinamai menggunakan kata kerja aktif berawalan me- dalam bentuk tunggal, seperti Mengambil atau Membimbing.",
       "num": 14
     },
     {
@@ -509,7 +509,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Berdasarkan Tabel 2.6 istilah formal RDBM pada Modul 2 KB 2, jumlah atribut dalam sebuah relasi disebut Derajat (Degree/Arity), sedangkan jumlah record disebut Kardinalitas.",
       "num": 15
     },
     {
@@ -534,7 +534,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 2 KB 2 dan Glosarium, bagian dari Candidate Key yang tidak terpilih menjadi Primary Key disebut Alternate Key (AK).",
       "num": 16
     },
     {
@@ -559,7 +559,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Berdasarkan alur pembuatan ERD pada Modul 3, tahapan pertama yang dilakukan adalah mengidentifikasi seluruh entity sebelum menentukan atribut, relasi, dan derajat relasi.",
       "num": 17
     },
     {
@@ -584,7 +584,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 3, tahap ke-2 dalam pembuatan ERD adalah menentukan atribut beserta Primary Key-nya setelah seluruh entitas teridentifikasi.",
       "num": 18
     },
     {
@@ -609,7 +609,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 3, tahap ke-3 dalam pembuatan ERD adalah menetapkan himpunan relasi antarentitas beserta Foreign Key sebagai penghubungnya.",
       "num": 19
     },
     {
@@ -634,7 +634,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 3, tahap terakhir (ke-5) pembuatan ERD adalah melengkapi entitas dan relasi dengan atribut deskriptif (non-key).",
       "num": 20
     },
     {
@@ -659,7 +659,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 3, aplikasi praktikum yang digunakan untuk menggambar diagram ERD adalah yEd Graph Editor (tersedia dalam versi desktop dan yEd Live web).",
       "num": 21
     },
     {
@@ -684,7 +684,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 3 dijelaskan bahwa fungsi fitur menu pada yEd Graph Editor versi desktop dan yEd Live berbasis web adalah sama persis.",
       "num": 22
     },
     {
@@ -709,7 +709,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 2 dan Modul 3, Foreign Key adalah atribut yang menjadi Primary Key di tabel induk dan dipakai sebagai penghubung logis di tabel lain.",
       "num": 23
     },
     {
@@ -734,7 +734,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 2 Tabel 2.6, relasi yang tersusun oleh tiga entitas atau atribut disebut Ternary Relation (sedangkan satu disebut Unary dan dua disebut Binary).",
       "num": 24
     },
     {
@@ -759,7 +759,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 4 KB 1 dan bagian Tokoh Kunci, proses normalisasi basis data pertama kali diperkenalkan pada tahun 1972 oleh E.F. Codd.",
       "num": 25
     },
     {
@@ -784,7 +784,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 4 KB 1, efek samping yang tidak diharapkan saat memanipulasi data pada tabel yang belum dinormalisasi disebut anomali.",
       "num": 26
     },
     {
@@ -809,7 +809,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 4 KB 1, Delete anomaly terjadi ketika penghapusan suatu record menyebabkan informasi penting lain ikut hilang secara tidak sengaja.",
       "num": 27
     },
     {
@@ -834,7 +834,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada contoh Tabel 4.1 Modul 4 KB 1, cabang Jakarta memiliki dua nomor telepon berbeda karena tabel belum dinormalisasi, yang merupakan contoh update/inkonsistensi anomaly.",
       "num": 28
     },
     {
@@ -859,7 +859,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 4 KB 2, tahapan normalisasi dari Unnormalized ke 1NF, 2NF, hingga 3NF umumnya sudah dianggap optimal karena telah menghilangkan grup berulang, ketergantungan parsial, dan ketergantungan transitif.",
       "num": 29
     },
     {
@@ -884,7 +884,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 4 KB 2, syarat utama Bentuk Normal Kedua (2NF) adalah memenuhi 1NF dan seluruh atribut non-key bergantung penuh pada Primary Key (bebas ketergantungan parsial).",
       "num": 30
     },
     {
@@ -909,7 +909,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 4 KB 2 tentang bentuk denormalisasi, atribut turunan adalah atribut yang nilainya diperoleh dari hasil perhitungan atau olahan atribut lain.",
       "num": 31
     },
     {
@@ -934,7 +934,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 4 KB 2, atribut berlebihan yang menyatakan lebih dari satu fakta melanggar aturan 1NF karena 1NF mensyaratkan setiap nilai atribut bersifat atomik (tunggal).",
       "num": 32
     },
     {
@@ -959,7 +959,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 5, perintah SQL dikelompokkan menjadi 3 jenis utama, yaitu DDL (struktur objek), DML (manipulasi data), dan DCL (keamanan dan hak akses).",
       "num": 33
     },
     {
@@ -984,7 +984,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 5, perintah CREATE, ALTER, dan DROP termasuk Data Definition Language (DDL) karena berfungsi mendefinisikan dan mengubah skema tabel atau basis data.",
       "num": 34
     },
     {
@@ -1009,7 +1009,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Berdasarkan sintaks Modul 5, penambahan Foreign Key pada tabel yang sudah ada dilakukan menggunakan perintah DDL ALTER TABLE ... ADD FOREIGN KEY.",
       "num": 35
     },
     {
@@ -1034,7 +1034,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 5, klausa DML ORDER BY digunakan untuk mengurutkan hasil query SELECT berdasarkan kolom tertentu.",
       "num": 36
     },
     {
@@ -1059,7 +1059,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 5, operator DML LIKE digunakan untuk pencarian pola teks tertentu dengan bantuan karakter wildcard % dan _.",
       "num": 37
     },
     {
@@ -1084,7 +1084,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 5, klausa GROUP BY digunakan untuk mengelompokkan baris data sebelum menghitung fungsi agregat seperti COUNT atau AVG (sedangkan HAVING menyaring hasil grup setelahnya).",
       "num": 38
     },
     {
@@ -1109,7 +1109,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Menurut Octaviani (2010) pada bagian Definisi Ahli, DML mencakup pengambilan, penempatan baru, penghapusan, dan modifikasi data; pembuatan tabel baru termasuk perintah DDL, bukan DML.",
       "num": 39
     },
     {
@@ -1134,7 +1134,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 5, Data Control Language (DCL) adalah kelompok perintah SQL seperti GRANT dan REVOKE untuk mengatur hak akses dan keamanan pengguna.",
       "num": 40
     },
     {
@@ -1159,7 +1159,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 6 KB 1, Oracle Database (bersama IBM DB2) diklasifikasikan sebagai DBMS skala menengah ke atas (enterprise), sedangkan MySQL dan MariaDB untuk skala menengah ke bawah.",
       "num": 41
     },
     {
@@ -1184,7 +1184,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 6 KB 1 dan Poin Ujian, pengembang MySQL membuat MariaDB sebagai fork open-source setelah MySQL diakuisisi oleh Oracle.",
       "num": 42
     },
     {
@@ -1209,7 +1209,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 6 KB 2, XAMPP adalah paket aplikasi webserver cross-platform yang dikembangkan oleh Apache Friends.",
       "num": 43
     },
     {
@@ -1234,7 +1234,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 6 KB 2, kepanjangan XAMPP adalah Cross-platform, Apache, MariaDB/MySQL, PHP, dan Perl, sehingga huruf 'M' merujuk pada MariaDB/MySQL.",
       "num": 44
     },
     {
@@ -1259,7 +1259,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 6 KB 2, halaman antarmuka web bawaan XAMPP untuk mengelola basis data secara grafis adalah phpMyAdmin.",
       "num": 45
     },
     {
@@ -1284,7 +1284,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 6 KB 2, selain melalui antarmuka web phpMyAdmin, perintah DDL dan DML pada XAMPP dapat dijalankan melalui Command Prompt (CMD).",
       "num": 46
     },
     {
@@ -1309,7 +1309,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Pada Modul 6 KB 1, MySQL, MariaDB, dan PostgreSQL merupakan DBMS open-source skala menengah ke bawah, sedangkan Oracle Database termasuk DBMS skala menengah ke atas (enterprise).",
       "num": 47
     },
     {
@@ -1334,7 +1334,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Sesuai sintaks SQL pada Modul 5 dan Modul 6, tanda bintang (*) pada perintah SELECT * FROM pegawai digunakan untuk menampilkan seluruh kolom dari tabel pegawai.",
       "num": 48
     },
     {
@@ -1359,7 +1359,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 7, properti ACID Atomicity (all or nothing) memastikan seluruh operasi dalam satu transaksi berhasil dilaksanakan seluruhnya atau dibatalkan seluruhnya jika terjadi kegagalan.",
       "num": 49
     },
     {
@@ -1384,7 +1384,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Pada Modul 7, properti ACID Durability menjamin hasil transaksi yang telah di-COMMIT tetap tersimpan permanen meskipun sistem mengalami kegagalan atau crash.",
       "num": 50
     },
     {
@@ -1409,7 +1409,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 7, transaksi yang berhasil berjalan melalui urutan state Active, lalu Partially Committed, hingga Committed (sedangkan Failed dan Abort terjadi bila transaksi gagal).",
       "num": 51
     },
     {
@@ -1434,7 +1434,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 7, tiga teknik untuk mengatasi deadlock pada manajemen transaksi adalah Timeout, Deadlock Prevention, dan Deadlock Recovery.",
       "num": 52
     },
     {
@@ -1459,7 +1459,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 7 dan Glosarium, teknik concurrency control dengan protokol penguncian dua fase (Growing Phase dan Shrinking Phase) disebut 2PL (Two-Phase Locking).",
       "num": 53
     },
     {
@@ -1484,7 +1484,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 7 dan Diagram Modul 9, pemecahan satu tabel berdasarkan baris ke beberapa server berbeda disebut Partisi Horizontal.",
       "num": 54
     },
     {
@@ -1509,7 +1509,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 7 dan Diagram Modul 9, pemecahan satu tabel berdasarkan kolom atau atribut ke beberapa lokasi disebut Partisi Vertikal.",
       "num": 55
     },
     {
@@ -1534,7 +1534,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 7 bagian pertimbangan strategi basis data terdistribusi, aplikasi mission-critical yang membutuhkan keandalan layanan tinggi mendorong pemilihan skema Replikasi.",
       "num": 56
     },
     {
@@ -1559,7 +1559,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 8 dan bagian Definisi Ahli, Physical Data Independence adalah kemampuan DBMS agar perubahan penyimpanan fisik di disk tidak mengubah skema logis maupun program aplikasi.",
       "num": 57
     },
     {
@@ -1584,7 +1584,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 8 KB 1, siklus pengembangan aplikasi basis data model 3 tahap terdiri dari Analisis, Desain/Perancangan, dan Implementasi.",
       "num": 58
     },
     {
@@ -1609,7 +1609,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 8 KB 1, siklus pengembangan aplikasi model 5 tahap diawali dengan tahap Perencanaan dan diakhiri dengan tahap Penggunaan/Review/Evaluasi.",
       "num": 59
     },
     {
@@ -1634,7 +1634,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 8 KB 2, integrasi antara Microsoft Access dengan server MySQL membutuhkan komponen penghubung berupa MySQL Connector/ODBC dan Microsoft Visual C++ Redistributable.",
       "num": 60
     },
     {
@@ -1659,7 +1659,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 8 KB 2, lima objek utama aplikasi yang dibuat di Microsoft Access adalah Form, Form Navigasi, Query, Report, dan Switchboard.",
       "num": 61
     },
     {
@@ -1684,7 +1684,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 8 bagian Organisasi Berkas, organisasi berkas bertujuan mengembangkan metode penyimpanan dan penanganan data dalam jumlah besar secara cepat.",
       "num": 62
     },
     {
@@ -1709,7 +1709,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 8 bagian Organisasi Berkas, organisasi berkas diperlukan untuk sistem multi-user dengan data yang disimpan pada media penyimpanan sekunder.",
       "num": 63
     },
     {
@@ -1734,7 +1734,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada Modul 8 bagian Organisasi Berkas, istilah organisasi berkas dapat disamakan dengan organisasi basis data karena sama-sama mengatur metode penyimpanan dan akses data pada media sekunder.",
       "num": 64
     },
     {
@@ -1759,7 +1759,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 9 KB 1 & 2, perintah TCL COMMIT menandakan transaksi telah selesai dilaksanakan dan menyimpan perubahan data secara permanen.",
       "num": 65
     },
     {
@@ -1784,7 +1784,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 9 KB 1 & 2, perintah TCL ROLLBACK digunakan untuk menggugurkan atau membatalkan perintah transaksi yang sedang berjalan.",
       "num": 66
     },
     {
@@ -1809,7 +1809,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 9 KB 1 & 2, Checkpoint adalah titik tempat status atau proses transaksi terakhir disimpan sebagai acuan pemulihan.",
       "num": 67
     },
     {
@@ -1834,7 +1834,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 9 KB 1 & 2, event DML yang dapat memicu eksekusi TRIGGER di SQL adalah INSERT, UPDATE, dan DELETE.",
       "num": 68
     },
     {
@@ -1859,7 +1859,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Modul 9 KB 1 & 2, TRIGGER memadukan waktu eksekusi (BEFORE/AFTER) dengan event DML, sehingga trigger yang dijalankan setelah perubahan data menggunakan kata kunci AFTER.",
       "num": 69
     },
     {
@@ -1884,7 +1884,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 9 KB 3, praktikum replikasi menggunakan mesin virtual VirtualBox untuk menjalankan sistem operasi Linux Ubuntu.",
       "num": 70
     },
     {
@@ -1909,7 +1909,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada praktikum replikasi Master–Slave Modul 9 KB 3, Komputer 1 (Windows) berperan sebagai Master, sedangkan Komputer 2 (Ubuntu) berperan sebagai Slave.",
       "num": 71
     },
     {
@@ -1934,7 +1934,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada Modul 9 KB 3 dan Glosarium, replikasi Master–Slave pada praktikum ini bersifat satu arah, yaitu menyalin perubahan data dari server Master (Windows) ke Slave (Ubuntu).",
       "num": 72
     }
   ],

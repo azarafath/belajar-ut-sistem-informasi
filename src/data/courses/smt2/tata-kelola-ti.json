@@ -165,7 +165,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Desain organisasi TI bertujuan meminimalkan kesalahan manusia, bukan memaksimalkannya. Tujuan lainnya meliputi penyelarasan strategis, solusi inefisiensi struktur, dan menghilangkan konflik posisi kerja.",
       "num": 3
     },
     {
@@ -190,7 +190,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Tata kelola TI organik menekankan pengambilan keputusan yang kolaboratif dan adaptif lintas unit, terutama pada organisasi kecil. Pendekatan ini lebih fleksibel dibandingkan tata kelola yang kaku atau birokratis.",
       "num": 4
     },
     {
@@ -215,7 +215,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Tata kelola TI bertujuan menyelaraskan pemanfaatan sumber daya TI dengan tujuan bisnis perusahaan. Jika tata kelola TI buruk, investasi dan sumber daya TI menjadi boros serta tidak selaras dengan kebutuhan bisnis.",
       "num": 5
     },
     {
@@ -240,7 +240,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Pengendalian internal yang baik menuntut integritas dan misi yang etis, akurasi data, serta kepatuhan terhadap hukum yang berlaku. Pertimbangan ekonomis yang justru menimbulkan pemborosan bertentangan dengan prinsip efisiensi dan pengendalian internal COSO.",
       "num": 6
     },
     {
@@ -265,7 +265,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Dalam kerangka piramida COSO, fondasi paling dasar adalah Internal Control Environment (lingkungan pengendalian internal). Komponen ini mencakup integritas, nilai etis, kompetensi, struktur organisasi, serta peran dewan dan komite audit.",
       "num": 7
     },
     {
@@ -290,7 +290,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Prioritize risk dalam desain pemantauan COSO berarti mengidentifikasi dan memahami risiko perusahaan untuk menentukan prioritas pengendalian. Pemahaman atas risiko tersebut menjadi dasar dalam memfokuskan aktivitas pemantauan pada area yang paling kritis.",
       "num": 8
     },
     {
@@ -315,7 +315,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Prinsip kunci COBIT memisahkan antara Tata Kelola (Governance) dan Manajemen (Management) karena keduanya memiliki peran dan aktivitas berbeda. Meskipun terpisah, keduanya tetap terkait dan terintegrasi dalam perusahaan yang berorientasi TI.",
       "num": 9
     },
     {
@@ -340,7 +340,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Tiga tujuan penciptaan nilai tata kelola dalam COBIT adalah realisasi manfaat, optimalisasi risiko, dan optimalisasi sumber daya. Optimalisasi biaya tidak termasuk dalam ketiga tujuan nilai COBIT tersebut.",
       "num": 10
     },
     {
@@ -365,7 +365,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Sentralisasi layanan oleh penyedia pihak ketiga memungkinkan perusahaan menekan investasi dan biaya pemeliharaan infrastruktur TI. Hal tersebut merupakan salah satu manfaat utama dari penerapan cloud computing.",
       "num": 11
     },
     {
@@ -390,7 +390,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Lokasi fisik server cloud yang tersebar di berbagai negara menimbulkan isu arus informasi lintas batas (transborder data flow). Kondisi ini berdampak pada yurisdiksi hukum, kepatuhan regulasi, dan perlindungan data perusahaan.",
       "num": 12
     },
     {
@@ -415,7 +415,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Berdasarkan Modul 3, efektivitas kontrol keamanan TI bergantung pada tiga faktor utama, yaitu manajemen sistem, masalah hukum, dan jaminan kualitas. Kontrol eksternal manajemen tidak termasuk dalam faktor tersebut.",
       "num": 13
     },
     {
@@ -440,7 +440,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Faktor sosial yang membatasi penerapan kontrol keamanan TI berkaitan dengan kondisi keamanan dan privasi di tempat kerja. Kebijakan kontrol tidak dapat diterapkan secara berlebihan jika melanggar privasi atau kenyamanan sosial pekerja.",
       "num": 14
     },
     {
@@ -465,7 +465,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Business Continuity Planning (BCP) adalah perencanaan strategis untuk menjamin operasional TI dan proses bisnis tetap berjalan saat terjadi bencana atau gangguan besar. Di dalamnya juga tercakup Disaster Recovery Plan (DRP) untuk pemulihan sistem.",
       "num": 15
     },
     {
@@ -490,7 +490,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Service-Oriented Architecture (SOA) memodulasi logika bisnis menjadi layanan-layanan independen bagi aplikasi konsumen. Tujuan utamanya adalah mencapai fleksibilitas di antara bagian perangkat lunak yang saling berinteraksi.",
       "num": 16
     },
     {
@@ -515,7 +515,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Pemangku kepentingan yang terlibat langsung dalam perancangan dan tata kelola SOA adalah pemilik bisnis, arsitek SOA, pengembang aplikasi, dan manajer kualitas SOA. Pengguna akhir umum tidak terlibat langsung dalam proses perancangan arsitektur SOA.",
       "num": 17
     },
     {
@@ -540,7 +540,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Implementasi SOA justru bertujuan mengurangi dampak perubahan bisnis dan teknologi, bukan menambahnya. Manfaat lainnya mencakup implementasi cepat kemampuan bisnis baru serta perlindungan terhadap investasi TI yang sudah ada.",
       "num": 18
     },
     {
@@ -565,7 +565,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Menurut standar IEEE, Manajemen Konfigurasi TI terdiri dari empat elemen wajib, yaitu identifikasi, kontrol, status, serta audit dan review. Keempat elemen ini memastikan kompatibilitas dan keterlacakan seluruh komponen perangkat keras, lunak, jaringan, dan dokumentasi.",
       "num": 19
     },
     {
@@ -590,7 +590,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Dalam tata kelola SOA, manajer kualitas SOA berperan mengawasi dan memastikan setiap layanan memenuhi standar kualitas yang ditetapkan serta Service Level Agreement (SLA). Hal ini menjaga keandalan dan konsistensi layanan bagi aplikasi konsumen.",
       "num": 20
     },
     {
@@ -615,7 +615,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Langkah awal yang wajib dilakukan manajemen sebelum menerapkan ECM secara efisien adalah mendokumentasikan siklus hidup konten organisasi. Dokumentasi ini menjadi dasar pengelolaan konten dari tahap capture hingga deliver.",
       "num": 21
     },
     {
@@ -640,7 +640,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Lima bidang fokus audit internal dalam tata kelola TI adalah penyampaian nilai, manajemen risiko, manajemen sumber daya, pengukuran kinerja, dan keselarasan strategis. Manajemen keuangan pribadi bukan bagian dari fokus audit internal TI.",
       "num": 22
     },
     {
@@ -665,7 +665,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Meninjau penyampaian nilai fungsi TI dan keselarasan strategisnya dengan visi, misi, serta strategi organisasi merupakan bagian dari standar profesional audit internal. Audit internal berfungsi memberikan penilaian independen kepada komite audit dan dewan direksi.",
       "num": 23
     },
     {
@@ -715,7 +715,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pengukuran kinerja dan pemantauan tata kelola TI bertujuan memastikan fungsi TI benar-benar menghasilkan nilai bisnis (value delivery) sekaligus menjaga agar risiko TI tetap terkendali. Dengan demikian, pemanfaatan TI tetap selaras dengan tujuan strategis organisasi.",
       "num": 25
     },
     {
@@ -740,7 +740,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pernyataan misi menetapkan arah utama tata kelola perusahaan, sedangkan kode etik berfungsi menjabarkannya menjadi aturan pendukung bagi perilaku para pemangku kepentingan perusahaan. Kode etik memandu karyawan dan manajemen dalam bertindak sesuai nilai etika dan kepatuhan hukum.",
       "num": 26
     },
     {
@@ -765,7 +765,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Standar kesempatan kerja setara, pencegahan pelecehan seksual, dan larangan penyalahgunaan alkohol/zat termasuk contoh kode etik perilaku di tempat kerja. Sementara itu, penyalahgunaan media sosial diatur melalui kebijakan media sosial spesifik yang terpisah.",
       "num": 27
     },
     {
@@ -790,7 +790,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Saluran pelaporan rahasia bagi karyawan untuk melaporkan dugaan pelanggaran etika, penipuan, atau tindakan ilegal disebut saluran whistleblower dan hotline etika. Mekanisme ini juga dilindungi regulasi seperti Sarbanes-Oxley (SOx) agar pelapor aman dari pembalasan.",
       "num": 28
     },
     {
@@ -815,7 +815,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Penggunaan media sosial tanpa tata kelola yang jelas dapat memicu kebocoran informasi rahasia perusahaan dan kerusakan reputasi. Oleh karena itu, perusahaan perlu menetapkan kebijakan media sosial yang spesifik serta edukasi rutin bagi karyawan.",
       "num": 29
     },
     {
@@ -840,7 +840,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Budaya etis dalam tata kelola TI paling efektif dibangun melalui keteladanan pimpinan puncak (tone at the top), seperti peluncuran kode etik oleh CEO dan pengakuan formal manajer senior, disertai program etika yang jelas. Pendekatan ini menanamkan kepatuhan secara menyeluruh di seluruh organisasi.",
       "num": 30
     }
   ],

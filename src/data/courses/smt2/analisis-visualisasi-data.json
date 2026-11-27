@@ -190,7 +190,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Tabulasi data diperlukan karena data mentah atau data kasar sulit dibaca dan diinterpretasikan secara langsung, sehingga perlu diringkas ke dalam bentuk tabel yang lebih terstruktur.",
       "num": 4
     },
     {
@@ -290,7 +290,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Analisis data parametrik mensyaratkan dua asumsi dasar, yaitu data berdistribusi normal dan memiliki varians yang homogen atau konstan (homoskedastis).",
       "num": 8
     },
     {
@@ -315,7 +315,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Keberadaan pencilan (outlier) tidak serta-merta menentukan kenormalan sebaran data, sehingga data tersebut bisa berdistribusi normal maupun tidak normal dan perlu diperiksa lebih lanjut.",
       "num": 9
     },
     {
@@ -390,7 +390,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Bencana alam yang merusak tanaman percobaan merupakan contoh objek pengamatan yang rusak secara fisik dan acak (MCAR), sehingga nilai pengamatannya tidak dapat diperoleh.",
       "num": 12
     },
     {
@@ -415,7 +415,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Data hilang justru menyulitkan analisis karena mengurangi informasi sampel, meningkatkan galat baku (standard error), dan menimbulkan bias pendugaan parameter, bukan mempermudah analisis.",
       "num": 13
     },
     {
@@ -440,7 +440,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Melakukan pra-survei skala kecil di awal penelitian membantu mendeteksi potensi kendala pengumpulan data sejak dini sehingga risiko data hilang dapat dicegah.",
       "num": 14
     },
     {
@@ -565,7 +565,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Scatter diagram (diagram pencar) merupakan langkah visual awal yang paling tepat untuk melihat pola hubungan—apakah linear, positif, atau negatif—antara dua variabel numerik X dan Y.",
       "num": 19
     },
     {
@@ -615,7 +615,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Data teks secara alami bersifat tidak terstruktur (unstructured) dengan format yang sangat bervariasi, sehingga memerlukan tahap prapemrosesan sebelum dapat dianalisis secara kuantitatif.",
       "num": 21
     },
     {
@@ -640,7 +640,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Prapemrosesan data teks meliputi konversi huruf kecil, penghapusan tanda baca/angka/stopwords, dan tokenisasi atau stemming, sedangkan mengubah kalimat tanya menjadi kalimat berita tidak termasuk di dalamnya.",
       "num": 22
     },
     {
@@ -665,7 +665,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Fungsi tolower di dalam tm_map() pada paket tm di R digunakan untuk menyeragamkan seluruh huruf besar menjadi huruf kecil agar kata yang sama tidak dianggap berbeda.",
       "num": 23
     },
     {
@@ -690,7 +690,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Pada paket tm di R, fungsi stripWhitespace digunakan untuk menghapus spasi berlebih dan removePunctuation untuk menghilangkan tanda baca dari dokumen teks.",
       "num": 24
     },
     {
@@ -740,7 +740,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Aplikasi R Shiny tersusun atas tiga komponen utama, yaitu User Interface (UI), Server, dan fungsi shinyApp(ui, server) untuk menjalankannya, bukan komponen bernama Web Apps.",
       "num": 26
     },
     {
@@ -765,7 +765,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Fungsi server pada R Shiny bertugas menjalankan logika kerja analisis dan perhitungan reaktif (seperti renderPlot dan reactive) untuk menghasilkan output yang ditampilkan di UI.",
       "num": 27
     },
     {
@@ -790,7 +790,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "User Interface (UI) pada R Shiny mengatur tampilan depan dan tata letak aplikasi, termasuk komponen input (seperti sliderInput dan selectInput) serta slot penempatan output.",
       "num": 28
     },
     {
@@ -815,7 +815,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada simulasi data acak normal rnorm(input$n), semakin besar jumlah sampel n yang dibangkitkan, bentuk histogramnya akan semakin halus dan mendekati kurva distribusi normal.",
       "num": 29
     },
     {
@@ -840,7 +840,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Visualisasi data interaktif dirancang untuk membantu pengguna memahami pola dan informasi dalam data secara lebih efektif dengan memanfaatkan sistem indra visual manusia.",
       "num": 30
     }
   ],

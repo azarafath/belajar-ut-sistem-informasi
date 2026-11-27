@@ -1,4 +1,8 @@
 /* Smooth Astro View Transitions */
+main.notebook {
+  padding-bottom: 92px;
+}
+
 @keyframes fadeSlideUp {
   from {
     opacity: 0;

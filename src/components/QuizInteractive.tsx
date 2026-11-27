@@ -267,39 +267,28 @@ export default function QuizInteractive({
               })}
             </div>
 
-            {chosenLetter && (
-              <div class={`quiz-feedback ${isCorrect ? 'is-ok' : 'is-err'}`}>
-                <strong>
-                  {isCorrect
-                    ? `✅ Benar! Jawaban tepat adalah ${currentQ.answerLetter}.`
-                    : `❌ Kurang tepat (kamu memilih ${chosenLetter}). Kunci yang benar: ${currentQ.answerLetter}.`}
-                </strong>
-                {currentQ.explanation && (
-                  <p style={{ margin: '6px 0 8px' }}>
-                    <strong>Pembahasan:</strong> {currentQ.explanation}
-                  </p>
-                )}
-                <ul class="explain-list" style={{ marginTop: '8px' }}>
-                  {currentQ.options.map((opt, idx) => {
-                    const letter = opt.letter || String.fromCharCode(65 + idx);
-                    const ok = letter.toUpperCase() === currentQ.answerLetter.toUpperCase();
-                    const wasPicked = letter.toUpperCase() === chosenLetter.toUpperCase();
-                    return (
-                      <li key={letter} class={ok ? 'is-right' : 'is-wrong'}>
-                        <strong>{letter}.</strong> {opt.text} —{' '}
-                        {ok
-                          ? currentQ.explanation
-                            ? `Benar (${currentQ.explanation})`
-                            : 'Merupakan jawaban yang tepat.'
-                          : wasPicked
-                            ? 'Pilihanmu kurang tepat.'
-                            : 'Bukan jawaban yang tepat.'}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            )}
+            {chosenLetter && (() => {
+              const correctOpt = currentQ.options.find(
+                (o, i) => (o.letter || String.fromCharCode(65 + i)).toUpperCase() === currentQ.answerLetter.toUpperCase()
+              );
+              const chosenOpt = currentQ.options.find(
+                (o, i) => (o.letter || String.fromCharCode(65 + i)).toUpperCase() === chosenLetter.toUpperCase()
+              );
+              return (
+                <div class={`quiz-feedback ${isCorrect ? 'is-ok' : 'is-err'}`}>
+                  <strong>
+                    {isCorrect
+                      ? `✅ Benar! (${currentQ.answerLetter}. ${correctOpt?.text || ''})`
+                      : `❌ Kurang tepat — Kamu memilih ${chosenLetter}${chosenOpt ? ` (${chosenOpt.text})` : ''}. Kunci: ${currentQ.answerLetter}${correctOpt ? `. ${correctOpt.text}` : ''}`}
+                  </strong>
+                  {currentQ.explanation && (
+                    <p style={{ margin: '8px 0 0', lineHeight: 1.6 }}>
+                      <strong>💡 Pembahasan:</strong> {currentQ.explanation}
+                    </p>
+                  )}
+                </div>
+              );
+            })()}
 
             <div class="quiz-nav-row">
               <button

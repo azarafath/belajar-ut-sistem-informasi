@@ -148,7 +148,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Alur SDLC berjalan berurutan melalui lima fase: Perencanaan → Analisis → Desain → Implementasi → Pemeliharaan, sehingga fase pertamanya adalah Perencanaan yang menghasilkan Rencana Proyek dan System Request.",
       "num": 1
     },
     {
@@ -173,7 +173,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "WBS (Work Breakdown Structure) berfungsi memecah proyek besar menjadi tugas-tugas atau paket kerja kecil yang terukur sehingga mudah diestimasi dan dijadwalkan.",
       "num": 2
     },
     {
@@ -198,7 +198,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Kebutuhan bisnis adalah sasaran organisasi seperti meningkatkan pangsa pasar, mengurangi biaya operasional, atau meningkatkan layanan pelanggan, bukan aktivitas teknis/operasional seperti menjadwalkan pertemuan dengan klien.",
       "num": 3
     },
     {
@@ -223,7 +223,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Kebutuhan fungsional berorientasi pada proses (apa yang dilakukan sistem) dan informasi (data yang dikelola), sedangkan orientasi pada performa termasuk kebutuhan non-fungsional.",
       "num": 4
     },
     {
@@ -248,7 +248,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Lima kriteria validasi kebutuhan meliputi validitas, konsistensi, kelengkapan, realisme, dan verifiabilitas, sehingga pemeriksaan prototipe tidak termasuk tipe pemeriksaan dalam validasi kebutuhan.",
       "num": 5
     },
     {
@@ -273,7 +273,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Dalam teknik wawancara, pertanyaan tertutup digunakan analis untuk memperoleh informasi yang spesifik dan tepat, berbeda dengan pertanyaan terbuka untuk eksplorasi maupun probing untuk menyelidik lebih lanjut.",
       "num": 6
     },
     {
@@ -298,7 +298,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Aturan desain kuesioner yang baik mencakup memulai dengan pertanyaan menarik, menyertakan nomor urut pertanyaan yang jelas, serta tidak meletakkan pertanyaan terpenting di akhir guna menghindari kelelahan responden.",
       "num": 7
     },
     {
@@ -323,7 +323,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Pada DFD, Data Store merupakan penyimpan data yang tidak harus berupa file atau database komputer, melainkan juga mencakup agenda/folder di meja maupun tabel acuan manual.",
       "num": 8
     },
     {
@@ -348,7 +348,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Bagan alir program menekankan logika prosedur atau algoritma (seperti percabangan dan pengulangan) dalam sebuah proses program, berbeda dengan bagan alir dokumen maupun sistem.",
       "num": 9
     },
     {
@@ -373,7 +373,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Context Diagram (DFD Level 0) merupakan DFD tingkat paling atas yang hanya memiliki tepat satu proses utama tanpa Data Store.",
       "num": 10
     },
     {
@@ -398,7 +398,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Tiga karakteristik utama metodologi berorientasi objek adalah encapsulation, inheritance, dan polymorphism, sedangkan prototyping bukan karakteristik utama OOAD melainkan pendekatan pada RAD.",
       "num": 11
     },
     {
@@ -423,7 +423,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Dalam konsep OOAD, Class adalah cetakan (blueprint), sedangkan Object merupakan wujud atau instance nyata dari sebuah Class.",
       "num": 12
     },
     {
@@ -448,7 +448,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Association adalah komponen notasi dasar pada Use Case Diagram yang menghubungkan aktor dengan use case, sedangkan operation name, attribute name (Class Diagram), dan lifeline (Sequence Diagram) berada pada diagram lain.",
       "num": 13
     },
     {
@@ -473,7 +473,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Notasi actor pada Use Case Diagram merepresentasikan peran pengguna atau sistem luar, sehingga penamaannya menggunakan kata benda.",
       "num": 14
     },
     {
@@ -498,7 +498,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Notasi use case pada Use Case Diagram menggambarkan fungsi sistem yang memberi nilai bagi aktor, sehingga penamaannya menggunakan kata kerja deskriptif.",
       "num": 15
     },
     {
@@ -523,7 +523,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Berdasarkan aturan UML versi 2.0 dan 2.1, Activity Diagram dikategorikan sebagai kasus khusus dari State Diagram.",
       "num": 16
     },
     {
@@ -548,7 +548,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada Activity Diagram, node objek (object node) merepresentasikan benda atau objek aktual yang menjadi masukan maupun hasil keluaran dari suatu action.",
       "num": 17
     },
     {
@@ -573,7 +573,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Node keputusan (decision) digunakan untuk percabangan bersyarat sehingga aliran kontrol atau objek hanya mengarah ke satu jalur keputusan yang memenuhi kondisi, berbeda dengan fork/join untuk alur paralel.",
       "num": 18
     },
     {
@@ -598,7 +598,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Aliran objek (object flow) menunjukkan objek aktual yang mengalir masuk dan keluar dari suatu action, sedangkan control flow hanya menunjukkan urutan eksekusi.",
       "num": 19
     },
     {
@@ -623,7 +623,7 @@
         }
       ],
       "answerLetter": "D",
-      "explanation": "",
+      "explanation": "Pada Activity Diagram, node yang berfungsi menghentikan aliran kontrol mencakup final-activity node (menghentikan seluruh aliran dalam aktivitas) dan final-flow node (menghentikan satu aliran kontrol tertentu).",
       "num": 20
     },
     {
@@ -648,7 +648,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Sequence Diagram merupakan diagram interaksi UML yang berfokus pada urutan waktu (kronologis) pengiriman pesan antar objek dari atas ke bawah.",
       "num": 21
     },
     {
@@ -673,7 +673,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Lifeline adalah garis vertikal putus-putus pada Sequence Diagram yang menunjukkan keberadaan suatu objek sepanjang rentang waktu interaksi.",
       "num": 22
     },
     {
@@ -698,7 +698,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Behavioral State Machine Diagram menggambarkan perubahan kondisi (state) satu objek sepanjang siklus hidupnya akibat terjadinya suatu event.",
       "num": 23
     },
     {
@@ -723,7 +723,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada transformasi ERD ke diagram relasi, relasi M:N wajib dipecah dengan membuat satu tabel baru (tabel relasi/jembatan) yang memuat gabungan Primary Key kedua entitas sebagai Foreign Key.",
       "num": 24
     },
     {
@@ -748,7 +748,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Aturan transformasi relasi 1:N menyalin Primary Key dari entitas sisi \"1\" ke dalam tabel entitas sisi \"N\" sebagai Foreign Key.",
       "num": 25
     },
     {
@@ -773,7 +773,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Strategi Packaged Software (COTS) cocok dipilih apabila proses bisnis bersifat standar/umum sehingga organisasi dapat langsung memakai paket jadi tanpa biaya pengembangan kustom yang tinggi.",
       "num": 26
     },
     {
@@ -798,7 +798,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Arsitektur 3-tier memisahkan sistem menjadi tiga lapisan—Presentation Layer, Application/Business Logic Layer, dan Data/DB Server Layer—agar lebih skalabel dan mudah dirawat.",
       "num": 27
     },
     {
@@ -823,7 +823,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Desain antarmuka pengguna (UI) yang baik bertujuan memudahkan pengguna mempelajari sistem, menjaga konsistensi, serta meminimalkan usaha dan kesalahan (error) input.",
       "num": 28
     },
     {
@@ -848,7 +848,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Peran utama System Analyst adalah menjembatani kebutuhan bisnis pengguna dengan tim teknis pengembang dengan mengidentifikasi masalah, peluang, dan merancang solusi sistem informasi.",
       "num": 29
     },
     {
@@ -873,7 +873,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Kelayakan ekonomi mengukur apakah sistem layak secara biaya dibanding manfaatnya melalui indikator seperti ROI, NPV, dan Break-Even Point (BEP).",
       "num": 30
     },
     {
@@ -898,7 +898,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Pada penggambaran Flowchart, simbol belah ketupat (diamond) menyatakan keputusan atau percabangan alur logika.",
       "num": 31
     },
     {
@@ -923,7 +923,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Polymorphism adalah karakteristik OOAD di mana satu pesan atau method yang sama dapat menghasilkan perilaku berbeda pada objek atau subclass yang berbeda.",
       "num": 32
     },
     {
@@ -948,7 +948,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Kotak Class pada Class Diagram memiliki tiga kompartemen: Nama Class di bagian atas, daftar Attribute di bagian tengah, dan Operation/Method di bagian bawah.",
       "num": 33
     },
     {
@@ -973,7 +973,7 @@
         }
       ],
       "answerLetter": "C",
-      "explanation": "",
+      "explanation": "Pada struktur tiga kompartemen kotak Class dalam Class Diagram, bagian paling bawah berisi daftar Operation atau Method yang dimiliki oleh class tersebut.",
       "num": 34
     },
     {
@@ -998,7 +998,7 @@
         }
       ],
       "answerLetter": "B",
-      "explanation": "",
+      "explanation": "Communication Diagram adalah diagram interaksi yang lebih menonjolkan aliran kontrol dan tautan struktural antar objek dengan penomoran pesan, dibanding urutan garis waktu pada Sequence Diagram.",
       "num": 35
     },
     {
@@ -1023,7 +1023,7 @@
         }
       ],
       "answerLetter": "A",
-      "explanation": "",
+      "explanation": "Validasi format tanggal, kelengkapan kolom wajib diisi, maupun rentang nilai pada transaksi atau formulir aplikasi merupakan bagian dari desain Input.",
       "num": 36
     }
   ],
