@@ -17,9 +17,17 @@ Catatan ringkasan modul BMP, diagram visual, dan latihan soal UOLP untuk mahasis
 
 ## Tampilan Desktop & Mobile
 
-| Portal Utama (Desktop) | Mode Latihan Quiz & Pembahasan | Tampilan Mobile |
-| :---: | :---: | :---: |
-| ![Tampilan Portal Belajar UT di layar desktop dengan daftar mata kuliah Semester 1 dan 2](docs/screenshots/desktop-portal.png) | ![Mode Latihan Quiz interaktif dengan feedback jawaban benar dan pembahasan langsung](docs/screenshots/desktop-quiz.png) | ![Tampilan mobile responsif dengan floating dock terpadu di bagian bawah](docs/screenshots/mobile-course.png) |
+### Desktop — Portal Utama & Mode Latihan Quiz
+
+| Portal Utama (Desktop) | Mode Latihan Quiz & Pembahasan |
+| :---: | :---: |
+| <img src="docs/screenshots/desktop-portal.png" alt="Tampilan Portal Belajar UT di layar desktop" width="100%"/> | <img src="docs/screenshots/desktop-quiz.png" alt="Mode Latihan Quiz interaktif dengan pembahasan" width="100%"/> |
+
+### Mobile — Responsif dengan Floating Dock
+
+<p align="center">
+  <img src="docs/screenshots/mobile-course.png" alt="Tampilan mobile responsif dengan floating dock terpadu" width="280"/>
+</p>
 
 ---
 
