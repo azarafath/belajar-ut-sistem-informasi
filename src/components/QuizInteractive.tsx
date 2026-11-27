@@ -329,24 +329,16 @@ export default function QuizInteractive({
               <div>
                 <span class="ans-pill">
                   Kunci: {q.answerLetter}
-                  {q.explanation ? ` (${q.explanation})` : ''}
                 </span>
               </div>
-              <details class="explain-box">
-                <summary>Lihat Pembahasan</summary>
-                <ul class="explain-list">
-                  {q.options.map((opt, idx) => {
-                    const letter = opt.letter || String.fromCharCode(65 + idx);
-                    const ok = letter.toUpperCase() === q.answerLetter.toUpperCase();
-                    return (
-                      <li key={idx} class={ok ? 'is-right' : 'is-wrong'}>
-                        {letter}. {ok ? '(Benar) ' : '(Kurang tepat) '}
-                        {ok && q.explanation ? q.explanation : opt.text}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </details>
+              {q.explanation && (
+                <details class="explain-box">
+                  <summary>Lihat Pembahasan</summary>
+                  <div style={{ padding: '8px 10px', fontSize: '13px', lineHeight: 1.55, color: 'var(--ink)' }}>
+                    <strong>Jawaban {q.answerLetter}:</strong> {q.explanation}
+                  </div>
+                </details>
+              )}
             </div>
           ))}
         </div>
