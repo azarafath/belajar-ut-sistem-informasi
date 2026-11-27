@@ -26,7 +26,7 @@ Catatan ringkasan modul BMP, diagram visual, dan latihan soal UOLP untuk mahasis
 ### Mobile — Responsif dengan Floating Dock
 
 <p align="center">
-  <img src="docs/screenshots/mobile-course.png" alt="Tampilan mobile responsif dengan floating dock terpadu" width="280"/>
+  <img src="docs/screenshots/mobile-view.png" alt="Tampilan mobile responsif dengan floating dock terpadu" width="320"/>
 </p>
 
 ---
