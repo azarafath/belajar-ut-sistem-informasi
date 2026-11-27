@@ -68,7 +68,7 @@ const { shortLabel, navItems, pgCount, essayCount } = Astro.props;
     <span>Modul</span>
   </button>
   <span class="dock-sep dock-only-mobile" aria-hidden="true"></span>
-  <button type="button" class="dock-btn is-accent" data-jump-quiz="practice" title="Langsung ke Mode Latihan Quiz">
+  <button type="button" class="dock-btn" data-jump-quiz="practice" title="Langsung ke Mode Latihan Quiz">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
     <span>Quiz</span>
   </button>
@@ -98,15 +98,33 @@ const { shortLabel, navItems, pgCount, essayCount } = Astro.props;
       a.addEventListener('click', closeDrawer);
     });
 
+    let activeQuizMode = 'practice';
     const dockQuizBtns = Array.from(document.querySelectorAll<HTMLElement>('[data-jump-quiz]'));
+    const syncDockHighlight = (inQuiz: boolean) => {
+      dockQuizBtns.forEach((b) => {
+        b.classList.toggle('is-accent', inQuiz && (b.dataset.jumpQuiz || 'practice') === activeQuizMode);
+      });
+    };
+
     dockQuizBtns.forEach((btn) => {
       btn.addEventListener('click', () => {
-        const mode = btn.dataset.jumpQuiz || 'practice';
-        dockQuizBtns.forEach((b) => b.classList.toggle('is-accent', b === btn));
-        window.dispatchEvent(new CustomEvent('belajarut:quiz-mode', { detail: { mode } }));
+        activeQuizMode = btn.dataset.jumpQuiz || 'practice';
+        syncDockHighlight(true);
+        window.dispatchEvent(new CustomEvent('belajarut:quiz-mode', { detail: { mode: activeQuizMode } }));
         document.getElementById('quiz-pg')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
+
+    const quizSec = document.getElementById('quiz-pg');
+    if ('IntersectionObserver' in window && quizSec) {
+      const qObs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => syncDockHighlight(entry.isIntersecting));
+        },
+        { rootMargin: '-15% 0px -25% 0px', threshold: 0 }
+      );
+      qObs.observe(quizSec);
+    }
 
     // Scroll-spy
     const links = Array.from(document.querySelectorAll('.topbar-nav a.nav-pill'));
