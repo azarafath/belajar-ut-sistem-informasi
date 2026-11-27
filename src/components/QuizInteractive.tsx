@@ -40,6 +40,17 @@ export default function QuizInteractive({
 
   const storageKey = `belajarut_quiz_${courseSlug}`;
 
+  const getOptLetter = (opt: QuizOption, idx: number) =>
+    (opt.letter || String.fromCharCode(65 + idx)).trim().toUpperCase();
+
+  const getCorrectLetter = (q: PgQuestion) => {
+    const ans = (q.answerLetter || '').trim().toUpperCase();
+    if (!ans) return '';
+    if (ans.length === 1) return ans;
+    const matchIdx = q.options.findIndex((o) => o.text.trim().toUpperCase() === ans);
+    return matchIdx >= 0 ? getOptLetter(q.options[matchIdx], matchIdx) : ans;
+  };
+
   useEffect(() => {
     try {
       const saved = localStorage.getItem(storageKey);
@@ -97,7 +108,7 @@ export default function QuizInteractive({
     pgQuestions.forEach((q) => {
       const chosen = answers[q.num];
       if (!chosen) return;
-      if (chosen.toUpperCase() === q.answerLetter.toUpperCase()) correct++;
+      if (chosen.toUpperCase() === getCorrectLetter(q)) correct++;
       else wrong++;
     });
     return { correct, wrong, total: pgQuestions.length };
@@ -105,9 +116,10 @@ export default function QuizInteractive({
 
   const currentQ = filteredQuestions[currentIdx];
   const chosenLetter = currentQ ? answers[currentQ.num] : undefined;
+  const currentCorrectLetter = currentQ ? getCorrectLetter(currentQ) : '';
   const isCorrect =
     currentQ && chosenLetter
-      ? chosenLetter.toUpperCase() === currentQ.answerLetter.toUpperCase()
+      ? chosenLetter.toUpperCase() === currentCorrectLetter
       : false;
 
   const handleSelectOption = (letter: string) => {
@@ -241,10 +253,9 @@ export default function QuizInteractive({
 
             <div class="quiz-opt-stack">
               {currentQ.options.map((opt, idx) => {
-                const letter = opt.letter || String.fromCharCode(65 + idx);
-                const isSelected = chosenLetter?.toUpperCase() === letter.toUpperCase();
-                const isRightAns =
-                  currentQ.answerLetter.toUpperCase() === letter.toUpperCase();
+                const letter = getOptLetter(opt, idx);
+                const isSelected = chosenLetter?.toUpperCase() === letter;
+                const isRightAns = currentCorrectLetter === letter;
 
                 let cls = 'quiz-opt-btn';
                 if (chosenLetter) {
@@ -269,17 +280,17 @@ export default function QuizInteractive({
 
             {chosenLetter && (() => {
               const correctOpt = currentQ.options.find(
-                (o, i) => (o.letter || String.fromCharCode(65 + i)).toUpperCase() === currentQ.answerLetter.toUpperCase()
+                (o, i) => getOptLetter(o, i) === currentCorrectLetter
               );
               const chosenOpt = currentQ.options.find(
-                (o, i) => (o.letter || String.fromCharCode(65 + i)).toUpperCase() === chosenLetter.toUpperCase()
+                (o, i) => getOptLetter(o, i) === chosenLetter.toUpperCase()
               );
               return (
                 <div class={`quiz-feedback ${isCorrect ? 'is-ok' : 'is-err'}`}>
                   <strong>
                     {isCorrect
-                      ? `✅ Benar! (${currentQ.answerLetter}. ${correctOpt?.text || ''})`
-                      : `❌ Kurang tepat — Kamu memilih ${chosenLetter}${chosenOpt ? ` (${chosenOpt.text})` : ''}. Kunci: ${currentQ.answerLetter}${correctOpt ? `. ${correctOpt.text}` : ''}`}
+                      ? `✅ Benar! (${currentCorrectLetter}. ${correctOpt?.text || currentQ.answerLetter})`
+                      : `❌ Kurang tepat — Kamu memilih ${chosenLetter}${chosenOpt ? ` (${chosenOpt.text})` : ''}. Kunci: ${currentCorrectLetter}${correctOpt ? `. ${correctOpt.text}` : ''}`}
                   </strong>
                   {currentQ.explanation && (
                     <p style={{ margin: '8px 0 0', lineHeight: 1.6 }}>
