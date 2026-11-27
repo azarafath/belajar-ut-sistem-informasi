@@ -1,6 +1,6 @@
 <div align="center">
 
-# Portal Belajar UT — Sistem Informasi
+# Portal Belajar UT: Sistem Informasi
 
 Catatan ringkasan modul BMP, diagram visual, dan latihan soal UOLP untuk mahasiswa Sistem Informasi Universitas Terbuka (Semester 1 & 2).
 
@@ -17,13 +17,13 @@ Catatan ringkasan modul BMP, diagram visual, dan latihan soal UOLP untuk mahasis
 
 ## Tampilan Desktop & Mobile
 
-### Desktop — Portal Utama & Mode Latihan Quiz
+### Desktop: Portal Utama & Mode Latihan Quiz
 
 | Portal Utama (Desktop) | Mode Latihan Quiz & Pembahasan |
 | :---: | :---: |
 | <img src="docs/screenshots/desktop-portal.png" alt="Tampilan Portal Belajar UT di layar desktop" width="100%"/> | <img src="docs/screenshots/desktop-quiz.png" alt="Mode Latihan Quiz interaktif dengan pembahasan" width="100%"/> |
 
-### Mobile — Responsif dengan Floating Dock
+### Mobile: Navigasi & Floating Dock
 
 <p align="center">
   <img src="docs/screenshots/mobile-view.png" alt="Tampilan mobile responsif dengan floating dock terpadu" width="320"/>
