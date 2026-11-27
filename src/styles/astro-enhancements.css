@@ -494,6 +494,11 @@ main.notebook {
   border-color: var(--primary);
   color: #fff;
 }
+.quiz-nav-btn.is-primary:hover:not(:disabled) {
+  background: #1e40af;
+  border-color: #1e40af;
+  color: #ffffff;
+}
 .quiz-nav-btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;

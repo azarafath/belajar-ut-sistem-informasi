@@ -43,3 +43,4 @@ for smt in (1, 2):
 with open(OUT_PATH, "w", encoding="utf-8") as f:
     json.dump(search_index, f, ensure_ascii=False)
 print("Total search index entries:", len(search_index))
+
