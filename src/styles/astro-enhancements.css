@@ -80,47 +80,60 @@
   color: var(--muted);
 }
 
-/* Floating Quick-Action Dock */
+/* Unified Floating Quick-Action Dock */
 .floating-dock {
   position: fixed;
-  right: 18px;
-  bottom: 18px;
+  right: 20px;
+  bottom: 20px;
   z-index: 95;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px;
+  gap: 4px;
+  padding: 5px;
   border-radius: 999px;
   border: 1.5px solid #d8d2c7;
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(253, 252, 248, 0.94);
   backdrop-filter: blur(12px);
-  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.14);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.14), 0 2px 6px rgba(15, 23, 42, 0.06);
 }
 
 .dock-btn {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
+  gap: 6px;
   border: none;
+  outline: none;
   background: transparent;
   color: var(--ink);
   font-family: inherit;
   font-size: 12.5px;
   font-weight: 700;
-  padding: 7px 12px;
+  padding: 8px 13px;
   border-radius: 999px;
   cursor: pointer;
-  transition: background-color 0.14s ease, color 0.14s ease, transform 0.12s ease;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
+}
+
+.dock-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }
 
 .dock-btn:hover {
-  background: #f1ede4;
-  transform: translateY(-1px);
+  background: #ede9df;
+}
+
+.dock-btn.dock-icon-only {
+  padding: 8px 10px;
 }
 
 .dock-btn.is-accent {
   background: var(--primary);
   color: #ffffff;
+  box-shadow: 0 2px 8px rgba(29, 78, 216, 0.25);
 }
 
 .dock-btn.is-accent:hover {
@@ -128,32 +141,39 @@
   color: #ffffff;
 }
 
-/* Zero-flicker mobile drawer button */
-.mobile-nav-toggle {
-  display: none;
-  position: fixed;
-  left: 14px;
-  bottom: 18px;
-  z-index: 95;
-  align-items: center;
-  gap: 7px;
-  padding: 10px 15px;
-  border-radius: 999px;
-  border: 1.5px solid #cbd5e1;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(10px);
-  color: var(--ink);
-  font-weight: 700;
-  font-size: 13px;
-  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.16);
-  cursor: pointer;
+.dock-sep {
+  width: 1px;
+  height: 18px;
+  background: #ded7c9;
+  margin: 0 2px;
 }
 
-/* End mobile drawer */
+.dock-only-mobile {
+  display: none;
+}
 
 @media (max-width: 1119px) {
-  .mobile-nav-toggle {
+  .dock-only-mobile {
     display: inline-flex;
+  }
+  .dock-sep.dock-only-mobile {
+    display: block;
+  }
+  .floating-dock {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 14px;
+    max-width: calc(100vw - 20px);
+    padding: 4px;
+    gap: 2px;
+  }
+  .dock-btn {
+    padding: 8px 11px;
+    font-size: 12.5px;
+  }
+  .dock-btn.dock-icon-only {
+    padding: 8px 9px;
   }
   body.has-sidebar .topbar {
     position: fixed;
@@ -221,19 +241,6 @@
   }
   body.has-sidebar.drawer-open .drawer-backdrop {
     display: block;
-  }
-  .floating-dock {
-    right: 12px;
-    bottom: 18px;
-    padding: 5px;
-    gap: 4px;
-  }
-  .dock-btn {
-    padding: 7px 10px;
-    font-size: 12px;
-  }
-  .dock-hide-sm {
-    display: none;
   }
 }
 
